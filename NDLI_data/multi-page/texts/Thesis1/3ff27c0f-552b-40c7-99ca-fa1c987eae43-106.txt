@@ -1,0 +1,66 @@
+Chapter 3: Quantum group of orientation preserving Riemannian isometries 94
+
+ 
+
+In the notation of Corollary 3.2.25 , we have Ago = Span{t); :1 = 0,1/2, ...... Le
+A® in this case. All the conditions of Theorem 3.2.22 and Corollary 3.2.25 are satisfied.
+Thus, the universal object of the category C exists ( notation as in Corollary 3.2.25 )
+and we denote it by 0.
+
+Before proving the next result, we note the following fact. We recall the fundamental
+a —py
+
+unitary of SU,,(2) given by (
+y a*
+
+) which is the matrix corresponding to the
+
+ai
+coproduct A on span {a. — py*} as given in subsection 1.2.4. This implies that Va=
+
+NI
+
+1
+span {a,7*} and V? = span {a*,7}.
+z
+
+Lemma 3.4.1. Given a CQG Q with a C* action ® on A, the following are equivalent
+
+1.(Q,®) is an element of Obj(C).
+
+2. The action is linear, in the sense that ee ( equivalently Vip ) ts invariant
+under ® and the representation obtained by restricting ® to Vie is a unitary represen-
+tation.
+
+3. ® is linear and Haar state preserving.
+
+4. ® keeps vi invariant for each fixed | and i.
+
+Proof : 1. = 2. Since ® commutes with D, ® keeps each of the eigenspaces of
+D invariant and so in particular preserves vy , that is ® is linear. The condition
+
+(h @ id)® = h(-).1 implies the unitarity of the corresponding representation.
+
+2 => 3. By linearity, write O(a) =a@X+7* @Y and Oy") =a@Z+y7*@W.
+
+Firstly, ®-invariance of Span{t} ys fork =O and k= $ follow from the linearity and
+the fact that ®(1) = 1.
+
+Next, we show that ® keeps Span{t}; :t,j =—1,0, 1} invariant.
+
+We recall the explicit form of the matrix ( (ti,)) from [43]:
+
+a WP + 1a*y — py?
+
+yrat* 1-(w+l)y*y ay
+
+—py? (w+ 1jyta oe?
+By inspection, we see that ®(V;!) C V @ Q for i= —1,1.
+Hence, it is enough to check the ®-invariance for ay and 1 — (u? + 1)y*7.
+We have
+
+ 
+
+®(a7)
+= (A®@X4+7 @Y/)(a* ®Z*+78W*)
+= al @xXZ*+77@YW* +ay@XxXw*+77a* @YZ*

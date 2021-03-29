@@ -1,0 +1,72 @@
+C$
+
+ae
+(6 pages)
+
+S.No. 5242 RDNE 26
+
+(For candidates admitted from 1996 onwards)
+M.Sc. DEGREE EXAMINATION, NOVEMBER 2009.
+
+Mathematics
+
+ORDINARY DIFFERENTIAL EQUATIONS
+
+Time : Three hours Maximum : 75 marks
+
+SECTION A — (10 x 2 = 20)
+Answer ALL questions.
+
+1. Show that y=c,e*+c,e* is the general solution
+of y"-3y'+2y=0 on any interval, and find the
+particular solution for which y(0)=-1 and
+y'(0)=1.
+
+2. Verify that y,=x? is one solution of
+x?y" + xy'—4y =0, and find general solution.
+
+3. Define regular singular points.
+4. Prove P(P+1)=PIT(P).
+
+5. | Write the homogeneous and non-homogeneous
+equation.
+
+a
+
+10.
+
+Ll:
+
+Write the integral equation of the IVP
+y=, y)s ¥(to)=Ho-
+
+Write the normal form of equation
+y"+P(x)y'+ Q(x) y=0.
+
+Write the one-dimensional wave equation.
+
+Define phase plane.
+
+Write names of four main types of critical points.
+
+(a)
+
+(b)
+
+SECTION B — (5 x 5 = 25)
+Answer ALL questions.
+
+Prove that if y,(x) and y,(x) are two
+solutions of equation y" + P(x)y'+@Q(x)y=0
+on [a,b], then their Wronskian
+W =W(jy,,¥2) is either identically zero or
+never zero on [a,b]. ©
+
+Or
+Find the general solution of the following
+
+equation ;
+
+(x? -1)y" -2ay' + 2y = (x? =t)'
+
+2 S.No. 5242

@@ -1,0 +1,11 @@
+Damage Assessment
+
+For all the abovementioned applications one
+damage parameter is most important-
+
+FATIGUE.
+
+Fatigue damage may happen by
+
+SYMMETRIC or ASYMMETRIC type of
+loading.

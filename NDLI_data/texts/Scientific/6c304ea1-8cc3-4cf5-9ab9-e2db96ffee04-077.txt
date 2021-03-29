@@ -1,0 +1,101 @@
+[9
+
+11
+
+12
+
+13
+
+19
+20
+21
+22
+23
+
+24)
+
+25
+
+ 
+
+2018, Nancy, France, November 12-16, 2018, Proceedings (Lecture Notes in Computer Science), Catherine Faron-Zucker,
+Chiara Ghidini, Amedeo Napoli, and Yannick Toussaint (Eds.), Vol. 11313. Springer, 3-18.
+
+Harith Alani, Lalana Kagal, Achille Fokoue, Paul T. Groth, , Josian Xavier Parreira, Lora Aroyo, Natasha Fridman Noy,
+Christopher A. Welty, and Krzysztof Janowicz (Eds.). 2013. The Semantic Web - ISWC 2013 - 12th International Semantic
+Web Conference, Sydney, NSW, Australia, October 21-25, 2013, Proceedings, Part II. Lecture Notes in Computer Science,
+
+Vol. 8219. Springer.
+
+Harith Alani, Lalana Kagal, Achille Fokoue, Paul T. Groth, , Josian Xavier Parreira, Lora Aroyo, Natasha Fridman Noy,
+Christopher A. Welty, and Krzysztof Janowicz (Eds.). 2013. The Semantic Web - ISWC 2013 - 12th International Semantic
+Web Conference, Sydney, NSW, Australia, October 21-25, 2013, Proceedings, Part I. Lecture Notes in Computer Science,
+
+Vol. 8218. Springer.
+
+Keith Alexander, Richard Cyganiak, Michael Hausenblas, and Jun Zhao. 2009. Describing Linked Datasets. In
+Proceedings of the WWW2009 Workshop on Linked Data on the Web, LDOW 2009, Madrid, Spain, April 20, 2009 (CEUR
+Workshop Proceedings), Christian Bizer, Tom Heath, Tim Berners-Lee, and Michael Hausenblas (Eds.), Vol. 538. Sun
+SITE Central Europe (CEUR), 10. http://ceur-ws.org/Vol-538/ldow2009_paper20.pdf
+
+Gustavo Alonso, José A. Blakeley, and Arbee L. P. Chen (Eds.). 2008. Proceedings of the 24th International Conference
+on Data Engineering, ICDE 2008, April 7-12, 2008, Canctin, Mexico. IEEE Computer Society.
+
+Ricardo Alonso Maturana, Elena Alvarado-Cortes, Susana Lépez-Sola, Maria Ortega Martinez-Losa, and Pablo
+Hermoso-Gonzalez. 2018. La Rioja Turismo: The Construction and Exploitation of a Queryable Tourism Knowledge
+Graph. In Current Trends in Web Engineering - ICWE 2018 International Workshops, MATWEP, EnWot, KD-WEB, WEOD,
+TourismKG, Caceres, Spain, June 5, 2018, Revised Selected Papers (Lecture Notes in Computer Science), Cesare Pautasso,
+Fernando Sanchez-Figueroa, Kari Systa, and Juan Manuel Murillo Rodriguez (Eds.), Vol. 11153. Springer, 213-220.
+Renzo Angles. 2018. The Property Graph Database Model. In Proceedings of the 12th Alberto Mendelzon International
+Workshop on Foundations of Data Management, Cali, Colombia, May 21-25, 2018 (CEUR Workshop Proceedings),
+Dan Olteanu and Barbara Poblete (Eds.), Vol. 2100. Sun SITE Central Europe (CEUR), 10. http://ceur-ws.org/Vol-
+2100/paper26.pdf
+
+Renzo Angles, Marcelo Arenas, Pablo Barcelé, Peter A. Boncz, George H. L. Fletcher, Claudio Gutierrez, Tobias
+Lindaaker, Marcus Paradies, Stefan Plantikow, Juan F. Sequeda, Oskar van Rest, and Hannes Voigt. 2018. G-CORE: A
+Core for Future Graph Query Languages, See [112], 1421-1432.
+
+Renzo Angles, Marcelo Arenas, Pablo Barcelé, Aidan Hogan, Juan L. Reutter, and Domagoj Vrgoc. 2017. Foundations
+of Modern Query Languages for Graph Databases. ACM Computing Surveys 50, 5 (2017), 68:1-68:40. https:
+/doi.org/10.1145/3104031
+
+Renzo Angles and Claudio Gutiérrez. 2008. Survey of graph database models. ACM Computing Surveys 40, 1 (2008),
+1:1-1:39. https://doi.org/10.1145/13224' 2433
+
+Renzo Angles, Harsh Thakkar, and Dominik Tomaszuk. 2019. RDF and Property Graphs Interoperability: Status and
+Issues, See [237], 11. http://ceur-ws.org/Vol-2369/paper01.pdf
+
+Mikel Egafia Aranguren, Erick Antezana, Martin Kuiper, and Robert Stevens. 2008. Ontology Design Patterns for bio-
+ontologies: a case study on the Cell Cycle Ontology. BMC Bioinformatics 9, 5 (2008), $1. _https://doi.org/10.1186/1471-
+2105-9-S5-S1
+
+Marcelo Arenas, Alexandre Bertails, Eric Prud’>hommeaux, and Juan Sequeda. 2012. A Direct Mapping of Relational
+Data to RDF, W3C Recommendation 27 September 2012. W3C Recommendation. World Wide Web Consortium.
+https://www.w3.org/TR/2012/REC-rdb-direct-mapping-20120927,
+
+Alessandro Artale, Diego Calvanese, Roman Kontchakov, and Michael Zakharyaschev. 2009. The DL-Lite Family and
+Relations. Journal of Artificial Intelligence Research 36 (2009), 1-69.
+
+Séren Auer, Christian Bizer, Georgi Kobilarov, Jens Lehmann, Richard Cyganiak, and Zachary Ives. 2007. DBpedia: A
+Nucleus for a Web of Open Data, See [1], 722-735.
+
+Franz Baader, Ian Horrocks, Carsten Lutz, and Ulrike Sattler. 2017. An Introduction to Description Logic. Cambridge
+University Press, Cambridge, United Kingdom.
+
+Nguyen Bach and Sameer Badaskar. 2007. A Review of Relation Extraction. Technical Report. Carnegie Mellon
+University.
+
+Ricardo Baeza-Yates. 2018. Bias on the Web. Communications of the ACM 61, 6 (2018), 54-61. https://doi.org/10.1145/
+3209581
+
+Collin F. Baker, Charles J. Fillmore, and John B. Lowe. 1998. The Berkeley FrameNet Project. In 36th Annual Meeting of
+the Association for Computational Linguistics and 17th International Conference on Computational Linguistics, COLING-
+ACL’98, August 10-14, 1998, Université de Montréal, Montréal, Quebec, Canada. Proceedings of the Conference, Christian
+Boitet and Pete Whitelock (Eds.). Morgan Kaufmann, 86-90.
+
+René Ronald Bakker. 1987. Knowledge Graphs: Representation and Structuring of Scientific Knowledge. Ph.D. Dissertation.
+University of Twente.
+
+ 
+
+77

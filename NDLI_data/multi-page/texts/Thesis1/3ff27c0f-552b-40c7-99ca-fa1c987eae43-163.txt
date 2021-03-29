@@ -1,0 +1,62 @@
+151 Quantum Isometry Groups of the Podles sphere
+
+ 
+
+denote ay by ¢ from now on.
+
+The computation has the following steps:
+
+Step 1. We prove that ¢@ is ‘linear’, in the sense that it keeps the span of
+{1, A, B, B*} invariant.
+
+Step 2. We shall exploit the facts that ¢ is a x-homomorphism and preserves the
+canonical volume form on SF ai that is the restriction of the Haar state of SU,,(2).
+
+Step 3. We will compute the antipode of Q and apply it to get some more relations.
+
+Step 4. We will use the above steps to identify Q as a subobject of SO,(3) which
+will finish the proof.
+
+Remark 5.3.1. The first step does not make use of the fact that a preserves the R-
+
+twisted volume, so linearity of the action follows for any object in the bigger category
+
+QD).
+
+We now note down some useful facts for later use.
+
+Lemma 5.3.2. We observe :
+1. The eigenspace of D corresponding to (cil+c2) and —(cil +c) are span{v) at
+2
+
+1 #2 si ga _ esl | ioe eer
+Vin} :-l<m< J and span {3 Und :-l<m <1} respectively.
+
+2. The eigenspace of |D| corresponding to the eigenvalue (c1.3 +e) is span{a, y, a*,
+yt.
+
+Proof : 1. follows from ( 5.2.3 ). To prove 2., we note that by 1, it is sufficient to
+1 1 1
+v2
+
+identify span{v?, 4, v?1, V721_1, v?_1}-
+: ~B2 D2 Ba) BI 8
+Using (5.2.1 ) and ( 1.2.27 ), we have:
+a
+Uy
+T302
+1 5 a
+= N?’, i Fp (yfur) = N*, 1 Fp (at — sy")
+2°2 2 22
+1 4 1 4 xt
+= N7,,(y+pm sa) = N?,17+p °8N? 110.
+22 33 ae
+i
+Vis
+22
+1 9 2,
+= N?,F°p(yfui) = N?,(a*— 87%)
+22 2 33
+7 L
+= N?,0*°-—s8N?,y*.
+22 22

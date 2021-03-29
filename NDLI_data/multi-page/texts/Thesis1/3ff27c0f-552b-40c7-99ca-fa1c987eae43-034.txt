@@ -1,0 +1,51 @@
+Chapter 1: Preliminaries 22
+
+ 
+
+an irreducible unitary representation, its adjoint is equivalent with a unitary represen-
+tation.
+
+The subspace spanned by the matrix elements of finite dimensional unitary repre-
+sentations is denoted by So. Firstly, Sp is a subalgebra as the product of two matrix
+elements of finite dimensional unitary representations is a matrix element of the tensor
+product of these representations. Moreover, as the adjoint of a finite dimensional uni-
+tary representation is equivalent with a unitary representation, So is * invariant. We
+note that 1 is in So as 1 is a representation. Now, we will recall some basic facts about
+
+the subalgebra So. We will denote the Haar state of S by h.
+Proposition 1.2.23. (1) So is a dense *-subalgebra of S.
+
+(2)Let {u® : a € I} be a complete set of mutually inequivalent, irreducible unitary
+representations. We will denote the representation space and dimension of u® by Ha
+and n(a) respectively. Then the Schur’s orthogonality relation takes the following form:
+
+For any a in I, there is a positive invertible operator F° acting on Hq such that for
+any a, 8 inI and1< j,q< nla), 1<i,p < n(G)
+
+A((uh,) U2.) = baa dpqF 2.
+
+(3) {ugg a €T,1< p,q < n(a)} form a basis for So.
+
+(4) Moreover, A maps So into So @ So. In fact, A is given by A(ugy) = p21 UE ®
+
+Ukg A counit and an antipode are defined on So respectively by the formulae,
+
+€(Usg) = Spqr K (Ugg) = (ugp)”.
+
+It follows that So becomes a Hopf *-algebra.
+
+A compact matrix quantum group is a CQG such that there exists a distin-
+guished unitary irreducible representation called the fundamental representation such
+that the +-algebra spanned by its matrix elements is a dense Hopf *-subalgebra of the
+CQG.
+
+We now discuss the free product of CQG s which were developed in [59]. Let
+(S,, Az) and (S2, Ag) be two CQG s. Let i; and ig denote the canonical injections of S;
+and S2 into the C* algebra S; * Sp. Put pi = (i1 @ i1)A1 and p2 = (ig ® i2)Ae. By the
+universal property of S; * Sg, there exists a map A : Sj * S2 — (S1 * S2) @ (S1 * S2) such
+that Ai, = p; and Aiz = po. It can be shown that A indeed has the required properties
+so that (S, A) is a CQG.
+
+Let {Sp }nem be an inductive sequence of CQG s, where the connecting morphisms
+
+Tmn from S;, to Sm (n <_m) are injective morphisms of CQG s. Then from Proposition

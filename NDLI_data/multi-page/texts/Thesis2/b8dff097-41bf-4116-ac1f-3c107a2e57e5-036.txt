@@ -1,0 +1,50 @@
+24 3. GROUPS OF TYPE G2
+
+We use this theorem to get following,
+
+Proposition 3.2.9. Let € be an octonion algebra over k and G = Aut(€). Let
+D and D’ be two composition subalgebras of €. Suppose D and D! are isomorphic
+composition subalgebras. Then the subgroups G(€/D) and G(€/D') are conjugate in
+the group G. Also the subgroups G(€,D) and G(€,D’) are conjugate in the group G.
+
+Proof. Let b be the isomorphism of D to D’. By Theorem 3.2.8 ob can be extende
+to an automorphism of €, say ¢. Then, it is easy to check dG(€/D)¢7! = G(€/D’)
+and @G(€,D)¢-! = G(€,D’).
+
+ 
+
+ 
+
+ 
+
+ 
+
+Using these results we calculate centralizers of elements in the groups of type G2
+(Theorem 8.5.1) and it turns out that they are contained in one of the subgroups
+
+described above.
+
+3.3. Involutions in G»
+
+In this section, we discuss the structure of involutions in Gj. Let G be a group
+of type Gy over k and € be an octonion algebra over k with G = Aut(€). We call an
+element g € G(k) an involution if g? = 1. Hence nontrivial involutions in G(k) are
+precisely the automorphisms of € of order 2. Let g be an involution in Aut(€). The
+eigenspace corresponding to the eigenvalue 1 of g € Aut(€) is the subalgebra D of € of
+fixed points of g and is a quaternion subalgebra of € ([J], section 4, there it is called a
+reflection). The orthogonal complement D+ of D in € is the eigenspace corresponding
+to the eigenvalue —1. Conversely, the linear automorphism of €, leaving a quaternion
+subalgebra D of € pointwise fixed and, acting as multiplication by —1 on D+, is an
+involutorial automorphism of € (see Proposition 3.2.6). Let p be an involution in G(k)
+and let D be the quaternion subalgebra of €, fixed pointwise by p. Let p! = gpg! be
+a conjugate of p by an element g € G(k). Then, the quaternion subalgebra D’ = g(D)
+of € is fixed pointwise by p’. Conversely, suppose the quaternion subalgebra D of €
+is isomorphic to the quaternion subalgebra D’ of €. Then, by Theorem 3.2.8 there
+exists an automorphism g of € such that g(D) = D’. If p denotes the involution
+
+leaving D fixed pointwise, p’ = gpg! fixes D' pointwise. Therefore, we have,
+
+Proposition 3.3.1. Let € be an octonion algebra over k. Then the conjugacy
+classes of involutions in G = Aut(€) are in bijection with the isomorphism classes of
+
+quaternion subalgebras of €.

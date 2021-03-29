@@ -1,0 +1,56 @@
+125 Qi Ss OF of a Rieffel deformed noncommutative manifold
+
+ 
+
+Lemma 4.3.7. If Gi, G2 be two CQG s such that G1 < G2 in the category Q’(Aj,H, D),
+If (Gi)z and (Ga)z make sense, then (G1) < (G2), in the category Q’'(As,H, D).
+
+Proof : From Corollary 4.3.4, we see that (G;); is an object in the category
+Q'(Az,H, D). Let 72 be the morphism from G2 to G in the category Q’ and 7 be the
+morphism from G to T” in the same category. Let A’, x, x’ denote respectively the
+coproducts, products and R2” action on (Gi), i = 1,2.
+
+As the quantum group structure is not altered under Rieffel deformation, to prove
+the Lemma, it is enough to show that 72 is a homomorphism from (G2); to (G1) ,.
+
+In any CQG (Q, A), f,g linear functionals on Q and for all a in Qo, (f ®
+id)A(id @ oN = (f @ id)A(a etn = (f ® id)(aqyay ®@ aqyy)g(aa)) =
+
+Ff (aay) 9(@2) aaa) = (F @id@ 9) (aay(1) @ a(1y(2) ® a2) = (f @id@ g)(A(aqay) @aygy) =
+(f @id@ aa ® aA ).
+Hence,
+(f @ id)A(id @ g)A = (f @id @ g)(A@id)A. (4.3.1)
+
+Moreover, we will also need the equation
+(12 @ m2) A? = Al, (4.3.2)
+
+which holds as m2 is a morphism of CQG s, Gz > G4.
+Let A, p be as in ( 1.3.6 ) and ( 1.3.7 ) and a belongs to (G2).
+Then,
+
+T2X(s,u) (a)
+72(An(—s)Pn(u)) (2)
+
+= mo(ev,(—s)(™1 0 72) @ id)A?(id @ evy(4)(™1 0 72))A?(Q))
+
+= 72(evy(_s)(T1 0 12) ® id ® eV p(y) © (71 0 72)) (A? @ id) A? (a)
+by (4.3.1) )
+€V (5) (71 0 2) @ 72 ® CVy() © (71 © 72)) (A? @ id) A? (a)
+eV,,(—s)™1 @ id @ eVp(u) 71) (72 @ Tz ®@ m)(A? ® id)A?(a)
+ev,(—s)™1 @ id @ evp(uy 71) ((m2 ® m2) A? @ m2) A?(a)
+on 3)™71 @ id @ evi ym) (Atm @ 12) A?(a)
+using (4.3.2) )
+ev,(—s)™1 @ id @ eVy(u) 71 1)(A! @ id) (172 ® m2) AP) (a)
+ev,(—s)™1 @ id @ eVn(uyT) (At @ id) A! (72(a))
+ev,(—s)™1 @ id)Al (id @ €Vn(uy™1) A" (mt(a))
+
+(
+(
+(
+(
+(
+(
+(
+(
+(
+(n(—s) Pn(u))™2(@)

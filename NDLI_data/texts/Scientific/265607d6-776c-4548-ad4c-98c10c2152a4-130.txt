@@ -1,0 +1,42 @@
+5. Framework Validation
+
+ 
+
+diversification baselines in terms of the number of affected queries. In particular,
+MMR improves almost as many queries as it hurts on top of DPH, and even hurts
+more queries than it improves on top of the stronger LambdaMART baseline. In
+contrast, PC performs more consistently, always improving more queries than it
+hurts, on top of both DPH and LambdaMART. Nonetheless, it has the lowest im-
+pact among all considered diversification approaches, showing the highest number
+of unaffected queries. [A-Select, on the other hand, shows an unstable behaviour,
+consistently hurting more queries than it improves. The reasons for such an in-
+stability will be further discussed in Sections 5.2.2.2 and 5.2.2.3. Lastly, xQuAD
+shows the highest number of improved queries and the second lowest number of
+hurt queries, behind only PC. These results are consistent for both ERR-IA@20
+and a-nDCG@20, and on top of both DPH and LambdaMART.
+
+Overall, the magnitude and consistency of the results in Table 5.6 attest the
+effectiveness of xQuAD and answer research question Q1, regarding the perfor-
+mance of the framework in light of the current state-of-the-art in search result di-
+versification. In particular, these results validate our proposed framework, show-
+ing that it compares favourably to effective novelty-based, coverage-based, and
+hybrid diversification approaches from the literature. In the remainder of this
+section, we analyse the reasons for such an improved effectiveness in terms of the
+
+aspect representation and the diversification strategy deployed by xQuAD.
+
+5.2.2.2 Diversification Strategy
+
+As discussed in Section 3.3, the various diversification approaches in the liter-
+ature differ essentially according to two dimensions: aspect representation and
+diversification strategy. While the aspect representation defines the underlying
+view of the retrieved documents in light of multiple query aspects, the diversifica-
+tion strategy defines how these documents should be ranked given the considered
+aspect representation. In Section 5.2.2.1, we evaluated the xQuAD framework
+in contrast to three representative diversification approaches from the literature,
+namely, MMR, PC, and [A-Select. Although this investigation served the pur-
+pose of validating xQuAD in light of the current state-of-the-art, it is unclear
+
+where the observed superior performance of the framework comes from, mostly
+
+12

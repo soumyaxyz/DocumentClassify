@@ -1,0 +1,68 @@
+BIBLIOGRAPHY 190
+
+ 
+
+ 
+
+50
+
+51
+
+52
+
+53
+
+ 
+
+54
+
+ 
+
+Landi, Giovanni.: “ An Introduction to Noncommutative Spaces and their Ge-
+ometries ”‘, Lecture notes in Physics monographs, Springer Berlin, Heidelberg,
+Volume 51, ( 1997 ).
+
+Maes, A. and Van Daele, A.: Notes on compact quantum groups, Nieuw Arch.
+Wisk. (4) 16 (1998), no. 1-2, 73-112.
+
+Masuda, T.; Nakagami, Y.; Woronowicz, S.L.: A C*-algebraic framework for
+quantum groups. Internat. J. Math. 14 (2003), no. 9, 903-1001.
+
+Podles, P.: Quantum Spheres, Letters in Mathematical Physics 14 ( 1987 ) 193
+- 202.
+
+Podles, P.: Symmetries of quantum spaces. Subgroups and quotient spaces of
+quantum SU(2) and SO(3) groups, Comm. Math. Phys. 170 (1995), 1-20.
+
+Rennie, A, Varilly, J.C.: Reconstruction of manifolds in non commutative geom-
+etry : arxiv math/0610418.
+
+Rieffel, Mark. A. : Deformation Quantization for actions of R¢, Memoirs of the
+
+American Mathematical Society, November 1993. Volume 106, Number 506.
+
+Rieffel , Mark. A. : Compact Quantum Groups associated with toral subgroups
+. Contemp . Math.145(1992), 465-491.
+
+Rosenberg, S.: “The Laplacian on a Riemannian Manifold”, Cambridge Univer-
+sity Press, Cambridge (1997).
+
+Rudin, W.: “Functional Analysis”, Tata-~-McGraw-Hill, New Delhi (1974).
+
+Schmudgen, K. and Wagner, E. : Representation of cross product algebras of
+Podles quantum spheres, math.QA/0305309.
+
+Schmudgen, K. and Wagner, E. : Dirac operators and a twisted cyclic cocycle
+on the standard Podles’ quantum sphere, J. Reine Angew. Math. 574 (2004),
+219-235.
+
+Sinha, K.B; Goswami, D.: Quantum Stochastic Processes and Noncommutative
+
+Geometry, Cambridge Tracts in Mathematics, 169, Cambridge University Press.
+
+Soltan, P. M.: Quantum families of maps and quantum semigroups on finite
+
+quantum spaces, preprint, arXiv:math/0610922.
+
+Soltan, P. M.: Quantum SO(3) Groups and Quantum Group Actions on Mo,
+arXiv: 0810.0398v1.

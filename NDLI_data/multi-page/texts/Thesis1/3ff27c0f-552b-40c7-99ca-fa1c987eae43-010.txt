@@ -1,0 +1,68 @@
+2 Quantum isometry groups: approach based on Laplacian 53
+2.1 Formulation of the quantum isometry group ................ 53
+
+2.1.1 Characterization of isometry group for a compact Riemannian
+
+manifold. 2... ee 53
+
+2.1.2 The definition and existence of the quantum isometry group... 54
+
+2.2 Computation of QISOf 2... 57
+
+2.2.1. The commutative spheres .........0.00....0.0000. 57
+
+2.22 The commutative one-torus - vee eee aes eee eee eR eS 59
+
+2.2.3 The commutative n-tori .. 2... en 61
+
+3 Quantum group of orientation preserving Riemannian isometries 69
+
+Bul. Antroductione: «2 26 as 2b 2 ea Ae ee ee oe 69
+3.2 Definition and existence of the quantum group of orientation-preserving
+
+ISOMGITIES gwwa ee eee PERE EUW ee eee eee EY (fl
+
+3.2.1 Thexlassical case. 2 2 ce co ee mw ee 71
+3.2.2 Quantum group of orientation-preserving isometries of an R-
+
+twisted spectral triple 22 ce ewe eee eee eee eee eR eS 76
+
+3.2.3 Stability and topological action... 2... .....2200.000. 82
+
+3.2.4 Universal object in the categories Q or Q’ ............ 86
+
+3.3. Comparison with the approach of [30] based on Laplacian ........ 89
+
+3.4 Examples and computations... ..............2.00000. 93
+
+3.4.1 Equivariant spectral triple on SU,(2) 2.2.2... 020.005 93
+
+3.4.2 A commutative example : spectral tripleon T? .......... 01
+
+3.5 QISO* for zero dimensional manifolds ...............-.. 04
+
+3.5.1 Inductive limit construction for quantum isometry groups .... 104
+
+3.5.2 Quantum isometry groups for spectral triples on AF algebras .. 105
+
+4 Quantum isometry groups for Rieffel deformed manifolds 109
+
+Al. Deformation-of spectral triple 2 2 co cw eee ee ee es 09
+
+4.2 Some ] preparatory results 2... 2... ee 12
+
+AS QI SOF of a Rieffel deformed noncommutative manifold. ........ 21)
+
+43.1 Derivation ofthe result «co cw www as ee we ee al
+
+4.3.2 Computations... .. 2.0.0... 00. 0000000000000. 27
+
+4.4 QISO® of a Rieffel deformed noncommutative manifold. ....... . 29
+
+AA] Derivation of the mainresult cas aea a eave ee ee 29
+
+44.2 Computations... ......0.. 0.0.0.0... 0000 000. 33
+
+5 Quantum isometry groups of the Podles spheres 141
+
+5.1 The Podles Spheres... 2... 0.0.0... 2 ee 41

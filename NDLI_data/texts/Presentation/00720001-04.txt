@@ -1,0 +1,6 @@
+data structure.
+
+Ont and Rear.
+
+ur of the queue and
+the Front end

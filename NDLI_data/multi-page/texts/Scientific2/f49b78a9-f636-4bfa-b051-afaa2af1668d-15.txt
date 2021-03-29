@@ -1,0 +1,142 @@
+IEEE Access:
+
+S. Banerjee et al.: Physically Secure Lightweight Anonymous User Authentication Protocol for loT
+
+ 
+
+100
+
+80
+
+60
+
+40
+
+20
+
+throughput (bytes per sec.)
+
+12 3 4 5 6
+scenarios
+
+FIGURE 9: Throughput (bytes per second)
+
+ 
+
+end-to-end delay (sec)
+
+ 
+
+ 
+
+1092 3 4 5 6 7 8
+scenarios
+
+FIGURE 10: End-to-end delay in seconds
+
+ 
+
+ 
+
+ 
+
+end-to-end delay (sec)
+
+ 
+
+1 92 3 4 5 6 7 8
+scenarios
+
+FIGURE 11: Packet Delivery Ratio
+
+Packet Loss Rate
+
+ 
+
+ 
+
+ 
+
+scenarios
+
+FIGURE 12: Packet Loss Rate (no of packets/seconds)
+
+A. IMPACT ON NETWORK THROUGHPUT
+
+In Figure pl we plot the network throughput along the y-
+axis and different scenarios are along with the x-axis. The
+throughput is calculated by the expression (v, x |p|)/Ts5,
+where T;5, , and |p| represent the total time in seconds, the
+number of received packets and its size, respectively. Form
+Figure [9] we observed that the network throughput increases
+with the number of messages exchanged.
+
+VOLUME 7, 2019
+
+B. IMPACT ON END-TO-END DELAY
+
+In Figure [10] we plot the end-to-end delay along the y-axis
+and different scenarios along the x-axis. The end-to-end de-
+lay is formulated by the expression ea (Trev; -Tsna;)/ Ups
+where Vp ,T-cy, and Tyna, represent the total number of
+packets, the time needed for receiving and sending a data
+packet 7, respectively. We also observe that the end-to-end
+delay increases with the number of transmitted messages but
+then decreases. This can be attributed to the increased number
+of messages contributing to the network congestion which
+leads to packet loss.
+
+C. IMPACT ON PACKET DELIVERY RATIO
+
+In Figure fy] we plot the packet delivery ratio along the
+y-axis and different scenarios along the x-axis. The packet
+delivery ratio is formulated by the expression 1/v,, where
+1, and v, represent the total number of packets transmitted
+and received, respectively. We also observe that the packet
+delivery ratio in initially low and steady, but with the growth
+in the number of transmitted messages, it degrades quickly.
+This can be attributed to the increased number of messages
+contributing to network congestion and channel saturation.
+
+D. IMPACT ON PACKET LOSS RATE
+
+In Figure [12] we plot the packet loss rate along the y-axis
+and different scenarios along the x-axis. The packet loss rate
+can be estimated by the expression (1% — v,)/Ts, where 1
+and v, represent the total number of packets transmitted and
+received and 7 represent the total time in seconds, respec-
+tively. We also observe that the packet loss rate corresponds
+to the packet delivery ratio (figure (ip. As discussed previ-
+ously this is the result of an increased number of messages
+contributing to the network congestion.
+
+VII. CONCLUSION
+
+In this article, we discussed the necessity of designing a
+physically secure user authentication scheme for IoT envi-
+ronment. As a solution to the raised problem, we presented
+a novel physically secure lightweight anonymous user au-
+thentication protocol for IoT using physically unclonable
+functions. Through the rigorous analysis using the ROR
+model, formal security verification under AVISPA tool and
+informal security analysis, we demonstrated the security
+& functionality features of the proposed scheme. We also
+evaluated the practical impact of the proposed scheme using
+NS3 simulation and presented a comparative summary to
+demonstrate its potential to be deployed in a real-world
+environment.
+
+REFERENCES
+
+[1] J. Gubbi, R. Buyya, S. Marusic, and M. Palaniswami, “Internet of things
+(iot): A vision, architectural elements, and future directions,” Future gen-
+eration computer systems, vol. 29, no. 7, pp. 1645-1660, 2013.
+
+[2] L. Atzori, A. Tera, and G. Morabito, “The internet of things: A survey,”
+Computer networks, vol. 54, no. 15, pp. 2787-2805, 2010.
+
+[3] A. K. Das, S. Zeadally, and D. He, “Taxonomy and analysis of security
+protocols for internet of things,’ Future Generation Computer Systems,
+vol. 89, pp. 110-125, 2018.
+
+15

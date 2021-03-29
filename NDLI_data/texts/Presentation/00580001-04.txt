@@ -1,0 +1,20 @@
+3.4 Circular Linked List
+
+ 
+
+Linked List: A Linked List refers to a linear collection of data
+elements in which linear order is not given by their physical
+placement n memory (as in case of array). In linked list, the data
+elements are managed by collection of nodes, where each node
+contains link or pointer which points to the next node in the list. The
+beginning f the linked list is maintained by a special pointer variable
+which contains the address of the first node in the list. The link part of
+the last node contains a special value called Null which shows the end
+of the list.
+
+ 
+   
+
+Naveen E
+
+Representation of Data using Linked list

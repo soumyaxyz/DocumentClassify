@@ -1,0 +1,54 @@
+Chapter 2: Quantum isometry groups: approach based on Laplacian 60
+
+ 
+
+Similarly, a(Z)a(z) = 1@ 1 gives
+
+BA=A*B=0, A*A+B*B=1, (2.2.6)
+
+Let U =A+B,P=A*A,Q = AA*. Then it follows from (2.2.5) and (2.2.6) that
+U is a unitary and P is a projection since P is self adjoint and
+P?= A*AA*A = A*A(1— B*B) = A*A—A*AB*B =A*A =P.
+Moreover
+
+,
+
+UP
+
+ 
+
+ 
+
+ 
+
+A+B)A*A =AA*A+BA*A =AA*A
+since BA* = 0 from (2.2.5))
+= A(l1—B*B) =A-—AB*B =A.
+
+ 
+
+(
+(
+
+Thus, A=UP, B=U—-UP=U(1—P)=UP+ , so Q=C*(A, B) = C*(U,P).
+We can rewrite the action a as follows:
+a(z)=z@UP+Z@UP".
+
+The coproduct A can easily be calculated from the requirement (id ® A)a = (a @ id)a
+
+, and it is given by :
+
+A(UP) =UP @UP+P'U-'@UP', (2.2.7)
+A(UP*) =UP+ @UP+ PU @UP?. (2.2.8)
+From this, we get
+A(U) =U @UP+U'@UP-?, (2.2.9)
+A(P) = AUU)A(UP) = P@® P+UPtU- @ Pt. (2.2.10)
+
+It can be checked that A given by the above expression is coassociative.
+Let h denote the right-invariant Haar state on Q. By the general theory of compact
+
+quantum groups, h must be faithful on Qo. We have (by right-invariance of h):
+(id @ h)(P@P+UPtU-'@ P+) =A(P)1.
+
+That is, we have
+n(P+)uPtU-! =h(P)P+. (2.2.11)

@@ -1,0 +1,40 @@
+Innovative Borohydride Synthesis Strategy to Fabricate Red (YBO3:Eu’’) and Green
+(YBO3:Tb*’) Nanophosphor with Improved Photoluminescence Characteristics
+Shubham SRIVASTAVA”, Niroj Kumar SAHU’, Shantanu Kumar BEHERA’, Bibhuti
+Bhusan NAYAK™*
+
+‘Ceramic Engineering, National Institute of Technology Rourkela, India, *Centre for
+Nanotechnology Research, VIT University, India
+“Presenter
+
+*Corresponding author: bibhutib@gmail.com
+
+The research endeavour on lanthanide ions doped YBO3 nanophosphorts is escalating with the
+availability of these borate hosts, which present incentives such as excellent UV absorbance,
+high thermal stability and exceptional optical damage threshold [APP Phys: Lett. 80, 1447 (2002)7_
+However, for preparation of this host, the use of boric acid (H3BO3) as a boron source is
+rampant pSmall 3: 438 2007) TF iterature gives a plethora of evidences for use of excess H3BO3 in
+
+addition to difficulties encountered in formation of high temperature stable YBO3 [" “™ ©*"™
+
+Soc. 2008, 91, 591) Different syntheses employed for YBOs fabrication aim towards improving
+colour purity and chromaticity. Our approach allows accomplishing this goal by means of a
+unique synthesis strategy for producing high temperature phase pure phosphors with better
+
+photoluminescence properties.
+
+In this context, for the first time, innovative borohydride synthesis strategy using sodium
+borohydride (NaBH,) has been explored to fabricate red (YBO3: 5 mol % Eu**) as well as
+green (YBO3: 5 mol % Tb’) phosphor. Moreover, phase-stability, microstructure and
+photoluminescence properties of these phosphors were studied in detail. The colour purity
+[R/O ratio: area under the curve of red (Do Fo transition) to orange (DoF) emission]
+of red phosphor and CIE coordinates of both red and green phosphor are strongly dependent
+on the excitation wavelengths. The colour tuning from pink to reddish-orange for
+YBO3:Eu* and bluish-green to green for YBO3:Tb* is achieved by adjusting excitation
+wavelengths from near-VUV to UV. The findings of the study suggest that this borohydride
+method is better than the conventional boric acid based solid-state method. The follow up of
+the properties unanimously depicts that the use of NaBH, is virtuous for synthesizing
+
+nanophosphors and could be put to use in light emitting diodes and flat display technology.
+
+Keywords: Phosphors; YBO3; Borohydride, Colour purity; CIE coordinates.

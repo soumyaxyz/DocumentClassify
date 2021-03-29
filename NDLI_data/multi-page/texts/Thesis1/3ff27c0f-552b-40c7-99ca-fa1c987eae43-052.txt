@@ -1,0 +1,56 @@
+Chapter 1: Preliminaries 40
+
+ 
+
+Now,
+
+J [ho plexe(elue)dude
+J [ror 0l@elur)dude
+
+= J [ reelaptje(s-thasat,
+
+where s = —u,t = Ju—v, which by Proposition 1.3.1 equals h(xo(a)b) = h(ab). That
+
+is, we have proved
+
+(a,b) 7 = (a,b) Va,b € Qo, (1.3.10
+
+where (-,-) and (-,-) respectively denote the inner products of L?(h;) and L?(h). We
+now complete the proof of the lemma by extending ( 1.3.10 ) from Qo to O™, by using
+the fact that Q© is a common subspace of the Hilbert spaces L?(h) and L?(h,) anc
+
+moreover, Qo is dense in both these Hilbert spaces. In particular, taking a = 1 in Qo,
+
+ 
+
+ 
+
+ 
+
+we have h = hy on O™.
+
+ 
+
+Remark 1.3.11. Lemma 1.3.10 implies in particular that for every fixed a,,a2 in Qo,
+the functional Qo 3 b> h(ai x7b x 7 a2) = h(bx7a2 x7 (fisarb fi)) (where fi is as
+in Remark 1.2.20 ) = h(b(a2 x7 (fisaib fi))) extends to a bounded linear functional
+
+on Q.
+
+Let e be the identity of T?” and U;, be a sequence of neighbourhoods of e shrink-
+ing to e, f, smooth, positive functions with support contained inside U,, such that
+gen fn(z)dz = 1 for all n.
+
+Let us denote the action of T?” action on A® induced by x by X. Define » fn(@) =
+Spen X¥2(a) fn(z)dz. Then, we have the following result:
+
+Lemma 1.3.12. Aj;,(a) belongs to O° and
+
+| X¥.(a)fn(z)dz + aasn— oo.
+T2n
+
+Proof : We note that, by using the translation invariance of Haar measure, for
+
+all g in T?”, XgAyp,(@)) = San fn(g-th)Xpn(a)dh. Therefore, Xg(Ap,(@)) — Ap, (a) =
+Jyon(fn(g7 th) — fn(h))Xn(a)dh which proves the first part.
+Now we prove the second part. As fyon fn(z) = 1 for all n and supp (fn) C Un, we

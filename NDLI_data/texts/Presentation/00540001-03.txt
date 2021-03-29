@@ -1,0 +1,15 @@
+Digital Data
+
+¢ Today, data undoubtedly is an invaluable asset of any enterprise
+(big or small). Even though professionals work with data all the
+time, the understanding, management and analysis of data from
+heterogeneous sources remains a serious challenge.
+
+¢ In this lecture, the various formats of digital data (structured,
+semi-structured and unstructured data), data storage mechanism,
+data access methods, management of data, the process of
+extracting desired information from data, challenges posed by
+various formats of data, etc. will be explained.
+
+¢ Data growth has seen exponential acceleration since the advent
+of the computer and Internet.

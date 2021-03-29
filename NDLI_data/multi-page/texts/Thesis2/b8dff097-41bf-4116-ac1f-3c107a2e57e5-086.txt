@@ -1,0 +1,59 @@
+74 8. REALITY IN GROUPS OF TYPE G2
+
+Proof. Let b € k* such that b? ¢ N(E*). Consider D = diag(b, 1,1), a diagonal
+matrix and put A= DSD~-!. Then A € SL(3). We claim that A is not a product of
+two symmetric matrices from SL(3). Assume the contrary. Suppose A = DSD-! =
+S19 where S;,S € SL(3) and symmetric. Then
+
+A=DSD7' = (DSD)D~ = §,S».
+Let T; = DSD, T: = D~?. Then 'T; = T;, i =1,2 and A = 7,T2 = SS. Therefore,
+4 = ToT, = TAT, | = S28, = 82 AS5'.
+Since the characteristic polynomial of A is irreducible, by the proof of Theorem 8.3.6,
+D?S, = Ty'S, € Z(A) = k[A] & E. Which implies S, = D~?f(A) for some
+polynomial f(X) € k[X]. Taking determinants, we get
+1 = det Sy = det D~? det(f(A)),
+
+ie., b? = det(f(A)) € N(£*), contradicting the choice of b € k. Hence A can not be
+
+written as a product of two symmetric matrices from S'L(3).
+
+ 
+
+ 
+
+ 
+
+8.4. Examples of Nonreal Elements
+
+ 
+
+In this section we produce examples of nonreal semisimple elements in groups o
+type Gy. In [W2] and [L]}, there are examples of elements which are product of three
+involutions but not two. These are examples of nonreal elements. First we produce
+nonreal semisimple elements which are product of three involutions but not two in
+G2, over number fields and over fields Q and Q,. In the view of Theorem 8.1.7 these
+elements are not real. We also produce examples of nonreal elements in G» over finite
+fields. Note that over finite fields every semisimple as well as unipotent element is
+real. Hence the elements produced are of mixed kind, i.e., neither semisimple nor
+
+unipotent.
+
+8.4.1. Nonreal Elements in G, over Number Fields. We use Proposition 8.2.14
+to construct non-real elements in G2 over number fields and use the notation intro-
+
+duced there.
+
+Lemma 8.4.1. Let k be a number field and L a quadratic field extension of k. Let
+F be a cyclic extension of degree 3 over k. Let us denote E = F.L. Then L'/Npj,(E")
+
+is nontrivial.
+
+Proof. The proof follows by looking at a place of E over L which is unramified
+
+ 
+
+ 
+
+ 
+
+of degree 3.

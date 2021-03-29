@@ -1,0 +1,75 @@
+10.
+
+1
+
+12.
+
+13.
+
+14.
+
+Which attribute is used to define namesapcae in
+XML?
+
+Write any two limitations of DTD.
+PART B — (5 x 5 = 25)
+Answer ALL questions.
+(a) Write down the advantages of J2EE.
+Or
+
+(b) _ What are the features and benefits. of Java
+Servlet?
+
+(a) Draw and explain Servlet filter chain.
+Or
+
+(b) List and describe the tags used in the web
+applications deployment descriptor.
+
+(a) Explain the include directive with an
+example.
+
+Or
+(b) Write a short note on iterative tags of JSTL.
+
+(a) How can you specify a Stateful Session
+Bean? Explain.
+
+Or
+
+(b) Define EJB security and roles within simple
+agency application. ;
+
+de ~ 2 imnae
+
+15.
+
+16.
+
+Aes
+
+18.
+
+19:
+
+20.
+
+(a) Write a short note on XML schemas.
+Or
+(b) Explain Java architecture for XML binding.
+PART C — (3 x 10 = 30)
+Answer any THREE questions.
+
+Explain the services available in J2EE platform
+with a neat sketch.
+
+Write a simple Servlet program and explain the
+steps to deploy the Servlet.
+
+What is EL? Explain EL variables, implicit.objects
+and operators.
+
+Draw and explain Stateless Session Bean life
+cycle.
+
+Explain JAXP packages in detail.

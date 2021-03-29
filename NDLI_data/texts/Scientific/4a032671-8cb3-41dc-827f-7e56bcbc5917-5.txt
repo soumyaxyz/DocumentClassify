@@ -1,0 +1,145 @@
+ROUGE % novel n-grams Average Pgen
+1 2 L n=1 | n=2 n=3 n=4 | sentences
+Baseline 0.3577 | 0.1528 | 0.3254 || 0.13 | 2.82 7.67 12.25 68.99 0.1853
+Baseline + POS 0.3519 | 0.1491 | 0.3205 0.10 | 3.11 8.43 13.49 71.88 0.2384
+Baseline + NER 0.3482 | 0.1462 | 0.3174 || 0.11 | 3.56 9.32 14.73 74.20 0.2151
+Baseline + POS + NER || 0.3446 | 0.1471 | 0.3147 || 0.21 | 4.63 | 11.04 | 16.75 82.77 0.2740
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Table 2: Performance of our proposed models on ROUGE scores, % of novel n-grams and average pgen against the baseline
+
+pointer generator (See, Liu, and Manning 2017)
+
+ 
+
+coder shifts from the middle of one sentence of the article
+to some other sentence, usually when both of them share a
+common word or multi-word phrase. This often leads to suc-
+cessful compression of information to create good abstrac-
+tive summaries. However, the shunting effect can be erro-
+neous if the two parts of the different sentences talk about
+different things.
+
+For example, consider the articles shown in Figure 4. The
+highlighted parts show the amount of cumulative attention
+that was received by each word during the entire decod-
+ing procedure. The summary created is also shown. In the
+first example, it can be seen that the network starts copy-
+ing the words “in louisville, kentucky , sen. rand paul..., but
+after copying the comma, it jumps off to another sentence
+“in ferguson, missouri, the shadow of michael brown...” . In
+effect, the summary conveys that the shooting and protests
+happened in kentucky which is not correct. In the second ex-
+ample, the summary suggests that a singer’s famous song
+“the thrill is gone” was in collaboration with another artist
+called u2, whereas the article says that the collaboratively
+produced song was “when love comes to town”. Here again,
+the shunting is caused at the closing quotes that occur in both
+sentences.
+
+Such concatenations are seen in several summaries gen-
+erated by the network. One possible reason can stem from
+Equation |, where values of e; define the attention received
+by different words, since attention is a softmax activation
+over e;. In Equation 1, the only component that changes
+across different decoding timesteps is s;, which can be seen
+as a time-varying bias-shift that is added to a projection of
+each term’s encoding, given by W),h;. Hence, if h; = h, for
+words at indices 7 and j, they are bound to get equal atten-
+tion at all timesteps irrespective of any other factors. If the
+LSTM encoder encodes the same words occurring at differ-
+ent positions in the input into very similar encodings, then
+such a phenomenon can be expected to happen. This sug-
+gests that the contextual information is sometimes ignored
+by the LSTM encoder in which case the value of h; may just
+depend on the word occurring at the i*” position.
+
+To address the shunting effect, we propose an approach
+to regulate the transition of attention between decoding
+timesteps for maintaining factual correctness in the sum-
+mary. Like in the last section, we introduce this regulation
+by informing the model via traditional linguistic features ex-
+tracted from text injected into the encoding. Our method cal-
+culates a transition affinity function t(i, 7) which is higher if
+the transition from word index 7 to word index j is more
+likely to retain factual consistency. We modeled the transi-
+tion affinity function using entity co-reference. By ensuring
+
+the attention stays focused on a particular entity, the method
+would avoid mixing up information about different entities
+in a sentence like in Figure 3c and also avoid dangling pro-
+nouns as in Figure 3b.
+
+We first extract the co-reference mentions of all entities in
+the input article and assign each set of tokens referring to an
+entity with a different tag such that the same tag is used for
+all mentions of an entity. Thereby, the tags are also assi
+to words neighboring each of the mentions. This is
+by extracting the smallest subsequence of words around the
+mention which form a complete clause. For this we parse a
+sentence and then select a subtree which contains the men-
+tion and has the root non-terminal signifies a clause. The
+transition affinity function t(7, 7) is defined here to be the
+number of tags that occur both on the i” and the 7” word.
+
+Since factual errors caused via the shunting effect are
+due to inconsistent attention transition, we bias the value
+of attention for each word based on its transition affinities
+with the words that received high attention in the previous
+timestep. We do this by changing the calculation of e; such
+that,
+
+    
+
+n
+
+ef =v" tanh(Wihi + West + date) + Wa Sai (j,i)
+j=l
+
+(8)
+
+W, is an additional scalar parameter which is learned here.
+
+During the final training iterations, we also use an auxil-
+iary loss function to incorporate transition affinity. We cal-
+culate the average transition affinity )7”" _, al 't(j, i) over
+all words w, and all decoding timesteps. To maximize this
+average value, the negative of this is appended to the loss
+function for the optimizer like in Eq. 7.
+
+In the absence of existing metrics to measure the factual
+correctness, we conduct human evaluation on the same 100
+articles used before. The model based on the proposed mod-
+ification was rated better on factual correctness by the an-
+notators for 31 summaries, including all but 1 summary that
+had factually inaccurate baseline summaries, according to
+a majority of raters. This suggests that our model is able
+to avoid most of the errors that were committed by base-
+line pointer-generator network. Due to the relatively limited
+number of cases of such factual inaccuracies, the change
+in ROUGE between the various setups was negligible and
+hence we have not reported here.
+
+ 
+
+ 
+
+Conclusion & Future work
+Detecting and fixing the different kinds of errors occur-
+ring in abstractive summarization systems is a fertile area
+for research. While there has been work to remove errors

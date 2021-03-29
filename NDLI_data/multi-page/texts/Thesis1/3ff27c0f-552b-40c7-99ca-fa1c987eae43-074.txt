@@ -1,0 +1,63 @@
+Chapter 2: Quantum isometry groups: approach based on Laplacian 62
+
+ 
+
+Lemma 2.2.5. The condition U*U = 1=UU* gives:
+
+ 
+
+ 
+
+ 
+
+So (Ap Aig + BF By) = 1, (2.2.12)
+j
+Bi Ain + By Aig = 005 Fk, (2.2.13)
+Ajj Bik + Aj, Bij = 0. Vi # k, (2.2.14)
+Aj; Bi = BiyAij = 0, (2.2.15)
+SAA + BiB) = 1, (2.2.16)
+j
+Ain Biz + Ay Bi, = OVI Fk, (2.2.17)
+BuAjy + BA, = 0 V5 # k, (2.2.18)
+Ay Bij = Bij Ajj = 0. (2.2.19)
+
+Proof : We get ( 2.2.12 ) - ( 2.2.15 ) by using the condition U;U; = 1 along with the
+fact that @ is a homomorphism and then comparing the coefficients of 1, U;U,, U. GU, ke. 1
+(for j #k), U;?,U,.
+
+Similarly the condition U;jU;* = 1 gives ( 2.2.16 ) - ( 2.2.19 ).
+
+ 
+
+ 
+
+ 
+
+ 
+
+Now, for all i 4 j, U;Uj, UU; and U;U; belong to the eigenspace of the Laplacian
+with eigenvalue —2, while U, Ps U, 2 belong to the eigenspace corresponding to the eigen-
+value —4. As a preserves the eigenspaces of the Laplacian, the coefficients of UR, U, 2
+are zero for all k in a(U;U;), a(UjU;), a(UiU;) for all i Fj.
+
+We use this observation in the next lemma.
+
+Lemma 2.2.6. For all k and for alli 4 j,
+
+Bip Ajn = Aj Bix = 0, (2.2.20)
+Ain Bjr = Bix Aj, = 9, (2.2.21)
+Air Ajr = Bir Bj = 0. (2.2.22)
+
+Proof : The equation ( 2.2.20 ) is obtained from the coefficients of U? and U, 2
+in a(U;U;) while ( 2.2.21 ) and ( 2.2.22 ) are obtained from the same coefficients in
+a(U;U;) and a(U;,U;) respectively.
+
+ 
+
+ 
+
+ 
+
+Now, by Lemma 2.1.4 it follows that @ : C(T") ® QISO® — C(T") @ QISO®
+defined by @(X ®Y) = a(X)(1@Y) extends to a unitary of the Hilbert QI SO*%-module
+L?(C(T"), 7) @ QISOF ( or in other words, a extends to a unitary representation of

@@ -1,0 +1,134 @@
+WWW ’20, April 20-24, 2020, Taipei, Taiwan
+
+Auto-completion for ‘E =m’ — Suggestions for ‘E = {m, c}’
+
+ 
+
+ 
+
+Sug. Expression TF DF | Sug. Expression TF DF
+E=me* 558 376 | E=mce* 558 376
+E=mcoshé 23. 23 | E=ymc? 39-38
+E=mv 7 7 | E=ymec? 41 36
+E=m/V1-@ 12 6] E=mcoshé 23 23
+E=m/yi-f? 10 6] E=-me? 35°17
+E=mce*y 6 6 | E=ym'ct+ pc? 10 8
+
+ 
+
+ 
+
+Table 5: Suggestions to complete ‘E = m’ and ‘E = {m,c}’ (the
+right-hand side contains m and c) with term and document
+frequency based on the distributions of formulae in arXiv.
+
+who wants to search for mathematical expressions that are related
+to eigenvalues. A textual search query would only retrieve entire
+documents that require further investigation to find related ex-
+pressions. A mathematical search engine, on the other hand, is
+impractical since it is not clear what would be a fitting search query
+(e.g., Av = Av?). Moreover, formula and textual search systems for
+scientific corpora are separated from each other. Thus, a textual
+search engine capable of retrieving mathematical formulae can be
+beneficial. Also, many search engines allow for narrowing down
+relevant hits by suggesting filters based on the retrieved results.
+This technique is known as faceted search. The zbMATH search
+engine also provides faceted search, e.g., by authors, or year. Adding
+facets for mathematical expressions allows users to narrow down
+the results more precisely to arrive at specific documents.
+
+Our proposed system for extracting relevant expressions from sci-
+entific corpora via mBM25 scores can be used to search for formulae
+even with textual search queries, and to add more filters for faceted
+search implementations. Table 4 shows two examples of such an ex-
+tension for zo»MATH’s search engine. Searching for ‘Riemann Zeta
+Function’ and ‘Eigenvalue’ retrieved 4,739 and 25,248 documents
+from zbMATH, respectively. Table 4 shows the most frequently used
+mathematical expressions in the set of retrieved documents. It also
+shows the reordered formulae according to a default TF-IDF score
+(with normalized term frequencies) and our proposed mBM25 score.
+The results can be used to add filters for faceted search, e.g., show
+only the documents which contain u € wy P, (Q). Additionally, the
+search system now provides more intuitive textual inputs even for
+retrieving mathematical formulae. The retrieved formulae are also
+interesting by themselves, since they provide insightful information
+on the retrieved publications. As already explored with our custom
+document search system in Figure 5, the Riemann hypothesis is
+also prominent in these retrieved documents.
+
+The differences between TF-IDF and mBM25 ranking illustrates
+the problem of an extensive evaluation of our system. From a
+broader perspective, the hit Ax = ABx is highly correlated with the
+input query ‘Eigenvalue’. On the other hand, the raw frequencies
+revealed a prominent role of div(|Vu|?~? Vu). Therefore, the top
+results of the mBM25 ranking can also be considered as relevant.
+Math Notation Analysis: A faceted search system allows us to
+analyze mathematical notations in more detail. For instance, we can
+
+retrieve documents from a specific time period. This allows one to
+study the evolution of mathematical notation over time [4], or for
+
+A. Greiner-Petter, et al
+
+identifying trends in specific fields. Also, we can analyze standard
+notations for specific authors since it is often assumed that authors
+prefer a specific notation style which may vary from the standard
+notation in a field.
+
+Math Recommendation Systems: The frequency distributions
+of formulae can be used to realize effective math recommendation
+tasks, such as type hinting or error-corrections. These approaches
+require long training on large datasets, but may still generate
+meaningless results, such as Gj; = {(x,y) € R” : x; = x;} [42].
+We propose a simpler system which takes advantage of our fre-
+quency distributions. We retrieve entries from our result database,
+which contain all unique expressions and their frequencies. We
+implemented a simple prototype that retrieves the entries via pat-
+tern matching. Table 5 shows two examples. The left side of the
+table shows suggested autocompleted expressions for the query
+‘E=m’. The right side shows suggestions for ‘E =’, where the right-
+hand side of the equation should contain m and c in any order. A
+combination using more advanced retrieval techniques, such as
+similarity measures based on symbol layout trees [7, 45], would
+enlarge the number of suggestions. This kind of autocomplete and
+error-correction type-hinting system would be beneficial for vari-
+ous use-cases, e.g., in educational software or for search engines as
+a pre-processing step of the input.
+
+Plagiarism Detection Systems: As previously mentioned, plagia-
+rism detection systems [28, 29, 39] would benefit from a system
+capable of distinguishing conventional from uncommon notations.
+The approaches described by Meuschke et al. [29] outperform ex-
+isting approaches by considering frequency distributions of single
+identifiers (expressions of complexity one). Considering that single
+identifiers make up only 0.03% of all unique expressions in arXiv,
+we presume that better performance can be achieved by consider-
+ing more complex expressions. The conferred string representation
+also provides a simple format to embed complex expressions in
+existing learning algorithms.
+
+Expressions with high complexities that are shared among mul-
+tiple documents may provide further hints to investigate poten-
+tial plagiarisms. For instance, the most complex expression that
+was shared among three documents in arXiv was Equation (3). A
+complex expression being identical in multiple documents could
+indicate a higher likelihood of plagiarism. Further investigation
+revealed that similar expressions, e.g., with infinite sums, are fre-
+quently used among a larger set of documents. Thus, the expression
+seems to be a part of a standard notation that is commonly shared,
+rather than a good candidate for plagiarism detection. Resulting
+from manual investigations, we could identify the equation as part
+of a concept called generalized Hardy-Littlewood inequality and
+Equation (3) appears in the three documents [2, 5, 32]. All three
+documents shared one author in common. Thus, this case also
+demonstrates a correlation between complex mathematical nota-
+tions and authorship.
+
+Semantic Taggers and Extraction Systems: We previously men-
+tioned that semantic extraction systems [23, 36, 37] and semantic
+math taggers [6, 43] have difficulties in extracting the essential
+components (MOIs) from complex expressions. Considering the
+definition of the Jacobi polynomial in Equation (1), it would be
+beneficial to extract the groups of tokens that belong together, such
+
+as PL%P) (0) or I(@ + m + 1). With our proposed search engine

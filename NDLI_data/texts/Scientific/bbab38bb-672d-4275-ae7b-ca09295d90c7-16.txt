@@ -1,0 +1,65 @@
+566 F. Ensan, W. Du
+
+Table 2 Evaluation results for the interpolation of SELM with the three baseline methods
+
+ 
+
+Map A pvalue P@20 A pvalue nDCG@20 A p value
+Robust04
+SDM 0.2615 0.3715 0.4235
+SELM+SDM 0.2858 = +9.2 0.0001 0.3811 +25 0.1419 0.44057 +4 0.0136
+RM3 0.2937 0.388 0.434
+SELM+RM3 0.31" +5.5 0.0003 0.3986 +26 0.0577 0.45017 +3.6 0.0061
+EQFE 0.3278 0.3797 0.4237
+SELM +EQFE 0.33827 +3 0.0197 0.3902 +2.7 0.1465 0.4353 +2.7 0.1233
+ClueWeb09-B
+SDM 0.1143 0.3412 0.21467
+SELM+SDM 0.1183 +34 0.0156 0.3495 +24 0.7 0.22793" +6.1 0.006
+RM3 0.12 0.3447 0.22108
+SELM+RM3 0.123 +2.5 0.0699 0.3477 +08 0.6 0.234117 +5.9 0.006
+EQFE 0.1096 0.3184 0.2119
+
+SELM+EQFE 0.1177 +6.7 0.0004 0.3298 +=+3.5 0.0475 0.230787 +8.9 0.0004
+ClueWeb12-B
+
+SDM 0.0421 0.209 0.12679
+
+SELM+SDM 0.0446" = +5.1 0.002 0.2217 +5.7 0.0019 0.134077 +5.6 0.0025
+RM3 0.0359 0.189 0.11098
+
+SELM+RM3___ 0.038" +5.5 0.0122 0.2047 +7.9 0.0001 0.11776" +6.1 0.0042
+EQFE 0.0469 0.232 0.14633
+
+SELM + EQFE 0.0493 +48 0.0535 0.234 +0.8 0.5 0.14981 +23 0.2
+
+ 
+
+Statistical significance is shown by +
+Relative difference percentage and p values from paired test are shown as A% and p value
+
+SELM+RM3 ¢ SELM+SDM SELM+EOFE
+
+SS
+_
+L
+
+MAPA%
+i.
+
+ 
+
+MAP A%
+d-e0qemn[D
+
+ 
+
+MAP A%
+
+a-z1qomntD
+
+Lo.
+
+Fig.4 MAP A% of interpolated SELM & baselines (e.g., SELM + SDM vs. SDM). Positives show improve-
+ment over baseline
+
+a Springer

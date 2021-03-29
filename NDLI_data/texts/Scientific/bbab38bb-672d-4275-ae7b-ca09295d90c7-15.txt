@@ -1,0 +1,58 @@
+Ad hoc retrieval via entity linking and semantic similarity 565
+
+variant of relevance model (RM3) [25], and entity query feature expansion (EQFE) [7]. RM3
+extracts the relevant terms and uses them in a combination with the original query. RM3 is
+known to improve the retrieval performance over methods that do not use expansion terms.
+EQFE is an expansion method that enriches the query with features extracted from entities
+found in queries, entity links to knowledge bases, and the entity context. It has already been
+shown [7] that EQFE improves retrieval performance significantly over the state-of-the-art
+methods. In this paper, and to keep our experiments comparable to these methods, we used
+the parameter settings reported in [7,25] for the baseline methods. SELM is interpolated with
+these three baseline systems based on Eq. (8) in order to form three variations, referred to as
+SELM + SDM, SELM + RM3, and SELM + EQFE.
+
+7.3 Results
+
+In this section, we report the performance of SELM and its interpolation with baseline meth-
+ods. For the purpose of this evaluation, we conducted two series of experiments: First, we
+thoroughly evaluate SELM, when it is configured to use Tagme as its semantic analysis mod-
+ule. In these experiments, we aim at evaluating the effect of semantic retrieval in improving
+the performance of the other baseline retrieval models.
+
+In SELM, each query concept has a similarity threshold 0 < a < 1, such that all simi-
+larities less than @ are pruned, i.e., concepts with similarities less than @ are considered as
+unrelated to the query concepts. In this set of experiments, a is determined using 10-fold
+cross-validation and is optimized for mean average precision (MAP) effectiveness.
+
+Second, we conduct a set of experiments to compare the performance of SELM under three
+different configurations, where it is configured to use Tagme, ESA, and Para2Vec similarity
+measurement techniques (See Sect. 6). The purpose of these experiments is to compare the
+impact of different semantic similarity measurement techniques on our proposed semantic
+retrieval framework.
+
+For each collection and in all experiments, we report the mean average precision (MAP),
+precision at rank 20 (P@20), and normalized discounted cumulative gain at rank 20
+(nDCG @20). The statistical significance of differences in the performance of SELM models
+with respect to other retrieval methods is determined using a paired t test with a confidence
+level of 5%. For evaluating ClueWeb09-B and ClueWeb12-B, the relevance judgments of the
+whole corpus have been used.
+
+7.3.1 Performance evaluation
+
+SELM Interpolation Effectiveness Table 2 presents the evaluation results on three datasets.
+The interpolation of SELM with all baselines improves their performance. SELM + SDM
+outperforms SDM significantly across two measures: MAP and nDCG @20 on all datasets (up
+to + 9.2% MAP and + 6.1% nDCG@20). Also, SELM + SDM improves P@20 compared to
+SDM over Robust04, ClueWeb09-B and outperforms SDM significantly over ClueWeb12-B
+(up to+ 5.7% P@20). SELM + RM3 outperforms RM3 across all measures on all datasets (up
+to+5.5% MAP, + 6.1% nDCG@20, and + 7.9% P@20). The improvements are statistically
+significant on P@20 over ClueWeb12-B, MAP over Robust04 and ClueWeb12-B, and on
+nDCG@20 on all datasets. SELM + EQFE outperforms EQFE on all metrics for all datasets,
+and the observed improvements are statistically significant for ClueWeb09-B.
+
+ 
+
+Success/failure analysis Figure 4 provides analysis of queries whose effectiveness are
+improved/hurt by the variants of the SELM method. For the sake of clarity and easier visu-
+
+a Springer

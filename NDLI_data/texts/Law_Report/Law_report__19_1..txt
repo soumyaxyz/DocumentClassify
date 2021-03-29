@@ -1,0 +1,36 @@
+TIC (2013) 44:467
+DOT 10.1007/s403 19-013-0056-z
+
+DECISION : PATENT LAW
+Japan
+
+“Right to Be Heard”
+Patent Act, Sec. 153(2) — X v. Universal Entertainment Co., Ltd.
+
+Intellectual Property High Court
+4 July 2012
+
+© Max Planck Institute for Intellectual Property and Competition Law, Munich 2013
+
+The right of an applicant to be heard prior to a dismissal of the application
+refers to those grounds the party had no opportunity to comment upon. It is not
+necessary for the Patent Office to hear the applicant in respect of an assessment
+of similarities and differences of the invention with a prior art the applicant had
+an opportunity to comment upon.
+
+Where the plaintiff asserts that the trial decision has an illegal procedural defect,
+which violates Sec. 153(2) Patent Act, the decision to refuse the application
+identified other similarities and differences between the patented invention and the
+prior art than those argued by the applicant, without notifying the latter of it giving
+him an opportunity to present opinions. Section 153(2) Patent Act requires the
+Office to hear the applicant for “any grounds not pleaded by a party”. According to
+the court, this refers to new grounds for invalidation, new facts or new documents,
+as in such case it would be extremely unfair if the applicant was not heard prior to a
+decision to dismiss the application. But a decision that identifies other similarities
+and differences with respect to prior art than those argued by the applicant is not
+contrary to Sec. 153(2), even if the applicant is not notified thereof prior to a
+negative decision.
+
+Summarised by Hisayoshi Yokoyama.
+
+a Springer

@@ -1,0 +1,45 @@
+Chapter 0: Introduction 4
+
+ 
+
+compact quantum groups (CQG for short) as the correct generalization of compact
+topological groups.
+
+The idea of a group acting on a space was extended to the idea of a CQG co-
+acting on a noncommutative space (that is, a possibly noncommutative C* algebra ).
+Following suggestions of Alain Connes, Shuzhou Wang in [60] defined and proved the
+existence of quantum automorphism groups on finite dimensional C* algebras. Since
+then, many interesting examples of such quantum groups, particularly the quantum per-
+mutation groups of finite sets and finite graphs, were extensively studied by a number of
+mathematicians (see for example [1], [2], [3], [4], [5], [61] and references therein ). The
+underlying basic principle of defining a quantum automorphism group corresponding
+to some given mathematical structure (for example a finite set, a graph, a C* or von
+Neumann algebra) consists of two steps: first, to identify (if possible) the group of auto-
+morphism of the structure as a universal object in a suitable category, and then, try to
+look for the universal object in a similar but bigger category, replacing groups by quan-
+tum groups of appropriate type. However, most of the work done by them concerned
+some kind of quantum automorphism group of a ‘finite’ structure, for example, of finite
+sets or finite dimensional matrix algebras. It was thus quite natural to try to extend
+these ideas to the ‘infinite’ or ‘continuous’ mathematical structures, for example classi-
+cal and noncommutative manifolds. With this motivation, Goswami ( [30] ) formulated
+and studied the quantum analogues of the group of Riemannian isometries called the
+quantum isometry group. Classically, an isometry is characterized by the fact that its
+action commutes with the Laplacian. Therefore, to define the quantum isometry group,
+it is reasonable to consider a category of compact quantum groups which act on the
+manifold (or more generally on a noncommutative manifold given by a spectral triple)
+with the action commuting with the Laplacian, say £, coming from the spectral triple.
+It is proven in [30] that a universal object in the category ( denoted by Q/, ) of such
+quantum groups does exist (denoted by QI SO*) if one makes some mild assumptions
+on the spectral triple all of which are valid for a compact Riemannian spin manifold.
+The work of this thesis starts with the computation of the quantum isometry group in
+several commutative and noncommutative examples ( [6], [7]).
+
+However, the formulation of quantum isometry groups in [30] had a major drawback
+from the view point of noncommutative geometry, since it needed a ‘good’ Laplacian to
+exist. In noncommutative geometry it is not always easy to verify such an assumption
+about the Laplacian, and thus it would be more appropriate to have a formulation in
+terms of the Dirac operator directly. This is what is done in [8] where the notion of
+a quantum group analogue of the group of orientation preserving isometries was given
+and its existence as the universal object in a suitable category was proved. Then, a
+
+number of computations for this quantum group were done in [8], [9] and [10].

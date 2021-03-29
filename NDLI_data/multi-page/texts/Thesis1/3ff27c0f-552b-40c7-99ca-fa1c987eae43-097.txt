@@ -1,0 +1,57 @@
+85 Definition and existence of the quantum group of orientation-preserving isometries
+
+ 
+
+with the group of unitaries Ti, hence with its generator 6 and also with the self adjoint
+operator £ = (id)?.
+
+On the other hand, it follows from the definition of G = QISO}(D) that (r @
+id)(ao(X)) = 7(X)1g for all X in B(H), in particular for X belonging to S™, and thus
+the map S* @aigG > (a®q) + ao(a)(1@q) extends to a G-linear unitary, denoted by W
+(say), on the Hilbert G-module V.@G. Note that here we have used the fact( which that
+for any ¢, (id @ ¢)(W)(S® @aig G) CN, since af(S”) C.N. The commutativity of as
+with T for every ¢ clearly implies that W and Ts ® idg commute on NV ® G. Moreover,
+ag maps H4, into itself, so W maps H%, ®G into itself, and hence (by unitarity of W) it
+commutes with the projection Pp @ 1. It follows that as commutes with Po, and (since
+it also commutes with L) commutes with L = Py£Pp as well.
+
+Thus, ae preserves each of the (finite dimensional) eigenspaces of the Laplacian
+L£, and so is a Hopf algebraic action on the subalgebra Ap spanned algebraically by
+these eigenvectors. Moreover, the G-linear unitary W clearly restricts to a unitary
+representation on each of the above eigenspaces. If we denote by ((qij))(,j) the G-valued
+unitary matrix corresponding to one such particular eigenspace, then by Proposition
+1.2.23, qij must belong to Go and we must have e(qj) = 6;; (Kronecker delta). This
+
+implies (id@®e€)oag = id on each of the eigenspaces, hence on the norm-dense subalgebra
+
+ 
+
+ 
+
+ 
+
+ 
+
+Apo of A, completing the proof of the fact that ag extends to a C* action on A.
+
+Combining the above theorem with Theorem 3.2.16, we get the following immediate
+
+corollary.
+
+Corollary 3.2.18. [f the spectral triple satisfies the Sobolev condition mentioned before,
+in addition to the assumptions 1 — 6, then QISO} (D) has a C*-action. In particular,
+for a classical spectral triple, QISO} (D) has C*-action.
+
+Remark 3.2.19. Let us remark here that in case the restriction of T on A® is normal,
+that is, continuous with respect to the weak operator topology inherited from B(H), then
+HY, will contain A", which is the closure of AX in the weak operator topology of B(H),
+
+so the condition (a) of Theorem 3.2.17 (and hence its conclusion) holds.
+
+Remark 3.2.20. In a private communication to us, Shuzhou Wang has kindly pointed
+out that a possible alternative approach to the formulation of quantum group of isome-
+tries may involve the category of CQG which has a C*-action on the underlying C*
+algebra and a unitary representation with respect to which the Dirac operator is equiv-
+ariant. However, we see from Corollary 5.4.17 of chapter 5 that the category proposed
+
+by Wang does not admit a universal object in general.

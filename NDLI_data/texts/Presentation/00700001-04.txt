@@ -1,0 +1,12 @@
+Characteristics of algorithms :
+
+¢ The type and amount of data to be stored.
+
+¢ Amount of memory space required by sorting
+algorithm.
+
+¢ Whether data is in random, partially, or in
+reverse order.
+
+¢ Complexity of the sorting algorithm and the ease
+with which it can be implemented.

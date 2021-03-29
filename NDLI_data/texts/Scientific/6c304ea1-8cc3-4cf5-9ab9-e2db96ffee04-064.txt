@@ -1,0 +1,83 @@
+# cld:LP2018 x # wdd:Q142701 x
+
+wd:Q142701 wd:Q142701
+<# wdd:Q142701 << # wdd:Q142701
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+, ES
+. Ivcheadli wdt:P571 wdt:P527
+eee ee <3 wdd:P571 <9 wdd:P527
+: o “
+-LP2018 rdfs:label 7 : "1990" wd-Q221535
+# cld:LP2018 [- <>@rdfs; —>| ‘Lollapalooza 2018 xsd:gYear <3 wdd:Q221535 |
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Fig. 33. Two example Linked Data documents from two websites, each containing an RDF graph, where
+wd:Q142701 refers to Pearl Jam in Wikidata while wdd:Q142701 to the RDF graph about Pearl Jam, and
+where wd: Q221535 refers to Eddie Vedder while wdd:Q221535 refers to the RDF graph about Eddie Vedder;
+the edge-label wdt:571 refers to “inception” in Wikidata, while wdt:527 refers to “has part”
+
+o R1.3. (meta)data meet domain-relevant community standards.
+
+In the context of knowledge graphs, a variety of vocabularies, tools, and services have been
+proposed that both directly and indirectly help to satisfy the FAIR principles. In terms of Findability,
+as discussed in Section 2, IRIs are built into the RDF model, providing a general schema for global
+identifiers. In addition, resources such as the Vocabulary of Interlinked Datasets (VoID) [9] allow
+for representing meta-data about graphs, while services such as DataHub [41] provide a central
+repository of such dataset descriptions. Access protocols that enable Accessibility will be discussed
+in Section 9.2, while mechanisms for authorisation will be discussed in Section 9.3. With respect to
+Interoperability, as discussed in Section 4, ontologies serve as a general knowledge representation
+formalism, and can in turn be used to describe vocabularies that follow FAIR principles. Finally,
+regarding Reusability, licensing will be discussed in Section 9.3, while the PROV Data Model [181]
+discussed in Section 3 allows for capturing detailed provenance.
+
+A number of knowledge graphs have been published using FAIR principles, where Wilkinson
+et al. [524] explicitly mention Open PHACTS [193], a data integration platform for drug discovery,
+and UniProt [492], a large collection of protein sequence and annotation data, as conforming to
+FAIR principles. Both datasets offer graph views of their content through the RDF data model.
+
+9.1.2 Linked Data Principles. Wilkinson et al. [524] state that FAIR Principles “precede implemen-
+tation choices”, meaning that the principles do not cover how they can or should be achieved.
+Preceding the FAIR Principles by almost a decade are the Linked Data Principles, proposed by
+Berners-Lee [37], which provide a technical basis for one possible way in which these FAIR Princi-
+ples can be achieved. Specifically the Linked Data Principles are as follows:
+
+(1) Use IRIs as names for things.
+
+(2) Use HTTP IRIs so those names can be looked up.
+
+(3) When a HTTP IRI is looked up, provide useful content about the entity that the IRI names
+using standard data formats.
+
+(4) Include links to the IRIs of related entities in the content returned.
+
+These principles were proposed in a Semantic Web setting, where for principle (3), the standards
+based on RDF (including RDFS, OWL, etc.) are currently recommended for use, particularly because
+they allow for naming entities using HTTP IRIs, which further paves the way for satisfying all four
+principles. As such, these principles outline a way in which (RDF) graph-structured data can be
+published on the Web such that these graphs are interlinked to form what Berners-Lee [37] calls a
+“Web of Data”, whose goal is to increase automation on the Web by making content available not
+
+64

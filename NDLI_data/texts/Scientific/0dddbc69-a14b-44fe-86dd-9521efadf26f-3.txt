@@ -1,0 +1,68 @@
+the same entry in a knowledge base. The corpus was annotated by two annotators over the course of six weeks.
+
+3 Annotation Principles
+
+This section explains the principles of our annotation approach. The application of these principles for annotating
+the FCC follows in Section 4.
+
+Annotation Unit. As mentioned previously, cross-subtopic event coreference links occur sparsely throughout
+a set of documents. We therefore propose to annotate event mentions entirely at the sentence level. In doing so,
+we trade mention span granularity for an increased density of the coreference phenomenon we seek to annotate,
+which in turn ensures an affordable annotation. Another implication is that the annotation of sentences becomes
+a multi-label task, because a single sentence can mention multiple events. The definition of what triggers an
+event mention within a sentence remains a separate question and is unaffected by the change of the annotation
+unit. A sentence mentioning an event may depend on participants, time or location mentioned elsewhere in the
+document. Therefore, annotating and resolving mentions requires the full document for context.
+
+Annotation Objective. We frame the annotation task as a variation of event linking. Given a query sentence,
+several preceding sentences for context and a predefined set of events, annotators need to select the subset of
+events which are explicitly mentioned in the query sentence. In the end, all sentences linked to the same event
+e will form an event coreference cluster corresponding to e. Note that the set of events is mainly an aid for
+annotation and needs not to be provided to coreference resolution systems at training or test time.
+
+Conceptually, the only assets required in our approach are a set of events and a loosely related set of documents.
+In domains where the set of to-be-annotated events is known prior to the annotation, such a set of events either
+already exists or is easy to construct. Furthermore, given the complexity of annotating cross-document event
+coreference, the opportunity of scaling up the annotation far outweighs the comparably small effort of defining
+such a set.
+
+Past work on event coreference annotation [BH08; Hov+13b; Vos+18] demonstrated that structuring events in
+a hierarchical fashion offers benefits, for example by separating events that are distinct but conceptually related,
+which leads to more precise annotations if the hierarchy is relayed to human annotators. We therefore impose a
+hierarchical structure on the set of to-be-annotated events via the subevent relation. We follow the definitions of
+Hovy et al. [Hov+13b] and define that an event ¢; is considered a subevent of another event e2 if its respective
+action, participants, time and location are subsets of the corresponding properties of e2. Note that the annotation
+of a list of unrelated events remains possible with our proposed approach, since a list of events can be reformulated
+as a flat hierarchy.
+
+Annotation Workflow. For each document, we provide annotators with one predefined event hierarchy.
+Given a query sentence, we first ask annotators via binary yes/no question whether the sentence mentions events
+from the event hierarchy. If it does, annotators are supposed to select the subset of events from the hierarchy
+which are mentioned in the sentence explicitly or by a subevent.
+
+Annotation Aggregation and Agreement. We aggregate the annotations of the binary question into a
+gold standard using MACE [Hov+13a]. We obtain a multi-label annotation for each sentence and each annotator
+for the event linking annotations. Based on this information, we need to find the gold set of events E* which is
+most representative of all annotations.
+
+Identifying this set is challenging because one needs to distinguish between cases where high variance in the
+annotations stems from disagreeing annotators or from a genuine case of a sentence deserving multiple labels.
+Conceptually, any mention of an event implicitly also functions as a mention for all its super events (i.e. its
+ancestors in the event hierarchy). We therefore require that no two events standing in an ancestor relation to
+each other in the event hierarchy may be present in the gold set of events of a sentence. We framed the search for
+the optimal set E* as a constraint optimization problem based on this condition.
+
+We compute inter-annotator agreement using Krippendorff’s Alpha [Kri04]. Because our labels are sets of
+events, we follow the recommendations of Artstein and Poesio [AP08] and use the Jaccard index [Jac12] as a
+distance metric.
+
+ 
+
+4 A Corpus of Sports News Reports
+
+We applied our annotation approach to create the Football Coreference Corpus (FCC), the first corpus which
+focuses on cross-subtopic event coreference relations. Due to the sparsity of this event coreference phenomenon,
+one needs to draw a large sample of articles from the same topic to obtain sufficiently many and sufficiently
+large coreference clusters. We therefore decided to annotate documents from the sports domain, specifically
+
+25

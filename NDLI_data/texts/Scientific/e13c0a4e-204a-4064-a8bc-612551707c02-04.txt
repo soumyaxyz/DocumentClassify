@@ -1,0 +1,147 @@
+Weisfeiler and Leman go sparse
+
+ 
+
+ 
+
+Method QM9
+0.081 +0.003,
+0.034 +0.001
+0.068 +0.001 w
+0.088 +0.007 3
+0.062 +0.001
+0.046 +0.001 02
+
+0.029 +0.001
+
+ 
+ 
+      
+
+ 
+
+6-2-LGNN
+
+ 
+
+6-K-LGNN train
+— -R-LGNN test
+S-k-GNN train
+—— G-k-GNN test
+k-GNN train
+A-GNN test
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+(a) Mean std. MAE on QM9
+
+Epoch
+
+(b) ZINC
+
+ 
+
+(c) ALCHEMY
+
+Figure 1: Results for neural architectures.
+
+and k-IGN (Maron et al., 2019a), and show the benefits of
+our architecture in presence of continuous features, we used
+the QM9 regression dataset.” All datasets can be obtained
+from www. graphlearning.io.
+
+Kernels and Networks We implemented the 6-k-LWL, 6-k-
+LWLt, 6-k-WL, and k-WL kernel for k in {2, 3} and compare
+them to the standard baselines for graph kernels. We also
+implemented the neural architectures of Section 4, 6-k-LGNN,
+6-k-GNN, k-WL-GNN, and used the GIN and GIN-e archi-
+tecture (Xu et al., 2019) as neural baselines. For data with
+(continuous) edge features, we used a 2-layer MLP to map
+them to the same number of components as the node features
+and combined them using summation (GINE and GINE-e).?
+
+Results and Discussion In the following we answer ques-
+tions Q1 to Q3.
+
+Al Kernels See Table 1 and Table 5 in the appendix. The
+local algorithm, for k = 2 and 3, severely improves the
+classification accuracy compared to the k-WL and the
+6-k-WL (in some cases, by > 15%).
+
+Neural architectures See Figure | and Table 6 in the appendix.
+On the ZINC and ALCHEMY datasets, the 6-2-LGNN is on
+par or slightly worse than the 6-2-GNN. Hence, this is in
+contrast to the kernel variant. We assume that this is due
+to the 6-2-GNN being more flexible than its kernel variant
+in weighing the importance of global and local neighbors.
+This is further highlighted by the worse performance of the
+2-WL-GNN, which even performs worse than GINE-< on
+the ZINC dataset. On the QM9 dataset, see Figure la, the
+6-2-LGNN performs better than the higher-order methods
+from (Maron et al., 2019a; Morris et al., 2019) while being
+on par with the MPNN architecture. We note here that the
+MPNN was specifically tuned to the QM9 dataset, which is
+not the case for the 6-2-LGNN (and the other higher-order
+architectures).
+
+A2 See Table 1. The 6-2-LWL* improves over the 5-2-LWL
+on all datasets excluding ENZYMES. For example, on
+
+We opted for comparing on the QM9 dataset to ensure a fair
+comparison concerning hyperparameter selection.
+
+We opted for not implementing the 6-k-LGNN¢ as it would
+involve precomputing #, see Appendix E.
+
+Table 2: Average speed up ratios over all epochs (training and
+testing)
+
+for local, neural architecure.
+Dataset
+
+Method ZINC (10k) ALCHEMY (10K)
+‘2 GINE-< 0.2 04
+3 2-WLGNN 22 1
+a 6-2-GNN 2.5 Ly
+6-2-LGNN 1.0 1.0
+
+IMDB-BINARY, IMDB-MULTI, NCI1, NCI109, and
+PROTEINS the algorithm achieves an improvement over
+of 4%, respectively, achieving a new state-of-the-art. The
+computation times are only increased slightly. Similar results
+can be observed on the medium-scale datasets, see Table 5 in
+the appendix.
+
+A3 Kernels: See Tables 7 and 8 in the appendix. The local al-
+gorithm severely speeds up the computation time compared to
+the 6-k-WL and the k-WL for k = 2 and 3, demonstrating the
+suitability of the local algorithms for practical applications.
+Neural architectures: See Table 2. The local algorithm
+severely speeds up the computation time of training and
+testing. Especially, on the ZINC dataset, which has larger
+graphs compared to the ALCHEMY dataset, the d-2-LGNN
+achieves a computation time that is more than two times lower
+compared to the J-2-GNN and the 2-WL-GNN.
+
+6. Conclusion
+
+We verified that our local, sparse algorithms lead to vastly
+reduced computation times compared to their global, dense
+counterparts while establishing new state-of-the-art results
+on a wide range of benchmark datasets. Moreover, we also
+showed strong theoretical guarantees on the expressiveness of
+these algorithms. Future work includes a more fine-grained
+analysis of the proposed algorithm, e.g., moving away from
+the restrictive graph isomorphism objective and deriving a
+deeper understanding of the neural architecture’s capabilities
+when optimized with stochastic gradient descent.

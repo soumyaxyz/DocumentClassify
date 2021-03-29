@@ -1,0 +1,54 @@
+Weisfeiler and Leman go sparse
+
+ 
+
+ 
+
+Figure 5: Unrollings L; = L'-UNR [G,s, q] and Ly = L*-UNR |G, t, q] of sufficiently large depth.
+
+partition D,,...,D, corresponding to their unrolling trees after  — 1 rounds of k-WL, where for 7 in [p], Ci, and D; have the
+same size and correspond to the same isomorphism type of the unrolling tree. By induction hypothesis, the j-neighborhoods
+of s and t have an identical color profile after @ — 1 rounds. Finally, since the depth ¢ — 1 trees UNR[G,s, ¢ — 1] and
+UNR [G, t, 2 — 1 are trivially isomorphic, the tuples s and t have the same color after ¢ — 1 rounds. Therefore, k-WL must
+assign the same color to s and t after ¢ rounds.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Using identical arguments, we can state the analogue of Lemma 6 for the algorithms 5-k-WL, 6-k-LWL, 5-k-LWL*, and their
+corresponding unrolling constructions 6-UNR , L-UNR and Lt-UNR. The proof is identical and is hence omitted.
+
+Lemma 7. The following statements hold.
+
+1. The colors of s and t after ¢ rounds of 5-k-WL are identical if and only if the unrolling tree /-UNR [G, s, ¢] is isomorphic
+to the unrolling tree 6-UNR [G, t, 4].
+
+2. The colors of s and t after @ rounds of 6-k-LWL are identical if and only if the unrolling tree L-UNR [G, s, ¢] is isomorphic
+to the unrolling tree L-UNR [G, t, 4].
+
+3. The colors of s and t after ¢ rounds of 6-k-LWL* are identical if and only if the unrolling tree L'-UNR [G,s, 4] is
+isomorphic to the unrolling tree L'-UNR (G, t, 4].
+
+Equivalence. The following Lemma establishes that the local algorithm 5-k-LWL* is at least as powerful as the global
+6-k-WL, for connected graphs, i.e., 6-k-LWLt C 6-k-WL.
+
+Lemma 8. Let G be a connected graph, and let s,t € V(G)*. If the stable colorings of s and t under 6-k-LWL* are identical,
+then the stable colorings of s and t under 6-k-WL are also identical.
+
+Proof. Let r* denote the number of rounds needed to attain the stable coloring under 6-k-LWL*. Consider unrollings
+L, =Lt-UNR[G,s, q] and Lz = L*-UNR [G, t, q] of sufficiently large depth g = r* + |V(G)| + 1. Since s and t have the
+same stable coloring under 6-k-LWLY, the trees L; and L2 are isomorphic (by Lemma 7). Let @ be an isomorphism from L, to
+Lp.
+
+We prove the following equivalent statement. If Z1 and Ly are isomorphic, then for all i > 0, 6-UNR [G, s, i] = 6-UNR [G, t, @].
+The proof is by induction on i. The base case i = 0 follows trivially by comparing the isomorphism types of s and t.
+
+For the inductive case, let j € [Kk]. Let Xj be the set of j-neighbors of s. Similarily, let Y; be the set of j-neighbors of t. Our
+goal is to construct, for every j € [k], a corresponding bijection 7; between Xj and Y;; satisfying the following conditions.
+
+1. For all x in Xj, x is a local j-neighbor of s if and only if o;(x) is a local j-neighbor of t.

@@ -1,0 +1,48 @@
+17 Quantum Groups
+
+ 
+
+as A(a) = a(1) ® (2). Here the subscripts (1) and (2) refer to the corresponding tensor
+
+factors.
+
+Definition 1.2.6. A vector space A is called a bialgebra if it is an algebra and a coalge-
+bra along with the condition that A: A> A® A ande: A= C are algebra homomor-
+
+phisms ( equivalently, m:A@®A— A andn:C— A are coalgebra co-homomorphisms
+).
+
+Definition 1.2.7. A bialgebra A is called a Hopf algebra if there exists a linear map
+&:A-— A called the antipode or the coinverse of A, such that mo (Kk @id)A = noe=
+mo(id@kt)oA.
+
+Dual Hopf algebra
+
+Let us consider a finite dimensional Hopf algebra A. Then the dual vector space A’ is
+an algebra with respect to the multiplication f g(a) = (f@g)A(a). Moreover, for f in A’,
+one defines the functional A(f) € (A@A)’ by A(f)(a@b) = f(ab), a, bin A. Since A is
+finite dimensional, (A@.A)! = A’@ A’ and so A(f) belongs to A’@A’. Then the algebra
+A’ equipped with the comultiplication A, antipode « defined by (Kf)(a) = f(K(a)),
+counit €4: defined by e4(f) = f(1) and 1y(a) = e(a) gives a Hopf algebra. This is
+called the dual Hopf algebra of A.
+
+Definition 1.2.8. A Hopf *-algebra is a Hopf algebra (A, A,K,€ ) endowed with an
+involution * which maps a to an element denoted by a* satisfying the following proper-
+ties:
+1. For alla,b in A, a, 8 in C, (wat 3b)* = wa* + Bb*, (a*)* =a, (a.b)* = b*a*.
+2. A:A—>A@A is a *-homomorphism which means that A(a*) = A(a)* where
+the involution on A® A is defined by (a @ b)* = a* @ b*.
+
+Proposition 1.2.9. In any Hopf *-algebra (A, A,K,€ ), we have
+1. e(a*) = (a) for alla in A.
+2. K(K(a*)*) =a for alla in A.
+
+We recall that the dual algebra A’ of a Hopf +-algebra A is a *-algebra with involution
+defined by
+f*(a) = f(k(a)*), for f in A’.
+
+Dual Pairing
+A left action of a Hopf «algebra ( U,Ay,Ky,ey ) on another Hopf *-algebra (
+A, Ay, &4,€4 ) is a bilinear form >: U x A — C if the following conditions hold:
+
+(1) f > (a1a2) = Au(f) > (a1 @ a2), (fifo) Pa = (fi @ fo) > Aula);

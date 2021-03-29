@@ -1,0 +1,54 @@
+8.5. CENTRALIZERS IN ANISOTROPIC G2 85
+
+element of SU(3) can be diagonalized in SU(3). Hence characteristic polynomial of
+A over L is either (X — a)(X — B)(X — y) or (X — a)(X — 8).
+
+If A has three distinct roots and none of them is 1 then the element ¢ is regular
+in G and the centralizer is a maximal torus in G (ref. Lemma 8.5.7). In this case
+centralizer is contained in the subgroup SU(3) and is a maximal torus of SU(3). As
+all maximal tori of G are conjugate we have one conjugacy class of centralizers of
+these elements. Now suppose t has repeated roots then with respect to some basis
+
+A = diag{a, 3, 3} where neither of a, 3 is 1 and the centralizer (ref. Lemma 8.5.7)
+
+Zg(t) © Zsuya)(A) = i( an " ) Ise ey
+
+If t leaves a quaternion subalgebra Q fixed (i.e. the characteristic polynomial of t
+has 1 as a root) then A is either diag{1, —1, —1}, an involution in G, or diag{1, a, a}
+for some a € L of norm 1. If ¢ is an involution the centralizer is whole of the
+subgroup G(¢/L) = SU(3) (from remark following Lemma 8.5.5). And when t is not
+an involution the centralizer Zg(t) © Zsug)(A) U {B € SU(3) | AB = BA}.
+
+Lemma 8.5.8. Let € be the octonion division algebra over R and G = Aut(€).
+Lett € Gand LC € be the quadratic field extension of R left pointwise fixed by t,
+i.e., t € G(€/L). Suppose t is not an involution. Then, Zg(t) C G(€/L) if and only
+
+if t does not leave any quaternion subalgebra fixed pointwise.
+
+Proof. If t € G(€/L) does not leave any quaternion subalgebra fixed pointwise
+then the characteristic polynomial of t does not have 1 as a root. Hence from
+Lemma 8.5.5 it follows that Zg(t) C G(€/L). Now suppose t € G(€/L) leaves a
+quaternion subalgebra @ fixed pointwise. By using Theorem 3.2.8 we may assume Q
+contains L. Ast € G(€/L) = SU(3) the corresponding matrix A can be diagonalized
+in the subgroup SU(3). We write the matrix of t as A = diag{1,a, a} for some a € L
+with ad = 1. We claim that there exists an element B € SU(3) such that AB = BA.
+
+-1 00
+We take B = 0 0 1 | and check that B € SU(3) and AB = BA. From
+0.10
+
+ 
+
+ 
+
+remark following Lemma 8.5.5 we see that Z(t) is not contained in G(€/L).
+
+ 
+
+ 
+
+In this case the centralizer is not contained in the subgroup G(€/L) = SU(3). As al
+quaternion division algebras over R are isomorphic and all quadratic field extensions
+contained in any of the quaternion algebras are isomorphic, we have one conjugacy
+
+class of centralizers of non-involutions.

@@ -1,0 +1,137 @@
+References
+
+Alan Akbik, Duncan Blythe, and Roland Vollgraf.
+2018. Contextual string embeddings for sequence
+labeling. In Proceedings of COLING.
+
+Taylor Berg-Kirkpatrick, David Burkett, and Dan
+Klein. 2012. An empirical investigation of statis-
+tical significance in nlp. In Proceedings of EMNLP-
+CoNLL.
+
+Wanxiang Che, Yijia Liu, Yuxuan Wang, Bo Zheng,
+and Ting Liu. 2018. Towards better UD parsing:
+Deep contextualized word embeddings, ensemble,
+and treebank concatenation. In Proceedings of the
+CoNLL 2018 Shared Task: Multilingual Parsing
+from Raw Text to Universal Dependencies.
+
+Jason P. C. Chiu and Eric Nichols. 2016. Named entity
+recognition with bidirectional Istm-cnns. Transac-
+
+tions of the Association of Computational Linguis-
+tics, 4:357-370.
+
+Corinna Cortes and Vladimir Vapnik. 1995. Support-
+vector networks. Machine learning, 20(3):273-297.
+
+Ryan Cotterell and Kevin Duh. 2017. Low-
+resource named entity recognition with cross-
+lingual, character-level neural conditional random
+fields. In Proceedings of IJCNLP.
+
+Alessandro Cucchiarelli and Paola Velardi. 2001. Un-
+supervised named entity recognition using syntactic
+and semantic contextual evidence. Computational
+Linguistics, 27(1):123-131.
+
+Marie-Catherine De Marneffe, Bill MacCartney,
+Christopher D Manning, et al. 2006. Generat-
+ing typed dependency parses from phrase structure
+parses. In Proceedings of LREC.
+
+Marie-Catherine De Marneffe and Christopher D Man-
+ning. 2008. Stanford typed dependencies manual.
+Technical report, Stanford University.
+
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and
+Kristina Toutanova. 2019. BERT: Pre-training of
+deep bidirectional transformers for language under-
+standing. In Proceedings of NAACL.
+
+Li Dong and Mirella Lapata. 2018. Coarse-to-fine de-
+coding for neural semantic parsing. In Proceedings
+of ACL.
+
+Timothy Dozat and Christopher D Manning. 2017.
+Deep biaffine attention for neural dependency pars-
+ing. In Proceedings of ICLR.
+
+Jenny Rose Finkel, Trond Grenager, and Christopher
+Manning. 2005. Incorporating non-local informa-
+tion into information extraction systems by gibbs
+sampling. In Proceedings of ACL.
+
+Jenny Rose Finkel and Christopher D Manning. 2009.
+Joint parsing and named entity recognition. In Pro-
+ceedings of NAACL.
+
+Matt Gardner, Joel Grus, Mark Neumann, Oyvind
+Tafjord, Pradeep Dasigi, Nelson F. Liu, Matthew
+Peters, Michael Schmitz, and Luke S. Zettlemoyer.
+2017. Allennlp: A deep semantic natural language
+processing platform. In Proceedings of Workshop
+for NLP-OSS.
+
+Abbas Ghaddar and Phillippe Langlais. 2018. Robust
+lexical features for improved neural network named-
+entity recognition. In Proceedings of COLING.
+
+Edouard Grave, Piotr Bojanowski, Prakhar Gupta, Ar-
+mand Joulin, and Tomas Mikolov. 2018. Learning
+word vectors for 157 languages. In Proceedings of
+LREC.
+
+Sepp Hochreiter and Jiirgen Schmidhuber. 1997.
+Long short-term memory. Neural computation,
+9(8):1735-1780.
+
+Matthew Honnibal and Ines Montani. 2017. spaCy 2:
+Natural language understanding with bloom embed-
+dings, convolutional neural networks and incremen-
+tal parsing. To appear.
+
+Zhanming Jie, Aldrian Obaja Muis, and Wei Lu. 2017.
+Efficient dependency-guided named entity recogni-
+tion. In Proceedings of AAAI.
+
+Thomas N Kipf and Max Welling. 2017. Semi-
+supervised classification with graph convolutional
+networks. In Proceedings of ICLR.
+
+Terry Koo and Michael Collins. 2010. Efficient third-
+order dependency parsers. In Proceedings of ACL.
+
+John Lafferty, Andrew McCallum, and Fernando
+Pereira. 2001. Conditional random fields: Prob-
+abilistic models for segmenting and labeling se-
+quence data. In Proceedings of ICML.
+
+Guillaume Lample, Miguel Ballesteros, Sandeep Sub-
+ramanian, Kazuya Kawakami, and Chris Dyer. 2016.
+Neural architectures for named entity recognition.
+In Proceedings of NAACL-HLT.
+
+Kenton Lee, Luheng He, Mike Lewis, and Luke Zettle-
+moyer. 2017. End-to-end neural coreference resolu-
+tion. In Proceedings of EMNLP.
+
+Peng-Hsuan Li, Ruo-Ping Dong, Yu-Siang Wang, Ju-
+Chieh Chou, and Wei-Yun Ma. 2017. Leverag-
+ing linguistic structures for named entity recognition
+with bidirectional recursive neural networks. In Pro-
+ceedings of EMNLP.
+
+Xiao Ling and Daniel S Weld. 2012. Fine-grained en-
+tity recognition. In Proceedings of AAAI.
+
+Jingchen Liu, Minlie Huang, and Xiaoyan Zhu. 2010.
+Recognizing biomedical named entities using skip-
+chain conditional random fields. In Proceedings of
+the Workshop on BioNLP.
+
+Xuezhe Ma and Eduard Hovy. 2016. End-to-end se-
+quence labeling via bi-directional Istm-cnns-crf. In
+Proceedings of ACL.
+
+3871

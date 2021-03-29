@@ -1,0 +1,8 @@
+Set and Fuzzy set
+
+Set
+A={x|xe Xx}
+
+Fuzzy set
+
+A= {(x,Hz(x)) |x X}

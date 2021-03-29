@@ -1,0 +1,72 @@
+EIRINI PAPAGIANNOPOULOU AND GRIGORIOS TSOUMAKAS 45
+
+ 
+
+{(xml), (automata), (firstord, logic), (express), (pebb!)
+
+(monad, secondord, logic), (inf init, alphabet), (regist)}
+The MR’s result set is given in the first box below, followed by its stemmed version in the second box. The words
+
+that are both in the golden set and in the set of our candidates are highlighted with bold typeface:
+
+ 
+
+{pebbles, mso, finite set, set, proof, strings, pebble automata, automata, positions, data values}
+
+ 
+
+ 
+
+ 
+
+{(pebbl), (mso), (finit, set), (set), (proof), (string), (pebbl, automata), (automata), (posit), (data, valu)}
+
+ 
+
+ 
+
+According to the exact match evaluation, the top-10 returned candidate keyphrases by MR include 2 True Posi-
+tives (TPs), the unigram phrases pebbles and automata, 8 False Positives (FPs) and 6 False Negatives (FNs). Hence,
+
+precision =0.20_ recall=0.25 Fy =0.22
+
+However, partial match evaluation approach uses the stemmed set of words found in all golden keyphrases, i.e.:
+
+{(xml), (automata), (firstord), (logic), (express), (pebb!),(monad), (secondord), (inf init), (alphabet), (regist)}
+and the set of words found in all extracted keyphrases by MR, i.e.:
+
+ 
+
+{(pebbl), (mso), (finit), (set), (proof), (string), (automata), (posit), (data), (valu)}
+
+ 
+
+ 
+
+ 
+
+According to the partial match evaluation, the top-10 returned candidate keyphrases by MR include 2 TPs, pebbles
+and automata, 8 FPs and 9 FNs. Hence,
+
+precision =0.20__ recall=0.18 Fy, =0.19
+
+So, it is quite usual in cases where there are unigram keyphrases as TPs and multiword keyphrases as FPs/FNs,
+the exact match Fj-score to be higher than the partial match F,-score. Note that both evaluation approaches fail to
+recognize as TP the unigram keyphrase mso which is an abbreviation of the multiword keyphrase monadic second-order
+logic. Finally, in Appendix we give[AJan example where the partial match evaluation can be considered as harmful
+
+compared to the strict exact match evaluation.
+
+7 | CONCLUSIONS AND FUTURE DIRECTIONS
+
+Keyphrases are multi-purpose knowledge gems. They constitute a concise summary of documents that is extremely
+useful both for human inspection and machine consumption, in support of tasks such as faceted search, document
+classification and clustering, query expansion and document recommendation. Our article reviews the existing body of
+work on keyphrase extraction and presents a comprehensive organization of the material that aims to help newcomers
+and veterans alike navigate the large amount of prior art and grasp its evolution.
+
+We present a large number of both unsupervised and supervised keyphrase extraction methods, including re-
+cent deep learning methods, categorizing them according to their main features and properties, and highlighting their
+strengths and weaknesses. We discuss the challenges that supervised methods face, namely the subjectivity that char-
+
+acterizes the existing annotated datasets and the imbalance of keyphrases versus non-keyphrases. In addition, we

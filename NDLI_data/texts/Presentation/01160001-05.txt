@@ -1,0 +1,21 @@
+Electrolyte Nickel sulphate (NiSO,.6H,O): 350 g/I
+(Watt’s bath) Nickel chloride (NiCI,.6H,O): 45 g/I
+Boric acid (H,BO,): 37 g/I
+Wetting agent Sodium dodecyl sulphate: 0.2 g/l
+
+| eee | Hexadecylpyridinium bromide: 0, 0.1, 0.3 g/l
+Titania (TiO,): 5, 10, 15 g/l
+
+ 
+
+ 
+
+Current density 5 A/dm?
+
+Plating time 30 minutes
+Potential Flat DC
+
+ 
+
+pH
+Temperature (°C)

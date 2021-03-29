@@ -1,0 +1,73 @@
+50 EIRINI PAPAGIANNOPOULOU AND GRIGORIOS TSOUMAKAS
+
+ 
+
+Kim, S. N., Medelyan, O., Kan, M. and Baldwin, T. (2013) Automatic keyphrase extraction from scientific articles. Language
+Resources and Evaluation, 47, 723-742. URL: https: //doi.org/10.1007/s10579-012-9210-3,
+
+El-Kishky, A., Song, Y., Wang, C., Voss, C. R. and Han, J. (2014) Scalable topical phrase mining from text corpora. PVLDB, 8,
+305-316. URL: http://www. vldb. org/pvldb/vol8/p305-ElKishky . pdf
+
+Kleinberg, J. M. (1999) Authoritative sources in a hyperlinked environment. Journal of the ACM, 46, 604-632. URL: ht
+//doi.acm.org/10.1145/324133.324140.
+
+Krapivin, M., Autayeu, A. and Marchese, M. (2008) Large dataset for keyphrases extraction. In Technical Report DISI-O9-055.
+Trento, Italy.
+
+ 
+
+Langville, A. N. and Meyer, C. D. (2003) Survey: Deeper inside pagerank. Internet Mathematics, 1, 335-380. URL:
+‘doi. org/10. 1080/15427951 .2004. 1012909
+
+ 
+
+Lau, J. H. and Baldwin, T. (2016) An empirical evaluation of doc2vec with practical insights into document embedding genera-
+tion. In Proceedings of the 1st Workshop on Representation Learning for NLP, Rep4NLP@ACL 2016, Berlin, Germany, August 11,
+
+2016, 78-86. URL: https: //doi.org/10.18653/v1/W16- 1609.
+
+Lin, C. and Hovy, E. H. (2003) Automatic evaluation of summaries using n-gram co-occurrence statistics. In Proceedings of the
+Human Language Technology Conference of the North American Chapter of the Association for Computational Linguistics, HLT-
+
+NAACL 2003, Edmonton, Canada, May 27 - June 1, 2003. URL: http: //aclweb. org/anthology/N/N0O3/NO3- 1020. pdf
+
+Liu, Z., Huang, W., Zheng, Y. and Sun, M. (2010) Automatic keyphrase extraction via topic decomposition. In Proceedings of
+the 2010 Conference on Empirical Methods in Natural Language Processing, EMNLP 2010, MIT Stata Center, Massachusetts,
+USA, October 9-11, 2010, A meeting of SIGDAT, a Special Interest Group of the ACL, 366-376. URL: http: //www.aclweb.org/|
+
+Liu, Z., Li, P, Zheng, Y. and Sun, M. (2009) Clustering to find exemplar terms for keyphrase extraction. In Proceedings of the
+2009 Conference on Empirical Methods in Natural Language Processing, EMNLP 2009, Singapore, August 6-7, 2009, A meeting
+
+of SIGDAT, a Special Interest Group of the ACL, 257-266. URL: http://www. aclweb. org/anthology/D09- 1027.
+
+Liu, L. and Ozsu, M. T. (eds.) (2009) Encyclopedia of Database Systems. Springer US. URL: https: //doi.org/10.1007/978-0-,
+(387-39940-9)
+
+Mahata, D., Kuriakose, J., Shah, R. R. and Zimmermann, R. (2018) Key2vec: Automatic ranked keyphrase extraction from scien-
+tific articles using phrase embeddings. In Proceedings of the 2018 Conference of the North American Chapter of the Association
+for Computational Linguistics: Human Language Technologies, NAACL-HLT, New Orleans, Louisiana, USA, June 1-6, 2018, Volume
+
+2 (Short Papers), 634-639. URL: https: //aclanthology . info/papers/N18-2100/n18-2100.
+
+Marujo, L., Gershman, A., Carbonell, J. G., Frederking, R. E. and Neto, J. P. (2012) Supervised topical key phrase extraction of
+news stories using crowdsourcing, light filtering and co-reference normalization. In Proceedings of the Eighth International
+Conference on Language Resources and Evaluation, LREC 2012, Istanbul, Turkey, May 23-25, 2012, 399-403. URL:
+
+www. lrec- conf. org/proceedings/1rec2012/summaries/672. html
+
+Marujo, L., Viveiros, M. and Neto, J. P. (2011) Keyphrase cloud generation of broadcast news. In Proceedings of the INTER-
+SPEECH 2011, 12th Annual Conference of the International Speech Communication Association, Florence, Italy, August 27-31,
+
+2011, 2393-2396. URLinttp://www. isca-speech .org/archive/interspeech_2011/i11_2393. html
+
+ 
+
+Mcllraith, S. A. and Weinberger, K. Q. (2018) Learning feature representations for keyphrase extraction. In Proceedings of
+the Thirty-Second AAAI Conference on Artificial Intelligence, New Orleans, Louisiana, USA, February 2-7, 2018. URL:
+
+//uwa.aaai.org/ocs/index. php/AAAI/AAAI18/schedConf/presentations|
+
+Medelyan, O., Frank, E. and Witten, I. H. (2009) Human-competitive tagging using automatic keyphrase extraction. In Proceed-
+ings of the 2009 Conference on Empirical Methods in Natural Language Processing, EMNLP 2009, Singapore, August 6-7, 2009, A
+
+meeting of SIGDAT, a Special Interest Group of the ACL, 1318-1327. URL: http: //www.aclweb.org/anthology/D09- 1137.

@@ -1,0 +1,35 @@
+Can be retrieved and read at a time and place that is convenient and
+suitable;
+
+Can be sent to multiple locations and people with “Carbon copies” at the
+same time;
+
+Can mark “Blind carbon copies” to those recipients wishing to maintain
+their privacy without displaying their names;
+
+May be exchanged within a very short time;
+
+Can include the text of a previous e mail message as part of a reply to a
+message;
+
+Copy and paste text from other message or files;
+
+Automatic reply is possible without having to repeat the sender's address
+again;
+
+Can forward the same message to others;
+
+Can be sent to large groups of people through distributed lists or groups,
+common are ‘Listservs’, “Newsgroups like Usenet”, “Discussion forums”
+etc. The membership boundary of the e-mail interactive space is as
+flexible as its members want it to be.
+
+Plain text and Multimedia files such as images, audio, video files can be
+sent as attachments;
+
+Digital signatures can be incorporated at the bottom of the message for
+official transactions;
+
+Can be sent and retrieved from any computer anywhere in the world;
+
+Messages can be kept postponed for any time before sending;

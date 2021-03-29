@@ -1,0 +1,104 @@
+Bibliography 171
+
+197] Ly, Y. and Zhai, C. (2009). A comparative study of methods for estimating query language
+
+models with pseudo feedback. In CIKM ’09: Proceeding of the 18th ACM conference on Information
+
+and knowledge management, pages 1895-1898, New York, NY, USA. ACM. (Cited on Pages 55
+
+and 96.)
+
+198] Madsen, R. E., Kauchak, D., and Elkan, C. (2005). Modeling word burstiness using the Dirichlet
+
+distribution. In ICML ’05: Proceedings of the 22nd international conference on Machine learning,
+
+pages 545-552, New York, NY, USA. ACM. (Cited on Page 14.)
+
+199] Maedche, A. and Volz, R. (2001). The ontology extraction maintenance framework text-to-
+
+onto. Proceedings of the IEEE International Conference on Data Mining. (Cited on Page 37.)
+
+200] Malaisé, V., Gazendam, L., and Brugman, H. (2007). Disambiguating automatic semantic
+
+annotation based on a thesaurus structure. TALN 2007: Actes de la 14e conférence sur le Traitement
+Automatique des Langues Naturelles. (Cited on Pages 37 and 124.)
+
+201] Manning, C. D. and Schuetze, H. (1999). Foundations of Statistical Natural Language Processing.
+
+The MIT Press. (Cited on Page 14.)
+
+202] Manning, C. D., Raghavan, P., and Schiitze, H. (2008). Introduction to Information Retrieval.
+
+Cambridge University Press. (Cited on Pages 42 and 60.)
+
+203] Maron, M. E. and Kuhns, J. L. (1960). On relevance, probabilistic indexing and information
+
+retrieval. J. ACM, 7(3), 216-244. (Cited on Pages 4 and 12.)
+
+204] Mccallum, A. and Nigam, K. (1998). A comparison of event models for naive bayes text clas-
+
+sification. In Proc. AAAI-98 Workshop on Learning for Text Categorization, pages 41-48. (Cited on
+Page 14.)
+
+205] Medelyan, O., Milne, D., Legg, C., and Witten, I. H. (2009). Mining meaning from Wiki-
+
+pedia. International Journal of Human-Computer Studies, 67(9), 716-754. (Cited on Pages 30, 33,
+and 144.)
+
+206] Mei, Q., Zhang, D., and Zhai, C. (2008). A general optimization framework for smoothing
+
+language models on graph structures. In SIGIR 08: Proceedings of the 31st annual international
+
+ACM SIGIR conference on Research and development in information retrieval, pages 611-618, New
+
+York, NY, USA. ACM. (Cited on Page 17.)
+
+207] Meij, E. (2008). Towards a combined model for search and navigation of annotated documents.
+
+In SIGIR ’08: Proceedings of the 31st annual international ACM SIGIR conference on Research and
+
+development in information retrieval, page 898, New York, NY, USA. ACM. (Cited on Page 10.)
+
+208] Meij, E. and de Rijke, M. (2007a). Integrating Conceptual Knowledge into Relevance Models:
+A Model and Estimation Method. In ICTIR ’07: Proceedings of the 1st International Conference on
+
+Theory of Information Retrieval. (Cited on Pages 10 and 27.)
+
+209] Meij, E. and de Rijke, M. (2007b). Thesaurus-based feedback to support mixed search and
+browsing environments. In L. Kovacs, N. Fuhr, and C. Meghini, editors, ECDL, volume 4675 of
+Lecture Notes in Computer Science, pages 247-258. Springer. (Cited on Pages 10, 21, 27, 33,
+and 88.)
+
+210] Meij, E. and de Rijke, M. (2007c). Using prior information derived from citations in literature
+
+search. In D. Evans, S. Furui, and C. Soulé-Dupuy, editors, RIAO. CID. (Cited on Pages 10 and 16.)
+
+211] Meij, E. and de Rijke, M. (2008). The University of Amsterdam at the CLEF 2008 Domain.
+
+Specific Track - parsimonious relevance and concept models. In CLEF 08 Working Notes. (Cited on
+Page 94.)
+
+212] Meij, E. and de Rijke, M. (2009). Concept models for domain-specific search. In CLEF’08: Pro-
+
+eedings of the 9th Cross-language evaluation forum conference on Evaluating systems for multilingual
+
+and multimodal information access, pages 207-214, Berlin, Heidelberg. Springer-Verlag. (Cited on
+Page 10.)
+
+213] Meij, E. and de Rijke, M. (2010). Supervised query modeling using Wikipedia. In SIGIR
+
+’10: Proceeding of the 33rd international ACM SIGIR conference on Research and development in
+
+information retrieval, pages 875-876, New York, NY, USA. ACM. (Cited on Page 10.)
+
+214] Meij, E. and de Rijke, M. (Submitted). A comparative study of relevance feedback methods for
+query modeling. Information Retrieval. (Cited on Page 10.)
+
+215] Meij, E., Trieschnigg, D., de Rijke, M., and Kraaij, W. (2008a). Parsimonious concept modeling.
+In SIGIR ’08: Proceedings of the 31st annual international ACM SIGIR conference on Research and
+development in information retrieval, pages 815-816, New York, NY, USA. ACM. (Cited on Pages 10
+and 94.)
+
+216] Meij, E., Weerkamp, W., Balog, K., and de Rijke, M. (2008b). Parsimonious relevance models.
+
+2

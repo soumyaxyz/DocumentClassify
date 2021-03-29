@@ -1,0 +1,137 @@
+Discovering Mathematical Objects of Interest
+
+ 
+
+ 
+
+Category arXiv zbMATH
+Documents 841,008 1,349,297
+Formulae 294,151,288 11,747,860
+Subexpressions 2,508,620,512 61,355,307
+Unique Subexpressions 350,206,974 8,450,496
+Average Document Length 2,982.87 45.47
+Average Complexity 5.01 3.89
+Maximum Complexity 218 26
+
+ 
+
+Table 1: Dataset overview. Average Document Length is de-
+fined as the average number of subexpressions per docu-
+ment.
+
+dataset also appeared to contain fewer erroneous expressions, since
+expressions of complexity 25 are still readable and meaningful.
+
+Figure 1 shows the ratio of unique subexpressions for each com-
+plexity in both datasets. The figure illustrates that both datasets
+share a peak at complexity four. Compared to zbMATH, the arXiv
+expressions are slightly more evenly distributed over the different
+levels of complexities. Interestingly, complexities one and two are
+not dominant in either of the two datasets. Single identifiers only
+make up 0.03% in arXiv and 0.12% in zbMATH, which is comparable
+to expressions of complexity 19 and 14, respectively. This finding
+illustrates the problem of capturing semantic meanings for single
+identifiers rather than for more complex expressions [37]. It also
+substantiates that entire expressions, if too complex, are not suitable
+either for capturing the semantic meanings [23]. Instead, a mid-
+dle ground is desirable, since the most unique expressions in both
+datasets have a complexity between 3 and 5. Table 1 summarizes
+the statistics of the examined datasets.
+
+3.1 Zipf’s Law
+
+In linguistics, it is well known that word distributions follow Zipf’s
+Law [33], ie., the r-th most frequent word has a frequency that
+scales to
+
+f(r) = (5)
+
+with a ~ 1. A better approximation can be applied by a shifted
+distribution
+
+1
+f(r) rp’ (6)
+
+where a ~ 1 and f ~ 2.7. Ina study on Zipf’s law, Piantadosi [33]
+illustrated that not only words in natural language corpora follow
+this law surprisingly accurately, but also many other human-created
+sets. For instance, in programming languages, in biological systems,
+and even in music. Since mathematical communication has derived
+as the result of centuries of research, it would not be surprising if
+mathematical notations would also follow Zipf’s law. The primary
+conclusion of the law illustrates that there are some very common
+tokens against a large number of symbols which are not used fre-
+quently. Based on this assumption, we can postulate that a score
+based on frequencies might be able to measure the peculiarity of
+a token. The infamous TF-IDF ranking functions and their deriva-
+tives [1, 34] have performed well in linguistics for many years and
+are still widely used in retrieval systems [3]. However, since we
+split every expression into its subexpressions, we generated an
+anomalous bias towards shorter, i.e., less complex, formulae. Hence,
+distributions of subexpressions may not obey Zipf’s law.
+
+ 
+
+WWW 20, April 20-24, 2020, Taipei, Taiwan
+
+Frequency Distributions in zbMATH Complexity Distributions in 2bMATH
+
+   
+
+ 
+
+ 
+
+‘Top 8M Complexity Distributions in arxMLiv
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+‘
++ nts lan witna=230ara¢-1582
+
+Lone Frequency Rank Log Frequency Rank
+
+(a) Frequency Distributions (b) Complexity Distributions
+Figure 2: Each figure illustrates the relationship between the
+frequency ranks (x-axis) and the normalized frequency (y-
+axis) in zbMATH (top) and arXiv (bottom). For arXiv, only
+the first 8 million entries are plotted to be comparable with
+zbMATH (~8.5 million entries). Subfigure (a) shades the
+hexagonal bins from green to yellow using a logarithmic
+scale according to the number of math expressions that fall
+into a bin. The dashed orange line represents Zipf’s distri-
+bution (6). The values for a and f are provided in the plots.
+Subfigure (b) shades the bins from blue to red according to
+the maximum complexity in each bin.
+
+Figure 2 visualizes a comparison between Zipf’s law and the
+frequency distributions of mathematical subexpressions in arXiv
+and zbMATH. The dashed orange line visualizes the power law (6).
+The plots demonstrate that the distributions in both datasets obey
+this power law. Interestingly, there is not much difference in the
+distributions between both datasets. Both distributions seem to
+follow the same power law, with a = 1.3 and f = 15.82. Moreover,
+we can observe that the developed complexity measure seems to
+be appropriate, since the complexity distributions for formulae
+are similar to the distributions for the length of words [33]. In
+other words, more complex formulae, as well as long words in
+natural languages, are generally more specialized and thus appear
+less frequent throughout the corpus. Note that colors of the bins
+for complexities fluctuate for rare expressions because the color
+represents the maximum rather than the average complexity in
+each bin.
+
+3.2 Analyzing and Comparing Frequencies
+
+Figure 3 shows in detail the most frequently used mathematical ex-
+pressions in arXiv for the complexities 1 to 5. The orange dashed line
+visible in all graphs represents the normal Zipf’s law distribution
+from Equation (5). We explore the total frequency values without

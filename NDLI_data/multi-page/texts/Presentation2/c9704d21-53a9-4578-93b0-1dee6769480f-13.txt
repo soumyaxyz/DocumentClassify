@@ -1,0 +1,37 @@
+BI Component - Administration and Operations Layer— BI and DW
+
+Operations
+Metadata management: Metadata is data about data.
+
+Consider CD/DVD of music. There is the date of recording, the name of the artist, the genre of music, the
+songs in the album, copyright information, etc. All this information constitutes the metadata for the CD/DVD
+of music. In the context of a camera, the data is the photographic image. The metadata then is the date and
+time when the was taken. In simple words, metadata is data about data. When used in the context of a data
+warehouse, it is the data that defines the warehouse objects. Few examples of metadata are timestamp at
+which the data was extracted, the data sources from where metadata has been extracted, and the missing
+fields/columns that have been added by data cleaning or integration processes. Metadata management
+involves tracking, assessment, and maintenance of metadata.
+Metadata can be divided into four groups:
+
+— Business metadata
+
+— Process metadata
+
+— Technical metadata
+
+— Application metadata
+
+Application Metadata
+
+Source/target maps
+
+Transformation rules
+
+Data cleansing rules
+Extract audit trail
+
+Transform audit trail
+
+Load audit trail
+Data quality audit
+etc.

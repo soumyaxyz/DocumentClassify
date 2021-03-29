@@ -1,0 +1,122 @@
+[Wang et al., 2019] Qiang Wang, Bei Li, Tong Xiao, Jingbo
+Zhu, Changliang Li, Derek F. Wong, and Lidia S. Chao.
+Learning deep transformer models for machine translation.
+In ACL, 2019.
+
+[Weber et al., 2019] Leon Weber, Pasquale Minervini,
+Jannes Miinchmeyer, Ulf Leser, and Tim Rocktischel.
+Nlprolog: Reasoning with weak unification for question
+answering in natural language. In ACL, 2019.
+
+[Weston er al., 2016] J. Weston, A. Bordes, S. Chopra, and
+T. Mikolov. Towards AIl-Complete question answering: A
+set of prerequisite toy tasks. In JCLR, 2016.
+
+[Yang et al., 2018] Zhilin Yang, Peng Qi, Saizheng Zhang,
+Yoshua Bengio, William W Cohen, Ruslan Salakhutdinov,
+and Christopher D Manning. Hotpotqa: A dataset for di-
+verse, explainable multi-hop question answering. arXiv
+preprint arXiv: 1809.09600, 2018.
+
+Appendix
+
+A. Generating Theories
+
+Theories are built with a simple grammar, as follows. Pred-
+icates r(x, y) are expressed in infix notation (x r y) plus an
+extra polarity argument denoting if they are negated or not.
+
+ 
+
+theory = statement+
+statement = fact | rule
+fact = ( entity "is" attribute polarity )
+| C entity relation entity polarity )
+rule = ( (fact+) -> fact )
+
+entity = name | variable
+
+ 
+
+name = "Anne" | "Bob" "Charlie" ...
+variable = "something" | "someone" | "thing"
+attribute = "red" | "kind" | "nice" ...
+relation ikes "chases" | "eats" ..
+
+   
+
+    
+
+polarity +
+
+ 
+
+ 
+
+ 
+
+(, ), and -> denote symbols that appear in the final facts and
+tules. “polarity” denotes whether the fact is negated (‘“-”)
+or not (“+”). The three alternative variable names are sim-
+ple synonyms, for variability in language generation. An ex-
+ample theory (Type1, attributes with negation) following this
+grammar is:
+
+ 
+
+("Bob" "is" "big" "+
+("Bob" "is" "green
+("Bob" "is" "quiet"
+
+") // Bob is big.
+) // Bob is not green.
+
+") // Bob is not quiet.
+
+    
+ 
+
+// Nice, smart people are rough.
+
+((C"someone" "is" "nice" "+")
+smart" "+"))
+
+C"someone is
+-> ("someone is rough" "+"))
+
+// T£ someone is quiet and round then they are
+
+CCC"someone" "is" "quiet" "+") // not big.
+"someone" "is" "round" "+"))
+-> ("someone" "is" "big" "-"))
+
+// T£ Bob is not green then Bob is nice.
+(CC"Bob" "is" "green" "-"))
+-> ("Bob" "is" "nice" "+#")))
+
+ 
+
+ 
+
+ 
+
+We now provide details of how the generation is controlled.
+
+A.1 Names, Attributes, and Relations
+
+As described in Section 3.2, we generate two types of theo-
+ries, Typel (denoted “Att”) only contains attributes, and uses
+people names as entity names. Type2 (denoted “Rel’”) con-
+tains both attributes and relations, and uses animal names as
+entity names.
+
+Specifically, we use the following pools of names, at-
+tributes, and relations. For the Typel attribute (’Att”) the-
+
+ories:
+name-pool: ’Anne” Bob”
+*Fiona” ’Gary” Harry”
+
+.
+
+*Charlie” ’Dave” ” Erin’

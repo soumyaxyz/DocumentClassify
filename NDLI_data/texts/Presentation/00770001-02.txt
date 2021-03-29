@@ -1,0 +1,24 @@
+Introduction
+
+What is TEX?
+
+@ TEX is a digital typesetting program created by Prof. Donald Knuth
+of Stanford University
+@ Goals of designing:
+
+@ allow anybody to achieve high-quality typesetting for books with
+reasonable amount of effort & time
+
+© provide a system that would give exactly the same output on all
+computers
+
+@ It is completely a low-level markup & programming language
+@ Popular means to typeset complex mathematical formulae
+@ It requires high level of learning & time to build custom macros
+
+@ A more straightforward way to access the power of TEX is to use a
+high-level package like ATEX
+
+ 
+
+Co ece nie anne 5 June 21, 2012 PRY

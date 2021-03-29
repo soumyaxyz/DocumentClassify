@@ -1,0 +1,19 @@
+Business Intelligence(BI) Defined
+Howard Dresner, of the Gartner Group, in 1989 coined the term BI. He defined BI
+as “a set of concepts and methodologies to improve decision making in
+business through use of facts and fact-based systems”.
+* The goal of BI is improved decision making. Yes, decisions were made earlier too
+(without BI). The use of BI should lead to improved decision making.
+¢ Blis more than just technologies. It is a group of concepts and methodologies.
+¢ Itis fact based. Decisions are no longer made on gut feeling or purely on hunch. It
+has to be backed by facts.
+¢ Bluses a set of processes, technologies, and tools such as
+— Informatica/IBM Datastage/Ab initio for extracting the data,
+— SAS/IBM SPSS for analyzing the data, and
+— IBM Cognos/Business Object for reporting the data) to transform raw data
+into meaningful information.
+¢ BI mines the information to provide knowledge (KDD — Knowledge Discovery
+from Data) and uses the knowledge gained to provide beneficial insights; the
+insights then lead to impactful decision making which in turn provides business
+benefits such as increased profitability, increased productivity, reduced costs,
+improved operations, etc.

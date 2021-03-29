@@ -1,0 +1,56 @@
+99 Examples and computations
+
+ 
+
+Now, BC* = C*B follows from equation ( 3.4.20 ). But by ( 3.4.8 ), C is normal,
+which implies BC = CB.
+
+6. d(uru22 — usu) = (wu — wo") d(uigua1) &@ AD — DA = (w— pt )uCu!B
+
+From ( 3.4.17 ), we have AD — DA = pCB— p!BC = (u — p7!)CB, using
+BC=CB.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Lemma 3.4.9. The equations (8.4.1) - (3.4.17) are true when A, B,C, D are replaced
+by war, fug1, lure and u22 respectively.
+
+Proof : We check some of the relations ( 3.4.1 ) - (3.4.17 by using the facts that D,
+is a central element of U,,(2), «(uij) = uj; ( (1.2.8 ) ), Proposition 1.2.26, the equations
+(1.2.2 ) - (1.2.7) and ( 1.2.9 ). The proofs of the others are exactly similar.
+
+Proof for ( 3.4.1 ) that is, wy*u1 + (u-tuy2)(u-tuye)* = 1.
+
+* 2 . 7 2 =
+Uy FM Utig = ur2D;, ui +p uy2(—puaD,, )
+
+= (u22U11 — pl uy2ta1) D7 = DD, =1
+Proof for (3.4.2 ) that is, ut, ua tp? (y7 !uy2) (uur) *— ((peuar)*wue1 +u22ud.) = 0.
+
+uyyui + 12 (uo tui2) (wot u2)” — ((uue1)* usr + u22t59)
+= K(ur1) uy + uek(u21) — (u?&(uy2)U21 + U22K(u22))
+= (ugui — purge) Dy" — (=puy2ua1 + u2gui)D,,!
+0.
+
+Proof for ( 3.4.6 ) that is, purus, + LPursudy — wd =0.
+
+Zuo ud + purus, — 1
+
+(
+= i? (ue1(—p ~luD; ") + uzeu1D;! — 1)
+(
+(
+
+=
+
+ug (U2) + Uz2K(u22) — 1)
+
+= Ta (ug2u11 — pb "uzit12)D;,' ~ 1)
+= w Dy Di 1-1)
+= 0.

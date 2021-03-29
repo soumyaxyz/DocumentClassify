@@ -1,0 +1,74 @@
+EIRINI PAPAGIANNOPOULOU AND GRIGORIOS TSOUMAKAS 25
+
+ 
+
+lows:
+12
+MAP = —. 2d AP;
+=
+
+where AP; is the average precision of the extracted keyphrases list returned for a document.
+
+3. Binary preference measure (Bpref) (Buckley and Voorhees! 2004) is a summation-based measure of how many rele-
+
+vant phrases are ranked before irrelevant ones and it is defined as follows:
+
+Bpref = oe 1- |n ranked higher than r|
+
+reR
+
+where R are the correct keyphrases within M extracted keyphrases in which r is a correct keyphrase and n is an
+incorrect keyphrase for a document.
+
+4. Average of Correctly Extracted Keyphrases - (ACEK) is the average number of the extracted keyphrases that also be-
+long to the document's golden set of keyphrases. This was the first type of performance evaluation that is used
+in the keyphrase extraction task but it is not widely used anymore, as precision and recall offer a more complete
+
+view for a system’s performance in terms of the set of the extracted keyphrases.
+The above measures are usually calculated following one of the following directions (approaches):
+
+e Exact match evaluation where the number of correctly matched phrases with the golden ones are determined based
+on string matching. In most cases, stemming is a preprocessing step to determine the match of two keyphrases.
+
+e Manual evaluation where experts decide whether the returned keyphrases by a system are wrong or right. How-
+ever, this type of evaluation requires the investment of time and money and is characterized by great subjectivity
+(Zesch and Gurevychl
+
+e Partial match evaluation, a looser evaluation process that is proposed by/Rousseau and Vazirgiannis|(2 , which
+
+calculates the Precision, Recall and F;-measure between the set of words found in all golden keyphrases and the
+
+ 
+
+ 
+
+set of words found in all extracted keyphrases. Again, stemming is a required preprocessing step. However, such
+type of evaluation cannot evaluate the syntactic correctness of the phrases or deal with more complex issues such
+
+as over-generation problems and overlapping keyphrase candidates.
+
+study the issue of n-gram-based evaluation measures for automatic keyphrase
+
+Furthermore,|Kim et al.]
+
+extraction. In this study various evaluation measures developed for machine translation and summarization are in-
+
+ 
+
+cluded as well as the R-precision evaluation measure. However, such kind of evaluation, is not widely adopted by the
+
+keyphrase extraction community, as it is not found in any of the scientific publications included in the current survey.
+
+In Fig,
+
+ 
+
+we show the popularity of the most well-known evaluation measures that have been used in the keyphrase
+extraction task, which is based on our bibliographic study. Some works have used more than one types of evaluation
+measures/approaches. Infrequent as well as insignificant evaluation approaches are categorized to the “Other” group
+of methods. Precision/Recall/F;-measure has indeed been used in the majority of the related work. However, their
+calculation based on the exact phrase matching, which is very popular as well, is too strict and equally penalizes a pre-
+dicted keyphrase that is completely different from a golden keyphrase and a predicted keyphrase whose words are a
+subset or superset of the words of a golden keyphrase. Furthermore, this type of evaluation cannot identify the se-
+
+mantic similarity of two different phrases. Additionally, another issue of this approach is that even small variants in

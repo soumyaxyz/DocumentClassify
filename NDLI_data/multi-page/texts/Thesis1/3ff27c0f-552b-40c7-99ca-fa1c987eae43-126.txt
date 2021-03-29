@@ -1,0 +1,53 @@
+Chapter 4: Quantum isometry groups for Rieffel deformed manifolds 114
+
+ 
+
+2. follows from 1. and the fact that T} is a homomorphism.
+
+G(R)
+= B(h)(@(x)) = (id @ FO)A(h)(E(x)) = (1d ® eve(ayFQ)@(h)
+(id @ O(x))a(h).
+
+Therefore, By = (id ® Q(«))a. Similarly, 4. follows from 2.
+
+We now prove 5. Let us denote by 7* the dual map of 7, so that y* : C(T”) = C(t
+is an injective C*-homomorphism. It is quite clear that (id@ 7) oa(Ao) C Im(id@9*),
+hence it follows that 75 6 (Qo) C Im(y*). Thus, 79 := (7*)~1o 15 is a surjective CQG
+
+ 
+
+ 
+
+ 
+
+ 
+
+morphism from Q to C (T"), which identifies C(T") as a quantum subgroup of Q.
+
+For a fixed J, we shall work with several multiplications on the vector space Ap @alg
+Qo. We shall denote the counit and antipode of Qo by € and « respectively. Let us
+
+define the following operation :
+LrOy= | e(—u.v)e(w. s)(Q(—Ju) sa > (A(Jw)))(Q(—v) «yb Q(s))dudvdwds,
+Rin
+
+where x,y belong to Qo. Then © is a bilinear maps, and will be seen to be associative
+multiplication later on.
+We note that when x is in Qo, f in C(T”), y*(f) (E(u) = f(7(E(u)) = F(e(y(u))) =
+
+f(e(u)) (as 7 is a covering map ). Using this, we have
+
+(Q(u) ® id) A(z)
+(evgiuy™g ® id) A(z)
+eVa(uy¥' TQ @ id)A(x)
+
+(
+(as 7°79 = 7)
+(€Ve(uy TQ ® id) A(x)
+(Q(u) @ id)A(x)
+and thus when x belongs to Qo,
+
+(Q(u) @ id)A(x) = (Q(u) @ id) A(z). (4.2.1)
+
+Moreover, we define bilinear maps e, e7, by setting (a®@ x) e (b@y) := ab@xo
+y, (@ Bay (boy) = lary) @ OY), ot a,b Ay, myn Dy.

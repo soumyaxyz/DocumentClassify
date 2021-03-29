@@ -1,0 +1,10 @@
+Introduction to Business Analytics
+
+Business analytics is heavily dependent on data.
+
+For its successful implementation, business analytics requires a high
+volume of high quality data.
+
+The challenges faced by business analytics are: storage, integration,
+reconciliation of data from multiple disparate sources across several
+business functions and the continuous updates to the data warehouse.

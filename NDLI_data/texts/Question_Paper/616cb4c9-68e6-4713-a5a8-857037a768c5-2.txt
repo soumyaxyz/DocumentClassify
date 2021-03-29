@@ -1,0 +1,81 @@
+10.
+
+ie
+
+12.
+
+13.
+
+14,
+
+What is:the purpose of HELP command?
+Hae the command that can be used to format a
+disk.
+
+PART B — (5 x 5 = 25)
+
+Answer: ALL questions.
+(a) What are the functions of OS?
+
+Or
+
+(b) Explain the multi-user OS.
+
+(a) Explain how will you name a file? Write
+
+down the rules.
+Or
+(b) Write short notes on FAT.
+(a) Explain the DOS system files.
+Or
+(b) Write the DOS basics.
+
+(a) What -are the advantages of internal
+
+commands? eo
+Or
+(b) Explain the following commands.
+@Q)) CD.
+(ii); COPY
+
+Gi) TIME
+
+15.
+
+16.
+AT
+
+18.
+19.
+
+(a) What are the disadvantages of external
+commands?
+
+Or
+
+(b) Explain the following commands
+
+@) FDISK
+
+(ii) FORMAT
+
+(ii). BACKUP
+
+PART C — @ x 10 = 30)
+Answer any THREE questions.
+
+Explain the single user OS.
+
+Explain any four file management operations with i
+example.
+
+Explain the history and versions of DOS.
+
+Explain the following internal commands with
+example
+
+(a) DEL
+(b) TIME
+(c) CD
+(d) MD
+(ec) VOL.

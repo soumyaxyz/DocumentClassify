@@ -1,0 +1,132 @@
+Klein, G., Kim, Y., Deng, Y., Senellart, J., and Rush,
+A. M. (2017). OpenNMT: Open-source toolkit for
+neural machine translation. In Proc. ACL.
+
+Le, T. T. N., Nguyen, M. L., and Shimazu, A.
+(2016). Unsupervised keyphrase extraction: Intro-
+ducing new kinds of words to keyphrases. 29th Aus-
+tralasian Joint Conference, Hobart, TAS, Australia,
+December 5-8, 2016.
+
+Liu, Z., Chen, X., Zheng, Y., and Sun, M. (2011). Au-
+tomatic keyphrase extraction by bridging vocabulary
+gap. ACL.
+
+Logeswaran, L. and Lee, H. (2018). An efficient frame-
+work for learning sentence representations. CoRR,
+abs/1803.02893.
+
+Lopez, P. and Romary, L. (2010). Humb: Automatic
+key term extraction from scientific articles in gro-
+bidp. the Sth International Workshop on Semantic
+Evaluation.
+
+Luan, Y., Ostendorf, M., and Hajishirzi, H. (2017). Sci-
+entific information extraction with semi-supervised
+neural tagging. CoRR, abs/1708.06075.
+
+Medelyan, O., Frank, E., and Witten, I. H.
+(2009). Human-competitive tagging using auto-
+matic keyphrase extraction. EMNLP.
+
+Meng, R., Zhao, S., Han, S., He, D., Brusilovsky, P.,
+and Chi, Y. (2017). Deep keyphrase generation. In
+ACL.
+
+Mihalcea, R. and Tarau, P. (2004). Textrank: Bringing
+order into text. In Proceedings of the 2004 confer-
+ence on empirical methods in natural language pro-
+cessing, pages 404-411.
+
+Paszke, A., Gross, S., Chintala, S., Chanan, G., Yang,
+E., DeVito, Z., Lin, Z., Desmaison, A., Antiga, L.,
+and Lerer, A. (2017). Automatic differentiation in
+pytorch. In NIPS-W.
+
+Paulus, R., Xiong, C., and Socher, R. (2017). A
+deep reinforced model for abstractive summariza-
+tion. CoRR, abs/1705.04304.
+
+Reddy, D. R. et al. (1977). Speech understanding sys-
+tems: A summary of results of the five-year research
+effort. Department of Computer Science. Camegie-
+Mell University, Pittsburgh, PA, 17.
+
+Srivastava, N., Hinton, G., Krizhevsky, A., Sutskever,
+1, and Salakhutdinov, R. (2014). Dropout: A simple
+way to prevent neural networks from overfitting. J.
+Mach. Learn. Res.
+
+Subramanian, S., Wang, T., Yuan, X., and Trischler, A.
+(2017). Neural models for key phrase detection and
+question generation. CoRR, abs/1706.04560.
+
+Sun, Z., Tang, J., Du, P., Deng, Z.-H., and Nie, J.-Y.
+(2019). Divgraphpointer: A graph pointer network
+for extracting diverse keyphrases. arXiv preprint
+arXiv:1905.07689.
+
+Sutskever, I, Vinyals, O., and Le, Q. V. (2014). Se-
+quence to sequence learning with neural networks.
+In NIPS.
+
+van den Oord, A., Li, Y., and Vinyals, O. (2018). Rep-
+resentation learning with contrastive predictive cod-
+ing. CoRR, abs/1807.03748.
+
+van der Maaten, L. and Hinton, G. (2008). Visualizing
+high-dimensional data using t-sne. Journal of Ma-
+chine Learning Research, 9:2579-2605.
+
+Van Zandt, T. and Townsend, J. T. (1993).  Self-
+terminating versus exhaustive processes in rapid vi-
+sual and memory search: An evaluative review. Per-
+ception & Psychophysics, 53(5):563-580.
+
+Wan, X. and Xiao, J. (2008). Single document
+keyphrase extraction using neighborhood knowl-
+edge. AAAI.
+
+Wang, M., Zhao, B., and Huang, Y. (2016). Ptr: Phrase-
+based topical ranking for automatic keyphrase ex-
+traction in scientific publications. JCONIP 2016.
+
+Witten, I. H., Paynter, G. W., Frank, E., Gutwin, C.,
+and Nevill-Manning, C. G. (1999). Kea: Practical
+automatic keyphrase extraction. In DL 99.
+
+Xu, Q., Zhang, J., Qu, L., Xie, L., and Nock, R. (2018).
+D-page: Diverse paraphrase generation. CoRR.
+
+Yang, Z., Hu, J., Salakhutdinov, R., and Cohen, W. W.
+(2017). Semi-supervised ga with generative domain-
+adaptive nets. In ACL.
+
+Ye, H. and Wang, L. (2018).
+learning for neural keyphrase generation.
+abs/1808.06773.
+
+Semi-supervised
+CoRR,
+
+Yuan, X., Wang, T., Giilgehre, ¢., Sordoni, A., Bach-
+man, P., Subramanian, S., Zhang, S., and Trischler,
+A. (2017). Machine comprehension by text-to-text
+neural question generation. CoRR, abs/1705.02012.
+
+Zhang, Q., Wang, Y., Gong, Y., and Huang, X. (2016).
+Keyphrase extraction using deep recurrent neural
+networks on twitter. In EMNLP.
+
+Zhang, X. and Lapata, M. (2017). Sentence simpli-
+fication with deep reinforcement learning. CoRR,
+abs/1703.10931.
+
+Zhao, J. and Zhang, Y. (2019). Incorporating linguistic
+constraints into keyphrase generation. In Proceed-
+ings of the 57th Annual Meeting of the Association
+for Computational Linguistics, pages 5224-5233.
+
+Zhou, Q., Yang, N., Wei, F., and Zhou, M. (2017). Se-
+lective encoding for abstractive sentence summariza-
+tion. CoRR, abs/1704.07073.

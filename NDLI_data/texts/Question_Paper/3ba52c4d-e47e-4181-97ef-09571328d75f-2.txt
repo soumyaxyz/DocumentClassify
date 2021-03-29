@@ -1,0 +1,70 @@
+At:
+
+12.
+
+13.
+
+14.
+
+15.
+
+(a)
+
+(b)
+(a)
+
+(b)
+
+(a)
+
+(b)
+(a)
+
+(b)
+(a)
+
+(b)
+
+PART B — (5 x 5 = 25)
+Answer ALL questions.
+
+Explain the basic terminologies of Database.
+Or
+
+Explain the types of data in DBMS.
+
+Write a short notes on macros.
+Or
+
+What is the difference between primary and
+foreign key? Explain.
+
+List out the advantages of RDBMS.
+Or
+Explain the various packages in DBMS.
+Write short notes on FTP.
+Or
+What is ISP? Explain.
+Write the features of HTML.
+Or
+
+Give short notes on E-mail.
+
+16.
+
+i,
+
+18.
+
+19.
+
+20.
+
+PART C — (3 x 10 = 80)
+Answer any THREE questions.
+Discuss about the files and tables in detail.
+Explain briefly reports in detail.
+Compare and contrast DBMS and RDBMS.
+Explain in detail SMTP.
+
+Explain about messenger and chatting in detail.

@@ -1,0 +1,62 @@
+147 Spectral triples on the Podles spheres
+
+obtain
+
+h(x x1)
+Z: 2
+_ na) — n(A?) + (7 — 8).1]
+1—pS—-(1—p*)t1-t+1) + (1 -t) 4p) - pS)
+(1+ #?)(1 = 8) ,
+
+from which we get the desired result.
+
+ 
+
+Similarly, the second equality is derived from h(ajxo) = t? — 2¢7(1 + p?)h(A) +
+(1+ p2)7t?2h( A).
+
+From ( 5.1.6 ), a1 = —pa*, and hence, aja; = t?(1 + p?)(w?A — p*A? + €.1),
+from which h(a}21) is obtained and can be shown to be equal to the same value as
+
+h(a* 21) = h(ap20).
+
+ 
+
+ 
+
+ 
+
+ 
+
+5.2 Spectral triples on the Podles spheres
+
+5.2.1 The spectral triple as in [24]
+
+We now recall the spectral triples on 5%, discussed in [24].
+
+ 
+
+1 i
+Let s=—c 2A_, AZ = 3 + (c+ ie
+For all j belonging to sIN 5
+uj = (a* — 87*)(a* — po's9*)....-(a* — p24 sy*),
+wy = (a — psy)(a — p? sy)... (a — p74sq),
+uj= Ei p Wj,
+ug = wo = 1,
+yn = (1+ u-®)2 (c3 p24 — py*a* — peta),
+Nhy = [|B > (yi Play) ||
+Define
+
+, lj 1
+ob = NEFF > (yf lu), Le 5WVo, f= LU Dy ened: (5.2.1)
+
+Let My be the Hilbert subspace of L?(SU;,,(2)) with the orthonormal basis {v!,, y :
+L=|N], IN| 41, cee Sms —ly wl}.
+
+Set
+H=M
+
+aM
+
+NIE
+Nie

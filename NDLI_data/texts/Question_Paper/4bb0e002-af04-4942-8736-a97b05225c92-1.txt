@@ -1,0 +1,46 @@
+(7 pages) 9. Define holding cost.
+
+5.No. 2282 8 ACBB2C
+10. What are the two types of replacement policies?
+
+(For candidates admitted from 2008-2009 onwards)
+B.B.A. DEGREE EXAMINATION, NOVEMBER 2011.
+Part III — Allied
+OPERATION RESEARCH
+
+PART B — (5 x 5 = 25)
+
+Answer ALL questions.
+
+“11. (a) Solve graphically the following L.P.P :
+
+Maximize Z = 5x, + 3x.
+Time : Three hours Maximum : 75 marks
+Subject to constraints :
+
+PART A — (10 x 2 = 20) og
+1 2
+
+Answer ALL questions. 5x, + 2x, <10
+
+1. Define surplus variables. and x,,x, 20
+
+2. Define Analogue models with an example. Or
+
+3. Define Vogel’s approximation method. (b) Solve the following problem by graphical
+method :
+4. Define feasible solution of a transportation
+
+problem. Maximize Z = 5x + 8y
+
+5. . What is meant by inventory? Subject to the constraints :
+
+3x + 2y <36
+
+6. | What are the two types of inventory models? ee
+x+2y< 20
+7. What do you mean by a unbalanced assignment 38x+4y < 42
+
+peepee and x20,y20
+
+2 S.No. 2282

@@ -1,0 +1,70 @@
+159 Quantum Isometry Groups of the Podles sphere
+
+ 
+
+Ss —p/1+p?T; —pwS7
+
+$3
+
+ 
+
+ 
+
+—S:
+Bo avon T, vue |- (5.3.23)
+
+—w1s, Ji+@Tf 83
+
+Recall that ( cf [41] ), the antipode « on the matrix elements of a finite-dimensional
+
+unitary representation U° = (u®,) is given by «(ue
+
+oa oq) = (ugp)*. Hence, the antipode is
+
+given by :
+So
+
+k(T2) = To, «(T3) = p21 + p2)’
+
+w(S2) = (1+ p?)T5,
+
+So
+
+(93) = 95, w(Sa) = 47S, (TB) = pe,
+
+K(S3) = (14+ p?)T3, «($3) = 93, 6(S9) = 793.
+
+Now we derive some more equations by applying « on the equations obtained by
+
+homomorphism condition.
+
+Lemma 5.3.15.
+
+w(t 12) TET + cp?(1 +p)? S383 + cu?(1 + p?)?S1S4
+
+ 
+
+ 
+
+p? (1 — Te) (2? + Te) — cS2S% — cS3S_ + cu? (1 + p?)?.1, (5.3.24)
+
+~2y4(1 +p?) TT + p? (1 + u)?S5S3 + wA(1 + 12)? S485
+
+ 
+
+ 
+
+1? (1 + p?)To(p? + 2T2 — 1) — S253 — S35 Sb, (5.3.25)
+
+a 2,2 ax 2,2 ok
+wA(L +p?) T3Ts — (1 + 7) $3.53 — pO + WY S484
+
+= —2(1 + p2)?T? + 48253 + S350, (5.3.26)
+2 2)2 2 Q)2me Oo 2 _
+HW(L+ po) S473 + pL + we) T3S3 = —So(u" + Tr) + (1 — To) So, (5.3.27)
+—s2
+S483 = — 2 (5.3.28)
+
+wr +p?)
+Proof : The relations follow by applying « on ( 5.3.4 ), ( 5.3.5 ), (5.3.6), ( 5.3.7 )
+and ( 5.3.9 ) respectively.

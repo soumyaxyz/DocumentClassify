@@ -1,0 +1,94 @@
+14 EIRINI PAPAGIANNOPOULOU AND GRIGORIOS TSOUMAKAS
+
+ 
+
+of the learning process they employ.
+
+One of the first keyphrase extraction systems is KEA
+phrase its Tfldf score and its first occurrence, i.e., the position (offset in words from the start of the document) of
+the phrase’s first appearance, and uses as learning algorithm Naive Bayes.
+
+lizes linguistic knowledge. Particularly, for each candidate phrase of the training set four features are calculated: the
+
+which calculates for each candidate
+
+ 
+
+ 
+
+3} proposes a system that uti-
+
+within-document frequency, the collection frequency, the relative position of the first occurrence and part-of-speech
+
+(POS) tag sequence. In this case the machine learning approach is a rule induction system with bagging. An exten-
+
+sion of KEA is proposed by|Nguyen and Kan
+
+with additional features to incorporate position information (a section occurrence vector, i.e., a vector of frequency
+
+7). The existing feature set (Tfldf and first occurrence) is enhanced
+
+ 
+
+features for 14 generic section headers) and additional morphological/linguistic characteristics (POS tag sequence,
+
+suffix sequence and acronym status) of the keyphrases. Once more, as learning method they use Naive Bayes. Later,
+
+Medelyan et al.
+
+as features in the classification model the Tfldf score, the first occurrence, the keyphraseness which quantifies how
+
+propose Maui, which extends KEA by introducing an alternative set of new features. Maui uses
+
+ 
+
+often a candidate phrase appears as a tag in the training corpus, the phrase length (measured in words), the Wikipedia-
+based keyphraseness which is the probability of a phrase being a link in the Wikipedia, the spread of a phrase, i.e., the
+distance between its first and last occurrence of the phrase as well as additional features that utilize Wikipedia as a
+source of language usage statistics such as the node degree, the semantic relatedness and the inverse Wikipedia linkage.
+Maui uses bagged decision trees as classifier to capture interactions between features. Afterwards/Nguyen and Luong|
+ropose an method (WINGNUS) that extracts candidates using the regular expression rules used i
+
+In their work, they also study the keyphrase distribution on the training data over the sections of documents,
+
+ 
+ 
+
+concluding that the best choice is either the full-text or a text segment comprising of title, headers, abstract, introduc-
+tion, related work, conclusion and the first sentence of each paragraph. They experimented with various combinations
+of features from a large feature set using the Naive Bayes algorithm. Finally, they propose as the best features the
+Tfldf, the term frequency of the phrase substrings, the first occurrence and the length of the phrase.
+
+0.9) that utilizes novel features from information of citation contexts (boolean features that are true if the candidate
+
+4) propose CeKE, a binary classification model (Naive Bayes classifier with decision threshold
+
+ 
+
+phrase occurs in cited/citing contexts and the Tfldf score of each phrase computed from the citation contexts), exist-
+ing features from previous works (phrase Tfldf, first position, relative position and POS tags), and extended existing
+features (a boolean feature which is true if the Tfldf score is greater than a threshold and a boolean feature which is
+
+true if the distance of the first occurrence of a phrase from the beginning of a target paper is below some value).
+
+ 
+
+use Wikipedia as an additional feature source for their supervised keyphrase extraction method. The first
+
+ 
+
+step is the detection of the candidate keyphrases via mapping to the Wikipedia concepts that appear in the titles of
+Wikipedia articles, redirect/disambiguation pages and anchor text of Wikipedia articles. As each Wikipedia concept is
+related to at least one category, candidate topics can be defined for a document by collecting the corresponding con-
+cepts’ categories. Then, a semantic bipartite graph is constructed where candidate keyphrases are connected with the
+document topics based on various semantic relation types, e.g., the synonym and hypernym relation. After the graph
+construction, a feature weight (we = Al. f,, where A is a parameter that lies in (0,1) for the level of category /, and fp
+is the frequency of the phrase in the document) is assigned to the candidate keyphrases and a proposed variant of the
+HITS algorithm that considers the link weights is used to compute the final semantic feature weights for each phrase.
+Finally, additional statistical, positional and linguistics features are computed, such as the appearance in the title, the
+phrase frequency, the phrase position and the phrase length, and a logistic regression model is used to predict the
+document’s keyphrases.
+
+Afterwards,
+
+propose a system (PCU-ICL) that incorporates features, such as stemmed un-

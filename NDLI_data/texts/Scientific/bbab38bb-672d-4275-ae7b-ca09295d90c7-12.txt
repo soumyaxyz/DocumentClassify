@@ -1,0 +1,54 @@
+562 F. Ensan, W. Du
+
+semantic analysis module, where m is the total number of concepts in the knowledge base
+and i be any number between 0 and m. Let the degree of similarity be measured as {rj}
+0 <i < m where 7; are real numbers between 0 and 1. The expanded query will be C, where
+each adding concept c; has a effectiveness coefficient equal to its corresponding r;. For any
+arbitrary document with concepts D = {c;} 0 < i < m, we can define feature functions over
+binary cliques (c;, cj), when c; € C and cj € D. Based on our approach, we do not find all
+cliques between all possible pairs over C and D. Instead, we consider cliques over exactly
+matching pairs of concepts, i.e., all pairs in the form of (c;, c;) and the value for the feature
+defined over this pair is equal to its related r;. The value of any feature function defined
+over (cj, c;) in this expanded model is equal to the value of the feature function defined
+over (cx, cj) in the original model. Hence, the probability estimated by Eq. (3) is exactly the
+same in both cases. Clearly our expansion method is a way around implementing SELM over
+concept indices and is identical with the original language model presented in Sect. 3.
+
+6 Different configurations of our framework
+
+In this section, we describe three configurations of the proposed semantic retrieval framework.
+These configurations differ in their semantic analysis module, which measures the degree
+of similarity between concepts. Figure 3 shows the three different configurations of the
+framework. As seen in this figure, Wikipedia is the knowledge base that is used as the
+underlying source for entities. We chose to use the Tagme entity linking engine to play the
+role of the semantic annotation module in these configurations. The choice of this annotation
+engine was motivated by a recent study reported in [6] that showed that Tagme was the best
+
+Results
+
+froma
+Ranked keyword
+
+list of based IR
+Results system
+
+ 
+
+Integration
+Module
+
+ 
+
+FileWriter/
+FileReader
+
+Documents
+Concept Index Relatedness File Text Indexes
+
+Indexes
+
+ 
+
+Fig. 3 Three configurations of the semantic retrieval framework
+
+a Springer

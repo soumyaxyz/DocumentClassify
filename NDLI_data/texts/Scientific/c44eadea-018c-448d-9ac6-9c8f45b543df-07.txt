@@ -1,0 +1,55 @@
+dataset contains 807,516 tagged research papers in computer science. Their
+tags are based on the sub-domains they belong to, in total there are 24 cat-
+egories like computer-graphics, operating-systems, databases, language and
+speech etc. We took the intersection of these labels with our cleaned DBLP
+dataset and found 134,338 matches for our classification experiment.
+
+ 
+
+3.2 Comparison to Previous Work:
+
+For comparison with Paper2vec first we chose both text-only and network-only
+algorithms. Along with this we compared against a recently proposed text and
+graph combined algorithm and a concatenated baseline method for combining
+text and graph representations. The algorithms are discussed below:
+
+— Deepwalk{§] is a network-only algorithm which represents a graph as a
+series of text streams and learns the node representations by applying the
+SGNS algorithm.
+
+— TADWILI3] or Text Associated DeepWalk is a matrix factorization based
+approach to approximate Deepwalk. It also uses ¢f-idf features to fuse link
+and text data similar to ours.
+
+— LINE[1] learns network-only graph representations in two phases - first
+order proximity and second order proximity. Their edge sampling algorithm
+is similar to our discussed negative sampling.
+
+— Paragraph Vector{5] is the original algorithm proposed by Le et al. for
+learning latent representation for text documents. We use this algorithm in
+our text learning step to get pre-trained vectors. This serves as a text-only
+(content-only) baseline.
+
+— tf-idf [4] is an improvement over the simple bag-of-words algorithm for rep-
+resenting documents in the vector space.
+
+— Concatenated baseline: We concatenated Paragraph Vector with Deep-
+walk embeddings to serve as a baseline for our text-graph combination.
+
+3.3 Evaluation Tasks
+
+We chose two tasks to evaluate our learned embeddings. Across all our datasets,
+we thus conduct 6 sets of experiments to demonstrate the effectiveness of Pa-
+per2vec embeddings.
+
+Node classification: In this task we need to determine the class or label of a
+scientific paper given its representation. For the text-only methods, this problem
+can be treated as multi-class document classification. After the (unsupervised)
+feature learning phase from respective algorithms we evaluate the classification
+accuracy across our three datasets. We vary the training ratio from 10% to 50%
+(rest are treated as test-set) and report the scores for each trial averaged over
+10 times. This is the exact experimental details found in [13].
+
+Link prediction: Here we are given a random pair of node representations
+(vj, vj) and we need to determine whether there should be a citation link between
+them. For every pair we have two representations - one for each node. We use the

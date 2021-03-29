@@ -1,0 +1,19 @@
+ON THE BLACKBOX REDUCTION OF SOME CRYPTOGRAPHIC
+CONSTRUCTIONS
+
+A thesis presented to the Indian Statistical Institute
+in fulfillment of the thesis requirement for the degree of
+Doctor of Philosophy in Computer Science
+by
+RISHIRAJ BHATTACHARYYA
+
+Supervisor: Professor Bimal Kumar Roy
+
+ 
+
+UNITY IN DIVERSITY
+
+Applied Statistics Unit
+INDIAN STATISTICAL INSTITUTE
+Kolkata, West Bengal, India
+October, 2011

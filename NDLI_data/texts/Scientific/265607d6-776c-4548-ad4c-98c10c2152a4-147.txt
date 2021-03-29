@@ -1,0 +1,49 @@
+6. Sub-Query Generation
+
+ 
+
+Life;
+
+V
+m
+
+2 ihe; =e,
+
+:ife; > 0,
+
+or YW
+
+: otherwise,
+
+where e = A,(Rglq, Kr) and e; = A,(Rs,|q, Kr) denote the retrieval performance
+at rank «, (given by any standard evaluation metric A,, such as nDCG@10 or
+any of the metrics in Section 2.3.3) attained by the ranking R,. produced by a
+reference retrieval system for a given input (i.e., the query q or its suggestion s;).
+
+Lastly, we must define a loss function to guide our learning process. In partic-
+ular, we define A,(S,|q, Ks) as the loss at rank «, of retrieving the suggestions S,
+in response to the query q. Note that, different from the document ranking eval-
+uation metric A, used to define our ground-truth labels in Equation (6.1), this
+metric is used to evaluate rankings of query suggestions. Our experimental setup
+choices for the sample size ng, labelling function A, and cutoff «,, loss function
+
+A, and cutoff «,, and learning algorithms are fully described in Section 6.4.1.3.
+
+6.2.3. Query Suggestion Features
+
+Having discussed alternative approaches for sampling candidate suggestions from
+a query log and how to learn an effective ranking function for a given sample,
+we now describe the features used to represent each suggestion in the learning
+process. As summarised in Table 6.2, we broadly organise all query suggestion
+features used by our approach as either query-dependent or query-independent,
+according to whether they are computed on-the-fly at querying time or offline at
+indexing time, respectively. While the considered query-dependent features are
+standard features commonly used in the literature for learning to rank for web
+search (Liu, 2009), the query-independent ones are specifically proposed here to
+estimate the quality of different candidate suggestions.
+
+Given a query q, the query-dependent features are directly computed by scor-
+
+ing the occurrences of the terms of q in each field of each candidate suggestion.
+
+129

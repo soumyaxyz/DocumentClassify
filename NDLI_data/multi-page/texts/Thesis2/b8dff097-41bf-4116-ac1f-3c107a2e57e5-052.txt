@@ -1,0 +1,42 @@
+40 6. MAIN RESULTS
+
+corresponding to a realizable representation is real. An irreducible character x is
+real if and only if there is a non-zero G-invariant bilinear form on the representation
+space V. A representation V of G is called orthogonal (symplectic) if there exists
+a non-zero symmetric (skew-symmetric) bilinear form on V which is G-invariant. In
+fact, an irreducible real character comes from a realizable representation if and only if
+the representation V is orthogonal ({JL], Theorem 23.16). Hence our problem seems
+to be directly related to the representation theory of G. For a semisimple algebraic
+group, there exists an involution h in the center, which acts by 1 in an irreducible
+self-dual representation if and only if the representation is orthogonal. For most of
+the groups studied in this thesis, we prove that real semisimple elements are strongly
+real. If one compares these results to the results proved in [Pr1] and [Pr2], these are
+exactly the groups for which irreducible, self dual representations are orthogonal. For
+more discussion and explicit references on the connection to representation theory we
+
+refer the reader to Section 10.1.
+
+6.1. Results in Classical Groups
+
+Reality for classical groups over fields of characteristic not 2 has been studied in
+[MVW] by Moeglin, Vignéras and Waldspurger.
+The following result is due to Wonenburger ([W1], Theorem 1).
+
+Proposition 6.1.1. An element of GL,,(k) is real if and only if it is strongly real
+in GL,,(k).
+
+However, a similar result is false for matrices over division algebras. In [E11] (Lemma
+2 and Lemma 3) Ellers constructs an example of a simple transformation of a vector
+space V over the real quaternion division algebra H, which is conjugate to its inverse
+but is not strongly real. This is also evident by looking at the real quaternion division
+algebra H = R.16 Rig R.j © R.ij where i,j,k have usual meanings. In the group
+GL,(H), the element 7 is conjugate to its inverse by j which satisfies 7? = —1. The
+only nontrivial element of GL,(H) which is an involution is —1 and hence 2 is not a
+
+product of two involution in GL,(H). For SL,,(k), we prove,
+
+Theorem 6.1.2. Let V be a vector space of dimension n over k. Lett € SL(V).
+Suppose n #2 (mod 4). Then t is real in SL(V) if and only if t is strongly real in
+SL(V).
+
+We show by examples that the result fails when n = 2 (mod 4).

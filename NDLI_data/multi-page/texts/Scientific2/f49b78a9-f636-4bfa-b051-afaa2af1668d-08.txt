@@ -1,0 +1,213 @@
+IEEE Access:
+
+S. Banerjee et al.: Physically Secure Lightweight Anonymous User Authentication Protocol for loT
+
+ 
+
+noticing that this phase is completely executed locally with-
+
+out further involving the GW NV.
+
+The password and biometric update procedure have been
+
+summarized in Figure[5]
+
+ 
+
+User U Smart card SC,
+
+(DID*,k* ,hd*)
+
+1) tpn.
+
+ 
+
+ 
+
+Enter 1D, & PW,, and imprint 8,
+
+Step 3. On receiving M,jq,, U computes PID!, =
+EPID! ®h(kig || Rupre || 1Du), Auth, = h(PID,
+|| Kua || 2Du) and checks it against the received Authy.
+If the values ae SC, updates DID!, = h(DID,, ||
+kug), prepends PID, to PID’, and calculates PID* =
+PID), @h(ax || PWu I ID,) and DID* = DIDI,
+@h(ID,y || PW. || ou). Finally, SC, commits the
+updated DI D* and PI D7, into its memory.
+
+Enter new PW) and imprint 67°"
+
+ 
+
+Calculate 7,, = PUF(8.),
+hd, = hd* ® h(ID, || PW..),
+Ou = rep(Yu; hdu),
+IPB’ = h(ID,z || au || PWu)
+If IPB A#IPB'
+terminate
+Compute
+DID,, = DID% ® h(ID, || PW, || au),
+Kune = hi, PMPWa || ow || [D.).
+
+Vupre
+
+PID, = PID‘ ® h(au || PWu || [Du)
+
+ 
+
+Calculate (are, hdye’
+IPB" =h(ID,y il a
+
+= Gen(7n*"),
+» | Pwrer),
+
+ 
+
+ 
+
+uw
+
+hdi, = hae @ h(IDy || PW"),
+DID;, = DID, @ h(IDy || PWze || ae"),
+
+Be og = kupre @ (PWR | ot” || 1D,),
+PID® = PID, ® h(a®™ || PW2" || Du)
+
+Update values in St a
+
+ 
+
+ 
+
+FIGURE 5: Summary of password and biometric update
+
+2) Pseudo Identity Renewal Phase
+
+As noted in Remark [I] the user U utilizes pid; € PI Dg to
+authenticate in case of desyncronization with the GW N. The
+set PI Dg is finite and will eventually get exhausted. Before
+this happens, the user U must acquire additional pseudo
+identities. The following steps are essential to achieve this
+
+e Step 1. The user U logs into the system as described
+in Section see Step 1), and other steps that are
+very similar. U then composes the message Mpia, =
+(DID, Qug, Auth.) which is sent to the gateway node
+GW N via open channel.
+Step 2. On receiving Mpiag,, the GWN checks for
+DID, in its database. If DID, is not found, the au-
+thentication request is rejected. Otherwise, the GW N
+looks up for the corresponding user identity /D,, and
+creates Kupre = HID, || LTS), and also recovers
+= = Qua® h(k || 1D.) from Quy. The GWN
+ea calculates rege = Alkug || Ku,,<) and checks
+it against the received Auth,,. If the values match,
+the GWN updates DID,, with DID/, = h(DID,, ||
+kg) and generates PID!, = {pido, --- , pids} as a
+new set of unlinkable pee MIOAIMCTTTER for the user U.
+The GWN saves DID}, as DID,, and appends PID!,
+to PID, in its memory. Now, the GWN computes
+EPID = PID, Bh(kig || Kupre || LDu), Authg =
+h(PID{, || kg || [Du), and finally composes the
+message Myia, = (EPID, Auth,) to sends it to the
+user U via open channel.
+
+ 
+
+ 
+
+The pseudo identity renewal procedure has been summa-
+rized in Figure[6]
+
+User U Gateway GW N
+
+Enter 1D, & PW,, and imprint 3,
+
+Compute 7, = PUF(8,),
+
+hdy = hd*, ® h(IDu || PWu);
+
+Quy = rep(Yu, hdu),
+
+IPB! =h(ID, || au || PWu)
+
+If IPB AIPB'
+
+terminate
+
+Compute
+
+DID, = DID% @ W(ID, || PW || ou).
+
+Kayne = Kutpre BA(PWu || Ou || LDu),
+
+Select kui € Zp
+
+Compute kya = h(kus || Du),
+
+Rug = h(kur || Du),
+
+Qug = kug © h(Ruyre || LDu)s
+
+Authy = h(kug || ku,
+
+Myia, = (DIDu, Qua, Auth)
+Check for DID,
+Lookup JD, <— DID,
+one Kuyre = h(IDy || LTS),
+
+= Qug ® h(i. || TDs).
+ty = hlkig || Kupre)
+If Auth’, 4 Auth,
+terminate
+Compute DID!, = h(DID, || kf,
+Generate
+PID!, = {pido,--
+
+Update DID,, PID,
+Compute
+EPID = PID! @h(kig || ku,
+Auth = h(PID, Il Kua ll ZDu)
+Myia, = (EPID, Authy)
+ee eee
+
+ 
+
+ 
+
+‘ug
+
+spids} € Zp
+
+| 1Du),
+
+Compute PID/, = EPID'S
+i(k Il Furs fl EDu)
+If Auth, # Auth’,
+terminate
+Compute
+PID* = PID!,© h(a || PWu || 1Du),
+DIDI, = h(DID, || kug)s
+DID* = DID!,@ h(ID,, || PW, || ou)
+Update values in SC,,
+
+ 
+
+ 
+
+ 
+
+FIGURE 6: Summary of pseudo identity renewal
+
+3) Challenge Response Renewal Phase
+The challenge-response pairs (Ca, € Ca, Ra, € Ra) utilized
+for mutual authentication between a smart device SD and
+gateway node GW N are finite and will also eventually get
+exhausted. Before this situation occurs, the gateway node
+GW must acquire additional challenge-response pairs for
+future operation. The steps involved in this process are de-
+scribed below.
+¢ Step 1. The GWN looks up for a challenge response
+pair (Ca,,Ra,) using [Dg from the sets Cg and Ry.
+
+VOLUME 7, 2019

@@ -1,0 +1,79 @@
+Notations
+
+IN
+
+INo
+
+R
+
+Cc
+M,(C)
+gt
+
+|
+
+ev
+
+id
+P(N)
+c*(M)
+ce (M)
+Vi @alg V2
+A®B
+
+aa
+
+The set of natural numbers
+
+INU {0}
+
+The set of real numbers
+
+ae set of complex numbers
+
+1e set of all n x nm complex matrices
+
+ae circle group
+
+3HHs8
+
+re n-torus
+
+icp]
+
+valuation map
+
+1e identity map
+
+34
+
+ 
+
+ae Hilbert space of square summable sequences
+
+The space of smooth functions on a smooth manifold
+The space of compactly supported smooth functions on MW
+Algebraic tensor product of two vector spaces V; and V2
+Minimal tensor product of two C* algebras A and B
+
+The multiplier algebra of a C* algebra A
+
+The space of adjointable maps from Hilbert modules F to F
+The space of adjointable maps from a Hilbert module E to itself
+
+A
+
+The space of compact operators from Hilbert modules EF to F
+
+ 
+
+ 
+
+The space of compact operators from a Hilbert module EF to itself
+The set of all bounded linear operators on a Hilbert space 71
+
+Free product of two C* algebras A and B
+
+Free product of two groups G and H
+
+Semi direct product of two groups G and H

@@ -1,0 +1,99 @@
+234
+
+235,
+
+237
+
+238
+
+239
+
+242
+
+243
+244
+
+245
+
+250
+
+252
+
+ 
+
+ 
+
+541-550.
+
+Aidan Hogan. 2017. Canonical Forms for Isomorphic and Equivalent RDF Graphs: Algorithms for Leaning and
+Labelling Blank Nodes. ACM Transactions on the Web 11, 4 (2017), 22:1-22:62. https://doi-org/10.1145/3068333
+Aidan Hogan, Marcelo Arenas, Alejandro Mallea, and Axel Polleres. 2014. Everything you always wanted to know
+about blank nodes. Journal of Web Semantics 27-28 (2014), 42-69. https://doi-org/10.1016/j.websem.2014.06.004
+Aidan Hogan, Andreas Harth, Alexandre Passant, Stefan Decker, and Axel Polleres. 2010. Weaving the Pedantic Web.
+In Proceedings of the WWW2010 Workshop on Linked Data on the Web, LDOW 2010, Raleigh, USA, April 27, 2010 (CEUR
+Workshop Proceedings), Christian Bizer, Tom Heath, Tim Berners-Lee, and Michael Hausenblas (Eds.), Vol. 628. Sun
+SITE Central Europe (CEUR), 10. http://ceur-ws.org/Vol-628/ldow2010_paper04.pdf
+
+Aidan Hogan and Tova Milo (Eds.). 2019. Proceedings of the 13th Alberto Mendelzon International Workshop on
+Foundations of Data Management, Asuncién, Paraguay, June 3-7, 2019. CEUR Workshop Proceedings, Vol. 2369. Sun
+SITE Central Europe (CEUR).
+
+Aidan Hogan, Jiirgen Umbrich, Andreas Harth, Richard Cyganiak, Axel Polleres, and Stefan Decker. 2012. An
+empirical survey of Linked Data conformance. Journal of Web Semantics 14 (2012), 14-44. https://doi.org/10.1016/j.
+websem.2012.02.001
+
+Aidan Hogan, Antoine Zimmermann, Jiirgen Umbrich, Axel Polleres, and Stefan Decker. 2012. Scalable and distributed
+methods for entity matching, consolidation and disambiguation over Linked Data corpora. Journal of Web Semantics
+10 (2012), 76-110.
+
+Martin Homola and Luciano Serafini. 2012. Contextualized Knowledge Repositories for the Semantic Web. Journal of
+Web Semantics 12 (2012), 64-87.
+
+Jan Horrocks and Peter F. Patel-Schneider. 2004. Reducing OWL entailment to description logic satisfiability. Journal
+of Web Semantics 1, 4 (2004), 345-357.
+
+Jan Horrocks, Peter F. Patel-Schneider, Harold Boley, Said Tabet, Benjamin Grosof, and Mike Dean. 2004. SWRL: A
+Semantic Web Rule Language Combining OWL and RuleML, W3C Member Submission 21 May 2004. W3C Member
+Submission. https://www.w3.org/Submission/2004/SUBM-SWRL-20040521/
+
+Andy Hunt and Dave Thomas. 2003. The Trip-Packing Dilemma. JEEE Software 20, 3 (2003), 106-107.
+
+Dylan Hutchison, Bill Howe, and Dan Suciu. 2017. LaraDB: A Minimalist Kernel for Linear and Relational Algebra
+Computation. In Proceedings of the 4th ACM SIGMOD Workshop on Algorithms and Systems for MapReduce and Beyond,
+BeyondMR@SIGMOD 2017, Chicago, IL, USA, May 19, 2017, Foto N. Afrati and Jacek Sroka (Eds.). ACM Press, 2:1-2:10.
+Eero Hyvénen, Eetu Makela, Tomi Kauppinen, Olli Alm, Jussi Kurki, Tuukka Ruotsalo, Katri Seppala, Joeli Takala,
+Kimmo Puputti, Heini Kuittinen, Kim Viljanen, Jouni Tuominen, Tuomas Palonen, Matias Frosterus, Reetta Sinkkila,
+Panu Paakkarinen, Joonas Laitio, and Katariina Nyberg. 2009. CultureSampo: A National Publication System of
+Cultural Heritage on the Semantic Web 2.0. In The Semantic Web: Research and Applications, 6th European Semantic
+Web Conference, ESWC 2009, Heraklion, Crete, Greece, May 31-June 4, 2009, Proceedings, Lora Aroyo, Paolo Traverso,
+Fabio Ciravegna, Philipp Cimiano, Tom Heath, Eero Hyvénen, Riichiro Mizoguchi, Eyal Oren, Marta Sabou, and
+Elena Paslaru Bontas Simperl (Eds.), Vol. 5554. Springer, 851-856.
+
+Andreea Jana, Steffen Jung, Philipp Naeser, Aliaksandr Birukou, Sven Hertling, and Heiko Paulheim. 2019. Building
+a Conference Recommender System Based on SciGraph and WikiCFP. In Semantic Systems. The Power of AI and
+Knowledge Graphs - 15th International Conference, SEMANTICS 2019, Karlsruhe, Germany, September 9-12, 2019,
+Proceedings (Lecture Notes in Computer Science), Maribel Acosta, Philippe Cudré-Mauroux, Maria Maleshkova, Tassilo
+Pellegrini, Harald Sack, and York Sure-Vetter (Eds.), Vol. 11702. Springer, 117-123.
+
+Renato Iannella and Serena Villata. 2018. ODRL Information Model 2.2. W3C Recommendation. World Wide Web
+Consortium. https://www.w3.org/TR/odrl-model/
+
+ICDE 2019 2019. 35th IEEE International Conference on Data Engineering, ICDE 2019, Macao, China, April 8-11, 2019.
+IEEE Computer Society.
+
+International Health Terminology Standards Development Organisation 2019. SNOMED CT Editorial Guide. In-
+ternational Health Terminology Standards Development Organisation. https://confluence.ihtsdotools.org/display/
+DOCEG?preview=/71172150/94404969/SNOMED%20CT%20Editorial%20Guide-20190731.pdf
+
+Alexandru Iosup, Tim Hegeman, Wing Lung Ngai, Stijn Heldens, Arnau Prat-Pérez, Thomas Manhardt, Hassan
+Chafi, Mihai Capota, Narayanan Sundaram, Michael J. Anderson, Ilie Gabriel Tanase, Yinglong Xia, Lifeng Nai, and
+Peter A. Boncz. 2016. LDBC Graphalytics: A Benchmark for Large-Scale Graph on Parallel and Distributed Platforms.
+Proceedings of the VLDB Endowment 9, 13 (2016), 1317-1328.
+
+Robert Isele, Anja Jentzsch, and Christian Bizer. 2011. Efficient multidimensional blocking for link discovery without
+losing recall. In Proceedings of the 14th International Workshop on the Web and Databases 2011, WebDB 2011, Athens,
+Greece, June 12, 2011, Amélie Marian and Vasilis Vassalos (Eds.). 6.
+
+P. James. 1992. Knowledge Graphs. Linguistic Instruments in Knowledge Engineering (1992).
+
+88

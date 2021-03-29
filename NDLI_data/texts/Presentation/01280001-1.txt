@@ -1,0 +1,246 @@
+Surface Property Modification of Copper by Nanocomposite Coating
+
+Anindya Basu* and Ashok Akarapu
+
+Department of Metallurgical & Materials Engineering
+National Institute of Technology, Rourkela—/69008, Odisha, India
+
+ 
+
+MOTIVATION
+
+Copper has high electrical and thermal conductivities and good corrosion resistance at ambient temperatures but has poor mechanical properties such as
+hardness and wear resistance.
+
+Copper is used as electrical wires, cables, electrical busbars, circuits inter connectors, heat exchangers, heat sinks, etc., but some applications like electrical
+contacts in switches necessitate the improvements in the mechanical properties without much loss of electrical and thermal conductivities to prevent
+degradation due to frequent rubbing action.
+
+Bulk modification/alloying improves the mechanical property but deteriorates the conductivity.
+
+Surface modification can be another route to improve the surface mechanical properties (hardness, wear) by developing a hard/tough coating on the surface of
+the component without affecting the bulk properties.
+
+SCOPE
+
+In the present study Cu-ultrafineTiO,/Al,O, nanocomposite coatings were developed by electro codeposition (electro and electrophoretic) with different process
+variables like current density and Ti0,/AL,O, concentrations. After deposition different characterization techniques like XRD, EDS, SEM, microhardness testing
+and (ball on plate) wear testing were carried out to study the properties of the coatings developed.
+
+EXPERIMENTAL RESULTS AND DISCUSSION
+Methodology X-ray Diffraction
+
+Second phase particles ae 64.9 Gut) exam OE tal
+Cu(111) im
+
+(TiO, / Al,Os) Suspension for Electro ons ‘1am
+n (ECD)
+
+codepositio
+Acidic Copper Sulfate Prepared
+Solution Substrate
+
+60 80 100 20 25 30 35 20 40 60
+e e 20 (degree) 20 (degree) 20 (degree)
+Characterization
+10 g/l TiO, 10 g/l ALO,
+
+RTC (%) Crystallite [Sample details [RTC (%) —_| Crystallite]
+(311) | size (mm) (200) | (220) | (311) | size (@m
+
+13 [41 [24 [50 10g, 5Alam? | 26 | 22 | 29 | 23 | 41
+
+[10 gf 8A/dm? [3 [2 | 88 10 gi, 8A/dm? | 18 | 21 | 36 | 28 | a8
+
+. Composition & . Resistivity 10 g/l, 11 A/dm? | 0.2 | 0.2 | 98 | 1.6 57 10 g/,11 A/dm? | 9 | 16 | 48 | 27 50
+
+Phase Analysis iheaaeine Mechanical Fourprobe iO ghtsAnim™| 7-19 | s7 | aa [of
+(XRD) (Hardness, Wear) 30e/1,5A/dm? | 20 | 17 | 40 | 23 | 65 30 g/l, 5A/dm?_| 20 | 19 | 37 | 23 53
+(EDS, SEM) Method) 30 g/l, 8 A/dm? 30 g/l, 8 A/dm? | 14 | 19 | 41 | 26 45
+
+9 6 75 | 10 51 30 g/l, 11 A/dm? | 14 | 16 | 43 | 27 64
+
+ECD Conditions 30 g/l, 14 A/dm? 6 11 56 30 g/l, 14 A/dm? | 16 11 49 24 64
+
+Inside of the cell (measurement container) Texture Coefficient of Ni in Ni-TiO, coating Texture Coefficient of Ni in Ni-Al,O, coating
+Electrode Electrode
+
+Electrolyte Copper Sulfate (CuSO,.5H,0): 200 g/l in not
+(Acidic copper sulfate bath) Sulfuric acid (H,SO,): 50 g/l
+
+pH 2.17
+
+Intensity(a.u.)
+intensity (a.u.)
+Intensity(a.u.)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Microstructural Analysis
+
+Negative Solution
+MES Aim”
+
+lonic stationary bed layer L a, Wee ‘ae Bie eal Bie ——
+j (ion fixed layer bed BF on as a ee ae mi. Rok 14 Ala?
+Current density 5 A/dm’, 8 A/dm’, 11 A/dm? , 14 A/dm? Particle that is @ measuring object
+
+ 
+
+N
+on
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ind
+
+Temperature 27 +1°C
+Plating time 20 minutes
+
+Dispersion TiO, / Al,O;: 0 g/l, 10 g/l, 30 g/l
+
+Co deposited Ti (wt%)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+0 30
+Amount of TiO, in bath (g/l)
+
+MES Aid’ (c)
+ZB Aldm*
+
+(711 Aldm?
+
+GN 14A/dm’?
+
+=
+
+All TiOgpeaks
+
+©
+
+= WN
+oo 8
+
+ao
+a
+
+aa ee 5 E 5 - Ze
+ED” een EN & ome as . Wl |
+10
+Amount of Al,O, in bath (g/l)
+ALO,
+
+Wo
+
+3
+intensity (a.u.)
+
+Zeta potential(mV)
+4 ob
+°o
+
+& 8
+
+(a) SEM micrograph with 30 g/l powder, (b) EDS data of the same and (c) EDS data of all the samples
+
+g
+
+10 100 1000 10000 40 60
+
+Size (nm) 20 (degree) Microhardness Wear Study
+
+All Al20,,peaks Pure Cu annealed cy without TiO.
+
+2
+
+ 
+
+= nN
+
+Wear depth(j1m)
+
+Cu- 10 g/l TiO,
+
+intensity (a.u.)
+Microhardness (HV, ,,
+
+ 
+
+Zeta potential (mV)
+
+10 20
+6 8 is & : ' ‘ ot mewn (cm)
+10 100 1000 10000 5a Current density (Aldm ) Current density (Adm) TiO,
+Note: Hardness value of as received hot
+Size (nm) 20 (degree oe . ;
+egre) rolled Cu substrate was HV, 9, 95-1 Sliding distance Vs Wear depth at 11 A/dm
+
+SEM micrograph of wear track on: (a) pure Cu deposition, (b)
+same as (a) at higher magnification, (c) Cu- 10 g/l TiO, at 11
+A/dm? and (d) ) same as (c) at higher magnification
+
+CONCLUSIONS
+
+> In the present study TiO, and AL,O, powders individually dispersed in the Copper matrix by using Electrodeposition process.
+
+> The particle size and iso electric points of TiO, and ALO, were 202 nm, 4.2 pH and 287 nm, 5.3 in pH respectively prior to deposition.
+
+> A strong (220) intense diffraction line (texture) observed in most of the coatings developed, but obviously its intensity is effected by particle incorporation,
+current density and Copper oxide formation.
+
+> Coatings developed were smooth and without nodules, cracks and dendrites like structures.
+
+> The amount of dispersed second phase particles greatly influenced by the concentration of powder in bath and Current density.
+
+> At Current density 11A/dm2 higher hardness values were reported due to increased amount of dispersed second phase particles, texture and grain refinement.
+
+> Wear resistance of composite coatings was improved with increase in amount of second phase particles and favorable texture.
+
+> Electrical conductivity tests are going on
+
+ACKNOWLEDGEMENT
+Partial financial support from CSIR, New Delhi, India (Grant No. 22/0563/11/EMR II) is gratefully acknowledged
+* Contact - anindya.basu@gmail.com

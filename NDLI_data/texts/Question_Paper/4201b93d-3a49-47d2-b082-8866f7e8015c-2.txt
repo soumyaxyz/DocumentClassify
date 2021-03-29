@@ -1,0 +1,82 @@
+10.
+
+1a.
+
+12.
+
+13.
+
+14,
+
+15.
+
+What is arrays?
+
+Define union.
+
+(a)
+
+(b)
+
+(a)
+
+(b)
+(a)
+
+(b)
+(a)
+
+(b)
+
+(a)
+
+(b)
+
+PART B — (5 x 5 = 25)
+Answer ALL questions.
+Describe about the logic gates.
+Or
+Explain about the multiplexer.
+Explain about the primary memory.
+Or
+Discuss about the virtual memory.
+Describe about the addressing modes.
+Or
+Explain about the console systems:
+Describe about the data types with detail.
+Or
+
+Explain about the decision making ang
+
+branching for if statement. /
+
+Explain about the handling of chara¢ter
+strings.
+
+Or
+
+. Describe about the structures initialization.
+
+2 S.No. 9031
+
+16.
+
+17:
+
+18.
+
+20.
+
+PART C — (8 x 10 = 30)
+Answer any THREE questions.
+Briefly explain about the number systems.
+Discuss about the associative memory with detail.
+
+Explain about the basic CPU architecture with
+detail.
+
+Write notes on operators with detail.
+
+Explain about the pointers with detail.
+
+3 S.No. 9031

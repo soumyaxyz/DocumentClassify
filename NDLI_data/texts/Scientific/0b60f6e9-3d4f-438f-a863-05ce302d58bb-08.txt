@@ -1,0 +1,123 @@
+Article: smugglers lure arab and african migrants by offer-
+ing discounts to get onto overcrowded ships if people bring
+more potential passengers, a cnn investigation has revealed.
+(.)
+
+Summary: cnn investigation uncovers the business inside
+a human smuggling ring.
+
+ 
+
+Article: eyewitness video showing white north charleston
+police officer michael slager shooting to death an unarmed
+black man has exposed discrepancies in the reports of the
+first officers on the scene. (...)
+Summary: more questions than answers emerge in con-
+troversial s.c. police shooting.
+
+ 
+
+ 
+
+ 
+
+Figure 5: Examples of highly abstractive reference
+summaries (bold denotes novel words).
+
+of Nallapati et al. (2016) by several ROUGE
+points. Despite the brevity of the coverage train-
+ing phase (about 1% of the total training time),
+the repetition problem is almost completely elimi-
+nated, which can be seen both qualitatively (Figure
+1) and quantitatively (Figure 4). However, our best
+model does not quite surpass the ROUGE scores
+of the lead-3 baseline, nor the current best extrac-
+tive model (Nallapati et al., 2017). We discuss this
+issue in section 7.1.
+
+7 Discussion
+
+7.1 Comparison with extractive systems
+
+It is clear from Table | that extractive systems tend
+to achieve higher ROUGE scores than abstractive,
+and that the extractive lead-3 baseline is extremely
+strong (even the best extractive system beats it by
+only a small margin). We offer two possible ex-
+planations for these observations.
+
+Firstly, news articles tend to be structured with
+the most important information at the start; this
+partially explains the strength of the lead-3 base-
+line. Indeed, we found that using only the first 400
+tokens (about 20 sentences) of the article yielded
+significantly higher ROUGE scores than using the
+first 800 tokens.
+
+Secondly, the nature of the task and the ROUGE
+metric make extractive approaches and the lead-
+3 baseline difficult to beat. The choice of con-
+tent for the reference summaries is quite subjective
+— sometimes the sentences form a self-contained
+summary; other times they simply showcase a few
+interesting details from the article. Given that the
+articles contain 39 sentences on average, there are
+many equally valid ways to choose 3 or 4 high-
+lights in this style. Abstraction introduces even
+more options (choice of phrasing), further decreas-
+
+ing the likelihood of matching the reference sum-
+mary. For example, smugglers profit from des-
+perate migrants is a valid alternative abstractive
+summary for the first example in Figure 5, but
+it scores 0 ROUGE with respect to the reference
+summary. This inflexibility of ROUGE is exac-
+erbated by only having one reference summary,
+which has been shown to lower ROUGE?’s relia-
+bility compared to multiple reference summaries
+(Lin, 2004a).
+
+Due to the subjectivity of the task and thus
+the diversity of valid summaries, it seems that
+ROUGE rewards safe strategies such as select-
+ing the first-appearing content, or preserving orig-
+inal phrasing. While the reference summaries do
+sometimes deviate from these techniques, those
+deviations are unpredictable enough that the safer
+strategy obtains higher ROUGE scores on average.
+This may explain why extractive systems tend to
+obtain higher ROUGE scores than abstractive, and
+even extractive systems do not significantly ex-
+ceed the lead-3 baseline.
+
+To explore this issue further, we evaluated our
+systems with the METEOR metric, which rewards
+not only exact word matches, but also matching
+stems, synonyms and paraphrases (from a pre-
+defined list). We observe that all our models re-
+ceive over | METEOR point boost by the inclu-
+sion of stem, synonym and paraphrase matching,
+indicating that they may be performing some ab-
+straction. However, we again observe that the
+lead-3 baseline is not surpassed by our models.
+It may be that news article style makes the lead-
+3 baseline very strong with respect to any metric.
+We believe that investigating this issue further is
+an important direction for future work.
+
+7.2 How abstractive is our model?
+
+We have shown that our pointer mechanism makes
+our abstractive system more reliable, copying fac-
+tual details correctly more often. But does the ease
+of copying make our system any less abstractive?
+
+Figure 6 shows that our final model’s sum-
+maries contain a much lower rate of novel n-grams
+(ie., those that don’t appear in the article) than the
+reference summaries, indicating a lower degree of
+abstraction. Note that the baseline model produces
+novel n-grams more frequently — however, this
+statistic includes all the incorrectly copied words,
+UNK tokens and fabrications alongside the good
+instances of abstraction.

@@ -1,0 +1,57 @@
+Definition B.62 (Hypothesis mining). Given a knowledge graph G, a set of negative edges E™,
+a scoring function o, and a threshold ming, the goal of hypothesis mining is to identify a set of
+hypotheses {y | G K y and o(,G, E-) > ming}.
+
+There are two main scoring functions used for o in the literature: support and confidence.
+Definition B.63 (Hypothesis support and confidence). Given a knowledge graph G = (V, E, L) and
+a hypothesis |, the positive support of y is defined as follows:
+o*(W,G) = |{e€ E| G’ KeandG’ Uy Fe}|
+where G’ denotes G with the edge e removed. Further given a set of negative edges E~, the negative
+support of w is defined as follows:
+o (WG, E) = |{e€ E |GUyre}|
+
+Finally, the confidence of is defined as o*(,G, E~) = awe:
+
+ 
+
+We have yet to define how the set of negative edges are defined, which, in the context of a
+knowledge graph G, depends on which assumption is applied:
+e Closed world assumption (CWA): For any (positive) edge e, G  e if and only if G F se. Under
+CWA, any edge e not entailed by G can be considered a negative edge.
+© Open world assumption: For a (positive) edge e, G K e does not necessarily imply G = 7e.
+Under OWA, the negation of an edge must be entailed by G for it to be considered negative.
+e Partial completeness assumption (PCA): If there exists (s, p,o) such that G — (s, p,o), then
+for all o’ such that G | (s, p, 0’), it holds that G  7(s, p, 0’). Under PCA, if G entails some
+outgoing edge(s) labelled p from a node s, then such edges are assumed to be complete, and
+any edge (s, p, 0) not entailed by G can be considered a negative edge.
+
+ 
+
+ 
+
+ 
+
+Knowledge graphs are generally incomplete — in fact, one of the main applications of hypothesis
+mining is to try to improve the completeness of the knowledge graph — and thus it would appear
+unwise to assume that any edge that is not currently entailed is false/negative. We can thus rule
+out CWA. Conversely, under OWA, potentially few (or no) negative edges might be entailed by
+the given ontologies/rules, and thus hypotheses may end up having low negative support despite
+entailing many edges that do not make sense in practice. Hence the PCA can be adopted as a
+heuristic to increase the number of negative edges and apply more sensible scoring of hypotheses.
+
+Different implementations of hypothesis mining may consider different logical languages. Rule
+mining, for example, mines hypotheses expressed either as monotonic rules (with positive edges)
+or non-monotonic edges (possibly with negated edges). On the other hand, axiom mining considers
+hypotheses expressed in a logical language such as Description Logics. Particular implementations
+may, for practical reasons, impose further syntactic restrictions on the hypotheses generated, such
+as to impose thresholds on their length, on the symbols they use, or on other structural properties
+(such as “closed rules” in the case of the AMIE rule mining system [164]; see Section 5.4). Systems
+may further implement different search strategies for hypotheses. Systems such as AMIE [164],
+RuLES [230], CARL [381], DL-Learner [70], etc., propose discrete mining that recursively generates
+candidate formulae through refinement/genetic operators that are then scored and checked for
+threshold criteria, thus navigating a branching search space. On the other hand, systems such as
+NeuralLP [534] and DRUM [430] apply differentiable mining that allows for learning (path-like)
+rules and their scores in a more continuous fashion (e.g., using gradient descent). We refer to
+Section 5.4 for further discussion and examples of such techniques for mining hypotheses.
+
+130

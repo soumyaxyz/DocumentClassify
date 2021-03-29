@@ -1,0 +1,85 @@
+18 | EIRINI PAPAGIANNOPOULOU AND GRIGORIOS TSOUMAKAS
+
+ 
+
+to predict the label of each word in the source text.
+
+Finally,/Basaldella et al.
+
+word. First, the document is split into sentences that are tokenized in words. Then, each word is associated to a word
+embedding. Finally, word embeddings are fed into a Bi-LSTM RNN. In this vein, |Alzaidy et al.
+LSTM layer to model the sequential text data with a Conditional Random Field (CRF) layer to model dependencies in
+
+2018) propose a Bi-LSTM RNN which is able to exploit previous and future context of a given
+
+ 
+
+combine a Bi-
+
+ 
+
+the output. Particularly, the first layer of the model is a Bi-LSTM network that captures the semantics of the input text
+sequence. The output of the Bi-LSTM layer is passed to a CRF layer that gives a probability distribution over the tag
+sequence using the dependencies among labels (i.e., KP: keyphrase word, Non-KP: not keyphrase word) of the entire
+
+sequence.
+
+3.3 | Types of Features
+
+Supervised keyphrase extraction methods employ different types of features to discover the importance of docu-
+ments’ terms. Table[2]gives an overview of the most popular features used by supervised methods. We also provide
+a categorization of the features that belong in the same family. Each category of features is discussed in a separate
+section. Table[3]gives an overview of the most representative supervised keyphrase extraction methods in terms of
+the learning algorithm they employ and the type of their input features/the knowledge they incorporate: statistical
+(Stat.), positional (Posit.), linguistic (Ling.), context (Cont.), stacking (Stack.) and external knowledge (Ext.). Once again,
+the categorization scheme and the table can be extended as new methods are developed with new features, feature
+
+categories and additional methods.
+
+3.3.1 | Statistical Features
+
+Features, such as the term frequency (Tf), the inverse document frequency (Idf), the Tfldf score as well as statistical scores,
+such as the phrase entropy are very popular and utilized by many methods, e.g. {Witten et al.| 9 (KEA),[Medelyan|
+{et al.|[2009) (MAUI) |Caragea et al. (2014} (CeKE),[Hulth|(2003}, Mcllraith and Weinberger (2018} (SurfKE),/Wang and
+(PCU-ICL),{Jiang et al.|(2 (Ranking SVM),/Nguyen and Kan] (2007), Zhang et al. (2017) (MIKE),|Shi et al.
+(2008), Bougouin et al. (2016), andjNguyen and Luong) (2010) (WINGNUS). In some cases, thresholds are used for the
+
+scores mentioned above for the creation of boolean features, ending up to values such as high, low etc. Moreover,|Gol-|
+
+ 
+
+ 
+
+ 
+
+   
+
+ 
+
+lapalli et al. letect the features that co-occur with the keyphrases very often and incorporate this information
+
+via extra features, whereas|Yang et a
+
+(ToLDA) to generate topic distributions.
+
+ 
+
+dopt a user-guided Task-oriented Latent Dirichlet Allocation model
+
+ 
+
+3.3.2 | Positional Features
+
+This category includes features that indicate the appearance of phrases in specific positions (e.g. the 1°‘ occurrence of the
+phrase in the text), sections, titles, abstracts, citation contexts. The part(s) of the document, i.e., section, title, abstract
+where the phrases occur, imply the importance of the corresponding phrases. For instance, phrases that appear in ti-
+tle or in early parts of the document indicate that these phrases play an important role. Examples of such methods
+that use this type of information are(Jiang et al.| (Ranking SVM),[Zhang et al.] (MIKE), [Shi et al.
+andjGollapalli et al i 2 utilize a vector of frequency features for 14 generic section head-
+
+ers (e.g., Abstract, Categories and Subject Descriptors, General Terms, Introduction, Conclusions etc.). A maximum
+
+      
+ 
+
+Z|

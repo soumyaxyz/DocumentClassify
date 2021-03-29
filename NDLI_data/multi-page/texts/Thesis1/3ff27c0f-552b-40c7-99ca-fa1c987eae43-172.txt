@@ -1,0 +1,83 @@
+Chapter 5: Quantum isometry groups of the Podles spheres 160
+
+Lemma 5.3.16.
+
+—p? (1 — Te) TF + $285 + cS5S4 = —p4TH(1 — Te) + cp? S483 + cy? S$, (5.3.29)
+
+ 
+
+ 
+
+ 
+
+ 
+
+5382 = p $253, (5.3.30)
+
+S254 = p?S1S9, (5.3.31)
+
+S$T3 + (1 — Th) S$ = —p? TH 85 + p?.S3(1 — To), (5.3.32)
+SoT3 + (1 — Ty) S4 = p?S4(1 — Ta) — pT 3 S2, (5.3.33)
+T3S + p?S3T = w?(ToS3 + 179973). (5.3.34
+
+Proof : The relations follow by applying « on ( 5.3.10 ), (5.3.15 ), (5.3.16 ), (5.3.12
+), (5.3.13 ) and ( 5.3.14 ) respectively.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Lemma 5.3.17.
+
+wi(14 12) TsT3 + cu? (1 + p?)?S3.93 + cu? (1 + p?)?,S7S4
+
+ 
+
+ 
+
+ 
+
+ 
+
+= pA(1— Th)(1 + p?T2) + 08983 + cS¥S2 + cu?(1 + p?)?.1, (5.3.35)
+292
+S384 =-—/ "2, (5.3.36)
+(1+ p?)
+
+2)2 cerns 22 oe ee 7
+
+—pP (1+ pw?) STS — w+ w?)T3S3 = p?(1 + p?)S3 — w4S3(1 — Te) — p4(1 — Te) S3,
+(5.3.37
+
+(1+ y2) StTs + p21 + 2)? 739% = —p2.93Ts — pw! T2S8. (5.3.38
+
+Proof : The relations follow by applying « on (5.3.17), (5.3.22), (5.3.19 ) and (5.3.21
+
+ 
+
+ 
+
+ 
+
+ 
+
+respectively.
+
+Remark 5.3.18. It follows from ( 5.3.28 ) and ( 5.3.36 ) that 48453 = $354.
+
+5.3.4 Identification of SO,,(3) as the quantum isometry group
+
+Motivated by ( 5.2.5 ) and (5.3.23 ) we are led to state and prove the following statement
+
+The map SO,(3) > Q sending M,L,G,N,C to —(1+py?)“1S2, $3, —potS4, (1+
+p?)-1(1 — T2), wT respectively is a * homomorphism ( See Proposition 5.3.30 ).
+
+To prove this, it is enough to show that all the relations of SO,(3)( as in ( 5.2.4 ) )
+when translated to relations of QISOR(O(Si,.0)s H, D) via the above map are satisfied.
+Hence, we list the relations one by one.
+
+L*L =(I— N)(I— p-2N) gives

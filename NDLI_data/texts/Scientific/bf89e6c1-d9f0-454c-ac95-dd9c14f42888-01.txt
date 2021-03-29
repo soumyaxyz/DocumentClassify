@@ -1,0 +1,135 @@
+Learning Joint Query Interpretation and Response Ranking
+
+Uma Sawant
+IIT Bombay, Yahoo! Labs
+uma @cse.iitb.ac.in
+
+ABSTRACT
+
+Thanks to information extraction and semantic Web efforts,
+search on unstructured text is increasingly refined using se-
+mantic annotations and structured knowledge bases. How-
+ever, most users cannot become familiar with the schema
+of knowledge bases and ask structured queries. Interpret-
+ing free-format queries into a more structured representa-
+tion is of much current interest. The dominant paradigm
+is to segment or partition query tokens by purpose (refer-
+ences to types, entities, attribute names, attribute values,
+relations) and then launch the interpreted query on struc-
+tured knowledge bases. Given that structured knowledge
+extraction is never complete, here we choose a less trodden
+path: a data representation that retains the unstructured
+text corpus, along with structured annotations (mentions of
+entities and relationships) on it. We propose two new, natu-
+ral formulations for joint query interpretation and response
+ranking that exploit bidirectional flow of information be-
+tween the knowledge base and the corpus. One, inspired by
+probabilistic language models, computes expected response
+scores over the uncertainties of query interpretation. The
+other is based on max-margin discriminative learning, with
+latent variables representing those uncertainties. In the con-
+text of typed entity search, both formulations bridge a con-
+siderable part of the accuracy gap between a generic query
+that does not constrain the type at all, and the upper bound
+where the “perfect” target entity type of each query is pro-
+vided by humans. Our formulations are also superior to a
+two-stage approach of first choosing a target type using re-
+cent query type prediction techniques, and then launching a
+type-restricted entity search query.
+
+Categories and Subject Descriptors
+H.3.3 [Information Storage and Retrieval]: Information
+Search and Retrieval
+
+Keywords
+
+Query interpretation; Entity search
+
+1. INTRODUCTION
+
+Web information representation is getting more sophisti-
+cated, thanks to information extraction and semantic Web
+efforts. Much structured and semistructured data now sup-
+plements unstructured, free-format textual pages. In verti-
+cals such as e-commerce, the structured data can be accessed
+through forms and faceted search. However, a large number
+of free-format queries remain outside the scope of verticals.
+As we shall review in Section] there is much recent research
+on analyzing and annotating them.
+
+Here we focus on a specific kind of entity search query:
+some words (called selectors) in the query are meant to oc-
+cur literally in a response document (as in traditional text
+
+Copyright is held by the International World Wide Web Conference
+Committee (IW3C2). IW3C2 reserves the right to provide a hyperlink
+to the author’s site if the Material is used in electronic media.
+WWW 2018, May 13-17, 2013, Rio de Janeiro, Brazil.
+
+ACM 978-1-4503-2035- 1/13/05.
+
+RIGHTS LIN Ka
+
+1099
+
+Soumen Chakrabarti
+IIT Bombay
+soumen @cse.iitb.ac.in
+
+search), but other words hint at the type of entity sought
+by the query. Unlike prior work on translating well-formed
+sentences or questions to structured queries using deep NLP,
+we are interested in handling “telegraphic” queries that are
+typically sent to search engines. Each response entity must
+be a member of the hinted type.
+
+Note that this problem is quite different from finding an-
+swers to well-formed natural language questions (e.g., in
+Wolfram Alpha) from structured knowledge bases (perhaps
+curated through information extraction). Also observe that
+we do not restrict ourselves to queries that seek entities by
+attribute values or attributes of a given entity (both are
+valuable query templates for e-commerce and have been re-
+searched). In our setup, some responses may only be col-
+lected from diverse, open-domain, free-format text sources.
+E.g., typical driving time between Paris and Nice (the target
+type is time duration), or cricketers who scored centuries at
+Lords (the target type is cricketers).
+
+       
+    
+  
+ 
+
+instanceOf
+1
+
+'
+ty: San Diego Padies..
+oo
+
+  
+
+Evidence snippe mentionOf
+
+By comparison, e Padres have been to two
+World Séries, losing in 1984 and 1998. °
+
+Figure 1: Example of a collective, joint query in-
+terpretation and entity ranking problem; includes a
+query containing different possible hint and selector
+words, partially matching types with member enti-
+ties and corpus snippets
+
+The target type (or a more general supertype, such as
+sportsperson in place of cricketer) may be instantiated in a
+catalog, but the typical user has no knowledge of the catalog
+or its schema. Large catalogs like Wikipedia or Freebase
+evolve “organically”. They are not designed by linguists, and
+they are not minimal or canonical in any sense. Types have
+overlaps and redundancies. The query interpreter should
+take advantage of specialized types whenever available, but
+otherwise gracefully back off to broader types.
+
+Figure[[]shows a query that has at least two plausible hint
+word sets: {team, baseball} (correct) and {world, series} (in-

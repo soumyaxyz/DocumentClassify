@@ -1,0 +1,76 @@
+Chapter 5: Quantum isometry groups of the Podles spheres 176
+
+ 
+
+1 1 oe oes 1 Lee Sy =
+(c4()? + e(1)® )(Qn_adn” — Inada”) + (e+(2)® — c(n)?) (Gnade — Gdn") = 9
+
+for alln > 1, (5.4.9)
+
+1 1 woe ate 1 lis y py
+(c4(n +12 + e_(m +1)? )Onyadn” — Geeidn) = (e+ (m + 1)? — e-(m +1)? ) Gage —
+Gex19,*) for all n. (5.4.10)
+Proof : Since a(A) maps (Sie) into its double commutant, we conclude by using
+
+. . . Le 0 .
+the description of m(S2 )! given in Lemma 5.4.3 that the coefficient of ( ) in
+/ én
+
+a(A) ( a ) must be 0, which implies ( by Lemma 5.4.4 )
+
+ 
+
+ 
+
+ALL + aaa® — (+ a at) + ALL = aan + an i* — 1 = 0.
+Hence,
+
+(As —A-)(Gn an * — Gn dn) = 0. Hence, (G7 dn* — In In*) = 0.
+Proceeding in a similar way, ( 5.4.8 ),( 5.4.9 ), (5.4.10 ) follow from the facts that
+
+coefficients of 0 ; m1) and 0 in a(B) &n ;
+€n-1 0 €n+1 0
+
+0 é
+a(B) . and a(B*) 4 ( respectively ) are zero.
+“nr
+
+ 
+
+ 
+
+ 
+
+ 
+
+Corollary 5.4.6. We have
+
+co
+1 - a
+a(A) = > AP, ® marl + Gh Gn°) +-(1 = Gtan*)}
+
+n=0
+
+co
+1 - oy
++) AQn ® 5—{A4 (1 = adn”) + A-(L + Gdn”)
+n=0 ~
+
+1
+4c4(n)
+
+ 
+
+fo)
+1 1 bc
+a(B) = 3° BP, ® [(c+(n)? + e-(n)*)(GEaat* + Gag’)
+n=1
+
+[(ex(n)2 +c (n)2).
+
+Nie
+
+1 _ * = 2° 1
++(e4(n)? — e-(n)?)(Gn_ign” + Gt adn) +2, 8Qn ® Tn)
+
+)

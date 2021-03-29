@@ -1,0 +1,42 @@
+3. Search Result Diversification
+
+ 
+
+Yue & Joachims (2008) proposed a hybrid diversification approach within the
+framework of supervised machine learning. As training data, they considered a
+pair (Rg,,N;,) for each query gq, where Ry, and N,, denoted the initially ranked
+documents and the manually labelled information needs possibly underlying q,
+respectively. Since the actual needs N,, are unknown in a real scenario, these
+were implicitly represented using the words covered by each document. In order
+to learn a function f to identify a set D,, C R,, with maximum coverage of N;,,
+they employed structural support vector machines (SVMs; Tsochantaridis et al.,
+2005). In particular, their weighted word coverage (WWC) approach considered
+
+linear functions f, parametrised by a weight vector w, according to:
+Fwwe (4; d, Dy) = w' ®(Ry, Dy U {d}), (3.20)
+
+where the feature extractor ®(R,,D, U {d}) measures the extent to which the
+words in Ry are covered by each candidate selection D, U {d}.
+
+A supervised learning approach similar to the one of Yue & Joachims (2008)
+was introduced by Raman et al. (2012), but within an online learning setting.
+In particular, at a given time 7, their approach presented the user with a diverse
+
+ranking D,, produced by the following objective:
+tov (@ d, Dy) = w, ®(Ry, Dg U {d}), (3.21)
+
+where w; denotes the weight vector learned by a diversification perceptron (DP),
+based upon the evidence accumulated up to time i, and ®(R,, D,U{d}) is defined
+in terms of word coverage, similarly to Equation (3.20). To update the vector wi,
+the feedback received from the user in the form of pairwise preferences is used
+to produce an improved (in expectation) ranking Dy. In particular, the updated
+vector is defined as Wi, = w; + ®(Ry, Dz) — B(Ry, Dy).
+
+Hybrid approaches based on explicit aspect representations have also been
+proposed. For instance, Slivkins et al. (2010) introduced a hybrid diversification
+approach within the multi-armed bandits (MAB) framework. In particular, they
+extended the click coverage maximisation approach of Radlinski et al. (2008a),
+
+described in Section 3.3.2, to account for the context in which clicks are observed.
+
+72

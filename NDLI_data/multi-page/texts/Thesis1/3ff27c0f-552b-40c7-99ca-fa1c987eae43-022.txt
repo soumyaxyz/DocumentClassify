@@ -1,0 +1,59 @@
+Chapter 1: Preliminaries 10
+
+ 
+
+representation 74 of A into B(Hy) and a vector €% in Hg which is cyclic in the sense
+that {7g(x)&y : a € A} is total in Hg satisfying
+
+(x) = (&, To(x)Eo) -
+
+For a two-sided norm closed ideal Z of a C* algebra A, the canonical quotient norm
+on the Banach space A/T is in fact the unique C* norm making A/T into a C* algebra.
+
+Here we prove two results which we are going to need later on.
+
+Lemma 1.1.1. /30] LetC be a C* algebra and F be a nonempty collection of C*-ideals
+( closed two-sided ideals ) of C. Then for any x in C, we have
+
+super lle + || = lla + oll,
+
+where Ip denotes the intersection of all I in F and ||x+1|| = inf{||x— yl] : y € I}
+
+denotes the norm in C/I.
+
+Proof : It is clear that sup;¢¢ ||« + J|| defines a norm on C/Ip, which is in fact a C*
+
+norm since each of the quotient norms ||. + J|| is so. Thus the lemma follows from the
+
+ 
+
+ 
+
+ 
+
+ 
+
+uniqueness of C* norm on the C* algebra C/Ip.
+
+Lemma 1.1.2. Let C be a unital C* algebra and F be a nonempty collection of C*-
+ideals (closed two-sided ideals) of C. Let Io denote the intersection of all I in F, and
+let pr denote the map C/Ip 2x +Ip'ea4+I16€C/T forT inF. Denote by Q the set
+{wopz,I € F, w state on C/T}, and let K be the weak-« closure of the convex hull
+of QU(-Q). Then K coincides with the set of bounded linear functionals w on C/Lo
+satisfying ||w|| = 1 and w(a* + Zo) = w(a + Zo).
+
+Proof : We will use Lemma 1.1.1. Clearly, K is a weak-* compact, convex subset of
+the unit ball (C/Zo)} of the dual of C/Zpo, satisfying —K = K. If K is strictly smaller
+than the self-adjoint part of unit ball of the dual of C/Zo, we can find a state w on
+C/Zo which is not in K. Considering the real Banach space X = (C/Zo)%,,, and using
+standard separation theorems for real Banach spaces (for example, Theorem 3.4 of [49],
+
+page 58), we can find a self-adjoint element x of C such that ||z + Zo|| = 1, and
+
+sup w!(x+IZo) < w(# +p).
+
+weK
+Let y belonging to R be such that sup,yex w'(a + Zo) < y < w(a@ +p). Fix0<€<
+w(a+Zo)—y, and let Z be an element of F be such that ||a+Zo||—§ < ||a+Z|| < ||a+Zol].
+Let ¢ be a state on C/T such that ||x + Z|| = |d(a +Z)|. Since « is self-adjoint, either
+o(a +Z) or —¢(a + TZ) equals ||a + Z||, and ¢’ := +¢0 pr, where the sign is chosen so

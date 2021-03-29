@@ -1,0 +1,307 @@
+IEEE Access
+
+A. S. Winoto et a/.: Small and Slim Deep Convolutional Neural Network for Mobile Device
+
+ 
+
+TABLE 1. Input operator output of alpha, beta, gamma layer.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Input Operator Output Layer
+hxwxk | Conv2D 1x1 m hxwxm
+hxwxm | Depth-wise 3x3 hxwxm
+Alpha
+Axwxm_ | Depth-wise 3x3) wy x mx n
+depth mult =n
+Maxpool 2x2 how
+x wx Bye
+hxwxk Stride = 5X aX
+how how
+=xX-xXk Dropout (z) =~x=xk
+2 2 2 2
+how n h_owon
+—-x—xk Conv2D 1x1 — —x—x—
+2 2 « 2 2 4
+Beta
+h won h
+a5] Depth-wise 3x3 BME.
+2 2 4 22° 4
+h n
+—x— x how
+2 4 | Conv2D IxIn -x—xn
+2 2
+Conv2D 1x1” h won
+hxwxk 4 =x—x—
+stride = z 22 4
+hewn ie we OH
+> 94 | Depth-wise 3x3 —=x—x— Beta -
+A 2 4 2°2°4 | 2
+BW how
+22 4 Conv2D 1x1 n —=~x—xn
+Z Z
+hxwxk ConvaD 1x17 hxwx—
+Separable
+ews! Conv2D 3x3 ~, iw Gam
+4 4 ma
+depth _mult = 2
+n
+We Conv2D Ixl n hxwxn
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+using dropout layer to lower the loss without adding much
+parameter to get higher accuracy.
+
+In each of these operators, we apply batch normalization
+and swish activation layer. The outer part of the architecture
+is shown in Fig. 7. where both of our proposed model (Cus-
+tomNet and CustomNet2) uses same basic architecture where
+the input will be processed through some convolutional block
+and after dropout layer, the output become an input called
+X, and X2 and continue through another convolutional block
+separately. The output in thread produced by input X; become
+input X3 and X4, and the output in thread produced by X2
+become input X5 and X¢. Then, X3 and X¢ is processed using
+Custom block that we made based on combination alpha,
+beta, and gamma layer. While X4 and X5 is going to be
+
+125214
+
+INPUT
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+5x1 Conv2D
+v
+1x5 Conv2D
+Swish
+v
+3x3 ConvaD
+v
+x 2 Maxpool
+s=2
+Y
+Dropout
+X X2
+3x 3 Conv2D 1x1 Conv2D
+y y
+3x 3 Conv2D 3x3 ConvaD
+t
+Batch Norm Batch Norm
+Xe Swish Swish Xs
+x Xe
+f a“ ef t
+3x 3 Conv2D 3x3 Conv2D 1x 1Conv2D 1x1. ConvaD
+¥ Y
+3x 3. Conv2D L__, add }-—I 3x3 Conv2D
+¥
+Batch Norm Batch Norm Batch Nom
+Swish Swish Swish
+T T
+| | |
+FC Layer FC Layer FC Layer
+{L__________,) average _
+
+ 
+
+ 
+
+ 
+
+ 
+
+OUTPUT )
+ae
+
+FIGURE 7. CustomNet architecture. The ellipsis can be filled with
+combination of alpha, beta or gamma layer.
+
+added first before it goes through custom block. After each
+thread pass through Fully Connected layer, all the output goes
+through average layer to get one output.
+
+The main difference of our CustomNet and Custom-
+Net2 models are on the utilization of pooling, dropout layer
+and beta layer. In the CustomNet model, we use more dropout
+layer to make the training faster and utilizes maxpooling layer
+to reduce width and height of the input by half, while Cus-
+tomNet2 modify the stride in convolutional layer to reduce
+the input to half.
+
+The construction of our Custom block and Custom2 block
+will be shown in Table 2 and Table 3 while the complete
+architecture will be shown in Fig. 8 and Fig. 9 respectively.
+
+In CustomNet and CustomNet2, there are 3 types of layer
+implemented which is Alpha layer Beta Layer, along with the
+Beta-2 Layer, and Gamma Layer.
+
+F. ALPHA LAYER
+
+Alpha layer is implementing the Depth-wise convolution
+along with the depth multiplier, so it would start with m layer,
+and ends with mxn layer. Shaped like bottleneck layer, but
+this layer goes bigger.
+
+VOLUME 8, 2020

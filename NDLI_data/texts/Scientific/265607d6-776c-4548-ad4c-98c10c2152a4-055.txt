@@ -1,0 +1,48 @@
+2. Web Information Retrieval
+
+ 
+
+was introduced to distinguish between URLs containing different components,
+such as a domain name (a “root” URL), a domain followed by a subdirectory
+(a “subroot” URL), a deeper directory (a “path” URL), or a filename (a “file”
+URL). In particular, homepages tend to be mainly of type “root” (Kraaij et al.,
+
+2002). Given some relevance data G, this feature can be quantified as:
+
+_ di € G | type(ua) = type(ua,)}|
+
+For(9: ®) = TEC | type(ua) = typelua,)}1"
+
+(2.33)
+where type(ua) defines the type of the URL ua of document d. A simpler feature,
+capturing the intuition that shorter URLs are preferred is the URL depth (UD),
+
+which counts the number of components in the document’s URL:
+
+Suv (4 d) = | parts(ua, Ty, (2.34)
+
+where parts(tua,‘/’) denotes the set of forward slash-separated substrings of wa,
+excluding its protocol (e.g., “http://”). Yet another similar feature counts the
+number of characters ¢,,, in the URL, and is denoted URL length (UL):
+
+fur (G4) = sus - (2.35)
+
+Another class of query-independent ranking features used in the experimental
+part of this thesis exploits the textual content of each document, in order to
+measure its overall readability. The underlying intuition is that documents that
+are easier to read are more likely to be perceived as relevant by search users.
+For instance, Kanungo & Orr (2009) investigated a series of features for the task
+of generating readable document summaries to be displayed in response to a
+query (Tombros & Sanderson, 1998). Of these, we use the average term length
+
+(ATL) in a document as a simple measure of readability, according to:
+
+ari (4 d) = = S: thea Ste (2.36)
+
+ted
+
+where ¢, denotes the length in characters of the term t. The intuition here is that
+
+longer terms would reflect a more thoughtful, and hence readable writing style.
+
+37

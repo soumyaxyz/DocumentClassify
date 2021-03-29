@@ -1,0 +1,44 @@
+8 1. CLASSICAL GROUPS
+
+An adjoint anti-automorphism oy which is k-linear, is called the adjoint involution.
+
+The idea above could be generalized to central simple algebras with involutions to
+get forms of classical groups over field k. A central simple algebra of degree n over
+k is a k-algebra A such that A @, k © M,,(k) as k-algebras. Note that for a central
+simple algebra A we have dim,(A) = n? and the center Z(A) = k. An involution
+
+a: A A maps k to k. Hence o|, = Jd or an automorphism of order 2.
+
+Definition 1.3.2. We call o an involution of 1st kind if o|, = Id and of 2nd
+
+kind if o|; is an automorphism of order 2.
+
+An involution o of the first kind is said to be of symplectic type if for any
+splitting field L and any isomorphism (A, = A ®, L,o,) = (Endz(V),o»), the
+bilinear form 6 is skew-symmetric; otherwise it is called of orthogonal type. We
+note that ([KMRT], Corollary 2.8),
+
+Proposition 1.3.3. Let A be a central simple k-algebra with an involution o of
+the first kind. If degree of A is odd, then A is split and o is necessarily of orthogonal
+type. If degree of A is even, then the index of A is power of 2 and A has involutions
+of both type.
+
+An involution of second kind is said to be of unitary type. Let (A,o) be a central
+simple k-algebra with involution. A similitude of (A,o) is an element g € A such
+that o(g)g € k*. The scalar o(g)g is called the multiplier of g and is denoted by ju(g).
+The set of all similitudes of (A, o) is a subgroup of A*, the set of all invertible elements
+of A, which we denote by Sim(A,o). The group Aut;(A,o) = {0 € Aut,(A) | 00 =
+6c} is a group defined over k which is a form of one of the classical groups defined
+in the previous section depending on the type of ¢ @ 1 on A@k over k. Similitudes
+
+with multiplier 1 are called isometries and form a group Iso(A,¢):
+Iso(A,o) = {g € A* | o(g)g = 1}.
+
+Let (V,6) be a nondegenerate symmetric or skew-symmetric space. Consider the
+
+central simple k-algebra A = End,(V) with adjoint involution o,. Then,
+Sim(End;(V), 0) = {fT € End, (V) | 6(L(v), T(w)) = ab(v,w) a € k*,Vu,w € VI.
+
+The group Iso(End;(V), 0») is O(V,6) if 6 is symmetric and is Sp(V, 6) if 6 is skew-
+symmetric. When 6 is skew-symmetric we denote the group Sim(End,(V), a») by
+GSp(V, 6) or GSp(2n, k).

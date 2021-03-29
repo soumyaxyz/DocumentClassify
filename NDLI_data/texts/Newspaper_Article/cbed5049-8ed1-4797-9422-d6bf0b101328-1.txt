@@ -1,0 +1,115 @@
+BDU to Set up Manuscript
+Gallery on Exceptional Data
+
+oe
+
+by Janani Nadaraja
+
+Tiruchy: Bharathidasan
+University (BDU) has taken
+the initiative to identify, col-
+lect and digitise Tamil palm
+leaf manuscripts (MSS),
+rare books and materials
+elsewhere and upload them
+on the web, to provide a
+single point gateway access
+to these exceptional re-
+sources.
+
+A work of ancient classi-
+cal Tamil literature was
+documented in various
+forms over the centuries.
+The university has taken the
+initiative to identify, collect,
+organise and disseminate
+the engraved information in
+the scripts, using the web
+technology.
+
+The university has or-
+ganised one such MSS gal-
+lery for the rare palm leaf
+materials 200 to 400 years
+old. The university has so
+far completed two search
+projects. During the first
+project, 26,885 palm MSS
+were identified and in the
+
+ 
+ 
+ 
+ 
+ 
+  
+  
+
+second project, 59,372 MSS
+were identified. The MSS
+contains scripts on Tamil
+literature of pre-and-post
+17th century.
+
+The MSS collected from
+five religious mutts and two
+educational institutions
+were digitalized using so-
+phisticated digital photog-
+raphy. The BDU has digita-
+lised a set of 147 MSS and
+would soon upload it on the
+web for reference.
+
+A separate website has
+been created with addition-
+al features for downloading
+upto 98 MSS scripts, from
+the palm leaf manuscripts
+
+_ collections maintained by
+
+various mutts, religious in-
+stitutions, individuals and
+educational institutions.
+The links given in the
+websites under various top-
+ics provide access to the in-
+dividual MSS images, num-
+bered as individual image
+
+files using the dynamic PHP
+script. The MSS gallery also
+gives access to the images,
+photographs of the mutts
+and the palm leaf MSS li-
+braries.
+
+The gallery can be ac-
+cessed through BDU library
+website and the gallery
+homepage designed with
+PHP script in Tamil, which
+provide information about
+the rare books published
+between 1897 and 1935. The
+gallery also has features for
+downloading Tamil fonts,
+uploading the scripts etc.
+MSS galleries are accessed
+by thousands of viewers and
+feedback given by more than
+4,000 users.
+
+Department of Tamil and
+School of Indian Languages,
+BDU, would coordinate with
+each other for the project,
+particularly in identifying,
+collecting and organising
+palm leaf MSS, rare books,
+copper plate carvings and
+inscriptions about the Tam-
+il society in general and the
+Cauvery delta in particular.

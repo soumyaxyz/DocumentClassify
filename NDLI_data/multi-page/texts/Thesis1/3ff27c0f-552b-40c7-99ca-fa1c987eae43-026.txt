@@ -1,0 +1,61 @@
+Chapter 1: Preliminaries 14
+
+ 
+
+M(K(H) ® A), € in H with |||] = 1, and 6 > 0, an element Yo in Fin(H) @alg A such
+that ||(Y — Yo)(|€ >< €| @ 1)|| < 6. Thus,
+
+II id ® w;)(Y)E — (id ® w)(¥ |
+= |[id @ wy )(V(lE >< €] ® IE — (id @ w)(V (JE >< €] ® 1)
+II (id ® w;)(YO(IE >< €| ® 1))E — (id ® w)(Yo(lE >< €] @ 1))E||
+a\(Y — Yo) >< €| @ III
+Il (id @ w;)(YO(IE >< E| ® IE — (id @ w) (Yo(|E >< €| @ 1))E|| + 26,
+
+IA
+
+IA +
+
+from which it follows that (id ® w;)(Y) — (id @w)(Y) in the strong operator topology.
+
+ 
+
+ 
+
+ 
+
+Let A and B be two unital *-algebras. Then a linear map T from A to B is callec
+n-positive if T @ Id, : A® M,(C) — B® M,(C) is positive for all k < n but no
+necessarily for k = n+ 1. T is said to be completely positive ( CP for short ) if it is
+
+ 
+
+n-positive for all n. It is a well known result that fora CP map T : A > B(H), one has
+
+the following operator inequality for all a in A:
+T(a)*T(a) < ||T(1)|| T(a*a). (1.1.1)
+
+Tensor product and composition of two CP maps are CP. The following is an useful
+
+result about CP maps.
+
+Proposition 1.1.9. [f A and B are C* algebras with A commutative, is a positive
+map from A to B, then ¢ is CP. The same holds if is from B to A.
+
+1.1.4 Hilbert modules
+
+Given a *-subalgebra A C B(H) ( where H is a Hilbert space ), a semi-Hilbert A module
+E is a right A-module equipped with a sesquilinear map (., .) : E x E > A satisfying
+(x,y)* = (y,x), (a,ya) = (a,y)a and (z,x) > 0 for x,y in E and a in A. A semi
+Hilbert module is called a pre-Hilbert module if (z,x) = 0 if and only if x = 0. It is
+called a Hilbert module if furthermore, A is a C* algebra and EF is complete in the norm
+
+* norm of A.
+
+Th Ider, a) [2 where ||.|| is the C
+The simplest examples of Hilbert A modules are the so called trivial A modules of
+the form H @ A where H is a Hilbert space with an A valued sesquilinear form defined
+on H @aig A by : (€ Ba, € Ba’) = (E, €') a*a’. The completion of H @aig A with respect
+to this pre Hilbert module structure is a Hilbert A module and is denoted by H @ A.
+We recall that for a pre Hilbert A module E ( A is a C* algebra ), the Cauchy
+
+Schwarz inequality holds in the following form: 0 < (x,y) (y,x) < (#, x) ||(y,y)|| -

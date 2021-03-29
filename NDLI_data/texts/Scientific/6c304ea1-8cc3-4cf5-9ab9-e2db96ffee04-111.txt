@@ -1,0 +1,54 @@
+image of Q under j, meaning that any variable v € Var(Q) NM dom(y:) is replaced in Q by pu(v).
+Observe that when Var(Q) € dom(y), then p(Q) is a data graph (in the corresponding model of Q).
+
+Next, we define the notion of containment between data graphs. For two directed edge-labelled
+graph pattern G; = (V;, E;, Ll) and G2 = (V2, E, Lz), we say that G; is a sub-graph of G2, denoted
+G1 © Gy, if and only if V; © V2, E; © E2, and Ly © L2.*” Conversely, in property graphs, nodes
+can often be defined without edges. For two property graphs G; = (V;, E;, Ly, Pi, Ui, e1, 4,1) and
+Gy = (V2, Ez, Lz, P2, U2, €2, 12, p2), we say that G, is a sub-graph of G2, denoted G, C Gz, if and only
+if V; C Vo, Ey © Eo, Ly © Le, Py © Po, Uy © Up, for all x € E, it holds that e;(x) = e2(x), and for all
+y € E; UV, it holds that 1,(y) € In(y) and p;(y) C po(y).
+
+We are now ready to define the evaluation of a graph pattern.
+
+Definition B.10 (Evaluation of a graph pattern). Let Q be a graph pattern and let G be a data graph.
+We then define the evaluation of graph pattern Q over the data graph G, denoted Q(G), to be the set
+of mappings {1 | 4(Q) C G and dom() = Var(Q)}.
+
+Example B.11. Figure 5 enumerates all of the mappings given by the evaluation of the depicted
+graph pattern over the data graph of Figure 1. Each non-header row indicates a mapping 1.
+
+The final results of evaluating a graph pattern may then vary depending on the choice of
+semantics: the results under homomorphism-based semantics are defined as Q(G). Conversely, under
+isomorphism-based semantics, mappings that send two edge variables to the same constant and/or
+mappings that send two node variables to the same constant may be excluded from the results.
+Henceforth we assume the more general homomorphism-based semantics.
+
+B.2.2_ Complex graph patterns. We now define complex graph patterns.
+
+Definition B.12 (Complex graph pattern). Complex graph patterns are defined recursively:
+
+e If Q is a graph pattern, then Q is a complex graph pattern.
+
+e If Q is a complex graph pattern, and V C Var(Q), then 24(Q) is a complex graph pattern.
+
+e If Q is a complex graph pattern, and R is a selection condition with boolean and equality
+connectives (A, V, 7, =) , then op(Q) is a complex graph pattern.
+
+e If Q, and Q, are complex graph patterns, then Q; > Q2, Q; UQ, and Q; — Q» are also complex
+graph patterns.
+
+Next we define the evaluation of complex graph patterns. First, given a mapping pi, for a set of
+variables V C Var let y[V] denote the mapping ju’ such that dom(j’) = dom() NV and ju(v) =
+L'(v) for all v € dom(y’) (in other words, ji[V] projects the variables V from j/). Furthermore,
+letting R denote a boolean selection condition and ji a mapping, by R |- s: we denote that ji satisfies
+the boolean condition. Finally, we define two mappings j, and jz to be compatible, denoted jy ~ pz,
+if and only if (vu) = po(v) for all v € dom(11) NM dom(s2) (in other words, they map all common
+variables to the same constant). We are now ready to provide the definition.
+
+*°Given, for example, G, = ({a}, {(a, b, a)}, {b, c}) and Gy = ({a, c}, {(a, b, a)}, {b}), we remark that G; ¢ Gy and
+Gz ¢ G,: the former has a label not used on an edge while the latter has a node without an incident edge. In concrete data
+models like RDF where such cases of nodes or labels without edges cannot occur, the sub-graph relation G; C G2 holds if
+and only if E; C Ey holds.
+
+111

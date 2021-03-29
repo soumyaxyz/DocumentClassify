@@ -1,0 +1,54 @@
+3. Search Result Diversification
+
+ 
+
+in the query log. Candidates with a low transition probability after a two-step
+random walk on the bipartite query-document click graph (Craswell & Szummer,
+2007) were filtered out. The remaining candidates were then clustered using a
+graph partitioning algorithm (Blondel et al., 2008). The highest-scoring aspects
+from different clusters were shown to better reflect real user needs compared to
+aspects proposed by expert judges (Radlinski et al., 2010a,b). As a result, these
+aspects served as the basis for a new test collection, developed in the context of
+the TREC 2009-2012 Web tracks (Clarke et al., 2009a, 2010, 2011b, 2012).
+
+The diversity task of the TREC 2009-2012 Web tracks currently provides the
+largest publicly available test collections for diversity evaluation. As of 2011,”
+these test collections comprised a total of 150 topics, with 2 to 8 associated
+aspects each (Clarke et al., 2009a, 2010, 2011b). As such, these collections are
+chosen as benchmarks for the experiments conducted in this thesis. An example
+TREC Web track topic, along with its identified aspects, is shown in Figure 3.3.
+In contrast to the short description provided by the TREC Interactive track test
+collection, the TREC Web track aspects include a natural language description
+of the information need represented by each aspect. Moreover, each aspect is
+further classified as either informational (“inf”) or navigational (“nav”) by TREC
+assessors, depending on the intent of its underlying need (Broder, 2002).
+
+<topic number="1">
+<query> obama family tree </query>
+<description>
+Find information on President Barack Obama’s family history, including
+genealogy, national origins, places and dates of birth, etc.
+</description>
+
+<subtopic number="1" type="nav">
+
+Find the TIME magazine photo essay "Barack Obama’s Family Tree".
+</subtopic>
+
+<subtopic number="2" type="inf">
+
+Where did Barack Obama’s parents and grandparents come from?
+</subtopic>
+
+<subtopic number="3" type="inf">
+
+Find biographical information on Barack Obama’s mother.
+
+</subtopic>
+</topic>
+
+Figure 3.3: TREC 2009 Web track, topic 1 and its sub-topics.
+
+The TREC 2012 Web track is ongoing at the time of writing.
+
+76

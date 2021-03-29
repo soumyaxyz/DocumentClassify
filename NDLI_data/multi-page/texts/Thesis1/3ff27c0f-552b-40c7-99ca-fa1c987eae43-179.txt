@@ -1,0 +1,65 @@
+167 Quantum Isometry Groups of the Podles sphere
+
+ 
+
+Proposition 5.3.30. Assume yp #1. The map SO, (3) > Q sending M,L,G,N,C to
+—(14+p?)-!S2, $3, —u7'S4, (1+u?)-!(1-Ta), T3 respectively is a * homomorphism.
+
+Proof : Now, we note that the proof of this Lemma reduces to verification of the
+
+relations on Q as derived in Lemmas 5.3.19 - 5.3.29 along with the following equations
+
+5354 = 149483, (5.3.52)
+5352 = S283, (5.3.53)
+5084 = pS4So, (5.3.54)
+
+we
+$384 = -—, $3 (5.3.55)
+
+(1+ y2) ”
+which follow from Remark 5.3.18, ( 5.3.30 ), (5.3.31 ), (5.3.36 ) respectively.
+
+ 
+
+ 
+
+ 
+
+Theorem 5.3.31. For u #1, QISOR(O(Si..), H, D) = SO,(3).
+
+ 
+
+Proof : We have seen in Theorem 5.2.3 that SU,(2) is an object in QR(D) anc
+SO, (3) is the corresponding maximal Woronowicz subalgebra for which the action is
+faithful. Thus, SO,,(3) is a quantum subgroup of QISO}(D). Now, Proposition 5.3.30
+implies that QI. SO}(D) is a quantum subgroup of SO,(3), thereby completing the
+
+ 
+
+ 
+
+ 
+
+ 
+
+proof.
+
+Remark 5.3.32. We observe that in the proof of Theorem 5.3.31, the only place where
+the structure of D was used was in Proposition 5.3.8 and there we used the fact that the
+unitary commutes with |D|. Thus, if we replace this spectral triple by (O(S2.), H,|D|),
+
+everything remains same and we deduce that
+QISO}(O(Sj.c), 1H; |D|)  QISOf(O(Sjic)H, D) = SOy(3)-
+
+5.3.5 The quantum isometry group in the case ji = 1
+
+As we had mentioned earlier, some of the Lemmas which were required for the proof of
+Theorem 5.3.31 needed the condition 4 4 1. In this subsection, we will give the proof
+for 4. = 1 case.
+
+To begin with, we prove some of the Lemmas in the case j = 1 which needed pp # 1
+previously. We note that the proofs of Lemmas 5.3.19, 5.3.20, 5.3.25, 5.3.26, 5.3.27,
+
+5.3.28 go through even in the case uy = 1. Therefore, we can use these Lemmas here.
+
+Lemma 5.3.33. S3(1 _ T2) = (1 _ To) S3.

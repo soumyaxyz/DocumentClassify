@@ -1,0 +1,73 @@
+10.
+
+11.
+
+12,
+
+13.
+
+14,
+
+Define: Object
+What is a database?
+SECTION B — (5 x 5 = 25)
+Answer ALL questions.
+(a) Explain briefly about the output window.
+Or
+(b) Discuss about the task list window.
+
+(a) What is the purpose of using ReDim
+statement?Explain.
+
+Or
+
+(b) Explain the uses of multi-dimensional: array
+with an example.
+
+(a) Write a note on control array.
+
+Or
+(b) Discuss about how to invoke a subroutines.
+(a) Write a note on Label controls.
+
+Or
+
+(b) Describe the properties of Text Box control.
+
+ae ah Si a a ae
+
+15.
+
+16.
+
+Li:
+
+18.
+
+19.
+
+20.
+
+iy
+
+(a) Explain briefly about single inheritance.
+Or
+(b) Describe the Namespaces in ADO.NET.
+SECTION C — (8 x 10 = 30)
+Answer any THREE questions.
+Explain in detail about Menu bar in VB.NET.
+
+Discuss about the various data types used in
+VB.NET.
+
+Write a note on the following
+
+(a) Tree View.
+
+(b) List View.
+
+Explain about how to display data using Data
+Grid.
+
+Design a calculator with the following buttons
+yea 7; nod,

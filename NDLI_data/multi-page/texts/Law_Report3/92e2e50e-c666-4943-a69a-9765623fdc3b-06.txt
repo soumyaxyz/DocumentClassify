@@ -1,0 +1,44 @@
+(e) in the case of an admission made by a person to whom a party has expressly
+referred for information, where the case falls within section 20, the party who
+has so expressly referred for information.
+
+(2) Admissions cannot be proved by or on behalf of the person who makes them or by his
+representative in interest, except in the following cases:-
+
+(a) An admission may be proved by or on behalf of the person making it, when it
+is of such a nature that, if the person making it were dead, it would be relevant
+as between third persons under section 32.
+
+(b) An admission may be proved by or on behalf of the person making it, when it
+consists of a statement of the existence of any state of mind or body, relevant
+or in issue, made at or about the time when such state of mind or body existed,
+and is accompanied by conduct rendering its falsehood improbable.
+
+(c) An admission may be proved by or on behalf of the person making it, when it
+is relevant otherwise as an admission.
+
+Illustrations
+
+(a) The question between A and B is, whether a certain deed is or is not forged. A
+affirms that it is genuine, B that it is forged.
+
+A may prove a statement by B that the deed is genuine, and B may prove a
+statement by A that the deed is forged; but A cannot prove a statement by
+himself that the deed is genuine, nor can B prove a statement by himself that
+the deed is forged.
+
+(b) A, the captain of a ship, is tried for casting her away.
+Evidence is given to show that the ship was taken out of her proper course.
+A produces a book kept by him in the ordinary course of his business,
+showing observations alleged to have been taken by him from day to day, and
+indicating that the ship was not taken out of her proper course. A may prove
+these statements, because they would be admissible between third parties, if
+he were dead, under section 32, clause (2).
+
+(c)A is accused of a crime committed by him at Calcutta.
+
+He produces a letter written by himself and dated at Lahore on that day and
+bearing the Lahore post-mark of that day.
+
+The statement in the date of the letter is admissible, because, if A were dead,
+it would be admissible, under section 32, clause (2).

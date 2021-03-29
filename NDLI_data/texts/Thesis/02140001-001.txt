@@ -1,0 +1,18 @@
+FEATURE EVALUATION, CLASSIFICATION
+AND RULE GENERATION USING
+PUZZY SETS AND NEURAL NETWORKS
+
+Rajat Kumar De
+Machine Intelligence Unit
+Indian Statistical Institute
+
+203, B. TI. Road
+Calcutta 700035
+
+India,
+
+A thesis submitted to the Indian Statistical Institute
+in partial fulfillment of the requirements for the degree of
+} Doctor of Philosophy
+
+1999

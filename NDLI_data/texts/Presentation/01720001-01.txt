@@ -1,0 +1,49 @@
+Thermal and In-vitro Study of Borate Based Bioglass
+
+Sumit Kumar Pal*”, Indranil Banerjee’, Satyendra Singh’, , Subhabrata Chakraborty*
+
+“ Department of Ceramic Engineering, National Institute of Technology, Rourkela, Odisha,
+Pin Code: 769008, India
+
+b Biotechnology and Medical Engineering,National Institute of Technology, Rourkela,
+Odisha, Pin Code: 769008 India
+
+*E-mail address corresponding author: skpal@nitrkl.ac.in
+Keywords: Bioglass, Boron, Mineralization, Osteo-conductive
+Abstract
+
+Bio-glasses have drawn attention of engineers and scientists in the field of bone tissue
+engineering filed due to its versatile properties than other Bioceramics such as ability to form
+bond with soft and hard tissues. Therefore, bio-glasses are considered as one of the promising
+materials for preparing three-dimensional porous scaffold, which can mimic the natural bone
+structure. In this regard, the bioglass 45S5 (discovered by Larry Hench 1960) was subject for
+intense research for decades and research is still continuing even after successful
+commercialization. But there is always search for new bioglass composition to overcome
+some hurdles like superior mechanical properties, controlled degradation rate and to find new
+functionality in the field of biomedical research. Borate based bioglass are comparative new
+class of bioglass in this this regard. In some resent work it has been reported that borate
+based bioglass can show better bioactivity than silicate based glass. But not much has been
+reported with respect to mechanical properties, thermal behavior as well as bioactivity of
+borate based bioglass. In the present work three different 20B203-80(CaO- POs) (in weight
+percentage) frit glasses has been prepared by traditional melt quenching method. In these
+compositions Ca:P ratio was varied (1.65, 1.67 and 1.69) to investigate the effect of Ca:P
+ratin on thermal and in vitro biological properties of these glass. As these glasses are prone to
+crystallization at high temperature, therefore, crystallization behavior of all glasses has been
+investigated through DSC analysis. For scaffold preparation, the frit glasses need to be
+sintered at high temperature. Dilatometric studies have also been carried out to examine the
+sintering behavior. Porous Scaffolds have been prepared using naphthalene as pore former
+which is followed by sintering. The porosity and pore morphology has been studied using
+Mercury Porosimetry. Mechanical properties of porous as well as no porous glasses have also
+been measured through 3-point bending method and Brazilian Disc Test Method. The
+mineralization behavior of glass frit as well as glass scaffold has been tested by immersing
+the samples in SBF solution and examining them after 1, 3, 7, 14, 21 and 28 days.
+Mineralization behavior has been examined through XRD analysis and microstructure of
+deposited HCA layer has been examined through FESEM. Osteo-conductive property of the
+samples was tested using human osteoblast cell line (MG-63) in vitro. Initial cell- bioglass
+interaction has been evaluated in terms of cell adhesion and cell spreading using (immune-
+cytochemistry). Effect of the samples on cell viability and proliferation has been tested using
+MTT assay and cell cycle analysis. Influence of the biomaterial on the differentiation of the
+bone cells were further tested by checking the expression of differentiation marker like
+Runx2. For the whole study commercial hydroxy apatite has taken as control. Study has
+revealed that the newly developed borate bioglasses are highly biocompatible and osteo-
+conductive in nature.

@@ -1,0 +1,56 @@
+56 7. REALITY IN CLASSICAL GROUPS
+
+ 
+
+in Sp(2n,k) where p? = +1. Such an element t can be conjugated to —t—! by
+s=diag(M,...,M,N,...,N) € Sp(2n,k) where
+ayes SYS
+
+r s
+
+M
+
+rooo
+Loo
+ea
+corOo
+°
+
+and s* = —1. This concludes the proof of the theorem over k.
+
+We now complete the proof over k. Let t € Sp(V), where V is a 2n-dimensional
+vector space over k. We first assume ¢ is real in Sp(V).
+
+First note that if t; € Sp(V,) and ty € Sp(V2), where V, and V, are vector space
+over k of dimension 2n; and 2nz respectively, and if there exist g, € Sip(Vi) and
+go € Sp(V) such that g;tig;' = t;' and g? = —1, then t, © ty is conjugate to its
+inverse t;' Oty! by g = 91 O go in Sp(Vi @ Vo) and g? = —1.
+
+Now let t € Sp(V) be real. We write V for V @k and V, = {a € V | t(x) = az},
+where a € k*. Both VY, and V_; are defined over k. Let the subspaces V, and
+
+V_1 of V be the descents of V; and V_; respectively. We note that the dimension
+
+ 
+
+of V_, is even, since the determinant of t is 1. We now assume a 4 £1. We write
+Wa = Va ®V_-1, which is a nondegenerate subspace of V. The subspace W, is defined
+over the subfield ky of k, where kg is the fixed field of the subgroup of I = Gal(k/k)
+fixing the unordered pair {a,a~'}. We denote the descent subspace of Wa over ka
+by W,. Then W, is a direct sum of m, two-dimensional subspaces over ka, which are
+stable under ¢ and ¢ restricted to each of these 2-dimensional subspace is conjugate
+to diag{a,a7t}.
+
+By Lemma 7.5.1, there exists gq € Sp(W.) with g2 = —1 such that gatlw.ga! =
+thy. The subspace Wra = @cerWoa is defined over k and we denote the restriction
+
+of t to this subspace by tra (which is ®certsa). Also gra = PGca is defined over k
+
+and conjugates t to t~! on the subspace Wry. We note that the g2,, = —1.
+Now we write V = Vi @V_1 Dacg Wra- Since the dimension of V_; is even, we may
+. 0 -1 . . :
+take g_; as the direct sum of N = i 0 on this subspace, 3 dim(V_1) times.
+
+Since n is even, dimension of V; is even and we may take g; as the direct sum of N,
+3 dim(V,) times, on this subspace. Finally we take g = 91 ®9-1 Pack Gra € Sp(2n, k).
+We have g? = —1 and gtg-t = t71.

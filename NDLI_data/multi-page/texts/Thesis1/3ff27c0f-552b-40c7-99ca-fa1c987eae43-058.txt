@@ -1,0 +1,52 @@
+Chapter 1: Preliminaries 46
+
+ 
+
+1.4.4 Dirac operators
+
+We follow the notations of the previous subsection. On the space of smooth sections of
+
+the bundle of spinors S, one can define an inner product by
+
+(81, $2) g = I, (81 (x), $2(a)) dvol(x)
+
+The Hilbert space obtained by completing the space of smooth sections with respect
+to this inner product is denoted by L7($) and its members are called square integrable
+spinors. The Levi Civita connection on M induces a canonical connection on S' which
+
+we will denote by V°.
+
+Definition 1.4.4. The Dirac operator on M is the self-adjoint extension of the fol-
+
+lowing operator D defined on the space of smooth sections of S :
+n
+(Ds)(m) = > kn(Xi(m))(VS,5)(m),
+i=l
+
+where (X1,...Xn) are local orthonormal ( with respect to the Riemannian metric ) vector
+fields defined in a neighborhood of m. In this definition, we have viewed X;(m) belonging
+to Tm(M) as an element of the Clifford algebra Clc(ImM), hence kn(Xi(m)) is a map
+on the fibre of S at m, which is isomorphic with A,. The self-adjoint extension of D is
+
+again denoted by the same symbol.
+We recall three important facts about the Dirac operator:
+
+Proposition 1.4.5. (1) C®(M) acts on S by multiplication and this action extends
+to a representation, say 7, of the C* algebra C(M) on the Hilbert space L?(S).
+(2) For f inC®(M), [D,x(f)] has a bounded extension.
+
+(3) Furthermore, the Dirac operator on a compact manifold has compact resolvents.
+
+As the action of an element f in C°(M) on L?(S) is by multiplication operator, we
+will use the symbol My; in place of 7(f).
+
+The Dirac operator carries a lot of geometric and topological information. We give
+two examples.
+
+(a) The Riemannian metric of the manifold is recovered by
+
+d(p,q) = SUP geCre(M), ||[D.Mg]|| <1 |o(P) — o(@)| - (1.4.1)
+
+tD?
+
+(b ) For a compact manifold, the operator e~”” is trace class for all t > 0. Then

@@ -1,0 +1,198 @@
+3p
+
+Fig. 9: Books from other categories that were classified as “Test
+Preparation.” The correct labels for the books from left to right
+are “Sports & Outdoors,” “Parenting & Relationships,” “Medical
+Books,” “Health, Fitness & Dieting,” “Health, Fitness & Dieting,”
+and “Cookbooks, Food & Wine.”
+
+ 
+
+VI. CONCLUSION
+
+In this paper, we presented the application of machine learn-
+ing to predict the genre of a book based on its cover image. We
+showed that it is possible to draw a relationship between book
+cover images and genre using automatic recognition. Using a
+CNN model, we categorized book covers into genres and the
+results of using AlexNet with transfer learning had an accuracy
+of 24.7% for Top 1, 33.1% for Top 2, and 40.3% for Top 3 in
+30-class classification. The 5-layer LeNet had a lower accuracy
+of 13.5.7% for Top 1, 21.4% for Top 2, and 27.8% for Top 3.
+Using the pre-trained AlexNet had a dramatic effect on the
+accuracy compared to the LeNet.
+
+However, classification of books based on the cover image
+is a difficult task. We revealed that many books have cover
+images with few visual features or ambiguous features causing
+for many incorrect predictions. While uncovering some of the
+design rules found by the CNN, we found that books can have
+also misleading covers. In addition, because books can be part
+of multiple genres, the CNN had a poor Top | performance.
+To overcome this, experiments can be done using multi-label
+classification.
+
+Future research will be put into further analysis of the char-
+acteristics of the classifications and the features determined
+by the network in an attempt to design a network that is
+optimized for this task. Increasing the size of the network
+or tuning the hyperparameters may improve the performance.
+In addition, the book cover dataset we created can be used
+for other tasks as it contains other information such as title,
+author, and category hierarchy. Genre classification can also be
+done using supplemental information such as textual features
+alongside the cover images. We hope to design more robust
+models to better capture the essence of cover design.
+
+ACKNOWLEDGMENTS
+
+This research was partially supported by MEXT-Japan
+(Grant No. 26240024) and the Institute of Decision Science
+for a Sustainable Society, Kyushu University, Fukuoka, Japan.
+
+All book cover images are copyright Amazon.com, Inc. The
+display of the images are transformative and are used as fair
+use for academic purposes.
+
+The book cover database is available at https://github.co:
+uchidalab/book-dataset
+
+REFERENCES
+
+[1] J. Schmidhuber, “Deep learning in neural networks: An overview,”
+Neural Networks, vol. 61, pp. 85-117, 2015.
+
+ 
+
+ 
+
+10.
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+19
+
+20)
+
+21
+
+22
+
+23
+
+24)
+
+25
+
+26
+
+ 
+
+K. Chellapilla, S. Puri, and P. Simard, “High performance convolutional
+neural networks for document processing,” in 10th Int. Workshop Fron-
+tiers in Handwriting Recognition. Suvisoft, 2006.
+
+Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner, “Gradient-based learning
+applied to document recognition,” Proc. IEEE, vol. 86, no. 11, pp. 2278-
+2324, 1998.
+
+M. D. Zeiler and R. Fergus, “Visualizing and understanding convolu-
+tional networks,” in 20/4 European Conf. Comput. Vision. Springer,
+2014, pp. 818-833.
+
+D. Ciresan, U. Meier, and J. Schmidhuber, “Multi-column deep neural
+networks for image classification,” in 20/2 IEEE Conf. Comput. Vision
+and Pattern Recognition. YEEE, 2012, pp. 3642-3649.
+
+C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan,
+V. Vanhoucke, and A. Rabinovich, “Going deeper with convolutions,”
+in Proc. IEEE Conf. Comp. Vision and Pattern Recognition, 2015, pp.
+1-9.
+
+K. Simonyan and A. Zisserman, “Very deep convolutional networks for
+large-scale image recognition,” arXiv preprint arXiv:1409.1556, 2014.
+A. Krizhevsky, I. Sutskever, and G. E. Hinton, “Imagenet classification
+with deep convolutional neural networks,” in Advances in Neural Inform.
+Process. Syst., 2012, pp. 1097-1105.
+
+J. Deng, W. Dong, R. Socher, L.-J. Li, K. Li, and L. Fei-Fei, “ImageNet:
+A Large-Scale Hierarchical Image Database,” in 20/2 IEEE Conf.
+Comput. Vision and Patern Recognition. YEEE, 2009, pp. 248-255.
+M. Z. Afzal, S. Capobianco, M. I. Malik, S. Marinai, T. M. Breuel,
+A. Dengel, and M. Liwicki, “Deepdocclassifier: Document classification
+with deep convolutional neural network,” in Int. Conf. Document Anal.
+and Recognition. YEEE, 2015, pp. 1111-1115.
+
+L. Kang, J. Kumar, P. Ye, Y. Li, and D. Doermann, “Convolutional
+neural networks for document image classification,” in Int. Conf. Pattern
+Recognition. YEEE, 2014, pp. 3168-3172.
+
+J. Drucker and E. McVarish, Graphic Design History: A Critical Guide.
+Pearson Education, 2009.
+
+S. Karayev, M. Trentacoste, H. Han, A. Agarwala, T. Darrell, A. Hertz-
+mann, and H. Winnemoeller, “Recognizing image style,” arXiv preprint
+arXiv:1311.3715, 2013.
+
+L. A. Gatys, A. S. Ecker, and M. Bethge, “A neural algorithm of artistic
+style,” arXiv preprint arXiv:1508.06576, 2015.
+
+R. Datta, D. Joshi, J. Li, and J. Z. Wang, “Studying aesthetics in pho-
+tographic images using a computational approach,” in 2006 European
+Conf. Comput. Vision. Springer, 2006, pp. 288-301.
+
+R. Datta, D. Joshi, J. Li, and J. Z. Wang, “Image retrieval: Ideas, influ-
+ences, and trends of the new age,” Assoc. Computing Mach. Computing
+Surveys, vol. 40, no. 2, p. 5, 2008.
+
+G. Tzanetakis and P. Cook, “Musical genre classification of audio
+signals,” IEEE Trans. Speech Audio Process., vol. 10, no. 5, pp. 293-
+302, 2002.
+
+C. McKay and I. Fujinaga, “Automatic genre classification using large
+high-level musical feature sets.” in Int. Soc. of Music Inform. Retrieval,
+vol. 2004. Citeseer, 2004, pp. 525-530.
+
+D. Pye, “Content-based methods for the management of digital music,”
+in Proc. 2000 IEEE Int. Conf. Acoustics, Speech, and Signal Process.,
+vol. 6. IEEE, 2000, pp. 2437-2440.
+
+J. Zujovic, L. Gandy, S. Friedman, B. Pardo, and T. N. Pappas,
+“Classifying paintings by artistic genre: An analysis of features &
+classifiers,” in 2009 IEEE Int. Workshop Multimedia Signal Process.
+TEEE, 2009, pp. 1-5.
+
+A. Finn and N. Kushmerick, “Learning to classify documents according
+to genre,” J. Amer: Soc. for Inform. Sci. and Technology, vol. 57, no. 11,
+pp. 1506-1518, 2006.
+
+P. Petrenz and B. Webber, “Stable classification of text genres,’ Com-
+putational Linguistics, vol. 37, no. 2, pp. 385-393, 2011.
+
+A. W. Harley, A. Ufkes, and K. G. Derpanis, “Evaluation of deep
+convolutional nets for document image classification and retrieval,” in
+Int. Conf. Document Anal. and Recognition. YEEE, 2015, pp. 991-995.
+J. Yosinski, J. Clune, Y. Bengio, and H. Lipson, “How transferable
+are features in deep neural networks?” in Advances in Neural Inform.
+Process. Syst., 2014, pp. 3320-3328.
+
+D. Kingma and J. Ba, “Adam: A method for stochastic optimization,”
+arXiv preprint arXiv:1412.6980, 2014.
+
+Amazon.com Inc, “Amazon.com: Online shopping for electronics, ap-
+parel, computers, books, dvds & more,” http://www.amazon.com/, ac-
+cessed: 2015-10-27.

@@ -1,0 +1,13 @@
+Some special kinds of queues
+
+ 
+
+There are some special kinds of queues which have some
+specialty while performing the insertion and deletion
+operations. These special kinds of queues are:
+
+« Deque
+
+¢ Priority Queue
+
+¢ Double Ended Priority Queue

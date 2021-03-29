@@ -1,0 +1,48 @@
+3.13 R & D AND ACADEMIC INSTITUTIONS
+
+The Indian institutions covered include: CSIR, DRDO, DOD, ICAR, IITs, Universities
+etc. Basic information about all CSIR, ISRO and DRDO laboratories has been provided
+on our site along with links to individual sites if available. Few institutions have put up
+their sites as a part of NIC site and few others like IIT have their own web sites. While
+there is a lot of scope to improve the contents of pages covering institutions worldwide,
+attempt has been made give links to select few from US and other countries.
+
+3.14 GENERAL INFORMATION
+
+Hyperlinks to various sources of information on Government, Libraries, News Papers,
+Dictionaries, Travel, Sports, etc. Newspapers have been segregated in to English and
+regional languages. We intend to widen the scope of this page and give links under
+various categories of general interest.
+
+3.15 ESPECIALLY FOR LIBRARIANS
+
+L & IS professionals can look for information regarding Associations, forthcoming
+Conferences, Databases, Journals, Schools, Library Networks, News Groups, etc. meant
+for professional matters and sources information required for day to day library activities
+for providing effective information services.
+
+3.16 ICAST INFORMATION
+Coming down to our own information center, the following details have been provided:
+
+e Library membership, document collection, shelf arrangement of books, working
+hours, library staff, list of journals subscribed by ICAST with hyperlinks to
+publishers sites if available.
+
+e Services including Document Circulation, Xerox, Translation, Information, etc.
+along with direct e-mailing facility to the concerned in service matters.
+
+e Search Library Catalogue (OPAC) and know the availability of books, their issue
+status and on-line reservation of documents, etc.
+
+e List of Additions to ICAST
+
+o CABA-Combined Aerospace Books Additions, a monthly.
+o CARA-Combined Aerospace Reports Additions, a monthly.
+o Journals-Recent Arrivals, fortnightly.
+
+3.17 UNION CATALOGUE OF BANGALORE SCIENCE LIBRARIES
+
+This page gives access to union Catalogue of Books, Reports, etc held by libraries of
+IISc, NAL&RRI and current journals being subscribed by about 20 Bangalore libraries.
+This site is hosted by NCSI/IISc server. This is an experimental project where one can
+search books by author, title, keywords, etc. using many of the search engines MG,

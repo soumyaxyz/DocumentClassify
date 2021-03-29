@@ -1,0 +1,166 @@
+Einstein, what type (among scientist, person, organism, etc.)
+is likely to be mentioned in the query, before we inspect the
+query?” (After we see the query, our beliefs will change,
+e.g., depending on whether the query asks “who discovered
+general relativity?” vs. “which physicist discovered general
+relativity?”) So we need to design the prior distribution
+Pr(tle).
+
+Recall that there may be hundreds of thousands of ts, and
+tens of millions of es, so fitting the prior for each e separately
+is out of the question. On the other hand, the prior is just a
+mild guidance mechanism to discourage obscure or low-recall
+types like “Austrian Physicists who died in 1972”. Therefore,
+we propose the following crude but efficient estimate. From
+a query log with ground truth (i.e., each query accompanied
+with a t provided by a human), accumulate a hit count N;
+for each type t. At query time, given a candidate e, we
+calculate
+
+M+y ectt
+
+Yovectu (Ne 9)’ ;
+0, otherwise
+
+Pr(tle) = (1)
+
+where ¥ € (0,1) is a tuned constant.
+
+4.2 Query word switch variables
+
+Suppose the query is the word sequence (wj,7 = 1,...,{q|)-
+For each position j, we posit a binary switch variable zj €
+{h,s}. Each z; will be generated iid from a Bernoulli dis-
+tribution with tuned parameter 6 € (0,1). If z; = h, then
+word wy; is intended as a hint to the target type. Otherwise
+w; is a selector sampled from snippets mentioning entity e.
+The vector of switch variables is called 7.
+
+The number of possible partitions of query words into
+hints and selectors is 2'7!. By definition, telegraphic queries
+are short, so 2!‘! is manageable. One can also reduce this
+search space by asserting additional constraints, without
+compromising quality in practice. E.g., we can restrict the
+type hint to a contiguous span with at most three tokens.
+
+Given ¢ and a proposed partition 7, we define two helper
+functions, overloading symbols s and h:
+
+NG, 2) = {wa,j 1 25 = h}
+8(9, 2) = {wa.j : 2 = 5}.
+
+Hint words of q:
+
+(2)
+(3)
+With these definitions, in the exhaustive hint-selector par-
+
+tition case, 7 is the result of |q| Bernoulli trials with hint
+probability 6 € (0,1) for each word, so we have
+
+ 
+
+Selector words of q:
+
+Pr(Z) = SMF — gy SGA, (4)
+
+6 is tuned using training data.
+
+In this paper we will consider strict partitions of query
+words between hints and selectors, but it is not difficult to
+generalize to words that may be both hints and selectors.
+Assuming each query word has a purpose, the full space
+grows to 3!4|, but assuming contiguity of the hint segment
+again reduces the space to essentially O(|q|).
+
+4.3 Type description language model
+
+Globally across queries, the textual description of each
+type ¢ induces a language model. We can define the ex-
+act form of the model in any number of ways, but, to keep
+implementations efficient, we will make the commonly used
+assumption that hint words are conditionally independent of
+each other given the type. Each type t is described by one or
+
+RIGHTS LINK
+
+1102
+
+more lemmas (descriptive phrases) L(t), e.g.,
+
+Because lemmas are very short, words are rarely repeated,
+so we can use the multivariate Bernoulli [23] distribution
+derived from lemma ¢:
+
+Pr(w|0) = {i
+
+0,
+
+if w appears in £,
+: (5)
+otherwise
+Following usual smoothing policies [41], we interpolate the
+smoothed distribution above with a background language
+model created from all types:
+
+Drerllw appears in; 6 € L(t)
+IT| ,
+in words, the fraction of all types that contain w. [B] is 1
+
+if Boolean condition B is true, and 0 otherwise. We splice
+together (5) and (G) using parameter 6 € (0, 1):
+
+Pr(w|T) = (6)
+
+Pr(w|é) = (1 — B)Pr(w|é) + BPr(w|T). (7)
+
+The probability of generating exactly the hint words in the
+query is
+
+Pr(AG21 = TT Prwle) JT] G-Prwié)), (8)
+
+weh(@.2) wh(@,Z)
+
+where w ranges over the entire vocabulary of type descrip-
+
+tions. In case of multiple lemmas describing a type,
+
+Pr(-|t) = Pr(-|é); 9
+
+TCI) = mas Pr(-/6); (9)
+
+ie., use the most favorable lemma. All fitted parameters in
+the distribution Pr(w|@) are collectively called y.
+
+4.4 Entity snippet language model
+
+The selector part of the query, s(¢,Z), is generated from
+a language model derived from S., the set of snippets that
+mention candidate entity e. For simplicity we use the same
+kind of smoothed multivariate Bernoulli distribution to build
+the language model as we did for the type descriptions. Note
+that words that appear in snippets but not in the query are
+of no concern in a language model that seeks to generate the
+query from distributions associated with the snippets. Sup-
+pose corpusCount(e) is the number of mentions of e in the
+corpus C, and corpusCount(e,w) be the number of mentions
+of e where w also occurs within a specified snippet window
+width. The unsmoothed probability of generating a query
+word w from the snippets of e is
+
+corpusCount(e,w) _ |{s € Se: w € s}|
+
+Pr(wle) = corpusCount(e) corpusCount(e) *
+
+(10)
+As before, we will smooth the above estimate using an corpus-
+level, entity-independent background word distribution esti-
+mate:
+
+Pr(w|C) = pylnumber of documents containing w). (11)
+And now we use the interpolation
+Pr(wle) = (1 — a)Pr(wle) + aPr(wC), (12)
+
+where a € (0,1) is a suitable smoothing parameter. The
+fitted parameters of the Pr(w|e) distribution are collectively
+called 6. Similar to (8), the selector part of the query is

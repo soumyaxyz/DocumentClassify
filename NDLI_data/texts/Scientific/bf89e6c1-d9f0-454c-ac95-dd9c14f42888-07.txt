@@ -1,0 +1,194 @@
+into the conjunct:
+
+Vq,e—, Vt, V2: d+ (9g, 6, t, 27) < 1+ €qe_ (24)
+
+However, (22) is a disjunctive constraint, as also arises in
+multiple instance classification or ranking [7]. A common
+way of dealing with this is to modify constraint (22) into
+
+So u(qes.t, D+ o(q,e+,t,2) > 1-Eqe, (25)
+
+4,2
+
+Vq,e+:
+
+where u(q, e,t, Z) € {0, 1} and
+
+Sulqenshz) <1.
+
+t,2
+
+Vq,e4:
+
+This is an integer program, so the next step is to relax the
+new variables to 0 < u(q,e,t, Z) <1 (ie., the (t, Z)-simplex).
+Unfortunately, owing to the introduction of new variables
+u(--+) and multiplication with old variables , the optimiza-
+tion is no longer convex.
+
+Bergeron et al. [7] propose an alternating optimization:
+holding one of u and J fixed, optimize the other, and repeat
+(there are no theoretical guarantees). Note that if A is fixed,
+the optimization of u is a simple linear program. If u is fixed,
+the optimization of is comparable to training a standard
+SVM. The objective would then take the form
+
+fy erect wt F Dee_eez
+
+qeQ Ed | + |Ea |
+
+ 
+
+aI? + > (26)
+
+ 
+
+|Q|
+
+Here C' > 0 is the usual SVM parameter trading off training
+loss against model complexity. Note that u does not appear
+in the objective.
+
+In our application, ¢(q, e, t, 2) > 0. Suppose A > 0 in some
+iteration (which easily happens in our application). In that
+case, to satisfy constraint (25), it suffices to set only one
+element in u to 1, corresponding to arg max, zA-¢(q,e, t, Z),
+and the rest to Os. In other words, a particular (t, Z) is chosen
+ignoring all others. This severely restricts the search space
+over u, A in subsequent iterations and has greater chance of
+getting stuck in a local minima.
+
+To mitigate this problem, we propose the following anneal-
+ing protocol. The u distribution collapse reduces entropy
+suddenly. The remedy is to subtract from the objective (to
+be minimized) a term related to the entropy of the u distri-
+bution:
+
+2) + DS7 So ua, e+, t, 2) logu(g,e4,t, 2).
+
+qezp 2
+
+(27)
+
+Here D > 0 is a temperature parameter that is gradually
+reduced in powers of 10 toward zero with the alternative
+iterations optimizing u and A. Note that the objective (27)
+is convex in u, A and &.. Moreover, with either u or A fixed,
+all constraints are linear inequalities.
+
+1: initialize u to random values on the simplex
+
+2: initialize D to some positive value
+3: while not reached local optimum do
+
+A:
+
+5:
+
+6:
+
+Figure 5: Pseudocode for discriminative training.
+
+fix u and solve quadratic program to get next
+reduce D geometrically
+fix \ and solve convex program for next u
+
+ 
+
+Very little changes if we extend from itemwise to pairwise
+training, except the optimization gets slower, because of the
+
+RIGHTS LINK
+
+1105
+
+sheer number of pair constraints of the form:
+2)
+(28)
+
+Vq,e+,e-: maxdA-d(q,e+,t, 27) — maxA-$(q,e-,
+tz tz
+
+D1 faese-
+The itemwise objective in (26) changes to the pairwise ob-
+jectice
+
+sla? (29)
+
+»
+
+ep eft se €Ey
+
+bqe se
+
+C 1
++o
+
+|Q| » leq Ea |
+For clarity, first we rewrite (28) as
+
+Vq,e4,e-: maxr- $(q,e+,t, 2)
+4,2
+
+2a
+
+— Eq,e4,e, +maxr- $(q,e-,t', 7).
+t! 7
+
+Then we pull out t’, 2”
+
+Wage est, 2+ maxd- $(qe4,t,Z)
+t,zZ
+
+21 fgere +rA-o(G,e-,t, 7).
+
+Finally, we use a new set of u variables to convert this to an
+alternating optimization as before:
+
+Vqey,e.t, 2: Soulg.er,t, ZA 0(q.er,t, 2)
+tz
+
+21 fg eye. +A $(g,e-, 0,7).
+
+These enhancements do not change the basic nature of the
+
+optimization.
+
+(30)
+
+5.6 Implementation details
+
+5.6.1 Reducing computational requirements
+
+The space of (q,e,t, 7) and especially their discriminative
+constraints can become prohibitively large. To keep RAM
+and CPU needs practical, we used the following policies; our
+experimental results are insensitive to them.
+
+e We sampled down bad (irrelevant) entities e- that
+were allowed to generate constraint (28).
+
+e For empty h(¢,Z) = 2, ¢3(q,Z,t) provides no signal.
+In such cases, we allow t to take only one value: the
+most generic type Entity.
+
+5.6.2 Explaining a top-ranking entity
+
+This is even simpler in the discriminative setting than
+in the generative setting; we can simply use (2I) to report
+argmaxy,z\- 0(q,€t, 2).
+
+5.6.3 Implementing a target type predictor
+
+Extending the above scheme, each entity e scores each
+candidate types t as score(tle) = maxz.- d(-,e,t, Z). This
+induces a ranking over types for each entity. We can choose
+the overall type predicted by the query as the one whose sum
+of ranks among the top-k entities is smallest. An apparently
+crude approximation would be to predict the best type for
+the single top-ranked entity. But k > 1 can stabilize the
+predicted type, in case the top entity is incorrect. (We may
+want to predict a single type as a feedback to the user, or
+to compare with other type prediction systems, but, as we
+shall see, not for the best quality of entity ranking, which is
+best done collectively.)

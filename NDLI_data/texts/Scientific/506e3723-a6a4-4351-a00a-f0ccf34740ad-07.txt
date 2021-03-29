@@ -1,0 +1,126 @@
+Table 2: Link prediction results on the Test-I, Test-II and Test-ALL on FB122. Note that KALE, ASR methods, and KBLR have
+access to a set of rules provided by Guo et al. (2016), while neural link predictors and GNTPs do not. Test-II (6,186 triples)
+denotes a subset of FB122 that can be inferred via logic rules, while Test-I (5,057 triples) denotes all other test triples. We can see
+that, even without providing any rule to the model, GNTPs yields better ranking results in comparison with neural link prediction
+models—since it is able to learn such rules from data—and it is comparable with models that can leverage the provided rules.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Test-I Test-II Test-ALL
+
+Hits@N (%) Hits@N (%) Hits@N (%)
+> 5 19 MRR 35 19 MRR 35 79 MRR
+KALE-Pre (Guo et al. 2016) 35.8 41.9 49.8 0.291 82.9 86.1 89.9 0.713 61.7 66.2 71.8 0.523
+gg KALE-Joint Guo et al. 2016) 38.4 44.7 52.2 0.325 79.7 84.1 89.6 0.684 612 664 72.8 0.523
+= 3  ASR-DistMult (Minervini et al. 2017) 36.3. 40.3. 44.9 0.330 98.0 99.0 99.2 0.948 10.7 73.1 75.2 0.675
+= ASR-ComplEx (Minervini et al. 2017) 37.3. 41.0 45.9 0.338 99.2, 99.3. 99.4 0.984 71.7 73.6 75.7 0.698
+KBLR (Garcia-Duran and Niepert 2018) - - - - - - - 74.0 77.0 79.7 0.702
+= ,, TransE (Bordes et al. 2013) 36.0 41.5 48.1 0.296 775 828 88.4 0.630 589 64.2 70.2 0.480
+8 DistMult (Yang et al. 2015) 36.0 40.3 45.3 0.313 92.3 93.8 94.7 0.874 674 70.2 72.9 0.628
+= Z ComplEx (Trouillon et al. 2016) 37.0 41.3 46.2 0.329 914 919 92.4 0.887 67.3, 69.5 71.9 0.641
+= GNTPs 33.7 36.9 41.2 0313 (82 990 99.3 0.977) (69.2 71.1 73.2 0.678)
+
+ 
+
+ 
+
+Table 3: Explanations, in terms of rules and supporting facts, for the queries in the validation set of WN18 provided by GNTPs
+
+by looking at the proof paths yielding the largest proof scores.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Query Score S, Proofs / Explanations
+0.995 part_of(X, Y) :-has_part(Y, X) has_part (AFRICA.N.O1, CONGO.N.03)
+part_of(CONGO.N.03, AFRICA.N.O1) ame part _of(X, Y) — instance_hyponym(Y, X)
+3 . instance_hyponym(AFRICAN_COUNTRY.N.O1,CONGO.N.03)
+= hyponym(EXTINGUISH.V.04, DECOUPLE. v.03) 0.987 hyponym(X, Y) :—hypernym(Y, X) hypernym(DECOUPLE. V.03, EXTINGUISH. V.04)
+has_part(TEXAS.N.01, ODESSA.N.02) 0.961 has_part(X, Y) :-part_of(Y,X) part_of(ODESSA.N.02, TEXAS.N.O1)
+
+ 
+
+Results on Freebase and WordNet
+
+Link prediction results for FB122 are summarised in Ta-
+ble 2. The FB122 dataset proposed by Guo et al. (2016) is
+fairly large scale: it comprises 91,638 triples, 9,738 entities,
+and 122 relations, as well as 47 rules that can be leveraged
+by models for link prediction tasks. For such a reason, we
+consider a series of models that can leverage the presence
+of such rules, namely KALE (Guo et al. 2016), DistMult
+and ComplEx using Adversarial Sets (ASR) (Minervini et al.
+2017)—a method for incorporating rules in neural link pre-
+dictors via adversarial training—and the recently proposed
+KBLR (Garcia-Duran and Niepert 2018). Note that, unlike
+these methods, GNTPs do not have access to such rules and
+need to learn them from data.
+
+Table 2 shows that GNTP, whilst not having access to rules,
+performs significantly better than neural link predictors, and
+on-par with methods that have access to all rules. In particular,
+we can see that on Test-II, a subset of FB122 directly related
+to logic rules, GNTP yields competitive results. GNTP is able
+to induce rules relevant for accurate predictions, such as:
+
+timeZone(X, Y) :- containedBy(X, Z), timeZone(Z, Y).
+nearbyAirports(X, Y) :- containedBy(X, Z), contains(Z, Y).
+children(X, Y) :-parents(Y, X).
+
+spouse(X, Y) :— spouse(Y, X).
+
+We also evaluate GNTP on WN18 (Bordes et al. 2013)
+and WN18RR (Dettmers et al. 2018). In terms of ranking
+accuracy, GNTPs is comparable to state-of-the-art models,
+such as ComplEx and KBLR. In Garcia-Duran and Niepert
+(2018) authors report a 94.2 MRR for ComplEx and 93.6
+
+MRR for KBLR, while NeuralLP (Yang, Yang, and Cohen
+2017) achieves 94.0, with hits@10 equal to 94.5. GNTP
+achieves 94.2 MRR and 94.31, 94.41, 94.51 hits@3, 5, 10,
+which is on par with state-of-the-art neural link prediction
+models, while being interpretable via proof paths. Table 3
+shows an excerpt of validation triples together with their
+GNTP proof scores and associated proof paths for WN18.
+On WNI18RR, GNTP with MRR of 43.4 performs close to
+ComplEx (Dettmers et al. 2018) (44.0 MRR) but lags behind
+NeuralLP (46.3 MRR).
+
+We can see that GNTPs is capable of learning and util-
+ising rules, such as has-part(X, Y) :- part-of(Y,X),
+and hyponym(X, Y) :- hypernym(Y, X). Interestingly,
+GNTP is able to find non-trivial explanations for a given
+fact, based on the similarity between entity representations.
+For instance, it can explain that CONGO is part of AFRICA by
+leveraging the semantic similarity with AFRICAN-COUNTRY.
+
+Conclusions
+
+NTPs combine the strengths of rule-based and neural models
+but, so far, they were unable to reason over large KBs and
+natural language. In this paper, we overcome such limitations
+by considering only the subset of proof paths associated with
+the largest proof scores during the construction of a dynamic
+computation graph.
+
+The proposed model, GNTP, is more computationally effi-
+cient by several orders of magnitude, while achieving similar
+or better predictive performance than NTPs. GNTPs enable
+end-to-end differentiable reasoning on large KBs and natural

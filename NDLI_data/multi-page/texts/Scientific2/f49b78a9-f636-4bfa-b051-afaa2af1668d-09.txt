@@ -1,0 +1,186 @@
+IEEE Access:
+
+S. Banerjee et al.: Physically Secure Lightweight Anonymous User Authentication Protocol for loT
+
+ 
+
+GWN then selects a nonce ky € Z, from which
+the short term key kgqg = h(kg || ID) is computed.
+The GWWN also generates C//*” as a set of another n
+random challenges to be used for future i oe
+
+    
+
+     
+
+computes Qy = kga® Ra,, Auth, =h( tail
+|| C7*") and sends the message M(..,), = ne nen,
+
+Authg) to the smart device SD via open channel.
+
+« Step 2. On receiving M(..,),, SD looks up for hda,
+corresponding to Cy, from the sets Cg and hdy. Using
+hd, the PUF(-) and the fuzzy reproduction function
+Rep(-), SD calculates Ri, = Rep(PUF(Ca,), hda;),
+kha = Qo® Ri, and Auth’, = h(Ca, || Ri, || kya
+|| Cz”) and checks Auth’, against the received Auth,.
+If these values match, SD computes the response set
+Resi*" for the challenge set Cy/*” as Resi’ =
+PUF( (Cie) Vi € [1,n]. The sets RUS” and. hanew
+are then calculated by passing Re enew through “the
+fuzzy generator function Gen(-) a (Rie, nde’) =
+Gen(Resii’) Vi € [1,n]. SD appends the chal-
+lenge Ciy*”, the corresponding set of reconstruction
+data hae “ to Ca and hdg, respectively. Finally, SD
+computes FRy = Rie’ ® Koa Auth = h( Rie’
+|| &{q), composes another message M(.,). = (ERa,
+Autha) and sends it to the gateway node GWN via
+open channel.
+
+« Step 3. On receiving M(.,,),, the GWN computes
+Rie’ = ERa® kya and Auth’, = h(R7°" || kga). If the
+calculated Auth; is equal to Auth, the GW N appends
+oye’ and Rie’ ‘to Cq and Ra, respectively. The GW N
+commits the updated values its database.
+
+The challenge-response renewal procedure has been sum-
+
+marized in Figure[7]
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gateway GW N Smart Device SD
+
+Lookup Ca,, Ra, — [Da
+
+Select ky € Zp,
+
+CU" = {Ca,+++ ,Ca,} € Zp,
+
+Compute kya = h(kg || [Da),
+
+Qq = hoa ® Ra,,
+
+Authy = h(Ca, || Ra, || koa || C2").
+
+cr, Authy)
+Compute
+Ba = = Rep(PUF(Cua,), hda,),
+kya = Qq © Ri,»
+Auth’, = h(Ca, || Ra, || Kya || C7”)
+If Auth # Auth
+PUF(C?*"),
+rn(Resiew
+
+Save c net and hdi°"’
+Compute ERa= Rv ” Okoa
+Autha = h(RY || kya)
+Mc.r)2 = (ERa, Autha)
+es eee
+
+Compute Ri®" = ERy ® kya,
+
+Auth, = (RY || ka)
+
+If Auth! # Auth,
+
+terminate
+Save IDq, C7°" and Rie”
+
+ 
+
+ 
+
+FIGURE 7: Summary of challenge response renewal
+
+VOLUME 7, 2019
+
+V. SECURITY ANALYSIS
+
+In Section we utilize the broadly-accepted Real-Or-
+Random (ROR) model [48] to formally analyze the security
+of the proposed scheme. In Section [V-B} through the formal
+security verification using AVISPA simulation tool we
+verify that the proposed scheme is free from man-in-the-
+middle and replay attacks. Additionally, in Sectiot
+also informally demonstrate that the proposed scheme is also
+secure against various other well-known attacks.
+
+  
+  
+
+A. FORMAL SECURITY ANALYSIS THROUGH
+REAL-OR-RANDOM MODEL
+
+In this section, we describe the Real-Or-Random (ROR)
+model proposed in [48], and then utilize it for formal security
+analysis.
+
+Participants: Let 71, 72), and 74, denote the u’”, g”
+and d‘” instances corresponding to a user U, gateway node
+GWWN and smart device SD, respectively. These are also
+called oracles [8], [36].
+
+Partnering: Two instances 77, and ne p are said to be
+partnered if and only if the following “two conditions are
+fulfilled simultaneously: 1) the communication session id
+sid is common between them and 2) partial transcript of all
+message exchanged between them are unique”.
+
+Freshness: 7/ and 7@, are freshly provided that the
+session key SA between U and SD has not been divulged
+to an adversary A.
+
+Adversary: Under the ROR model, the adversary A is
+assumed have complete control over the communication
+channel. Consequently, A can eavesdrop, alter, delete and
+even insert fabricated messages during communication. Ad-
+ditionally, the adversary A can execute the following queries.
+
+« Execute(r", 7“): By execution of this query, A can
+
+intercept all the transmitted messages among U, GW N
+and SD. Due to intercepting nature, an eavesdropping
+attack is modeled under this query.
+
+« Send(r¢,m): Execution of this query enables A to send
+
+a message, say msg to its participating instance 7, and
+also to receive a response message in reply. This query
+is treated as an active attack.
+
+¢ CorruptSC (x): By executing this query, A can learn
+
+the credentials {2PB, DID, ky, and hd7,} stored
+in a legal user U’s stolen or lost smart card, SC;,.
+
+¢ CorruptS D(x): By executing this query, A can ex-
+
+tract the credentials {J Da, hdg,} from a captured IoT
+sensing device SD. It is also assumed that the queries
+CorruptSC and CorruptS D provide the weak corrup-
+tion model [36]. Consequently, a participant instance’s
+short-term Keys and the internal data are not corrupted.
+
+« Test(x“, x“): This query determines the semantic secu-
+
+rity of the Sania session key SX between U and
+SD following the indistinguishability in the ROR model
+[48]. At first A performs an unbiased coin toss c. The
+outcome of this coin toss decides the result of the Test
+query. If SKK is fresh, x“ or x produces SK upon the
+satisfaction of the condition c = 1 or a random number
+
+9

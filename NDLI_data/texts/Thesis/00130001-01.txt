@@ -1,0 +1,45 @@
+INTRODUCTION
+
+ 
+
+Analysis of survey data has, now a days, become a
+very important management function since many surveys are
+new being conducted by various organisations. These days,
+surveys are conducted regularly by many organisations to
+acquire up=to-date knowledge in different fields. Normally,
+the volume of data collected through the surveys is stupen«
+dous and consequently one has to make extensive use of com
+
+puters to process the data collected.
+
+The job of computaterised survey data processing
+involves two basic steps. The first step ensures that the
+data entered are valid. This data validation involves loca-~
+ting both data entry errors and errors due to mistakes on
+
+the part of the investigator.
+
+The second step is that of summarising information
+from the raw data through construction of various tables.
+These two basic phases of survey data processing are called
+
+scrutiny and tabulation respectively.
+
+Traditionally, the job of survey data processing
+rc . a
+teiAg to comprise of writing tailor-made programs for both
+scrutiny and tabulation. However, this was a time consu-
+ming araar since this approach called for ‘writing similar
+
+programs several times. This time could be drastically eu cul
+
+down if a very high level language, specially suited for
+Ae AWon I,
+
+" * : We.
+
+yay Aa CICS
+RK ee |
+. Cai oper k
+
+me

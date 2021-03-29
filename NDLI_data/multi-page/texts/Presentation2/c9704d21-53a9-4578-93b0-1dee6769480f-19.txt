@@ -1,0 +1,26 @@
+Implementation Layer
+
+ 
+
+Data Source in New York
+
+ 
+
+Data Source in Washington Extract
+
+ 
+
+g
+_ a Clean 3
+_ _ Transform o Query
+—— Load § — Report/
+Refresh s Analysis
+©
+a
+Data Source in Philadelphia / ee ee
+7 / _
+/
+Se V
+ae
+
+Data Source in Chicago

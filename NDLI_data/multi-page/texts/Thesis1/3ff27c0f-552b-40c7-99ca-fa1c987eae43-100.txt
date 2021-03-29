@@ -1,0 +1,53 @@
+Chapter 3: Quantum group of orientation preserving Riemannian isometries 88
+
+ 
+
+Definition 3.2.24. Let A be a C* algebra and A® be a dense *-subalgebra. Let
+(A®,H, D) be a spectral triple of compact type as above.
+
+Let G be the category with objects (Q,a) such that Q is a compact quantum group
+with a C* action a on A such that:
+
+1. a is T preserving ( where T is as above ), that is, (r ® id)(a(a)) = 7(a).1.
+
+2. a maps Ago inside Apo @aig Q.
+
+3. aD= (D @l)a.
+
+Corollary 3.2.25. There exists a universal object 8 of the category € and it is iso-
+morphic to the Woronowicz C* subalgebra G = QISO*(D) of G obtained in Theorem
+
+Proof : The proof of the existence of the universal object follows verbatim from the
+proof of Theorem 2.1.5 replacing £ by D and noting that D has compact resolvent. We
+denote by @ the action of oO on A.
+
+Now, we prove that Cis isomorphic to G.
+
+Each eigenvector of D is in A® by assumption. It is easily observed from the proof
+of Theorem 3.2.22 that ay, maps the norm-dense *-subalgebra Ago into Ao @alg Go,
+and (id®€)oay, = id, so that ay, is indeed a C* action of the CQG G. Moreover, it can
+be easily seen that 7 preserves ay, and that ay, commutes with D. Therefore, (G, ayy)
+is an element of Obj(C) and hence G is a quantum subgroup of 8 by the universality
+of O.
+
+For the converse, we start by showing that @ induces a unitary representation W of
+8 * C(T) on H which commutes with D, and the corresponding conjugated action ay
+coincides with @.
+
+Define W(a€) = @(a)(€)(1 ® q*) for all a in A§° where q is a generator of C(T).
+
+Since we have (7 @ id)(a(a)) = 7(a).1, it follows that W isa (Q « C(T)-linear)
+isometry on the dense subspace Ago€ @alg Q and thus extends to H ® ) * C(T)) as an
+isometry. Moreover, since @(A) (1 Q) is norm dense in A @ Q (by the definition of a
+CQG action) it is clear that the range of W is dense, so W is indeed a unitary. It is
+quite obvious that it is a unitary representation of Ox C(T).
+
+We also have,
+
+W D(aé)
+= W(D(a)é) = a(D(a))(6)(1@ 4")
+= (D@N(A(ag)(1@ q*) = (D®NWak),
+
+that is, W commutes with D.
+Moreover, it is easy to observe that aw = @. This gives a surjective CQG morphism
+from G =G * C(T) to Ox C(T), sending G onto 6, which completes the proof.

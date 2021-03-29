@@ -1,0 +1,65 @@
+Contents
+
+Acknowledgments
+Notation
+Chapter 0. Prologue
+
+Chapter 1. Classical Groups
+1.1. Bilinear Forms and Hermitian Forms
+1.2. Isometry Groups
+
+1.3. Algebras with Involutions and Classical Groups
+
+Chapter 2. Linear Algebraic Groups
+2.1. Definition and Examples
+2.2. Jordan Decomposition
+2.3. Semisimple Algebraic Groups
+2.4. Root Datum and Reductive Groups
+
+Chapter 3. Groups of Type G2
+3.1. The Group G2 and Octonions
+3.2. Some Subgroups of Gy
+
+3.3. Involutions in G2
+
+Chapter 4. Galois Cohomology
+4.1. Commutative Cohomology and Central Simple Algebra
+4.2. Non-Commutative Cohomology
+
+4.3. Forms of Algebraic Groups
+
+Chapter 5. Maximal Tori in SU,,
+5.1. Description of Maximal Tori
+
+5.2. Tori and Representations
+
+Chapter 6. Main Results
+
+6.1. Results in Classical Groups
+
+xl
+
+Not WwW Ww
+
+11
+11
+12
+13
+14
+
+17
+17
+20
+24
+
+27
+27
+30
+31
+
+33
+33
+36
+
+39
+40

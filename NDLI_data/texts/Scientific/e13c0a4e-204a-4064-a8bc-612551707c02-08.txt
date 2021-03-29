@@ -1,0 +1,120 @@
+Weisfeiler and Leman go sparse
+
+ 
+
+Murphy, R. L., Srinivasan, B., Rao, V. A., and Ribeiro, B. Re-
+lational pooling for graph representations. In Jnternational
+Conference on Machine Learning, pp. 4663-4673, 2019a.
+
+Murphy, R. L., Srinivasan, B., Rao, V. A., and Ribeiro, B.
+Janossy pooling: Learning deep permutation-invariant func-
+tions for variable-size inputs. In International Conference
+on Learning Representations, 2019b.
+
+Niepert, M., Ahmed, M., and Kutzkov, K. Learning con-
+volutional neural networks for graphs. In International
+Conference on Machine Learning, pp. 2014-2023, 2016.
+
+Nikolentzos, G., Meladianos, P., and Vazirgiannis, M. Match-
+ing node embeddings for graph similarity. In AAAI Confer-
+ence on Artificial Intelligence, pp. 2429-2435, 2017.
+
+Nikolentzos, G., Meladianos, P., Limnios, S., and Vazirgiannis,
+M. A degeneracy framework for graph similarity. In
+International Joint Conference on Artificial Intelligence,
+pp. 2595-2601, 2018.
+
+Paszke, A., Gross, S., Massa, F., Lerer, A., Bradbury, J.,
+Chanan, G., Killeen, T., Lin, Z., Gimelshein, N., Antiga,
+L., Desmaison, A., Kopf, A., Yang, E., DeVito, Z., Raison,
+M., Tejani, A., Chilamkurthy, S., Steiner, B., Fang, L., Bai,
+J., and Chintala, S. PyTorch: An imperative style, high-
+performance deep learning library. In Advances in Neural
+Information Processing Systems, pp. 8024-8035, 2019.
+
+Ramakrishnan, R., Dral, P., O., Rupp, M., and von Lilienfeld,
+O. A. Quantum chemistry structures and properties of 134
+kilo molecules. Scientific Data, 1, 2014.
+
+Rieck, B., Bock, C., and Borgwardt, K. M. A persistent
+Weisfeiler-Lehman procedure for graph classification. In
+International Conference on Machine Learning, pp. 5448-
+
+5458, 2019.
+
+Rong, Y., Huang, W., Xu, T., and Huang, J. DropEdge: To-
+wards deep graph convolutional networks on node classifi-
+cation. In International Conference on Learning Represen-
+tations, 2020.
+
+Sato, R., Yamada, M., and Kashima, H. Approximation ratios
+of graph neural networks for combinatorial problems. In
+Neural Information Processing Systems, pp. 4083-4092,
+2019.
+
+Sato, R., Yamada, M., and Kashima, H. Random features
+strengthen graph neural networks. CoRR, abs/2002.03155,
+2020.
+
+Scarselli, F, Gori, M., Tsoi, A. C., Hagenbuchner, M., and
+Monfardini, G. The graph neural network model. JEEE
+Transactions on Neural Networks, 20(1):61—80, 2009.
+
+Schomburg, I., Chang, A., Ebeling, C., Gremse, M., Heldt,
+C., Huhn, G., and Schomburg, D. BRENDA, the enzyme
+database: updates and major new developments. Nucleic
+acids research, 32(Database issue):D43 1—3, January 2004.
+
+Shervashidze, N., Vishwanathan, S. V. N., Petri, T. H.,
+Mehlhorn, K., and Borgwardt, K. M. Efficient graphlet
+kernels for large graph comparison. In International Confer-
+ence on Artificial Intelligence and Statistics, pp. 488-495,
+2009.
+
+Shervashidze, N., Schweitzer, P., van Leeuwen, E. J.,
+Mehlhorn, K., and Borgwardt, K. M. Weisfeiler-Lehman
+graph kernels. Journal of Machine Learning Research, 12:
+2539-2561, 2011.
+
+Simonovsky, M. and Komodakis, N. Dynamic edge-
+conditioned filters in convolutional neural networks on
+graphs. In JEEE Conference on Computer Vision and
+Pattern Recognition, pp. 29-38, 2017.
+
+Sperduti, A. and Starita, A. Supervised neural networks for the
+classification of structures. IEEE Transactions on Neural
+Networks, 8(2):714—-35, 1997.
+
+Stokes, J., Yang, K., Swanson, K., Jin, W., Cubillos-Ruiz, A.,
+Donghia, N., MacNair, C., French, S., Carfrae, L., Bloom-
+Ackerman, Z., Tran, V., Chiappino-Pepe, A., Badran, A.,
+Andrews, I., Chory, E., Church, G., Brown, E., Jaakkola, T.,
+Barzilay, R., and Collins, J. A deep learning approach to
+antibiotic discovery. Cell, 180:688—702.e13, 02 2020.
+
+Togninalli, M., Ghisu, E., Llinares-Lépez, F., Rieck, B., and
+Borgwardt, K. M. Wasserstein Weisfeiler-Lehman graph
+kernels. In Advances in Neural Information Processing
+Systems, pp. 6436-6446, 2019.
+
+Velickovic, P., Cucurull, G., Casanova, A., Romero, A., Lid, P.,
+and Bengio, Y. Graph attention networks. In International
+Conference on Learning Representations, 2018.
+
+Verma, S. and Zhang, Z. Hunt for the unique, stable, sparse
+and fast feature learning on graphs. In Advances in Neural
+Information Processing Systems, pp. 88-98, 2017.
+
+Verma, S. and Zhang, Z. Stability and generalization of
+graph convolutional neural networks. In ACM SIGKDD
+International Conference on Knowledge Discovery & Data
+Mining, pp. 1539-1548, 2019.
+
+Vinyals, O., Bengio, S., and Kudlur, M. Order matters: Se-
+quence to sequence for sets. In International Conference
+on Learning Representations, 2016.
+
+Wale, N., Watson, I. A., and Karypis, G. Comparison of
+descriptor spaces for chemical compound retrieval and
+classification. Knowledge and Information Systems, 14(3):
+347-375, 2008.

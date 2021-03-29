@@ -1,0 +1,56 @@
+21 Quantum Groups
+
+ 
+
+From now on, we will drop the term co in the word co-representation unless there
+
+is any confusion.
+
+Remark 1.2.22. Let 7 be a CQG morphism from a CQG (S1,A1) to another CQG
+(Sg, Ag). Then for every unitary representation U of S,, (id @7)U is a unitary repre-
+
+sentation of Sa.
+
+Following the definitions given in the last part of subsection 1.1.4 and a unitary
+representation U of a CQG on a Hilbert space H, and a not necessarily bounded,
+densely defined (in the weak operator topology) linear functional 7 on B(H), we will
+use the notation ay and the terms “ay preserves T” and “ U equivariant ” throughout
+this thesis.
+
+A CQG (S,A) has a distinguished representation which corresponds to the right
+regular representation in the group case. Let 7 be the GNS space of S associated with
+the Haar state h, & be the associated cyclic vector and K be a Hilbert space on which
+S acts faithfully and non-degenerately. There is a unitary operator u on 7 ®K defined
+by u(a&o ® 7) = A(a)(&o ® 7) when a is in S, 7 is in K. Then wu can be shown to be an
+element of multiplier of K(H) @ S and called the right regular representation of S.
+
+Let v be a representation of a CQG (S, A) on a Hilbert space H. A closed subspace
+Hy of H is said to be invariant if (e @ 1)v(e ® 1) = v(e @ 1), where e is the orthogonal
+projection onto this subspace. The representation v is called irreducible if the only
+invariant subspaces are {0} and H. It is clear that one can make sense of direct sum of
+(co)-representations in this case also. Moreover, for two representations v and w of a
+CQG (S, A) on Hilbert spaces Hi and Ha, the tensor product of v and w is given by the
+element 0(13)W(23). The intertwiner between v and w is an element x in B(Hy, H2) such
+that (v@1)v = w(x®1). The set of intertwiners between v and w is denoted by Mor(v, w).
+
+Two representations are said to be equivalent if there is an invertible intertwiner. They
+
+ 
+
+are unitarily equivalent if the intertwiner can be chosen to be unitary.
+
+Just like the case of compact groups, CQG s have an analogous Peter Wey] theory
+which corresponds to the usual Peter Weyl theory in the group case. We will give a
+sketch of it by mentioning the main results and refer to [41], [66] and [67] for the details.
+
+Let v be a unitary representation of (S,A) on H. If Hy is an invariant subspace,
+then the orthogonal complement of Hj, is also invariant. Any non degenerate finite
+dimensional representation is equivalent with a unitary representation.
+
+Every irreducible unitary representation of a CQG is contained in the regular rep-
+resentation. Let uv be a representation on a finite dimensional Hilbert space H. If we
+denote the matrix units in B(H) by (epg), we can write v = S> epg ® Upg. Upq are called
+the matrix elements of the finite dimensional representation v. Define 0 = )7 epg ® Upq-
+Then @ is a representation and is called the adjoint of v. It can be shown that if v is
+
+a finite dimensional irreducible representation, then U is also irreducible. Moreover, for

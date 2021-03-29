@@ -1,0 +1,82 @@
+153 Quantum Isometry Groups of the Podles sphere
+
+ 
+
+and the Hilbert space topology of L?(SU,,(2)).
+
+For an element a in SU,(2), we consider the right multiplication Ra as a bounded
+linear map on L?(SU,,(2)). Clearly the composition Ra; is a continuous linear map
+from B(H) (with SOT) to the Hilbert space L?(SU,,(2)). We now define
+
+T = RosTy + WP RyT ys.
+
+Lemma 5.3.4. For any state w on Q and x belonging to Si, co, we have T(¢,(x)) =
+
+u(x) = Ri(b.(x)) € She C L(SU,(2)), where u(x) = (id @w)(9(2)).
+
+Proof : It is clear from the definition of T (using aa* + p?77* = 1) that T(z) =a2 =
+Ri (x) for x in Sie Cc B(H), where x in the right hand side of the above denotes the
+identification of « in Sh a as a vector in L?(SU,,(2)). Now, the lemma follows by noting
+that for x belonging to S fe ¢u(x) belongs to (52 6)", which is the SOT closure of SP es
+and the SOT continuity of T discussed before.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Let
+V! = Spano! .1,-l sist’, Us D.
+As Span{v; ab —l <i < J}, is the eigenspace of |D| corresponding to the eigenvalue
+ol+co, U and U* keep V! invariant for all 1.
+Lemma F.8.0: There is sorte finite dimensional subspace V of O(SU,(2)) such that
+
+Rox (bu(A jue 41) Ry(¢.(A uF 41) belong to V for all states w on oO.
+The sane Flite when A é Y Peulcoed by B or B*.
+
+Proof : We prove the result for A only, since a similar argument will work for B and
+B*.
+We have $(A)(v:
+
+S =
+
+2 O1) =U (a(A) ODT 3, 8D).
+
+1
+2
+1 _
+Now, U* (vy ; ,1 ® 1) belong to V2 @ Q, and then using the definition of 7 as well
+
++5
+
+as the Lemma 5.3.3, we get (7(A) @ 1)U* to jad ® 1) belong to Span{vt :-l<j<
+
+4
+UU <3} O=V2@9. Again, U keeps vied invariant, so Ro«(¢.(A)(v ‘ 1)) belong
+
++3
+
+1
+to Span{va*,v € yi}. Similarly, Ry(bu(A)(07 ,1)) belong to Span{vy : v € vi}. So,
+5
+
+ 
+
+ 
+
+ 
+
+the lemma follows for A by taking V = Span{va*,vy: vé v2} Cc O(SU,(2)).
+
+ 
+
+i
+Since a, * are in Span{v; o 1h; we have the following immediate corollary:
+
+Corollary 5.3.6. There is a finite dimensional subspace V of O(SU,(2)) such that
+for every state (hence for every bounded linear functional) w on Q, we have T(d,,(A))
+
+belongs to V. Similar conclusion holds for B and B* as well.

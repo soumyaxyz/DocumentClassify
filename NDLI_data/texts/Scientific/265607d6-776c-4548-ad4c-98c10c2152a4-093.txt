@@ -1,0 +1,47 @@
+3. Search Result Diversification
+
+ 
+
+Analogously to the instantiation of diversification approaches, discussed in
+Section 3.3, diversity evaluation is typically operationalised by representing the
+possible information needs underlying a query as multiple query aspects.!! Early
+attempts to build a test collection for diversity evaluation were made at the TREC
+6-8 Interactive tracks (Over, 1997, 1998; Hersh & Over, 1999). The investigated
+task, called “aspect retrieval”, involved finding documents covering as many dif-
+ferent aspects of a given query as possible. In this evaluation campaign, a total
+of 20 topics were adapted from the corresponding years of the TREC Ad hoc
+tracks (Voorhees & Harman, 1997, 1998, 1999). Each topic included from 7 to 56
+aspects, as identified by TREC assessors, with relevance assessments provided at
+the aspect level. Figure 3.2 illustrates one of such topics, 353i, along with some
+
+of its identified aspects, denoted “sub-topics” in the TREC jargon.
+
+<topic number="353i">
+<query> antarctic exploration </query>
+<description>
+Identify systematic explorations and scientific investigations of
+Antarctica, current or planned.
+</description>
+<subtopic number="1"> mining prospection </subtopic>
+<subtopic number="2"> oil resources </subtopic>
+<subtopic number="3"> rhodium exploration </subtopic>
+<subtopic number="4"> ozone hole / upper atmosphere </subtopic>
+<subtopic number="5"> greenhouse effect </subtopic>
+</topic>
+
+Figure 3.2: TREC-7 Interactive track, topic 353i and its sub-topics.
+
+By relying on expert judges to identify query aspects from the retrieved doc-
+uments (Lagergren & Over, 1998), the TREC Interactive track test collection
+arguably lacks in plausibility and completeness in light of the actual information
+needs of the population of users issuing a query (Radlinski et al., 2010b). In
+order to overcome this limitation, Radlinski et al. (2010a) proposed to identify
+realistic query aspects for diversity evaluation from the query and click logs of a
+commercial search engine. In their approach, candidate aspects were selected as
+
+queries that frequently co-occurred with the initial query across multiple sessions
+
+Note that the aspect representation adopted by a diversification approach does not neces-
+sarily reflect the ground-truth aspect representation adopted for evaluation purposes.
+
+75

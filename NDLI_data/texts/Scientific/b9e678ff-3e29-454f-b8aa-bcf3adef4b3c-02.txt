@@ -1,0 +1,127 @@
+WWW ’20, April 20-24, 2020, Taipei, Taiwan
+
+The interesting components in this equation are pok ex) on the
+left-hand side, and the appearance of the gamma function I(s)
+on the right-hand side, implying a direct relationship between
+Jacobi polynomials and the gamma function. Considering the entire
+expression as a single object misses this important relationship.
+On the other hand, focusing on single symbols can result in the
+misleading interpretation of I as a variable and I'(@ + n + 1) as
+a multiplication between I and (@ + n + 1). A system capable of
+identifying the important components, such as poak Yor) or T(a+
+n+ 1), is therefore desirable. Hereafter, we define these components
+as Mathematical Objects of Interest (MOIs) [13].
+
+The importance of math objects is a somewhat imprecise descrip-
+tion and thus difficult to measure. Currently, not much effort has
+been made in identifying meaningful subexpressions. Kristianto
+et al. [23] introduced dependency graphs between formulae. With
+this approach, they were able to build dependency graphs of math-
+ematical expressions, but only if the expressions appeared as single
+expressions in the context. For example, if [(a@ + n + 1) appears as a
+stand-alone expression in the context, the algorithm will declare a
+dependency with Equation (1). However, it is more likely that differ-
+ent forms, such as I(s), appear in the context. Since this expression
+does not match any subexpression in Equation (1), the approach
+cannot establish a connection with I'(s). Kohlhase et al. studied
+in [19-21] another approach to identify essential components in
+formulae. They performed eye-tracking studies to identify impor-
+tant areas in rendered mathematical formulae. While this is an
+interesting approach that allows one to learn more about the in-
+sights of human behaviors of reading and understanding math, it
+is inaccessible for extensive studies.
+
+This paper presents the first extensive frequency distribution
+study of mathematical equations in two large scientific corpora, the
+e-Print archive arXiv.org (hereafter referred to as arXiv!) and the
+international reviewing service for pure and applied mathematics
+zbMATH®. We will show that math expressions, similar to words in
+natural language corpora, also obey Zipf’s law [33], and therefore
+follows a Zipfian distribution. Related research projects observed a
+relation to Zipf’s law for single math symbols [6, 36]. In the context
+of quantitative linguistics, Zipf’s law states that given a text corpus,
+the frequency of any word is inversely proportional to its rank
+in the frequency table. Motivated by the similarity to linguistic
+properties, we will present a novel approach for ranking formulae
+by their relevance via a customized version of the ranking function
+BM25 [34]. We will present results that can be easily embedded
+in other systems in order to distinguish between common and
+uncommon notations within formulae. Our results lay a foundation
+for future research projects in MathIR.
+
+Fundamental knowledge on frequency distributions of math for-
+mulae is beneficial for numerous applications in MathIR, ranging
+from educational purposes [40] to math recommendation systems,
+search engines [7, 31], and even automatic plagiarism detection
+systems [28, 29, 39]. For example, students can search for the con-
+ventions to write certain quantities in formulae; document prepara-
+tion systems can integrate an auto-completion or auto-correction
+service for math inputs; search or recommendation engines can
+
+ 
+
+‘https://arxiv.org/ [Accessed: Sep. 1, 2019]
+?https://zbmath.org [Accessed: Sep. 1, 2019]
+
+A. Greiner-Petter, et al
+
+adjust their ranking scores with respect to standard notations; and
+plagiarism detection systems can estimate whether two identical
+formulae indicate potential plagiarism or are just using the con-
+ventional notations in a particular subject area. To exemplify the
+applicability of our findings, we present a textual search approach to
+retrieve mathematical formulae. Further, we will extend z»MATH’s
+faceted search by providing facets of mathematical formulae ac-
+cording to a given textual search query. Lastly, we present a simple
+auto-completion system for math inputs as a contribution towards
+advancing mathematical recommendation systems. Further, we
+show that the results provide useful insights for plagiarism detec-
+tion algorithms. We provide access to the source code, the results,
+and extended versions of all of the figures appearing in this paper
+at https://github.com/ag-gipp/FormulaCloudData.
+
+Related Work: Today, mathematical search engines index formu-
+lae in a database. Much effort has been undertaken to make this
+process as efficient as possible in terms of precision and runtime
+performance [7, 17, 26, 27, 45]. The generated databases naturally
+contain the information required to examine the distributions of
+the indexed mathematical formulae. Yet, no in-depth studies of
+these distributions have been undertaken. Instead, math search
+engines focus on other aspects, such as devising novel similarity
+measures and improving runtime efficiency. This is because the goal
+of math search engines is to retrieve relevant (i.e., similar) formulae
+which correspond to a given search query that partially [24, 26, 31]
+or exclusively [7, 17, 18] contains formulae. However, for a fun-
+damental study of distributions of mathematical expressions, no
+similarity measures nor efficient lookup or indexing is required.
+Thus, we use the general-purpose query language XQuery and em-
+ploy the BaseX? implementation. BaseX is a free open-source XML
+database engine, which is fully compatible with the latest XQuery
+standard [14, 41]. Since our implementations rely on XQuery, we
+are able to switch to any other database which allows for processing
+via XQuery.
+
+2 DATA PREPARATION
+
+IéTpX is the de facto standard for the preparation of academic
+manuscripts in the fields of mathematics and physics [11]. Since
+I6TEX allows for advanced customizations and even computations,
+it is challenging to process. For this reason, ATpX expressions are
+unsuitable for an extensive distribution analysis of mathematical
+notations. For mathematical expressions on the web, the XML for-
+matted MATHML} is the current standard, as specified by the World
+Wide Web Consortium (W3C). The tree structure and the fixed
+standard, i.e., MATHML tags, cannot be changed, thus making this
+data format reliable. Several available tools are able to convert from
+JATEX to MATHML [35] and various databases are able to index XML
+data. Thus, for this study, we have chosen to focus on MATHML. In
+the following, we investigate the databases arXMLiv (08/2018) [12]
+and zbMATH? [38].
+
+The arXMLiv dataset (~1.2 million documents) contains HTML5
+versions of the documents from the e-Print archive arXiv.org.
+The HTML5 documents were generated from the TEX sources
+
+$http://basex.org/ [Accessed: Sep. 2019]; We used BaseX 9.2 for our experiments.
+“https://www.w3.org/TR/MathML3/ [Accessed: Sep. 1, 2019]
+Shttps://zbmath.org/ [Accessed: Sep. 1, 2019]

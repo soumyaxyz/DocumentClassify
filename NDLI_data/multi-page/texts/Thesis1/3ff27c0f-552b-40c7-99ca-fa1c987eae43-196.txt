@@ -1,0 +1,62 @@
+Chapter 5: Quantum isometry groups of the Podles spheres 184
+
+ 
+
+Proof : We note that
+i( )- (A- A? + cl)
+
+= 4/r4p2" “rat ; \ =cx(n)? ( ; )
+
+and hence vial ( ) =c4(n H(% ‘)- oi( ; p
+0
+
+Similarly, 7 |B| ( o = a 2 ). This completes the proof of the Lemma.
+
+NIH
+—~
+go
+oe
+Seiceasanne
+—
+
+en
+
+ 
+
+ 
+
+ 
+
+ 
+
+Lemma 5.4.15.
+a(t) = > T(Pr + Qn) @ rt are’,
+n>1
+
+where re are the elements of QISO+(D ) introduced before.
+
+Proof : For all n > 1, we have
+
+0 0
+
+ws Promo“ )+(% )
+1-
+
+vio en )) = U(r @ id)0* ( “a )
+
+= rt
+1l~ fen Cn
+= ia " +) cant ( m easy
+En-1 ~En-1
+1 en: * Cn-1 ae €n—1 *
+= 5l{ ” Orit + " Ornate T=( ” Oran
+2 En-1 —En-1 0
+cat 0
+Similarly, a(r)
+En
+
+ 
+
+0
+( ° ) @rt_yrt* for alln > 1.
+1

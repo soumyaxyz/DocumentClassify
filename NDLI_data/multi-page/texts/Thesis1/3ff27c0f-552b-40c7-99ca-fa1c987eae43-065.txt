@@ -1,0 +1,34 @@
+Chapter 2
+
+Quantum isometry groups:
+
+approach based on Laplacian
+
+The idea of quantum isometry group of a noncommutative manifold (given by a spec-
+tral triple), which has been defined by Goswami, is motivated by the definition and
+study of quantum permutation groups of finite sets and finite graphs by a number of
+mathematicians (see, e.g. [1], [2], [60], [61] and references therein).
+
+In this chapter, we first recall the definition of quantum isometry groups as proposed
+
+in [30] and then compute it for some examples.
+
+2.1 Formulation of the quantum isometry group
+
+2.1.1 Characterization of isometry group for a compact Riemannian
+manifold
+
+Let M be a compact Riemannian manifold. Consider the category with objects be-
+ing the pairs (G,a) where G is a compact metrizable group acting on M by the
+smooth and isometric action a. If (Gi,a) and (G2,) are two objects in this cate-
+gory, Mor((Gi,a@), (G2, )) consists of group homomorphisms 7 from G) to Gg such
+that Goma=a. Then the isometry group of M is the universal object in this category.
+
+More generally, the isometry group of a classical compact Riemannian manifold,
+viewed as a compact metrizable space ( forgetting the group structure ), can be seen to
+be the universal object of a category whose object class consists of subsets ( not generally
+subgroups ) of the set of smooth isometries of the manifold. Then it can be proved that
+this universal compact set has a canonical group structure. Thus, motivated by the
+ideas of Woronowicz and Soltan ( [53], [68] ), Goswami considered in [30] a bigger
+category with objects as the pair (S,f) where S is a compact metrizable space and
+f :S x M — M such that the map from M to itself defined by m +> f(s,m) is a

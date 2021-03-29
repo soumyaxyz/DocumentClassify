@@ -1,0 +1,64 @@
+171 The spectral triple by Chakraborty and Pal on SF as c>0
+
+ 
+
+5.4 The spectral triple by Chakraborty and Pal on Bie c>
+0
+
+Now, we shall consider another class of spectral triples on the Podles spheres and show
+that they give rise to completely different quantum groups of (orientation preserving)
+isometries. Indeed, for these spectral triples, we have been able to prove the existence
+of QISO* and identify it with the CQG C*(Zy * Z~) where Z° denotes countably
+infinite copies of the group of integers.
+
+In this section, we will work with c > 0.
+
+5.4.1 The spectral triple
+
+Let us describe the spectral triple on $7, introduced and studied in [14].
+
+Let Hy =H = P(INU{0}), H =H, OH.
+
+Let {en,n > 0} be the canonical orthonormal basis of H, = H— and N be the
+operator defined on it by N(e,) = nen.
+
+We recall the irreducible representations 74 and m_ : H+ — H4 as in [14].
+
+ 
+
+T+ (A)en = AglPren, (5.4.1)
+T+ (B)en = cx(n)2en—1, (5.4.2)
+where
+1 12
+2 ony\2
+e-1=0, AA= a+ (e+ Dd ca(n) = Any?” — (Ag? +. (5.4.3)
+Oo N
+Let t=74@67_ and D= .
+a N 0 )
+Then (S27, H, D) is a spectral triple.
+We note that the eigenvalues of D are {n : n € Z} and eigenspace is spanned
+by en ) corresponding to the positive eigenvalue n and ( en for the negative
+En En
+
+eigenvalue —n.
+
+Lemma 5.4.1.
+
+fore
+
+T+(B*) (en) = e4(n + 1)
+
+m™~(B*)(en) = c_(n+ 1)
+
+Ent+1),
+
+Nie
+
+ 
+
+€n+1-
+
+Proof : (nV, Gia ( pr ( ‘ )) =>, enc (n)2 (€n—1, €n’) = Cn'41
+
+i i
+cx (n’ +1)? =, encg(n’ +1)? (ens engi) = Von on

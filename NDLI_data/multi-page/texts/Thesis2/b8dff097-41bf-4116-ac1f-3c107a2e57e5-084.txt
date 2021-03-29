@@ -1,0 +1,55 @@
+72 8. REALITY IN GROUPS OF TYPE G2
+
+We need the following result from ([W1]), (cf. also [L]),
+
+Proposition 8.3.4. Let € be a (split) octonion algebra over a field k: of character-
+istic not 2. Let L be a split two-dimensional subalgebra of €. An element n € G(€/L)
+is a product of two involutory automorphisms if and only if the corresponding matrix
+
+in SL(3) can be decomposed into a product of two symmetric matrices in SL(3).
+We have,
+
+Theorem 8.3.5. Let to be an element in G(€/L), with notation as in this section.
+Let us assume that the matrix A of to in SL(3) has characteristic polynomial equal
+to its minimal polynomial. Then, to can be conjugated to ts" in G = Aut(€), if and
+
+only if to is a product of two involutions in G(k).
+
+Proof. First, let to be real in G(€/L). Then, A is real in SL(3) and hence it is
+strongly real (see Theorem 7.1.2). Thus the element to is strongly real in G(k). Now
+we assume fo is not real in G(€/L), ie., A is not real in SL(3). In this case, the
+element tp) can be conjugated to tp 1 in G(k) if and only if, A can be conjugated to
+‘4 in SL(3) (Theorem 8.3.2). This is if and only if, A is a product of two symmetric
+matrices in SL(3) (Lemma 8.3.3). By Proposition 8.3.4, this is if and only if to is
+
+2
+
+ 
+
+ 
+
+ 
+
+product of two involutions in Aut(€).
+
+ 
+
+We continue our analysis and produce examples of nonreal semisimple elements.
+We derive a necessary and sufficient condition that a matrix A in SL(3), with ir-
+reducible characteristic polynomial, be conjugate to ‘A in SLZ(3). We have, more
+
+generally,
+
+Theorem 8.3.6. Let A be a matrix in SL(n) with characteristic polynomial
+xa(X) irreducible. Let B = k|X]/x4(X) & k[A] be the field extension of k of degree
+n given by ya(X). Then A is conjugate to ‘A in SL(n), if and only if, for every
+T €GL(n) with TAT—! = 4, det(T) is a norm from E.
+
+Proof. Fix a Ty € GL(n) such that TAT)! = 4 and define a map,
+{TéM,(k)|TA=AT} — &IA]
+Te Br
+
+This map is an isomorphism of vector spaces. Since if T € M,(k) is such that
+TA=A4T then Ty 'T belongs to Z(A) (= k[Al], as the characteristic polynomial of A
+
+is the same as its minimal polynomial). To prove the assertion, suppose Tp € SL(n)

@@ -1,0 +1,121 @@
+Model Prec. Rec. Fy
+
+ 
+
+Chiu and Nichols (2016) 86.04 86.53 86.28
+Li et al. (2017) 88.00 86.50 87.21
+Ghaddar and Langlais (2018) - - 87.95
+Strubell et al. (2017) - - 86.84
+BiLSTM-CRF (L = 0) 82.03 80.78 81.40
+BiLSTM-CRF (L = 1) 87.21 86.93 87.07
+BiLSTM-CRF (L = 2) 87.89 87.68 87.78
+BiLSTM-CRF (L = 3) 87.81 87.50 87.65
+BiLSTM-GCN-CRF 88.30 88.06 88.18
+DGLSTM-CRF (L = 0) 85.31 82.19 84.09
+DGLSTM-CRF (L = 1) 88.78 87.29 88.03
+DGLSTM-CRF (L = 2) 88.53 88.50 88.52
+DGLSTM-CRF (L = 3) 87.59 88.93 88.25
+
+Contextualized Word Representation
+Akbik et al. (2018) (Flair) - - 89.30
+
+BiLSTM-CRF (ZL =0)+ELMo 85.44 84.41 84.92
+BiLSTM-CRF (ZL =1)+ELMo 89.14 88.59 88.87
+BiLSTM-CRF (L = 2)+ELMo 88.25 89.71 88.98
+BiLSTM-CRF (L = 3)+ELMo 88.03 89.04 88.53
+BiLSTM-GCN-CREF + ELMo 89.40 89.71 89.55
+DGLSTM-CRF (LZ = 0)+ELMo 86.87 85.12 85.99
+DGLSTM-CRF (LZ = 1)+ELMo 89.40 89.96 89.68
+DGLSTM-CRF (LZ = 2)+ELMo 89.59 90.17 89.88
+DGLSTM-CRF (LZ = 3)+ELMo 89.43 90.15 89.79
+
+ 
+
+Table 3: Performance comparison on the OntoNotes
+5.0 English dataset.
+
+ness of dependencies for the NER task. Our best
+performing BiLSTM-CRF baseline (with Glove)
+achieves a F; score of 87.78 which is better than
+or on par with previous works (Chiu and Nichols,
+2016; Liet al., 2017; Ghaddar and Langlais, 2018)
+with extra features. This baseline also outperforms
+the CNN-based models (Strubell et al., 2017; Li
+et al., 2017). The BiLSTM-GCN-CRF model out-
+performs the BiLSTM-CRF model but achieves
+inferior performance compared to the proposed
+DGLSTM-CRF model. We believe it is chal-
+lenging to preserve the surrounding context in-
+formation with stacking GCN layers while con-
+textual information is important for NER (Peters
+et al., 2018b). Overall, the 2-layer DGLSTM-
+CRF model significantly (with p < 0.01) out-
+performs the best BiLSTM-CRF baseline and the
+BiLSTM-GCN-CRF model. As we can see from
+the table, increasing the number of layers (e.g., D
+= 3) does not give us further improvements for
+both BiLSTM-CRF and DGLSTM-CRF because
+such third-order information (e.g., the relationship
+among a words parent, its grandparent, and great-
+grandparent) does not play an important role in in-
+dicating the presence of named entities.
+
+Model Prec. Rec. Fy
+Pradhan et al. (2013) 78.20 66.45 71.85
+Lattice LSTM (Z&Y, 2018) 76.34 77.01 76.67
+BiLSTM-CRF (L = 0) 76.67 67.79 71.95
+BiLSTM-CRF (L = 1) 78.45 74.59 76.47
+BiLSTM-CRF (L = 2) 771.94 75.33 76.61
+BiLSTM-CRF (L = 3) 76.17 75.23 75.70
+BiLSTM-GCN-CRF 76.35 75.89 76.12
+DGLSTM-CREF (L = 0) 76.91 70.65 73.65
+DGLSTM-CREF (L = 1) 71.79 75.29 76.52
+DGLSTM-CRF (L = 2) 7140 77.41 77.40
+DGLSTM-CREF (L = 3) 77.01 74.90 75.94
+Contextualized Word Representation
+
+BiLSTM-CRF (LZ =0)+ELMo 75.20 73.39 = 74.28
+BiLSTM-CRF (ZL =1)+ELMo 79.20 79.21 79.20
+BiLSTM-CRF(L = 2) + ELMo 78.49 79.44 78.96
+BiLSTM-CRF (LZ = 3)+ELMo 78.54 79.76 79.14
+BiLSTM-GCN-CRF + ELMo 78.71 79.29 79.00
+DGLSTM-CRF (LZ = 0)+ELMo 76.27 74.61 75.43
+DGLSTM-CRF (L = 1)+ELMo 78.91 80.22 79.56
+DGLSTM-CRF (L = 2)+ELMo 78.86 81.00 79.92
+DGLSTM-CRF (LZ = 3)+ELMo 79.30 79.86 79.58
+
+ 
+
+Table 4: Performance comparison on the OntoNotes
+5.0 Chinese Dataset.
+
+We further compare the performance of all
+models with ELMo (Peters et al., 2018a) repre-
+sentations to investigate whether the effect of de-
+pendency would be diminished by the contextual-
+ized word representations. With L = 0, the ELMo
+representations largely improve the performance
+of BiLSTM-CRF compared to the BiLSTM-CRF
+model with word embeddings only but is still 1
+point below our DGLSTM-CRF model. The 2-
+layer DGLSTM-CRF model outperforms the best
+BilSTM-CRF baseline with 0.9 points in F; (p <
+0.001). Empirically, we found that among the enti-
+ties that are correctly predicted by DGLSTM-CRF
+but wrongly predicted by BiLSTM-CRF, 47% of
+them are with length more than 2. Our finding
+shows the 2-layer DGLSTM-CRF model is able to
+accurately recognize long entities, which can lead
+to a higher precision. In addition, 51.9% of the
+entities that are correctly retrieved by DGLSTM-
+CRF have the dependency relations “pobj’”, “nn”
+and “nsubj”, which have strong correlations with
+certain named entity types (Figure 3). Such a re-
+sult demonstrates the effectiveness of dependency
+relations in improving the recall of NER.
+
+OntoNotes Chinese Table 4 shows the perfor-
+mance comparison on the Chinese datasets. We
+compare our models against the state-of-the-art
+
+3867

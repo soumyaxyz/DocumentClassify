@@ -1,0 +1,101 @@
+174 Bibliography
+
+Learning, pages 616-623. (Cited on Page 14.)
+
+257] Roberts, N. (1 January 1984). The pre-history of the information retrieval thesaurus. Journal
+
+of Documentation, 40, 271-285(15). (Cited on Page 3.)
+
+258] Robertson, S. (2004). Understanding inverse document frequency: On theoretical arguments
+
+for idf. Journal of Documentation, 60(5), 503-520. (Cited on Page 12.)
+
+259] Robertson, S. (2005). On event spaces and probabilistic models in information retrieval. In-
+formation Retrieval, 8(2), 319-329. (Cited on Pages 13 and 19.)
+
+260] Robertson, S. (2008). On the history of evaluation in ir. Journal of Information Science, 34(4),
+
+439-456. (Cited on Pages 40 and 41.)
+
+261] Robertson, S. and Belkin, N. (1978). Ranking in principle. Journal of Documentation, 34(2),
+
+93-100. (Cited on Page 12.)
+
+262] Robertson, S. and Zaragoza, H. (2007). On rank-based effectiveness measures and optimiza-
+
+tion. Information Retrieval, 10(3), 321-339. (Cited on Pages 43, 51, 60, and 95.)
+
+263] Robertson, S. E. (1977). The probability ranking principle in ir. Journal of Documentation,
+
+33(4), 294-304. (Cited on Pages 4 and 12.)
+
+264] Robertson, S. E. and Jones, K. S. (1976). Relevance weighting of search terms. Journal of the
+American Society for Information Science, 27(3), 129-146. (Cited on Page 12.)
+
+265] Robertson, S. E. and Walker, S. (1994). Some simple effective approximations to the 2-poisson
+
+model for probabilistic weighted retrieval. In SIGIR ’94: Proceedings of the 17th annual interna-
+
+tional ACM SIGIR conference on Research and development in information retrieval, pages 232-241.
+
+(Cited on Page 13.)
+
+266] Robertson, S. E., van Rijsbergen, C. J., and Porter, M. F. (1981). Probabilistic models of in-
+
+dexing and searching. In SIGIR ’80: Proceedings of the 3rd annual ACM conference on Research and
+
+development in information retrieval, pages 35-56. (Cited on Page 13.)
+
+267] Rocchio, J. (1971). Relevance feedback in information retrieval. In [274]. (Cited on Pages 18,
+20, 22, and 57.)
+
+268] Rocha, C., Schwabe, D., and Aragao, M. P. (2004). A hybrid approach for searching in the
+
+semantic web. In WWW ’04. (Cited on Pages 20 and 21.)
+
+269] Rorissa, A. (2010). A comparative study of Flickr tags and index terms in a general image
+
+collection. J. Am. Soc. Inf. Sci., 61(11), 2230-2242. (Cited on Page 87.)
+
+270] Rose, D. E. and Levinson, D. (2004). Understanding user goals in web search. In WWW 04:
+Proceedings of the 13th international conference on World Wide Web, pages 13-19, New York, NY,
+
+USA. ACM. (Cited on Pages 144 and 160.)
+
+271] Rosenfeld, R. (2000). Two decades of statistical language modeling: Where do we go from
+
+here. Proc. IEEE, 88(8), 1270-1278. (Cited on Pages 13 and 14.)
+
+272] Ruthven, I. and Lalmas, M. (2003). A survey on the use of relevance feedback for information
+
+access systems. Knowl. Eng. Rev., 18(2), 95-145. (Cited on Pages 22, 30, 60, and 69.)
+
+273] Salton, G. (1971a). Information analysis and dictionary construction. In [274]. (Cited on
+Page 30.)
+
+274] Salton, G., editor (1971b). The SMART Retrieval System: Experiments in Automatic Document
+Processing. Prentice-Hall, Englewood Cliffs, NJ. (Cited on Pages 11 and 174.)
+
+275] Salton, G. (1996). A new horizon for information science. Journal of the American Society for
+Information Science, 47(4). (Cited on Page 2.)
+
+276] Salton, G. and Buckley, C. (1990). Improving retrieval performance by relevance feedback.
+JASIST, 41(4), 288-297. (Cited on Page 22.)
+
+277] Sanderson, M. (2010). Test collection based evaluation of information retrieval systems. Foun-
+
+dations and Trends in Information Retrieval, 4(4), 247-375. (Cited on Pages 40 and 41.)
+
+278] Sanderson, M. and Zobel, J. (2005). Information retrieval system evaluation: effort, sensitivity,
+
+and reliability. In SIGIR 05: Proceedings of the 28th annual international ACM SIGIR conference on
+Research and development in information retrieval, pages 162-169, New York, NY, USA. ACM. (Cited
+on Page 45.)
+
+279] Saracevic, T. (1975). Relevance: A review of and a framework for the thinking on the notion
+in information science. Journal of the American Society for Information Science, 26(6), 321-343.
+
+(Cited on Page 39.)
+
+280] Savoy, J. (2005). Bibliographic database access using free-text and controlled vocabulary: an
+evaluation. Information Processing and Management, 41(4), 873-890. (Cited on Page 34.)

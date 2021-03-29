@@ -1,0 +1,68 @@
+Published as a conference paper at ICLR 2020
+
+ 
+
+* (maximum) independent set: an independent set is a set of nodes in a graph no two of which are
+adjacent. The maximum independent set problem entails finding the independent set of
+maximum cardinality.
+
+* (minimum) vertex cover: a vertex cover of G is a set of nodes such that each edge of G is incident
+to at least one node in the set. The minimum vertex cover problem entails finding the vertex
+cover of minimum cardinality.
+
+* (perfect) coloring: a coloring of G is a labeling of the nodes with distinct colors such that no two
+adjacent nodes are colored using same color. The perfect coloring problem entails finding a
+coloring with the smallest number of colors.
+
+* diameter: the diameter dg of G equals the length of the longest shortest path.
+* girth: the girth of G equals the length of the shortest cycle. It is infinity if no cycles are present.
+
+B_ DEFERRED PROOFS
+
+B.1 PROOF OF THEOREMB. 1]
+
+The claim is proven by expressing the state of node v; in the two models in the same form. It is not
+difficult to see that for each layer of the GNNf,, one has
+
+a? = Ur( > m{2,) (by definition)
+ujEN;F
+= UPe( > MsGy (of, 2, v4, Uys aie) ) (substituted m5)
+vj ENS
+
+= AGGy ({ (20? 2, wi, v5; aici) 1uj € Ni}) , (from 2018] Lemma 5))
+
+where AGG, is an aggregation function, i.e., a map from the set of multisets onto some vector space.
+In the last step, I used a result of Xu et al. (2018) stating that each aggregation function
+can be decomposed as an element-wise function over each element of the multiset, followed by
+summation of all elements, and then a final function.
+
+Similarly, one may write:
+
+3 = ALG; ({ (sor din) ray € Nj} ; vi) (by definition)
+= ALG} ({ (Ats?_, (sf, »,) ; aij) 2u¢€ Nv} ; vi) (substituted so)
+
+= ALG, ({(sf,w, Uj, ai) :vj € N;}) :
+
+with the last step following by restructuring the input and defining ALG, as the Turning machine that
+simulates the action of both ALG? and ALG}_.
+
+Since one may encode any vector into a string and vice versa, w.l.o.g. one may assume that the state
+of each node in LOCAL is encoded as a vector x;. Then, to complete the proof, one still needs to
+demonstrate that the functions
+
+AGG ({(2;,2j, Vi, Vj, Giz) 10; ENJ}) and ALG({(xj, vi, vj, aij) vj € Ni})
+
+are equivalent (in the interest of brevity the layer/round indices have been dropped). If this holds then
+each layer of GNNfjp is equivalent to a round of LOCAL and the claim follows.
+
+I first note that, since its input is a multiset, ALG, is also an aggregation function. To demon-
+strate equivalence, one thus needs to show that, despite not having identical inputs, each of the
+two aggregation functions can be used to replace the other. For the forward direction, it suffices to
+show that for every aggregation function AGG there exists ALG with the same output. Indeed, one
+may always construct ALG = AGG 0 g, where g takes as input {(x;, vi, vj, @icj) 10; ENF},
+identifies x; (by searching for v;, v;) and appends it to each element of the multiset yielding
+{(xj,@j, Vi, Vj, Gigj) 1 Vj € Nj*}. The backward direction can also be proven with an elementary
+construction: given ALG, one sets AGG = ALG oh, where h deletes x; from each element of the
+multiset.
+
+14

@@ -1,0 +1,42 @@
+8. Document Novelty
+
+ 
+
+8.2 Bridging the Gap
+
+Although having the same goal of producing a diverse ranking, coverage and
+novelty-based approaches pursue this goal in rather distinct manners. In partic-
+ular, purely coverage-based approaches ignore the set of already selected docu-
+ments when scoring a given document. In turn, purely novelty-based approaches
+ignore the possible information needs underlying a query when comparing the con-
+tents of the retrieved documents. In practice, the distinct aspect representations
+leveraged by the existing approaches renders coverage and novelty not directly
+comparable. In this section, we describe our methodology to bridge the gap be-
+tween these approaches and enable their direct comparison. Besides evaluating
+novelty in contrast to and in combination with coverage, our goal is to isolate
+these strategies from their underlying aspect representation, so as to provide a
+controlled setting for our investigation. To this end, in Section 8.2.1, we propose
+adaptations of two implicit novelty-based diversification approaches to leverage
+explicit aspect representations. Additionally, in Section 8.2.2, we deconstruct two
+
+explicit hybrid approaches to deploy a coverage-based strategy only.
+
+8.2.1 Explicit Novelty-based Diversification
+
+Existing novelty-based diversification approaches rely on an implicit aspect rep-
+resentation to estimate the diversity of a document with respect to the other
+retrieved documents (e.g., Carbonell & Goldstein, 1998; Zhai et al., 2003; Wang
+& Zhu, 2009). As a result, these approaches compare documents purely on the
+basis of their content, rather than based on how these documents satisfy the pos-
+sible information needs underlying the query. Moreover, the resulting document
+representation (e.g., in the term-frequency space of a given corpus) is usually
+high-dimensional, which negatively impacts both the effectiveness and the effi-
+ciency of these approaches (Witten & Frank, 2005, Section 7.1). To counter these
+limitations and—more importantly for the investigation in this chapter—to en-
+able a direct comparison of existing diversification approaches across both the
+aspect representation and the diversification strategy dimensions, we propose to
+leverage explicit aspect representations for estimating novelty. Besides providing
+
+a more expressive account of the relationship between documents and the aspects
+
+170

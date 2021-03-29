@@ -1,0 +1,58 @@
+115 Some preparatory results
+
+ 
+
+Lemma 4.2.2. For x in Qo, we have
+A(u) <(Q(v) a2) = (A(u) o A(v)) a2
+
+For x in Qo, we have
+
+Q(u) 4 (Q(v) dx) = (Q(u) o Q(v)) sa
+
+Proof : We will denote by Ag, the coproduct on C (I), hence, we have
+
+(75 ® T5)A= Ams
+
+(4.2.2)
+
+Moreover, we note that as T” is a commutative group, fog = go f for any two
+
+functionals f and g on C(T").
+
+which by ( 4.2.2 ) equals
+
+(€Up(v) ® €Up(u) At 75 (1) ® Xa)
+( 6(@1)) ® Z~)
+reap 5 eeaag) 75 (X1)) ® Xa)
+
+= (Q(u) ® Q(v) A(x) ) @ x2 2)
+(
+
+(
+(
+
+€Un(v) © EUn(u))
+
+(x
+(
+)
+Au) © Aw) (a, Mn
+(Q(u) o Aw)) @id
+Q(u) o A(v)) a2.
+
+The second part follows from this and using ( 4.2.1 ).
+
+(Q(u) @ id)A(Q(v) 2)
+
+(Q(u) @ id)A(Q(v)(aqy).@))
+
+(Q(u) @ id) A(a(g))2(v) (ay)
+
+(Q(v) ® Qu) ® id)(xqy ® xe) ® 7/9
+(Q(v) @ A(u) @ id) (id @ A)A(a))
+
+(Q(v) @ Q(u) @ id)((A @ id)A(a))
+
+(Q(v) @ A(u))A(way) ® we
+
+(€Un(r) ® CUn(u) (7G _@ TG)A(Ta)) @ QQ),

@@ -1,0 +1,50 @@
+Chapter 1: Preliminaries 20
+
+ 
+
+It can be easily seen that a kernel of a CQG morphism is a Woronowicz C*-ideal.
+
+We recall the following isomorphism theorem.
+
+Proposition 1.2.17. The quotient of a CQG (S,A) by a Woronowicz C*-ideal T has
+a unique CQG structure such that the quotient map m is a morphism of CQG s. More
+precisely, the coproduct A on S/T is given by A(s +Z) = (x @ m)A(s).
+
+Definition 1.2.18. A CQG (8’,A’) is called a quantum subgroup of another CQG
+(S,A) if there is a Woronowicz C*-ideal J of S such that (S’, A’) & (S,A)/J.
+
+Let us mention a convention which we are going to follow. We shall use most of the
+terminologies of [59], for example Woronowicz C* -subalgebra, Woronowicz C*-ideal etc,
+however with the exception that we shall call the Woronowicz C* algebras just compact
+quantum groups, and not use the term compact quantum groups for the dual objects
+as done in [59].
+
+Let (S, A) be a compact quantum group. Then there exists a state h on S, to be
+called a Haar state on S such that (h ® id)A(s) = (id @ h)A(s) = h(s).1. We recall
+that unlike the group case, h may not be faithful. But on the dense Hopf +-algebra So
+
+mentioned above, it is faithful. We have the following result.
+
+Proposition 1.2.19. Let i: S; — Sp» be an injective morphism of CQG s. Then the
+Haar state on S, is the restriction of that of Sz on Sj.
+
+Remark 1.2.20. In general, the Haar state might not be tracial. In fact, there exists a
+multiplicative linear functional denoted by f, in [66] such that h(ab) = h(b(f1 <a> fi)).
+Moreover, from Theorem 1.5 of [67], it follows that the Haar state of a CQG is tracial
+if and only if K? = id.
+
+Co-Representations of a compact quantum group
+
+Definition 1.2.21. A co-representation of a compact quantum group (S, A) on a Hilbert
+space H is a map U from H to the Hilbert S module H ®@S such that the element U
+belonging to M(K(H) ® S) given by U(E ® b) = U(E)(1@b) (€ in H,b in S) satisfies
+
+(id@ A)U = TarT as),
+
+where for an operator X in B(H1@H2) we have denoted by X42) and X (13) the operators
+X @ Ip, in BCH; ® He ® H2), and %93X (12) 23 respectively and Xo3 is the unitary on
+Hi ® He ® He which flips the two copies of Ha.
+
+If U is an unitary element of M(K(H) @ 8), then U is called a unitary co-
+
+representation.

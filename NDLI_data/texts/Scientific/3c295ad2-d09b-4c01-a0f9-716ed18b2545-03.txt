@@ -1,0 +1,181 @@
+also accommodate other sources of information. The problem
+we address consists of automatically segmenting the query
+and simultaneously selecting the right entity for each segment.
+Our Fast Entity Linker (FEL) tackles this problem by com-
+puting a probabilistic score for each segment-entity pair and
+then optimizing the score of the whole query. Note that we do
+not employ any supervision and let the model and data oper-
+ate in a parameterless fashion; it is however possible to add
+an additional layer that makes use of human-labeled training
+data in order to enhance the performance of the model. We
+leave investigating such an additional step for future work.
+In the remainder of this section we detail our specific model,
+as well as how we incorporate context through a novel con-
+textual relevance model and the efficiency optimizations we
+apply, including advanced compression techniques.
+
+3.1 Fast Entity Linker
+
+We begin by introducing our model, which we describe
+using the following random variables, assuming as an event
+space S' x E where S is the set of all sequences and E the
+set of all entities known to the system:
+
+is a sequence of terms t € s
+
+s represents a segmentation (sequence of sequences
+of terms) where s € s is drawn from the set S
+e represents a set of entities e € e, where each e is
+
+drawn from the set E
+
+Qs indicates if s is an alias
+
+As,e indicates if s is an alias pointing (linking/clicked)
+toe
+
+c indicates which collection acts as a source of
+information query log or Wikipedia (cg or cw)
+
+n(s,c) is the count of s inc
+
+n(e,c) is the count of e inc
+
+Let g be the input query, which we represent with the set
+S, of all possible segmentations of its tokens t; ---t,. The
+algorithm will return the set of entities e, along with their
+scores, that maximizes
+
+argmax log P(e|q) =
+eck
+
+ 
+
+argmax ss log P(e|s) . (1)
+
+e€E8ESq oConcs
+
+In Eq. [I]we assume independence of the entities given a query
+segment. Each individual entity/segment probability is then
+estimated as:
+
+P(els)
+
+So P(cls)P(ele, 8)
+
+c€{cq.cw}
+
+> P(els) S Plas
+
+c€{cq.cw } as={0,1}
+
+So Peels)
+
+c€ {eq sew}
+
+ 
+
+¢,8)P(elas,¢, 8)
+
+[Pte = 0|c, s)P(elas = 0,c, s)
+
++ P(as = lle, s)P(elas = tes) (2)
+The maximum likelihood probabilities are the following (note
+that in this case P(e|as = 0,c,s) = 0 and therefore the right
+hand side of the summation cancels out):
+
+n(s,c)
+
+P(els) = yey n(s,c)
+
+(3)
+
+RIGHTS LIN K4>
+
+181
+
+ 
+
+Those maximum likelihood probabilities can be smoothed ap-
+propriately using an entity prior. Using add-one and Dirichlet
+priors smoothing the probabilities results in:
+
+n(e,c) +1
+
+ 
+
+ 
+
+C= ETT Seemed a
+siay,e=1 US, 6) + He * P(ele)
+P(elas,c,s) = u ity : a 4 (7)
+In this case P(e|c) = P(elas = 0,c,s), and P(a, = Ole, s) =
+
+ 
+
+ 
+
+1—P(as = 1|c, s). Similarly, we smooth P(c|s) using Laplace
+smoothing (add-one smoothing).
+
+Note that some terms might not be covered by any seg-
+ment s and therefore not link to any entity. To handle these
+segments, we define a special entity not_linked and set
+P(not_linked|s) = £ where @ is a global hyperparameter
+that can tuned to set the propensity of the algorithm to link
+segments.
+
+An alternative to E ‘would be to select the segmentation
+that optimizes the score of the top ranked entity:
+
+8).
+
+ 
+
+argmax max P(e
+
+e€ E,s€Sq C€e5ES
+Both Eq. and Eq. Bl are instances of the same general
+segmentation problem, defined as follows. Given a sequence
+of terms t = t;---t,x, denote any segment of the sequence
+with
+
+ 
+
+(8)
+
+ 
+
+[titiga ...tiyj-1], Vi, 7 > 0. (9)
+
+Let 7(s) be any scoring function that maps segments to
+real numbers, then the maximum score of a segmentation is
+defined as follows:
+
+m(ti,to,...,tk)
+
+max (+ (an(ts),m( to, ste)) +4 (o({Eata]), (ta. -te))
+
+sees (lbs esth-al) mt) alata), (10)
+
+where m(ti) = ([t1]) and ¢(a, 6) is an associative aggregation
+function, such as ¢(a,b) = a +b in the case of Eq. }1] and
+(a,b) = max(a, b) in the case of Eq. Bl Since the scoring
+function s(-) only depends on the given segment and not on
+the others, the segmentation with maximum score can be
+computed in O(k?) time using dynamic programming.
+
+We instantiate the problem above would be the following
+scoring function
+
+ 
+
+(s) = HIGHESTSCORE(s, g) = max log P(e|s,q), (11)
+e
+that, given a segment s of the query and a context q (the
+query itself), returns the highest score among the entities
+associated with the alias s; when the segment does not match
+any alias, and hence it has no associated entities, it returns
+a value that is an identity for the aggregation function ¢(-, -);
+it also returns an identity if the segment is empty. In the
+basic FEL model the context is ignored, so P(e|s,q) is just

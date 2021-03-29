@@ -1,0 +1,46 @@
+4. The xQuAD Framework
+
+ 
+
+   
+  
+ 
+
+importance
+
+relevance coverage
+
+©
+
+(a) p(d|q) (b) S> p(slq) p(dla.s) [] pldila.s)
+
+seSq dj;€Dq
+
+Figure 4.3: xQuAD’s graphical models of (a) relevance and (b) diversity, which are
+mixed for the selection of a document d € Rq\Dzy at the i-th iteration of Algorithm 3.1.
+
+4.2.2 Framework Components
+
+Several dimensions of the diversification problem are naturally modelled as in-
+dividual probabilities in Equation (4.7). In practice, these probabilities are esti-
+
+mated by different components of the xQuAD framework, namely:
+
+1. document relevance, p(d|q);
+2. document diversity, p(d,D,|q), Vs € Sy:
+
+(a) sub-query importance, p(s|q);
+(b) document coverage, p(d|q, );
+
+(c) document novelty, [] ajep,  ~ p(d;|q, 8).
+
+Further components of the framework include the actual mechanism that gen-
+erates the set of sub-queries S;, as well as the mechanism that computes the
+diversification trade-off \ for a given query g. Each of these components can be
+instantiated in a variety of ways, essentially generating different diversification
+models within the xQuAD framework. As we will show in Chapters 5 through 9,
+not only do these components add to the flexibility of xQuAD, but they also
+
+provide multiple opportunities to devise effective diversification models.
+
+92

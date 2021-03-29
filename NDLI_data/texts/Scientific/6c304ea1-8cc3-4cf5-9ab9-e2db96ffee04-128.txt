@@ -1,0 +1,57 @@
+a directed vector-labelled graph G = (V,E, F,A), and a node u € V, we define the output vector
+assigned to node u in G by 8 (written R(G, u)) as follows. First let n? = A(u). For all i > 1, let:
+
+n{) = Aco (nl, {(n8-”, A(v,w)) | (&,u) € EF)
+
+If j = 1 is an integer such that n? = nJ-) for all u € V, then R(G, u) := Ovur(n”),
+
+In a RecGNN, the same aggregation function (Acc) is applied recursively until a fixpoint is
+reached, at which point an output function (OuT) creates the final output vector for each node.
+While in practice RecGNNs will often consider a static feature vector and a dynamic state vec-
+tor [437], we can more concisely encode this as one vector, where part may remain static throughout
+the aggregation process representing input features, and part may be dynamically computed repre-
+senting the state. In practice, AGG and Our are often based on parametric combinations of vectors,
+with the parameters learnt based on a sample of output vectors for labelled nodes.
+
+Example B.58. The aggregation function for the GNN of Scarselli et al. [437] is given as:
+Acc(nu,N)= +) fr(u, Mo, dow)
+
+(ny, avu)EN
+
+where fy(-) is a contraction function with parameters w. The output function is defined as:
+Our (nu) = gw(Ou)
+
+where again gy-(:) is a function with parameters w’. Given a set of nodes labelled with their
+expected output vectors, the parameters w and w’ are learnt.
+
+There are notable similarities between graph parallel frameworks (GPFs; see Definition B.46)
+and RecGNNs. While we defined GPFs using separate Msc and Acc functions, this is not essential:
+conceptually they could be defined in a similar way to RecGNN, with a single Acc function that
+“pulls” information from its neighbours (we maintain Msc to more closely reflect how GPFs are
+defined/implemented in practice). The key difference between GPFs and GNNs is that in the former,
+the functions are defined by the user, while in the latter, the functions are generally learnt from
+labelled examples. Another difference arises from the termination condition present in GPFs, though
+often the GPF’s termination condition will — like in RecGNNs - reflect convergence to a fixpoint.
+
+Next we abstractly define a non-recursive graph neural network.
+
+Definition B.59 (Non-recursive graph neural network). A non-recursive graph neural network
+(NRecGNN) with / layers is an /-tuple of functions 2 := (Aco™,..., Aco”), such that, for 1 < k <1
+(with ao,...a),b € N), Aco) ; R01 x QR PRION _, Rar,
+
+Each function Acc“) (as before) computes a new feature vector for a node, given its previous
+feature vector and the feature vectors of the nodes and edges forming its neighbourhood. We
+assume that ap and b correspond to the dimensions of the input node and edge vectors, respectively,
+where each function Acc) for 2 < k < | accepts as input node vectors of the same dimension
+as the output of the function Acco‘*-), Given an NRecGNN %t = (Aco, Lee , Acc”), a directed
+vector-labelled graph G = (V, E, F,A), and a node u € V, we define the output vector assigned to
+node u in G by N (written I(G, u)) as follows. First let n? = A(u). For all i > 1, let:
+
+nt) := Aco! (af, {a Aww) | (eu) € E})
+ry 4, L
+Then 2(G, uv) = nl,
+
+In an I-layer NRecGNN, a different aggregation function can be applied at each step (i-e., in each
+layer), up to a fixed number of steps /. We do not consider a separate Our function as it can be
+
+128

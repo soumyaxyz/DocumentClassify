@@ -1,0 +1,23 @@
+Erodent sand collector
+
+, \
+Figure 1 Schematic diagram of an erosion test rig
+
+RESULT AND DISCUSSION
+
+ 
+
+state erosion (Effect of impingement angle of erosion rate)
+
+e variations of steady-state erosion rates of bamboo-epoxy and glass-epoxy composites
+2d with red mud particulates with the angle of impingement are presented in Fig. 2. The
+sion behavior of materials is broadly classified in the literature as ductile and brittle
+pending on the variation of erosion rate with impact angle. Ductile behavior is
+aracterized by maximum erosion at low impact angles in the range o f 10-30°. On the othe
+nd, if maximum erosion occurs at a = 90°, then the behavior is brittle. However, reinforcec
+mposites have been found to exhibit semi-ductile behavior with maximum erosion rate ai
+ermediate angles typically in the range of 45-60° [1]. In the present study, the variation o
+sion wear rate of the composites with impingement angle is studied by conductinc
+periments under specified operating conditions. The result shows the peak erosion takin¢
+ice at an impingement angle of 60° for the unfilled as well as the red mud (RM) anc
+mina filled bamboo-epoxy composites, whereas composite samples filled with copper slag

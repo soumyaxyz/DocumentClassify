@@ -1,0 +1,299 @@
+Role of pentagon spin frustration in magnetoelectric Bi,Fe, CoO, (0 <x < 0.8)
+S. R. Mohapatra, B. Sahu and A. K. Singh
+
+Multifunctional Materials Science Lab, Department of Physics & Astronomy,
+National Institute of Technology Rourkela, Odisha-769008, India.
+
+ 
+
+ROURKELA ROURKELA
+
+ 
+
+Abstract: Geometrically frustrated systems have attracted considerable interest because the spin frustration leads to exceptionally rich physical properties ranging over spin-liquid, quantum phase
+transition, anomalous large thermoelectric response and magnetoelectric (ME) properties. Recently, the spin-driven ferroelectricity due to triangular spin frustration has been observed in various
+antiferromagnetic compounds Ni,V,0,, hexagonal RMnO,, CuCrO,, and AgCrO,. But the role of pentagon spin frustration on the spin driven ferroelectricity is poorly understood. Bi,Fe,O, belongs to rare class
+of compounds where ferroelectricity is being observed due to spin frustration in pentagon symmetry. But the microscopic picture of pentagon spin frustration is still under debate. Here, we report the
+preparation of magnetoelectric Bi,Fe,O, and Co doped Bi,Fe,O, by solid state route using bismuth oxide (Bi,O,), iron oxide (Fe,O,) and cobalt oxide (Co,0,). Our X-ray diffraction (XRD) results confirm that
+there is no change in crystal structure due to Co doping. Scanning Electron Microscopy image shows grain size increases due to doping which is in agreement with XRD analysis. From dielectric constant
+
+measurement we _ conclude __that_ dielectric constant increases due to Co doping. UV-Visible plot shows due to Co doping band gap _ energy decreases.
+
+L] Introduction: LResults and Discussions:
+
+Multiferroics possess two or more ordered states such as magnetism \ ; ; ° oe ° °
+- , \ = X- : = Field Emission Scanning Electron Microscopy:
+and ferroelectricity that coexist and are coupled to each other. \ X-ray diffraction: 3 so 3 =
+
+¢ Coupling between these order parameters is called the magneto- “Magnetoelectric BIZFe4A09) ees
+Effect Yobs-Yeale
+' i | bragg_position
+
+ 
+
+ 
+
+ 
+
+   
+    
+
+ 
+
+   
+
+ 
+
+ 
+
+electric (ME) effect which allows control of magnetization by electric
+field and vice versa in the makenals: This can be represented as : Rp= 14%
+= ik Rwp= 13.7%
+P.=a,H,+—-H,H, +...
+2
+[gM = aE, + EE, +
+= e 2 . e e e = e
+Where P= it" component of electrictric polarization, M,= i”
+component of magnetization, E,E, = jt? & kt component of
+electric field, H,H, = j'" & k**component of magnetic field and a, B
+are the linear and nonlinear magnetoelectric susceptibilities. .
+* Bi,Fe,0, belongs to rare class of compounds where due to unique kind of pentagon frustration of magnetic Fig 4: Reitveld refi Fe,0,
+lattice of Fe atoms give rise to magnetoelectric coupling. = Dielectric measurement:
+
+ 
+
+ 
+
+ 
+
+72 = 1.96
+
+ 
+
+Intensity (A.U.)
+
+ll ME EEE EEC DED URE UE DUET
+
+ 
+
+  
+
+ 
+
+ 
+
+~; - BioFe4O —e— 123Hz ] —A— 123Hz
+LCrystal & Magnetic Structure Of Bi,Fe,0,: “eee Sarena “ee
+V Bi,Fe,O, crystallizes in orthorhombic structure with space group ‘Pbam’. 3000 mee E
+VY The lattice constants of this structure are: a = 7.973A, b = 8.441A, c = 6.002A. u S a
+Vv The antiferromagnetic transition of Bi,Fe,O, was reported to be ~260 K. 1800 S
+Y In fig 3, there are four octahedral Fe ions on the sides of the cell (light green colour) and the 84
+
+remaining four tetrahedral Fe ions are in the interior (dark green colour). reese
+
+v By the super-exchange route tetrahedral Fe spins interact anti-ferromagnetically among
+themselves and with the octahedral Fe spins while there is a ferromagnetic coupling within a
+pair of octahedral spins. This competing exchange interactions generate spin frustration.
+
+ 
+
+0 50 100 150 200 250 300
+Temperature (K)
+
+    
+   
+   
+
+Temperature (C)
+
+At 100.023 kHz
+—4—BifFe,O.
+—4— 2% Co
+—4— 5% Co
+
+100 At 100.023 kHz
+
+  
+
+—*, BifFeQ,
+—*—2% Co
+—*— 5% Co
+
+ 
+
+a 80
+
+  
+   
+
+ 
+
+60 Fig 6(a) and 6(b) shows the variation of
+dielectric constant and tangent loss w.r.t
+temperature respectively for different
+frequencies of Bi,Fe,O,
+
+Fig 6(c) shows at 1023Hz, dielectric
+90 120 150 180 210 240 270 90 120 150 180 210 240 # 270 constant(e) increases due to Co doping.
+
+een Temperature (C) Fig 6(d) is also in agreement with fig 6(c).
+
+tans
+
+40
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+= UV Visible Spectroscopy:
+
+—9—2% Co
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+
+     
+
+    
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+g g g
+& = = 60
+© © ©
+2 £ s
+° ° © 40
+“ “ ”
+2 = i 2
+<< <= 7 g= (1.49+1.71)/2 = 1.6€V <{
+20
+3 4 3 4
+Energy (eV) Energy (eV)
+0
+400 500 600 700 200 300 400 500 600 700 200 300 400 500 600 700
+Wavelength(nm) F Wavelength (nm) | Wavelength (nm)
+_} Sample Preparation: | Characterisation: = DSC- TG Study:
+Solid state voute (Tubular Fu rnace) © The samples were characterized by X-ray diffraction (Rigaku- JAPAN). _—
+o The dielectric constant (¢) and tand were measured from room temp to high | | $ ,
+Bi,O, + 2(1-x) Fe,O, + 4x/3 Co,0, ——> Bi,Fe,,Co,O, (0 <x <0.8) temperature (500°C) by varying frequencies using High precission impedance | | § { =
+analyzer (6500B Wayne Kerr). = ,
+© The FESEM and EDAX data were obtained using Nova Nano SEM/FEI. gs
+
+<x
+
+o Magnetization study was carried out at Dhruva reactor, BARC, Mumbai.
+
+o UV-visible spectroscopy was done using Perkin Elmer UV/VIS spectrometer
+(Lambda 35).
+
+o DSC & TG data were obtained using model NETZSCH, STA409C, Germany.
+
+L] X-Ray Diffraction Study:
+
+ 
+
+Grinding (2 hr) and palletisation
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Sintering (800 °C, 12 hrs)
+
+ 
+
+  
+
+= LIConclusion:
+Breaking, regrinding (1 hr & palletisation) = = XRD analysis shows that there is no much significant change in crystal structure due to Co doping.
+e = FeSEM image shows grain size increases due to Co doping which is in agreement with XRD analysis. EDAX spectrum also
+2 confirmed showing Bi,Fe, ,Co,O, (0 <x < 0.4)peaks corresponding to Bi, Fe and Co.
+Sintering (850 °C, 10 hrs) = = From dielectric constant measurement we conclude that it shows substantial enhancement in dielectric constant due to
+Co doping.
+= The magnetization versus temperature was measured using SQUID magnetometer in a constant magnetic field of 5000 Oe
+10 20 30 40 50 60 To under Zero field cooled (ZFC) condition. The DC susceptibility shows a plateau below 280K followed by AFM transition at
+Bi,Fe,.Co,Og 247K (Ty).
+20 (degrees) = UV-Visible Spectroscopy plot shows that the band gap energy decreases duo to Co doping. The band gap energy E, for
+
+ 
+
+Using Scherer formula crystallite size for Bi,Fe,O, and its various doping Bi,Fe,0O, was found to be 1.63 eV whereas for 2%, 5% and 10% Co doped Bi,Fe,O,, band gap energy (Eg) calculated were
+
+constituents (2% Co, 5% Co, 10% Co) are found to be 51.26 nm, 51.39nm, 1.6 eV, 1.55eV and 1.51eV respectively.
+
+Characterization 51.51nm and 51.69nm respectively. OC) Re erences:
+LJ Acknowledaement 1. D. Khomskii et al., Phys. 77, 50937 (2009).
+AcKknowreagement.
+
+>
+2. T. Kimura et al., Nature 426, 55 (2003). 6.
+
+We acknowledge Board of Research in Nuclear Science (BRNS), Mumbai and Department of Science and Technology (DST), New Delhi 3. N. Hur et al., Nature 429, 392 (2004). 7
+8.
+
+4. Nicola A. Hill, J. Phys. Chem. B 104, 6694 (2000).
+Corresponding Author: kumaranil83@gmail.com
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+A. K. Singh et al., Appl. Phys. Lett. 92, 132910 (2008).
+
+E. Ressouche et al., Phys. Rev. Lett. 103, 267204 (2009).
+J. Zhao et al.Mater. Chem.&Phys. 128, 338 (2011).
+
+H.
+
+for funding. Mr. S. R. Mohapatra acknowledges the financial support from BRNS, Mumbai. Mr. B. Sahu acknowledges CSIR-UGC for the
+
+Katsura et. al., Phys. Rev. Lett. 95,057205 (2005).
+fellowship. Lastly, we are thankful to the National Institute of Technology, Rourkela for providing other experimental facilities. Y (

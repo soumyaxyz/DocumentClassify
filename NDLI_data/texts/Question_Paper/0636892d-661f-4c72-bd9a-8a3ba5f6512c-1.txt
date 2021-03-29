@@ -1,0 +1,29 @@
+S.No. 5956 SBE 9:1
+
+(For candidates admitted from 2008-09 onwards)
+U.G. DEGREE EXAMINATION, APRIL 2013.
+
+Computer Hardware and Networking — Skill Based
+Elective
+
+BASICS OF HARDWARE AND
+C PROGRAMMING
+
+Time : Three hours Maximum : 75 marks
+PART A — (10 x 2 = 20)
+Answer ALL questions.
+
+a Convert. (5A)i6 to decimal.
+
+2. What are the advantages of grey code?
+
+3. Differentiate RAM and ROM.
+
+4. What is an associative memory?
+
+5. | What is an instruction format?
+
+6. | What do you understand by ‘Peripheral’?
+7. _ What is meant by non-graphic character?
+
+8.

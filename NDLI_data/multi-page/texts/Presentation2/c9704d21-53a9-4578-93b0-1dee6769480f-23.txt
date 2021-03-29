@@ -1,0 +1,22 @@
+Types of BI Users
+
+Type of user Casual users/ Power users/Information
+Information consumers producers
+Example of | Executives, managers, SAS, SPSS developers,
+
+such users customers, suppliers, administrators, business
+field/operation workers, analysts, analytical
+
+etc. modelers, IT professionals,
+
+etc.
+Usage Information consumers Information producers
+
+Data Access Tailor made to suit the Ad hoc/exploratory
+needs of their respective
+role
+reports/dashboards Authoring tools
+Sources Data warehouse/Data Data Warehouse/Data
+
+Marts Marts (both internal and
+external)

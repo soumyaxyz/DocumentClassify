@@ -1,0 +1,27 @@
+S.No. 5951 SBE 8:2
+
+(For candidates admitted from 2008-2009 onwards)
+U.G. DEGREE EXAMINATION, APRIL 2013.
+Part III — SBE — Computer Applications
+
+OPERATING SYSTEMS
+
+Time : Three hours Maximum : 75 marks
+PART A — (10 x 2 = 20)
+Answer ALL questions.
+
++: List out any four operating system.
+
+2. What is Multi-user operating system?
+
+3. What is FAT32?
+
+A, How will you create a File?
+
+5. What are the three main system files of DOS?
+
+6. Write any two features of DOS.
+
+-7. Define TYPE command.
+
+8. | What is the purpose of RD command?

@@ -1,0 +1,68 @@
+Chapter 2: Quantum isometry groups: approach based on Laplacian 66
+
+ 
+
+Ain Bjr =0 = Bir Aix, (2.2.39)
+Ani Brj = 0 = Brj Ani (2.2.40)
+for alli #9 and for all k.
+
+Proof : By Lemma 2.2.6, we have Aj,Bjy = 0 and Bj, As, = 0 for all i A j. The
+second relation along with the fact that Aj, is a normal partial isometry implies that
+By Aix = 0 for all i A j.
+
+Thus, Aj, Bj, = 0 = BjpAjx for all i F j.
+
+Applying « on the above equation and using B,; and Aj; are normal partial isome-
+tries, we have Ajj Bj = 0 = Bry Axi-
+
+ 
+
+ 
+
+ 
+
+ 
+
+Lemma 2.2.13. : AjrBir = Bip Aix for all i, k.
+
+Proof : We have Aj, Bi; =0= Bi Ai; from Lemma 2.2.5. Using the fact that
+By; and Aj; are normal partial isometry we have Aj, Bi; =0= Bi Ai; and hence
+Ai Bij = Bi Aaj.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Lemma 2.2.14. :
+Aj Aji = Aji Aix for alli Z d; k x ts
+
+Proof : Using ( 2.2.29 ) in Lemma 2.2.10, we proceed as in Lemma 2.2.11 to get
+Ran(Aj,Aji— Aj Aix) Cc Ran(AjAj,+ Aix Ajj.) and Ran(Aj,Ay—AuAjx) Cc Ran(Ay A+
+
+We claim that (Ap AR, af Aji Aji) (Agr Ajp + Ay A%) =0.
+
+Then by the same reasonings as given in Lemma 2.2.11 we will have : Aj, Ay =
+AyAjr-
+
+To prove the claim, we use Aj,Aj, = 0 for alli 4 j from Lemma 2.2.6 ( which implies
+Aj, Aik = 0 for all i 4 j as Ajx is a normal partial isometry ), AZAR, = 0 for all k Al
+from Lemma 2.2.7 ( which implies A7Aj, = 0 for all k #1 as Ajx is a normal partial
+isometry ) and Ay Aj, = 0 for all i ¢ j from Lemma 2.2.6 ( which implies Aj Ait = 0 for
+
+all i 4 j as A¥ is a normal partial isometry ).
+
+ 
+
+ 
+
+ 
+
+ 
+
+Lemma 2.2.15. :
+
+Ajp Ai = Aj Aix for all k x & (2.2.41)

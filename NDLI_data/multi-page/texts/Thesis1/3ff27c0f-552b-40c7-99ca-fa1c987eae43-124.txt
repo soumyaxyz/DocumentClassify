@@ -1,0 +1,59 @@
+Chapter 4: Quantum isometry groups for Rieffel deformed manifolds 112
+
+ 
+
+a, [D,a] belong to Dom(=) (where & is the generator of T/), and &({D,a]) = [D, &(a)|
+belongs to B(H).
+Using this, we obtain
+
+\|Z{((D, a}) — (D,a]|| = [t “(E([D,a]))ds < t||=((D, 4).
+
+The required strong continuity follows from this. Then applying Proposition 1.3.5 to
+
+ 
+
+ 
+
+ 
+
+the C* algebra A, and the action 3, we deduce that 7 7(X) is a bounded operator.
+
+ 
+
+Lemma 4.1.4. For each J, (AS, 73,H, D) is a spectral triple, that is, [D, 7 (a)] belongs
+to B(H) for all a in AS.
+
+Proof: [D,73(a)|(s)=Df f Bsu(a )Bv (s)e(u.v)dudv — ff Byu(a) )B,(Ds)e(u.v)dudv.
+Using ( 1.3.1 ) and closability of D, we have
+Df f Biu(a)By(s)e(u.v)dudv =f f D(Bsu(a)By(s))e(u.v)dudo.
+
+As D commutes with V, the above expression equals
+
+J [ PGnlaiis)eturyduao— ff By.(a)DB,(s)e(u.e)dude.
+
+So we have
+[D,m7(a)](s) = J [P-brka)iBe(s)e(ue)dude
+
+= ff vale. alV5, -13,(s) (s)e(u.v)dudv
+= ,({D,a)),
+
+ 
+
+ 
+
+ 
+
+which is a bounded operator by Lemma 4.1.3.
+
+ 
+
+4.2 Some preparatory results
+
+In this section, we prove some preparatory results which will be needed in the next two
+sections. Let T”, T", B, By be as in the previous subsection. By abuse of notation,
+we will use the symbols 3 and B for the corresponding comodule maps also. Let y*, y«
+be the canonical maps induced by y from C(T") > C(T") and Lie(T”) — Lie(T”)
+respectively. Moreover, from now on, we will identify AS with 7 ;(A™) and often write
+mo(a) simply as a.
+
+Assumption

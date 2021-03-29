@@ -1,0 +1,58 @@
+A Critical Survey of Mathematical Search Engines 205
+
+We have not discussed different ranking schemes thereby, their precision and
+recall value of the whole system in this study. Also we have not included the
+search engines like Tangent [30] discussed in NII Testbeds and Community for
+Information access Research Project (NTCIR-11: Math-2 Wikipedia subtask)
+in this study Exploring meta-data of mathematical expressions can also play a
+good direction for further research efforts. For e.g., MIaS although tried to cover
+all challenges faced by previous systems, but weighting scheme for mathematical
+expressions used in MIaS sometimes give more recall value (irrelevant results)
+when the expression to be indexed become large, containing more symbols.
+
+6 Conclusion
+
+A lot of work was devoted towards developing MIR systems in the last decade
+but only a handful of systems are available. This area of research is still evolving
+and is gradually gaining attention from the researchers and organizations like
+NTCIR etc. Various mathematical search engines are discussed here in this study
+along with their design and working principle. Semantically same formulae can
+be represented in various formats in various mathematical notations and pooling
+them into one unified platform is a huge task.
+
+Again most of the search engines are designed for specific mathematical anno-
+tation and their internal representation of documents based on their specific task.
+Also, not all of the search engines discussed in this survey have the ability to
+provide partial results.
+
+For indexing, most of the search engines take mathematical expressions as a
+string token and uses Lucene or related framework based on the requirements
+except for EgoMath2 which uses its own indexing tools.
+
+MIR systems still need enormous improvements to be a mature information
+retrieval system; which can handle all the challenges of annotations and ambi-
+guities associated with mathematical or scientific data.
+
+ 
+
+References
+
+1. Sojka, P.: Exploiting semantic annotations in math information retrieval. In: Pro-
+ceedings of the Fifth Workshop on Exploiting Semantic Annotations in Information
+Retrieval. ESAIR 2012, pp. 15-16. ACM, New York (2012)
+
+2. Pathak, A., Pakray, P., Sarkar, S., Das, D., Gelbukh, A.: MathIRs: retrieval system
+for scientific documents. Computacién y Sistemas 21(2), 253-265 (2017). http://
+www.redalyc.org/articulo.oa?id=61551628007
+
+3. Kohlhase, M., Sucan, I.: A search engine for mathematical formulae. In: Calmet,
+J., Ida, T., Wang, D. (eds.) AISC 2006. LNCS (LNAI), vol. 4120, pp. 241-253.
+Springer, Heidelberg (2006). https://doi.org/10.1007/11856290_21
+
+4. W3C: Mathematical Markup Language. https://www.w3.org/TR/WD-math-
+980106/. Accessed 12 Feb 2018
+
+5. Latex A Document Preparation System. https://www.latex-project.org. Accessed
+12 Feb 2018
+
+6. Openmath. http://www.openmath.org/. Accessed 12 Feb 2018

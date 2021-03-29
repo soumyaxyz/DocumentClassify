@@ -1,0 +1,146 @@
+Table 4. Ontology features for class axioms and definitions
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Feature Axiom Condition (for all x., ys, Z«)
+
+SUBCLASS ©-subc. of->(@) — @-type->@ implies @=type->-@)
+
+Eguivatence (@-equiv.c+@ — @=type->© if ®=type+@ (Human)- equiv. c.-»(Person)
+
+Disyoint ©-disj. c—+@) not @<type-@-type+@ City) —disj. c.—>|
+
+COMPLEMENT @-comp.+@) @=type+© iff not @-type+@ comp.
+@=type: or
+
+UNION @-type+© iff @ type--€) or
+
+INTERSECTION
+
+ 
+
+@=type:
+
+ 
+
+type
+@-type>@ itt C€tvee-O
+ype
+sS
+
+ 
+
+ 
+
+SelfDrivingTaxi)- inter.
+
+ 
+
+ 
+
+ENUMERATION
+
+@-type+@ itt © « {
+
+ 
+
+(EUState)—one of >|
+
+ 
+
+ 
+
+Some VALUES
+
+there exists (@) such that
+t ff
+iii @=r>@-type+@
+
+with @=p—+@
+
+for all
+
+ 
+
+(EUCitizen)— prop—+ Catena)
+a
+
+__prop—> Gasp)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+t We (Weightless)
+Au VALUES OI OP as that @-type->@) nes st aa
+nationality)
+rasvane OLE vee Oin-r-+® came rSe
+>
+prop?) : prop"
+Has SELF es @=-type+© iff ©=p >© GelfDrivingy— self.
+
+CARDINALITY
+x € {=, <, >}
+
+QUALIFIED
+CARDINALITY
+x € {=, <, >}
+
+@=-type+©@ iff
+#+@|@=-P+@} xn
+
+@-type+© itt
+
+#(@ | @=p>@=type+@} *n
+
+  
+
+Gor aa
+i
+
+@
+
+ 
+
+rep
+
+(BinaryStarSystem} —
+
+ 
+
+4.1.5 Other features. OWL supports other language features not previously discussed, including:
+annotation properties, which provide metadata about ontologies, such as versioning info; datatype
+vs. object properties, which distinguish properties that take datatype values from those that do not;
+and datatype facets, which allow for defining new datatypes by applying restrictions to existing
+datatypes, such as to define that places in Chile must have a float between -66.0 and -110.0 as their
+value for the (datatype) property latitude. For more details we refer to the OWL 2 standard [228].
+We will further discuss methodologies for the creation of ontologies in Section 6.5.
+
+4.2 Semantics and Entailment
+
+The conditions listed in the previous tables indicate how each feature should be interpreted. These
+conditions give rise to entailments, where, for example, in reference to the Symmetric feature
+
+27

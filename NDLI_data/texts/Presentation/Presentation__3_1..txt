@@ -1,0 +1,18 @@
+a:
+NR
+C4
+
+Signal Evaluation on Airport
+Surface in 5.1GHz Band
+
+Naoki Kanada, Yasuto Sumiya, Naruto Yonemoto, Akiko Kohmura,
+Shunichi Futatsumori, Junichi Honda, and Kunio Okada
+
+Mm
+
+Electronic Navigation Research Institute (ENRI)
+Tokyo, JAPAN
+
+ 
+
+Apr 23, 2013

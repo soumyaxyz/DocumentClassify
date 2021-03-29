@@ -1,0 +1,14 @@
+Joint Probability
+
+e For events A and B, joint probability Pr(AB) stands
+for the probability that both events happen.
+
+e Example: A={HH}, B={HT, TH}, what is the joint
+probability Pr(AB)?
+
+e AB=null set so P(AB))=o
+
+e Example: A={HH,HT}, B={HT, TH}, what is the
+joint probability Pr(AB)?
+
+e AB={HT} so P(AB))=1/4

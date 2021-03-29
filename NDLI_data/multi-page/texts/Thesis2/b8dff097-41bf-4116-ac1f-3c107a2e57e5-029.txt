@@ -1,0 +1,39 @@
+CHAPTER 3
+Groups of Type G»
+
+In this chapter we describe the groups of type G2 over a field k. The fact that all
+groups of type G2 can be described this way follows from the computation of Galois
+Cohomology for G2 in the next chapter (see Corollary 4.3.5). We shall discuss Galois
+Cohomology in the next chapter. For the exposition in this chapter we follow the
+book [SV]. Results in this chapter are used later in the proof of one of the main
+theorems. Several results are taken from [J], [W2] and [L] and modified suitably to
+
+fulfil our requirements.
+
+3.1. The Group G) and Octonions
+
+We begin by a brief introduction to the group G2. Any group G of type G2 over a
+given field k can be realized as the group of k-automorphisms of an octonion algebra
+over k, determined uniquely by G. We will need the notion of a composition algebra
+
+over a field k.
+
+Definition 3.1.1. A composition algebra € over a field k is an algebra over k,
+not necessarily associative, with an identity element 1 together with a nondegenerate
+quadratic form N on €, permitting composition, ie., N(ay) = N(«)N(y) Va,y€ €.
+
+The quadratic form N is called the norm on €. The associated bilinear form N is
+given by: N(a,y) = N(#+y) — N(x) — N(y). Every element x of € satisfies the
+equation «2 — N(x,1)x + N(x)1 = 0. There is an involution (anti automorphism of
+order 2) on € defined by = N(x, 1)1—2. We call N(x,1)1 = «+7, the trace of z.
+The possible dimensions of a composition algebra over k are 1,2,4,8. Composition
+algebras of dimension 1 or 2 are commutative and associative, those of dimension
+4 are associative but not commutative (called quaternion algebras), and those of
+dimension 8 are neither commutative nor associative (called octonion algebras or
+Cayley algebra).
+
+Let € be an octonion algebra and G = Aut(€) be the automorphism group
+of €. Since any automorphism of an octonion algebra leaves the norm invariant,
+Aut(€) is a subgroup of the orthogonal group O(€, NV). In fact, the automorphism
+
+17

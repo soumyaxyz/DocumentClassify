@@ -1,0 +1,42 @@
+2. Web Information Retrieval
+
+ 
+
+2.2.1.3 Divergence from Randomness
+
+A different probabilistic approach to query-dependent ranking is based on the
+notion of divergence from randomness (DFR; Amati, 2003). DFR models build
+upon the intuition that the more the content of a document diverges from a
+random distribution, the more informative the document is. Similarly to the
+best-matching approaches discussed in Section 2.2.1.1, DFR models are inspired
+by Harter’s 2-Poisson model (Harter, 1975a,b), which assumes that the informa-
+tiveness of a term in a corpus can be inferred by analysing its distribution in
+different subsets of the corpus. Nonetheless, different from best-matching and
+other probabilistic relevance models, DFR models have no explicit account of
+relevance. Instead, these models exploit the statistical distribution of terms in
+documents, in which they resemble the language modelling approaches described
+in Section 2.2.1.2. However, different from language models, DFR models are an
+example of frequentist rather than Bayesian inference models (Amati, 2006).
+
+The relationship between the informativeness of a term and its distribution in
+a corpus of documents has been recognised early (Damerau, 1965; Bookstein &
+Swanson, 1974; Harter, 1975a,b). As discussed in Section 2.2.1.1, non-informative
+terms tend to be randomly distributed over the document corpus, whereas infor-
+mative terms appear more densely in a few elite documents. In particular, the
+frequency of a non-informative term can be modelled by a Poisson distribution
+with a mean proportional to the average frequency of the term in the corpus. Un-
+der this assumption, inferring the informativeness of a term reduces to measuring
+the deviation of the term’s frequency distribution from a random distribution.
+Harter’s 2-Poisson model and the family of best-matching models derived from
+it perform this inference by parametrising the occurrence of informative terms as
+a second Poisson distribution (Harter, 1975a,b). As discussed in Section 2.2.1.1,
+estimating the parameter of this distribution for each query term is problematic,
+since eliteness is a hidden variable (Robertson & Zaragoza, 2009).
+
+To overcome this limitation, DFR models assume that the elite set of a term
+is simply the set of documents that contain the term (Amati & van Rijsbergen,
+2002). In particular, the basic hypothesis underlying DFR models is that “the
+
+informative content of a term can be measured by examining how much the term
+
+31

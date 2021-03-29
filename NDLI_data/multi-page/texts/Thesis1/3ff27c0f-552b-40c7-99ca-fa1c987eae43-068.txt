@@ -1,0 +1,48 @@
+Chapter 2: Quantum isometry groups: approach based on Laplacian 56
+
+ 
+
+If furthermore, there is a CQG structure on S given by a coproduct A such that a
+is a C* action of a CQG on A, then the map a: A*® — A® @S extends to a unitary
+representation ( denoted again by a ) of the CQG (S,A) on H},. In this case, the ideal
+I is a Woronowicz C* ideal and the C* isomorphism  : U/I — S is a morphism of
+
+CQG s.
+
+Using this, the following result has been proved in [30], which defines and gives the
+existence of QISO%.
+
+Theorem 2.1.5. For any admissible spectral triple (A®,H, D), the category Q£ has a
+universal object denoted by (QISO£, ao). Moreover, QISO® has a coproduct Ao such
+that (QISO®, Ao) is a CQG and (QISO®, Ao, ao) is a universal object in the category
+Q’.. The action ag is faithful.
+
+We very briefly outline the main ideas of the proof. The universal object QISO® is
+constructed as a suitable quotient of U/. Let F be the collection of all those C*-ideals Z
+of U such that the composition 'z = (id @ Iz) 0 8 : Aj? > AjP @aig (U/Z) extends to a
+C*-homomorphism from A to A® (U/T). Then it can be shown that Zp (=A zerT ) is
+
+again a member of F and (U/Zo, I'z,) is the required universal object. Thus,
+
+Remark 2.1.6. QISO® is a quantum subgroup of the CQGU = *j Aya, (1). As Ava; (J)
+satisfies K? = id, ( by Remark 1.2.29 ) the same is satisfied by QISOE® so that by Remark
+1.2.20, QISO£ has tracial Haar state.
+
+Remark 2.1.7. It is proved in [30] that to ensure the existence of QISO®, the as-
+sumption (5) can be replaced by the condition that the action a is T preserving, that
+is, (tT ® id)a(a) = r(a).1. In [30] it was also shown ( Lemma 2.5, b => a ) that for
+an isometric group action on a not necessarily connected classical manifold, the volume
+functional is automatically preserved. It can be easily seen that the proof goes verbatim
+for a quantum group action, and consequently we get the existence of QISOf for a (
+
+not necessarily connected ) compact Riemannian manifold.
+
+Unitary representation of QISO* on a spectral triple
+
+We shall also need the following result proved in section 2.4 of [30].
+
+Proposition 2.1.8. QISO£ has a unitary representation U = Ug on Hp such that U
+commutes with d+d*. Let 6 be as in subsection 1.5.2. On the Hilbert space of k-forms,
+that is. Hh, U is defined by:
+
+U({ao5(a1) ---5(ax)] @ g) = [a 5(a\?) ---5(a)] @ (@Pa ---a?))g,

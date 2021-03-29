@@ -1,0 +1,115 @@
+91
+
+92
+
+93
+
+94)
+
+95
+
+96
+
+97
+
+98
+
+ 
+
+99
+
+100.
+
+101
+
+102
+
+103,
+
+104
+
+105
+
+106
+
+107
+
+108
+
+ 
+
+Lecture Notes in Computer Science, Vol. 7882. Springer.
+
+Michael Cochez, Petar Ristoski, Simone Paolo Ponzetto, and Heiko Paulheim. 2017. Biased Graph Walks for RDF
+Graph Embeddings. In Proceedings of the 7th International Conference on Web Intelligence, Mining and Semantics, WIMS
+2017, Amantea, Italy, June 19-22, 2017, Rajendra Akerkar, Alfredo Cuzzocrea, Jannong Cao, and Mohand-Said Hacid
+(Eds.). ACM Press, Article 21, 12 pages.
+
+Michael Cochez, Petar Ristoski, Simone Paolo Ponzetto, and Heiko Paulheim. 2017. Global RDF Vector Space
+Embeddings, See [108], 190-207.
+
+Diego Collarana, Mikhail Galkin, Christoph Lange, Irlan Grangel-Gonzalez, Maria-Esther Vidal, and Séren Auer. 2016.
+FuhSen: A Federated Hybrid Search Engine for Building a Knowledge Graph On-Demand (Short Paper), See [118],
+752-761.
+
+Michael Collins and Yoram Singer. 1999. Unsupervised Models for Named Entity Classification. In Joint SIGDAT
+Conference on Empirical Methods in Natural Language Processing and Very Large Corpora, EMNLP 1999, College Park, MD,
+USA, June 21-22, 1999. The Association for Computational Linguistics, 11. https://www.aclweb.org/anthology/W99-
+0613/
+
+Dan Connolly. 2007. Gleaning Resource Descriptions from Dialects of Languages (GRDDL), W3C Recommendation 11
+September 2007. W3C Recommendation. World Wide Web Consortium. https://www.w3.org/TR/2007/REC-grddl-
+20070911/
+
+Mariano P. Consens and Alberto O. Mendelzon. 1990. GraphLog: a Visual Formalism for Real Life Recursion. In
+Proceedings of the Ninth ACM SIGACT-SIGMOD-SIGART Symposium on Principles of Database Systems, April 2-4, 1990,
+Nashville, Tennessee, USA, Daniel J. Rosenkrantz and Yehoshua Sagiv (Eds.). ACM Press, 404-416.
+
+Olivier Corby and Catherine Faron-Zucker. 2010. The KGRAM Abstract Machine for Knowledge Graph Querying. In
+2010 IEEE/WIC/ACM International Conference on Web Intelligence, WI 2010, Toronto, Canada, August 31 - September 3,
+2010, Main Conference Proceedings, Jimmy Xiangji Huang, Irwin King, Vijay V. Raghavan, and Stefan Rueger (Eds.).
+IEEE Computer Society, 338-341.
+
+Francesco Corcoglioniti, Marco Rospocher, and Alessio Palmero Aprosio. 2016. Frame-Based Ontology Population
+with PIKES. IEEE Transactions on Knowledge and Data Engineering 28, 12 (2016), 3261-3275.
+
+Julien Corman, Fernando Florenzano, Juan L. Reutter, and Ognjen Savkovic. 2019. Validating SHACL Constraints
+over a SPARQL Endpoint, See [178], 145-163. https://doi.org/10.1007/978-3-030-30793-6_9
+
+Julien Corman, Juan L. Reutter, and Ognjen Savkovié. 2018. Semantics and Validation of Recursive SHACL, See [514],
+318-336.
+
+Luca Costabello, Serena Villata, Nicolas Delaforge, and Fabien Gandon. 2012. Linked Data Access Goes Mobile:
+Context-Aware Authorization for Graph Stores. In WWW2012 Workshop on Linked Data on the Web, Lyon, France, 16
+April, 2012 (CEUR Workshop Proceedings), Christian Bizer, Tom Heath, Tim Berners-Lee, and Michael Hausenblas
+(Eds.), Vol. 937. Sun SITE Central Europe (CEUR), 8. http://ceur-ws.org/Vol-937/ldow2012-paper-05.pdf
+
+Kino Coursey and Rada Mihalcea. 2009. Topic Identification Using Wikipedia Graph Centrality. In Human Language
+Technologies: Conference of the North American Chapter of the Association of Computational Linguistics, Proceedings,
+May 31 - June 5, 2009, Boulder, Colorado, USA, Short Papers. The Association for Computational Linguistics, 117-120.
+Simon Cox, Chris Little, Jerry R. Hobbs, and Feng Pan. 2017. Time Ontology in OWL, W3C Recommendation 19 October
+2017. W3C Recommendation / OGC 16-0712. World Wide Web Consortium and Open Geospatial Consortium.
+https://www.w3.org/TR/2017/REC- owl-time-20171019/
+
+Eric Crestan and Patrick Pantel. 2011. Web-scale table census and classification. In Proceedings of the Forth International
+Conference on Web Search and Web Data Mining, WSDM 2011, Hong Kong, China, February 9-12, 2011, Irwin King,
+Wolfgang Nejdl, and Hang Li (Eds.). ACM Press, 545-554.
+
+Philippe Cudré-Mauroux, Jeff Heflin, Evren Sirin, Tania Tudorache, Jéréme Euzenat, Manfred Hauswirth,
+Josiane Xavier Parreira, Jim Hendler, Guus Schreiber, Abraham Bernstein, and Eva Blomqvist (Eds.). 2012. The
+Semantic Web - ISWC 2012 - 11th International Semantic Web Conference, Boston, MA, USA, November 11-15, 2012,
+Proceedings, Part I. Lecture Notes in Computer Science, Vol. 7649. Springer.
+
+Richard Cyganiak, David Wood, and Markus Lanthaler. 2014. RDF 1.1 Concepts and Abstract Syntax, W3C Recommen-
+dation 25 February 2014. W3C Recommendation. World Wide Web Consortium. https://www.w3.org/TR/2014/REC-
+rdf11-concepts-20140225/
+
+Jeff Dalgliesh. 2016. How the Enterprise Knowledge Graph Connects Oil and Gas Data Silos. Maana Blog. https:
+//www.maana.io/blog/enterprise-knowledge-graph-connects- oil-gas-data-silos/.
+
+Claudia d’Amato, Miriam Fernandez, Valentina A. M. Tamma, Freddy Lécué, Philippe Cudré-Mauroux, Juan F.
+Sequeda, Christoph Lange, and Jeff Heflin (Eds.). 2017. The Semantic Web - ISWC 2017 - 16th International Semantic
+Web Conference, Vienna, Austria, October 21-25, 2017, Proceedings, Part I. Lecture Notes in Computer Science, Vol. 10587.
+Springer.
+
+81

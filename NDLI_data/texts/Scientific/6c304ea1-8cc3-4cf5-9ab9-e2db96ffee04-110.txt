@@ -1,0 +1,62 @@
+set of properties, U C Con is a set of values, e : E> V x V maps an edge id to a pair of node ids,
+1: VUE — 2" maps a node or edge id to a set of labels, and p : VUE — 2?*¥ maps a node or
+edge id to a set of property—value pairs.
+
+Example B.6. Returning to Figure 4:
+
+the set V contains Santiago and Arica;
+
+the set E contains E1 and E2;
+
+the set L contains City and flight;
+
+the set P contains country, capital, company and dist;
+
+the set U contains Chile, true, false, Sky Airlines, LAN Airlines, and 2000 km;
+
+the mapping e gives, e.g, e(E1) = (Santiago, Arica);
+
+the mapping ! gives, e.g., (E1) = {flight} and (Santiago) = {city};
+
+the mapping p gives, e.g., p(E1) = {(company, Sky Airlines),...,(dist, 2000 km)} and
+p(Santiago) = {(country, Chile),...,(capital, true)}.
+
+Definition B.5 does not require that the sets V, E, L, P or U to be (pairwise) disjoint: we allow, for
+example, that values are also nodes. Unlike some previous definitions [14], here we allow a node or
+edge to have several values for a given property. In practice, systems like Neo4j [332] may rather
+support this by allowing an array of values. We view such variations as syntactic.
+
+B.2 Querying
+Here we formalise foundational notions relating to queries over graphs, starting with graph patterns,
+to which we later add relational-style operators and path expressions.
+
+B.2.1_ Graph patterns. We formalise the notions of graph patterns first for directed edge-labelled
+graphs, and subsequently for property graphs [14]. For these definitions, we introduce a countably
+infinite set of variables Var ranging over (but disjoint from: Con¢N Var = 0) the set of constants. We
+refer generically to constants and variables as terms, denoted and defined as Term = Con U Var.
+
+Definition B.7 (Directed edge-labelled graph pattern). We define a directed edge-labelled graph
+pattern as a tuple Q = (V’, E’, L’), where V’ C Term is a set of node terms, L’ C Term is a set of
+edge terms, and E’ C V’ x L’ x V’ is a set of edges (triple patterns).
+
+Example B.8. Returning to the graph pattern of Figure 5:
+
+e the set V’ contains the constant Food Festival and variables ?event, ?ven1 and ?ven2;
+e the set L’ contains the constants type and venue;
+e the set E’ contains four edges, including (?event, type, Food Festival), etc.
+
+A property graph pattern is defined analogously, allowing variables in any position.
+
+Definition B.9 (Property graph pattern). We define a property graph pattern as a tuple Q =
+(V’, E’,L’, P’,U’,e’,l’,p’), where V’ C Term is a set of node id terms, E’ C Term is a set of edge id
+terms, L’ C Term is a set of label terms, P’ C Term is a set of property terms, U’ C Term is a set of
+value terms, e’ : E’ > V’ x V’ maps an edge id term to a pair of node id terms, I’ : V’U E’ > 2"
+maps a node or edge id term to a set of label terms, and p’ : V’ U E’ > 2”*U’ maps a node or edge
+id term to a set of pairs of property—value terms.
+
+Towards defining the results of evaluating a graph pattern, we first define a partial mapping
+y: Var — Con from variables to constants, whose domain (the set of variables for which it is
+defined) is denoted by dom(). Given a graph pattern Q, let Var(Q) denote the set of all variables
+appearing in (some recursively nested element of) Q. Abusing notation, we denote by p(Q) the
+
+110

@@ -1,0 +1,11 @@
+Formats of Digital Data
+
+Here is a percent distribution of the three forms of data -
+
+Formats of Data
+
+@ Unstructured Data
+
+G@ Semi-structured Data
+
+G Structured Data

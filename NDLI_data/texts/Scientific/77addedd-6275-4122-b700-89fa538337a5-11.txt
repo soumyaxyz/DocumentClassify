@@ -1,0 +1,51 @@
+Mark Sandler, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen. Mobilenetv2:
+Inverted residuals and linear bottlenecks. In Proceedings of the IEEE Conference on Computer Vision and
+Pattern Recognition, pages 4510-4520, 2018.
+
+Suraj Srinivas, Akshayvarun Subramanya, and R Venkatesh Babu. Training sparse neural networks. In
+Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 138-145, 2017.
+
+Ilya Sutskever, Oriol Vinyals, and Quoc V Le. Sequence to sequence learning with neural networks. In Advances
+in neural information processing systems, pages 3104-3112, 2014.
+
+Mingxing Tan, Bo Chen, Ruoming Pang, Vijay Vasudevan, Mark Sandler, Andrew Howard, and Quoc V Le.
+Mnasnet: Platform-aware neural architecture search for mobile. In Proceedings of the IEEE Conference on
+Computer Vision and Pattern Recognition, pages 2820-2828, 2019.
+
+Enzo Tartaglione, Skjalg Leps@y, Attilio Fiandrotti, and Gianluca Francini. Learning sparse neural networks via
+sensitivity-driven regularization. In Advances in Neural Information Processing Systems, pages 3878-3888,
+2018.
+
+Karen Ullrich, Edward Meeds, and Max Welling. Soft weight-sharing for neural network compression. In
+International Conference on Learning Representations, 2017.
+
+Wei Wen, Chunpeng Wu, Yandan Wang, Yiran Chen, and Hai Li. Learning structured sparsity in deep neural
+networks. In Advances in neural information processing systems, pages 2074-2082, 2016.
+
+Bichen Wu, Xiaoliang Dai, Peizhao Zhang, Yanghan Wang, Fei Sun, Yiming Wu, Yuandong Tian, Peter Vajda,
+Yangqing Jia, and Kurt Keutzer. Fbnet: Hardware-aware efficient convnet design via differentiable neural
+architecture search. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition,
+pages 10734-10742, 2019.
+
+Penghang Yin, Jiancheng Lyu, Shuai Zhang, Stanley J. Osher, Yingyong Qi, and Jack Xin. Understanding
+straight-through estimator in training activation quantized neural nets. In International Conference on
+Learning Representations, 2019.
+
+Jiahui Yu and Thomas Huang. Network slimming by slimmable networks: Towards one-shot architecture search
+for channel numbers. arXiv preprint arXiv: 1903.11728, 2019.
+
+Jiahui Yu and Thomas Huang. Universally slimmable networks and improved training techniques. arXiv preprint
+arXiv:1903.05134, 2019.
+
+Jiahui Yu, Linjie Yang, Ning Xu, Jianchao Yang, and Thomas Huang. Slimmable neural networks. arXiv
+preprint arXiv: 1812.08928, 2018.
+
+Xiaotian Zhu, Wengang Zhou, and Hougiang Li. Improving deep neural network sparsity through decorrelation
+regularization. In LJCAI, pages 3264-3270, 2018.
+
+Zhuangwei Zhuang, Mingkui Tan, Bohan Zhuang, Jing Liu, Yong Guo, Qingyao Wu, Junzhou Huang, and Jinhui
+
+Zhu. Discrimination-aware channel pruning for deep neural networks. In Advances in Neural Information
+Processing Systems, pages 883-894, 2018.
+
+11

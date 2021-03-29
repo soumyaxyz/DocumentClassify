@@ -1,0 +1,158 @@
+Discovering Mathematical Objects of Interest
+
+"Jacobi Polynomial’
+
+    
+
+ 
+
+mBM25 arXiv zbMATH mBM25
+83.0685 PEO) e@—————_ P(x) 98.6617
+79.6727 Pio) ge pin’) 87.9470
+77.1217 aQ-g) @ @ (1—2)*+2)% 87.4794
+76.6752 ge 86.2089
+73.2642 Pyle) @ 85.3332
+70.9366 (n+8) @ e 80.2347
+69.3206 (1—x)*(1+2)° @ e 79.5455
+68.2341 gt} ° 1 78.3570
+64.9681 (8+1) ¢@ e 75.0357
+62.5399 (i-2) ¢@ e 73.4004
+56.3915 (x-l) @ e 68.9349
+54.4658 n(x) @ e 66.6347
+51.7172 Poa e e Lyn 64.2537
+50.8955 1-2 @ e 63.6599
+48.2833 (nto+8+1) @ ° 63.6560
+48.2607 qe e 61.5281
+44.4237 io © . 60.4231
+42.8024 (a +1) e 1 59.5472
+42.2566 (l+2)* eo ff 59.3689
+41.1492 qi e e (1-2) 98.2231
+
+Figure 6: The top ranked expression for ‘Jacobi polynomial’
+in arXiv and zbMATH. For arXiv, 30 documents were re-
+trieved with a minimum hit frequency of 7.
+
+for retrieving MOlIs, we are able to facilitate semantic extraction
+systems and semantic math taggers. Imagine such a system being
+capable of identifying the term ‘Jacobi polynomial’ from the textual
+context. Figure 6 shows the top relevant hits for the search query
+‘Jacobi polynomial’ retrieved from zbMATH and arXiv. The results
+contain several relevant and related expressions, such as the con-
+straints a, 6 > —1 and the weight function for the Jacobi polynomial
+(1 — x)*(1 +x), which are essential properties of this orthogonal
+polynomial. Based on these retrieved MOIs, the extraction systems
+can adjust its retrieved math elements to improve precision, and
+semantic taggers or a tokenizer could re-organize parse trees to
+more closely resemble expression trees.
+
+6 CONCLUSION & FUTURE WORK
+
+In this study we showed that analyzing the frequency distribu-
+tions of mathematical expressions in large scientific datasets can
+provide useful insights for a variety of applications. We demon-
+strated the versatility of our results by implementing prototypes
+of a type-hinting system for math recommendations, an extension
+of zbMATH’s search engine, and a mathematical retrieval system
+to search for topic-specific MOIs. Additionally, we discussed the
+potential impact and suitability in other applications, such as math
+search engines, plagiarism detection systems, and semantic extrac-
+tion approaches. We are confident that this project lays a foundation
+for future research in the field of MathIR.
+
+We plan on developing a web application which would provide
+easy access to our frequency distributions, the MOI search engine,
+and the type-hinting recommendation system. We hope that this
+will further expedite related future research projects. Moreover, we
+
+will use this web application for an online evaluation of our MOI
+retrieval system. Since the level of agreement among annotators
+
+WWW 20, April 20-24, 2020, Taipei, Taiwan
+
+will be predictably low, an evaluation by a large community is
+desired.
+
+In this first study, we preserved the core structure of the MATHML
+data which provided insightful information for the MATHML com-
+munity. However, this makes it difficult to properly merge formulae.
+In future studies, we will normalize the MATHML data via MathML-
+Can [9]. In addition to this normalization, we will include wildcards
+for investigating distributions of formula patterns rather than exact
+expressions. This will allow us to study connections between math
+objects, e.g., between I'(z) and I'(x + 1). This would further improve
+our recommendation system and would allow for the identification
+of regions for parameters and variables in complex expressions.
+
+ACKNOWLEDGMENTS
+
+Discovering Mathematical Objects of Interest was supported by the
+German Research Foundation (DFG grant GI-1259-1).
+
+REFERENCES
+
+1) Akiko N. Aizawa. 2003. An information-theoretic perspective of tf-idf measures.
+Inf. Process. Manage. Vol. 39, Issue 1, 45-65. _https://doi.org/10.1016/S0306-
+4573(02)00021-3
+
+2] Gustavo Araujo and Daniel Pellegrino. 2014. On the constants of the Bohnenblust-
+Hille inequality and Hardy-Littlewood inequalities. In Computing Research
+Repository (CoRR) https://arxiv.org/abs/ 1407.7120.
+
+3] Joran Beel, Bela Gipp, Stefan Langer, and Corinna Breitinger. 2016. Research-
+paper recommender systems: a literature survey. Int. J. on Digital Libraries Vol. 17,
+Issue 4, 305-338. https://doi.org/10.1007/s00799-015-0156-0
+
+4] Florian Cajori. 1929. A History of Mathematical Notations. The Open Court
+Company, London, UK. Vol. 1 & 2.
+
+5] Jamilson R. Campos, Wasthenny Cavalcante, Vinicius V. Favaro, Daniel Nu nez
+Alarcon, Daniel Pellegrino, and Diana M. Serrano-Rodriguez. 2015. Polynomial
+and multilinear Hardy-Littlewood inequalities: analytical and numerical ap-
+proaches. In Computing Research Repository (CoRR) https://arxiv.org/abs/ 1503.
+00618.
+
+6] Pao-Yu Chien and Pu-Jen Cheng. 2015. Semantic Tagging of Mathematical
+Expressions. In Proc. WWW’2015. ACM, 195-204. https://doi.org/10.1145/2736277.
+2741108
+
+7) Kenny Davila and Richard Zanibbi. 2017. Layout and Semantics: Combining
+Representations for Mathematical Formula Search. In Proc. ACM SIGIR. ACM,
+1165-1168. https://doi.org/10.1145/3077136.3080748
+
+8] DLMF 2019. NIST Digital Library of Mathematical Functions. http://dlmf.nist.gov/,
+Release 1.0.25 of 2019-12-15. http://dlmf.nist.gov F. W. J. Olver, A. B. Olde
+Daalhuis, D. W. Lozier, B. I. Schneider, R. F. Boisvert, C. W. Clark, B. R. Miller,
+B. V. Saunders, H. S. Cohl, and M. A. McClain, eds.
+
+9] David Formanek, Martin Liska, Michal RizZi¢ka, and Petr Sojka. 2012. Normal-
+ization of Digital Mathematics Library Content. In Proc. of OpenMath/ Math-
+UI/ CICM-WiP (CEUR Workshop Proceedings). 91-103. http://ceur-ws.org/Vol-
+921/wip-05.pdf
+
+[10] Liangcai Gao, Zhuoren Jiang, Yue Yin, Ke Yuan, Zuoyu Yan, and Zhi Tang. 2017.
+Preliminary Exploration of Formula Embedding for Mathematical Information
+Retrieval: can mathematical formulae be embedded like a natural language? In
+Computing Research Repository (CoRR) http://arxiv.org/abs/ 1707.05154.
+
+[11] Alex Gaudeul. 2007. Do Open Source Developers Respond to Competition?: The
+HIEX Case Study. In Review of Network Economics https://doi.org/10.2202/1446-
+9022.1119
+
+[12] Deyan Ginev. 2018. arXMLiv:08.2018 dataset, an HTMLS conversion of arXiv.org.
+https://sigmathling.kwarc.info/resources/arxmliv/ SIGMathLing ~ Special Inter-
+est Group on Math Linguistics.
+
+[13] André Greiner-Petter, Terry Ruas, Moritz Schubotz, Akiko Aizawa, William I.
+Grosky, and Bela Gipp. 2019. Why Machines Cannot Learn Mathematics, Yet.
+In Proceedings of the 4th Joint Workshop on Bibliometric-enhanced Information
+Retrieval and Natural Language Processing for Digital Libraries (BIRNDL 2019)
+co-located with the 42nd International ACM SIGIR Conference on Research and
+Development in Information Retrieval (SIGIR 2019), Paris, France, July 25, 2019
+Vol. 2414. CEUR-WS.org, 130-137. http://ceur-ws.org/Vol-2414/paper14.pdf
+[14] Christian Griin, Sebastian Gath, Alexander Holupirek, and Marc Scholl. 2009.
+XQuery Full Text Implementation in BaseX. In Database and XML Technologies.
+Springer Berlin, 114-128.
+
+[15] Ferruccio Guidi and Claudio Sacerdoti Coen. 2016. A Survey on Retrieval of
+Mathematical Knowledge. Mathematics in Computer Science Vol. 10, Issue 4,
+409-427. https://doi.org/10.1007/s11786-016-0274-0

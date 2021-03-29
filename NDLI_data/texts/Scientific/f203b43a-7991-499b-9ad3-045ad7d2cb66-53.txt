@@ -1,0 +1,74 @@
+EIRINI PAPAGIANNOPOULOU AND GRIGORIOS TSOUMAKAS 53
+
+ 
+
+Voorhees, E. M. (1999) The TREC-8 question answering track report. In Proceedings of The Eighth Text REtrieval Conference, TREC
+1999, Gaithersburg, Maryland, USA, November 17-19, 1999. URL:
+
+pe]
+
+Wan, X. and Xiao, J. (2008) Single document keyphrase extraction using neighborhood knowledge. In Proceedings of the 23rd
+AAAI Conference on Artificial Intelligence, AAAI 2008, Chicago, Illinois, USA, July 13-17, 2008, 855-860. URL: http://www.
+aaai.org/Library/AAAI/2008/aaai08- 136. php
+
+Wang, L. and Li, S. (2017) Pku_icl at semeval-2017 task 10: Keyphrase extraction with model ensemble and external knowl-
+edge. In Proceedings of the 11th International Workshop on Semantic Evaluation, SemEval@ACL 2017, Vancouver, Canada, Au-
+
+gust 3-4, 2017, 934-937. URL: https: //doi . org/10. 18653/v1/S17-2161
+
+Wang, R., Liu, W. and McDonald, C. (2014) Corpus-independent generic keyphrase extraction using word embedding vectors.
+Software Engineering Research Conference, 39.
+
+ 
+
+ 
+
+Wang, R., Liu, W. and McDonald, C. (2015) Using word embeddings to enhance keyword identification for scientific publica-
+tions. In Proceedings of the Databases Theory and Applications - 26th Australasian Database Conference, ADC 2015, Melbourne,
+
+VIC, Australia, June 4-7, 2015, 257-268. URL: https: //doi.org/10.1007/978-3-319-19548-3_21
+
+Wang, Y., Liu, Q., Qin, C., Xu, T., Wang, Y., Chen, E. and Xiong, H. (2018) Exploiting topic-based adversarial neural network for
+cross-domain keyphrase extraction. In Proceedings of the IEEE International Conference on Data Mining, ICDM 2018, Singapore,
+
+November 17-20, 2018, 597-606. URL: https: //doi.org/10.1109/ICDM. 2018 .00075
+
+Witten, I. H. (2003) Browsing around a digital library. In Proceedings of the 14th Annual ACM-SIAM Symposium on Discrete Algo-
+
+rithms, Baltimore, Maryland, USA, January 12-14, 2003, 99-99. URL: http: //dl.acm. org/citation.cfm?id=644108 .644125.
+
+Witten, I. H., Paynter, G. W., Frank, E., Gutwin, C. and Nevill-Manning, C. G. (1999) KEA: practical automatic keyphrase extrac-
+tion. In Proceedings of the 4th ACM conference on Digital Libraries, Berkeley, CA, USA, August 11-14, 1999, 254-255. URL:
+
+http: //doi.acm.org/10.1145/313238.313437
+
+Won, M., Martins, B. and Raimundo, F. (2019) Automatic extraction of relevant keyphrases for the study of issue competition.
+In Proceedings of the 20th International Conference on Computational Linguistics and Intelligent Text Processing, Berkeley, La
+Rochelle, France, April 7-13, 2019.
+
+Yang, Z., Dai, Z., Yang, Y., Carbonell, J. G., Salakhutdinov, R. and Le, Q. V. (2019) XInet: Generalized autoregressive pretraining
+
+for language understanding. CoRR, abs/1906.08237. URL: http: //arxiv.org/abs/1906 .08237.
+
+Yang, M., Liang, Y., Zhao, W., Xu, W., Zhu, J. and Qu, Q. (2018) Task-oriented keyphrase extraction from social media. Multimedia
+
+Tools and Applications, 77, 3171-3187. URL: https: //doi.org/10.1007/s11042-017-5041-y
+
+Ye, H. and Wang, L. (2018) Semi-supervised learning for neural keyphrase generation. In Proceedings of the 2018 Conference
+on Empirical Methods in Natural Language Processing, Brussels, Belgium, October 31 - November 4, 2018, 4142-4153. URL:
+
+https: //aclanthology. info/papers/D18-1447/d18- 1447
+
+Yu, Y. and Ng, V. (2018) Wikirank: Improving keyphrase extraction based on background knowledge. In Proceedings of the 11th
+edition of the Language Resources and Evaluation Conference, LREC 2018, 7-12 May 2018, Miyazaki (Japan), 3723-3727. URL:
+http://www. lrec- conf. org/proceedings/1rec2018/pdf/871. pdf
+
+Zesch, T. and Gurevych, |. (2009) Approximate matching for evaluating keyphrase extraction. In Proceedings of the Recent Ad-
+vances in Natural Language Processing, RANLP, Borovets, Bulgaria, 14-16 September, 2009, 484-489. URL: http: //aclweb.|
+
+org/anthology/R/RO9/RO9- 1086. pdf.
+
+Zhang, Q., Wang, Y., Gong, Y. and Huang, X. (2016) Keyphrase extraction using deep recurrent neural networks on twitter.
+In Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing, EMNLP 2016, Austin, Texas, USA,
+
+November 1-4, 2016, 836-845. URL: http: //aclweb. org/anthology/D/D16/D16- 1080. pdf

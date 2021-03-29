@@ -1,0 +1,77 @@
+1h,
+
+12.
+
+13.
+
+14,
+
+153i
+
+(a)
+
+(b)
+(a)
+
+(b)
+(a)
+
+(b)
+(a)
+
+(b)
+(a)
+
+(b)
+
+PART B — (5 x 5 = 25)
+Answer ALL questions.
+Describe about the basics of computers.
+Or
+Explain about the memory units.
+Explain about the Multimeter.
+Or
+Discuss about the Power connectors.
+
+Describe about the cache memories with
+detail. :
+
+Or
+Explain about the HDD.
+Write notes on Keyboard with details.
+Or
+Describe about the punched card Reader.
+Explain about the Microprocessor.
+Or
+
+Write notes on BIOS with detail.
+sa S.No. 9118
+
+16.
+
+Lis
+
+18.
+
+Lo,
+
+20.
+
+PART C — (8 x 10 = 80)
+Answer any THREE questions.
+
+Briefly explain about the computer Architecture
+with details.
+
+Write notes on Layout of SMPS with details.
+
+Discuss about ‘the Types of controllers with
+example.
+
+Explain about the Input devices with neat
+example.
+
+Briefly discuss about the Bus types and Bus
+expansion with details.
+
+3 S.No. 9118

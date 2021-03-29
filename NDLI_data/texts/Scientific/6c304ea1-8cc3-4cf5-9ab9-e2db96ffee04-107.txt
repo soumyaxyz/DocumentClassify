@@ -1,0 +1,53 @@
+A.3 “Knowledge Graphs”: 2012 Onwards
+
+Google Knowledge Graph was announced in 2012 [459]. This initial announcement was targeted at
+a broad audience, mainly motivating the knowledge graph and describing applications that it would
+enable, where the knowledge graph itself is described as “[a graph] that understands real-world
+entities and their relationships to one another” [459]. Mentions of “knowledge graphs” quickly gained
+momentum in the research literature from that point. As noted by Bergman [36], this announcement
+by Google was a watershed moment in terms of adopting the phrase “knowledge graph”. However,
+given the informal nature of the announcement, a technical definition was lacking [53, 136].
+
+Given that knowledge graphs were gaining more and more attention in the academic literature,
+formal definitions were becoming a necessity in order to precisely characterise what they were,
+how they were structured, how they could be used, etc., and more generally to facilitate their study
+in a precise manner. We can determine four general categories of definitions.
+
+Category I: The first category simply defines the knowledge graph as a graph where nodes represent
+entities, and edges represent relationships between those entities. Often a directed edge-
+labelled graph is assumed (or analogously, a set of binary relations, or a set of triples). This
+simple and direct definition was popularised by some of the seminal papers on knowledge
+graph embeddings [298, 521] (2014-2015), being sufficient to represent the data structure
+upon which these embeddings would operate. As reflected in the survey by Wang et al. [519],
+the multitude of works that would follow on knowledge graph embeddings have continued
+to use this definition. Though simple, the Category I definition raises some doubts: How is a
+knowledge graph different from a graph (database)? Where does knowledge come into play?
+
+Category II: A second common definition goes as follows: “a knowledge graph is a graph-structured
+knowledge base”, where, to the best of our knowledge, the earliest usages of this definition
+in the academic literature were by Nickel et al. [362] (2016) and Seufert et al. (2016) [449]
+(interestingly in the formal notation of these initial papers, a knowledge graph is defined
+analogously to a directed edge-labelled graph). Such a definition raises the question: what,
+then is a “knowledge base”? The phrase “knowledge base” was popularised in the 70’s
+(possibly earlier) in the context of rule-based expert systems [69], and later were used in
+the context of ontologies and other logical formalisms [64]. The follow-up question then is
+whether or not one can have a knowledge base (graph-structured or not) without a logical
+formalism while staying true to the original definitions. Looking in further detail, similar
+ambiguities have also existed regarding the definition of a “knowledge base” (KB). Of note:
+Brachman and Levesque (1986) [63] — reporting after a workshop on this issue — state that
+“if we ask what the KB tells us about the world, we are asking about its Knowledge Level”.
+
+Category III: The third category of definitions define additional, technical characteristics that a
+“knowledge graph” should comply with, where we list some prominent definitions.
+
+- In an influential survey on knowledge graph refinement, Paulheim [375] lists four crite-
+ria that characterise the knowledge graphs considered for the paper. Specifically, that a
+knowledge graph “mainly describes real world entities and their interrelations, organized in
+a graph; defines possible classes and relations of entities in a schema; allows for potentially
+interrelating arbitrary entities with each other; covers various topical domains”; he thus rules
+out ontologies without instances (e.g., DOLCE) and graphs of word senses (e.g., WordNet) as
+not meeting the first two criteria, while relational databases do not meet the third criterion
+(due to schema restrictions), and domain-specific graphs (e.g., Geonames) are considered
+to not meet the fourth criterion; this leaves graphs such as DBpedia, YAGO, Freebase, etc.
+
+107

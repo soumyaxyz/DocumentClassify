@@ -1,0 +1,30 @@
+Types of threaded binary tree
+
+Depending on the type of threading, there are two types of
+threaded binary tree:
+
+ 
+
+Types of threaded binary tree
+
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+One-way Threading Two-way Threading
+
+ 
+
+ 
+
+ 
+
+ 
+
+04

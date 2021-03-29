@@ -1,0 +1,135 @@
+Table 7. Details for selected knowledge graph embeddings, including the plausibility scoring function
+$(e(s), p(p), €(0)) for edge (S-p(), and other conditions applied
+
+Model (e(s), p(p), €(0))
+
+Conditions (for all x € V, y € L)
+
+ 
+
+TransE [59] -lles +tp -eollg
+
+ex ER ry €R4,¢ € {1,2}, llex le = 1
+
+ 
+
+TransH [521]
+
+—lI(es — (€Swp)wp) + tp — (Co — (eb Wp) Wp) II
+
+ex ER4, Ty € R¢, Wy € Rd,
+wory
+
+TEE =O llenlle <1
+
+Ilwy [le = 1
+
+ 
+
+TransR [256] —||Wpes +p — Wpeo ll
+
+ex € R* ry € RY, Wy e€ Rade,
+llexll2 <1, IIryll2 <1, |Wyex lle <1
+
+ 
+
+TransD [256]
+
+-ll(wp @ws + Des + rp — (wp @ Wo + Deo ||}
+
+ex eR“, ry eR wy ER, wy ER,
+llexll2 <1, IIryll2 <1, lQvy ® wx + Dex lle <1
+
+ 
+
+RESCAL [364] ef Rpen
+
+ex €RTRy ER*4, llex|lp <1, [IRylk,2 <1
+
+ 
+
+ 
+
+ 
+
+ 
+
+DistMult [533] esrpeo ex ERY, ry € RY, Jlex lle = 1, IIrylle <1
+HolE [363] rh (es * eo) ex ER4 ry ER4, lex lle <1, [Irylle <1
+ComplEx [499] Re(esrpeo) e, € C4, Ty € C4, llexlle <1, IIrylle <1
+SimplE [266] eSepWoreawp ws ex €R4,ry €R4,wy ER? wy ERY,
+
+z
+
+llexll2 <1, [lwell2 <1, [Iryllz <1, [lwyll2 <1
+
+ 
+
+TuckER [27] W ® ef G21; 3 e%
+
+ex ER%, ry E Ro, W € Roe dride
+
+ 
+
+SME Linear [185] (Ves + W'rp + v)"(Wey + W'rp + w)
+
+ex ER4, Ty € R¢,veRY,weR”, llex lle = 1,
+VeR™4 vy cR™d weed weepwd
+
+ 
+
+SME Bilinear [185] ((V @3 rp)es + v)"((‘W @s rp)eo + w)
+
+e, ERY, Ty € R4,veRY,w eR”, flex lp =1,
+VY cRW 4d q epwidd
+
+ 
+
+ 
+
+ 
+
+ex €R4,ry €R7,w ER”, WER ?24,
+
+ 
+
+ 
+
+NIN [463] ry (craven +w{e +» W ERE, Nexlly <1, [ity <1
+° i
+iIwl <1, Wh <1, WWE Ibe <1
+es d d w w w,3d
+eR? eR eR eRY”,WeR”
+MLP [126] vTy|W]|rp| +w SRG Rady Soe Y ow ;
+x Wleslle <1 tye <1
+0
+la,b]]\\7 d d
+ne e ex €R°,ry € R®°,d=ab,
+ConvE [122] ofr (v (w * ya.) } »| £0 Ww @ Rwilois2a-1(o¥54b—Dod W © RYE 2 3
+le ;
+
+ 
+
+ 
+
+ 
+
+T
+HypER [26] y (vee ( Ws es) w) eo
+
+ex ER, ry ERA, W ERMA HeD.de,
+W € Rar wy
+
+ 
+
+and we will use ry to denote p(y) when it is a vector and R, to denote p(y) when it is a matrix.
+Some models use additional parameters (aka weights) that — although they do not form part of the
+entity/relation embeddings — are learnt to compute the plausibility score from the embeddings. We
+denote these as v, V, V, w, W W (for vectors, matrices or tensors). We use d, and d, to denote
+the dimensionality chosen for entity embeddings and relation embeddings, respectively. Often
+it is assumed that d, = d,, in which case we will write d. Sometimes weights may have their
+own dimensionality, which we denote w. The embeddings in Table 7 use a variety of operators on
+vectors, matrices and tensors. In the interest of keeping the discussion self-contained, we refer to
+the latter part of this section for definitions of these operators and other conventions used.
+
+124

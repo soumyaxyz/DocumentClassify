@@ -1,0 +1,45 @@
+6.2. RESULTS IN EXCEPTIONAL GROUPS 43
+
+Theorem 6.1.13. Let (V,) be a hermitian space over K. Let t € U(V,) be a
+
+semisimple element. Then, t is real in U(V,6) if and only if it is strongly real.
+We also prove similar results for special unitary groups.
+
+Theorem 6.1.14. Let t € SU(V,h) be semisimple. Suppose n # 2 (mod 4).
+Then t is real in SU(V,h) if and only if it is strongly real.
+
+Remark 6.1.15. We exhibit real unipotent elements in SU(V,6) which are not
+strongly real in U(V,6).
+
+6.2. Results in Exceptional Groups
+
+We now begin the study of reality properties for exceptional groups. In this
+thesis, we have tackled groups of type G» over fields of characteristic different from
+2. We prove reality implies strong reality for all elements in these groups except
+for unipotent elements over fields of characteristic 3. One expects similar results for
+exceptional groups of type Eg and Fy as well, which is evident from Theorem 6.3.2
+and Theorem 6.3.3. By consulting the character table of G over finite fields in [CR],
+one sees that reality is not true for arbitrary elements of G2 (see also Theorem 8.4.6
+and Theorem 8.4.7, in this thesis). Let G be a group of type G2 over a field k of
+
+characteristic 4 2. We prove,
+
+Theorem 6.2.1. In addition, if char(k) 4 3, every unipotent element in G(k) is
+strongly real in G(k).
+
+For a general clement in G(k), we prove,
+
+Theorem 6.2.2. Let characteristic k # 2,3. Then, an element t € G(k) is real
+in G(k) if and only if t is strongly real in G(k).
+
+The assumption char(k) # 3 is needed only for the case of unipotents. Real semisim-
+ple elements are strongly real in G(k) for any field k, char(k) # 2. We call a torus
+in G indecomposable if it can not be written as a direct product of two subtori,
+decomposable otherwise. We show that semisimple elements in decomposable tori
+are always real (Theorem 8.1.9). We construct examples of indecomposable tori in G
+containing non-real elements (Proposition 8.4.2 and Theorem 8.4.5).
+
+We work with an explicit realization of a group of type G2 as the automorphism
+group of an octonion algebra. It is known ({Se], Chapter III, Proposition 5, Corollary)
+
+that for a group G of type Gz over k, there exists an octonion algebra € over k, unique

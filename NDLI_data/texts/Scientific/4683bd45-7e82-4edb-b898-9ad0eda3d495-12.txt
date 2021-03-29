@@ -1,0 +1,127 @@
+Under review as a workshop paper at ICLR 2020
+
+ 
+
+10000 10000
+
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+
+Ly structured Ly structored
+
+8000 8000
+
+1, structure La structured
+
+L: unstructured unstructured
+
+6000 6000
+
+tybrid bybria
+
+random unstructured random unstructured
+
+4000 4000
+
+random stmictured random stmictured
+
+La structured ils Lon structured
+
+2000 2000
+
+fe only L; unstructured fe only L; unstructured
+
+ly strnemured
+2
+strocturedt
+
+a nstrncsured
+
+&
+
+‘fe only Ly unstmctured
+
+(a) 18" pruning iteration (b) 20'" pruning iteration
+
+Figure 11: Number of examples in the MNIST test set over which the sub-networks obtained through
+each pruning technique agree on the prediction, on average (over 5 experimental seeds).
+
+Pruning Iteration LoS  L,S  LyUS hybrid randomUS ~~ randomS L_.,$ _ fe-only Ly US | at) ybrid + fe-only +
+
+ 
+
+L, US
+1 974975 978 978 974 973 97.1 97.9 98.2 98.1
+2 972 («97.0 977 97.6 97.0 96.9 96.9 978 98.2 97.9
+3 96.5 96.6 978 975 96.1 96.4 96.2 917 98.1 97.9
+4 958 95.6 97.9 97.6 95.6 95.1 95.4 978 97.9 97.9
+5 95.0 95.1 97.6 975 93.8 94.0 94.1 978 97.7 97.9
+6 94.2 93.8 97.6 974 92.2 92.9 93.3 97.6 97.6 97.7
+7 917 92.7 974 975 89.2 91.0 913 97.6 974 978
+8 895 90.9 973 974 45.8 88.2 88.9 975 972 977
+9 87.6 86.9 97.0 97.3 14.0 83.7 86.2 975 97.2 975
+10 82.0 82.2 96.5 96.9 113 79.2 81.3 973 96.8 97.3
+ul 7120°°«717 95.9 96.8 113 60.1 76.3 97.0 96.6 97.1
+12 25 725 94.5 96.4 113 45.5 74.1 96.9 96.3 97.0
+13, 69.0 65.1 90.2 95.8 113 41.1 65.6 96.1 95.7 96.4
+14 654 583 83.5 95.3 13 32.0 58.4 95.9 95.1 96.3,
+15 55.7 54.7 RI 94.4 13 18.5 48.3 94.7 94.6 95.7
+16 47.1 43.7 69.5 92.5 113 113 24.7 93.3 94.0 94.7
+17 45.9 41.6 419 88.3 113 113 21.9 90.7 91.9 92.8
+18 36.7 378 32.4 81.8 13 113 145 87.4 91.0 91.6
+19 302 35.9 23.0 76.4 113 113 11.9 84.3 89.3 90.3
+20 294 331 21.2 19 113 113 117 78.6 85.0 86.0
+
+ 
+
+Table 2: Sub-network accuracies at each pruning iteration. Ensembling of sub-networks obtained
+through different pruning techniques can yield higher performance, hinting at the complementarity
+of information learned by each sub-network.
+
+pute and memory budget, one can consider combining the predictions made by each sub-network to
+boost performance. On the left side of Table[2] for each pruning iteration, the average accuracy of a
+pruned LeNet model is listed, along with, on the right, the accuracies obtained by simply averaging
+the predictions of all eight individual sub-networks (“all’”’) and by averaging the predictions obtained
+from the three most promising pruning techniques (last column).
+
+The similarity of solutions can also be explored by looking at the heat maps of the agreement in
+average class prediction across sub-networks obtained through different pruning techniques. For
+reference, Fi; rovides these visualizations for the 18'* and 20‘ pruning iterations.
+
+    
+
+E ALEXNET AND VGG ON MNIST AND CIFAR-10
+
+In this section, we confirm qualitative observations, previously reported on LeNet models, on the
+structure of connectivity patterns that emerge from the application of L, unstructured pruning in the
+context of AlexNet and VGG-11 architectures.
+
+12

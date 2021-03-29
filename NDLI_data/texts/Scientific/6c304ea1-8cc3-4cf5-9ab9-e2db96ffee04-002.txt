@@ -1,0 +1,52 @@
+interactions, bibliographical citations and co-authorships, transport networks, and so forth [15].
+Graphs allow maintainers to postpone the definition of a schema, allowing the data — and its scope
+— to evolve in a more flexible manner than typically possible in a relational setting, particularly
+for capturing incomplete knowledge [2]. Unlike (other) NoSQL models, specialised graph query
+languages support not only standard relational operators (joins, unions, projections, etc.), but
+also navigational operators for recursively finding entities connected through arbitrary-length
+paths [14]. Standard knowledge representation formalisms — such as ontologies [66, 228, 344]
+and rules [242, 270] —- can be employed to define and reason about the semantics of the terms
+used to label and describe the nodes and edges in the graph. Scalable frameworks for graph
+analytics [314, 478, 529] can be leveraged for computing centrality, clustering, summarisation, etc.,
+in order to gain insights about the domain being described. Various representations have also been
+developed that support applying machine learning techniques directly over graphs [519, 527].
+
+In summary, the decision to build and use a knowledge graph opens up a range of techniques
+than can be brought to bear for integrating and extracting value from diverse sources of data.
+However, we have yet to see a general unifying summary that describes how knowledge graphs are
+being used, what techniques they employ, and how they relate to existing data management topics.
+
+The goal of this tutorial paper is to motivate and give a comprehensive introduction to knowl-
+edge graphs: to describe their foundational data models and how they can be queried; to discuss
+representations relating to schema, identity, and context; to discuss deductive and inductive ways
+to make knowledge explicit; to present a variety of techniques that can be used for the creation
+and enrichment of graph-structured data; to describe how the quality of knowledge graphs can be
+discerned and how they can be refined; to discuss standards and best practices by which knowledge
+graphs can be published; and to provide an overview of existing knowledge graphs found in practice.
+Our intended audience includes researchers and practitioners who are new to knowledge graphs.
+As such, we do not assume that readers have specific expertise on knowledge graphs.
+
+Knowledge graph. The definition of a “knowledge graph” remains contentious [36, 53, 136], where
+a number of (sometimes conflicting) definitions have emerged, varying from specific technical
+proposals to more inclusive general proposals; we address these prior definitions in Appendix A.
+Herein we adopt an inclusive definition, where we view a knowledge graph as a graph of data
+intended to accumulate and convey knowledge of the real world, whose nodes represent entities of
+interest and whose edges represent relations between these entities. The graph of data (aka data graph)
+conforms to a graph-based data model, which may be a directed edge-labelled graph, a property
+graph, etc. (we discuss concrete alternatives in Section 2). By knowledge, we refer to something
+that is known!. Such knowledge may be accumulated from external sources, or extracted from the
+knowledge graph itself. Knowledge may be composed of simple statements, such as “Santiago is
+the capital of Chile”, or quantified statements, such as “all capitals are cities”. Simple statements
+can be accumulated as edges in the data graph. If the knowledge graph intends to accumulate
+quantified statements, a more expressive way to represent knowledge — such as ontologies or rules
+— is required. Deductive methods can then be used to entail and accumulate further knowledge (e.g.,
+“Santiago is a city”). Additional knowledge — based on simple or quantified statements — can also be
+extracted from and accumulated by the knowledge graph using inductive methods.
+
+Knowledge graphs are often assembled from numerous sources, and as a result, can be highly
+diverse in terms of structure and granularity. To address this diversity, representations of schema,
+identity, and context often play a key role, where a schema defines a high-level structure for the
+knowledge graph, identity denotes which nodes in the graph (or in external sources) refer to
+the same real-world entity, while context may indicate a specific setting in which some unit of
+
+1A number of specific definitions for knowledge have been proposed in the literature on epistemology.

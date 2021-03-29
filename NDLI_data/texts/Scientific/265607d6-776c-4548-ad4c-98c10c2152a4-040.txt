@@ -1,0 +1,51 @@
+2. Web Information Retrieval
+
+ 
+
+term weights w,q (Robertson & Zaragoza, 2009). This simplification makes the
+estimation of the probability of relevance tractable, by assuming independence
+among the query terms conditioned on the observation of relevant (and non-
+relevant) documents. To estimate the individual term weights, there have been
+two major directions, depending on whether the presence or the actual frequency
+of terms in a document is considered. The resulting models, respectively, binary
+
+independence and best matching, are discussed next.
+
+Binary Independence Model One of the first instantiations of the PRP was
+the binary independence model (BIM; Robertson & Sparck Jones, 1976). This
+model assumes a presence-absence scenario, where absence is the complementary
+event to presence. Under this assumption, ¢f,, is a binary variable, denoting
+whether or not the term ¢ occurs in the document d. It is further assumed
+that tf, provides evidence of the relevance of the document d for the term f,
+independently of other terms. The general formulation of the PRP under these
+
+particular assumptions leads to the following definition:
+
+Pl tha |Ga) (1 = PUtha Ga)
+
+IM __
+hd = 18 a Ga) than)” 27)
+
+where G, is the relevance set for q and tf, , is either 0 or 1. In the presence of
+actual relevance data (e.g., from the user’s feedback), replacing the probabili-
+ties in Equation (2.7) with their equivalent proportions leads to the well-known
+Robertson / Sparck Jones (RSJ) formula (Robertson & Sparck Jones, 1976):
+
+PS) (nf + 0.5)(n — n* — my + nf + 0.5)
+wa = lo % '
+, (rm — nf + 0.5)(n* — nf + 0.5)
+
+ 
+
+, (2.8)
+
+where 7m is the total number of documents in the corpus that contain the term t,
+nj is the number of such documents that were judged relevant, and n* is the total
+number of documents judged relevant. The introduced factor of 0.5 makes the
+resulting estimation more robust compared to using a simple ratio (Robertson
+& Sparck Jones, 1976). In a usual scenario, in the absence of relevance data,
+n* = nj = 0, in which case the individual term weights in Equation (2.8) closely
+
+approximate the idf formulation in Equation (2.1).
+
+22

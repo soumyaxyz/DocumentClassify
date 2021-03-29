@@ -1,0 +1,57 @@
+63 Computation of QISO*
+
+ 
+
+QISO® on L?(C(T"),7)). But a keeps W = Sp{U;,U* : 1 < i < n} invariant. So a is
+a unitary representation of QISO£ on W. Hence, the matrix ( say M ) corresponding
+to the 2n dimensional representation of QISO*% on W is a unitary in Mon(QI SOF).
+Ai; Bi;
+
+Bi Ai;
+
+Since M is the matrix corresponding to a finite dimensional unitary representation,
+Aj, By;
+
+From the definition of the action it follows that M =
+
+using ( 4 ) of Proposition 1.2.23, we have (k(My1)) = (« is the antipode
+of QISOF ).
+
+Now we apply the antipode « to get some more relations.
+
+Lemma 2.2.7. :
+For all k andi # j,
+
+ 
+
+ 
+
+Ajj Aka = Bei Bei = At Bix = Buj Aci = Buj Ay = Anj Bui = 0. (2.2.23)
+
+Proof : The result follows by applying « on the equations Aj,Aj, = By Bjr =
+By Ajp = Aj, Bir = Air Bye = Bir Aj, = 0 obtained from Lemma 2.2.6. oO
+
+Lemma 2.2.8. :
+
+Aj, is a normal partial isometry for all l,i and hence has same domain and range.
+
+Proof : From the relation ( 2.2.12 ) in Lemma 2.2.5, we have by applying k,
+A*.Aj, + B,,B%,) = 1. Applying Aj; on the right of this equation, we have
+ged Let
+AyAnAu + Uyg(ApAiAu + BuBj An) + Uj BiB Au = Au-
+From Lemma 2.2.6, we have Aj; Aj; = 0 and B¥,A;; = 0 for all 7 41. Moreover, from
+J ji J
+
+Lemma 2.2.5, we have Bj, Aj, = 0. Applying these to the above equation, we have
+Aj Au Ati = Ajj. (2.2.24)
+
+Again, from the relation yj (AA + Bij Bi;) = 1 for all ¢ in Lemma 2.2.5, applying «
+and multiplying by Aj, on the right, we have Aj; Aj, Ay, + > jel Aji Aj Ai; + BEB A; +
+Vix B;,By Aj, = Aj. From Lemma 2.2.6, we have Aj;Aji = 0 for all 7 # | ( hence
+Aj, Aj, = 0 ) and By. Aj; = 0. Moreover, we have By Aj, = 0 from Lemma 2.2.5. Hence,
+we have
+
+Aj Aj, Aj, = Ajj. (2.2.25)
+
+From (2.2.24), we have
+(Aj Au) (AuAj) = AvAi- (2.2.26)

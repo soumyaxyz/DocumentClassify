@@ -1,0 +1,79 @@
+97 Examples and computations
+
+ 
+
+A* A+ ~2CC* = B*B + DD*, (3.4.2)
+A*B=-—pDC*, (3.4.3)
+BYA=-pCD*. (3.4.4)
+
+Proof : The proof follows from the relation ( 1.2.10 ) by comparing coefficients of
+
+ 
+
+ 
+
+ 
+
+ 
+
+1,y*7,a*7* and ay respectively.
+
+Lemma 3.4.3.
+
+AA* + p°CC* = 1, (3.4.5)
+BB* + PDD* = A, (3.4.6)
+BA* = —,2DC*. (3.4.7)
+
+Proof : From the equation ( 1.2.11 ) by equating coefficients of 1 and a*y*, we get
+respectively ( 3.4.5 ) and ( 3.4.7 ) whereas ( 3.4.6 ) is obtained by equating coefficients
+of 7*y and using ( 3.4.5 ).
+
+ 
+
+ 
+
+ 
+
+ 
+
+Lemma 3.4.4.
+
+CO— Oe, (3.4.8)
+(1— 2)O*C = D*D — DD*, (3.4.9)
+C*D = pDC*. (3.4.10)
+
+Proof : The proof follows from the equation ( 1.2.12 ) by comparing the coefficients
+
+ 
+
+ 
+
+ 
+
+of 1, y*y, a*y*, respectively.
+
+ 
+
+Lemma 3.4.5.
+
+—p?AC* + BD* — D*B + pC*A =0, (3.4.11)
+AC* = pC*A, (3.4.12)
+BC* =C"B, (3.4.13)
+AD* = D*A. (3.4.14)
+
+Proof : The proof follows from the equation ( 1.2.13 ) comparing the coefficients of
+
+ 
+
+ 
+
+ 
+
+7,1, a*y7* and ay respectively.
+
+ 
+
+Lemma 3.4.6.
+AC = CA, (3.4.15)
+
+BD=wpDB, (3.4.16)

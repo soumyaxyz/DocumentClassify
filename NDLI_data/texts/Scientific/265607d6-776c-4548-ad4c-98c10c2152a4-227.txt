@@ -1,0 +1,42 @@
+10. Conclusions and Future Work
+
+ 
+
+10.1 Summary of Contributions
+
+In the following, we summarise the main contributions of this thesis.
+
+A taxonomy of diversification approaches In Chapter 3, we proposed a
+taxonomy of existing search result diversification approaches, according to two
+orthogonal dimensions: aspect representation and diversification strategy. The
+first dimension determines how the multiple information needs underlying a query
+are represented as query aspects, whereas the second dimension determines how
+a diversification approach leverages the represented aspects in order to diversify
+the retrieved documents. In Section 3.3, we described the most prominent diver-
+sification approaches in the literature under this unified taxonomy, in order to
+
+enable their systematic comparison across the two considered dimensions.
+
+A probabilistic diversification framework In Chapter 4, we introduced
+xQuAD, a novel framework for search result diversification. As discussed in
+Section 4.1, different from implicit approaches in the literature, xQuAD adopts
+an explicit aspect representation. In turn, different from most other explicit
+approaches, xQuAD’s user-centric aspect representation directly represents the
+multiple possible information needs underlying a query, in the form of sub-queries
+associated with the initial query. Finally, xQuAD’s ranking objective is formally
+defined in probabilistic terms, as demonstrated in Section 4.2. Such a theo-
+retically sound formulation is also general, as it naturally encompasses effective
+
+features of previous approaches, as discussed in Section 4.4.
+
+A thorough validation of the proposed framework In Chapter 5, we thor-
+oughly validated the xQuAD framework in contrast to effective representatives
+of the multiple families of diversification approaches in the literature. In addi-
+tion to validating the framework as a whole in Section 5.2.2.1, we also validated
+its key pillars. In particular, Section 5.2.2.2 validated xQuAD’s hybrid diversi-
+fication strategy, promoting both coverage and novelty in the ranking. In turn,
+Section 5.2.2.3 validated xQuAD’s user-driven aspect representation in contrast
+
+to representations deployed by other approaches in the literature.
+
+209

@@ -1,0 +1,30 @@
+- S.No. 9032 SBE 9:2
+
+(For candidates admitted from 2008-2009 onwards)
+U.G. DEGREE EXAMINATION, APRIL 2012.
+
+Part III — Computer Hardware and Networking —
+Skill Based Elective
+
+ADVANCED HARDWARE CONCEPTS
+Time : Three hours Maximum : 75 marks
+PART A — (10 x 2 = 20)
+Answer ALL questions.
+Define Interface.
+What are the primary keyboard types?
+Define RAID.
+What is the function of the Controllers?
+Define Network.
+What is the use of bus?
+What do you mean by communication interface?
+
+Define clock pointer.
+
+CM ANan pF wo bd
+
+Define Benchmark.
+
+Ss
+°
+
+What is Data Recovery?

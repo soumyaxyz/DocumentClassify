@@ -1,0 +1,96 @@
+Chapter 5: Quantum isometry groups of the Podles spheres 156
+
+ 
+
+In view of the above, let us write:
+
+(A) =18T,4+AQM+B83+B@Th, (5.3.2)
+
+ 
+
+ 
+
+ 
+
+$(B) =1@5,4+A@S4+BQS3+ B25, (5.3.3)
+
+ 
+
+for some Tj, S; in Q.
+
+5.3.2. Homomorphism conditions
+
+In this subsection, we shall use the facts that @ is a *-homomorphism and it preserves
+
+the R-twisted volume to derive relations among T;, $; in ( 5.3.2 ), ( 5.3.3 ).
+
+Lemma 5.3.9.
+
+ 
+
+ 
+
+1-7:
+Ty =
+th
+~ 85
+= :
+1 T+ 12
+
+ 
+
+Proof : We have the expressions of A and B in terms of the SU,,(2) elements from the
+equations (5.1.17 ), (5.1.18 ) and (5.1.19 ). From these, we note that h(A) = (1+ yey!
+and h(B) = 0. By recalling Proposition 5.2.2, we use (h ® id)¢(A) = A(A).1 anc
+(h ® id)¢(B) = h(B).1 to have the above two equations.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Lemma 5.3.10. Tf = 7,, Ty = Tb, Tf = Ts.
+
+Proof : Follows by comparing the coefficients of 1,A and B respectively in the
+
+equation $(A*) = (A).
+
+ 
+
+ 
+
+ 
+
+ 
+
+We shall now assume that js 4 1. The case js = 1 will be discussed separately.
+
+Lemma 5.3.11.
+
+S3Sq + (1 + p2)2S%53 + c(1 + p2)7S%S4
+
+ 
+
+ 
+
+(1 — Tp) (p2 + Ty) — e(1 + 2)? Tg TS — (1 + 2) TFT3 + c(1 + y2)2.1, (5.3.4)
+
+ 
+
+ 
+
+ 
+
+—295 52+ (1+p7)S353+u? (L+p?)S7S4 = (w?+2T2—1)To—p? (1+ p?) TT 3 — (1+?) T3T,
+(5.3.5)
+
+S3.S_ — S$S3 — pSTSy = —T3 + p'T3TX + THT, (5.3.6)
+
+5984 + 5359 = —(u? + To) TF + T3(1 — To), (5.3.7)
+
+5353 + p?S}S2 = —T2T3 — 1° T3Tr, (5.3.8)
+
+SiS3 =—T}. (5.3.9)

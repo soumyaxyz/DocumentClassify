@@ -1,0 +1,18 @@
+Business Layer- Program Management
+
+This component of the business layer ensures that people, projects, and
+priorities work in a manner in which individual processes are compatible with
+each other so as to ensure seamless integration and smooth functioning of the
+entire program. It should attend to each of the following:
+
+¢ Business priorities
+¢ Mission and goals
+* Strategies and risks
+¢ Multiple projects
+* Dependencies
+
+* Cost and value
+
+¢ Business rules
+
+¢ Infrastructure

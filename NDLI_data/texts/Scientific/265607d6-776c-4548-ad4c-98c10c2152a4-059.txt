@@ -1,0 +1,49 @@
+2. Web Information Retrieval
+
+ 
+
+as the probability of that document being visited by the random walker. The
+
+PageRank (PR) of a document d in a graph with n documents is given by:
+
+pa (qd) = +70 fir(asds) (2.45)
+
+%, ar
+
+where Ra d) is the PageRank of d at the i-th iteration, with f (q,d) = (1/n)
+for all d, Ba is the set of documents linking to d, fop(q,dj;) is the outdegree
+of d; € By, given by Equation (2.44), and 7 is a damping factor, which can
+be interpreted as the probability that a random walker will stop following the
+chain of hyperlinks and “jump” to a randomly selected document. The algorithm
+iterates until the computed PageRank scores stabilise within a given threshold or
+until a predefined number of iterations is performed (Brin & Page, 1998).
+
+An alternative, rich source of off-document ranking evidence is based on the
+quality of a document as perceived by web search users rather than other web
+authors. In particular, a web search engine can record in a query log a variety of
+signals describing the interaction of search users during their search tasks. One
+class of such signals is click evidence. While not all searches lead to clicks—
+for both positive and negative reasons (Li et al., 2009; Stamou & Efthimiadis,
+2010)—a click on a document ranked in response to a query can be seen as an
+implicit judgement of the relevance of this document, of the non-relevance of the
+documents ranked ahead of it that were skipped or, more generally, of the user’s
+preference for the clicked document over the skipped ones (Joachims, 2002).
+
+A simple query-independent feature can also be derived by leveraging click
+evidence. In particular, given the sets of documents displayed (R,,) and clicked
+(Ky,) for each query q; in a query log L, the click likelihood (CL) of a document
+d models the probability that d will receive a click regardless of any particular
+
+query (Richardson et al., 2007), according to:
+
+acl 1K, (4)
+
+fouls d) = $y:
+
+(2.46)
+
+where the indicator functions 1,,,(d) and 1e,,(d) determine whether the docu-
+
+ment d belongs to each of the aforementioned sets for each query q in the log.
+
+41

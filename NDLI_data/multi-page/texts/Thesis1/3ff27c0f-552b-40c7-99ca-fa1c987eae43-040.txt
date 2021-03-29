@@ -1,0 +1,74 @@
+Chapter 1: Preliminaries 28
+
+1.2.17 ) and ( 1.2.21 ), we have
+
++4
+= Sigs pou,
+—(1+4)
+aitiji4+i d
+
+_ BI+a) ee * 1
+= ay Ga+aey (De fia ® ta)
+
+al+hitsy[o .. 1 a 1
+= SENS hte @ arte + YO ofie @ 7th
+ee k=-l k=l
+PROG a net Barth, s Fiza p34 7 “thy
+a(l+4,k+4) 4 e(I,k — 4)
+
+ 
+
+ 
+
+ 
+
+yi “Lk—2 it yl
+2 al(l,k a)Figa pact, Bs 2 Sipe ®@ Vb 2)
+
+a(i,1) yo a(l+ 4,k) e(I, k)
+
+k=—l+3 k=-I-4
+
+ 
+
+Let —/ +3 < k <1— 3. Then comparing coefficient of Sips a we have e2 142
+
+a(l+5,l+3) ie 2)
+iC) a(l+4,k)
+ts Layt
+Applying the same procedure for k = —l—}, we have ie ie = a lary test
+
+ 
+
+att! eat aye a 1] which proves the first equation of ( 1.2.18 ).
+=
+
+ 
+
+ 
+
+which proves the second equation of ( Ls 2 18 .
+1 1 "pL
+Similarly, for k =1+4 x, we have i ld = ee Patt 1 A which proves
+
+the third equation of ( 1.2.18 ). This completes the proof of ( 1.2.18 ).
+Next, to prove ( 1.2.19 ), we apply coproduct on ( 1.2.20 ) and use ( 1.2.17 ) and (
+1.2.21 ) to have
+
+145
+
+3 Jigs note
+k=—(44)
+L
+
+cl(a@a-py OY) fik ®t i41)
+
+k=l
+L n
+= o(l,)( 0 afin ® oth isd — SO fix @ wth 43)
+k=l k=—n
+Lie 1 1 “, 1
+= ef 1) De health} Ga 43 — e( bd at = ee a+ kp ay thers ®
+
+ail
+u Ven ipt

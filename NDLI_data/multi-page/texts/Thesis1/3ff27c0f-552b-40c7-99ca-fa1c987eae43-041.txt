@@ -1,0 +1,83 @@
+29 Quantum Groups
+
+ 
+
+Hs
+. a(l,k — 3)
+oy, a ap fitk Otis itd — e(1,7) alent 4®
+k=-I-} k=-l44
+
+ut! sae
+Mbit
+
+yt
+: e : 14g
+For —l + 4 <k<l- 3, by comparing coefficient of Site we have t, 7 =
+
+(i) 941 e(l,ia(t,k—4)
+aR)
+
+ 
+
+Liga — alah HY yeh Ligd which proves the first equation of ( 1.2.19 ).
+4g i
+Comparing coefficient of f; 427-1, we have 2 13 = Tee aay 1 from which
+272 3, lg
+we get the second and the third equation of ( 1.2.19 ).
+ari ave #12. = —cltia(lsl)
+Comparing coefficient of Sigh iees we have fala = ate, itd from which
+
+ 
+
+ 
+
+we get the last equation of ( 1.2.19 ).
+
+ 
+
+ 
+
+We recall the following multiplication rule from Page 74, [37] which we are going to
+
+need :
+
+tt! = » ex(li, jt (1.2.23)
+
+IIb
+bd Meee gag
+k=|l-1/2|,....1+1/2
+(cx (1,7, 9,0, 7’) are scalars).
+
+1.2.5 The Hopf +-algebras O(SU,,(2)) and U,,(su(2))
+
+We define the Hopf *-algebra O(SU,(2)) following the notations of [37].
+
+O(SL,,(2)) is the complex associative algebra with generators a, b,c,d such that
+
+ 
+
+ab = ba, ac = pica, bd = pdb, cd = ude, be = cb, ad— be = da— tbe = 1. (1.2.24)
+
+ 
+
+ 
+
+ 
+
+The coproduct is given by
+A(a) =a@at+b@c, A(b)=a@b+bed,
+
+A(c) =c®a+d@c, A(d)=c@b+ded.
+
+The antipode is
+
+ 
+
+K(a) =d, K(b) = —b, K(c) = —c, K(d) =a
+
+Finally, the counit is
+e(a) = €(d) = 1, €(b) =e(c) =0.
+
+For all / in R, there is an involution of the algebra O(SL,,(2)) determined by
+
+a=d, b* =— p00. (1.2.25)

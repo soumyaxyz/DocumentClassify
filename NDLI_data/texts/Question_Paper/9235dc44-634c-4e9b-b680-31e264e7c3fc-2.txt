@@ -1,0 +1,105 @@
+10.
+
+11.
+
+12.
+
+13.
+
+State the second fundamental form.
+
+Find the Christoffel symbols J,m,n,A,u and v for
+the surface whose metric is ds? = du? + Dlv?.
+Explain what is meant by indicatrix.
+
+(a)
+
+))
+
+(a)
+
+(b)
+
+(a)
+
+(b)
+
+SECTION B — (5 x 5 = 25)
+Answer ALL questions.
+
+Show that the linear combination of tensors
+of the same type and rank is again a tensor
+of the same type and rank.
+
+Or
+Prove that, if A(i,j,k)A‘B/C, is a scalar
+quantity for arbitrary vectors A‘,B/’ and C,,
+then A(i,j,k) is a tensor.
+
+Define Riemann-Christoffel tensor of first
+kind and state its properties.
+
+Or
+
+Define Christoffel’s symbols of first and
+second kind and bring out the relation
+between them.
+
+Obtain curvature and torsion for the curve
+x = a(8u -u*),y = 3au”,z =a(3u+u).
+Or
+
+Find the involute of a circular helix given by
+x =acos6, y=asin@,z=adtana. ©
+
+2 S.No. 4314
+
+14.
+
+15.
+
+16.
+
+(a)
+
+(b)
+
+(a)
+
+(b)
+
+(a)
+
+Prove that the indicatrix at every point of the
+helicoid x =ucosv,y=usinv,z=av is a
+
+rectangular hyperbola.
+Or
+
+State Euler’s theorem of surface theory and
+use it show that the sum of normal
+curvatures to any point on a surface in two
+directions at right angles is constant and
+equal to sum of the principal curvatures at
+that point.
+
+Derive the theorem of Liebmann.
+
+Or
+
+Establish a correspondence between the
+points of a catenoid and of a right helicoid
+such that at corresponding points the
+Gaussian curvature are the same.
+
+SECTION C — (3 x 10 = 30)
+Answer ALL questions.
+
+Find the expressions for ds?in cylindrical
+
+coordinates (r,6,z) and in_ spherical
+coordinates (r,0,9).
+
+Or
+
+3 S.No. 4314

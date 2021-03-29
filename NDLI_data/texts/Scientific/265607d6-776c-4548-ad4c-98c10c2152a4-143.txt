@@ -1,0 +1,46 @@
+6. Sub-Query Generation
+
+ 
+
+located in the log. To tackle this data sparsity problem, Broccolo et al. (2012)
+proposed to represent queries in a query log as virtual documents. This bag-
+of-words representation comprises not only the words in the query itself, but
+also those present in other queries with a common session in the log. Such a
+representation combats data sparsity, since even previously unseen queries (i.e.,
+queries without an exact match in the query log) will likely have at least one of
+heir constituent words present in the log, which in turn may occur frequently
+in the virtual document representation of a relevant suggestion. Additionally,
+this representation enables the suggestion problem to be efficiently tackled as a
+standard search over an inverted index, with the potential to scale to extremely
+arge query logs (Dean, 2009). On the other hand, this representation lacks a
+more fine-grained treatment of the multiple evidence available for ranking. In
+articular, it does not distinguish between words from different sources.
+
+In order to address this issue and to produce an effective sample of candidate
+suggestions for learning to rank, we improve upon the bag-of-words representa-
+ion proposed by Broccolo et al. (2012) by considering each available source of
+
+evidence as a separate field in a structured virtual document.! As a result, words
+
+ 
+
+that appear in a query suggestion can be weighted differently from those that
+appear in related queries with a common session. Moreover, we integrate an ad-
+ditional source of evidence as a third field in our structured virtual document
+representation. In particular, for each candidate suggestion, we also store words
+from queries with at least one common click in the query log. As an illustrative
+example, Figure 6.1 shows an excerpt of the structured virtual document repre-
+senting “metallica” as a candidate suggestion, highlighting this query itself (Q),
+co-session queries (S), and queries with a common click (C) as separate fields.
+Also note the “count” attribute for each entry (E) in Figure 6.1, which denotes
+the frequency with which this entry co-occurs with “metallica” in the entire query
+log (e.g., the queries “metallica” and “james hetfield” have 60 common clicks).
+During indexing, the term frequency ¢f,,, of each term ¢ in a suggestion s is com-
+puted as the sum of the “count” values across all entries of s where t occurs.
+
+TAn analogy to the document ranking problem can be made in which field-based models,
+
+such as BM25F (Zaragoza et al., 2004), leverage evidence from fields such as the title, body,
+URL, or the anchor text of incoming hyperlinks in order to score a document.
+
+125

@@ -1,0 +1,54 @@
+76 8. REALITY IN GROUPS OF TYPE G2
+
+on Q (Proposition 3.1.6), denote its norm by Ng. We double Q with 7? = c € k* to
+
+get an octonion algebra € = Q © Q with multiplication,
+(x,y) (u,v) = (wu + cdy, va + yu)
+
+and the norm N((x,y)) = Ne(«) — cNe(y). We choose a basis {1, a,b, ab} of Q,
+orthogonal for Ng, so that Ng has diagonalization < 1,1,2,2 > with respect to this
+basis. This gives a basis {(1, 0), (a, 0), (b, 0), (ab, 0), (0, 1), (0, a), (0, 6), (0, ab)} of € and
+the diagonalization of N with respect to this basis is < 1,1,2,2,—c,—c, -—2c,—2c >.
+We observe that the subalgebra k @ k C € is isomorphic to L and L+ = Fx Fisa3
+dimensional vector space over L with hermitian form < 1,2,2 >. Hence SU(L+,)),
+with respect to the basis {(a,0), (b, 0), (ab,0)} of L+, is SU(H) for H =< 1,2,2 >.
+Hence, from the discussion in previous paragraph, we have an element of required
+type in SU(L+,}).
+
+By Lemma 8.4.1, L'/N(E') is nontrivial. It follows from Proposition 8.2.7 and
+
+Proposition 8.2.14 that not all (semisimple) elements in Aut(€), which are containec
+
+ 
+
+ 
+
+ 
+
+ 
+
+in the subgroup SU(£, tr), are real.
+
+Corollary 8.4.3. Let k be a totally real number field. Then there exists an octo-
+nion division algebra € over k such that not every element in Aut(€) is real. Hence
+there exist (semisimple) elements in Aut(€), which are the product of three involutions
+
+but not the product of two involutions.
+
+Proof. We recall from Lemma 3.1.5 that if the k-quadratic form qy, corresponding
+to the bilinear form b: E x E —> k, defined by 6(x, y) = trzjz (xi) + treyt(Xy), is
+anisotropic then the octonion algebra €, as constructed in the proof of the above
+proposition, is a division algebra. In case when k is a totally real number field and
+L = k(t), the diagonalization of qy is < 1,2,2,1,2,2 >, which is clearly anisotropic
+over k. O
+
+Remarks 8.4.4. 1. We note that the quadratic form qp as above, can be isotropic
+for imaginary quadratic number fields. For example if k = Q(/—2), qp has diago-
+nalization < 1,—1,—-1,—c,c,c >, which is isotropic. Hence the octonion algebra €
+in this case is split. Therefore, indecomposable tori in subgroups SU(V,h) C Aut(€)
+exist in all situations, whether € is division or not. And in either case, there are
+nonreal elements.
+
+2. It seems likely that existence of nonreal elements in G(k) for k a number field
+
+should follow from existence of such elements in G(k) for k local.

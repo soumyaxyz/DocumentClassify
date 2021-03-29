@@ -1,0 +1,73 @@
+A.5_ Particular case: node embedding
+
+If Y = R” and G = S,, the permutation group, the description of F(x) can be simplified further.
+Actually, though the idea of its proof will appear again later, this result in itself will not be used.
+We will indeed need a version of this result allowing for node features in the output. However, we
+encourage the reader to go through the proof for this corollary before reading the proofs of the next
+sections. The proof of Cor. 19 indeed uses some of the ideas as the proof below but in a more intricate
+setting.
+
+Corollary 19. Under the assumptions of Thm. 11, and if in addition, Y = R" and G = S,, acting
+on R" by, fora € Sp, x € R",
+
+Vi € {1,...,p}, (0-2): = fo-104) ,
+Then the closure of F (for the topology of uniform convergence) is,
+F = {f €Coq(X,Y) : oF) C o(f)} -
+
+Proof. All we have to show is that, if h € Ceq(X,Y) such that p(F) C p(h), then for any 1 € X,
+h(a) € F(a). By Thm. 11, F (2) is of the form,
+
+F(x) = {y € RP: Vi,j) € T(x), wi = yy},
+with I(x) is given by,
+
+I(x) = {(4,9) € {1,..., py: Vy € F(x), yi = yj} -
+Take h € Ceg(X,Y) such that p(F) C p(h) and fix « € X. Our goal is to show that, for any
+(i,j) € I(x), h(x); = h(x); so that h(x) € F(x). But, if (i,j) € I(x), then for any f € F,
+f(x); = f(x); so that (i 7) - f(x) = f(x), where (i 7) denotes the permutation which exchanges 7
+and j. Moreover, as (i j) € S, = G, by equivariance, this means that f((i 7) - x) = f(x) for every
+f € F and therefore that ((¢ j)-2,x) € p(F). By assumption, we infer that ((i 7) -x,2) € p(h) too,
+ie. that h(i j) + x) = h(a) and so that h(x); = h(x); by equivariance, which concludes our proof.
+
+ 
+
+ 
+
+ 
+
+ 
+
+A.6_ A practical reduction for the two particular cases
+
+Though the results we proved above were formulated using classic hypotheses, such as requiring F
+to be a subalgebra, we can give much more compact versions for our setting. We also reduce the
+assumption that p(F sca) C p(m o F) to a more practical one.
+
+We start with a lemma explaining our interest in the new formulation. This lemma describes a general
+property of classes of GNN which end with a MLP.
+
+Lemma 20. Fix X some compact space, n > 1 and F a finite-dimensional feature space. Let
+Fo C Up. C(X, R") be stable by concatenation and consider,
+
+F ={x- (m(f(x)1),---,m(f(@)n)) : f € Fone(X,R"), m:R" + FMLP, h > 1} C C(X,F).
+
+Then, if E(F) © C(X, F) is the set of functions obtained by replacing the MLP m in the definition of
+F by an arbitrary continuous function, E(F) satisfies,
+
+1. F=€(F)
+2. p(F) = p(E(F))
+3. For any h € C(F?,F), f,g € E(F),
+ary (h(f(a)1,9(@)1),-+- MF (@)ns 9(@)n)) € E(F)-
+4. If, for any f € F,
+
+n
+
+rH (= FlenS> Heh Feo) EF,
+i=1 t=1
+
+i=l
+then, for any f € E(F),
+
+rH (= f(a) So f@)i-- “Yse) €E(F).
+i=l i=l i=1
+
+22

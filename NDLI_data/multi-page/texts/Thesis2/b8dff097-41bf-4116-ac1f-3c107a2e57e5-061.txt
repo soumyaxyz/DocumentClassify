@@ -1,0 +1,59 @@
+7.2. GROUPS OF TYPE A; 49
+
+where aabbcé = —1. Suppose T? = 1. Then aa = 1, bb = 1,c@ = 1. This implies that
+aabbcé = 1, a contradiction. Hence there is no involution in SLe¢(k) conjugating S' to
+Sie, S is real semisimple but not strongly real in SL¢(k).
+1 1
+2. Let us take A = oil a unipotent element in SL2(k). Then any element
+
+X € GL2(k) such that X AX! = A7! has the form X = ( ) y ) Then, A is
+
+conjugate to A! in SL2(k) if and only if —1 is a square in k. In that case (—1 is a
+square in k) the element X which conjugates A to its inverse satisfies X? = —1, not
+
+an involution, and hence A is not strongly real in SL(k).
+
+7.2. Groups of Type A,
+
+In this section we study real semisimple elements in SLo(k) and PSL2(k) =
+SLo(k)/Z(SLo(k)). We fix an algebraic closure k of k. Let G = SLo(k). We fix the
+maximal torus T = {diag(a,a7!) |a € k*} in G.
+
+Lemma 7.2.1. With notation as above, every semisimple element of G = SL2(k)
+is real in G. The only involutions in G are {I,—-I}, hence non-central semisimple
+elements are not a product of involutions. Moreover, every semisimple element of
+G is conjugate to its inverse by an involution in GLo(k), hence is strongly real in
+GL4(k).
+
+Proof. Let t € SL2(k) be semisimple. First, assume that t = diag(a,a7') € T.
+
+-1 _
+Let g = ( , 0 ) € SLo(k). Then g? = —1 and
+
+aa{° 7 a 0 0 1\ fat o _aed
+mI V1 0 0 a -10}/ \oaj ¢
+
+Hence, for any t ET, gtg-! =t7t.
+
+0 1
+Now let n = tor Then we have, for any t € T, ntn7
+
+involution with det(n) = —1. Hence, for any t € 7’, we have t = n.nt, a product
+
+'—¢-! and n is an
+
+of two involutions in GLo(k). Now, if s € SLe(k) is semisimple then gsg7! € T for
+some g € SLa(k). If gsg~! = pipe, p; € GL2(k), pp = 1, then s = g™'pig.g7! pag, an
+g ‘pig are involutions in GL»(k).
+
+ 
+
+ 
+
+ 
+
+ 
+
+Corollary 7.2.2. Let G = PSL2(k) and t be a semisimple element in G. Then t
+
+is real in G if and only if t is strongly real in G.

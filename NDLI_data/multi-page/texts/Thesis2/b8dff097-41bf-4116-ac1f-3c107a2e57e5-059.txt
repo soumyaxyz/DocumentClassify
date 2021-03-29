@@ -1,0 +1,43 @@
+CHAPTER 7
+Reality in Classical Groups
+
+In this chapter we discuss structure of real elements in classical groups. These
+groups have been described in Chapter 1. We prove the results mentioned in Sec-
+
+tion 6.1. The results in this section are part of [ST2].
+
+7.1. The Groups GL, (k) and SL,,(k)
+
+We begin by recording a theorem of Wonenburger ([W1], Theorem 1) for GLn,
+
+which, in fact, is the motivating example for our results.
+
+Proposition 7.1.1. An element of GL,(k) is real if and only if it is strongly real
+in GL,(k).
+
+In this section we explore the structure of real elements in SL,(k). We follow the
+
+proof of Wonenburger for GL,,(k) ([W1], Theorem 1) and modify it for our purpose.
+
+Theorem 7.1.2. Let V be a vector space of dimension n over k. Lett € SL(V).
+Suppose n #2 (mod 4). Then t is real in SL(V) if and only if t is strongly real in
+SL(V).
+
+Proof. Let 6,(X),...,6,(X) be the invariant factors of t in kLX]. Since t is real,
+each 6;(X) is self-reciprocal. The space V decomposes as V = @'_,V;, where each V; is
+a cyclic, t invariant subspace of V and the minimal polynomial of t; = tly, is the self-
+reciprocal polynomial 6;(X). We shall construct involutions H; in GL(V;), conjugating
+t; to t;', with det(H;) = (—1)™ if dimension of V; = 2m and det(H;) = (—1)™ or
+(—1)™+! when dimension of V; = 2m +1. We then take H = 6',H;. Then H is an
+involution conjugating ¢ to t~! and det(H) = 1 if dim(V) 4 2 (mod 4).
+
+Now t; is a cyclic linear transformation on the vector space V; with characteristic
+polynomial y;,(X) = 6;(X) self-reciprocal. We can write \;,(X) = (X — 1)"(X +
+1)*f(X) where f(+1) 40 and V; = W_1 @W, @ Wo, where W_1, W, and Wo are the
+kernels of (¢; — 1)", (t; + 1)* and f(t;) respectively. To produce the involution H; on
+
+ 
+
+V; as above, it suffices to do so on each of W_1,W, and Wo. Hence it is enough to
+
+AT

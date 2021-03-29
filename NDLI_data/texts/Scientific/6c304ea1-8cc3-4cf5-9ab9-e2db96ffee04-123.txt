@@ -1,0 +1,55 @@
+We may note in this example that the total number of nodes is duplicated in the vector for each
+node of the graph. Part of the benefit of GPFs is that only local information in the neighbourhood of
+the node is required for each computation step. In practice, such frameworks may allow additional
+features, such as global computation steps whose results are made available to all nodes [314],
+operations that dynamically modify the graph [314], etc.
+
+B.6.2_ Knowledge graph embeddings. As discussed in Section 5.2, knowledge graph embeddings
+represent graphs in a low-dimensional numeric space.*’ Before defining the key notions, we
+introduce mathematical objects related to tensor calculus, on which embeddings heavily rely.
+
+Definition B.48 (Vector, matrix, tensor, order, mode). For any positive integer n, a vector of dimen-
+sion a is a family of real numbers indexed by integers in {1,..., a}. For a and b positive integers, an
+(a, b)-matrix is a family of real numbers indexed by pairs of integers in {1,...,a} x {1,...,bD}. A
+tensor is a family of real numbers indexed by a finite sequence of integers such that there exist pos-
+itive numbers aj,...,@, such that the indices are all the numbers in {1,...,a:} X...X {1,..., an}.
+The number n is called the order of the tensor, the subindices i € {1,...,n} indicate the mode of a
+tensor, and each a; defines the dimension of the it mode. A 1-order tensor is a vector and a 2-order
+tensor is a matrix. We denote the set of all tensors as T.
+
+For specific dimensions aj, . . .,@, of modes, a tensor is an element of (- - - (R“')--)*" but we write
+R*"--~4n to simplify the notation. We use lower-case bold font to denote vectors (x € R*), upper-
+case bold font to denote matrices (X € R%*) and calligraphic font to denote tensors (X € R@--»4).
+
+Now we are ready to abstractly define knowledge graph embeddings.
+
+Definition B.49 (Knowledge graph embedding). Given a directed edge-labelled graph G = (V, E, L),
+a knowledge graph embedding of G is a pair of mappings (¢, p) such that e: V > Tandp:L— T.
+
+In the most typical case, € and p map nodes and edge-labels, respectively, to vectors of fixed
+dimension. In some cases, however, they may map to matrices. Given this abstract notion of a
+knowledge graph embedding, we can then define a plausibility score.
+
+Definition B.50 (Plausibility). A plausibility scoring function is a partial function ¢ : TXTxXT > R.
+Given a directed edge-labelled graph G = (V, E, L), an edge (s, p,o0) € V x L x V, and a knowledge
+graph embedding (e, p) of G, the plausibility of (s, p, 0) is given as (e(s), p(p), €(0)).
+
+Edges with higher scores are considered to be more plausible. Given a graph G = (V, E, L), we
+assume a set of positive edges E* and a set of negative edges E~. Positive edges are often simply
+the edges in the graph: E* := E. Negative edges use the vocabulary of G (i.e., E7 C V x Lx V) and
+typically are defined by taking edges (s, p, 0) from E and changing one of the terms of each edge -
+most often, but not always, one of the nodes — such that the edge is no longer in E. Given sets of
+positive and negative edges, and a plausibility scoring function, the objective is then to find the
+embedding that maximises the plausibility of edges in E* while minimising the plausibility of edges
+in E-. Specific knowledge graph embeddings then instantiate the type of embedding considered
+and the plausibility scoring function in (a wide variety of) different ways.
+
+In Table 7, we define the plausibility scoring function used by different models for knowledge
+graph embeddings, and further provide details of the types of embeddings considered. To simplify
+the definitions of embeddings given in Table 7, we will use e, to denote e(x) when it is a vector,
+
+43To the best of our knowledge, the term “knowledge graph embedding” was coined by Wang et al. [521] in order to distinguish
+the case from a “graph embedding” that considers a single relation (i.e., an undirected or directed graph). Earlier papers
+rather used the phrase “multi-relational data” [59, 185, 364].
+
+123

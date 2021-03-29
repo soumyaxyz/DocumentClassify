@@ -1,0 +1,69 @@
+2. Web Information Retrieval
+
+ 
+
+hypothesis space H. Lastly, the loss incurred by the predicted output for the input
+learning instances compared to these instances’ expected output is quantified by
+a loss function A, which is used to guide the learning process towards improved
+ranking functions, for instance, by iteratively minimising the observed loss.
+
+As a supervised or semi-supervised learning task, learning to rank requires
+some form of training (Macdonald, Santos & Ounis, 2013). As illustrated in
+Figure 2.5, the training data comprises a sample {(xij, yi) te for each training
+query q;, including a feature vector representation x;; and an output label y,; for
+each of the top ng, documents retrieved for q;, typically by using one of the query-
+dependent ranking approaches described in Section 2.2.1. The training samples
+are used by a learner module to produce a ranking function h with optimal effec-
+tiveness on the training queries, as measured by the loss function A. To reduce
+the possibility that the learned function is overfitted to the training data, and
+hence generalises poorly to unseen queries, separate validation samples may be
+used to guide the learner. Finally, given a test query q with a sample {(x;,? yea
+sharing the same feature space with the training and validation samples, a ranker
+module applies the learned function h in order to produce an ideally more effective
+
+permutation of the documents in the initial sample.
+
+ 
+   
+
+  
+ 
+ 
+
+Fs {KVM J 1, os Mg,
+Wp: {(Xaj Vo} J= 1, os Nay
+
+Dy {pid J Vs os Ng,
+Da {(KypVoi) bs J Vs vos ng
+
+  
+    
+  
+
+  
+
+Gm Kemp Yon L= As oes Mg | | Gin Kp Ynd J= As os Ma,
+Test sample
+
+40%) Mh T= 1s oes My
+
+     
+  
+
+Validation
+samples
+
+Training
+samples
+
+[| teaner |
+
+   
+
+Ranking model
+g {0% ,(X))}, J= 1h oes Mg
+Predicted ranking
+
+Figure 2.5: Discriminative learning framework.
+
+43

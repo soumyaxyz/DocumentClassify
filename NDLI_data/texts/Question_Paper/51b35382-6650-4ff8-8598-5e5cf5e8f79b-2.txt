@@ -1,0 +1,97 @@
+10.
+
+OL
+
+12.
+
+13.
+
+14.
+
+What is a transparency?
+
+What is a texture?
+
+(a)
+
+(b)
+(a)
+
+(b)
+(a)
+
+(b)
+
+(a)
+
+(b)
+
+PART B — (5 x 5 = 25)
+
+Answer ALL questions.
+
+Compare LMB and MMB.
+Or
+
+Write a short note on Hot Box.
+
+What are the advantages of using Lasso tool?
+Or
+Write a short note on snapping.
+
+Discuss briefly about viewing and editing
+keyframes.
+
+Or
+
+Write down the differences that exists
+between time slider and range slider in
+editing keyframes.
+
+Write notes on squash and stretch.
+
+Or
+
+Describe about the joint tool options in
+detail.
+Z S.No. 9002
+
+15.
+
+16.
+
+Ne
+
+18.
+
+19,
+
+20.
+
+(a) Explain about strokes.
+
+Or
+
+(b) Write a brief note on rendering.
+PART C — (8 x 10 = 30)
+Answer any THREE questions.
+
+Discuss briefly about manipulating and saving the
+scenes.
+
+Explain in detail about moving, rotating and
+scaling of an object.
+
+Describe the creating a simple animation of a
+bouncing ball. :
+
+- Explain the following:
+
+(a) Track editor
+(b) Soft body and Rigid body
+(c) Fluid effects.
+
+Explain in detail about MEL scripts with an
+example.
+
+3 S.No. 9002

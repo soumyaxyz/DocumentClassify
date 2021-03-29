@@ -1,0 +1,19 @@
+Talcele eel)
+
+Infinitesimal generator: The infinitesimal generator of the
+one-parameter Lie group of transformations x* = X (x; ) is the
+
+ 
+
+operator
+z a
+X =X(x) = (x).V = G(x)
+i=1
+where
+(2,8 9 a)
+~ AX.” OXe2’ AX3’ OXn
+For any differentiable function F(x) = F(x1,X2,X3,+++-+- Xn)
+sore,
+XF(x) = - Date a
+
+Pace an tn

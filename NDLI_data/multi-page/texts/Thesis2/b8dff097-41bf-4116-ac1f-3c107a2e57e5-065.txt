@@ -1,0 +1,71 @@
+7.4. ORTHOGONAL GROUPS 53
+
+ 
+
+with \ 4 +1 in SO(J) where J is the matrix of the quadratic form over k given by
+
+00... 01
+0S 00... 10
+
+= 3 0 where S=] _ |, anm x m matrix. Now suppose A
+10... 0.0
+
+is real in SO(,J), i.e., there exists T € SO(J) such that TAT~! = A~!. Then T maps
+
+the A-cigen subspace of A to the \~!-eigen subspace of A and vice-versa. Hence T
+
+(22)
+
+for m x m matrices B and C. Since T is orthogonal, it satisfies TJT = J, which
+gives BSC = S. That is, det(B) det(C) = 1. Hence det(T) = (—1)™ det(B) det(C) =
+— det(B) det(C) = —1 since m is odd. This contradicts that T € SO(J). Hence A is
+not real in SO(J) and hence t is not real in SO(Q).
+
+has the following form:
+
+ 
+
+ 
+
+ 
+
+ 
+
+Lemma 7.4.5. Let dim(V) =0 (mod 4) andt € SO(Q) be semisimple. Suppose
+t has only two distinct eigenvalues \ and \~\(hence \ # £1) over k. Then, any
+element g € O(Q) such that gtg-! = t~ belongs to SO(Q), i.e., det(g) = 1.
+
+ 
+
+Proof. We follow the notation in the previous lemma. Let dim(V) = 2m, where
+
+m is even. As in the proof of the previous lemma, we may assume t is diagonal. Then
+
+_ 0 B
+any element T that conjugates t to t7' over k, is of the form T = Cor We
+
+have det(T) = (—1)™ det(B) det(C) = det(B) det(C) = 1. Since g is a conjugate of
+
+T, the claim follows.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Now we state the main theorem about special orthogonal groups.
+
+Theorem 7.4.6. Let t © SO(Q) be a semisimple element. Then, t is real in
+SO(Q) if and only if t is strongly real in SO(Q).
+
+Proof. If dim(V) #2 (mod 4) then the theorem follows from Propositions 7.4.2
+and 7.4.3. Hence let us assume that dim(V) = 2 (mod 4). Let dim(V) = 2m where
+m is odd. In this case we will prove that the element t is real in SO(Q) if and only
+if 1 or —1 is an eigenvalue of t.
+
+First we prove that if 1 and —1 are not eigenvalues then t is not real. It is enough
+
+to prove this statement over k. We write V = V @, k and continue to denote t over

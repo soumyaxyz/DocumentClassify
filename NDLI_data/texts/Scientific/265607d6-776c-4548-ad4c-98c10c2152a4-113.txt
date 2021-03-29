@@ -1,0 +1,48 @@
+4. The xQuAD Framework
+
+ 
+
+Given the formulation in Equation (4.11), we can compute the updated novelty
+
+matrix N“) after the first iteration according to:
+
+1.00 — 0. : j ell
+NO = 00 — 0.70 0.00 0.60 _ 0.18 (4.12)
+0.00 1.00 — 0.60} |0.40 0.16
+
+Fixing the highest scored document in the first iteration, d2, and replacing
+the updated novelty vector from Equation (4.12) back into Equation (4.9), we
+
+can select the second most diverse document, according to:
+
+0.70 0.30. 0.40 0.41] (d:)
+0.30 0.20 0.30] [0.18 0.19 d
+X? = (1-0.5) +0.5 = (ds) (4.13)
+0.20 0.70 0.80] }0.16 0.23} (da)
+0.10 | [0.40 0.20| | 0.10 (ds)
+
+where document d, is selected as the next best document. By updating the
+novelty vector at the end of each iteration using Equation (4.11), and re-scoring
+the yet unselected documents using Equation (4.9) with the updated novelty
+
+estimations, we can iteratively select the next documents, according to:
+
+0.30 0.20 0.30 a8 0.17 (d3)
+x® = (1—0.5) }0.20} +0.5 }0.70 0.80 . |- 0.18 (d4), (4.14)
+0.10 0.40 0.20 0.08 (ds)
+0.30 0.20 0.30] |0.04 0.16 d.
+x = (1-0.5) +0.5 = (ds) (4.15)
+0.10 0.40 0.20} |0.02 0.06 (ds)
+0.03
+6 (4, y _
+x (1 —0.5) [0.10] + 0.5 [0.40 0.20] re [0.06] (ds). (4.16)
+
+At the end of the 5-th iteration, D, = {do, di, di, d3, ds} is selected by xQuAD
+as a diverse permutation of the initial ranking R,. Importantly, the probabil-
+ities computed by xQuAD are guaranteed to be monotonically non-increasing,
+since the estimations of novelty cannot increase and everything else is held fixed
+as the diversification progresses. As a result, the final ranking induced by the
+
+probabilities computed by xQuAD is stable across multiple iterations.
+
+95

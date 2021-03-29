@@ -1,0 +1,3 @@
+is computed. In particular, it follows that Q7SO* in general may not be a matrix
+
+quantum group and that it may not have a C™ action.

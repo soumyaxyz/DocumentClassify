@@ -1,0 +1,123 @@
+Kandimalla et al.
+
+Larsen, P. and von Ins, M. (2010). The rate of
+growth in scientific publication and the decline
+in coverage provided by science citation index.
+Scientometrics 84, 575-603
+
+LeCun, Y., Boser, B. E., Denker, J. S., Henderson,
+D., Howard, R. E., Hubbard, W. E., et al.
+(1989). Handwritten digit recognition with
+a back-propagation network. In Advances in
+Neural Information Processing Systems 2, [NIPS
+Conference]
+
+Llewellyn, C., Grover, C., Alex, B., Oberlander,
+J., and Tobin, R. (2015). Extracting a topic
+specific dataset from a twitter archive. In TPDL
+Conference
+
+Matsuda, K. and Fukushima, T. (1999). Task-
+oriented world wide web retrieval by document
+type classification. In Proceedings of CIKM
+
+Mikolov, T., Chen, K., Corrado, G.,
+Dean, J. (2013a). Efficient estimation of
+word representations in vector space. CoRR
+abs/1301.3781
+
+Mikolov, T., Yih, W., and Zweig, G. (2013b).
+Linguistic regularities in continuous space word
+representations. In Proceedings of NAACL-HLT
+
+Moscato, P. and Cotta, C. (2003). A Gentle
+Introduction to Memetic Algorithms (Boston,
+MA: Springer US). 105-144
+
+Nadeau, D. and Sekine, S. (2007). A survey
+of named entity recognition and classification.
+Lingvistice Investigationes 30, 3-26
+
+Passos, A., Kumar, V., and McCallum, A. (2014).
+Lexicon infused phrase embeddings for named
+entity resolution. In Proceedings of CoONLL
+
+and
+
+Pennington, J., Socher, R., and Manning, C. D.
+(2014). Glove: Global vectors for word
+representation. In Proceedings of the EMNLP
+Conference
+
+Peters, M. E., Neumann, M., Iyyer, M., Gardner,
+M., Clark, C., Lee, K., et al. (2018). Deep
+contextualized word representations. In NAACL-
+HLT
+
+Prasad, A., Kaur, M., and Kan, M.-Y. (2018).
+Neural ParsCit: a deep learning-based reference
+string parser. International Journal on Digital
+Libraries 19, 323-337
+
+Subject Category Classification
+
+Ratnaparkhi, A. (1996). A maximum entropy model
+for part-of-speech tagging. In The Proceedings
+of the EMNLP Conference
+
+Ren, Y., Zhang, Y., Zhang, M., and Ji, D. (2016).
+Improving twitter sentiment classification using
+topic-enriched multi-prototype word embeddings.
+In AAAI
+
+SalahEldeen, H. M. and Nelson, M. L. (2015).
+Predicting temporal intention in resource sharing.
+In Proceedings of the 15th JCDL Conference
+
+van Eck, N. J. and Waltman, L. (2017).
+Citation-based clustering of publications using
+citnetexplorer and vosviewer. Scientometrics 111,
+1053-1070
+
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J.,
+Jones, L., Gomez, A. N., et al. (2017). Attention
+is all you need. In NIPS
+
+Vo, D.-T. and Zhang, Y. (2015). Target-
+dependent twitter sentiment classification with
+rich automatic features
+
+Waltman, L. and van Eck, N. J. (2012). A new
+methodology for constructing a publication-level
+
+classification system of science. JASIST 63,
+2378-2392
+
+Wang, S. and Koopman, R. (2017). Clustering
+articles based on _ semantic similarity.
+
+Scientometrics 111, 1017-1031
+
+Witt, N. and Seifert, C. (2017). Understanding the
+influence of hyperparameters on text embeddings
+for text classification tasks. In TPDL Conference
+
+Wu, J., Kandimalla, B., Rohatgi, S., Sefid, A., Mao,
+J., and Giles, C. L. (2018). Citeseerx-2018: A
+cleansed multidisciplinary scholarly big dataset.
+In JEEE Big Data
+
+Wu, J., Kim, K., and Giles, C. L. (2019). CiteSeerX:
+20 years of service to scholarly big data. In
+Proceedings of the AIDR Conference
+
+Wu, J., Williams, K., Chen, H., Khabsa, M.,
+Caragea, C., Ororbia, A., et al. (2014).
+CiteSeerX: AI in a digital library search engine.
+In Proceedings of the Twenty-Eighth AAAI
+Conference on Artificial Intelligence
+
+Yang, Z., Yang, D., Dyer, C., He, X., Smola, A. J.,
+and Hovy, E. H. (2016). Hierarchical attention
+
+15

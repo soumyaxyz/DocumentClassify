@@ -1,0 +1,114 @@
+where A is a transition matrix in which Ay, y,,,
+is the transition parameter from the label y; to the
+label Yir- F, is an emission matrix where Fy y;
+represents the scores of the label y; at the i-th po-
+sition. Such scores are provided by the parameter-
+ized LSTM (Hochreiter and Schmidhuber, 1997)
+networks. During training, we minimize the nega-
+tive log-likelihood to obtain the model parameters
+including both LSTM and transition parameters.
+
+3.2. Dependency-Guided LSTM-CRF
+
+Input Representations The word representa-
+tion w in the BiLSTM-CRF (Lample et al., 2016;
+Ma and Hovy, 2016; Reimers and Gurevych,
+2017) model consists of the concatenation of the
+word embedding as well as the corresponding
+character-based representation. Inspired by the
+fact that each word (except the root) in a sentence
+has exactly one head (i.e., parent) word in the de-
+pendency structure, we can enhance the word rep-
+resentations with such dependency information.
+Similar to the work by Miwa and Bansal (2016),
+we concatenate the word representation together
+with the corresponding head word representation
+and dependency relation embedding as the input
+representation. Specifically, given a dependency
+edge (xp, v;,7) with ap, as parent, x; as child and
+r as dependency relation, the representation at po-
+sition 7 can be denoted as:
+
+u; = [wis Wa;v,], t, =parent(x;) (3)
+where w; and wy, are the word representations of
+the word x; and its parent 2), respectively. We
+take the final hidden state of character-level BiL-
+STM as the character-based representation (Lam-
+ple et al., 2016). v, is the embedding for the
+dependency relation r. These relation embed-
+dings are randomly initialized and fine-tuned dur-
+ing training. The above representation allows us to
+capture the direct long-distance interactions at the
+input layer. For the word that is a root of the de-
+pendency tree, we treat its parent as itself? and cre-
+ate a root relation embedding. Additionally, con-
+textualized word representations (e.g., ELMo) can
+also be concatenated into u.
+
+Neural Architecture Given the dependency-
+
+encoded input representation u, we apply the
+
+LSTM to capture the contextual information and
+240 and y,41 are start and end labels.
+
+3We also tried using a root word embedding but the per-
+formance is similar.
+
+S-PER—s=— 0 —=s— 0 —=s— 0 —s— 0 —#~—S-GPE
+
+gies _—
+
+ 
+
+ 
+
+g(-) g(-) g(-) gt) g-) g(-)
+uy ug ug u4 Us ue
+prep
+
+dobj
+psu ZN pobj
+Abramov had an accident in Moscow
+
+Figure 2: Dependency-guided LSTM-CRF with 2
+LSTM Layers. Dashed connections mimic the depen-
+dency edges. “g(-)” represents the interaction function.
+
+model the interactions between the words and their
+corresponding parents in the dependency trees.
+Figure 2 shows the proposed dependency-guided
+LSTM-CRF (DGLSTM-CRF) with 2 LSTM lay-
+ers for the example sentence “Abramov had an ac-
+cident in Moscow” and its dependency structure.
+The corresponding label sequence is {S-PER, 0,
+O, O, O, S-GPE}. Followed by the first BiLSTM,
+the hidden states at each position will propagate
+to the next BiLSTM layer and its child along the
+dependency trees. For example, the hidden state
+of the word “had”, ny), will propagate to its child
+“Abramov” at the first position. For the word that
+is root, the hidden state at that specific position
+will propagate to itself. We use an interaction
+function g(h;, hp,) to capture the interaction be-
+tween the child and its parent in a dependency.
+Such an interaction function can be concatena-
+tion, addition or a multilayer perceptron (MLP).
+We further apply another BiLSTM layer on top
+of the interaction functions to produce the context
+representation for the final CRF layer.
+
+The architecture shown in Figure 2 with a 2-
+layer BiLSTM can effectively encode the grand-
+child dependencies because the input representa-
+tions encode the parent information and the inter-
+action function further propagate the grandparent
+information. Such propagations allow the model
+to capture the indirect long-distance interactions
+from the grandchild dependencies between the
+words in the sentence as mentioned in Section 1.
+In general, we can stack more interaction func-
+tions and BiLSTMs to enable deeper reasoning
+over the dependency trees. Specifically, the hid-
+
+3864

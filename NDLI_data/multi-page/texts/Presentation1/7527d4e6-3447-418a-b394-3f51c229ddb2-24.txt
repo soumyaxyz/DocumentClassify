@@ -1,0 +1,26 @@
+Enterprise Applications(ERP/CRM etc.) and Bespoke IT
+applications
+
+Large businesses have hundreds of processes and frontier areas to be
+enabled by IT for competitive advantage. This results in several IT
+applications being deployed in the enterprise. There are several ways in
+which we could look at the classification of these IT applications. We have
+already seen various such classifications based on these IT applications
+such as Office automation, business innovation, decision support etc.
+
+We could also look at classifying IT applications based hardware platform
+they run like mainframe, open system, or Internet (distributed servers).
+
+Another key classification parameter for IT applications is the application
+users.
+
+When it comes to IT enablement of any chosen business area, there are four
+different approaches enterprises typically follow-
+
+1. bespoke application development
+2. Designing IT applications in enterprise but outsource the development.
+
+3. Procure licenses for global standard software and implement it with
+some customization.
+
+Entire Outsource the processes

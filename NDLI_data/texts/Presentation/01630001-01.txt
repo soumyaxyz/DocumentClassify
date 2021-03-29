@@ -1,0 +1,54 @@
+Effect of plasma nitriding on corrosion behavior of a high carbon low
+alloy steel
+A. Basu
+
+Department of Metallurgical and Materials Engineering, National Institute of Technology, Rourkela
+769008, Odisha, India
+
+basua@nitrkl.ac.in
+
+ 
+
+Abstract
+
+The present study deals with improvement of corrosion resistance of a low alloy—high carbon steel by pulsed direct current glow
+discharge mode plasma nitriding. During the nitriding, applied voltage was 540-710 V which resulted in 3-6 A current in the
+temperature range 450-560°C for a time span of I—S hours. The phases formed after nitriding and their morphology were
+characterized by XRD and SEM analysis. Mostly y'-FesN with a small volume fraction of e-Fe;N/Fe,N was observed on the
+surface. Nitride fraction was reported to be more with nitriding time and temperature. These nitrides showed improvement in
+hardness and wear properties of the steel. Corrosion study revealed that plasma nitriding dramatically improves the corrosion
+resistance of this ferritic steel in terms of corrosion potential, corrosion current density and resistance to polarization. This
+improvement was attributed mainly to the formation of nitrides on the surface. Quantitative analysis of the nitrides was done with
+the help of XRD and the obtained value was found to be linked with corrosion data.
+
+Keywords: Plasma nitriding; Corrosion
+
+ 
+
+Extended Abstract
+
+Plasma nitriding of steel compared to conventional gas nitriding or plasma/beam-line ion implantation offers a
+greater case depth with enhanced kinetics and induces significant improvement in hardness and wear resistance due
+to both dispersion and solid solution hardening. In the past, several studies were undertaken to determine the
+mechanism and kinetics of plasma nitriding of ferritic and austenitic steels by Menthe et al., 1995, Lei et al., 1997,
+Figueroa et al., 1996, Ana et al., 2014 and many others. Main focus was on austenitic stainless steel due to higher
+solubility of nitrogen in face centered cubic (FCC) y-iron and studied were made
+
+by Berg et al. 2000, Nobuteru et al., 2005, Nikolov at al., 2014 and others. Studies have also been carried out earlier
+on nitriding of ferritic steel for improving wear resistance property by Jun et al., 1986, Ana et al., 2014 and others.
+However, corrosion behavior study of plasma nitrided ferritic steel has not been done in details. The present study
+deals with improvement of corrosion resistance of a low alloy—high carbon ferritic steel by pulsed direct current
+plasma nitriding technique.
+
+Discs of 20 mm diameter and 5 mm thickness were cut from fully annealed AISI 52100 steel bar. The surface of
+the samples was ground and polished using 0.25 jum diamond pastes at the final stage and then thoroughly rinsed
+with acetone before plasma nitriding. Plasma nitriding was carried out with varying (isothermal) time and
+temperature. After plasma nitriding, both as-received and nitrided samples were polished and etched for a detailed
+microstructural investigation on the top surface and cross-sectional plane (perpendicular to the top surface) by
+optical and scanning electron microscopy (SEM). To confirm the microstructural evolution in terms of identification
+of the phases, samples were studied by x-ray diffraction (XRD) analysis using CoK, (0.179 nm) radiation. A similar
+analysis for the near-surface region was done by glancing-angle XRD (GAXRD) at 1, 2, 5 and 10° angles of
+incidence with a resolution of 0.005° step width. Quantitative analysis of different phases formed were calculated
+from integrated intensity of x-ray peaks using normalized relative (integrated) intensity ratio (RIR) method or
+matrix flushing model as described by Chung et al., 1974. The electrochemical characterization was carried out by
+potentiodynamic polarization test using a PS6 Meinsberger Potentiostat/Galvanostat connected to a standard three

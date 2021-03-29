@@ -1,0 +1,65 @@
+nodes declared to be of type (Food Festival), However, such an approach may not be feasible if no
+starting node is declared (e.g., if all nodes are variables), if the node lookup service does not return
+incoming edges, etc. Furthermore, the client agent may need to request more data than necessary,
+where the document returned for (S may return a lot of irrelevant data, and where nodes
+that do not represent instances of (Food Festival) still need to be looked up to
+
+check their type. On the plus side, node lookups are relatively inexpensive for servers to support.
+
+ 
+
+with a location in
+
+ 
+
+9.2.3 Edge patterns. Edge patterns — also known as triple patterns in the case of directed, edge-
+labelled graphs — are singleton graph patterns, i.e., graph patterns with a single edge. Examples
+of edge patterns are (?ff-type->(Food Festival) or (?ff)-location-»Gantiago), etc., where any term can be a
+variable or a constant. A protocol for edge patterns accepts such a pattern and returns all solutions
+for the pattern. Edge patterns provide more flexibility than node lookups, where graph patterns are
+more readily decomposed into edge patterns than node lookups. With respect to the agent interested
+in food festivals in Santiago, they can first, for example, request solutions for the edge pattern
+°) and locally join/intersect these solutions with those of (?ff}-type->(Food Festival),
+Given that some edge patterns (e.g., %+?y>%') can return many solutions, protocols for edge
+patterns may offer additional practical features such as iteration or pagination over results [509].
+Much like node lookups, the server cost of responding to a request is relatively low and easy
+to predict. However, the server may often need to transfer irrelevant intermediate results to the
+client, which in the previous example may involve returning nodes located in Santiago that are
+not food festivals. This issue is further aggravated if the client does not have access to statistics
+about the knowledge graph in order to plan how to best perform the join; for example, if there
+are relatively few food festivals but many things located in Santiago, rather than intersecting the
+solutions of the two aforementioned edge patterns, it should be more efficient to send a request for
+each food festival to see if it is in Santiago, but deciding this requires statistics about the knowledge
+graph. Extensions to the edge-pattern protocol have thus been proposed to allow for more efficient
+joins [211], such as allowing batches of solutions to be sent alongside the edge pattern, returning
+only solutions compatible with the solutions in the request [210] (e.g., sending a batch of solutions
+
+for (?ff!-type>(Food Festival) to join with the solutions for the request (?ff}-location > Gantiago)).
+
+9.2.4 (Complex) graph patterns. Another alternative is to let client agents make requests based on
+(complex) graph patterns (see Section 2.2), with the server returning (only) the final solutions. In our
+running example, this involves the client issuing a request for (Food Festival) « type—{?#f)-location >
+and directly receiving the relevant results. Compared with the previous protocols, this protocol is
+much more efficient in terms of bandwidth: it allows clients to make more specific requests and the
+server to return more specific responses. However, this reduction in bandwidth use comes at the
+cost of the server having to evaluate much more complex requests, where, furthermore, the costs
+of a single request are much more difficult to anticipate. While a variety of optimised engines exist
+for evaluating (complex) graph patterns (e.g., [139, 332, 493] amongst many others), the problem of
+evaluating such queries is known to be intractable [14]. Perhaps for this reason, public services
+offering such a protocol (most often supporting SPARQL queries [207]) have been found to often
+exhibit downtimes, timeouts, partial results, slow performance, etc. [72]. Even considering such
+issues, however, popular services continue to receive — and successfully evaluate — millions of
+requests/queries per day [315, 432], with difficult (worst-case) instances being rare in practice [58].
+
+(2ff—location >|
+
+ 
+
+  
+
+9.2.5 Other protocols. While Figure 34 makes explicit reference to some of the most commonly-
+encountered access protocols found for knowledge graphs in practice, one may of course imagine
+other protocols lying almost anywhere on the spectrum from more simple to more complex inter-
+faces. To the right of (Complex) Graph Patterns, one could consider supporting even more complex
+
+67

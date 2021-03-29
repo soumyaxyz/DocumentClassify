@@ -1,0 +1,15 @@
+Introduction
+
+ 
+
+e Stack is linear data structure of variable size.
+
+¢ In array insertion and deletion can occur at any place but
+in stack it can occur at only one end known a Top
+
+¢ Insertion is known as Push and deletion is known as Pop
+
+e Stack is known as Last In First Out (LIFO) List.
+
+e LIFO means the last item added to the stack will be the
+first item to be removed from the stack.

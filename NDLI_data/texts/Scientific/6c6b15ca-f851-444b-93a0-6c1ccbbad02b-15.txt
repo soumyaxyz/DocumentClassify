@@ -1,0 +1,80 @@
+Published as a conference paper at ICLR 2020
+
+ 
+
+B.2 PROOF OF COROLLARY. 1]
+
+ 
+
+In the LOCAL model the reasoning is elementary (Linial| 1992} |Fraigniaud et al.|2013}|Seidel]{2015):
+suppose that the graph is represented by a set of edges and further consider that ALG; amounts to a
+union operation. Then in d = dg rounds, the state of each node will contain the entire graph. The
+function ALG} can then be used to make the final computation. This argument also trivially holds for
+node/edge attributes. The universality of GNNfj, then follows by the equivalence of LOCAL and
+
+GNN}).
+
+ 
+
+B.3 PROOF OF THEOREM[4. 1]
+
+First note that, since the GNNj,, and LOCAL models are equivalent, if no further memory/width
+restrictions are placed, an impossibility for one implies also an impossibility for the other. It can also
+be seen in Theorem. I]that there is a one to one mapping between the internal state of each node at
+
+each level between the two models (i.e., variables ao) and 3), As such, impossibility results that
+rely on restrictions w.r.t. state size (in terms of bits) also transfer between the models.
+
+To proceed, I demonstrate that a depth lower bound in the CONGEST model (i-e., in the LOCAL
+model with bounded message size) also implies the existence of a depth lower bound in the LOCAL
+model with a bounded state size—with this result in place, the proof of the main claim follows
+directly. As in the statement of the theorem, one starts by assuming that P cannot be solved in less
+than d rounds when messages are bounded to be at most b bits. Then, for the sake of contradiction, it
+is supposed that there exists an algorithm A € LOCAL that can solve P in less than d rounds with a
+state of at most c bits, but unbounded message size. I argue that the existence of this algorithm also
+implies the existence of a second algorithm A’ whose messages are bounded by c + log, n: since
+
+i)
+
+each message s;/_; is the output of a universal Turing machine ALG? that takes as input the tuple
+
+(s0?, vi), algorithm A’ directly sends the input and relies on the universality of ALG}, 4 to simulate
+
+the action of ALG?. The message size bound follows by adding the size c of the state with that of
+representing the node id (log, n bits suffice for unique node ids). This line of reasoning leads to a
+contradiction when c < b — log, n, as it implies that there exists an algorithm (namely A’) that can
+solve P in less than d rounds while using messages of at most b bits. Hence, no algorithm whose
+state is less than b — log, n bits can solve P in LOCAL, and the width of GNNj,, has to be at least
+
+(b — logy n)/p.
+
+CAN EXPLANATION OF THE LOWER BOUNDS FOR CYCLE DETECTION AND
+DIAMETER ESTIMATION
+
+A common technique for obtaining lower bounds in the CONGEST model is by reduction to the
+set-disjointness problem in two-player communication complexity: Suppose that Alice and Bob are
+each given some secret string (s, and s,) of q bits. The two players use the string to construct a set
+by selecting the elements from the base set {1,2,...,q} for which the corresponding bit is one. It is
+
+known that Alice and Bob cannot determine whether their sets are disjoint or not without exchanging
+at least 2.(q) bits (Kalyanasundaram & Schintger| 1992} Chor & Goldreich] 1988).
+
+The reduction involves constructing a graph that is partially known by each player. Usually, Alice
+and Bob start knowing half of the graph (red and green induced subgraphs in Figure). The players
+then use their secret string to control some aspect of their private topology (subgraphs annotated in
+dark gray). Let the resulting graph be G(sq, sp») and denote by cut the number of edges connecting
+the subgraphs controlled by Alice and Bob. To derive a lower bound for some problem P, one needs
+to prove that a solution for P in G(sg, 8») would also reveal whether the two sets are disjoint or not.
+Since each player can exchange at most O(b - cut) bits per round, at least Q(q/(b- cut)) rounds are
+
+needed in total in CONGEST. By Theorem|4.1] one then obtains a d = Q(q/(w log n - cut)) depth
+lower bound for GNNijp-
+
+ 
+
+ 
+
+The two examples in Figure[3Jillustrate the graphs G(s,, s)) giving rise to the lower bounds for even
+k-cycle detection and diameter estimation. To reduce occlusion, only a subset of the edges are shown.
+
+15

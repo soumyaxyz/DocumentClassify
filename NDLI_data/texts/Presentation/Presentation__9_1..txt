@@ -1,0 +1,15 @@
+i Rapid En-Route Response to
+Terminal Operations
+
+4/6/2012
+
+Dr. Sanjiv Shresta, Dr. Alex Tien,
+Jay Conroy, Rafe Katkin, Tejal Topiwala
+
+The contents of this document reflect the views of the authors and The MITRE Corporation and do not necessarily reflect the views of the FAA
+or the DOT. Neither the Federal Aviation Administration nor the Department of Transportation makes any warranty or guarantee, expressed or
+implied, concerning the content or accuracy of these views.
+
+ACAASD MITRE
+
+Approved for Public Release 12-1637. Distribution Unlimited

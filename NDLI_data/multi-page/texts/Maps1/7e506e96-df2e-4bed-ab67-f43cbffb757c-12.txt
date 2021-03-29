@@ -1,0 +1,145 @@
+than in hardwoods, educational efforts are
+developing a wider appreciation of the out-
+standing opportunities for managing industrial
+hardwoods on suitable sites. The recent in-
+crease in demand for pulping hardwoods may
+stimulate management too.
+
+Mississippi’s forest soils have the capacity
+to produce a much greater volume of wood
+than they are currently growing. It can be
+reasonably assumed that, with application of
+minimum forestry practices on all commercial
+timberlands, net annual growth might be raised
+eventually from 0.5 cord per acre to nearly
+1 cord. This would permit the State to enjoy
+an even greater forest industry than it now
+does. A still higher average growth can prob-
+ably be attained under intensive management.
+The prescription for continued forward move-
+ment includes minimizing wildfire, restocking
+idle land, and removing trees that have little
+or no utility. Given good timber resources,
+wood-using industry will thrive, and the two
+will perpetuate each other.
+
+ACCURACY OF THE SURVEY
+
+The data on forest acreage and timber volume
+in this report were secured in 1956-57 with a
+systematic sampling method involving a forest-
+nonforest classification on aerial photographs
+and on-the-ground measurements of trees at
+sample points. The sample points were taken
+in pairs at and near the intersections of a grid
+of lines spaced 3 miles apart. Tally trees were
+selected with a 3.03 diopter prism.
+
+Accuracy of the estimates may be affected
+by two types of errors. The first stems from
+the use of a sample to estimate the whole and
+from variability of the items being sampled.
+This type is termed sampling error; it is sus-
+ceptible to a mathematical evaluation of the
+probability of error. The second type—often
+referred to as reporting or estimating error—
+derives from mistakes in measurement, judg-
+ment, arithmetic, or recording, and limitations
+of method or equipment. Effects cannot be
+appraised mathematically, but the Forest Sur-
+vey constantly attempts to hold such error
+to a minimum by proper training and good
+supervision, and by emphasis on careful work.
+
+Statistical analysis of the data indicates a
+sampling error of plus or minus 0.3 percent for
+the estimate of total forest area, 1.4 percent
+
+for total cubic volume, and 1.9 percent for
+total board-foot volume. When acreage and
+volume totals for the State are broken down
+by county and other subdivisions of the data,
+the possibility of error increases and is greatest
+for the smallest items. The order of this in-
+crease is suggested in the following tabulation,
+which shows the sampling error to which the
+estimates are liable two chances out of three.
+
+ 
+
+Board-foot volume
+Sampling | Volume Sampling
+error’ |sampled error?
+
+Forest area Cubic volume
+
+Size of area
+sampled
+
+ 
+
+ 
+
+Volume
+
+Sampling
+sampled
+
+error !
+
+ 
+
+ 
+
+ 
+
+ 
+
+Thousand ‘Percent Million Percent Million Percent
+
+acres Custte bd. ft.
+17,000 0.3 7,600 1.4 26,000 19
+10,000 4 6,000 16 20,000 2.1
+5,000 6 3,000 2.2 10,000 3.0
+2,000 9 1,000 3.8 5,000 4.3
+500 1.8 500 55) 2,000 6.8
+100 3.9 100 12.2 300 17.5
+
+ 
+
+1 By random-sampling formula.
+
+* Estimated by use of a procedure described by D. B. DeLury
+in Values and Integrals of the Orthogonal Polynomials up
+to n = 26. Univ. Toronto Press, 33 pp. Toronto, Ont. 1950.
+
+County data on timber volumes have been
+included in the report in order to permit adding
+counties totalling enough volume to meet a
+desired degree of reliability. To obtain an esti-
+mate of growing stock with a sampling error
+of plus or minus 10 percent, data for enough
+counties must be added together to total about
+150 million cubic feet. A comparable sampling
+error for sawtimber volume requires about
+1,000 million board feet.
+
+DEFINITIONS OF TERMS
+Forest Land Class
+
+Forest land.—Includes: (a) land which is
+at least 10 percent stocked by trees of any size
+and capable of producing timber or other wood
+products, or of exerting an influence on the
+climate or on the water regime; (b) land from
+which the trees have been removed to less
+than 10 percent stocking and which has not
+been developed for other use; (c) afforested
+areas.
+
+Commercial forest land.—Forest land which
+is (a) producing, or is physically capable of
+producing, usable crops of wood (usually saw-
+timber), (b) economically available now or
+prospectively, and (c) not withdrawn from
+timber utilization.

@@ -1,0 +1,50 @@
+BI Component - Administration and Operations Layer -
+BI Architecture
+
+   
+   
+   
+    
+  
+ 
+    
+   
+ 
+  
+ 
+    
+
+¢ Should follow design standards
+¢ Must have a logically apt data model
+¢ Metadata should be of high standard
+
+  
+
+errormed according to business semantics and rules
+
+During integration, certain processing standards have
+to be followed
+Data must be consistent
+
+INTEGRATION
+
+ 
+
+  
+
+Information derived from data that has been
+INFORMATION integrated should be usable, findable and as per the
+requirements
+
+echnology used for deriving information must be
+accessible
+
+Also, it should have a good user-interface
+
+Should support analysis, decision support, data and
+storage management
+
+Consists of different roles and responsibilities, like
+management, development, support and usage roles
+
+ORGANIZATION

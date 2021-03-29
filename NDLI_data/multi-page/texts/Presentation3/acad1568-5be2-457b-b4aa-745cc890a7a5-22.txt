@@ -1,0 +1,15 @@
+Data Mining in Retail
+
+The Diapers-Beer Example
+
+* A (hypothetical) pattern learned from transaction data: “On Friday evenings,
+shoppers who buy diapers also buy beer.”
+
+* Highlights new, surprising correlations that can be acted on by the store.
+
+— To promote more users to display this behavior, consider dynamic store
+layout decisions that might alter locations of products based on co-
+purchase
+
+— Consider couponing strategies that can be used to cross promote related
+products in some cases.

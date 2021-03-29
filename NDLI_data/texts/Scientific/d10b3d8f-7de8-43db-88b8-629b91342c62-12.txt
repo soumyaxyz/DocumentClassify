@@ -1,0 +1,63 @@
+"
+
+: ™G" 7
+£ TG ae 1 e
+f e uw
+. s G
+& mG"nt i
+
+©) 3G" nie
+
+  
+
+ 
+ 
+       
+
+Figure 3: Illustrating the definition of Glso-discriminating. G,G’ and G” are mutually non-
+isomorphic, and each of the big circles with dashed boundary represents an equivalence class
+under graph isomorphism. hg,q: is a permutation-invariant function that obtains different values on
+equivalence class of G and on that of G’, and similar hg,qv. If the graph space has only these three
+equivalence classes of graphs, then C = {he,q', hc,qv} is Glso-discriminating.
+
+hea (Ghee) )) C K. Obviously G’ € Ag and G does not. Since hg, is assumed continu-
+ous, AG i is an open set for each G’ % G. If G’ ~ G, define Ag, = B(G’,«), the open e-ball in K
+under the Euclidean distance.
+
+Thus, {Aq }qex is an open cover of K. Since K is compact, 5 a finite subset Ko of K such that
+{Agr }Grek, also covers K.
+
+Hence, VG* € K,4G' € Ko such that G* € Aq. Moreover, VG* € K \ (Uereeva) Aq’) =
+K\ (Unes, B(a™GT, €)), where €(G) represents the equivalence class of graphs in JC consisting
+of graphs isomorphic to G, 4G’ € Ko \ E(G) such that G* € Aq.
+
+Now define a function hg on K by ha(G") = Vereko\E(G) haa (G*), where ha.q:(G*) =
+max(2|ha,a(G) — ha,a(G’)| — |ha,a"(G*) — ha,a(G’)|, 0). Since each he,q’ in continuous,
+hai is also continuous. Thus, we can show that hai is the desired function in Definition|4]
+
+¢ he.q is nonnegative VG, G’, and hence hg is nonnegative on K
+
+e If G* ~G, then as each hg,q is permutation invariant, there is hg,g:(G*) = he,q'(G),
+and hence hq: (G*) = 0. Thus, hg(G*) = 0.
+
+elf Vr € S,,d(7™G*n,G) > « then G* € K \ Uereeay Ag. Therefore, IG’ €
+K \ €(G) such that G* € Ag, which implies that |hg,q/(G*) — ha,a(G’)| <
+$\ha,a(G) _ he,a (G’)| < 2 \he,a(G) _ he,a (G’)|. Therefore, 3lha,a/(G) _
+hea (@)|-|ha,e(G*) hee (G)| > $lha,a(@)—he, o(G)| > 0, and so hg(G*) >
+hea (G*) > bha,a(G) — haa (G’)|. Define 6g = $ ming v(G) —
+hea (G')| > 0. Then if he(G*) < da, it has to be the case that G* € Unrcein Aq =
+Unes, B(x'Gr, €), implying that Sz € S,, such that d(G*,7™Gr) < €.
+
+              
+
+Finally, it is clear that he can be realized in C+!.
+
+ 
+
+ 
+
+ 
+
+ 
+
+12

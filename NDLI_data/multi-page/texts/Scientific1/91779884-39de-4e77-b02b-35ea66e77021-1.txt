@@ -1,0 +1,125 @@
+Segmenting Scientific Abstracts into Discourse Categories: A
+Deep Learning-Based Approach for Sparse Labeled Data
+
+Soumya Banerjee
+soumyaBanerjee@outlook.in
+National Digital Library
+Indian Institute of Technology
+Khragpur, India
+
+Plaban Kumar Bhowmick
+plaban@cet.iitkgp.ac.in
+Center for Education Technology
+Indian Institute of Technology
+Khragpur, India
+
+ABSTRACT
+
+The abstract of a scientific paper distills the contents of the paper
+into a short paragraph. In the biomedical literature, it is custom-
+ary to structure an abstract into discourse categories like BACK-
+GROUND, OBJECTIVE, METHOD, RESULT, and CONCLUSION,
+but this segmentation is uncommon in other fields like computer
+science. Explicit categories could be helpful for more granular, that
+is, discourse-level search and recommendation. The sparsity of la-
+beled data makes it challenging to construct supervised machine
+learning solutions for automatic discourse-level segmentation of
+abstracts in non-bio domains. In this paper, we address this problem
+using transfer learning. In particular, we define three discourse cat-
+egories - BACKGROUND, TECHNIQUE, OBSERVATION - for an
+abstract because these three categories are the most common. We
+train a deep neural network on structured abstracts from PubMed,
+then fine-tune it on a small hand-labeled corpus of computer sci-
+ence papers. We observe an accuracy of 75% on the test corpus. We
+perform an ablation study to highlight the roles of the different
+parts of the model. Our method appears to be a promising solution
+to the automatic segmentation of abstracts, where the labeled data
+is sparse.
+
+CCS CONCEPTS
+
++ Computing methodologies — Neural networks; - Informa-
+tion systems — Document structure.
+
+KEYWORDS
+
+structured abstract, deep learning, LSTM, transfer learning
+
+1 INTRODUCTION
+
+The abstract of a research paper is a short, succinct description of
+the content of the paper. In a few lines, it conveys the information
+that is subsequently revealed in detail over multiple pages supple-
+mented with figures, tables, and references to existing works. In
+biomedical literature, including research papers, review articles,
+and clinical practice guidelines, it is a common practice to have
+structured abstracts [10]. They typically follow the IMRaD format,
+ie. INTRODUCTION, METHODS, RESULTS, and DISCUSSION.
+Most medical journals indexed in PubMed conform to this style [8].
+
+Debarshi Kumar Sanyal
+debarshisanyal@gmail.com
+National Digital Library
+Indian Institute of Technology
+Khragpur, India
+
+Samiran Chattopadhyay
+samirancju@gmail.com
+Department of IT
+Jadavpur University
+Kolkata, India
+
+Partha Pratim Das
+ppd@cse.iitkgp.ac.in
+Department of CSE
+Indian Institute of Technology
+Khragpur, India
+
+Structured abstracts can help researchers to refer to their regions of
+interest quickly, label documents more effectively, assist the index-
+ing process, and help in data mining [8]. Recently researchers have
+designed deep network models to automatically segment unstruc-
+tured abstracts in PubMed leveraging the large volume of structured
+abstracts already available [3-5]. However, structured abstracts are
+uncommon in other disciplines like computer science, although,
+arguably, the same benefits may be reaped if structured abstracts
+were available (see, e.g., [1]).
+
+In this paper, we investigate if sentences in an abstract can be
+labeled with discourse categories using machine learning methods
+even if the labeled data is sparse. We take abstracts in computer sci-
+ence (CS) as a case study. We categorize sentences in a CS abstract
+into three classes: BACKGROUND, TECHNIQUE, and OBSERVA-
+TION. We adopt a deep learning model for sequential sentence
+classification pretrained on structured abstracts from PubMed. We
+prepare a small corpus of hand-labeled abstracts in CS. We fine-tune
+the model on a subset of the corpus and test it on the remainder. Fig.
+1 shows an abstract from JEEE Transactions on Learning Technolo-
+gies in which each sentence is labeled with one of the three classes.
+Both hand-annotated golden labels and the predictions done by
+the model are indicated. We observe an accuracy of 75% on our
+test corpus, which is quite promising, given the limited amount of
+golden data. In brief, our contributions are
+
+1. We propose a simplified discourse structure for CS abstracts.
+
+2. We prepare a hand-labeled corpus of structured CS abstracts.
+
+3. We use transfer learning to automatically classify sentences
+in CS abstracts into the above discourse categories.
+
+The code and the datasets are available publicly’. The rest of the
+paper is structured as follows. Section 2 describes the discourse
+categories for CS abstracts and the rationale behind choosing this
+structure, Section 3 introduces the datasets, Section 4 describes
+the machine learning model, Section 5 evaluates of the model, and
+finally Section 6 concludes the paper.
+
+ 
+
+2 DISCOURSE CATEGORIES
+
+Abstracts in biomedical papers in PubMed are structured into five
+classes: BACKGROUND, OBJECTIVE, METHOD, RESULT, and
+
+‘https://github.com/soumyaxyz/abstractAnalysis

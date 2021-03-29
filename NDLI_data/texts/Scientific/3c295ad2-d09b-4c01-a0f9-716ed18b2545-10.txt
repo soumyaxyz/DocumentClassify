@@ -1,0 +1,194 @@
+6
+
+ 
+
+ 
+
+ 
+
+20
+
+RIGHTS
+
+Semantic Web - ISWC 2013 - 12th International
+Semantic Web Conference, 2013.
+
+M. Bron, B. Huurnink, and M. de Rijke. Linking
+archives using document enrichment and term selection.
+In Proceedings of the 15th International Conference on
+Theory and Practice of Digital Libraries: Research and
+Advanced Technology for Digital Libraries, 2011.
+
+X. Cheng and D. Roth. Relational inference for
+wikification. In Proceedings of the 2013 Conference on
+Empirical Methods in Natural Language Processing,
+EMNLP 2013, 2013.
+
+S. Cucerzan. Large-scale named entity disambiguation
+based on wikipedia data. In Proceedings of
+EMNLP-CoNLL 2007, 2007.
+
+S. Dill, N. Eiron, D. Gibson, D. Gruhl, R. Guha,
+
+A. Jhingran, T. Kanungo, 8. Rajagopalan, A. Tomkins,
+J. A. Tomlin, and J. Y. Zien. Semtag and seeker:
+Bootstrapping the semantic web via automated
+semantic annotation. In Proceedings of the 12th
+International Conference on World Wide Web, 2003.
+P. Elias. Efficient storage and retrieval by content and
+address of static files. J. ACM, 21(2):246-260, 1974.
+P. Ferragina and U. Scaiella. Tagme: On-the-fly
+annotation of short text fragments (by wikipedia
+entities). In Proceedings of the 19th ACM International
+Conference on Information and Knowledge
+Management, 2010.
+
+A. Gersho and R. M. Gray. Vector Quantization and
+Signal Compression. Kluwer Academic Publishers,
+Norwell, MA, USA, 1991. ISBN 0-7923-9181-0.
+
+J. Guo, G. Xu, X. Cheng, and H. Li. Named entity
+recognition in query. In Proceedings of the 32Nd
+International ACM SIGIR Conference on Research and
+Development in Information Retrieval, 2009.
+
+B. Hachey, W. Radford, J. Nothman, M. Honnibal, and
+J. R. Curran. Evaluating entity linking with Wikipedia.
+Artificial Intelligence, 194(0):130 — 150, 2013.
+
+L. Hollink, P. Mika, and R. Blanco. Web usage mining
+with semantic analysis. In Proceedings of the 22nd
+International Conference on World Wide Web, 2013.
+N. Houlsby and M. Ciaramita. A scalable gibbs
+sampler for probabilistic entity linking. In Advances in
+Information Retrieval. Springer, 2014.
+
+J. Hu, G. Wang, F. Lochovsky, J.-t. Sun, and Z. Chen.
+Understanding user’s query intent with wikipedia. In
+Proceedings of the 18th International Conference on
+World Wide Web, 2009.
+
+J. Kim and W. B. Croft. A field relevance model for
+structured document retrieval. In Advances in
+Information Retrieval - 34th European Conference on
+IR Research, ECIR 2012, 2012.
+
+E. Meij, M. Bron, L. Hollink, B. Huurnink, and
+
+M. de Rijke. Mapping queries to the Linking Open
+Data cloud: A case study using DBpedia. Web
+Semantics: Science, Services and Agents on the World
+Wide Web, 9(4):418 — 433, 2011.
+
+E. Meij, W. Weerkamp, and M. de Rijke. Adding
+semantics to microblog posts. In Proceedings of the
+Fifth ACM International Conference on Web Search
+and Data Mining, 2012.
+
+ 
+
+188
+Lin Kd>
+
+ 
+
+21
+
+23
+
+24
+
+25
+
+26
+
+27
+
+28
+
+29)
+
+30
+
+32
+
+33
+
+34)
+
+ 
+
+P. N. Mendes, A. Passant, P. Kapanipathi, and A. P.
+
+Sheth. Linked open social signals. In Proceedings of the
+2010 IEEE/WIC/ACM International Conference on
+
+Web Intelligence and Intelligent Agent Technology -
+Volume 01, 2010.
+
+R. Mihalcea and A. Csomai. Wikify!: Linking
+documents to encyclopedic knowledge. In Proceedings
+of the Sixteenth ACM Conference on Conference on
+Information and Knowledge Management, 2007.
+
+T. Mikolov, K. Chen, G. Corrado, and J. Dean.
+Efficient estimation of word representations in vector
+space. CoRR, abs/1301.3781, 2013.
+
+T. Mikolov, I. Sutskever, K. Chen, G. S. Corrado, and
+J. Dean. Distributed representations of words and
+phrases and their compositionality. In NIPS 713, 2013.
+D. Milne and I. H. Witten. Learning to link with
+wikipedia. In Proceedings of the 17th ACM Conference
+on Information and Knowledge Management, 2008.
+
+D. Nadeau and S. Sekine. A survey of named entity
+recognition and classification. Linguisticae
+Investigationes, 30(1):3-26, 2007.
+
+R. Navigli. Word sense disambiguation: A survey.
+ACM Comput. Surv., 41(2):10:1-10:69, 2009.
+
+M. Pasca. Weakly-supervised discovery of named
+entities using web search queries. In Proceedings of the
+Siateenth ACM Conference on Conference on
+Information and Knowledge Management, 2007.
+
+P. Pantel, T. Lin, and M. Gamon. Mining entity types
+from query logs via user intent modeling. In The 50th
+Annual Meeting of the Association for Computational
+Linguistics, 2012.
+
+A. Pilz and G. Paag. From names to entities using
+thematic context distance. In Proceedings of the 20th
+ACM International Conference on Information and
+Knowledge Management, 2011.
+
+J. Pound, I. F. Ilyas, and G. Weddell. Expressive and
+flexible access to web-extracted data: A keyword-based
+structured query language. In Proceedings of the 2010
+ACM SIGMOD International Conference on
+Management of Data, 2010.
+
+J. Pound, S. Paparizos, and P. Tsaparas. Facet
+discovery for structured web search: A query-log
+mining approach. In Proceedings of the 2011 ACM
+SIGMOD International Conference on Management of
+Data, 2011.
+
+L. Ratinov, D. Roth, D. Downey, and M. Anderson.
+Local and global algorithms for disambiguation to
+wikipedia. In Proceedings of the 49th Annual Meeting
+of the Association for Computational Linguistics, 2011.
+U. Sawant and S. Chakrabarti. Learning joint query
+interpretation and response ranking. In Proceedings of
+the 22nd International Conference on World Wide Web,
+2013.
+
+S. Vigna. Quasi-succinct indices. In Proceedings of the
+Siath ACM International Conference on Web Search
+and Data Mining, 2013.
+
+J. X. Yu, L. Qin, and L. Chang. Keyword search in
+relational databases: A survey. IEEE Data Eng. Buil.,
+33(1):67-78, 2010.

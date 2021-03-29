@@ -1,0 +1,46 @@
+Chapter 3: Quantum group of orientation preserving Riemannian isometries 70
+
+ 
+
+that recently there has been a lot of interest and work (see, for example, [13], [18], {23])
+towards construction of quantum group equivariant spectral triples. In all these works,
+given a C*-subalgebra A of B(H) and a CQG Q having a unitary representation U on H
+such that ay(= ady) gives an action of Q on A, the authors investigate the possibility
+of constructing a (nontrivial) spectral triple (A®,H, D) on a suitable dense subalgebra
+A® of A such that U commutes with D @ I, that is, D is equivariant. Our interest here
+is in the (sort of) converse direction: given a spectral triple, we want to consider all
+possible CQG representations with respect to which the spectral triple is equivariant;
+and if there exists a universal object in the corresponding category, that is, Q’, we
+should call it the quantum group of orientation preserving isometries.
+
+Unfortunately, even in the finite-dimensional (but with noncommutative A) situation
+this category may often fail to have a universal object, as will be discussed later. It
+turns out, however, that if we fix a suitable densely defined ( in the WOT ) functional
+on B(H) (to be interpreted as the choice of a ‘volume form’) then there exists a universal
+object in the subcategory of Q’ obtained by restricting the object-class to the quantum
+group actions which also preserve the given functional. The subtle point to note here is
+that unlike the classical group actions on B(H) which always preserve the usual trace,
+a quantum group action may not do so. In fact, it was proved by Goswami in [31] that
+given an object (Q,U) of Q’ (where Q is a compact quantum group and U denotes its
+unitary co-representation on #1), we can find a positive invertible operator R in H so
+that the given spectral triple is R-twisted in the sense of [31] and the corresponding
+functional tr (which typically differs from the usual trace of B(H) and can have a
+nontrivial modularity) is preserved by the action of Q. This makes it quite natural to
+work in the setting of twisted spectral data (as defined in [31]).
+
+Motivated by the ideas of Woronowicz and Soltan ( [68], [53] ), we actually consider a
+bigger category called the category of ‘quantum families of smooth orientation preserving
+Riemannian isometries’. The underlying C*-algebra of the quantum group of orientation
+preserving isometries (whenever exists) has been identified with the universal object in
+this bigger category and moreover, it is shown to be equipped with a canonical coproduct
+making it into a compact quantum group.
+
+In this chapter, we discuss a number of examples, covering the classical spectral triple
+on C%(T?) as well as the equivariant spectral triples constructed recently on SU,,(2). It
+may be relevant to point out here that it was not clear whether one could accommodate
+the spectral triples on SU,(2) and the Podles’ spheres S? a in the framework of [30],
+since it is very difficult to give a nice description of the space of ‘noncommutative’ forms
+and the Laplacian for these examples. However, the present formulation in terms of the
+Dirac operator makes it easy to accommodate them, and we have been able to identify
+
+U,,(2) and SO,(3) as the universal quantum group of orientation preserving isometries

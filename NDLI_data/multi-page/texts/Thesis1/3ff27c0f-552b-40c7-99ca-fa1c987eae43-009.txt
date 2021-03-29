@@ -1,0 +1,52 @@
+Contents
+
+Notations 1
+0 Introduction 3
+
+1 Preliminaries
+
+1.1 Operator algebras and Hilbert modules... .............00..
+
+ 
+
+eds CP algebras oc ce ce ew wk a ee kw ee me ee ae 9
+
+.1.2. von Neumann algebras..............0002020 200005 12
+
+1.1.3 Free product and tensor product ...............0.. 13
+
+1.4 Hilbert modules .........0.0..0.02.000..0.00048. 14
+
+1.2 Quantum Groups... 2... 2.0.0.0. 00022 ee 15
+1.2.1 Hopfalgebras . 2 co cc w wwe ea a eee eee 16
+
+.2.2. Compact Quantum Groups: basic definitions and examples ... 18
+
+2.3 The CQG Up(2) 2. ee 25
+
+12:4 The CQG SUp(2) 26 cee swe e eae vie ce ee ewes 26
+
+.2.5 The Hopf *-algebras O(SU,,(2)) and U,(su(2)) 2... 2... 29
+
+2.6 The Wang algebtas . cee eee maces teed e eee ee wees 31
+
+.2.7 Action of a compact quantum group ona C* algebra... .... 31
+
+1.3 Rieffel deformation... 2... 2.0.0.0. 0 000000000000 0004 34
+3.1 Rieffel Deformation of compact quantum group .......... 38
+
+LA Classical Riemannian geometry occu. 00 a ee ew 43
+4.1 Classical Hilbert space of forms... ...........2004. 43
+
+1.4.2 Isometry groups of classical manifolds .............0.. 43
+
+4.3 Spin Groups and Spin manifolds ..............000.. 45
+
+4.4 Dirac operators... 2... 2 ee 46
+
+1.5 Noncommutative Geometry ..< eeu eee ee ee eee eRe ew H AT
+5.1 Spectral triples... 2... 2 ee AT
+
+.5.2 The space of forms in noncommutative geometry ......... 49
+
+1.5.3 Laplacian in Noncommutative geometry ............0.. 50

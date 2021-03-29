@@ -1,0 +1,33 @@
+67 Computation of QISO*
+
+ 
+
+Proof : From Lemma 2.2.6, we have Aj; Aj; = 0 for all k £1.
+
+Applying « and taking adjoint, we have Aj,Aj = 0 for all k # 1. Interchanging k
+and |, we get Aj Ajz = 0 for all k Al. Hence, Aj, Ajj = Aj Aix for all k Al.
+
+From Lemma 2.2.6, we have Aj,Ajz = 0 for all i 4 j. Interchanging i and j, we have
+AjrAix = 0 for all i 4 j.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Remark 2.2.16. Proceeding in an exactly similar way, we have that B,;’s commute
+
+among themselves.
+
+Theorem 2.2.17. The Quantum isometry group of C(T") is commutative as a C*
+
+algebra and hence coincides with the classical isometry group C(T” ><(Z} ><1Sn)).
+
+Proof : Follows from the results in lemma 2.2.11 - 2.2.15 and the remark following
+
+ 
+
+them.

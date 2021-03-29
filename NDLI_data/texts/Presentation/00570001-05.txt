@@ -1,0 +1,24 @@
+INTRODUCTION TO ARRAYS
+
+Index C——
+[0] [1] [2] [3] [4] [5] [6] [7]
+
+j11] 22] 33] 44] 55] 66] 77] 88
+
+100 102 104 106 «#108 j4d10 112 ~«1414
+Address (#——————>>
+
+Array with 8 elements
+
+° Indices are used to access the stored values in an array.
+
+° Let’s say we have an array of “n” integers, then its first integer
+element is indexed with the “0” value and the last integer element
+will be represented with “n-1” indexed value.
+
+Example: if we have 8 elements then the first element would be
+referenced by a[O] i.e. The first index value ,then other distinct
+values in the array are each referenced as:
+a[OJ=1, a[1]=2, ...a[n-1]5=n i.e. a[7]=8 where “n-1” becomes 7
+
+where “n” was 8.

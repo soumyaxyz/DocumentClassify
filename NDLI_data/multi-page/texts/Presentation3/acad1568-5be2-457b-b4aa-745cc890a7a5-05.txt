@@ -1,0 +1,30 @@
+Information Sources for Decision makers before BI Evolution
+Decision makers invest in obtaining the market facts and internal functions such as finance
+and marketing sales to evolve business plans. Some of the frequently used information
+sources are as -
+
+Marketing research: This analysis helps understand better the marketplace in which the
+enterprise in question is operating. It is about understanding the customers, the competitors,
+the products, the changing market dynamics, etc. It is to answer questions such as
+
+“Whether the launch of product X in region A will be successful or not?”
+
+“Will the customers be tothe launch of product X?”
+
+“Should we discontinue item Z?”
+
+“Where should items sand B be placed on the shop shelves?”, etc.
+
+Statistical data: This is essentially about unravelling hidden patterns, spotting trends etc.
+through proven mathematical techniques for understanding raw data. For example, varinace in
+production rate, correlation of sales with campaigns, cluster analysis of shopping patterns, etc.
+help decision makers see new opportunities or innovate products or services.
+
+Management reporting: Most enterprises have their own IT teams dedicated to churn out
+adhoc reports for the management. Often times they invest in specialized tools to prepare
+reports in graphical format.
+
+Market survey: Enterprises also employ third-party agencies to conduct consumer surveys
+and competitive analysis. They also use benchmark data to understand their strengths, and
+specific market opportunities they could exploit as well as risks that might their revenue or
+market share.

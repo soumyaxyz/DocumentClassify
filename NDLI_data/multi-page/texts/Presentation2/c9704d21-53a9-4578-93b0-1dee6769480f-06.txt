@@ -1,0 +1,30 @@
+Business Layer- Business Value
+
+When a strategy is implemented against certain business goals, then certain costs (monetary, time, effort,
+information produced by data integration and analysis, application of knowledge from past experience,
+etc.) are involved.
+
+However, the final output of the process should create such value for the business whose ratio to the costs
+involved should be a feasible ratio.
+
+The business value can be measured in the terms of ROI (Return on Investment), ROA (Return on
+Assets), TCO (Total Cost of Ownership), TVO(Total Value of Ownership), etc. Let us understand these
+terms with the help of a few examples —
+
+Return on Investment (ROI): We take the example of “Digicom”, a digital electrocompany which has
+an online community platform that allows their prospective clients to engage with their users. “Digicom”
+has been using social media (mainly Twitter and Facebook) to help get new clients and to increase the
+number of prospects/leads. They attribute 10% of their daily revenue to social media. Now, that is an ROI
+from social media!
+Return on Asset (ROA): Suppose a company, “Electronics Today”, has a net income of $1 million and
+has total assets of $5 million. Then, its ROA is 20%. So, ROA is the earning from invested capital
+(assets).
+Total Cost of Ownership (TCO): Let us understand TCO in the context of a vehicle. TCO defines the
+cost of owning a vehicle from the time of purchase by the owner, through its operation and maintenance
+to the time it leaves the possession of the owner.
+Total Value of Ownership (TVO): TVO has replaced the simple concept of Owner's Equity in some
+companies. It could include a variety of subcategories such as stock, undistributed dividends, retained
+earnings or profit, or excess capital contributed.
+In its simplest form, the basic accounting equation containing TVO as a component is
+
+Assets = Liabilities + Owner's Equity, or if you like TVO

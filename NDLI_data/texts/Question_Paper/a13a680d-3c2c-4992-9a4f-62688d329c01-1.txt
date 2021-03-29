@@ -1,0 +1,23 @@
+S.No. 9042 SBE 11.5
+
+(For candidates admitted from 2008-2009 onwards)
+U.G. DEGREE EXAMINATION, APRIL 2012
+Part III — Computer Technology — Skill Based Elective
+VB .NET
+Time : Three hours Maximum : 75 marks
+SECTION A — (10 x 2 = 20)
+‘Answer ALL questions.
+dy List the major components of CLR.
+2. What are the three categories of Toolbox window?
+
+3 Differentiate between Entry-controlled and Exit-
+controlled loop.
+
+4. What are the control statements in VB.NET?
+5. — How to use a check box control?
+
+6. List the features of font dialog control.
+
+7. What is the performance of load file methods?
+
+8. What is a constructor?

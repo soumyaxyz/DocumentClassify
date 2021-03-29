@@ -1,0 +1,56 @@
+93 Examples and computations
+
+ 
+
+Theorem 3.3.7. If in addition to the assumptions already made, the spectral triple (
+of compact type ) (A®, Hp, D') also satisfies the conditions of Theorem 3.2.17, so that
+QISOF (D’) has a C*-action, then we have the following isomorphism of CQG s:
+
+QISO£® = QISO} (D') = QISO*”’.
+
+Proof : By Proposition 3.3.2 we have that QISO*? is a sub-object of QISOF (D’) in
+the category Q/,(D'). On the other hand, by Theorem 3.2.17 we have QISOf (D’) as a
+
+sub-object of QI. SO» in the category Qa Combining these facts with the conclusion
+
+ 
+
+ 
+
+ 
+
+of Proposition 3.3.6, we get the required isomorphism.
+
+ 
+
+Remark 3.3.8. The assumptions, and hence the conclusions, of this section are valid
+also for spectral triples obtained by Rieffel deformation of a classical spectral triple, to
+
+be discussed in details in chapter 4.
+
+3.4 Examples and computations
+
+In this section we compute the quantum group of orientation preserving isometries for
+spectral triples on SU,,(2) and C(T?). The computations for the Podles’ spheres and
+
+Rieffel deformed manifolds are given in chapter 5 and Chapter 4 respectively.
+
+3.4.1 Equivariant spectral triple on SU,,(2)
+
+We recall from subsection 1.2.4 that by thy s, we will denote the (i,j) th matrix element
+of the (2n+1) dimensional representation of SU,,(2) and ej; 8 will denote the normalized
+( with respect to the Haar state h ) ¢?,s. We consider the spectral triple on SU,,(2)
+constructed by Chakraborty and Pal ( [13] ) and also discussed thoroughly in [18] which
+is defined by (A°°,H, D) where A°® is the linear span of t7, s, H = L?(SU,,(2)) and D
+
+is defined by :
+
+= (Qn+1eyj, n fi
+= —(2n+ ley, n=i.
+
+Here, we have a cyclic separating vector lgy,(2), and the corresponding faithful
+state is the Haar state h. Thus, we are in the set up of the subsection 3.2.4, and as
+€=1, Apo = A® in this case. Therefore, an operator commuting with D ( equivalently
+with D ) must keep Vv; = Span{ti, 27 = lees 1} invariant for all fixed | and i where
+
+D is the operator as in subsection 3.2.4.

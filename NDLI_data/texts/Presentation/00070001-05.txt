@@ -1,0 +1,36 @@
+Stress assisted Corrosion
+
+A. A little bit of fracture mechanics
+
+Questions of vital importance
+
+Why does a material fracture?
+
+Energy is the key : all processes tend to lower energies of systems. In fracture we consider two types of
+
+energy
+
+i. The elastic energy due to stress — this is reduced as a crack occurs in a body
+
+ii. |The chemical energy of surfaces — this is increased as surfaces are created, that is, as cracking
+occurs
+
+The energy concept was first used by Griffith to explain the conditions for Brittle Failures.
+
+His theory was modified by Orowan to include ductile materials.
+
+How does a metal fracture?
+The fracture mode depends on loading mode, on the materials inherent plastic properties, on the grain
+boundary character
+
+When does a material fracture?
+When stress exceeds critical values, Temperature is conducive or Corrosion causes dissolution reducing
+the effective load bearing capacity. Time is also a factor (ageing).
+
+How to prevent fracture?
+
+After knowing the “How” and “When” a material fractures, the obvious prevention methodology is to
+eliminate or reduce the factors which accelerate fracture
+
+i
+AcS!IR 1

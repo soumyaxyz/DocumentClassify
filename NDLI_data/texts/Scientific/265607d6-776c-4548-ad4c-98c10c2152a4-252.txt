@@ -1,0 +1,43 @@
+REFERENCES REFERENCES
+
+ 
+
+Fetterly, D., Manasse, M., Najork, M. & Wiener, J.L. (2004). A large-scale study
+of the evolution of web pages. Software: Practice and Experience, 34, 213-237.
+13, 24
+
+Fisher, R.A. (1922). On the mathematical foundations of theoretical statistics.
+Philosophical Transactions of the Royal Society of London Series A, 222, 309-
+368. 29
+
+Fonseca, B.M., Golgher, P.B., De Moura, E.S., Péssas, B. & Ziviani, N. (2003).
+Discovering search engine related queries using association rules. Journal of
+Web Engineering, 2, 215-227. 121
+
+Friedman, J.H. (2001). Greedy function approximation: A gradient boosting ma-
+chine. The Annals of Statistics, 29, 1189-1232. 46
+
+Fuhr, N. (1989). Optimum polynomial retrieval functions based on the probability
+ranking principle. ACM Transactions on Information Systems, 7, 183-204. 42
+
+Gao, J., Nie, J.Y., Wu, G. & Cao, G. (2004). Dependence language model for
+information retrieval. In Proceedings of the 27th Annual International ACM
+SIGIR Conference on Research and Development in Information Retrieval,
+170-177, ACM. 27
+
+Geng, X., Liu, T.Y., Qin, T., Arnold, A., Li, H. & Shum, H.Y. (2008). Query
+dependent ranking using k-nearest neighbor. In Proceedings of the 31st Annual
+International ACM SIGIR Conference on Research and Development in Infor-
+mation Retrieval, 115-122, ACM, Singapore, Singapore. 149, 150, 151, 191,
+194
+
+Gil-Costa, V., Santos, R.L.T., Macdonald, C. & Ounis, I. (2011). Sparse spatial
+selection for novelty-based search result diversification. In Proceedings of the
+18th International Symposium on String Processing and Information Retrieval,
+344-355, Springer, Pisa, Italy. 5, 64, 67, 68, 85, 176
+
+Gil-Costa, V., Santos, R.L.T., Macdonald, C. & Ounis, I. (2013). Modelling ef-
+ficient novelty-based search result diversification in metric spaces. Journal of
+Discrete Algorithms. 5, 64, 68, 85, 176
+
+234

@@ -1,0 +1,65 @@
+139 QISO® of a Rieffel deformed noncommutative manifold
+
+ 
+
+ 
+
+ 
+
+ 
+
+This proves the Lemma.
+
+ 
+
+Remark 4.4.14. Proceeding similarly, one can prove Ao,,1 x7 Bora = Boas x7
+Aoi, Aiao Xz Biso = Bio X7 Ato, A101 x7 B10 = Bio,1 x7 A1o0,1
+
+and Aooa Xz Boo. = e(—20)Boo1 Xz Aoo1, A100 Xz Bio. = e(-20)Bioo x7
+Ajoo, Aiaa x7 Bias = e(-20)Biia x7 Aria.
+
+Let us now consider a C* algebra B, which has eight direct summands, four of which
+are isomorphic with the commutative algebra C(T?), and the other four are irrational
+
+rotation algebras. More precisely, we take
+B= ©f_1C* (Uni, Ure),
+
+where for odd k, Uxi, Up2 are the two commuting unitary generators of C(T?), and for
+even k, Up U po = e(2710)U,.2U x1, that is they generate Agg.
+
+Now we are in a position to describe QISO*(Ag) explicitly.
+
+Theorem 4.4.15. QISO*£(Ag) is isomorphic with B = C(T?) @ Aog ® C(T?) © Axg ®
+C(T?) © Ay @ C(T?) © Ago.
+
+Proof : Define ¢: B + QISO£(Ag) by
+
+o(Ui1) = Aooo, Oe = Booo, $(U21) = Aoio, o(U22) = Aoio, o(U31) =
+Aou, ?(U32) = Bou, (Ua) = Aoor, (U2) = Boo, ¢(Us1) = Atso, @(Us2) =
+Bio, o(Ue1) = Ain, ¢ uy Bin, (Um) = Aion, ¢(U72) = Bio, (Us1) =
+Aioo, ?(Us2) = Bioo-
+
+From Lemma 4.4.10 - Lemma 4.4.13 and Remark 4.4.14, it is clear that ¢ is indeec
+
+a * isomorphism.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Remark 4.4.16. In particular, we note that if 0 is taken to be 1/2, then we have a com-
+mutative compact quantum group as the quantum isometry group of a noncommutative
+
+C* algebra.
+
+The case of 6 deformed spheres
+
+We can apply Theorem 4.4.7 on 57 which are obtained by Rieffel deformation of
+C(S") as described in section 1.3. We will consider the isospectral deformation of
+the classical spectral triple on C(S”). Since we have proved in Theorem 2.2.2 that
+QISOL(S") = C(O(n)), it will follow that QISO*(S?) =~ Op(n), where Og(n) is the
+compact quantum group discussed in subsection 1.3.1 as the 6-deformation of C(O(n)).

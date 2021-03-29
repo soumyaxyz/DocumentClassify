@@ -1,0 +1,28 @@
+BI Component - Administration and Operation Layer
+
+This layer consists of four components-
+
+BI AND DW
+1. Bl Architecture BI ARCHITECTURE (DATA WAREHOUSE)
+OPERATIONS
+a. Data =
+
+b. Integration
+c. Information
+d. Technology
+e. Organization
+2. Bland DW Operations DATA RESOURCE BUSINESS
+ADMINISTRATION APPLICATIONS
+a. Backup and restore
+b. Security
+c. Configuration and Management
+d. Database Management
+3. Data Resource Management
+a. Data Governance
+b. Metadata management
+4. Business Applications
+
+ADMINISTRATION
+AND
+
+OPERATION LAYER

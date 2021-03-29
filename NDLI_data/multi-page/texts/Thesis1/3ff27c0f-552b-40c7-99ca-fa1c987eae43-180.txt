@@ -1,0 +1,82 @@
+Chapter 5: Quantum isometry groups of the Podles spheres 168
+
+ 
+
+Proof : From ( 5.3.34 ) , we obtain T3.$2 + $3T> = T2S3 + ST}.
+Using T7352 = S273, from Lemma 5.3.28, we have $37) = T2S3 which proves the
+
+Lemma.
+
+ 
+
+ 
+
+ 
+
+Lemma 5.3.34. So(1 = T>) = (1 ie To) So.
+
+Proof : From ( 5.3.15 ) and ( 5.3.16 ), we have respectively $373 = T3S3 anc
+SuT; = TyS4. From ( 5.3.41 ) and ( 5.3.42 ), we see that in the case yp = 1, T3 is
+normal. Hence, 5373 = T3553 and 5473 = 7354. Using these in ( 5.3.10 ), we have
+So(1 _ T2) = (1 _ T2) So.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Lemma 5.3.35. 5353 = S353.
+
+Proof : Multiplying by 4 the equation ( 5.3.20 ), we have
+49955 — 45353 — 4948} = —4T3 + 473 TF + ATETS.
+Again, from ( 5.3.25 ), we have
+16T3T3 — 49353 — 454St = —4T3 + $953 + $3So.
+
+Subtracting this from the previous equation, we have
+
+ 
+
+ 
+
+45255 — 4(5353 — $353) — 167373 = 4T3T3 + 47373 — S259 — S35.
+
+Again using Lemma 5.3.19, ( 5.3.41 ), ( 5.3.42 ) and ( 5.3.43 ) in this equation, we
+
+obtain
+
+ 
+
+ 
+
+ 
+
+4(53S3 — S353) = 4(1 — T3) — 6(1 — T) + 2(1 — TP) = 0,
+
+ 
+
+ 
+
+ 
+
+which implies $3.53 = $353.
+
+ 
+
+Lemma 5.3.36. S754 = S4Sj.
+
+Proof : From ( 5.3.5 ), we have
+2583S + 28353 + 2897S, = 27} — 2T3T$ — 2TFT3.
+
+Again, from ( 5.3.18 ), we obtain
+
+ 
+
+ 
+
+25955 t 25383 t 25454 2T> 2(1 T2)T2 2T3T3 2T3T3.
+
+Subtracting this from the previous equation and using Lemma 5.3.19, ( 5.3.43 ) anc
+Lemma 5.3.35 we get 2(.S7S4 — S4S}) =0 implying S754 = S457.

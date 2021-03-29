@@ -1,0 +1,55 @@
+7.6. UNITARY GROUPS 57
+
+Now let us assume that t is conjugate to —t~!. We follow the same proof as above
+except that we consider Wa = Va © Vx-1 ® V_a ® V_g-1 when a? # +1. We construct
+
+9rq using Lemma 7.5.2 in this case. The rest of the proof is along similar lines as
+
+ 
+
+ 
+
+ 
+
+ 
+
+above.
+
+ 
+
+Remark 7.5.4. We give an example to show that there are semisimple real ele-
+
+ments in S'p(4,k) which are not a product of two involutions. Let
+
+mn(( 08)
+
+be the matrix of the skew-symmetric (symplectic) form. Then Sp(4,k) = {A €
+GL(4,k) | AJA = J}. Let S$ = diag(A, A+, wu, w-!) € Sp(4,k) with all diagonal
+entries distinct. Then any element T' € Sp(4,k), such that TST-! = S™!, is of the
+
+following type:
+0 —-a 0 —b
+T = dia ;
+
+such that T? = —1. Hence A is real semisimple but not a product of two involutions.
+
+7.6. Unitary Groups
+
+In this section we deal with unitary groups. Let AK be a quadratic field extension
+of k. Let V be an n-dimensional vector space with a nondegenerate hermitian form
+6. Then
+
+U(V,b) = {t € GL(V) | b(t(v), t(w)) = b(v, w) Vu, w € V}
+
+is a k-group. Let k be an algebraic closure of k. We denote V = V @,; k, a module
+over K @, k. We define h on V by base change of h to k. Then U(V,6) is an
+algebraic group defined over k and U(V,6) is the group of k-points of U(V,4). Let
+{e1,...,€n} be an orthogonal basis of V with respect to h. Let (e;,e;) = a; € k and
+let H = diag(ay,...,a,). Then U(V,h) = U(H) ={A€ GL, (K) | AHA = FH}.
+
+Lemma 7.6.1. Let V be a two dimensional vector space over K with a nonde-
+generate hermitian form h. Let e1,e2 be an orthogonal basis of V with b(e:,e:) = hi
+hy 0
+and H = 0 he | Let A be any diagonal matrix in U(H). Then A is real in
+12
+U(H) if and only if hyhy € Nije(K*) and, in that case, it is strongly real.

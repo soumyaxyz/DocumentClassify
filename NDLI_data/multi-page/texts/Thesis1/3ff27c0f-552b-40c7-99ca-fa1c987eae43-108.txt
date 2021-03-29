@@ -1,0 +1,59 @@
+Chapter 3: Quantum group of orientation preserving Riemannian isometries 96
+
+ 
+
+fl a.
+CV 2 @94+V, 789.
+
+Using these observations, we conclude that © maps Span{t!, : 1 > 1/2} into itself.
+So, in particular, Ker(h) = Span{V/ : i = —l,,,,1,1 > 1/2} is invariant under &
+which ( along with ®(1) = 1 ) implies that ® preserves h.
+
+3.3 4.
+
+We proceed by induction. The induction hypothesis holds for |] = 3 since linearity
+means that span {a,7*} is invariant under ® and hence Span {a*,7} is also invariant.
+The case for | = 1 can be checked by inspection as in the proof of 2 = 3. Consider the
+induction hypothesis that ® keeps Vs invariant for all k,i with k < 1. From the proof of
+2 = 3 we also have for all 1 > 3, avr) Cc yi @ yee by using linearity only.
+Thus, © leaves invariant the Hilbert O module (vi? evit )@Q, and is a unitary there
+since ® is Haar-state preserving. Since © leaves invariant vin2 ® Q by the induction
+
+ae i 4h, ‘
+hypothesis, it must keep its orthocomplement, V; * invariant as well.
+
+4. => 3.
+The fact that ® keeps Vv} invariant for / = 1/2 will imply that ® is linear. The proof
+
+of Haar state preservation is exactly the same as in 2 > 3.
+
+4>1.
+
+That ® preserves the Haar state follows from arguments used in the proof of the
+implication 2 > 3.. Since Apo = Span{ti, a 204.9 = heen 1}, and ® keeps each V!
+invariant, it is obvious that ®(Ao9) C Aoo @alg Qo and ®D = (Deid)e.
+
+ 
+
+ 
+
+ 
+
+By Lemma 3.4.1, we have identified the category C with the category of CQG having
+
+ 
+
+C* actions on SU,,(2) satisfying condition 3. of Lemma 3.4.1. Let the universal object
+of this category be denoted by (Q, T).
+
+Then by linearity we can write:
+
+T(a)=a@A+¥7 @B,
+
+T(7*) =a ®C+7 @D.
+
+Now we shall exploit the fact that Tis a +-homomorphism to get relations satisfied
+by A, B,C, D where Q is generated as a C* algebra by the elements A, B,C, D.
+
+Lemma 3.4.2.
+A*A+CC* =1, (3.4.1)

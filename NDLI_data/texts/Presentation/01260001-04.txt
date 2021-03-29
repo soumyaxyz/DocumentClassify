@@ -1,0 +1,21 @@
+Si tenericecemtatin
+Assumptions
+
+@ The flow is in steady state.
+
+ 
+  
+ 
+ 
+    
+
+@ The flow is two-dimensional and laminar.
+@ The fluid is incompressible and Viscous.
+
+@ The porous medium have constant physical properties and are in local
+thermodynamical equilibrium.
+
+@ The flow is moderate, so pressure drop is proportional to the linear
+combination of fluid velocity and the square of the velocity.
+
+In addition, the Soret and Dufour effects are considered.

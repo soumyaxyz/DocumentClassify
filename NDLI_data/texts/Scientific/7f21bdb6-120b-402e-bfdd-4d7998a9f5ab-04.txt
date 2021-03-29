@@ -1,0 +1,132 @@
+A. S. Winoto et al.: Small and Slim Deep Convolutional Neural Network for Mobile Device
+
+IEEE Access
+
+ 
+
+rate while normalize and regularize the data constantly [31].
+Batch normalization itself, as the name stated, normalize the
+data in each training batches.
+
+Batch normalizing layer in CNN is actually needed before
+activation function [31] as showed in (5). Equation (5) can
+be explained with z as the input F(x) as the Activation Func-
+tion such as Swish or ReLU, and W and Db as the trainable
+parameter.
+
+z= F(Wu+ bd) (5)
+
+We would want to add the normalizing the x = Wu-+ b where
+it would resulted in a more stable distribution on the activation
+function [31]. The bias b could be ignored because it would be
+negated by the mean subtraction on the Batch Normalization,
+thus we could re-write the function as (6).
+
+z= F(BN (Wu)) (6)
+
+C. RESIDUAL LAYER
+
+Residual layer itself is being used in so many CNN. The main
+usage of residual layer is to retain the input value so that it
+wouldn’t degrade faster and have the feature intact. Residual
+layer that will be used is the same with the residual layer
+which firstly introduced in [14]. Residual Layer can be seen
+in Fig.1
+
+D. DEPTHWISE SEPARABLE CONVOLUTION LAYER
+
+Depth-wise separable convolution layer is very important to
+use to reduce the total number of operations used. While the
+normal convolution will use (7) and depth-wise convolution
+cost (8) and point-wise convolution cost (9). While the total
+depth-wise separable convolution will cost as (10) or could
+be simplified as (11) which is the sum of (8) and (9).
+
+Dr * Dx *M * N * Dp * Dr 7)
+Dx * Dx *M * Dr * Dr (8)
+M *N * Dp * Dr (9)
+Dg * Dx *M*Dp*Dp+M*Nx*Dp*xDp (10)
+M * Dp * Dp * (Dx * Dx +N) qd)
+
+Depth-wise separable convolution by itself can save more
+than 80 to 90 percent of computation on 3 x 3 convolution
+layer as we can see in (12). By trying to calculate the differ-
+ences using (12) with Dk = 3 while depth-wise convolution
+will only take 1/N worth of computational power than the
+normal convolution.
+
+1 1
+N v Dx +Dx
+
+As we can see in Figure 5, depth-wise convolution is using
+a 2D kernel, which convolved for each layer from the input
+which also would be stacked later as the output. So, it has
+one kernel and only one kernel for a layer from the input. For
+example, we have a 10 x 10x 3 images, then we would want to
+depth-wise convolution using a kernel size of 3 x 3. It means
+that we will have 3 kernels sized of 3 x 3 for each layer.
+
+(12)
+
+VOLUME 8, 2020
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+10x 10x 3 input 3x3x1 kernel 8x 8x3 output
+
+FIGURE 5. Depthwise convolution.
+
+Firstly, we convolved the 3 x 3 to the 10 x 10, that gives
+a result of 8 x 8. After all layer have been iterated, we then
+stack together all of the output, to get the same number of
+layers as the original input, in this case, the output will be
+8x 8 x 3.
+
+E. DROPOUT LAYER
+
+The dropout layer [30] could also be used in DCNN to drop
+some insignificant features of the input layer which made the
+input layer are easier to differentiate with one another and
+thus easier to hit the minimum loss possible. Dropout layer
+is portrayed in Fig. 6 where the dropped layer is depicted as
+gray node with cross mark in it. The dropped layer will be
+stopping to train while the other layer will be just trained as
+usual.
+
+Output
+
+Hidden
+Layer
+
+Hidden
+Layer
+
+ 
+
+FIGURE 6. Dropout layer.
+
+We implement the layers to build some convolutional block
+for the newly proposed architecture. The proposed model
+will have 4 new convolutional blocks, which can be seen
+in Table 1. We implemented the Alpha layer and Gamma
+layer to increase the efficiency while using low computational
+operations by utilizing the depth-wise layer and separable
+convolutional layer. Beta layer are divided into 2 variances,
+which is the Beta and Beta-2. Beta layer’s main usage is
+to halves the input layer, but Beta-2 could be normal layer
+when the stride is set as one and could be reduction layer
+when the stride is set to two. The normal beta layer itself are
+
+125213

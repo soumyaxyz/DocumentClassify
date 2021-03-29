@@ -1,0 +1,55 @@
+arXiv:2006.15646v1 [cs.LG] 28 Jun 2020
+
+ 
+
+Characterizing the Expressive Power of Invariant and
+Equivariant Graph Neural Networks
+
+Waiss Azizian
+ENS, PSL University, Paris, France
+waiss.azizian@ens.fr
+
+Marc Lelarge
+INRIA & ENS, PSL University, Paris, France
+marc.lelarge@ens.fr
+
+Abstract
+
+Various classes of Graph Neural Networks (GNN) have been proposed and shown
+to be successful in a wide range of applications with graph structured data. In
+this paper, we propose a theoretical framework able to compare the expressive
+power of these GNN architectures. The current universality theorems only apply to
+intractable classes of GNNs. Here, we prove the first approximation guarantees for
+practical GNNs, paving the way for a better understanding of their generalization.
+Our theoretical results are proved for invariant GNNs computing a graph embedding
+(permutation of the nodes of the input graph does not affect the output) and
+equivariant GNNs computing an embedding of the nodes (permutation of the input
+permutes the output). We show that Folklore Graph Neural Networks (FGNN),
+which are tensor based GNNs augmented with matrix multiplication are the most
+expressive architectures proposed so far for a given tensor order. We illustrate our
+results on the Quadratic Assignment Problem (a NP-Hard combinatorial problem)
+by showing that FGNNs are able to learn how to solve the problem, leading to
+much better average performances than existing algorithms (based on spectral,
+SDP or other GNNs architectures). On a practical side, we also implement masked
+tensors to handle batches of graphs of varying sizes.
+
+1 Introduction
+
+Graph Neural Networks (GNN) are designed to deal with graph structured data. Since a graph is
+not changed by permutation of its nodes, GNNs should be either invariant if they return a result that
+must not depend on the representation of the input (typically when building a graph embedding)
+or equivariant if the output must be permuted when the input is permuted (typically when building
+an embedding of the nodes). More fundamentally, incorporating symmetries in machine learning
+is a fundamental problem as it allows to reduce the number of degree of freedom to be learned.
+As an extreme example, consider the case of the linear regression where the task is to estimate a
+linear model 321 + ---+ 8,2. If we know that the model is invariant to permutations of the input
+(a1,...,2,), then there is only one parameter to estimate because linearity and invariance of the
+model impose 8; = --- = Bn.
+
+Learning on graphs. When the input of the learning task is a graph or a signal on the vertices of a
+graph, this means there are natural symmetries to take into account. Namely, the task is invariant to
+graph symmetries: two isomorphic graphs will produce the same output. As an example, a linear
+regression on graphs would be a task where we try to estimate a linear function of the adjacency
+matrix in R"*” of the graph. But this linear function should also be invariant to the permutation of
+
+Preprint. Under review.

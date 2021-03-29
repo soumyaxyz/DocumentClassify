@@ -1,0 +1,49 @@
+7. Document Coverage
+
+ 
+
+Table 7.3: Top 10 document features in the informational and navigational models.
+
+ 
+
+ 
+
+Informational Navigational
+
+Feature MAP Feature MAP
+1 DPH 0.261 DPH 0.211
+2 UD 0.275 MRF (body) 0.227
+3 PL2 (title) 0.282 BM25 (title) 0.241
+4 BM25 (field-based) 0.291 UW 0.252
+5 pBib (body) 0.296 CLM 0.259
+6 pBiL (anchor) 0.298 UL 0.263
+7 ER 0.300 AM 0.267
+8 LM (title) 0.301 PR (transposed) 0.269
+9 CLM (body) 0.302 IL 0.272
+10 CLM 0.303 pBiL (body) 0.274
+
+7.3 Experimental Evaluation
+In this section, we address the third claim from our thesis statement:
+
+“By maximising the relevance of the retrieved documents to multiple
+
+sub-queries, a high coverage of these sub-queries can be achieved.”
+
+To address this claim, we evaluate the effectiveness of our intent-aware ap-
+proach to improve the coverage estimates leveraged by the xQuAD framework.*
+
+In particular, we aim to answer the following research questions:
+Ql. Can we improve diversification performance with our model selection regime?
+Q2. Can we improve diversification performance with our model merging regime?
+
+In the following, Section 7.3.1 details the experimental setup that supports the
+investigation of these questions, including the test collections, the diversification
+baselines, and the classification approaches used by the two regimes, as well as
+the procedure carried out for training and evaluating all approaches. The results
+
+of this investigation are discussed in Section 7.3.2.
+
+4While the estimated relevance of a document with respect to a sub-query also impacts
+xQuAD’s estimation of novelty, we leave the analysis of this component to Chapter 8.
+
+160

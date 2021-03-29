@@ -1,0 +1,12 @@
+BI Component — Implementation Layer — Information Services
+
+¢ It is not only the process of producing information; rather, it involves
+ensuring that the information produced is aligned with business
+requirements and can be acted upon to produce value for the company.
+
+¢ Information is delivered in the form of KPI’s, reports, charts, dashboards or
+scorecards, etc., or in the form of analytics.
+
+* Data mining is a practice used to increase the body of knowledge.
+
+* Applied analytics is generally used to drive action and produce outcomes.

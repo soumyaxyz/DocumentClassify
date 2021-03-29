@@ -1,0 +1,21 @@
+Outline
+
+@ Basic concepts
+e Stretching Surface
+e Porous media
+e Non-Darcy porous media
+e Mixed convection
+e Soret and Dufour effects
+
+@ Mathematical formulation of the proposed problem
+@ Results and Discussion
+
+ 
+
+or «gr as
+
+2/9
+
+ 
+
+Mixed Convection from an Exponentially Sti

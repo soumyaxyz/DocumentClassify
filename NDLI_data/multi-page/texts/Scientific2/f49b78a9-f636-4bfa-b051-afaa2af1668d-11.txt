@@ -1,0 +1,161 @@
+IEEE Access:
+
+S. Banerjee et al.: Physically Secure Lightweight Anonymous User Authentication Protocol for loT
+
+ 
+
+attacks, both the games G3 and G4 are identical. Thus,
+we have following result [51]:
+
+|Pr|[SUCCESS4|—Pr[S
+s! s qe. (5)
+
+. Hs
+< max{C".g3 , 3 ble
+
+          
+
+Finally, to win the game G4, A needs to guess bit b’ after
+querying the Test oracle. Thus, it is clear that
+
+1
+
+|Pr[SUCCESS4] = 5. ©
+From Eqs. ( @ and @. we have
+F Adah Ct = |Pr[SUCCESS)] — 5
+= |Pr|SUCCESS,] - 5
+= |Pr[SUCCESS}] — |Pr[SUCCESS,]].
+
+(7)
+
+Applying the triangular inequality and using Eqs.
+and 5). we obtain
+
+ 
+
+ 
+
+|Pr[SUCCESS,] —|Pr[SUCCESS,]|
+
+< |Pr[SUCCESS\] — |Pr[SUCCESSs]|
+
++|Pr[SUCCESS3] — |Pr[SUCCESS,]|
+
+< |Pr[SUCCESS\] — |Pr[SUCCESS5]|
++|Pr[SUCCESS] — pisces: | (8)
+
++|Pr[SUCCESS3] — |Pr[SUCCES$1l|
+
+< th q>
+~ |Hash| * 2|PUF|
++max{C".g’, a ach
+
+Finally, by solving Eqs. (7) and (8), we obtain the required
+result:
+@
+
+“ ds Ws
+2 ws’
+Port max{C".q }
+
+Ada F(t ‘< dh Gs Is
+" Ss Oh ’ dla :
+
+|Hash|
+
+ 
+
+ 
+
+B. FORMAL SECURITY VERIFICATION THROUGH
+AVISPA SIMULATION
+
+In this section, we perform the formal security verification
+on the proposed scheme using the broadly-accepted AVISPA
+tool [49].
+
+AVISPA is a push button tool for the automated validation
+of security protocols. AVISPA implements the Dolev-Yao
+(DY) threat model [6] to test if a security protocol is safe
+or unsafe against replay & man-in-the-middle attacks. The
+security protocol to be analyzed in AVISPA requires to be im-
+plemented under the role-oriented language, known as “High
+Level Protocol Specification Language (HLPSL)” (54). A
+built-in translator, called HLPSL2IF, converts HLPSL code
+to the “Intermediate Format (IF). The IF is then passed into
+one of the four available backends for AVISPA to produce the
+“Output Format (OF)”.
+
+The four backends in AVISPA are as follows [49]:
+
+VOLUME 7, 2019
+
+e The first backend is “On-the-fly Model-Checker
+(OFMC) that does several symbolic techniques to ex-
+plore the state space in a demand-driven way”.
+
+« The second backend is the “CL-AtSe (Constraint-Logic-
+based Attack Searcher) that provides a translation from
+any security protocol specification written as transition
+relation in intermediate format into a set of constraints
+which are effectively used to find whether there are
+attacks on protocols”.
+
+e The third backend is the “SAT-based Model-Checker
+(SATMC) that builds a propositional formula which is
+then fed to a state-of-the-art SAT solver and any model
+found is translated back into an attack”.
+
+e The fourth backend is the “TA4SP (Tree Automata
+based on Automatic Approximations for the Analysis
+of Security Protocols) that approximates the intruder
+knowledge by using regular tree languages”.
+
+The OF has various sections as described below [49].
+
+« SUMMARY: It mentions “whether the tested protocol is
+safe, unsafe, or whether the analysis is inconclusive”.
+
+« DETAILS: It tells “a detailed explanation of why the
+tested protocol is concluded as safe, or under what
+conditions the test application or protocol is exploitable
+using an attack, or why the analysis is inconclusive”.
+
+« PROTOCOL: This defines the “HLPSL specification of
+the target protocol in IF”.
+
+« GOAL: It is “the goal of the analysis which is being
+performed by AVISPA using HLPSL specification”.
+
+« BACKEND: It provides “the name of the back-end that
+is used for the analysis, that is, one of OFMC, CL-AtSe,
+SATMC, and TA4SP”.
+
+« Final section includes “the trace of possible vulnerabil-
+ity to the target protocol, if any, along with some useful
+statistics and relevant comments”.
+
+More details regarding AVISPA and HLPSL can be found in
+:
+
+The user registration, device enrollment, login & authen-
+tication phases for the proposed scheme are implemented in
+HLPSL. In our implementation, three basic roles for a user
+U, the GW N and a smart device SD are defined in HLPSL.
+The compulsory roles for the session and goal & environment
+are also defined in HLPSL.
+
+We then evaluate the proposed scheme against replay
+and man-in-the-middle attacks under the popular backends,
+OFMC and CL-AtSe using the SPAN, the Security Protocol
+ANimator for AVISPA tool [55]. Fig. [8] presents the sim-
+ulation results showing that the proposed scheme is secure
+against replay & man-in-the middle attacks.
+
+C. INFORMAL SECURITY ANALYSIS
+
+In this section, through informal security analysis, we
+demonstrate the security features of the proposed scheme as
+well as its resilience against well-known attacks.
+
+11

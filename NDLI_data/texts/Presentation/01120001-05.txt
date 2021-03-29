@@ -1,0 +1,16 @@
+Problem analysis
+
+We consider the system of equations which governs the one
+dimensional modified shallow water equations as follows [?]
+
+hy + huy + uhy = 0,
+
+up + gn Dh, + uu, = 0, (1)
+where x, t are the independent variables denoting the space
+and time respectively and
+
+u = x-component of fluid velocity,
+h = variable depth
+g = acceleration due to gravity, H = ko/g.
+
+Pace an tn

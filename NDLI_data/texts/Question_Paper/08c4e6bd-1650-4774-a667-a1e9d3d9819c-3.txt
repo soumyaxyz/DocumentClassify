@@ -1,0 +1,66 @@
+Li
+
+(b)
+
+(a)
+
+(b)
+
+‘gneentereteenantiiguntteines neeinetnctenintaiins
+
+Let X be a nonnegative rv with distribution
+
+function F. Then EX = fo - F(x)]dx, in the
+0
+
+sense that, if either side exists, so does the
+
+other and the two are equal.
+
+Let Xqq),X,))---X(q) be the set of order
+statistics of independent rvs X,,X.,...X,
+with common pdf
+
+Be ifx>0
+0 otherwise.
+
+f(x) -{
+
+(i) Show that X,,,) and X,,)-X,) are
+
+independent for any s >r.
+
+Gi) Find the pdf of X;,,:) -X()-
+
+Or
+
+Gi) Let ERX) exist. Then
+ERX) = E{E{h(X)/Y}}.
+
+(ii) If EX? <o, then var(X) > var(E{X/Y})
+with equality if and only if X is a
+function of Y .
+
+5 S.No. 4311
+
+18. (a) Let {X,,Y,}, n=1,2,..., be a sequence of
+
+pairs of rv’s, and let C be a constant. Then
+
+GQ x,
+
+¥-" 4C0>X,1Y,> "5k 2¢;
+Gi) X, 24x,
+fk les c = 6x if Cs 0,
+x,Y,—*>0 if C=0;
+Gii) X, +X,
+x x
+
+yo 30S aaa OHO.
+
+ 
+
+Or
+(b) State and prove Cauchy criterion theorem.
+
+6 S.No. 4311

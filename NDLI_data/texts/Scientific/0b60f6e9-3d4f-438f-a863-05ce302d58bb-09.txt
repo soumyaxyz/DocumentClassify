@@ -1,0 +1,167 @@
+100
+80 +
+60
+40
+20
+
+0
+
+ 
+
+ 
+
+ 
+
+ 
+
+% that are novel
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+oe oe
+> os
+og
+
+awe
+
+oy?
+7 ow
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+pointer-generator + coverage
+
+sequence-to-sequence + attention baseline
+\) :
+
+reference summaries
+
+ 
+
+ 
+
+Figure 6: Although our best mode! is abstractive,
+it does not produce novel n-grams (i.e., n-grams
+that don’t appear in the source text) as often as
+the reference summaries. The baseline model
+produces more novel n-grams, but many of these
+are erroneous (see section 7.2).
+
+ 
+
+ 
+
+Article: andy murray (...) is into the semi-finals of the mi-
+ami open , but not before getting a scare from 21 year-old
+austrian dominic thiem, who pushed him to 4-4 in the sec-
+ond set before going down 3-6 6-4, 6-1 in an hour and three
+quarters. (...)
+
+Summary: andy murray defeated dominic thiem 3-6 6-4,
+6-1 in an hour and three quarters.
+
+ 
+
+Article: (...) wayne rooney smashes home during manch-
+ester united ’s 3-1 win over aston villa on saturday. (...)
+Summary: manchester united beat aston villa 3-1 at old
+trafford on saturday.
+
+ 
+
+Figure 7: Examples of abstractive summaries pro-
+duced by our model (bold denotes novel words).
+
+In particular, Figure 6 shows that our final
+model copies whole article sentences 35% of the
+time; by comparison the reference summaries do
+so only 1.3% of the time. This is a main area for
+improvement, as we would like our model to move
+beyond simple sentence extraction. However, we
+observe that the other 65% encompasses a range of
+abstractive techniques. Article sentences are trun-
+cated to form grammatically-correct shorter ver-
+sions, and new sentences are composed by stitch-
+ing together fragments. Unnecessary interjections,
+clauses and parenthesized phrases are sometimes
+omitted from copied passages. Some of these abil-
+ities are demonstrated in Figure 1, and the supple-
+mentary material contains more examples.
+
+Figure 7 shows two examples of more impres-
+sive abstraction — both with similar structure. The
+dataset contains many sports stories whose sum-
+maries follow the X beat Y (score) on (day) tem-
+
+plate, which may explain why our model is most
+confidently abstractive on these examples. In gen-
+eral however, our model does not routinely pro-
+duce summaries like those in Figure 7, and is not
+close to producing summaries like in Figure 5.
+
+The value of the generation probability pgen
+also gives a measure of the abstractiveness of our
+model. During training, pgen starts with a value
+of about 0.30 then increases, converging to about
+0.53 by the end of training. This indicates that
+the model first learns to mostly copy, then learns
+to generate about half the time. However at test
+time, Pgen is heavily skewed towards copying, with
+a mean value of 0.17. The disparity is likely
+due to the fact that during training, the model re-
+ceives word-by-word supervision in the form of
+the reference summary, but at test time it does
+not. Nonetheless, the generator module is use-
+ful even when the model is copying. We find
+that pgen is highest at times of uncertainty such
+as the beginning of sentences, the join between
+stitched-together fragments, and when producing
+periods that truncate a copied sentence. Our mix-
+ture model allows the network to copy while si-
+multaneously consulting the language model — en-
+abling operations like stitching and truncation to
+be performed with grammaticality. In any case,
+encouraging the pointer-generator model to write
+more abstractively, while retaining the accuracy
+advantages of the pointer module, is an exciting
+direction for future work.
+
+8 Conclusion
+
+In this work we presented a hybrid pointer-
+generator architecture with coverage, and showed
+that it reduces inaccuracies and repetition. We ap-
+plied our model to a new and challenging long-
+text dataset, and significantly outperformed the
+abstractive state-of-the-art result. Our model ex-
+hibits many abstractive abilities, but attaining
+higher levels of abstraction remains an open re-
+search question.
+
+9 Acknowledgment
+
+We thank the ACL reviewers for their helpful com-
+ments. This work was begun while the first author
+was an intern at Google Brain and continued at
+Stanford. Stanford University gratefully acknowl-
+edges the support of the DARPA DEFT Program
+AFRL contract no. FA8750-13-2-0040. Any opin-
+ions in this material are those of the authors alone.

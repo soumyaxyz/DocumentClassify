@@ -1,0 +1,16 @@
+Image and Video Compression using Block
+Truncation Coding and Pattern Fitting for Fast
+
+Decoding
+
+Bibhas Chandra Dhara
+Department of Information Technology
+Jadavpur University, Salt Lake Campus
+
+Kolkata 700098
+India
+
+Thesis submitted to Indian Statistical Institute
+for partial fulfilment of the requirements for
+
+the degree of Doctor of Philosophy

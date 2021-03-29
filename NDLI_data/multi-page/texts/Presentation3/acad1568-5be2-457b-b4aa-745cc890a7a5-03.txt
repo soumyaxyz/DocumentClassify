@@ -1,0 +1,28 @@
+USING ANALYTICAL INFORMATION FOR DECISION
+SUPPORT
+
+In the past, leading market research firms noticed that often senior
+executives in businesses leveraged “numerical information” to support their
+decisions.
+
+They started using the term “Business Intelligence’’(BI) for the set of
+concepts and processes that allows a business executive to make informed
+decisions.
+
+The IT applications providing such “numerical information” were
+commonly called "analytical applications” to distinguish them from
+transaction-oriented applications.
+
+The decision making became informed decision making with the use of BI.
+What is an “informed decision’?
+
+— Itis a decision based on fact and fact alone.
+— Why is it required to make informed decisions?
+
+* The simple reason is informed decisions based on fact, not on gut feeling, more often than not are the correct
+decisions. It’s easy to communicate “facts” to the large number of stakeholders.
+
+— Consistency in decision making
+
+* A large dispersed set of decision makers ¢an arriveat the same conclusion when facts are presented and
+interpreted the same way.

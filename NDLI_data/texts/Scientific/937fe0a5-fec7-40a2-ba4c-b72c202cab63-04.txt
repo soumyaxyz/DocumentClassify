@@ -1,0 +1,117 @@
+| Impacts Task?
+
+| Addressed by Approach?
+
+Model |
+
+ 
+
+ 
+
+Desired Property nacifinati Citation Rec- . hae T nO T Oo
+Classification ommendation w2v d2v-ne d2v-cac h-d2v |D D? Ww! W
+Context aware v v v x v v wv viv vv
+Content aware v v x v v v d2v (pv-dm) vo xX vv
+Newcomer friendly v v x v v v d2v (pv-dbow)} Vo x xv
+Context intent aware x v x x x v h-d2v vv Vv Vv
+
+ 
+
+Table 1: Analysis of tasks and approaches w.r.t. desired properties.
+
+is regarded as a special context vector to average.
+Analogously, pv—dbow uses IN document vec-
+tor to predict its words’ OUT vectors, following
+the same structure of skip-gram. Therefore in
+pv-dbow, words’ IN vectors are omitted.
+
+4.2 Adaptation of Existing Approaches
+
+To represent hyper-docs, a straightforward strat-
+egy is to convert them into plain documents in a
+certain way and apply w2v and d2v. Two conver-
+sions following this strategy are illustrated below.
+
+Citation as word. This approach is adopted by
+Berger et al. (2017).2 As Figure 1(b) shows, doc-
+ument ids D are treated as a collection of spe-
+cial words. Each citation is regarded as an oc-
+currence of the target document’s special word.
+After applying standard word embedding meth-
+ods, e¢.g., w2v, we obtain embeddings for both
+ordinary words and special “words”, i.e., docu-
+ments. In doing so, this approach allows target
+documents interacting with context words, thus
+produces context-aware embeddings for them.
+
+Context as content. It is often observed in aca-
+demic papers when citing others’ work, an author
+briefly summarizes the cited paper in its citation
+context. Inspired by this, we propose a context-
+as-content approach as in Figure 1(c). To start, we
+remove all citations. Then all citation contexts of a
+target document d; are copied into d; as additional
+contents to make up for the lost information. Fi-
+nally, d2v is applied to the augmented documents
+to generate document embeddings. With this ap-
+proach, the generated document embeddings are
+both context- and content-aware.
+
+4.3 hyperdoc2vec
+
+Besides citation-as-word with w2v and context-
+as-content with d2v (denoted by d2v-cac for
+short), there is also an alternative using d2v on
+documents with citations removed (d2v—nc for
+
+*It is designed for document visualization purposes.
+
+Table 2: Output of models.
+
+short). We made a comparison of these approaches
+in Table | in terms of the four criteria stated in Sec-
+tion 3.3. It is observed that none of them satisfy all
+criteria, where the reasons are as follows.
+
+First, w2v is not content aware. Following our
+examples in the academic paper domain, consider
+the paper (hyper-doc) Zhao and Gildea (2010)
+in Figure l(a), from w2v’s perspective in Fig-
+ure 1(b), “...computing the machine translation
+BLEU ...” and other text no longer have as-
+sociation with Zhao and Gildea (2010), thus not
+contributing to its embedding. In addition, for
+papers being just published and having not ob-
+tained citations yet, they will not appear as special
+“words” in any text. This makes w2v newcomer-
+unfriendly, i.e., unable to produce embeddings for
+them. Second, being trained on a corpus without
+citations, d2v—nc is obviously not context aware.
+Finally, in both w2v and d2v—cac, context words
+interact with the target documents without treat-
+ing the source documents as backgrounds, which
+forces IN vectors of words with context intents,
+e.g., “evaluate” and “by” in Figure 1(a), to simply
+remember the target documents, rather than cap-
+ture the semantics of the citations.
+
+The above limitations are caused by the conver-
+sions of hyper-docs where certain information in
+citations is lost. For a citation (d,, C, d;), citation-
+as-word only keeps the co-occurrence information
+between C’ and d;. Context-as-content, on the
+other hand, mixes C’ with the original content of
+d;. Both approaches implicitly downgrade cita-
+tions (ds, C,, d;) to (C, d;) for adaptation purposes.
+
+To learn hyper-doc embeddings without such
+limitations, we propose hyperdoc2vec. In this
+model, two vectors of a hyper-doc d, i.e., IN and
+OUT vectors, are adopted to represent the docu-
+ment of its two roles. The IN vector d/ character-
+izes d being a source document. The OUT vector
+d° encodes its role as a target document. We note
+that learning those two types of vectors is advan-
+tageous. It enables us to model citations and con-
+
+2387

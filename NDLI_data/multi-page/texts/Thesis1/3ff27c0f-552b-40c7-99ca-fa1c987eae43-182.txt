@@ -1,0 +1,68 @@
+Chapter 5: Quantum isometry groups of the Podles spheres 170
+
+ 
+
+subalgebra QISOt(D) must be SO, (3). In particular, the universal object in the sub-
+category of CQG s acting by orientation preserving isometries and containing SO,,(3)
+
+as a quantum subgroup exists.
+
+ 
+
+Lemma 5.3.40. If QISO*(D) exists, its induced action on Se. ws
+
+the state h on the subspace spanned by {1, A, B, B*, AB, AB*, A*, B?, BY}.
+
+say ag, must preserve
+
+Proof : Let Wo = C.1, Wi = Span{1, A, B, B*},
+
+Ws = Span{1, A, B, B*, AB, AB*, A2, B?, BY}.
+
+We note that the proof of Proposition 5.3.8 and the Lemmas preceding it do not
+use the assumption that the action is volume preserving, so the proof of Proposition
+5.3.8 goes through verbatim implying that ao keeps invariant the subspace spanned
+by {1, A,B, B*} and hence it preserves Ws as well. Let Ws = Wi ® W’ be the
+orthogonal decomposition w.r.t. the Haar state (say ho) of QISO*(D ). Since SO,(3)
+is a sub-object of Q1SOt (D), there is a CQG morphism 7 from QISOt(D) onto SO,,(3)
+satisfying (id®m)ao = A, where A is the SO,,(3) action on SP ee It follows from this that
+any QISO* (D)-invariant subspace (in particular W’) is also SO,,(3)-invariant. On the
+other hand, it is easily seen that on Ws , the SO,(3)-action decomposes as Wi aw",
+(orthogonality w.r.t. h, the Haar state of SO,(3))), where W" is a five dimensional
+irreducible subspace.
+
+We claim that W! = W", which will prove that the Q1SO*(D)-action ag has the
+same h-orthogonal decomposition as the SO,,(3)-action on Ws, so preserves C.1 and its
+h-orthogonal complements. This will prove that ap preserves the Haar state h on w2.
+
+We now prove the claim. We observe that V := W/()W" is invariant under the
+SO,,(3)-action but due to the irreducibility of A on the vector space W! or W", it has
+to be zero or W! = W". Now, dim(V) = 0 implies dim(W’) + dim(W”) =5+5>9=
+
+dim(Ws:) which is a contradiction unless W! = W’.
+2
+
+ 
+
+ 
+
+ 
+
+ 
+
+Theorem 5.3.41. If QISO+(D) exists, then we have QISO*(D) = SO,(3). In par-
+ticular, the universal object in the subcategory of Q'(D) with objects containing SO,,(3
+
+as a sub- object, exists.
+
+Proof : In Lemma 5.3.40, it was noted that Proposition 5.3.8 follows as before. We
+
+observe that the other Lemmas used to prove Theorem 5.3.31 require the conclusion o:
+
+ 
+
+ 
+
+ 
+
+Lemma 5.3.40 as the only extra ingredient.

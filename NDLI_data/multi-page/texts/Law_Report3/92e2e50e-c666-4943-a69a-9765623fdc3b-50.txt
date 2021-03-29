@@ -1,0 +1,46 @@
+50
+
+(b) for clause (4), the following clauses and the Explanation shall be substituted,
+namely:-
+
+“(4) The court shall have regard as to whether such evidence has or will have
+sufficient probative value to outweigh its prejudicial effect, in the circumstances of the
+case.
+
+(5) The court may, if it sees fit, draw, from the witness’s refusal to answer, the
+inference that the answer if given would be unfavourable.
+
+Explanation:- Where, in a suit for damages for defamation for injury to the
+reputation of a person, an aspect of the character of that person, other than that to
+which the matter alleged to be defamatory relates, is likely to be injured by a
+question under this section, the court shall have particular regard to the question
+whether, having regard to the considerations mentioned in this section, such
+question is proper”.
+
+Insertion of new section 148A
+
+84. After section 148 of the principal Act, the following section shall be inserted,
+namely:-
+
+Accused person not to be asked certain questions
+
+“148A. An accused person who offers himself as a witness in pursuance of section 315 of
+the Code of Criminal Procedure, 1973, shall not be asked and if asked, shall not be
+compelled to answer, any question tending to show that he has committed or has been
+convicted of or been charged with any offence other than that with which he is then
+charged, or that he is of bad character unless —
+
+(i) the proof that he has committed or been convicted of such other offence is
+relevant to a matter in issue; or
+
+(ii) he has personally or by his advocate asked questions of the witness for the
+prosecution with a view to establishing his own good character, or has
+given evidence of his good character, or
+
+(ii) the nature or conduct of the defence is such as to involve imputations on
+the character of the witnesses for the prosecution,(other than the character
+of the prosecutrix) without obtaining the leave of the Court for asking the
+particular question; or
+
+(iv) he has given evidence against any other person charged with the same
+offence;

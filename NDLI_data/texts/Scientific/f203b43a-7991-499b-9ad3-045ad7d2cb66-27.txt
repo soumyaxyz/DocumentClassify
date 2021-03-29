@@ -1,0 +1,119 @@
+EIRINI PAPAGIANNOPOULOU AND GRIGORIOS TSOUMAKAS 27
+
+ 
+
+text documents (Docs), (iv) text language (Language), (v) annotators (Annotation Type), which can be author-assigned
+keyphrases, reader-assigned keyphrases or controlled/uncontrolled keyphrases assigned by professional indexers, and
+vi) the number of times that the dataset is used in the evaluation process with respect to the scientific articles that are
+included in the current survey. There are also 16 papers that use other, not so well-known datasets, that are not pub-
+licly available or are created for the evaluation of their methods.
+
+as well as on the
+
+ 
+
+Anumber of datasets for evaluating keyphrase extraction algorithms are available on Githu
+
+website of Sujatha Das Gollapal
+
+ 
+
+ 
+
+      
+ 
+  
+ 
+
+ 
+
+      
+    
+
+     
+   
+
+        
+
+  
+
+       
+ 
+
+ 
+
+ 
+   
+ 
+
+ 
+
+  
+   
+  
+ 
+
+ 
+ 
+
+Type Dataset Created By Docs Language Annotation Type | Freq.
+NUS Nguyen and Kan |2007 211 English | Authors/Readers | 9
+Full-text Krapivin 2008 2304 | English Authors 6
+Papers Semeval2010_ | |k 244 English | Authors/Readers | 12
+Citeulike-180 2009 180 English Readers 1
+2000 English Indexers 21
+Paper
+755 English Authors 6
+Abstracts
+567830 | English Authors 3
+1330 English Authors 6
+DUC-2001 308 English Readers 10
+500N-KPCrowd 500 English Readers 4
+110-PT-BN-KP 110 Portuguese Readers 1
+Wikinews 2013 100 French Readers 1
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+TABLE 5 Popular evaluation datasets grouped by their type of source (Type).
+
+Furthermore, several approaches to the creation of such datasets have been proposed, in the past |Medelyan et al.
+Sterckx et al.|/2018}. Recently,Sterckx et al have created new keyphrase extraction collections consist-
+
+ing of on-line news/sports, lifestyle magazines as well as newspaper articles, annotated by multiple annotators. These
+
+   
+
+collections are available for research purposes upon request to the article’s authors.
+
+5.2 | Keyphrase Extraction Software
+
+Both commercial and free software is developed for keyphrase extraction. In this section, we briefly present available
+
+as well as some well-known commercial keyphrase extraction APIs
+
+ 
+
+free keyphrase extraction software (Section|
+
+ 
+
+  
+  
+
+  
+
+https: //github.com/zelandiya/keyword-extraction-datasets
+“https: //github.com/snkim/AutomaticKeyphraseExtraction
+https: //sites.google.com/site/sujathadas/home/datasets

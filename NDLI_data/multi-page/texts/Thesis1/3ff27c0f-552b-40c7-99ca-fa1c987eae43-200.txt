@@ -1,0 +1,78 @@
+BIBLIOGRAPHY 188
+
+ 
+
+13
+
+ 
+
+20
+
+21
+
+ 
+
+22
+
+[23
+
+[24
+
+ 
+
+]
+
+]
+
+Q
+
+1akraborty, P. $., Goswami, D. and Sinha, Kalyan B.: Probability and geom-
+etry on some noncommutative manifolds, J. Operator Theory 49 (2003), no. 1,
+185-201.
+
+Chakraborty, P. S. and Pal, A.: Equivariant spectral triples on the quantum
+SU(2) group, K. Theory 28(2003), 107-126.
+
+Chakraborty, P. S. and Pal, A.: Spectral triples and associated Connes-de
+Rham complex for the quantum SU(2) and the quantum sphere, Comm. Math.
+1ys.,240 (2003), No. 3, 447-456.
+
+zari, V; Pressley, A.: “ A guide to Quantum Groups”, Cambridge University
+ress ( 1994 ).
+
+ 
+
+P
+Cc
+P.
+Christensen, E.; Ivan, C. : Spectral triples for AF C*-algebras and metrics on
+the Cantor set, J. Operator Theory 56 (2006), no. 1, 17-46.
+
+Connes, A.: “Noncommutative Geometry”, Academic Press, London-New York
+(1994).
+
+Connes, A.: Cyclic cohomology, quantum group symmetries and the local index
+formula for SU,(2), J. Inst. Math. Jussieu 3(2004), no. 1, 17-68.
+
+Connes, Alain; Dubois-Violette, Michel. : Noncommutative finite-dimensional
+manifolds. I. Spherical manifolds and related examples. Comm. Math. Phys.
+230 (2002), no. 3, 539-579.
+
+Connes, A.: On the Spectral Characterization of Manifolds, preprint,
+arXiv:math/0810.2088.
+
+Connes, A.: Compact metric spaces, Fredholm modules, and hyperfiniteness,
+Ergodic Theory Dynam. Systems 9 (1989), no. 2, 207-220.
+
+Connes, Alain; Marcolli, Matilde.: “Noncommutative geometry, quantum fields
+and motives”, American Mathematical Society Colloquium Publications, 55
+American Mathematical Society, Providence, RI; Hindustan Book Agency, New
+Delhi, 2008.
+
+Dabrowski, L., Landi, G., Sitarz, A., van Suijlekom, W. and Varilly, Joseph C.:
+The Dirac operator on SU,(2), Comm. Math. Phys. 259(2005), no. 3, 729-759.
+
+Dabrowski, L., D’Andrea, F., Landi, G., Wagner, E.: Dirac operators on all
+Podles quantum spheres, J. Noncomm. Geom. 1 (2007) 213-239.
+
+[25] Dabrowski, L.: Spinors and Theta Deformations, preprint, arXiv:0808.0440.

@@ -1,0 +1,39 @@
+6. Sub-Query Generation
+
+ 
+
+<DOC>
+<DOCNO> metallica </DOCNO>
+<Q> metallica </Q>
+<S> <E count="1"> metalica </E>
+<E count="1"> queensryche </E>
+<E count="1"> ac dc </E>
+<E count="1"> pantera </E>
+. </S>
+<C> <E count="4"> history of mettalica </E>
+<E count="1"> metallica concerts </E>
+<E count="18"> metclub </E>
+<E count="60"> james hetfield </E>
+» </Cc>
+</DOC>
+
+Figure 6.1: Virtual document representation for the suggestion “metallica”.
+
+When retrieving a sample of suggestions for a given query, there are multi-
+ple choices regarding which of the available fields to use: different choices lead to
+different samples for the same query (e.g., a sample of suggestions built by search-
+ing the Q field will probably be different from a sample based upon the S$ or C
+fields). A more fundamental question is which sessions should contribute candi-
+date suggestions. In particular, satisfactory sessions are those with at least one
+click in the last query in the session (Broccolo et al., 2012). Figure 6.2 provides
+
+an illustration of unsatisfactory and satisfactory 3-query sessions.
+
+session #1 session #2 session #3 _ session #4 session #5 session#6 session #7 session #8
+e}s|s BBHH
+unsatisfactory sessions satisfactory sessions
+
+Figure 6.2: Unsatisfactory (#1 to #4) and satisfactory (#45 to #8) sessions with
+suggestions $1, sg, and sg. Queries with clicks in each session are shaded.
+
+126

@@ -1,0 +1,62 @@
+7. Document Coverage
+
+ 
+
+7.3.2.1 Intent-aware Model Selection
+
+In order to address Q1 from Section 7.3, we assess the effectiveness of our model
+selection regime, introduced in Section 7.2.2.1, in contrast to the uniform regimes
+described in Section 7.3.1.2. To this end, Table 7.4 compares the diversification
+performance of xQuAD using the aforementioned regimes with the WT and BS
+sub-queries. For all deployments of xQuAD, a first significance symbol denotes
+a significant difference (or lack thereof) compared to the DPH baseline. For
+deployments using our model selection regime (SEL(¢,e)), two additional symbols
+denote significance with respect to the informational (UNI(INF)) and navigational
+(UNI(NAV)) uniform regimes, respectively. The best variant for each classification
+
+label (i.e., JUDG and PERF) is underlined. The best overall variant is in bold.
+
+Table 7.4: Diversification performance of xQuAD using informational (INF) or navi-
+gational (NAV) models uniformly (UNI) or selectively (SEL).
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+S, p(dlq,s) ERR-IA a-nDCG
+
+@20 —- = + @20 oa 4
+
+DPH 0.178 0.282
++xQuAD WT ba F) 0.2154 35 9 53 0.3314 31 9 57
++xQuAD WT UNI(NAV) 0.2474 32 6 59 0.3584 29 6 62
++xQuAD WT SeEL(LoG,supG) 0.2414°° 31 6 60 0.3544°° 31 6 60
++xQuAD WT SeEL(svM,jupG) 0.2444°° 32 6 59 0.3574 30 6 61
++xQuAD WT Sex(ora,supG) 0.2444°° 34 7 56 0.3624°° 31 7 59
++xQuAD WT SEL(LoG,PERF) 0.269444 26 6 65 0.382444 27 6 64
++xQuAD WT SEL(SvM,PERF) 0.26544° 26 6 65 0.380444 27 6 64
++xQuAD WT SexL(oRA,PERF) 0.304444 21 5 71 0.425444 22 5 70
++xQuAD BS _ UNI(INF) 0.202° 34 12 51 0.308° 37 11 49
++xQuAD BS _ UNI(NAV) 0.2354 27 7) «663 (0.3434 28 7 62
++xQuAD BS SEL(LOG,PERF) 0.2404°° 27 6 64 0.35444° 27 6 64
++xQuAD BS SEL(SVM,PERF) 0.241442 25 6 66 0.35544° 29 6 62
++xQuAD BS SeEL(orA,PERF) 0.292444 20 6 71 0414444 18 6 73
+From Table 7.4, we first note that UNI(INF) and UNI(NAV) provide a strong
+baseline performance, with significant gains compared to the non-diversified DPH
+aseline in almost every setting. To see whether our model selection regime can
+
+ 
+
+163

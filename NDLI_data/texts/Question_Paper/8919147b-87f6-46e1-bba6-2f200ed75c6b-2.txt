@@ -1,0 +1,54 @@
+10.
+
+1,
+
+12.
+
+13.
+
+14.
+
+15.
+
+What is grids?
+What is Preset Palatte?
+PART B — (5 x 5 = 25)
+Answer ALL questions.
+(a) Write a short note on Rater Graphics.
+Or
+(b) What is option bar? Explain.
+(a) What is Masking? What is the use of it?
+Or
+(b) What is History?
+(a) What is save and load option? Explain.
+Or
+(b) What is canvas? Explain.
+(a) Explain the importance of Histograms.
+Or
+(b) What do you know about channels?
+(a) What is animation? Explain.
+Or
+(b) What is web context? Explain.
+
+16.
+
+as
+
+18.
+
+19.
+
+20.
+
+PART C — (8 x 10 = 30)
+Answer any THREE questions.
+Write a detailed note on various palettes.
+
+Explain the following :
+(a) Views
+
+(b) Navigation.
+Give a neat picture on transformation.
+What do you use filters? Explain.
+
+Give a web layout for your college's web site.

@@ -1,0 +1,71 @@
+use its conventional MobileNet V2 (224x224) model with 310M FLOPs. The size of the dataset and
+also the complexity of the model clearly reveals the scalability of our method.
+
+ResNet-50 is trained with a learning rate schedule from le-5 to le-6. Only L2 norm is applied, with
+A = le — 5. Note that the identity connections alleviate the need to add layer-wise learning rate since
+the gradient to the first several layers is enough to pull the auxiliary parameters. The learning rate for
+AlexNet is le-3 and for MobileNet V2 is le-5. We split the training data into 1:1 for weight update
+and auxiliary parameter update respectively. Once the desired FLOPs is reached, we use all training
+data to fine tune the model.
+
+For neuron pruning, we evaluate our method on compact MobileNet V2 with less redundancy, and
+compare with the state-of-art methods in different FLOPs levels, in Table B] Our method achieves
+similar error at 300M level and outperforms others at extreme level(200M and 100M). For ResNet
+at 600M FLOPs, the top-1 error is 27.6%. For weight pruning, the results in Tablefshow that our
+method on AlexNet model achieves 18.5x compression rate and 0.84% accuracy drop. For ResNet-50,
+we get 2.2x compression rate with only 0.4% accuracy drop.
+
+4.5 Ablation Study
+
+We show the sparsity and accuracy are not sensitive to hyperparameters, taking weight pruning with
+VGG-like on CIFAR-10 as an example. In Fig PQ] we set the learning rate of auxiliary parameters to
+le-2, le-1 and 5e-1. From the result we observe that all three settings converge to similar compression
+ratio with different sparsification speed. In “EEC the accuracy with higher learning rate drops
+faster, but the final gap is less than 0.1%. In Fig.|2(c)| we show the compression ratio versus accuracy
+plot with proposed update in Eq. [Zand regular BNN update. The regular BNN update becomes
+non-stable after 30x CR, and accuracy drops sharply afterward. With the proposed update rule,
+accuracy is more stable and with lower variance until 80x. We’ve also included the comparison on
+choosing different STE functions and learning rates for VGG like model on CIFAR10 in Fig. 2@]
+Softplus STE achieves the best result while converges slower than LeakyReLU STE, which achieves
+slightly lower CR. The linear STE however, yields worst CR and slower convergence speed.
+
+ 
+
+82} - Proposed Update
+~ Regular BNN Update
+
+ 
+
+ 
+
+ 
+
+m0
+
+ 
+
+§  iobao 20500 30800 40600 S000 oie 2 3b ao Sb mo Te ¢ 2 0% &
+iteration Compression RateiCR) Compression Rate(CR)
+
+(a) CR vs Iter (b) CR vs accuracy — (c) Training CR vs accuracy(d) Comparison on different
+STEs and learning rate
+
+Figure 2: Illustration of Hyperparameter Sensitivity
+4.6 Training From Scratch
+
+Apart from sparsification on pre-trained models, our method can support training sparse network from
+scratch. We evaluate our method through training LeNet5 from scratch. All the weights are randomly
+initialized as usual while the auxiliary parameters are initialized as mj; ~ Gaussian(0.1,0.05). The
+initial learning rate is set to le-3 and gradually decreased to le-5. The final model we obtain has an
+error of 0.95% with a 168x compression rate.
+
+5 Conclusions
+
+In this paper, we propose to automatically prune deep neural networks by regularizing auxiliary
+parameters instead of original weights values. The auxiliary parameters are not sensitive to hyperpa-
+rameters and are more robust to noise during training. We also design a gradient-based update rule
+for auxiliary parameters and analyze the benefits. In addition, we combine sparse regularizers and
+weight regularization to accelerate the sparsification process. Extensive experiments show that our
+method achieves the state-of-the-art sparsity in both weight pruning and neuron pruning compared
+with existing approaches. Moreover, our model also supports training from scratch and can reach a
+comparable sparsity.

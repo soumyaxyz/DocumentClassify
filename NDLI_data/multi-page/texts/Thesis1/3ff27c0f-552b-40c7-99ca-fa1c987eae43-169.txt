@@ -1,0 +1,92 @@
+157 Quantum Isometry Groups of the Podles sphere
+
+ 
+
+Proof : It follows by comparing the coefficients of 1,A,A?,B*,AB and B? in
+
+the equation ¢(B*B) = ¢(A) — ¢(A?) + cI and then substituting 5), Ti, T¥,T1 by
+a Teh T2, Tz respectively by using the relations in Lemma 5.3.9 and Lemma
+
+5.3.10.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Lemma 5.3.12.
+
+ 
+
+S>(1 — Ty) + e(1 + p2)S3TF + (1 + p22) SuTs
+
+ 
+
+ 
+
+ 
+
+= -P(1—Te) Sot q?(1+ 12)°T384 + cu? (1+ p?)?TF $3, (5.3.10)
+So—2S5To+ (1+ p?) (p22 53 TF +S4T3) = pe? So— 2? TSo+p4 (1+ p?)T3 S44? (1+p2)T3 53,
+(5.3.11)
+
+—S2T3 + S3(1 — Tx) = —p? 732 + p? (1 — Tr) $3, (5.3.12)
+
+ST} + S4(1— Tr) = p? (1 — Te) S4 — TH So, (5.3.18)
+
+SoT3 + 1?S3T2 = p?(T2S3 + 1°T3S2), (5.3.14)
+
+S373 = u°T3S3, (5.3.15)
+
+S473 = pPTs Sa. (5.3.16)
+
+Proof : It follows by equating the coefficients of 1,4, B, B*, AB, B? and B*? in the
+equation ¢(BA) = y?¢(AB) and then using Lemma 5.3.9 and Lemma 5.3.10.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Lemma 5.3.13.
+
+ 
+
+SoS3 + c(1 + p7)?S3S% + c(1 + 7)? Su Sf
+
+ 
+
+ 
+
+ 
+
+ 
+
+= p?(1—T))(1 + p? Te) + c(1 t+ p?)PT3TF + c(1 + p?)PTHT3 + c(1 + w?)?.1, (5.3.17)
+
+ 
+
+—25953 +p? (1+ n°) S353 + (1+ 1°) S183
+
+=P (L$ pP)T2 — 2p4(1 — To) Te — pS + w?)T3T3 — w+ w?)TZT3, (5.3.18)
+
+ 
+
+ 
+
+—S2Sj — S33 = p?(1 + 7) Ts — w*(1 — T)T3 — p*T3(1 — Ta), (5.3.19)
+S253 — 45383 — S4S} = —pAT? + pPT3TF + pA THT, (5.3.20)
+
+SoSi + p2S3S3 = —p*T2T3 — p®T3Te, (5.3.21)
+
+5355 = —p"TS. (5.3.22)
+
+Proof : The Lemma is proved by equating the coefficient of 1, A, B, A?, AB, B?

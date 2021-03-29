@@ -1,0 +1,61 @@
+Chapter 0: Introduction 6
+
+ 
+
+ 
+
+ 
+
+and (., .)
+
+ 
+
+61804(D) denotes the QI1SO}(D) valued inner product of H ® QISO}(D)
+is defined to be the quantum group of orientation and volume preserving isometries of
+the spectral triple (A®, H, D) and is denoted by QISO}(D). The next section explores
+the conditions under which the action of this compact quantum group keeps the C*
+algebra invariant and is a C* action. Moreover, we have given some sufficient conditions
+
+under which the universal object in the bigger category Q’ exists which is denoted by
+
+ 
+
+QISO*(D) and the corresponding Woronowicz C* subalgebra as above is denoted by
+QISO*(D). After this, we compare this approach with the Laplacian-based approach
+in [30]. We obtain the following results:
+
+(1) Under some reasonable conditions, QISOf(D) is a sub-object of QISO*% in
+the category Q/..
+
+(2) QL SO® is isomorphic to a quantum subgroup of QI. SOF corresponding to the
+Hodge Dirac operator coming from D.
+
+(3 ) Moreover, under some conditions which are valid for compact spin manifolds,
+QISO£ and the QI SOf of the Hodge Dirac operator are isomorphic.
+
+The next section is on examples and computations. To begin with, the compact
+quantum group U,,(2) is identified as the QISO* of SU,,(2) corresponding to the spectral
+triple constructed by Chakraborty and Pal in [13]. Then we derive that QISO? for the
+classical spectral triple on C(T?) is C(T?) itself. We end the chapter by showing that
+QISO* of spectral triples associated with some approximately finite dimensional C*
+algebras arise as the inductive limit of Q1SOt of the constituent finite dimensional
+algebras. The results of this chapter are taken from [8] and [9].
+
+Chapter 4 is about the QISO* and QI. SOF of a Rieffel deformed noncommutative
+manifold. We first discuss the isospectral deformation of a spectral triple, followed by
+the proof of some preparatory technical results which will be needed later. Then in the
+final section we prove that QIS' Of and QISOF of a Rieffel deformed ( noncommutative
+) manifold is a Rieffel deformation of the QI SOR and QISOF ( respectively ) of the
+original ( undeformed ) manifold.
+
+In chapter 5, we compute the quantum group of orientation preserving isometries
+for two different families of spectral triples on the Podles spheres, one constructed by
+Dabrowski et al in [24] and the other by Chakraborty and Pal in [14]. We start by
+giving the different descriptions of the Podles spheres ( as in [43], [24], [37], and [50] )
+and the formula for the Haar functional on it. Then we introduce the spectral triples
+on the Podles spheres as in [24] and show that it is indeed SU,,(2) equivariant and R-
+twisted ( for a suitable R ). After this, the compact quantum group SO,,(3) is defined
+and its action on the Podles sphere is discussed. In the 3rd section, the computation
+for identifying SO,,(3) as QI SOE for this spectral triple is given. In the 4th section,
+
+the spectral triple defined in [14] is introduced and then the corresponding QISO*

@@ -1,0 +1,85 @@
+negative, and is thus ignored by the measure). The support for the rule Ux“ flightet3y! => Vyeflighte1%
+is analogously 4, while the confidence is 4 = 0.8 (noting that flight >(ARI) is negative).
+
+The goal then, is to find rules satisfying given support and confidence thresholds. An influential
+rule-mining system for graphs is AMIE [163, 164], which adopts the PCA measure of confidence,
+and builds rules in a top-down fashion [483] starting with rule heads like => "-country-+!¥y!, For
+each rule head of this form (one for each edge label), three types of refinements are considered,
+each of which adds a new edge to the body of the rule. This new edge takes an edge label from the
+graph and may otherwise use fresh variables not appearing previously in the rule, existing variables
+that already appear in the rule, or nodes from the graph. The three refinements may then:
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+(1) add an edge with one existing variable and one fresh variable; for example, refining the
+aforementioned rule head might give: '22)—flight—>12) => 1?x\—country ry,
+
+(2) add an edge with an existing variable and a node from the graph; for example, refining the
+above rule might give: (Domestic Airport)-« type 4%)—flight 12x! => (k\— country Hy;
+
+(3) add an edge with two existing variables; for example, refining the above rule might give:
+
+Gomera + tyres flisht—oiBy 10 > tp country ody.
+
+country
+These refinements can be combined arbitrarily, which gives rise to a potentially exponential search
+space, where rules meeting given thresholds for support and confidence are maintained. To improve
+efficiency, the search space can be pruned; for example, these three refinements always decrease
+support, so if a rule does not meet the support threshold, there is no need to explore its refinements.
+Further restrictions are imposed on the types of rules generated. First, only rules up to a certain
+fixed size are considered. Second, a rule must be closed, meaning that each variable appears in at
+least two edges of the rule, which ensures that rules are safe, meaning that each variable in the head
+appears in the body; for example, the rules produced previously by the first and second refinements
+are neither closed (variable 'y! appears once) nor safe (variable 'y' appears only in the head).’” To
+ensure closed rules, the third refinement is applied until a rule is closed. For further discussion of
+
+ 
+
+ 
+
+ 
+
+possible optimisations based on pruning and indexing, we refer to the paper on AMIE+ [163].
+
+Later works have built on these techniques for mining rules from knowledge graphs. Gad-Elrab
+et al. [162] propose a method to learn non-monotonic rules — rules with negated edges in the
+body — in order to capture exceptions to base rules; for example, the approach may learn a rule
+‘International Airport. = type -122\—flighteu) Vy! => country +7y), indicating that flights are within
+
+country
+
+the same country except when the (departure) airport is international, where the exception is shown
+dotted and we use = to negate an edge. The RuLES system [230] - which is also capable of learning
+non-monotonic rules — proposes to mitigate the limitations of the PCA heuristic by extending the
+confidence measure to consider the plausibility scores of knowledge graph embeddings for entailed
+edges not appearing in the graph. Where available, explicit statements about the completeness of
+the knowledge graph (such as expressed in shapes; see Section 3.1.2) can be used in lieu of PCA
+for identifying negative edges. Along these lines, CARL [381] exploits additional knowledge about
+the cardinalities of relations to refine the set of negative examples and the confidence measure
+for candidate rules. Alternatively, where available, ontologies can be used to derive logically-
+certain negative edges under OWA through, for example, disjointness axioms. The system proposed
+by d’Amato et al. [109, 110] leverages ontologically-entailed negative edges for determining the
+confidence of rules generated through an evolutionary algorithm.
+
+While the previous works involve discrete expansions of candidate rules for which a fixed
+confidence scoring function is applied, another line of research is on a technique called differentiable
+
+rt) => 122,-type->(International Airport) are not closed as x
+
+appears only in one edge. Hence the condition that rules are closed is strictly stronger than the condition that they are safe.
+
+ 
+
+27Safe rules like 2X—capital p12y)—nearby 1%, type->|
+
+ 
+
+46

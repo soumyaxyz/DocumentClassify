@@ -1,0 +1,13 @@
+Contents for Today’s Lecture
+
+ 
+
+L) Binary Search Tree
+
+L] Operations on binary search tree
+Searching a particular element in BST
+Insertion of an element
+Deletion of an element
+Finding the smallest element
+
+Finding the largest element

@@ -1,0 +1,70 @@
+The number of vertices of a graph is indeed chosen randomly according to binomial distribution of
+parameters n = 50 and p,, = 0.9.
+
+Regular graph model
+
+ 
+
+Accuracy
+
+ 
+
+ 
+
+—— This work ia
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+0
+
+ 
+
+1 1 1 1 1 1 1 1 1
+0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2
+Noise level
+
+Figure 2: Fraction of matched nodes for pairs of correlated graphs (with edge density 0.2) as a
+function of the noise, see Section §4.1 for details.
+
+5 Stone-Weierstrass theorem with symmetries
+
+This section presents our extension of the Stone-Weierstrass theorem dealing with functions with
+symmetries. The scope of this section is not restricted to graphs or even tensors and we will deal
+with general spaces and general symmetries. To illustrate it, we will present applications for the
+PointNet architecture Qi et al. [2017]. Our approximation results for GNNs are then obtained from
+these theoretical results applied to tensors and the symmetric group.
+
+5.1 General notations
+
+As explained above, we are dealing in this section with a much larger scope than graphs and
+permutations. We first need to extend the notations introduced above. The notations introduced below
+will make this section self-contained.
+
+If X is some topological space, and F C X, denote by F its closure.
+
+If X is a topological space and Y = R? some finite-dimensional space, denote by C(X, Y) the set of
+continuous functions from X to Y.
+
+Moreover, if X is compact, we endow C(.X, Y) with the topology of uniform convergence, which is
+defined by the norm, f ++ sup,.¢x ||f(«)|| for some norm ||.|| on Y.
+
+If G is a finite group acting on some topological space X, we say that G acts continuously on X if,
+for all g € G, x + g- x is continuous.
+
+If G is a finite group acting on some compact X and some topological space Y, we define the sets of
+equivariant and invariant continuous functions by,
+
+Ce(X,Y) ={f €C(X,Y) Wa e X, Vg EG, f(g- 2) = 9: f(x)}
+Cr(X,Y) ={f €C(X,Y) : Vr € X, V9 € G, f(g: 2) = f(x)}
+
+Note that these definitions extend Definition | to a general group.
+
+10

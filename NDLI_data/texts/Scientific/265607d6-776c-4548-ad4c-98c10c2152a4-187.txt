@@ -1,0 +1,40 @@
+8. Document Novelty
+
+ 
+
+8.1 Diversification Dimensions
+
+The most prominent diversification approaches in the literature can be organ-
+ised according to two orthogonal dimensions, as proposed in Section 3.3: aspect
+representation and diversification strategy. The aspect representation determines
+whether the possible information needs underlying a query are represented ex-
+plicitly, based upon properties of the query itself (e.g., query reformulations or
+categories), or implicitly, based upon properties of the retrieved documents (e.g.,
+the terms comprised by each document). In turn, the diversification strategy
+determines how a particular aspect representation is leveraged to diversify the
+retrieved documents. In particular, novelty-based approaches achieve this goal
+by comparing the retrieved documents to one another, in order to promote those
+that carry new information. In contrast, coverage-based approaches directly esti-
+mate how well each document covers the identified query aspects. Finally, hybrid
+approaches combine the goals of coverage and novelty into a unified strategy.
+Unfortunately, the prevalence of different aspect representations has precluded
+a direct comparison between coverage and novelty. As a result, it remains unclear
+whether the striking difference in performance commonly observed between cover-
+age and novelty-based approaches is due to their underlying aspect representation
+(explicit vs. implicit) or to their diversification strategy (coverage vs. novelty).
+It is also unclear how much novelty actually contributes to the effectiveness of
+hybrid approaches, while penalising their efficiency. Although intuitive, novelty
+has yet to be shown effective for diversifying web search results. In particular,
+existing evidence of the effectiveness of novelty as a diversification strategy is
+based on either qualitative studies (Carbonell & Goldstein, 1998) or on curated
+corpora, such as Wikipedia (Rafiei et al., 2010) or newswire (Wang & Zhu, 2009).
+To allow a thorough investigation of the role of novelty for search result di-
+versification, in the next section, we adapt two existing novelty-based approaches
+to leverage explicit query aspect representations. Likewise, we produce coverage-
+only versions of two approaches that deploy a hybrid of coverage and novelty,
+including our xQuAD framework. By doing so, we bridge the gap between the
+diversification approaches in the literature and enable their evaluation in terms
+
+of the aspect representation and the diversification strategy dimensions.
+
+169

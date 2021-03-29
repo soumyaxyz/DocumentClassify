@@ -1,0 +1,170 @@
+IEEE Access:
+
+S. Banerjee et al.: Physically Secure Lightweight Anonymous User Authentication Protocol for loT
+
+ 
+
+ 
+
+User U Gateway GW N Smart Device SD
+(IPB, DID; ((Ca,, Ras), (IDa, {hda, })
+Kuper du) DIDy, ETS)
+
+ 
+
+ 
+
+Enter 1D, & PW,, and imprint 3,
+Calculate 7 = PUF(8u),
+hd, = hd* ® h(ID, || PW.),
+Oy = repl jus hdr),
+IPB! = h(ID,, || a, || PW.)
+If IPB AIPB'
+terminate
+Calculate
+DID, = DID’ @ h(ID, || PWu || ou),
+uipre = Bigg © W(PWa || Ou || Du)
+Select kyi,ku2 € Zp
+Compute ky = h(kur || Lu).
+kug = h(ku2 || Du)
+Qua = kua @ hi one || Rupee)»
+Qug = hug Mh upre || LDu),
+DIDa = IDa@ h(kug),
+Authy = h(kug || kud || Kupre || DLDa)
+My = (DID, Qua: Qua, DIDa, Auth,,)
+
+Check for DID,
+Lookup JD, «+ DID,
+Cons Kupre = h(IDy || LTS),
+a = Qua @h (i. I Bupre)»
+ki = Quy © h(keuy,« || LDu)s
+Auth, = h( te \| Ka \| ki
+If Authi, A Authy
+terminate
+Update DIDI, = h(DIDy || kug)
+Compute [Dg = DIDa @ h(ki,,)
+Lookup Cy,, Ra, — [Da .
+Compute Q, = ki,, ® Ra,,
+Authr, = h(kug || Ra.)-
+Auth, = h(Ca, || Ra, || kg || Authe,)
+3 Ca,.Qg, Authr,, Authg)
+Compute R/,, = rep(PUF(Ca,), hda,),
+Kila = Qy © Ri,
+Auth’, = h( (Ci fl Ri, || Kia || Authr,)
+If ‘Auth, # Authy
+terminate
+Select ka € Zp
+Calculate kau = h(ka || [Da),
+Qa = Ry, ® kau,
+Qn, = hia) © Ra,»
+SK =h(kau || ky i Ri,)
+Autha = h(SK || Ri,),
+= N(R, || Qua) ® Authr,
+(HQpr. Qa; Qr,, Autha)
+EE eee
+
+Compute RY, = Qri, ® h(kua),
+Authp, = HQr & h(RG, || Qua)
+If Authp, A h(kug || RG.)
+terminate
+Compute k/,, = Qa ® Rj,
+SK! = h(kigy || Rua || Ra.)
+If Authg = h(SK || RY.)
+SK =SK',
+DID, = h(DID, || kug)
+DID = DID!, @H(ID,, || PW, || ou)
+
+ 
+
+|| DIDa),
+
+‘Upre
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+FIGURE 4: Summary of mutual authentication and session
+key exchange
+
+kil, || Ri,), Auth = h(SK || Ri,) and HQr =
+n(Ri, || Qua)® Authp,. Finally, SD composes the
+
+VOLUME 7, 2019
+
+authentication reply message M3 = (HQr, Qu, Qr,,,
+Auth) and sends it to U via an open channel.
+
+« Step 4. On receiving the authentication reply mes-
+sage M3, SC, computes Rj = Qr,® h(kya) and
+Authh, = HQr® h( Ri, Il Qua), and a if
+Auth',, matches against the value h(kug || Ri,)- If
+this is satisfied, SC, computes k/,, =Qu® Rij, and the
+session key shared with the accessed smart device SD
+as SK! = h(kiy, || kua || RG,)- SCu then checks if
+the received Authg is equal to h(SK || Rj). If it is
+so, SC, sets SK = SK' and DID), = h( Dip. l|
+kug), and updates DI.D* in its memory mite DID),®
+h(ID,, || PW. || ou) for the subsequent authentication
+sessions in future.
+
+The mutual authentication and session key agreement proce-
+dure has been summarized in Figure[4]
+
+Remark 1: If the gateway node GW N fails to find DID,, in
+its database, it will reject the authentication request. This can
+occur in case of desynchronization between the GW N anda
+user U. In this case, the user U can reattempt with a pseudo-
+identity pid; € PID,. Of course, once it is successfully
+authenticated with pid;, the GWN and U will be resyn-
+chronized, and U can use DID,, as normal for subsequent
+authentication sessions. Additionally, if the check Autha =
+h(SK || Ri) fails, U should realize that the synchronization
+between the GW N and U has been lost, and he/she should
+use a pseudo-identity for the next authentication request.
+Note that that the pseudo-identity pid; is valid for a single
+use and must be purged from PI D.,, after use.
+
+E. MAINTENANCE PHASE
+
+In this section, we describe the auxiliary procedures that are
+necessary for the uninterrupted long-term operation of the
+scheme.
+
+1) Password and Biometric Update Phase
+
+The procedure for updating the password and biometric
+information of a legal registered user U under the proposed
+scheme is discussed in this section.
+
+The user U first logs into the system as described in Sec-
+using Step 1. After that U enters the new password
+ew and imprints new biometric information 37’, and
+calculates y/"” = PUF(G7}*"). Note that if the user U
+does not want to update his/her current biometrics with new
+biometrics, 877° will be treated as old {,,. However, it is
+necessary for the user U to update his/her current password
+with new password.
+
+Using the fuzzy generator function Gen(-), the smart
+card SC, generates a new biometric token a//*”’ and the
+corresponding reproduction parameter hd?©’, Then SC,
+recalculates [PB"*” = h(ID, || a?®” || PWRe’), hd =
+hdre’® h(ID, || PWRe’), DID* = DID,® (UID, ||
+Pwree l| anew), ke ones = Kupre® n(Pwre w \| yew
+|| £Dg)y PLDE = PID, @ h(arew || Pwre || TD,)
+and commits the updated values in its memory. It is worth
+
+ 
+
+ 
+
+PW,
+
+7

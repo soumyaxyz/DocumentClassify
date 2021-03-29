@@ -1,0 +1,13 @@
+GENERAL REPRESENTATION OF
+TREE
+
+In tree, A is root node
+and remaining elements
+are nodes. The subset to
+the left of the root node is
+called Left subtree and
+node to the right of the root
+is called Right subtree.
+The elements of the tree
+have the parent -
+child relationship.

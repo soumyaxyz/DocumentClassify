@@ -1,0 +1,76 @@
+Bibliography 165
+
+76] Clough, P., Miiller, H., Deselaers, T., Grubinger, M., Lehmann, T., Jensen, J., and Hersh, W.
+(2005). The CLEF 2005 Cross-Language Image Retrieval Track. In CLEF 2005 Working Notes.
+(Cited on Page 20.)
+
+77\ Cohen, J. (1960). A coefficient of agreement for nominal scales. Educational and Psychological
+Measurement, 20(1), 37-46. (Cited on Page 129.)
+
+78] Cool, C., Belkin, N., Erieder, ., and Kantor, P. (1993). Characteristics of texts affecting relevance
+judgments. In Proceedings of the 14th National Online Meeting, pages 77-84. (Cited on Page 39.)
+79] Cooper, W. S. (1973). On selecting a measure of retrieval effectiveness. part i. the "subjective"
+philosophy of evaluation; Part II. implementation of the philosophy. Journal of the American Society
+for Information Science, 24, 87-100; 413-424. (Cited on Page 39.)
+
+80] Coursey, K., Mihalcea, R., and Moen, W. (2009). Using encyclopedic knowledge for automatic
+topic identification. In CoNLL ’09: Proceedings of the Thirteenth Conference on Computational Nat-
+ural Language Learning, pages 210-218. (Cited on Page 159.)
+
+81] Croft, B. W. and Harper, D. J. (1979). Using probabilistic models of document retrieval without
+relevance information. Journal of Documentation, 35(4), 285-295. (Cited on Page 22.)
+
+82] Croft, B. W. and Lafferty, J., editors (2003). Language Modeling for Information Retrieval, vol-
+ume 1. Kluwer. (Cited on Pages 170 and 175.)
+
+83] Croft, B. W., Callan, J., and Lafferty, J. (2001). Workshop on language modeling and information.
+retrieval. SIGIR Forum, 35(1), 4-6. (Cited on Pages 13 and 18.)
+
+84] Cronen-Townsend, S., Zhou, Y., and Croft, W. B. (2002). Predicting query performance. In SIGIR
+‘02: Proceedings of the 25th annual international ACM SIGIR conference on Research and development
+in information retrieval, pages 299-306, New York, NY, USA. ACM. (Cited on Pages 58 and 158.)
+85] Cui, H., Wen, J.-R., Nie, J.-Y., and Ma, W.-Y. (2002). Probabilistic query expansion using query
+logs. In WWW ’02: Proceedings of the 11th international conference on World Wide Web, pages
+325-332. (Cited on Page 23.)
+
+86] Dang, V. and Croft, B. W. (2010). Query reformulation using anchor text. In WSDM ’10:
+Proceedings of the third ACM international conference on Web search and data mining, pages 41-50,
+New York, NY, USA. ACM. (Cited on Pages 20 and 69.)
+
+87] de Vries, A. P., Vercoustre, A.-M., Thom, J. A., Craswell, N., and Lalmas, M. (2007). Overview
+of the INEX 2007 Entity Ranking Track. In Focused Access to XML Documents, 6th International
+Workshop of the Initiative for the Evaluation of XML Retrieval, INEX, pages 245-251. (Cited on
+Pages 90 and 159.)
+
+88] Deerwester, S., Dumais, S. T., Furnas, G. W., Landauer, T. K., and Harshman, R. (1990). Indexing
+by latent semantic analysis. Journal of the American Society for Information Science, 41(6), 391-
+407. (Cited on Pages 20 and 30.)
+
+89] Demidova, E., Fankhauser, P., Zhou, X., and Nejdl, W. (2010). Divq: diversification for key-
+word search over structured databases. In SIGIR ’10: Proceeding of the 33rd international ACM
+SIGIR conference on Research and development in information retrieval, pages 331-338. (Cited on
+Page 36.)
+
+90] Dempster, A. P., Laird, N. M., and Rubin, D. B. (1977). Maximum likelihood from incomplete
+data via the EM algorithm. Journal of the Royal Statistical Society. Series B (Methodological), 39(1),
+1-38. (Cited on Pages 25 and 31.)
+
+91] Deselaers, T., Weyand, T., Keysers, D., Macherey, W., and Ney, H. (2005). FIRE in ImageCLEF
+2005: Combining Content-based Image Retrieval with Textual Information Retrieval. In CLEF 2005
+Working Notes. (Cited on Page 20.)
+
+92] Diaz, F. and Metzler, D. (2006). Improving the estimation of relevance models using large
+external corpora. In SIGIR ’06: Proceedings of the 29th annual international ACM SIGIR conference
+on Research and development in information retrieval, pages 154-161, New York, NY, USA. ACM
+Press. (Cited on Pages 20, 21, 27, and 148.)
+
+93] Diemert, E. and Vandelle, G. (2009). Unsupervised query categorization using automatically-
+built concept graphs. In WWW ’09: Proceedings of the 18th international conference on World wide
+web, pages 461-470, New York, NY, USA. ACM. (Cited on Page 144.)
+
+94] Dill, S., Eiron, N., Gibson, D., Gruhl, D., Guha, R., Jhingran, A., Kanungo, T., Rajagopalan, S.,
+Tomkins, A., Tomlin, J., and Zien, J. (2003). Semtag and seeker: Bootstrapping the semantic web
+via automated semantic annotation. In Proceedings of the 12th international conference on World
+Wide Web, pages 178-186. (Cited on Pages 37 and 124.)
+
+95] Doyle, L. (1962). Indexing and abstracting by association. American Documentation, 13(4),

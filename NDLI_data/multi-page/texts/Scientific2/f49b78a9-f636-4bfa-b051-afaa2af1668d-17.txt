@@ -1,0 +1,166 @@
+IEEE Access:
+
+S. Banerjee et a/.: Physically Secure Lightweight Anonymous User Authentication Protocol for loT
+
+ 
+
+47
+
+48
+
+49
+
+50)
+
+51
+
+52:
+
+53
+
+54.
+
+55
+
+56.
+
+57
+
+58
+
+ 
+
+59)
+
+ 
+
+ 
+
+[Online].
+
+Future Generation Computer Systems, 2018.
+
+Available:
+78
+M. A. Ferrag, L. A. Maglaras, H. Janicke, J. Jiang, and L. Shu,
+“Authentication Protocols for Internet of Things: A Comprehensive
+Survey,” Security and Communication Networks, vol. 2017, pp. 1-41,
+2017, article ID 6562953. [Online]. Available: https://doi.org/10.1155/
+M. Abdalla, P. Fouque, and D. Pointcheval, “Password-based authenticated
+key exchange in the three-party setting,” in 8th International Workshop on
+Theory and Practice in Public Key Cryptography (PKC’05), Lecture Notes
+in Computer Science (LNCS), vol. 3386, Les Diablerets, Switzerland,
+2005, pp. 65-84.
+AVISPA, “Automated Validation of Internet Security Protocols and Appli-
+cations,” http://www.avispa-project.org/. Accessed on March 2018.
+D. Wang, H. Cheng, P. Wang, X. Huang, and G. Jian, “Zipf’s Law in
+Passwords,” IEEE Transactions on Information Forensics and Security,
+vol. 12, no. 11, pp. 2776-2791, Nov 2017.
+S. Roy, A. K. Das, S. Chatterjee, N. Kumar, S. Chattopadhyay, and J. J.
+P.C. Rodrigues, “Provably Secure Fine-Grained Data Access Control Over
+Multiple Cloud Servers in Mobile Cloud Computing Based Healthcare
+Applications,” IEEE Transactions on Industrial Informatics, vol. 15, no. 1,
+pp. 457-468, Jan 2019.
+S. Roy, S. Chatterjee, A. K. Das, S. Chattopadhyay, N. Kumar, and
+A. V. Vasilakos, “On the design of provably secure lightweight remote
+user authentication scheme for mobile cloud computing services,” IEEE
+Access, vol. 5, pp. 25 808-25 825, 2017.
+V. Odelu, A. K. Das, and A. Goswami, “A Secure Biometrics-Based Multi-
+Server Authentication Protocol Using Smart Cards,” IEEE Transactions on
+Information Forensics and Security, vol. 10, no. 9, pp. 1953-1966, 2015.
+D. von Oheimb, “The high-level protocol specification language hlpsl
+developed in the eu project avispa,” in Proceedings of 3rd APPSEM II
+(Applied Semantics II) Workshop (APPSEM’05), Frauenchiemsee, Ger-
+many, 2005, pp. 1-17.
+AVISPA, “SPAN, the Security Protocol ANimator for AVISPA,” 2019,
+accessed on March 2019. [Online]. Available: ‘http://www.avispa- project.|
+org
+SS N. Kumar, M. K. Khan, and J. h. Lee, “Anonymous two-factor
+authentication for consumer roaming service in global mobility networks,”
+IEEE Transactions on Consumer Electronics, vol. 59, no. 4, pp. 811-817,
+2013.
+Q. Jiang, J. Ma, G. Li, and L. Yang, “An Efficient Ticket Based Authentica-
+tion Protocol with Unlinkability for Wireless Access Networks,” Wireless
+Personal Communications, vol. 77, no. 2, pp. 1489-1506, 2014.
+“Secure Hash Standard,” April 1995, FIPS PUB 180-1, National
+Institute of Standards and Technology (NIST), U.S. Department
+of Commerce. Accessed on March 2019. [Online]. Available: ‘http:
+‘www.umich.edu/~x509/ssleay/fip 1 80/fip180- 1.htm
+“NS-3.28,” 2018, http://www.nsnam.org/ns-3-28/. Accessed on July 2018.
+
+  
+
+   
+
+Soumya Banerjee is pursuing his PhD in Com-
+puter Science and Engineering from Jadavpur Uni-
+versity, Kolkata, India. He received the M.Tech
+degree in Software Engineering from Jadavpur
+University, Kolkata, India. His current research
+interests include cryptography and network secu-
+rity. He has authored five papers in international
+journals and conferences in the above areas.
+
+VOLUME 7, 2019
+
+ 
+
+Vanga Odelu is currently working as an Assis-
+tant Professor at Birla Institute of Technology &
+Science Pilani, Hyderabad Campus, Hyderabad.
+He has been awarded Outstanding Potential for
+Excellence in Research and Academics (OPERA)
+by BITS Pilani. He was selected as an Outstand-
+ing Young Foreign Scholar “Korean Research
+Fellowship (KRF-2017)” by the Korean Govern-
+ment (Global competition among 15 positions).
+He completed his Ph.D. in Network Security and
+Cryptography at Indian Institute of Technology, Kharagpur in 2016. He also
+completed his M.Tech. from Indian Institute of Technology kharagpur. He is
+a Track Chair for the Intelligent Security Systems of Fifth International Con-
+ference on Mining Intelligence and Knowledge Exploration (MIKE 2017 &
+2018). He is an active reviewer for several SCI-indexed journals including
+IEEE Transactions, Elsevier, Springer and Technical Program Committee
+member for several reputed International Conferences. His research spans
+over cryptography, network security, hierarchical access control, attribute-
+based encryption, remote user authentication, security in cloud computing,
+and Internet of Things. He has authored over 45 papers in international
+journals and conferences.
+
+Ashok Kumar Das (M’17-SM’18) received a
+Ph.D. degree in computer science and engineering,
+an M.Tech. degree in computer science and data
+processing, and an M.Sc. degree in mathematics
+from IIT Kharagpur, India. He is currently an
+Associate Professor with the Center for Security,
+Theory and Algorithmic Research, International
+Institute of Information Technology, Hyderabad,
+India. His current research interests include cryp-
+tography, wireless sensor network security, hier-
+archical access control, security in vehicular ad hoc networks, smart grid,
+Internet of Things (IoT), Cyber-Physical Systems (CPS) and cloud com-
+puting, and remote user authentication. He has authored over 180 papers
+in international journals and conferences in the above areas, including over
+160 reputed journal papers. Some of his research findings are published in
+top cited journals, such as the IEEE Transactions on Information Forensics
+and Security, IEEE Transactions on Dependable and Secure Computing,
+IEEE Transactions on Smart Grid, IEEE Internet of Things Journal, IEEE
+Transactions on Industrial Informatics, IEEE Transactions on Vehicular
+Technology, IEEE Transactions on Consumer Electronics, IEEE Journal of
+Biomedical and Health Informatics (formerly IEEE Transactions on Infor-
+mation Technology in Biomedicine), IEEE Consumer Electronics Magazine,
+IEEE Access, IEEE Communications Magazine, Future Generation Com-
+puter Systems, Computers & Electrical Engineering, Computer Methods
+and Programs in Biomedicine, Computer Standards & Interfaces, Computer
+Networks, Expert Systems with Applications, and Journal of Network and
+Computer Applications. He was a recipient of the Institute Silver Medal from
+IIT Kharagpur. He is on the editorial board of KSII Transactions on Internet
+and Information Systems, International Journal of Internet Technology and
+Secured Transactions (Inderscience), and IET Communications, is a Guest
+Editor for Computers & Electrical Engineering (Elsevier) for the special
+issue on Big data and IoT in e-healthcare and for ICT Express (Elsevier)
+for the special issue on Blockchain Technologies and Applications for 5G
+Enabled IoT, and has served as a Program Committee Member in many
+international conferences.
+
+17

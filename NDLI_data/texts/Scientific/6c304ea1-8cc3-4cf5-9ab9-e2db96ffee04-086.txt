@@ -1,0 +1,113 @@
+195
+
+196
+
+197
+
+198
+
+199
+
+200
+
+202
+
+203
+
+207
+
+208
+
+209
+
+210
+211
+
+212
+
+213
+
+214
+
+215
+
+ 
+
+Michael Griininger and Mark S. Fox. 1995. Methodology for the Design and Evaluation of Ontologies. In Workshop on
+Basic Ontological Issues in Knowledge Sharing, IJCAI-95, Montreal.
+
+Michael Griininger and Mark S. Fox. 1995. The role of competency questions in enterprise engineering. In Bench-
+marking—Theory and practice, Asbjorn Rolstadas (Ed.). Springer, 22-31.
+
+Nicola Guarino, Daniel Oberle, and Steffen Staab. 2009. What Is an Ontology? See [471], 1-17. https://doi.org/10.
+1007/978-3-540-92673-3
+
+Ramanathan V. Guha, Rob McCool, and Richard Fikes. 2004. Contexts for the Semantic Web. In The Semantic Web -
+ISWC 2004: Third International Semantic Web Conference, Hiroshima, Japan, November 7-11, 2004. Proceedings (Lecture
+Notes in Computer Science), Frank van Harmelen, Sheila Mcllraith, and Dimitri Plexousakis (Eds.), Vol. 3298. Springer,
+32-46.
+
+Ramanathan V. Guha, Rob McCool, and Eric Miller. 2003. Semantic search. In Proceedings of the Twelfth International
+World Wide Web Conference, WWW2003, Budapest, Hungary, 20-24 May 2003, Gusztav Hencsey, Bebo White, Yih-
+Farn Robin Chen, Laszlé Kovacs, and Steve Lawrence (Eds.). ACM Press, 700-709.
+
+Shu Guo, Quan Wang, Lihong Wang, Bin Wang, and Li Guo. 2016. Jointly Embedding Knowledge Graphs and Logical
+Rules, See [479], 192-202.
+
+Shu Guo, Quan Wang, Lihong Wang, Bin Wang, and Li Guo. 2018. Knowledge Graph Embedding With Iterative
+Guidance From Soft Rules, See [325], 4816-4823. https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/
+16369
+
+Sonal Gupta and Christopher D. Manning. 2014. Improved Pattern Learning for Bootstrapped Entity Extraction.
+In Proceedings of the Eighteenth Conference on Computational Natural Language Learning, CoNLL 2014, Baltimore,
+Maryland, USA, June 26-27, 2014, Roser Morante and Wen-tau Yih (Eds.). The Association for Computational Linguistics,
+98-108.
+
+Claudio Gutiérrez, Carlos A. Hurtado, and Alejandro A. Vaisman. 2007. Introducing Time into RDF. IEEE Transactions
+on Knowledge and Data Engineering 19, 2 (2007), 207-218.
+
+Isabelle Guyon, Ulrike von Luxburg, Samy Bengio, Hanna M. Wallach, Rob Fergus, S. V. N. Vishwanathan, and Roman
+Garnett (Eds.). 2017. Advances in Neural Information Processing Systems 30: Annual Conference on Neural Information
+Processing Systems 2017, 4-9 December 2017, Long Beach, CA, USA. http://papers.nips.cc/book/advances-in-neural-
+information-processing-systems-30-2017
+
+Ferras Hamad, Isaac Liu, and Xian Xing Zhang. 2018. Food Discovery with Uber Eats: Building a Query Understanding
+Engine. Uber Engineering Blog. https://eng.uber.com/uber-eats- query-understanding/.
+
+Tony Hammond, Michele Pasin, and Evangelos Theodoridis. 2017. Data integration and disintegration: Managing
+Springer Nature SciGraph with SHACL and OWL. In Proceedings of the ISWC 2017 Posters & Demonstrations and
+Industry Tracks co-located with 16th International Semantic Web Conference (ISWC 2017), Vienna, Austria, October 23rd
+- to - 25th, 2017 (CEUR Workshop Proceedings), Nadeschda Nikitina, Dezhao Song, Achille Fokoue, and Peter Haase
+(Eds.), Vol. 1963. Sun SITE Central Europe (CEUR), 2. http://ceur-ws.org/Vol-1963/paper493.pdf
+
+Steve Harris, Andy Seaborne, and Eric Prud’hommeaux. 2013. SPARQL 1.1 Query Language, W3C Recommendation 21
+March 2013. W3C Recommendation. World Wide Web Consortium. https://www.w3.org/TR/2013/REC-sparql11-
+query-20130321/
+
+Olaf Hartig. 2017. Foundations of RDF* and SPARQL* - An Alternative Approach to Statement-Level Metadata in
+RDF. In Proceedings of the 11th Alberto Mendelzon International Workshop on Foundations of Data Management and the
+Web, Montevideo, Uruguay, June 7-9, 2017 (CEUR Workshop Proceedings), Juan L. Reutter and Divesh Srivastava (Eds.),
+Vol. 1912. Sun SITE Central Europe (CEUR), 11. http://ceur-ws.org/Vol-1912/paper12.pdf
+
+Olaf Hartig, Christian Bizer, and Johann Christoph Freytag. 2009. Executing SPARQL Queries over the Web of Linked
+Data, See [40], 293-309.
+
+Olaf Hartig and Carlos Buil Aranda. 2016. Bindings-Restricted Triple Pattern Fragments, See [118], 762-779.
+
+Olaf Hartig, Ian Letter, and Jorge Pérez. 2017. A Formal Framework for Comparing Linked Data Fragments, See [108],
+364-382.
+
+Olaf Hartig and Bryan Thompson. 2014. Foundations of an Alternative Approach to Reification in RDF. CoRR
+abs/1406.3399 (2014), 14. arXiv:1406.3399 http://arxiv.org/abs/1406.3399
+
+Patrick J. Hayes and Peter F. Patel-Schneider. 2014. RDF 1.1 Semantics, W3C Recommendation 25 February 2014. W3C
+Recommendation. World Wide Web Consortium. https://www.w3.org/TR/2014/REC-rdf11-mt-20140225/
+
+Qi He, Bee-Chung Chen, and Deepak Agarwal. 2016. Building The LinkedIn Knowledge Graph. LinkedIn Blog.
+https://engineering.linkedin.com/blog/2016/10/building-the-linkedin-knowledge-graph.
+
+Marti A. Hearst. 1992. Automatic Acquisition of Hyponyms from Large Text Corpora. In 14th International Conference
+on Computational Linguistics, COLING 1992, Nantes, France, August 23-28, 1992. 539-545. https://www.aclweb.org/
+anthology/volumes/C92-1/
+
+86

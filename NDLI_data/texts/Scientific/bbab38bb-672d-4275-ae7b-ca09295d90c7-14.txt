@@ -1,0 +1,61 @@
+564 F. Ensan, W. Du
+
+ 
+
+Table 1 TREC collections used
+
+snot ekpenmedé Collection Documents Topics
+Robust04 528,155 301-450, 601-700
+ClueWeb09-B 50,220,423 1-200
+ClueWeb12-B 52,343,021 1-50
+
+ 
+
+7 Experiments
+
+In this section, we describe experiments for analyzing the performance of the proposed
+semantic retrieval framework.
+
+7.1 Experimental setup
+
+In our experiments, we adopted three widely used document collections: (1) TREC Robust04,
+(2) ClueWeb09-B (TREC Category B, which is the first 50 million English pages of the
+ClueWeb09 corpora), and (3) ClueWeb12-B (the TREC 2013 Category B subset of the
+ClueWeb12 corpora). Table 1 summarizes the datasets and the queries that were used in our
+experiments. As explained in Sect. 6, we chose to annotate document collections using the
+Tagme entity linking engine. As a part of its results, Tagme provides a confidence value for
+each retrieved concept. We use Tagme’s recommended confidence value of 0.1 for pruning
+unreliable annotations. As suggested in [7] and due to limited computational resources, we do
+not entity link all documents in the ClueWeb09-B and ClueWeb12-B document collections.
+Instead, we pool the top one hundred documents from all of the baseline text retrieval runs.
+The top 100 documents retrieved from all of our baselines along with their annotations as
+well as their runs and their evaluation metric results are made publicly accessible.*
+
+In these experiments, we use Jelinek-Mercer [56], which is the linear interpolation of the
+document language model and the collection language model with coefficient A set to 0.1.
+
+The queries that were used in the experiments are the title fields of 250 Trec topics
+for Robust04, 200 Trec Web track topics for ClueWeb09-B, and 50 Web track topics for
+ClueWeb12-B. In our model, both queries and documents are required to be modeled as a set
+of concepts. For ClueWeb09-B queries, we use the Google FACC1 data that provide explicit
+annotations for the Web track queries. These annotations include descriptions and sub-topics
+from which we use the description annotations. For Robust04 and ClueWeb12-B queries,
+there are no publicly available annotations. For our experiments, we employ Tagme with a
+confidence value of 0.25. We found a number of missing entities and also annotation errors in
+the results. As an example, Topic 654, ‘same-sex schools,’ was annotated as ‘Homosexuality,’
+and ‘Catholic School,’ which are inconsistent. We manually revised these annotations to fix
+several errors. In this case, our revised annotation was the concept ‘Single-sex education’ for
+the topic number 654. All query annotations made by Tagme and also revisions are publicly
+available in the earlier mentioned Git repo.
+
+7.2. Baselines
+
+For the sake of comparison, we chose the sequential dependence model (SDM) [30], which is
+a state-of-the-art retrieval model based on Markov random field that assumes dependencies
+between query terms. In addition, we compare SELM with two query expansion models: a
+
+ 
+
+a https://github.com/SemanticLM/SELM.
+
+a Springer

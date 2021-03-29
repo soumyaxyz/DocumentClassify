@@ -1,0 +1,15 @@
+BI Benefit - Visibility into Enterprise Performance
+
+Business Intelligence provides a clear insight into the enterprise's
+performance.
+
+This is by way of an operational dashboard.
+
+An operational dashboard makes use of visual forms such as charts, tables,
+matrix, indicators, etc.
+
+In our example of the GoodFood Restaurant, the restaurant owner views the
+progress of the chain of restaurants on a single dashboard. This quickly tells
+him, with relevant data, which branch is doing excellent business, where the
+business is average with data, etc. Timely information as provided by the
+dashboard leads to early remedial procedures.

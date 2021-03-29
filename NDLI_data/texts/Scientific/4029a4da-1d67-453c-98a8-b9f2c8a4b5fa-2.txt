@@ -1,0 +1,153 @@
+audio signals. Therefore, the TRACE system is scalable and
+executes fast. Interestingly, since the segment boundaries
+derived from the different modalities are highly correlated,
+it is desirable to investigate the idea of their late-fusion.
+Combining Wikipedia with other segmentation techniques
+also shows significant improvements in the recall measure.
+
+Since the information requested by a user may be buried
+within a long video among many other topics, it is our
+goal to produce a semantically meaningful segmentation of
+lecture videos that is appropriate for information retrieval
+in e-learning systems. Specifically, we target the lecture
+videos whose video qualities are not sufficiently high to
+allow robust visual segmentation. To solve this problem,
+we propose the TRACE system which employs a linguistic-
+based approach for automatic lecture video segmentation
+using Wikipedia texts. We propose a novel approach to
+determine segment boundaries by matching blocks of SRT
+and Wikipedia texts of the topics of a lecture video. An
+overview of the method is as follows. First we create
+feature vectors for Wikipedia blocks (one block for one
+Wikipedia topic) and SRT blocks (120 words in one SRT
+block) based on noun phrases in the entire Wikipedia texts.
+Next we compute the similarity between a Wikipedia block
+and a SRT block using cosine similarity. Finally, the SRT
+block which has both the maximum cosine similarity and
+is above a similarity threshold 6 is considered as a segment
+boundary corresponding to the Wikipedia block. We use a
+supervised learning technique on video content and linguistic
+features with SRT inspired by state-of-the-art methods to
+compute segment boundaries from video content and SRT,
+respectively. Next, we compare these results with segment
+boundaries derived from our proposed method.
+
+Il. RELATED WORK
+
+The rapid growth in the number of digital lecture videos
+makes distance learning very attainable [4]. Traditional
+video retrieval based on a feature extraction can not be
+efficiently applied to e-learning applications due to the
+unstructured and linear features of lecture videos [5]. For
+an effective content-based retrieval of the appropriate infor-
+mation in such e-learning applications, it is desirable to have
+a systematic indexing which can be achieved by an efficient
+video segmentation algorithm. The manual segmentation of
+a lecture video into smaller cohesive units is an accepted
+approach to find appropriate information [4]. However, it is
+not feasible due to the high cost of manual segmentation and
+rapid growth in the size of a large lecture video database.
+
+Earlier approaches [2], [3] attempted to segment videos
+automatically by exploiting visual, audio, and linguistic
+features. Haubold and Kender [2] investigated methods of
+segmenting, visualizing, and indexing presentation videos
+by separately considering audio and visual data. Lin er
+al. [3] proposed a lecture video segmentation method based
+on natural language processing (NLP) techniques. N-gram
+
+218
+
+ 
+
+ 
+
+ 
+
+   
+
+ 
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+»>SRT I
+
+Analysis |S<
+
+ideo | Late |
+
+Analysis |S’ | Fusion
+[=I wiki
+
+Analysis | Sw
+Wiki
+Articles
+
+ 
+
+Figure 1. | Architecture for the late fusion of the segment boundaries
+derived from different modalities such as SRT (S's), video content (Sy),
+and Wikipedia texts (Sy-).
+
+based linguistic methods are also very useful in an effective
+retrieval of appropriate information [7], [9]. Most state-
+of-the-art methods on the lecture video segmentation by
+exploiting the visual content are based on color histogram.
+Zhang et al. [10] presented a video shot detection method
+using HMM with complementary features such as HSV
+color histogram difference and statistical corner change ratio
+(SCCR). However, not all features from a color space, such
+as RGB, HSV, or Lab from a particular color image are
+equally effective in describing the visual characteristics of
+segments. Therefore, Gao ef al. [1] proposed a projective
+clustering algorithm to improve color image segmentation,
+which can be used for a better video segmentation.
+
+Ill. SYSTEM OVERVIEW
+
+Figure 1 shows the system framework for the late fusion
+of segment boundaries derived form different modalities.
+First, the segment boundaries of a lecture video are com-
+puted from SRT (Ss) using the state-of-the-art work [3].
+Second, they are predicted from the visual content (Sy)
+using the supervised learning method described in the state-
+of-the-art works [7]. Third, they are computed by leveraging
+the Wikipedia texts of the lecture video’s subject (Syy) using
+our proposed method. Finally, the segment boundaries are
+derived from the previous steps are fused as described in the
+earlier work [7] to compute the fused segment boundaries.
+
+SRT Segment Boundaries. We implemented the state-
+of-the-art work [3] based on NLP techniques to compute
+segment boundaries from a lecture video. They used content-
+based features such as noun phrases and discourse-based
+features such as cue phrases, and found that the noun phrase
+feature is salient. We used Reconcile and Stanford POS
+Tagger to compute noun phrases and part of speech (POS)
+tags from the available texts, respectively. We used Porter
+stemmer for stemming words. As suggested in earlier work
+[3], we used a block size of 120 words, shifted the window
+by 20 words every time, and computed the cosine similarity
+between feature vectors of adjacent windows by the standard
+formula (A - B)/(||A|| + ||B||). A and B are the linguistic
+feature vectors for the adjacent SRT windows bg. ||A|| and
+||B|| are the magnitudes of the feature vectors.
+
+Wikipedia Segment Boundaries. TRACE performs the
+temporal segmentation of a lecture video by leveraging SRT

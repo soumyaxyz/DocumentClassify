@@ -1,0 +1,91 @@
+10.
+
+11.
+
+12.
+
+13.
+
+i lOO
+
+How do you play movies with the media player
+device?
+
+Define system software.
+
+(a)
+
+(b)
+
+(a)
+
+(b)
+
+(a)
+
+(b)
+
+PART B — (5 x 5 = 25)
+Answer ALL questions.
+
+Briefly discuss about the hardware
+requirement for windows and installation
+process of windows.
+
+Or
+Explain about the various versions of
+windows operating systems.
+
+Discuss about the windows structure with
+details. ;
+
+Or
+Describe shutdown and standby procedure of
+window.
+
+Describe about the device manager with
+example.
+
+Or
+
+Briefly explain about the system setting with
+details.
+
+14.
+
+15.
+
+M6.
+
+ye
+
+18.
+
+(a) Discuss about the 'My Computer’ with
+details.
+
+Or
+
+(b) Explain about the system tools with neat
+example.
+
+(a) Discuss about copy, move, rename and delete
+files and folders in windows with example.
+
+Or
+
+(b) How will you installing system software in
+your system.
+
+PART C — (8 x 10 = 30)
+Answer any THREE questions.
+
+Briefly explain about the File systems in win 98
+and win XP with example.
+
+Explain the following.
+(a) Desktop
+(b) Recycle bin.
+
+Briefly discuss about the Add or Remove programs
+with examples. :

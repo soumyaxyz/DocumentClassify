@@ -1,0 +1,6 @@
+Core Business Functions
+
+Business functions design core business processes that are practiced within the
+function or cut across several business and support functions.
+
+Few of the common core business processes are explained in next slide -

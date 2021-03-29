@@ -1,0 +1,110 @@
+168 Bibliography
+
+135] Hiemstra, D. and de Vries, A. P. (2000). Relating the new language models of information
+
+retrieval to the traditional retrieval models. Technical Report CTIT Technical Report TR-CTIT-00-0,
+
+Centre for Telematics and Information Technology, University of Twente. (Cited on Page 19.)
+
+136] Hiemstra, D., Robertson, S., and Zaragoza, H. (2004). Parsimonious language models for infor-
+
+mation retrieval. In SIGIR ’04: Proceedings of the 27th annual international ACM SIGIR conference
+
+on Research and development in information retrieval, pages 178-185, New York, NY, USA. ACM.
+
+(Cited on Pages 19, 25, 27, 28, 88, and 94.)
+
+137] Hoenkamp, E., Bruza, P., Song, D., and Huang, Q. (2009). An effective approach to verbose
+
+queries using a limited dependencies language model. In [17], pages 116-127. (Cited on Pages 14
+and 29.)
+
+138] Hofmann, K., Tsagkias, M., Meij, E., and de Rijke, M. (2009). The impact of document structure
+
+on keyphrase extraction. In CIKM ’09: Proceeding of the 18th ACM conference on Information and
+
+knowledge management, pages 1725-1728, New York, NY, USA. ACM. (Cited on Page 10.)
+
+139] Hofmann, T. (1999). Probabilistic latent semantic indexing. In SIGIR ’99: Proceedings of
+
+the 22nd annual international ACM SIGIR conference on Research and development in information
+retrieval, pages 50-57. ACM Press. (Cited on Page 31.)
+
+140] Hristidis, V. and Papakonstantinou, Y. (2002). Discover: Keyword search in relational
+
+databases. In VLDB, pages 670-681. Morgan Kaufmann. (Cited on Page 35.)
+
+141] Hull, D. (1993). Using statistical testing in the evaluation of retrieval experiments. In SIGIR
+
+‘93: Proceedings of the 16th annual international ACM SIGIR conference on Research and development
+
+in information retrieval. (Cited on Pages 44 and 45.)
+
+142] Huurnink, B., Hollink, L., van den Heuvel, W., and de Rijke, M. (2010). Search behavior of
+
+media professionals at an audiovisual archive: A transaction log analysis. Journal of the American
+
+Society for Information Science and Technology, 61(6), 1180-1197. (Cited on Pages 37, 116, 122,
+and 124.)
+
+143] Jansen, B. J. and Spink, A. (2006). How are we searching the world wide web? a comparison
+
+of nine search engine transaction logs. Information Processing and Management, 42(1), 248 - 263.
+
+Formal Methods for Information Retrieval. (Cited on Page 143.)
+
+144] Jansen, B. J., Spink, A., and Saracevic, T. (2000). Real life, real users, and real needs: a study
+
+and analysis of user queries on the web. Information Processing and Management, 36(2), 207-227.
+
+(Cited on Page 113.)
+
+145] Jardine, N. and van Rijsbergen, C. J. (1971). The use of hierarchic clustering in information
+
+retrieval. Information Storage and Retrieval, 7(5), 217-240. (Cited on Page 35.)
+
+146] Jarvelin, K. and Kekdlainen, J. (2002). Cumulated gain-based evaluation of ir techniques. ACM
+
+Trans. Inf. Syst., 20(4), 422-446. (Cited on Page 44.)
+
+147] Jelinek, F. (1990). Self-organized language modeling for speech recognition. Readings in speech
+
+recognition, pages 450-506. (Cited on Page 13.)
+
+148] Jelinek, F. and Mercer, R. L. (1980). Interpolated estimation of markov source parameters
+
+from sparse data. In Workshop Pattern Recognition in Practice. (Cited on Page 16.)
+
+149] Jimeno-Yepes, A., Berlanga-Llavori, R., and Rebholz-Schuhmann, D. (2010). Ontology refine-
+
+ment for improved information retrieval. Information Processing and Management, 46(4), 426-435.
+
+(Cited on Page 22.)
+
+150] Jin, R., Hauptmann, A. G., and Zhai, C. X. (2002). Title language model for information
+
+retrieval. In SIGIR ’02: Proceedings of the 25th annual international ACM SIGIR conference on
+
+Research and development in information retrieval. (Cited on Pages 22 and 68.)
+
+151] Jing, Y. and Croft (1994). An association thesaurus for information retrieval. In Proceedings of
+RIAO 94. (Cited on Page 30.)
+
+152] Joachims, T. (2002). Optimizing search engines using clickthrough data. In KDD ’02: Proceed-
+
+ings of the eighth ACM SIGKDD international conference on Knowledge discovery and data mining,
+
+pages 133-142, New York, NY, USA. ACM Press. (Cited on Page 143.)
+
+153] Joachims, T., Granka, L., Pan, B., Hembrooke, H., Radlinski, F., and Gay, G. (2007). Evaluating
+
+the accuracy of implicit feedback from clicks and query reformulations in web search. ACM Trans.
+Inf. Syst., 25(2), 7. (Cited on Page 23.)
+
+154] John, G. H. and Langley, P. (1995). Estimating continuous distributions in bayesian classifiers.
+
+In UAI ’95: Proceedings of the Eleventh Annual Conference on Uncertainty in Artificial Intelligence,
+
+pages 338-345. (Cited on Page 123.)
+
+155] Jones, K. S. (2004). A statistical interpretation of term specificity and its application in re-

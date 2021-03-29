@@ -1,0 +1,41 @@
+8. Document Novelty
+
+ 
+
+The diversification performance of xMMR, xQuAD%*, and xQuAD is shown in
+Figure 8.1(a) for a range of relevance estimation performances. Relevance perfor-
+maunice (the x axis) is measured by mean average precision (MAP@100). Diversi-
+fication performance (the y axis) is measured by a-nDCG@100 with a = 1.0, so
+as to penalise redundancy the most heavily. Since all approaches are applied to
+diversify the top 100 documents, evaluation at rank cutoff 100 ensures that any
+observed improvements are due to removing redundancy with respect to the as-
+pects already covered, rather than to covering additional aspects in the ranking.
+The performance of a standard DPH ranking is also included as a baseline.? From
+the figure, we first observe that the diversification performance of all approaches
+is highly correlated to their underlying relevance estimation performance. This is
+somewhat expected, since by improving relevance, the chance of satisfying at least
+one of the aspects of the query increases, as confirmed by the high correlation ob-
+served for the DPH baseline itself (Pearson’s p = 0.898). As for the diversification
+approaches, x MMR is almost indistinguishable from DPH across the query MAP
+range. Likewise, xQuAD cannot be distinguished from xQuAD*. This further
+shows that novelty is a generally weak diversification strategy, both on its own,
+and when combined with coverage, corroborating the results in Section 8.3.2.
+
+Figure 8.1(b) complements the results in Figure 8.1(a). In this second sce-
+nario, instead of varying the relevance estimations for the query, we simulate
+a range of diversity estimations. Once again, besides the diversification perfor-
+mance of xMMR, xQuAD*, and xQuAD over the range of simulated diversity
+estimations, we include DPH as an adhoc retrieval baseline. From Figure 8.1(b),
+we observe that the performance of x MMR remains indistinguishable from the
+performance of DPH, even with increasingly improved aspect relevance estima-
+tions, further confirming the limitation of novelty as a diversification strategy.
+In contrast, xQuAD* substantially improves as the underlying aspect relevance
+estimations improve. This shows that, besides being more robust, coverage can
+also benefit more from improved evidence of the association of documents to
+query aspects. More surprisingly, coverage proves to be a more effective strat-
+egy for promoting novelty (i.e., for reducing redundancy) than novelty itself, as
+
+?Note that none of the diversification approaches attains a perfect MAP or a-nDCG, since
+their performance is limited by the performance of DPH.
+
+183

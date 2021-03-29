@@ -1,0 +1,96 @@
+Bibliography 167
+
+agement, 46(4), 470-478. (Cited on Page 124.)
+
+115] Greiff, W. R. (2001). Is it the language model in language modeling? In J. Callan, B. W.
+
+Croft, and J. Lafferty, editors, Workshop on Language Modeling and Information Retrieval. (Cited
+
+on Page 19.)
+
+116] Grineva, M., Grinev, M., and Lizorkin, D. (2009). Extracting key terms from noisy and mul-
+
+titheme documents. In WWW ’09: Proceedings of the 18th international conference on World wide
+web, pages 661-670. (Cited on Page 159.)
+
+117] Guo, J., Xu, G., Cheng, X., and Li, H. (2009). Named entity recognition in query. In SIGIR
+
+‘09: 32nd annual international ACM SIGIR conference on Research and development in information
+
+retrieval, pages 267-274. (Cited on Page 32.)
+
+118] Hagen, M., Potthast, M., Stein, B., and Braeutigam, C. (2010). The power of naive query
+
+segmentation. In SIGIR ’10: Proceeding of the 33rd international ACM SIGIR conference on Research
+
+and development in information retrieval, pages 797-798. (Cited on Page 158.)
+
+119] Harman, D. (1988). Towards interactive query expansion. In SIGIR ’88: Proceedings of the 11th
+
+annual international ACM SIGIR conference on Research and development in information retrieval,
+
+pages 321-331, New York, NY, USA. ACM. (Cited on Pages 51 and 76.)
+
+120] Harman, D. (1992). Evaluation issues in information retrieval. Information Processing and
+Management, 28(4), 439-440. (Cited on Page 40.)
+
+121] Harman, D. (1993). Overview of the First Text REtrieval Conference. In R. Korfhage, E. M.
+
+Rasmussen, and P. Willett, editors, SIGIR, pages 36-47, Pittsburgh, PA. ACM. (Cited on Page 41.)
+
+122] Harter, S. (1975). A probabilistic approach to automatic keyword indexing. Journal of the
+American Society for Information Science, 26(5). (Cited on Page 13.)
+
+123] Hayes, A. and Krippendorf, K. (2007). Answering the call for a standard reliability measure for
+
+coding data. Communication Methods and Measures, 1(1), 77-89. (Cited on Page 130.)
+
+124] He, B. and Ounis, I. (2009a). Finding good feedback documents. In CIKM ’09: Proceeding of
+
+the 18th ACM conference on Information and knowledge management, pages 2011-2014, New York,
+NY, USA. ACM. (Cited on Pages 21, 57, and 69.)
+
+125] He, B. and Ounis, I. (2009b). Studying query expansion effectiveness. In ECIR 09: Proceedings
+of the 31th European Conference on IR Research on Advances in Information Retrieval, pages 611-
+
+619, Berlin, Heidelberg. Springer-Verlag. (Cited on Page 69.)
+
+126] He, J., Meij, E., and de Rijke, M. (In Press, Accepted Manuscript). Result diversification based
+
+on query-specific cluster ranking. Journal of the American Society for Information Science and Tech-
+nology. (Cited on Pages 10, 35, and 152.)
+
+127] Hersh, W. R., Hickam, D., and Leone, T. (1992). Words, concepts, or both: Optimal indexing
+
+units for automated information retrieval. In Proc. 16th Annu. Symp. Comput. Appl. Med. Care,
+pages 644-848. (Cited on Page 110.)
+
+128] Hersh, W. R., Hickam, D. H., Haynes, R. B., and McKibbon, K. A. (1994). A performance
+
+and failure analysis of SAPHIRE with a MEDLINE test collection. Journal of the American Medical
+Informatics Association : JAMIA, 1(1), 51-60. (Cited on Page 90.)
+
+129] Hersh, W. R., Bhupatiraju, R. T., Ross, L., Cohen, A. M., Kraemer, D., and Johnson, P. (2004).
+TREC 2004 genomics track overview. In E. M. Voorhees and L. P. Buckland, editors, TREC, volume
+Special Publication 500-261. National Institute of Standards and Technology (NIST). (Cited on
+Pages 49 and 99.)
+
+130] Hersh, W. R., Cohen, A. M., Yang, J., Bhupatiraju, R. T., Roberts, P. M., and Hearst, M. A.
+
+(2005). TREC 2005 genomics track overview. In E. M. Voorhees and L. P. Buckland, editors,
+TREC, volume Special Publication 500-266. National Institute of Standards and Technology (NIST).
+(Cited on Page 49.)
+
+131] Hersh, W. R., Cohen, A. M., Roberts, P. M., and Rekapalli, H. K. (2006). TREC 2006 genomics
+track overview. In [330]. (Cited on Pages 50 and 99.)
+
+132] Herskovic, J. R., Tanaka, L. Y., Hersh, W., and Bernstam, E. V. (2007). A day in the life of
+PubMed: analysis of a typical day’s query log. J Am Med Inform Assoc, 14(2), 212-220. (Cited on
+Page 90.)
+
+133] Hewins, E. T. (1990). Information need and use studies. Annual Review of Information Science
+and Technology, 25, 145-172. (Cited on Page 39.)
+
+134] Hiemstra, D. (1998). A linguistically motivated probabilistic model of information retrieval. In
+ECDL ’98: Proceedings of the Second European Conference on Research and Advanced Technology for
+Digital Libraries, pages 569-584, London, UK. Springer-Verlag. (Cited on Pages 14, 15, and 19.)

@@ -1,0 +1,90 @@
+Kandimalla et al.
+
+se ot
+ve
+os
+Mineralogy 01
+an
+iy cemmyts 08 0 Los
+cath 8 at
+geooe™
+
+ 
+
+000
+
+ 
+
+Subject Category Classification
+
+Figure 7. Normalized Confusion Matrix for closely-related classes in which a large fraction of
+“Geology” and “Mineralogy” papers are classified into “GeoChemistry GeoPhysics (left), and a large
+fraction of Zoology papers are classified into biology” or ecology” (middle), a large fraction of
+“TeleCommunications’,“Mechanics” and “EnergyFuels” papers are classified into “Engineering’’(right).
+
+in the majority class to the number of samples
+in the minority class (2012), has
+been commonly used to characterize the level of
+imbalance. Compared with the imbalance datasets
+in Table 1 of [2015), our data has a
+significantly high level of imbalance. In particular,
+the highest IR is about 49,000 (#Physics/#Art). One
+commonly used way to mitigate this problem is data
+resampling. This method is based on rebalancing
+SC distributions by either deleting instances of
+major SCs (undersampling) or supplementing
+artificially generated instances of the minor SCs
+(oversampling). We can always undersample major
+SCs, but this means we have to reduce sample sizes
+of all SCs down to about 15 (Art; Figure[2), which is
+too small for training robust neural network models.
+The oversampling strategies such as SMOTE
+
+(Chawla et al.,|2002) works for problems involving
+continuous numerical quantities, e. g.,SalahEldeen|
+(2015). In our case, the synthesize
+
+vectors of “abstracts” by SMOTE will not map
+to any actual words because word representations
+are very sparsely distributed in the large WE
+space. Even if we oversample minor SCs using
+these semantically dummy vectors, generating all
+samples will take a large amount of time given the
+high dimensionality of abstract vectors and high IR.
+Therefore, we only use our real data.
+
+7.2 Category Overlapping
+
+We discuss the potential impact on classification
+results contributed by categories overlapping in
+the training data. Our initial classification schema
+contains 104 SCs, but they are not all mutually
+exclusive. Instead, the vocabularies of some
+categories overlap with the others. For example,
+papers exclusively labeled as “Materials Science”
+and “Metallurgy” exhibit significant overlap in
+their tokens. In the WE space, the semantic
+vectors labeled with either category are overlapped
+making it hard to differentiate them. Figure
+shows the confusion matrices of the closely related
+categories such as “Geology”, “Mineralogy”, and
+“Geochemistry Geophysics”. Figure]is the t-SNE
+plot of abstracts of closely related SCs. To make
+the plot less crowded, we randomly select 250
+abstracts from each SC as shown in Figure[/] Data
+points representing “Geology”, “Mineralogy”, and
+“Geochemistry Geophysics” tend to spread or are
+overlapped in such a way that are hard to be visually
+distinguished.
+
+One way to mitigate this problem is to merge
+overlapped categories. However, special care should
+be taken on whether these overlapped SCs are
+truly strongly related and should be evaluated
+by domain experts. For example, “Zoology”,
+“PlantSciences”, and “Ecology” can be merged into
+a single SC called “Biology” (Gaff 2019, private
+
+communication). “Geology”, “Mineralogy”, and
+
+11

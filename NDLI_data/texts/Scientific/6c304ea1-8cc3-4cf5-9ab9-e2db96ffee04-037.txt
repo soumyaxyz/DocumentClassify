@@ -1,0 +1,57 @@
+embedding approach defines a scoring function that accepts e, (the entity embedding of node (3), Tp
+(the entity embedding of edge label p) and eg (the entity embedding of node (9) and computes the
+plausibility of the edge: how likely it is to be true. Given a data graph, the goal is then to compute
+the embeddings of dimension d that maximise the plausibility of positive edges (typically edges in
+the graph) and minimise the plausibility of negative examples (typically edges in the graph with a
+node or edge label changed such that they are no longer in the graph) according to the given scoring
+function. The resulting embeddings can then be seen as models learnt through self-supervision
+that encode (latent) features of the graph, mapping input edges to output plausibility scores.
+
+Embeddings can then be used for a number of low-level tasks involving the nodes and edge-labels
+of the graph from which they were computed. First, we can use the plausibility scoring function to
+assign a confidence to edges that may, for example, have been extracted from an external source
+(discussed later in Section 6). Second, the plausibility scoring function can be used to complete edges
+with missing nodes/edge labels for the purposes of link prediction (discussed later in Section 8);
+for example, in Figure 21, we might ask which nodes in the graph are likely to complete the edge
+(Grey Glacier)-bus >), where — aside from (Punta Arenas), which is already given - we might intuitively
+expect to be a plausible candidate. Third, embedding models will typically assign
+similar vectors to similar nodes and similar edge-labels, and thus they can be used as the basis of
+similarity measures, which may be useful for finding duplicate nodes that refer to the same entity,
+or for the purposes of providing recommendations (discussed later in Section 10).
+
+A wide range of knowledge graph embedding techniques have been proposed [519], where
+our goal here is to provide a high-level introduction to some of the most popular techniques
+proposed thus far. First we discuss translational models that adopt a geometric perspective whereby
+relation embeddings translate subject entities to object entities in the low-dimensional space. We
+then describe tensor decomposition models that extract latent factors approximating the graph’s
+structure. Thereafter we discuss neural models that use neural networks to train embeddings that
+provide accurate plausibility scores. Finally, we discuss language models that leverage existing
+word embedding techniques, proposing ways of generating graph-like analogues for their expected
+(textual) inputs. A more formal treatment of these models is provided in Appendix B.6.2.
+
+5.2.1 Translational models. Translational models interpret edge labels as transformations from
+subject nodes (aka the source or head) to object nodes (aka the target or tail); for example, in the
+edge (San Pedro) bus—»(Moon Valley), the edge label bus is seen as transforming to (Moon Valley),
+and likewise for other bus edges. The most elementary approach in this family is TransE [59].
+Over all positive edges (-p+@), TransE learns vectors es, rp, and ey aiming to make e, + rp as
+close as possible to e9. Conversely, if the edge is a negative example, TransE attempts to learn a
+representation that keeps es + ry away from eo. To illustrate, Figure 24 provides a toy example
+of two-dimensional (d = 2) entity and relation embeddings computed by TransE. We keep the
+orientation of the vectors similar to the original graph for clarity. For any edge @)-p>©) in the
+original graph, adding the vectors es + rp should approximate eo. In this toy example, the vectors
+correspond precisely where, for instance, adding the vectors for (e,.) and west of (rwo,)
+gives a vector corresponding to (ec,). We can use these embeddings to predict edges (among
+other tasks); for example, in order to predict which node in the graph is most likely to be west of
+(A.), by computing ea, + wo, we find that the resulting vector (dotted in Figure 24c) is
+closest to ey, , thus predicting (T.) to be the most plausible such node.
+
+Aside from this toy example, TransE can be too simplistic; for example, in Figure 21, bus not
+only transforms (5: ‘0) to (Moon Valley) (Moon Valley), but also to , and so forth. TransE will, in this
+case, aim to give similar vectors to all such target locations, which may not be feasible given other
+edges. TransE will also tend to assign cyclical relations a zero vector, as the directional components
+
+ 
+
+   
+
+ay

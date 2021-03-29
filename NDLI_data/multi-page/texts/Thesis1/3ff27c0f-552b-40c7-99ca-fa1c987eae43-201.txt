@@ -1,0 +1,82 @@
+189
+
+BIBLIOGRAPHY
+
+ 
+
+26
+
+27
+
+28
+
+29
+
+30
+
+3l
+
+32
+
+33
+
+34
+
+35
+
+36
+
+37
+
+38
+
+ 
+
+39
+
+ 
+
+Davidson, Kenneth R.: “C* algebras by examples”, Hindustan Book Agency.
+
+Enock, M., Schwartz, J-M.: “Kac algebras and Duality of Locally Compact
+Groups”, Springer Verlag, Berlin Heidelberg New York London Paris Tokyo
+Hong Kong Barcelona Budapest (1991).
+
+Friedrich, T.: ” Dirac operators in Riemannian Geometry ”, Graduate Studies in
+Mathematics 25, American Math. Soc., Providence, Rhode Island ( 2000 ).
+
+Frohlich, J.; Grandjean, O.; Recknagel, A.: Supersymmetric quantum theory
+and non-commutative geometry, Comm. Math. Phys. 203 (1999), no. 1, 119
+184.
+
+Goswami, D.: Quantum Group of isometries in Classical and Non Commutative
+Geometry, Comm. Math. Phys. 285 ( 2009 ), no. 1, 141-160.
+
+Goswami, D.: Twisted entire cyclic cohomology, JLO cocycles and equivariant
+spectral triples, Rev. Math. Phys. 16 ( 2004 ), no.5, 583-602.
+
+Goswami, D.: Some Noncommutative Geometric aspects of SU,(2),
+arXiv:0108003v4.
+
+Helgason, S.:“ Topics in Harmonic analysis on homogeneous spaces ”,
+Birkhauser, Boston. Basel. Stuttgart (1981).
+
+Helgason, $.: “ Differential Geometry, Lie Groups, and Symmetric Spaces ”,
+
+Academic Press, New York San Francisco London ( 1978 ).
+
+Kassel, Christian.: “ Quantum groups”, Graduate Texts in Mathematics, 155
+Springer-Verlag, New York, ( 1995 ).
+
+Kato, T. : “Perturbation Theory for Linear Operators”, Springer Verlag, Berlin
+Heidelberg New York (1980).
+
+Klimyk, A. and Schmudgen, K.: “Quantum Groups and their Representations” ,
+Springer, New York, 1998.
+
+Kustermans, J.; Vaes, S.: Locally compact quantum groups. Ann, Sci. Ecole
+Norm. Sup. (4) 33 (2000), no. 6, 837-934.
+
+Lance, E.C.: “Hilbert C* modules: A toolkit for Operator Algebraists ” London
+Mathematical Society Lecture Note Series, Vol.210, ( Cambridge: Cambridge
+University Press, 1995 ).

@@ -1,0 +1,16 @@
+1.2 The Shear-flexible beam (Timoshenko)
+
+In the classical Euler beam (meant only for thin
+beams), it has been shown that despite the
+presence of shear stress in the beam sections, the
+shear strain is ignored.
+
+The Euler beam is of infinite shear rigidity (!)
+
+For thick beams (of wider webs), the Euler beam
+theory is not valid. Shear deformation of the web
+requires shear-flexible formulations.
+
+ 
+
+Euler beam

@@ -1,0 +1,57 @@
+8.3. SL(3) CG 73
+
+conjugates A to ‘A. But with the above bijection, Ty'T = p(A) for some p(A) €
+
+k[A], p(X) € k[X]. Hence det(p(A)) = det(T), i.e. det T is a norm from E.
+Conversely suppose there exists T) € GL(n) with TAT~! = 4 and det(T) is a
+
+norm from E. Then there exists p(X) € k[X] such that det(p(A)) = det(T)~!. Thus
+
+det(Tp(A)) = 1 and
+
+(Tp(A)) AWAIT) = TAT! = 4.
+
+ 
+
+ 
+
+ 
+
+ 
+
+In the case under discussion, A € S'L(3) has irreducible characteristic polynomial.
+Hence, EF = k[A] © Zy4,n)(A) is a cubic field extension of k . We combine the
+
+previous two theorems to get,
+
+Corollary 8.3.7. Let A be a matrix in SL(3) with irreducible characteristic poly-
+nomial. With notation as above, suppose k*/N(E*) is trivial. Then A can be conju-
+gated to 'A in SL(3) and hence ty can be conjugated to ty’ in Aut(€).
+
+If k aC; field (e.g., a finite field) or k does not admit cubic field extensions (e.g., k
+real closed, algebraically closed), the above criterion is satisfied automatically. Hence
+every element in G(€/L), for L = k x k, with irreducible characteristic polynomial
+over k;, is conjugate to its inverse in G(k). In particular, combining this with Theorem
+8.1.9, we see that every semisimple element in G(k) is real.
+
+We shall give a cohomological proof of reality for Gy (and other groups with
+appropriate hypothesis) over fields k with cd(k) < 1 (see the Theorem 9.3.3).
+
+In view of these results, to produce an example of a semisimple element of G =
+Aut(€) that is not conjugate to its inverse in Aut(€), we need to produce a semisimple
+element which is a product of three involutions but not a product of two involutions.
+We shall show that, for the split form G of Gz over k = Q or k = Q,, there are
+semisimple elements in G(k) which are not conjugate to their inverses in G(k). We
+shall do this in next section by exhibiting explicit elements in Gy over a finite field,
+which are not real. These necessarily are not semisimple or unipotent (see the Re-
+mark 8.4.8). We adapt a slight variant of an example in ([W2], [L]) for our purpose,
+there the issue is bireflectionality of G2. The following lemma will be used to produce
+
+nonreal elements in G2 in next section.
+
+Lemma 8.3.8. Let k be a field and let S be a symmetric matrix in SL(3) whose
+characteristic polynomial p(X) is irreducible over k. Let E = k{X|/ < p(X) >, the
+degree three field extension of k given by p(X). Further suppose that k*/N(E*) is
+not trivial. Then there exists a matrix in SL(3), with characteristic polynomial p(X),
+
+which is not a product of two symmetric matrices in SL(3).

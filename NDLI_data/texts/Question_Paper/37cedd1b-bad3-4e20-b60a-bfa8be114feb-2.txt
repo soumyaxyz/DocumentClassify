@@ -1,0 +1,91 @@
+it;
+
+12.
+
+13.
+
+14.
+
+(a)
+
+(b)
+
+(a)
+(b)
+(a)
+
+(b)
+
+(a)
+
+(b)
+
+PART B — (5 x 5 = 25)
+
+Answer ALL questions.
+Discuss about the various safety
+measurements while using electronic °
+equipment. —
+Or
+
+With a neat diagram, explain the working of
+TRIAC. i
+
+Explain the various colour codes used in
+resistor. "
+
+Or
+
+Three capacitors 2uf, 4uf and 6yf are
+find the total
+
+connected in _ series.
+
+capacitance.
+
+Explain the operation of single phase watt
+meter. :
+
+Or
+
+What is the function of circuit breaker?
+Explain.
+
+Draw a circuit of Hartley oscillator and
+explain.
+
+Or
+Explain the operation of half wave rectifier.
+
+15.
+
+16.
+
+AG
+
+18.
+
+19;
+20.
+
+(a) Explain about multilayer PCB
+Or
+
+(b) Explain the various procedures for
+component testing.
+PART C — (3 x 10 = 30)
+Answer any THREE questions.
+Explain the operation and characteristics of an
+SCR.
+Draw the circuit of a transistor in CE
+configuration and explain its input and output
+characteristics.
+Explain with a neat diagram, the working of an
+analog multimeter.
+
+How the transistor acts as an amplifier? Explain.
+
+Explain the artwork of Red/Blue taping on one
+transparent base foil. ;
+
+ai i al a lati aaa al

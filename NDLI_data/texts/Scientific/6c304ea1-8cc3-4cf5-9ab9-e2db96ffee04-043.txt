@@ -1,0 +1,69 @@
+-1
+hY == Dyencxy for(Mxs My, ayx, Hy?)
+0!) = gu(hY?, my)
+
+ 
+
+‘Ary -»! Torres del Paineis)
+
+   
+
+Punta Arenas(,)
+
+ 
+
+ns, hi? Plate Montt;3) Gan) ni? = fy(m1,n3, a5, nf)
+: +f, D4, agi, ni?)
+
+i bo - 0? me gwr(h, m1)
+ns, hi“): : Puerto Varasy5) “~
+
+Grey Glacier(4)
+
+Osorno Volcano) : ing, hi’?
+
+ 
+
+-
+
+Fig. 26. On the left a sub-graph of Figure 21 highlighting the neighbourhood of Punta Arenas, where nodes
+are annotated with feature vectors (n,) and hidden states at step t (a), and edges are annotated with
+feature vectors (axy); on the right, the GNN transition and output functions proposed by Scarselli et al. [437]
+and an example for Punta Arenas (x = 1), where N(x) denotes the neighbouring nodes of x, fy(-) denotes the
+transition function with parameters w and gw’(-) denotes the output function with parameters w’
+
+by Scarselli et al. [437] for a sub-graph of Figure 21, where we highlight the neighbourhood of
+(Punta Arenas), In this graph, nodes are annotated with feature vectors (nx) and hidden states at step
+t (hi), while edges are annotated with feature vectors (axy). Feature vectors for nodes may, for
+example, one-hot encode the type of node (City, Attraction, etc.), directly encode statistics such as
+the number of tourists visiting per year, etc. Feature vectors for nodes may, for example, one-hot
+encode the edge label (the type of transport), directly encode statistics such as the distance or
+number of tickets sold per year, etc. Hidden states can be randomly initialised. The right-hand side
+of Figure 26 provides the GNN transition and output functions, where fw(-) denotes the transition
+function with parameters w and gy’(-) denotes the output function with parameters w’. An example
+is also provided for Punta Arenas (x = 1), where N(x) denotes the neighbouring nodes of x. These
+functions will be recursively applied until a fixpoint is reached. To train the network, we can label
+examples of places that already have (or should have) tourist offices and places that do (or should)
+not have tourist offices. These labels may be taken from the knowledge graph, or may be added
+manually. The GNN can then learn parameters w and w’ that give the expected output for the
+labelled examples, which can subsequently be used to label other nodes.
+
+This GNN model is flexible and can be adapted in various ways [437]: we may define neighbouring
+nodes differently, for example to include nodes for outgoing edges, or nodes one or two hops away;
+we may allow pairs of nodes to be connected by multiple edges with different vectors; we may
+consider transition and output functions with distinct parameters for each node; we may add states
+and outputs for edges; we may change the sum to another aggregation function; etc.
+
+5.3.2 Convolutional graph neural networks. Convolutional neural networks (CNNs) have gained a
+lot of attention, in particular, for machine learning tasks involving images [283]. The core idea in
+the image setting is to apply small kernels (aka filters) over localised regions of an image using a
+convolution operator to extract features from that local region. When applied to all local regions,
+the convolution outputs a feature map of the image. Typically multiple kernels are applied, forming
+multiple convolutional layers. These kernels can be learnt, given sufficient labelled examples.
+One may note an analogy between GNNs as previously discussed, and CNNs as applied to images:
+in both cases, operators are applied over local regions of the input data. In the case of GNNs, the
+transition function is applied over a node and its neighbours in the graph. In the case of CNNs, the
+convolution is applied on a pixel and its neighbours in the image. Following this intuition, a number
+of convolutional graph neural networks (ConvGNNs) [68, 271, 527] have been proposed, where the
+
+43,

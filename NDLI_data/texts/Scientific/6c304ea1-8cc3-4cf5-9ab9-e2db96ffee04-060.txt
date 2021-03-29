@@ -1,0 +1,65 @@
+label type, indicating the type of an entity; and identity links involving edges with label same as,
+indicating that two nodes refer to the same entity (cf. Section 3.2.2). While type and identity links
+can be addressed using general link prediction techniques, the particular semantics of type and
+identity links can be addressed with custom techniques. (The related task of generating links across
+knowledge graphs - referred to as link discovery [352] - will be discussed later in Section 9.1.)
+
+8.1.1 General link prediction. Link prediction, in the general case, is often addressed with inductive
+techniques as discussed in Section 5, and in particular, knowledge graph embeddings and rule/axiom
+mining. For example, given Figure 21, using knowledge graph embeddings, we may detect that
+given an edge of the form (@)}—bus—+@), a (missing) edge (y)—bus->() has high plausibility, while
+using symbol-based approaches, we may learn the high-level rule -bus¥y! => Vy'-busx,
+
+Either such approach would help us to predict the missing link bus Gan Pedro),
+
+8.1.2 Type-link prediction. Type links are of particular importance to a knowledge graph, where
+dedicated techniques can be leveraged taking into account the specific semantics of such links.
+In the case of type prediction, there is only one edge label (type) and typically fewer distinct
+values (classes) than in other cases, such that the task can be reduced to a traditional classification
+task [375], training models to identify each semantic class based on features such as outgoing
+and/or incoming edge labels on their instances in the knowledge graph [377, 461]. For example,
+assume that in Figure 21 we also know that (Arica), (Calama), (Puerto Montt), (Punta Arenas) and (Santiago) are
+of type City). We may then predict that and are also of type based on the
+presence of edges labelled flight to/from these nodes, which (we assume) are learnt to be a good
+feature for prediction of that class (the former prediction is correct, while the latter is incorrect).
+Graph neural networks (see Section 5.3) can also be used for node classification/type prediction.
+
+ 
+
+ 
+
+8.1.3 Identity-link prediction. Predicting identity links involves searching for nodes that refer to
+the same entity; this is analogous to the task of entity matching (aka record linkage, deduplication,
+etc.) considered in more general data integration settings [279]. Such techniques are generally
+based on two types of matchers: value matchers determine how similar the values of two entities on
+a given property are, which may involve similarity metrics on strings, numbers, dates, etc.; while
+context matchers consider the similarity of entities based on various nodes and edges [279]. An
+illustrative example is given in Figure 32, where value matchers will compute similarity between
+values such as and while context matchers will compute similarity between and
+(Rapa Nui) based on their surrounding information, such as their having similar latitudes, longitudes,
+populations, and the same seat (by way of comparison, a value matcher on this pair of nodes would
+measure string similarity between “Easter Island” and “Rapa Nui”).
+
+A major challenge in this setting is efficiency, where a pairwise matching would require O(n’)
+comparisons for n the number of nodes. To address this issue, blocking can be used to group similar
+entities into (possibly overlapping, possibly disjoint) “blocks” based on similarity-preserving keys,
+with matching performed within each block [128, 251, 279]; for example, if matching places based
+on latitude/longitude, blocks may represent geographic regions. An alternative to discrete blocking
+is to use windowing over entities in a similarity-preserving ordering [128], or to consider searching
+for similar entities within multi-dimensional spaces (e.g., spacetime [435], spaces with Minkowski
+distances [357], orthodromic spaces [358], etc. [452]). The results can either be pairs of nodes with a
+computed confidence of them referring to the same entity, or crisp identity links extracted based on
+a fixed threshold, binary classification, etc. [279]. For confident identity links, the nodes’ edges may
+then be consolidated [239]; for example, we may select as the canonical node and merge
+the edges of ui) onto it, enabling us to find, e.g., World Heritage Sites in the Pacific Ocean from
+Figure 32 based on the (consolidated) sub-graph (World Heritage Site) named (Easter Island)—ocean (Pacific),
+
+   
+
+ 
+
+ 
+
+ 
+
+60

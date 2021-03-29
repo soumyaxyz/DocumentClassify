@@ -1,0 +1,52 @@
+6. Sub-Query Generation
+
+ 
+
+Table 6.2: Features used in this chapter for each candidate suggestion sj.
+
+ 
+
+Feature Description Equation Total
+4# CLM Full and per-field CLM score (2.5) 4
+3S BM25 Full and per-field BM25 score (2.13) 4
+gS LM Full and per-field LM score (2.25) 4
+<~ MRF Full MRF score (2.20) 1
+> PL2 Full and per-field PL2 score (2.29) 4
+= DPH Full and per-field DPH score (2.31) 4
+o pBiL Full pBiL score (2.32) 1
+Tokens Full and per-field token count 4
+Terms Fraction of unique terms in s; 1
+Chars Number of characters in s; 1
+2 RepChars Presence, number, fraction of repeated characters in s; 3
+& Digits Number and fraction of digits in s; 2
+& Punctuation Number and fraction of punctuation characters in s; 2
+8 Badwords Mean, s.d., and median number of swearing words in sj 3
+4 UrlFragments Whether s; contains a URL 2
+e Clicks Number of clicked documents for s; 1
+& Sessions Number of sessions with sj 1
+SessionClicks Mean, s.d., and max number of clicks on s; per session 3
+SessionLength Mean, s.d., and max number of queries in sessions with s; 3
+SessionPosition Mean, s.d., and max position of s; per session 3
+SessionSuccess Fraction of successful sessions with s; 1
+
+Grand total
+
+on
+No
+
+To this end, we leverage multiple query-dependent ranking approaches, including
+standard weighting models, such as BM25 (Equation (2.13)), language modelling
+with Dirichlet smoothing (LM; Equation (2.25)), the DFR DPH (Equation (2.31))
+and PL2 (Equation (2.29)) models, and a simple coordination level matching
+(CLM; Equation (2.5)). Additionally, we use term dependence models based
+on Markov Random Fields (MRF; Equation (2.20)) and the DFR framework
+(pBiL; Equation (2.32)), which highly score suggestions where the query terms
+co-occur in close proximity. All query-dependent features are efficiently computed
+at querying time with a single pass over the posting lists for the query gq in the
+index of structured virtual documents (Macdonald, Santos & Ounis, 2013).
+
+As for the query-independent features, they are all computed at indexing
+
+time. In particular, we consider features that can be directly estimated from the
+
+130

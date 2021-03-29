@@ -1,0 +1,34 @@
+Chapter 1
+
+Preliminaries
+
+1.1 Operator algebras and Hilbert modules
+
+We presume the reader’s familiarity with the theory of operator algebras and Hilbert
+modules. However, for the sake of completeness, we give a sketchy review of some basic
+definitions and facts and refer to [56], [39] for the details. Throughout this thesis, all
+
+algebras will be over C unless otherwise mentioned.
+
+1.1.1. C* algebras
+
+A C* algebra A is a Banach *algebra satisfying the C* property : ||«*«|| = |||? for
+all « in A. The algebra A is said to be unital or non-unital depending on whether it
+has an identity or not. Every commutative C* algebra A is isometrically isomorphic
+to the C* algebra Co(X) consisting of complex valued functions on a locally compact
+Hausdorff space X vanishing at infinity( Gelfand’s theorem ). An arbitrary ( possibly
+noncommutative ) C* algebra is isometrically isomorphic to a C*-subalgebra of B(H),
+the set of all bounded operators on a Hilbert space H.
+
+For x in A, the spectrum of x, denoted by o(zx) is defined as the complement of
+the set {z € C: (zl—2)7' € A}. An element « in JA is called self adjoint if « = x*,
+normal if «*2 = x2*, unitary if x* = «~!, projection if x = «* = x? and positive if
+x = y*y for some y in A. When is normal, there is a continuous functional calculus
+sending f in C(o(x)) to f(x) in A. where f +> f(z) is a * isometric isomorphism from
+C(a(x)) onto C*(x).
+
+A linear map between two C* algebras is said to be positive if it maps positive
+elements to positive elements. A positive linear functional @ such that ¢(1) = 1 is
+called a state on A. A state ¢ is called a trace if ¢(ab) = ¢(ba) for all a,b in A
+and faithful if ¢(2*2) = 0 implies x = 0. Given a state ¢ on a C* algebra A, there
+exists a triple (called the GNS triple) (Hy, 74, € 4) consisting of a Hilbert space Hg, a *

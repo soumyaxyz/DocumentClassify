@@ -1,0 +1,10 @@
+CHARACTERISTICS
+
+¢ A Heap Is a binary tree which satisfy following
+Characteristics :
+The binary tree should be almost complete
+that is all the leaf node should be at k*" or
+(k+1)' level.
+
+The value at any node its larger or equal to
+the value at each of its two children.

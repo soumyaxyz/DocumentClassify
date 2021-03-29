@@ -1,0 +1,49 @@
+2. Web Information Retrieval
+
+ 
+
+Additional readability features have been recently proposed by Bendersky
+et al. (2011). For instance, they proposed to use the entropy H(4,) of a document’s
+
+language model 6, as a measure of topic cohesiveness (TC), according to:
+
+fro(q,d) = H(6a) = — )> p(t|d) log p(t|d), (2.37)
+
+ted
+
+where p(t|d) was computed using a maximum likelihood estimation, as described
+in Equation (2.23). Other readability features proposed by Bendersky et al.
+(2011) include the document’s fraction (SF) and coverage (SC) of stopwords,
+computed as the ratio of terms in the document that are stopwords and the ratio
+
+of all stopwords that are covered in the document, respectively, according to:
+
+[{t; € d} N Y,|
+
+fe(4, 4) = th < dj] (2.38)
+koa.) = aoe (2.39)
+
+where Y, is a list of stopwords. Both SF and SC are intended as simple estimators
+of the divergence between the document and the corpus language models, and are
+positively correlated with the document informativeness (Zhou & Croft, 2005).
+Another readability feature used in the experimental part of this thesis is the
+fraction of terms in the document that appear in tables. The underlying intuition
+here is that documents comprising mostly tabular content are less readable. Let
+Ta comprise the textual content appearing within tables in the document d. The
+table text (TT) feature (Bendersky et al., 2011) can be estimated according to:
+
+— Letea ha
+
+frr(q, 4) i
+
+(2.40)
+
+At the lower end of the quality spectrum, the Web is severely affected by
+spam. Spam documents typically include automatically generated content tar-
+geting popular search queries, or even human-generated content plagiarised from
+legitimate sources, so as to deceive search engines and attract larger audiences,
+which can ultimately result in increased advertisement revenue for the spam-
+
+mer (Castillo & Davison, 2011). In particular, spam documents typically have
+
+38

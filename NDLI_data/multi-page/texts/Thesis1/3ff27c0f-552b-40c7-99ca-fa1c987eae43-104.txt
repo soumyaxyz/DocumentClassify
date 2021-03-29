@@ -1,0 +1,64 @@
+Chapter 3: Quantum group of orientation preserving Riemannian isometries 92
+
+ 
+
+then clear from the definition of Z that 7 induces a surjective CQG morphism (in fact,
+a morphism in the category Q/,(d+d*)) x’: QISOf (d+ d*)/I > QISO*2.
+
+Conversely, if V = (id ® pr) o Ua+a« is the representation of QISO} (d+ d*)/T on
+Ha+a+ induced by Uayae (where pz : QISO7 (d+ d*) + QISOF (d+ d*)/T denotes the
+quotient map), then V preserves HY, (by definition of Z), so commutes with Py. Since
+V also commutes with (d+d*)?, it follows that V must commute with (d+d*)?Pp = L,
+that is,
+
+V(d"d Py @1) = (d*dPy @ LV.
+
+It is easy to show from the above that ay (which is a C* action on A since QU 4,4 18 80
+by assumption) is a smooth isometric action of QISO7 (d+ d*)/T in the sense of [30],
+with respect to the Laplacian £. This implies that QISO7 (d+ d*)/T is a sub-object o
+QL SO in the category Qe: and completes the proof.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Now we prove that under some further assumptions which are valid for classical
+manifolds as well as their Rieffel deformation, one even has the isomorphism QS OfD =
+QISOF (d+ d*).
+
+We assume the following:
+
+(A) Both the spectral triples (A®, H, D) and (A™®, Ha+ax, d+ d*) satisfy the
+assumptions (1) — (7), so in particular both QISO*? and QISO*’ exist (here D! =
+d+d*).
+
+(B) For all a,b in A®, we have
+
+(a, D)a49, = (a, 0, , (dpa, dpb) ra, = (dpa, dpb),
+
+Remark 3.3.5. For classical compact spin manifolds these assumptions can be verified
+
+2
+
+by comparing the local expressions of D? and the ‘Hodge Laplacian’ (D')? in suitable
+
+coordinate charts. In fact, in this case, both these operators turn out to be essentially
+
+same, upto a ‘first order term’, which is relatively compact with respect to D? or (D')?.
+
+By assumption (B), we observe that the identity map on A® extends to a unitary,
+say ¥, from H9, to H9,,. Moreover, we have
+
+Lp = DL,
+
+from which we conclude the following:
+Proposition 3.3.6. Under the above assumptions, QISOfL = QISOf»’.
+
+We conclude this section with the following result, which identifies the quantum
+isometry group QI, SOF? of [30] as the QI SOt of a spectral triple, and thus, in some
+
+sense, accommodates the construction of [30] in the framework of the present article.

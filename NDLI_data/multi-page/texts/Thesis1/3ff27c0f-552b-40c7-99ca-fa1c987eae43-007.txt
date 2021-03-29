@@ -1,0 +1,24 @@
+Acknowledgements
+
+I would like to start by expressing my deepest gratitudes to my supervisor Debashish
+Goswami who introduced me to the theories of noncommutative geometry and compact
+quantum groups and whose mere presence acted as a psychological support to an extent
+unknown even to him. I thank each and every faculty member of Stat Math unit, ISI
+Kolkata from each of whom I learnt something or the other. I am grateful to Prof.
+Shuzhou Wang, whose valuable comments and suggestions helped me to have a better
+understanding about the contents of this thesis and also led to an improvement of the
+work. I thank the National Board for Higher Mathematics, India for providing me with
+partial financial support. I should also mention the names of Max Planck Institute
+fur Mathematics of Bonn and Chern Institute of mathematics of Nankai University for
+allowing me to attend two workshop and conference on Non commutative Geometry
+and Quantum Groups hosted by them, from where I had valuable exposures about the
+subjects. I thank my parents, sister, aunt and uncle for their continuous support during
+the time of working on this thesis. I would have been unable to fix some critical latex
+problem unless my friend Rajat Subhra Hazra had spent his valuable time on it. I am
+grateful to Biswarup for the discussions I had with him on operator algebras. Many
+of my other friends including Koushik Saha, Abhijit da, Pusti da, Ashis da, Subhra,
+Subhajit and obviously Rajat were a continuous source of encouragement. I thank
+Subhajit for allowing me to use his room and providing me with a steady supply of 13
+Tzameti et al. Lastly, I would like to mention the names of Subhra and Rajat again for
+
+bearing with my bhoyonkor and haayre during a critical part of my thesis work.

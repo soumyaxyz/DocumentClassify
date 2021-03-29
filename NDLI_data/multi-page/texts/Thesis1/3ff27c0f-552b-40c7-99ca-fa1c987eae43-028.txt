@@ -1,0 +1,48 @@
+Chapter 1: Preliminaries 16
+
+ 
+
+quantum groups and the concept of an action of a compact quantum group on a C*
+algebra. For more detailed discussion, we refer to [37], [35], [15] [42] and references
+therein. In this thesis, we will be concerned about compact quantum groups only. For
+
+other types of quantum groups, we refer to [37], [38], [58] etc.
+
+1.2.1 Hopf algebras
+
+We recall that an associative algebra with an unit is a vector space A over C together
+with two linear maps m: A@® A — A called the multiplication or the product and 177 :
+C = A called the unit such that m(m@id) = m(id@m) and m(n@id) = id = m(id@n).
+
+Dualizing this, we get the following definition.
+
+Definition 1.2.1. A coalgebra A is a vector space over C equipped with two linear
+
+maps A: A A®A called the comultiplication or coproduct and ¢: A — C such that
+
+(A @ id)A = (id @ A)A,
+(€@ id)A = id = (id @e)A.
+Definition 1.2.2. Let (A, A,4,e€4) and (B,Ap,ep) be co algebras. A C linear mapping
+¢:A-— B is said to be a cohomomorphism if
+Apod=(¢8¢)Aa
+
+€,=€pog
+
+Let o denote the flip map: A®@ A— A®A given by o(a®@ b) =b@a.
+Definition 1.2.3. A coalgebra is said to be cocommutative if cao A =A.
+Definition 1.2.4. A linear subspace B of A is asubcoalgebra of A if A(B) C B@B.
+
+Definition 1.2.5. A C linear subspace T of A is called a coideal if A(Z) C A®T+I@A
+and ¢(Z) = {0}.
+
+If Z is a coideal of A, the quotient vector space A/Z becomes a coalgebra with
+
+comultiplication and counit induced from A.
+
+Sweedler notation
+
+We introduce the so called Sweedler notation for comultiplication. If a is an element
+of a coalgebra A, the element A(a) in A® A is a finite sum A(a) = 0, a1; ® ag;
+where a1;, a; belongs to A. Moreover, the representation of A(a) is not unique. For
+
+notational simplicity we shall suppress the index 7 and write the above sum symbolically

@@ -1,0 +1,18 @@
+EXACT ORDER MATRICES AND THE
+LINEAR COMPLEMENTARITY
+PROBLEM
+
+R.Sridhar*
+Indian Statistical Institute
+
+New Dethi 110016.
+
+Thesis submitted to the Indian Statistical Institute in partial
+
+fulfilment of the requirements for the award of Ph.D.
+
+January 16, 1992
+New Delhi
+
+1Supported by Dr. K.S:Krishnan (DAE) Fellowship for Mathematical and Computer
+Sciences, provided by the Department of Atomic Energy, Bombay.

@@ -1,0 +1,77 @@
+graph is incomplete — i.e., that it is a sample of the ideal knowledge graph — and asks how biased
+this sample is. Biases may occur in the data, in the schema, or during reasoning [255]. Examples
+of data biases include geographic biases that under-represent entities/relations from certain parts
+of the world [255], linguistic biases that under-represent multilingual resources (e.g., labels and
+descriptions) for certain languages [261], social biases that under-represent people of particular
+genders or races [517], and so forth. In contrast, schema biases may result from high-level defini-
+tions extracted from biased data [255], semantic definitions that do not cover uncommon cases,
+etc. Unrecognised biases may lead to adverse effects; for example, if our tourism knowledge graph
+has a geographic bias towards events and attractions close to Santiago city — due perhaps to the
+sources used for creation, the employment of curators from the city, etc. — then this may lead to
+tourism in and around Santiago being disproportionally promoted (potentially compounding future
+biases). Measures of representativeness involve comparison of known statistical distributions with
+those of the knowledge graph, for example, comparing geolocated entities with known population
+densities [255], linguistic distributions with known distributions of speakers [261], etc. Another
+option is to compare the knowledge graph with general statistical laws, where Soulet et al. [464]
+use (non-)conformance with Benford’s law” to measure representativeness in knowledge graphs.
+
+7.3 Coherency
+
+Coherency refers to how well the knowledge graph conforms to — or is coherent with — the formal
+semantics and constraints defined at the schema-level.
+
+7.3.1 Consistency means that a knowledge graph is free of (logical/formal) contradictions with re-
+spect to the particular logical entailment considered. For example, in the ontology of our knowledge
+graph, we may define that (Might)-range->(Airport)- disj. c.->City), which when combined with the edges
+(Arica) flight->Gantiago)— type ‘ives rise to an inconsistency, entailing that 0) is a member
+of the disjoint classes More generally, any semantic feature in Tables 2-4 with a
+“not” condition can give rise to inconsistencies if the negated condition is entailed. A measure of
+consistency can be the number of inconsistencies found in a knowledge graph, possibly sub-divided
+into the number of such inconsistencies identified by each semantic feature [54].
+
+    
+
+7.3.2 Validity means that the knowledge graph is free of constraint violations, such as captured by
+shape expressions [494] (see Section 3.1.2). We may, for example, specify a shape [Ciry] whose target
+nodes have at most one country. Then, given the edges country ~Gantiago)-country >
+assuming that becomes a target of |Crry|, we have a constraint violation. Conversely, even if
+we defined analogous cardinality restrictions in an ontology, this would not necessarily cause an
+inconsistency since, without UNA, we would first infer that and refer to the same entity.
+A straightforward measure of validity is to count the number of violations per constraint.
+
+ 
+
+ 
+
+ 
+
+ 
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+7.4 Succinctness
+
+Succinctness refers to the inclusion only of relevant content (avoiding “information overload”) that
+is represented in a concise and intelligible manner.
+
+7.4.1 Conciseness refers to avoiding the inclusion of schema and data elements that are irrelevant
+to the domain. Mendes et al. [328] distinguish intensional conciseness (schema level), which refers
+to the case when the data does not contain redundant schema elements (properties, classes, shapes,
+etc.), and extensional conciseness (data level), when the data does not contain redundant entities
+and relations. For example, including events in in our knowledge graph dedicated
+
+to tourism in Chile may affect the extensional conciseness of the knowledge graph, potentially
+
+°Benford’s law states that the leading significant digit in many collections of numbers is more likely to be small.
+
+58

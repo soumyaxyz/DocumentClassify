@@ -1,0 +1,40 @@
+CHAPTER 1
+
+Classical Groups
+
+In this chapter we give a brief introduction to classical groups. For the classical
+theory of forms and their isometry groups, we refer the reader to the books by E.
+Artin ([A]) and L. C. Grove ({G]) on the subject. For a modern account of the
+subject, we refer to the book [KMRT]. Let k be a field. Let V be a vector space of
+dimension n over k. We denote the set of all linear automorphisms of V by GL(V).
+The set GL(V) is a group under the multiplication defined by composition of maps.
+Let B = {e1,...,é€n} be a basis of V. Then we can identify GL(V) with GL,(k) =
+{A € M,,(k) | det(A) 4 0}, the set of all nx n invertible matrices. This group is called
+the general linear group. The linear automorphisms, which have determinant 1,
+constitute a subgroup of GL(V), denoted by SL(V). The corresponding matrix group
+is denoted by SL,,(k) = {A € M,,(k) | det(A) = 1}. This group is called the special
+linear group .
+
+1.1. Bilinear Forms and Hermitian Forms
+
+Let V be a vector space of dimension n over a field k. A map b: V x V > k is
+
+called a bilinear form if
+b(ax + by,z) = ab(x,z) + bb(y, z)
+6(x,ay+bz) = ab(x,y) + bb(x, z)
+
+ 
+
+for all z,y,z € V anda,bek.
+
+Definition 1.1.1. A bilinear form 6 is called symmetric if b(x,y) = b(y,x)
+for all z,y € V. A bilinear form 6 is called skew-symmetric or symplectic if
+6(x,v) =O forallaeV.
+
+Let 6 be a bilinear form on V. Let {e1,...,@n} be a basis of V over k. Then there
+exists a matrix B such that (x, y) = “By. The matrix B has 6(e;, e;) as its ij entry.
+Note that a bilinear form b is symmetric (respectively skew-symmetric) if and only if
+the corresponding matrix B is symmetric, i.e., B = ‘B (respectively skew-symmetric,
+ie., ‘B = —B), with respect to any fixed basis of V.
+
+3

@@ -1,0 +1,22 @@
+Why businesses design standard enterprise-level
+
+processes for common core functions?
+
+Most of the enterprise-level processes for their core functions are common
+in business designs.
+
+The basic idea behind creating standard processes is to ensure repeatable,
+scalable, and predictable customer experience.
+
+Well Designed processes make customer experience independent of people
+and geographical location.
+
+A good example is the common dining experince in many McDonald’s
+outlet anywhere in the world!
+
+Some business processes are contained in one department or invlove
+multiple departments for its working Like a process “ Hire students from
+campuses” will be managed by HR, but a process like “ order to delivery”
+in a computer manufacturing company will involve functions of sales,
+order fulfillment, shipment, and finance. It is these processes that will
+automated by the use of IT.

@@ -1,0 +1,27 @@
+S.No. 8990 aD SBECDE 5
+
+(For candidates admitted from 2009-2010 onwards)
+B.Sc. DEGREE EXAMINATION, JUNE 2012.
+Hotel Management — Skill Based Elective
+
+APPLICATIONS OF COMPUTER
+Time : Three hours " Maximum : 75 marks
+
+PART A — (10x 2 = 20)
+Answer ALL questions.
+
+1. Name any two operating systems.
+
+2. . Define software.
+
+a What is transaction processing system?
+4, List the basic objectives of MIS.
+
+5. What is the difference between close and exit in
+file menu?
+
+6. What is cell?
+7. Name the default view of a presentation.
+
+8. How .to add animation to an’ object in a
+presentation?

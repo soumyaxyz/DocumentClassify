@@ -1,0 +1,68 @@
+of Table 3, the definition (nearby)—type—»Gymmetric) and edge Gantiago)-nearby—»Gantiago Airport) entail
+the edge (Santiago Airport)-nearby ©) according to the condition given for that feature. We now
+
+describe how these conditions lead to entailments.
+
+  
+
+4.2.1. Model-theoretic semantics. Each axiom described by the previous tables, when added to a
+graph, enforces some condition(s) on the interpretations that satisfy the graph. The interpretations
+that satisfy a graph are called models of the graph. Were we to consider only the base condition of the
+ASSERTION feature in Table 2, for example, then the models of a graph would be any interpretation
+such that for every edge ()}—y->@ in the graph, there exists a relation @)=y-»@) in the model. Given
+that there may be other relations in the model (under the OWA), the number of models of any such
+graph is infinite. Furthermore, given that we can map multiple nodes in the graph to one entity
+in the model (under the NUNA), any interpretation with (for example) the relation @-a—>@ is
+a model of any graph so long as for every edge &)—y->@ in the graph, it holds that (®) = (¥) =
+= @) in the interpretation (in other words, the interpretation maps everything to @). As we add
+axioms with their associated conditions to the graph, we restrict models for the graph; for example,
+considering a graph with two edges — )—y—>@ and (y)-type+(lreflexive) — the interpretation with
+@-a>@, © = @ =... is no longer a model as it breaks the condition for the irreflexive axiom.
+
+4.2.2 Entailment. We say that one graph entails another if and only if any model for the former
+graph is also a model of the latter graph. Intuitively this means that the latter graph says nothing
+new over the former graph and thus holds as a logical consequence of the former graph. For example,
+
+consider the graph (antiago)-type->City}-subc. e) and the graph (antiago)-type->(Place), All models
+
+of the latter must have that (6
+
+ 
+
+    
+ 
+
+must be a model of the former graph, or, in other words, the former graph entails the latter graph.
+
+4.2.3 If-then vs. if-and-only-if semantics. Consider the graph (nearby)-type->Gymmetric) and the graph
+inv. of > They result in the same semantic conditions being applied in the domain
+graph, but does one entail the other? The answer depends on the semantics applied. Considering
+the axioms and conditions of Tables 2, we can consider two semantics. Under if-then semantics —
+ir Axiom matches data graph THEN Condition holds in domain graph — the graphs do not entail
+each other: though both graphs give rise to the same condition, this condition is not translated back
+into the axioms that describe it.'° Conversely, under if-and-only-if semantics - Axiom matches
+data graph 1F-AND-ONLY-IF Condition holds in domain graph — the graphs entail each other: both
+graphs give rise to the same condition, which is translated back into all possible axioms that describe
+it. Hence if-and-only-if semantics allows for entailing more axioms in the ontology language than
+if-then semantics. OWL generally applies an if-and-only-if semantics [228].
+
+ 
+
+ 
+
+4.3 Reasoning
+
+Unfortunately, given two graphs, deciding if the first entails the second — per the notion of entailment
+we have defined and for all of the ontological features listed in Tables 2-4 — is undecidable: no
+(finite) algorithm for such entailment can exist that halts on all inputs with the correct true/false
+answer [229]. However, we can provide practical reasoning algorithms for ontologies that (1) halt
+on any input ontology but may miss entailments, returning false instead of true, (2) always halt
+with the correct answer but only accept input ontologies with restricted features, or (3) only return
+
+16 Observe that (hearby)=type—-Gymmetric) is a model of the first graph but not the second, while (tearby)—inv. of —>Rearby)
+
+is a model of the second graph but not the first. Hence neither graph entails the other.
+
+ 
+
+28

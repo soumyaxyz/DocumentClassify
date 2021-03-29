@@ -1,0 +1,64 @@
+113 Some preparatory results
+
+ 
+
+2a. Let (Q, A) be a CQG and Q a Woronowicz C* subalgebra of oO. Let there exist
+unital *-subalgebra Ap C A, which is norm dense in every A,z, such that a is an action
+: a(mo(Ao)) © m0(Ao) ® Qo. Let So be a vector subspace of H ( not necessarily closed )
+such that there is a map @ : Sp — Sp @aig Qo making it into an algebraic Qo co module.
+Moreover, (id ® 75) = B.
+
+2b. C(T”) is a quantum subgroup of Q, the quotient map being denoted by WH:
+
+2c. a(as) = a(a)a(s) for a in Ao, s in Sp. -
+
+We recall that we shall denote by 7 the canonical homomorphism from R” to T” given
+by (a1, 2, .++,@n) = (e(#1), (#2), --.--,€(@n)). Moreover, we define Q(w) := eve(4)°7Q,
+Qu) = €Ve(u) 0G, for u in R”, where eve (respectively evg ) denotes the state on
+C(T”) ( respectively, on C(T”) ) obtained by evaluation of a function at the point x
+(respectively &).
+
+We now make some observations.
+
+Lemma 4.2.1. 1. From assumption 2c., it follows that adg = a.
+Ds (id ® me)ad(a) = adj.
+3. By = (id ® O(x))a.
+4. Be = (id ® O(a) )a.
+5. (q*)7} omg is a surjective C* homomorphism from Q to C(T") identifying C(T”)
+
+as a quantum subgroup of Q.
+
+Proof : By using ( 1.2.1 ), we have
+
+adg(a)s
+= a(a@idja-'(s)
+= G(a@ id)(s() ® K(s(2))
+(as) @ K(s(2))
+(a)@(s(1)) ® K(s(2))
+(
+(
+(
+
+w
+
+ll
+Qt
+
+ll
+g
+
+= a
+
+= aa
+
+a)(@ ® id)(id ® k)a(s)
+(& @ id)(@7! @ id)(s)
+
+a)s
+
+)a
+)
+)
+)s,
+
+where we have used Sweedler notations. This proves 1.

@@ -1,0 +1,108 @@
+<html>
+
+# UNESCO World Heritage Sites x
+<head><title>UNESCO World Heritage Sites</title></head> 8
+
+ 
+
+‘ody . World Heritage Sites
+<hi>World Heritage Sites</h1> .
+<h2>Chile</h2> Chile
+
+<p>Chile has 6 UNESCO World Heritage Sites.</p>
+<table border="1">
+<tr><th>Place</th><th>Year</th><th>Criteria</th></tr>
+
+Chile has 6 UNESCO World Heritage Sites.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Place Year | Criteria
+<tr><td>Rapa Nui</td><td>1995</td> -
+<td rowspan="6">Cultural</td></tr> Rapa Nui 1995
+<tr><td>Churches of Chiloé</td><td>2000</td></tr> Churches of Chiloé 2000
+
+ 
+
+<tr><td>Historical Valparaiso</td><td>2003</td></tr> Historical Valparaiso | 2003
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+<tr><td>Saltpeter Works</td><td>2005</td></tr> Cultural
+<tr><td>Sewell Mining Town</td><td>2006</td></tr> Salipeten Works eine
+<tr><td>Qhapaq Nan</td><td>2014</td></tr> Sewell Mining Town | 2006
+</table> Qhapaq Nan 2014
+
+</body>
+
+</html>
+
+ 
+
+ 
+
+ 
+
+ 
+
+Fig. 29. Example markup document (HTML) with source-code (left) and formatted document (right)
+
+A common trend, for example, is to combine interdependent tasks, jointly performing WSD and
+EL [340], or NER and EL [310, 360], or NER and RE [413, 542], etc., in order to mutually improve
+the performance of multiple tasks. For further details on extracting knowledge from text we refer
+to the book by Maynard et al. [322] and the recent survey by Martinez-Rodriguez et al. [317].
+
+6.3. Markup Sources
+
+The Web was founded on interlinking markup documents wherein markers (aka tags) are used to
+separate elements of the document (typically for formatting purposes). Most documents on the
+Web use the HyperText Markup Language (HTML). Figure 29 presents an example HTML webpage
+about World Heritage Sites in Chile. Other formats of markup include Wikitext used by Wikipedia,
+TeX for typesetting, Markdown used by Content Management Systems, etc. One approach for
+extracting information from markup documents — in order to create and/or enrich a knowledge
+graph - is to strip the markers (e.g., HTML tags), leaving only plain text upon which the techniques
+from the previous section can be applied. However, markup can be useful for extraction purposes,
+where variations of the aforementioned tasks for text extraction have been adapted to exploit such
+markup [304, 307, 317]. We can divide extraction techniques for markup documents into three main
+categories: general approaches that work independently of the markup used in a particular format,
+often based on wrappers that map elements of the document to the output; focussed approaches that
+target specific forms of markup in a document, most typically web tables (but sometimes also lists,
+links, etc.); and form-based approaches that extract the data underlying a webpage, per the notion
+of the Deep Web. These approaches can often benefit from the regularities shared by webpages of a
+given website, be it due to informal conventions on how information is published across webpages,
+or due to the re-use of templates to automatically generate content across webpages; for example,
+intuitively speaking, while the webpage of Figure 29 is about Chile, we will likely find pages for
+other countries following the same structure on the same website.
+
+6.3.1 Wrapper-based extraction. Many general approaches are based on wrappers that locate and
+extract the useful information directly from the markup document. While the traditional approach
+was to define such wrappers manually — a task for which a variety of declarative languages and
+tools have been defined - such approaches are brittle to changes in a websites layout [152]. Hence
+other approaches allow for (semi-)automatically inducing wrappers [155]. A modern such approach
+— used to enrich knowledge graphs in systems such as LODIE [174] — is to apply distant supervision,
+
+51

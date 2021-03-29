@@ -1,0 +1,251 @@
+IEEE Access:
+
+S. Banerjee et a/.: Physically Secure Lightweight Anonymous User Authentication Protocol for loT
+
+ 
+
+20)
+
+21
+
+22)
+
+23
+
+ 
+
+24
+
+ 
+
+S. Challa, M. Wazid, A. K. Das, N. Kumar, A. G. Reddy, E.-J. Yoon,
+and K.-Y. Yoo, “Secure signature-based authenticated key establishment
+scheme for future iot applications,” IEEE Access, vol. 5, pp. 3028-3043,
+2017.
+
+M. Wazid, A. K. Das, V. Odelu, N. Kumar, M. Conti, and M. Jo, “Design
+of secure user authenticated key management protocol for generic iot
+networks,” IEEE Internet of Things Journal, vol. 5, no. 1, pp. 269-282,
+2018.
+
+D. Dolev and A. Yao, “On the security of public key protocols,” IEEE
+Transactions on information theory, vol. 29, no. 2, pp. 198-208, 1983.
+
+T. S. Messerges, E. A. Dabbish, and R. H. Sloan, “Examining smart-card
+security under the threat of power analysis attacks,” IEEE transactions on
+computers, vol. 51, no. 5, pp. 541-552, 2002.
+
+M. Wazid, A. K. Das, V. Odelu, N. Kumar, and W. Susilo, “Secure
+Remote User Authenticated Key Establishment Protocol for Smart Home
+Environment,” IEEE Transactions on Dependable and Secure Computing,
+2018, DOT: 10.1109/TDSC.2017.2764083.
+
+R. Canetti and H. Krawczyk, “Universally Composable Notions of Key
+Exchange and Secure Channels,” in International Conference on the The-
+ory and Applications of Cryptographic Techniques— Advances in Cryptol-
+ogy (EUROCRYPT 2002), Amsterdam, The Netherlands, 2002, pp. 337—
+351.
+
+A. Dua, N. Kumar, A. K. Das, and W. Susilo, “Secure Message Commu-
+nication Protocol Among Vehicles in Smart City,” IEEE Transactions on
+Vehicular Technology, vol. 67, no. 5, pp. 4359-4373, May 2018.
+
+V. Odelu, A. K. Das, M. Wazid, and M. Conti, “Provably Secure Authen-
+ticated Key Agreement Scheme for Smart Grid,’ IEEE Transactions on
+Smart Grid, vol. 9, no. 3, pp. 1900-1910, May 2018.
+
+P. Gope, A. K. Das, N. Kumar, and Y. Cheng, “Lightweight and Physically
+Secure Anonymous Mutual Authentication Protocol for Real-Time Data
+Access in Industrial Wireless Sensor Networks,’ IEEE Transactions on
+Industrial Informatics, 2019, DOT: 10.1109/TII.2019.2895030.
+
+S. Devadas, E. Suh, S. Paral, R. Sowell, T. Ziola, and V. Khandelwal,
+“Design and implementation of puf-based" unclonable" rfid ics for anti-
+counterfeiting and security applications,” in RFID, 2008 IEEE Interna-
+tional conference on. IEEE, 2008, pp. 58-64.
+
+P. Gope, J. Lee, and T. Q. Quek, “Lightweight and practical anonymous
+authentication protocol for rfid systems using physically unclonable func-
+tions,” IEEE Transactions on Information Forensics and Security, vol. 13,
+no. 11, pp. 2831-2843, 2018.
+
+J.-P. Linnartz and P. Tuyls, “New Shielding Functions to Enhance Pri-
+vacy and Prevent Misuse of Biometric Templates,” in 4th International
+Conference Audio and Video-Based Biometric Person Authentication
+(AVBPA’03), Guildford, UK, 2003, pp. 393-402.
+
+C.J. HL, J.J., K. D., and L. J., “A Reusable Fuzzy Extractor with Practical
+Storage Size: Modifying Canetti et al.’s Construction,” in Australasian
+Conference on Information Security and Privacy (ACISP’18), Lecture
+Notes in Computer Science, vol. 10946, Wollongong, Australia, 2018, pp.
+28-44.
+
+L. Lamport, “Password authentication with insecure communication,”
+Communications of the ACM, vol. 24, no. 11, pp. 770-772, 1981.
+
+'Y. Sung-Ming and L. Kuo-Hong, “Shared authentication token secure
+against replay and weak key attacks,” Information Processing Letters,
+vol. 62, no. 2, pp. 77-80, 1997.
+
+J. Zhu and J. Ma, “A new authentication scheme with anonymity for
+wireless environments,’ IEEE Transactions on Consumer Electronics,
+vol. 50, no. 1, pp. 231-235, 2004.
+
+W.-H. Yang and S.-P. Shieh, “Password authentication schemes with smart
+cards,” Computers & Security, vol. 18, no. 8, pp. 727-733, 1999.
+
+K. H. Wong, Y. Zheng, J. Cao, and S. Wang, “A dynamic user authenti-
+cation scheme for wireless sensor networks,” in Sensor Networks, Ubiq-
+uitous, and Trustworthy Computing, 2006. IEEE International Conference
+on, vol. 1. IEEE, 2006, pp. 8-pp.
+
+M. L. Das, “Two-factor user authentication in wireless sensor networks,”
+IEEE transactions on wireless communications, vol. 8, no. 3, pp. 1086—
+1090, 2009.
+
+H.-F. Huang, Y.-F. Chang, and C.-H. Liu, “Enhancement of two-factor
+user authentication in wireless sensor networks,” in Intelligent Information
+Hiding and Multimedia Signal Processing (ITH-MSP), 2010 Sixth Interna-
+tional Conference on. IEEE, 2010, pp. 27-30.
+
+D. Nyang and M.-K. Lee, “Improvement of das’s two-factor authentication
+protocol in wireless sensor networks.” IACR Cryptology ePrint Archive,
+vol. 2009, p. 631, 2009.
+
+ 
+
+ 
+
+(25
+
+26
+
+27
+
+28
+
+29)
+
+30
+
+31
+
+32
+
+33
+
+34
+
+35
+
+36
+
+38
+
+39
+
+40
+
+42
+
+43
+
+45
+
+46
+
+ 
+
+P. Zhang, C. Lin, Y. Jiang, Y. Fan, and X. Shen, “A lightweight encryption
+scheme for network-coded mobile ad hoc networks,” IEEE Transactions
+on Parallel and Distributed Systems, vol. 25, no. 9, pp. 2211-2221, 2014.
+R. Madhusudhan and R. Mittal, “Dynamic id-based remote user password
+authentication schemes using smart cards: A review,” journal of network
+and computer applications, vol. 35, no. 4, pp. 1235-1248, 2012.
+
+M. Turkanovié, B. Brumen, and M. Hdlbl, “A novel user authentication
+and key agreement scheme for heterogeneous ad hoc wireless sensor
+networks, based on the internet of things notion,” Ad Hoc Networks,
+vol. 20, pp. 96-112, 2014.
+
+I. Alqassem, “Privacy and security requirements framework for the internet
+of things (iot)”’ in Companion Proceedings of the 36th International
+Conference on Software Engineering. ACM, 2014, pp. 739-741.
+
+J. Granjal, E. Monteiro, and J. S. Silva, “Security for the internet of
+things: a survey of existing protocols and open research issues,” IEEE
+Communications Surveys & Tutorials, vol. 17, no. 3, pp. 1294-1312, 2015.
+J. Mineraud, O. Mazhelis, X. Su, and S. Tarkoma, “A gap analysis of
+internet-of-things platforms,” Computer Communications, vol. 89, pp. 5—
+16, 2016.
+
+I. Makhdoom, M. Abolhasan, J. Lipman, R. P. Liu, and W. Ni, “Anatomy
+of threats to the internet of things,” IEEE Communications Surveys &
+Tutorials, 2018.
+
+J. Jeong, M. Y. Chung, and H. Choo, “Integrated otp-based user authentica-
+tion scheme using smart cards in home networks,” in Hawaii International
+Conference on System Sciences, Proceedings of the 41st Annual. IEEE,
+2008, pp. 294-294.
+
+P. Hanumanthappa and S. Singh, “Privacy preserving and ownership
+authentication in ubiquitous computing devices using secure three way
+authentication,” in Innovations in Information Technology (IIT), 2012
+International Conference on. IEEE, 2012, pp. 107-112.
+
+F.K. Santoso and N. C. Vun, “Securing iot for smart home system,” in
+Consumer Electronics (ISCE), 2015 IEEE International Symposium on.
+IEEE, 2015, pp. 1-2.
+
+P. Porambage, C. Schmitt, P. Kumar, A. Gurtov, and M. Ylianttila, “Two-
+phase authentication protocol for wireless sensor networks in distributed
+iot applications,” in Wireless Communications and Networking Confer-
+ence (WCNC), 2014 IEEE. IEEE, 2014, pp. 2728-2733.
+
+C.-C. Chang and H.-D. Le, “A provably secure, efficient, and flexible
+authentication scheme for ad hoc wireless sensor networks,’ IEEE Trans-
+actions on Wireless Communications, vol. 15, no. 1, pp. 357-366, 2016.
+A. K. Das, S. Kumari, V. Odelu, X. Li, F. Wu, and X. Huang, “Provably
+secure user authentication and key agreement scheme for wireless sensor
+networks,” Security and Communication Networks, vol. 9, no. 16, pp.
+3670-3687, 2016.
+
+Y. Jie, J. Y. Pei, L. Jun, G. Yun, and X. Wei, “Smart home system based
+on iot technologies,” in Computational and Information Sciences (ICCIS),
+2013 Fifth International Conference on. IEEE, 2013, pp. 1789-1791.
+
+T. Song, R. Li, B. Mei, J. Yu, X. Xing, and X. Cheng, “A privacy
+preserving communication protocol for iot applications in smart homes,”
+IEEE Internet of Things Journal, vol. 4, no. 6, pp. 1844-1852, 2017.
+
+P. Gope, T. Hwang et al., “A realistic lightweight anonymous authenti-
+cation protocol for securing real-time application data access in wireless
+sensor networks.” IEEE Trans. Industrial Electronics, vol. 63, no. 11, pp.
+7124-7132, 2016.
+
+R. Amin, N. Kumar, G. Biswas, R. Iqbal, and V. Chang, “A light weight
+authentication protocol for iot-enabled devices in distributed cloud com-
+puting environment,” Future Generation Computer Systems, vol. 78, pp.
+1005-1019, 2018.
+
+S. Challa, A. K. Das, P. Gope, N. Kumar, F. Wu, and A. V. Vasilakos,
+“Design and analysis of authenticated key agreement scheme in cloud-
+assisted cyber—physical systems,” Future Generation Computer Systems,
+2018.
+
+W. Li, B. Li, Y. Zhao, P. Wang, and F. Wei, “Cryptanalysis and security en-
+hancement of three authentication schemes in wireless sensor networks,”
+Wireless Communications and Mobile Computing, vol. 2018, 2018.
+
+P. K. Dhillon and S. Kalra, “Secure multi-factor remote user authentication
+scheme for internet of things environments,” International Journal of
+Communication Systems, vol. 30, no. 16, p. e3323, 2017.
+
+Y.-H. Chuang, N.-W. Lo, C.-Y. Yang, and S.-W. Tang, “A lightweight
+continuous authentication protocol for the internet of things,’ Sensors,
+vol. 18, no. 4, p. 1104, 2018.
+
+L. Zhou, X. Li, K.-H. Yeh, C. Su, and W. Chiu, “Lightweight
+iot-based authentication scheme in cloud computing circumstance,”
+
+VOLUME 7, 2019

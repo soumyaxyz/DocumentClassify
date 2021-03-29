@@ -1,0 +1,20 @@
+ee
+Outline
+
+@ Basic concepts
+
+@ Mathematical formulation of the proposed problem
+
+@ Results and Discussion
+
+ 
+
+Abstract: The effects of thermal and solutal dispersion on natural
+convection about an isothermal vertical cone with fixed apex half angle,
+pointing downwards in a Newtonian fluid are analyzed. The non-linear
+governing equations and their associated boundary conditions are initially
+cast into dimensionless forms by local-similarity variables. The resulting
+system of equations is then solved numerically. A parametric study of the
+physical parameters involved in the problem is conducted, the results of
+this parametric study are shown graphically and the physical aspects of the
+problem are highlighted and discussed.

@@ -1,0 +1,63 @@
+Weisfeiler and Leman go sparse
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Figure 2: Overview of the power of proposed algorithms and neural architectures. The green and dark red nodes represent
+algorithms proposed in the present work. The grey region groups dense algorithms and neural architectures.
+
+«Follows directly from the proof of Theorem 2. AC B (AC B, A = B): algorithm A is more powerful (strictly more
+powerful, equally powerful) than B, ;—Follows by definition, strictness open.
+
+ 
+
+replacing the j""component of v with the vertex w. That is, 6j(v, w) = (v1,..., vj-1,W,Uj41,---, Uk). If w = o;(v,w)
+for some w in V(G), call v a j-neighbor of w. The neighborhood of v is thus defined as the set of all tuples w such that
+w = ¢;(v,w) for some j in [k] and w in V(G).
+
+The refinement of a coloring C’: V(G)* > N, denoted by C, is a coloring C: V(G)* > N defined as follows. For each j in
+[k], collect the colors of the j-neighbors of v as a multiset S; = {C(¢,(v, w)) | w € V(G)}. Then, for a tuple v, define
+
+E(v) = (C(v), M(v)),
+
+where M(v) is the k-tuple (.S),...,.S;,). For consistency, the strings 6 (v) thus obtained are lexicographically sorted and
+renamed as integers. Observe that the new color C (v) of v is solely dictated by the color histogram of its neighborhood. In
+general, a different mapping //(-) could be used, depending on the neighborhood information that we would like to aggregate.
+We will refer to a mapping M(-) as an aggregation map.
+
+k-dimensional Weisfeiler-Leman. For k > 2, the k-WL computes a coloring C,: V(G)* — N ofa given graph G, as
+follows.* To begin with, the initial coloring Co is computed. Then, starting with Co, successive refinements C+, = C; are
+
+computed until convergence. That is,
+Cita(v) = (Cilv), Mi(v)),
+where
+M,(v) = ({Ci(dr(v, w)) | w € V(G) HL... {Cilge(v, w)) | w € V(G)#). (3)
+The successive refinement steps are also called rounds or iterations. Since the disjoint union of the color classes form a partition
+
+of V(G), there must exist a finite £ < |V(G)|* such that C, = Cy. In the end, the k-WL outputs C; as the stable coloring
+Coo.
+
+The k-WL distinguishes two graphs G and H if, upon running the k-WL on their disjoint union G U H, there exists a color ¢ in
+N in the stable coloring such that the corresponding color class S, satisfies
+
+IV(G)EN Sc] ¢ IVA) 0 Sel,
+
+i.e., there exist an unequal number of c-colored tuples in V(G)* and V(H)*. Hence, two graphs distinguished by the k-WL
+must be non-isomorphic.
+
+In fact, there exist several variants of the above defined k-WL. These variants result from the application of different aggregation
+maps M(-). For example, setting M(-) to be
+
+MF(v)= {(C(ar(v, w)),-.-,C(bx(v,w)) ) |weV(G)},
+
+yields a well-studied variant of the k-WL (see, e.g., (Cai et al., 1992)), commonly known as “folklore” k-WL in machine
+learning literature. It holds that the k-WL using Equation (3) is as powerful as the folklore (k—1)-WL (Grohe & Otto, 2015).
+
+“We define the 1-WL in the next subsection.

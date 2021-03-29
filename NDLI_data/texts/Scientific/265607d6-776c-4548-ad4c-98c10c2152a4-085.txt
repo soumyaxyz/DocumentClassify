@@ -1,0 +1,45 @@
+3. Search Result Diversification
+
+ 
+
+Building upon the formalism of quantum mechanics (Dirac, 1930), Zuccon &
+Azzopardi (2010) proposed the quantum probability ranking principle (QPRP).
+In contrast to the classic PRP (Cooper, 1971; Robertson, 1977), introduced in
+Section 2.2.1.1, the QPRP prescribes that not only the estimated relevance of each
+document should be considered as a ranking criterion, but also how it interferes
+with the estimated relevance of the other documents. In particular, in the quan-
+tum formalism, interference refers to the effect of an observation on subsequent
+
+observations. This notion was quantified into the following objective:
+
+Jorre(4 4, Da) = p(Gala, d) + > Od,d; + (3.12)
+
+dj€Dq
+
+where p(G,|q, d) denotes the probability of observing the relevant set G,, given the
+query gq and the document d, which corresponds to the classic formulation of the
+PRP in Equation (2.6). The estimation of the interference gaa, between d and
+each document dj € D, involves operations with complex numbers. In practice, it
+can be approximated as oua, & —2,/p(Gila. D (Gala, G) Ald, d;), where f(d, d;)
+can be any function measuring the similarity between the two documents.
+
+Zhu et al. (2007) approached the diversification problem as an absorbing ran-
+dom walk (ARW) with transition probabilities p,; = (1 — A) p(dj|q) + A p(djldi),
+where p(d;|q) and p(d;|d;) denoted the estimated relevance of d; and its similarity
+to d;, respectively, with the parameter \ balancing between the two scores. An
+absorbing random walk is a Markov chain with reachable absorbing states 7, such
+that p,; = 1 if? = j, and 0 otherwise (Kemeny & Snell, 1960). In their formu-
+lation, each already selected document d; € D, was represented as an absorbing
+
+state, in which case candidate documents were scored according to:
+
+Jarw(4, d, Dy) = v(d, Dy); (3.13)
+
+where J(d,D,) denotes the expected number of visits to document d before ab-
+sorption by the states in Dj. While this computation would incur an inversion of
+the underlying transition matrix at every iteration, in practice, such an inversion
+can be computed only once and reused subsequently to update the portion of the
+
+matrix corresponding to the states in R, \D, (Woodbury, 1950).
+
+67

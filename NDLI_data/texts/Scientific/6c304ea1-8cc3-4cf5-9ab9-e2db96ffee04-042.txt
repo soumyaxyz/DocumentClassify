@@ -1,0 +1,55 @@
+These works are interesting examples of how deductive and inductive forms of knowledge — in
+this case rules and embeddings — can interplay and complement each other.
+
+5.3 Graph Neural Networks
+
+While embeddings aim to provide a dense numerical representation of graphs suitable for use within
+existing machine learning models, another approach is to build custom machine learning models
+adapted for graph-structured data. Most custom learning models for graphs are based on (artificial)
+neural networks [527], exploiting a natural correspondence between both: a neural network already
+corresponds to a weighted, directed graph, where nodes serve as artificial neurons, and edges serve
+as weighted connections (axons). However, the typical topology of a traditional neural network —
+more specifically, a fully-connected feed-forward neural network — is quite homogeneous, being
+defined in terms of sequential layers of nodes where each node in one layer is connected to all
+nodes in the next layer. Conversely, the topology of a data graph is quite heterogeneous, being
+determined by the relations between entities that its edges represent.
+
+A graph neural network (GNN) [437] builds a neural network based on the topology of the data
+graph; ie., nodes are connected to their neighbours per the data graph. Typically a model is then
+learnt to map input features for nodes to output features in a supervised manner; output features
+for example nodes may be manually labelled, or may be taken from the knowledge graph. We now
+discuss the main ideas underlying two key flavours of GNN — recursive GNNs and convolutional
+GNNs - where we refer to Appendix B.6.3 for more formal definitions relating to GNNs.
+
+5.3.1 Recursive graph neural networks. Recursive graph neural networks (RecGNNs) are the seminal
+approach to graph neural networks [437, 468]. The approach is conceptually similar to the systolic
+abstraction illustrated in Figure 22, where messages are passed between neighbours towards
+recursively computing some result. However, rather than define the functions used to decide the
+messages to pass, we rather label the output of a training set of nodes and let the framework learn
+the functions that generate the expected output, thereafter applying them to label other examples.
+
+In a seminal paper, Scarselli et al. [437] proposed what they generically call a graph neural
+network (GNN), which takes as input a directed graph where nodes and edges are associated with
+feature vectors that can capture node and edge labels, weights, etc. These feature vectors remain
+fixed throughout the process. Each node in the graph is also associated with a state vector, which is
+recursively updated based on information from the node’s neighbours — i.e., the feature and state
+vectors of the neighbouring nodes and the feature vectors of the edges extending to/from them —
+using a parametric function, called the transition function. A second parametric function, called the
+output function, is used to compute the final output for a node based on its own feature and state
+vector. These functions are applied recursively up to a fixpoint. Both parametric functions can be
+implemented using neural networks where, given a partial set of supervised nodes in the graph — i.e.,
+nodes labelled with their desired output — parameters for the transition and output functions can
+be learnt that best approximate the supervised outputs. The result can thus be seen as a recursive
+neural network architecture.”° To ensure convergence up to a fixpoint, certain restrictions are
+applied, namely that the transition function be a contractor, meaning that upon each application of
+the function, points in the numeric space are brought closer together (intuitively, in this case, the
+numeric space “shrinks” upon each application, ensuring a unique fixpoint).
+
+To illustrate, consider, for example, that we wish to find priority locations for creating new tourist
+information offices. A good strategy would be to install them in hubs from which many tourists visit
+popular destinations. Along these lines, in Figure 26 we illustrate the GNN architecture proposed
+
+26Some authors refer to such architectures as recurrent graph neural networks, observing that the internal state maintained
+for nodes can be viewed as a form of recurrence over a sequence of transitions.
+
+42

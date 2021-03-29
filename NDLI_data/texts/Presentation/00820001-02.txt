@@ -1,0 +1,11 @@
+Lecture 4
+Special Topics of FEA
+
+Chapters
+
+Shear Locking in Timoshenko beam elements.
+
+Error Analysis in Computational
+Elastodynamics.
+
+Rank Deficiency in elements.

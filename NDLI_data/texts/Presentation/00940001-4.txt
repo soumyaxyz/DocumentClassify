@@ -1,0 +1,63 @@
+including true and false. The rest lie in between, i.e., having some degree of truth or truth
+value. This truth value lies in [0, 1]. If the proposition is true, the value is | and if it is false
+the value is 0. Any value in between indicates its degree of truth.
+
+Logical Connectives
+
+Multiple propositions are connected by ‘logical connectives’. The term AND and OR are two
+logical connectives. These connectives in fuzzy logic can be defined like this:
+| x, is. A, AND x, is A, |=| x, is A, | A| x, is A, | and
+| x, is A, OR x, is A, |F| x, is A, | Vv | x, is A, | (13)
+where, “x; is A;’ is a proposition, andAandv denote the MIN and MAX operators,
+respectively.
+
+Premise Variable
+
+In fuzzy logic, the proposition/s representing the prevailing condition/s is represented as a
+linguistic variable, named as premise variable. It certainly can carry a value with it. But, that
+value does not always guarantee its exact grouping.
+
+Consequence Variable
+
+This represents the course of action corresponding to a particular combination of premise
+variables. It is a fuzzy number representing the approximate value of the course of action.
+This fuzzy number is approximately equal to a crisp value.
+
+Implication and Reasoning
+
+In the fuzzy rule based inference system, more than one propositions (which are captured by
+the premise variables) are connected by logical connectives to define the course of action
+(which is captured by the consequence variable). For a particular set of premise variables,
+there is a unique value of consequence variable connected by a fuzzy rule denoting a
+particular corresponding action. This action is the conclusion of the fuzzy logic. If the
+prevailing conditions (Input) are such that, satisfy the compatibility with the premise
+variables of any particular rule; the inferred course of action (Output) will be the same as that
+defined by the consequence variable of that particular rule (see Figure 1). But, if the
+prevailing conditions are such that, satisfy the compatibility with the premise variables of
+more than one rule, the course of action is determined by the weighted average of the
+consequence variables of all those rules.
+
+Prevailing
+
+conditions Premise Consequence Course
+variables variable of action
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Infer
+
+Figure 1: Fuzzy inference system
+
+Details of fuzzy logic can be obtained from [1, 4, 5].

@@ -1,0 +1,19 @@
+Business Layer — Business Requirements
+
+Business requirements: The requirements are a product of three steps of a
+process that includes:
+
+> Business drivers - the impulses that initiate the need to act.
+Examples: changing workforce, changing labor laws, changing
+economy, changing technology, etc.
+
+> Business goals- the targets to be achieved in response to the business
+drivers.
+Examples: increased productivity, improved market share, improved
+profit margins, improved customer satisfaction, cost reduction, etc.
+
+> Business strategies- the planned course of action that will help achieve
+the set goals.
+Examples: outsourcing, global delivery model, partnerships, customer
+retention programs, employee retention programs, competitive pricing,
+etc.

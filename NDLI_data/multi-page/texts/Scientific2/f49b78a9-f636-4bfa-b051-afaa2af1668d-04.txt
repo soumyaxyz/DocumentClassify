@@ -1,0 +1,146 @@
+IEEE Access:
+
+S. Banerjee et al.: Physically Secure Lightweight Anonymous User Authentication Protocol for loT
+
+ 
+
+important issue. The authors in [14] recommended the fuzzy
+extractor method for this purpose. The fuzzy extractor is
+compromised of two methods, namely 1) probabilistic gen-
+eration function Gen(-) and 2) deterministic re-production
+function Rep(-), that are defined below.
+
+¢ Gen: For a challenge-response pair, say PUF(C;) =
+Res;, Gen(-) outputs a tuple comprising of a (secret)
+key R; and helper data hd;, that is, Gen(Res;) = (Ri,
+hd;).
+
+« Rep: Given a PUF output Res‘, Rep(-) can recover the
+original secret key R; with the help of the helper data
+hd; provided the the Hamming distance between the
+original PUF output Res; and current PUF output Res’
+does not exceed a pre-defined error tolerance threshold
+value et. Thus, Rep( Res), hd;) = Ri.
+
+One of the estimations on error tolerance threshold values
+
+provided by Cheon et al. is provided as follows. If the
+
+Hamming distance between the original PUF output Res;
+
+and current PUF output Res/ is T and the number of bits
+a
+
+in input string is inp, then et = fae
+
+ 
+
+Ill. LITERATURE SURVEY
+
+Lamport introduced a seminal on remote user authen-
+tication in 1981. Later, in the works by several other au-
+thors in {18}, [19], the concepts of mutual authentica-
+tion, smart-card based authentication, user anonymity were
+introduced, which became the standard requirements for
+later authentication schemes. Wong et al. proposed a
+hash-based lightweight user authentication scheme for the
+resource-constrained wireless sensor networks (WSNs). Das
+[22] presented an authentication scheme for the resource-
+constrained WSNs. However, the schemes [21], [22] were
+vulnerable to several attacks as identified and improved upon
+by the authors in
+
+Madhusudan and Mittal [26] identified that user anonymity
+is one of the ten desirable attributes for an ideal password
+authentication scheme. Turkanovic et al. discussed WSN
+as a component of IoT and pointed out that user anonymity
+and un-traceability are the widely considered integral re-
+quirements for authentication schemes in WSN. Alqasen [28]
+concluded that owing to the diverse and heterogeneous nature
+of IoT, specific investigation into the security challenges for
+IoT architecture is also necessary.
+
+Granjal et al. [29] identified “privacy, anonymity, liability
+and trust” as fundamental for the social acceptance of most
+of the future IoT applications. Mineraud et al. [30] analyzed
+malwares and highlighted inherent design flaws in the emerg-
+ing IoT infrastructure and its associated security challenges.
+Makhdoom et al. BI], while discussing the threats to IoT,
+identified that user anonymity vis-a-vis id management as the
+key security and privacy challenges. Thus, user anonymity
+and un-traceability are necessary requirements for designing
+an authentication scheme for loT environment.
+
+Jeong et al. proposed a “One-Time Password (OTP)”
+based approach for user authentication in smart home
+environment. Unfortunately, this scheme fails to assure
+
+ 
+
+4
+
+mutual authentication, user anonymity, and untracability.
+Hunumanathappa et al. also presented a pass-phrase
+based approach to ensure device attestation during user au-
+thentication for ubiquitous computing devices.
+
+Santoso et al. [34] proposed a user authentication scheme
+for smart homes using “Elliptic Curve Cryptography (ECC)”
+technique. However, this scheme fails in ensuring anonymity
+and untracability [8]. Porambage et al.[B5] designed a
+scalable authentication protocol suitable for heterogeneous
+resource-constrained WSNs. Turkanovic et al. [27]] also pre-
+sented a computationally efficient scheme for authentication
+in WSNs. Chang and Le [36] proposed two schemes for user
+authentication: 1) the first one is based on bitwise XOR and
+hash operations, and 2) the second scheme additionally uses
+ECC apart from bitwise XOR and hash operations to provide
+high security. Unfortunately, Das et al. demonstrated
+that both the schemes were vulnerable to several known at-
+tacks, including man-in-the-middle, offline password guess-
+ing and replay attacks. Wazid er al. [5]] also observed that the
+scheme [27] was vulnerable to known attacks like privileged
+insider, offline password guessing, user impersonation. They
+proposed a lightweight authenticated key management proto-
+col for a generic IoT network.
+
+Jie et al. (38) proposed an RFID based multilayer archi-
+tecture for smart homes. Song ef al. [39] studied (38) and
+observed the certificate authority in smart devices were too
+computationally expensive for practical applications. As an
+alternative, they presented an authentication scheme based on
+hash functions and chaotic systems. Challa er al. [4] designed
+an authentication scheme intended for loT deployment ap-
+plying ECC signatures. Gope and Hwang presented
+another lightweight scheme for user authentication in real-
+time WSN. However, their scheme does not support sensor
+node anonymity.
+
+Amin et al. [41] presented a user authentication protocol
+for distributed cloud computing environment composed of
+IoT devices. However, Challa et al. and Li et al.
+demonstrated several security pitfalls in the scheme [41],
+such as privileged-insider and impersonation attacks. Apart
+from these, Amin et al.’s scheme fails to guarantee some
+important requirements like user anonymity and forward
+secrecy properties.
+
+Dhillon er al. [44] presented a multi-factor remote user
+authentication scheme for loT environment. Chuang et al.
+classified continuous authentication protocols for IloT
+into user-to-device model and device-to-device model, and
+presented a lightweight continuous authentication protocol
+for device-to-device authentication in IoT. Unfortunately, the
+schemes of Dhillon ef al. and Chuang et al. fail to
+provide user and sensing device anonymity, respectively, and
+both also fail to satisfy untraceability property.
+
+Zhou et al. proposed an anonymous authentication
+scheme using only hash function and XOR operations. Un-
+fortunately, their scheme is vulnerable to replay attack, and it
+also fails to preserve forward secrecy goal. The authors in
+presented a detailed survey on various authentication
+
+ 
+
+VOLUME 7, 2019

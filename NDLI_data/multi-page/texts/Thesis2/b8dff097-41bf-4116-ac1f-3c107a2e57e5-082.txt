@@ -1,0 +1,44 @@
+70 8. REALITY IN GROUPS OF TYPE G2
+
+the group of Brauer classes of central simple algebras over k, which split over F. We
+define a map ¢: B(F'/k) —> B(E/L) by [(F,7, a)| - [(E,7,a)] (which is the same as
+the map [D] + [D®L]). This map is well defined ([P], Section 15.1, Corollary c) and
+is an injective map since ker(¢) = {[(F,7,a)] € B(F/k) | a € k*,a © Neyr(E*)} =
+{[((F,7,a)] € B(F/k) | a € Nejx(F*)}. We have a commutative diagram,
+
+k*/Ney(F*) > B(F/k)
+
+| |e
+L*/Nejt(E*) —> B(B/L)
+
+The vertical maps are injective in the above diagram. We have the following exact
+
+sequence,
+1 — (Neyi(E*)k")/Nayt(E") — L*/Npyjt(E*)  LY/Ngyi(E!) — 1
+
+where (Ngyjr(E*)k*)/Ng/r(E*) = k*/Npj,.(F*). Hence, from the commutativity of
+the above diagram, we get B(E/L)/¢(B(F/k)) = L'/Npy,(E’).
+
+This shows L'/Nz/_(£') is nontrivial, if and only if there exists a central division
+algebra D over L which splits over EF and it does not come from a central division
+algebra over k, split by F’. Over number field for such a construction we refer to [K]
+(Chapter V, Proposition 1).
+
+8.3. SL(3) CG
+
+We continue here with proof of the Theorem 8.1.8. Let us assume now that
+L=kxk. We have seen in Section 3.2 that G(¢€/L) = SL(U) = SL(3). Let to
+be an element in G(€/L) and denote its image in SL(3) by A. We assume that the
+
+characteristic polynomial of A € SZ(3) is equal to its minimal polynomial over k.
+
+Lemma 8.3.1. Let the notation be fixed as above. Let to be an element in G(€/L)
+which does not have a fixed point outside L. Suppose that dh € G = Aut(€), such
+that htgh7! = ty'. Then h(L) = L.
+
+Proof. Suppose that h(L) ¢ L. Then we claim that dr € LM €o such that
+h(x) ¢ L. For this, let y € L be such that h(y) ¢ L. Let « = y — dtr(y)1. Then
+tr(x) = 0 and if h(x) € L then h(y) € L, a contradiction. Hence we have « € LM €o
+with h(x) ¢ L. Also since to(x) = x, we have,
+
+to(h(x)) = hts*(e) = h(a).

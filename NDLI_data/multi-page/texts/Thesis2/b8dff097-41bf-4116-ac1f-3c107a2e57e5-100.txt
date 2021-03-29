@@ -1,0 +1,55 @@
+88 9. REALITY IN ALGEBRAIC GROUPS
+
+t is real in G(k) if and only if t is strongly real in G(k). Moreover, every element
+of a maximal torus, which contains a strongly regular real element, is strongly real in
+
+G(k).
+
+Proof. Let t € G(k) be a strongly regular real element and let g € G(k) be such
+that gtg-! = t~+. Let T be a maximal torus in G defined over k which contains t. We
+use a theorem of Richardson and Springer ({RS], Proposition 8.22; Proposition 9.1.1)
+here. With the hypothesis we have assumed, this theorem implies that any involution
+in W is represented by an involution n € N(T’). The longest element wo acts as —1
+on the roots and is an involution. Hence there exists n € N(T), an involution, such
+that nsn-! = s7! for all s € T. Thus ntn = t7! and g € nZg¢(t) = nT. Let g = nso,
+for so € T. Then g? = nsonso = 89 159 = 1. Hence g is an involution and the element
+t is a product of two involutions g and gt.
+
+Suppose now T is a maximal torus in G defined over k and T(k) contains a
+strongly regular real element ¢t. Let s € T(k). Suppose g € G(k) conjugates t
+to t~!. Then we have proved that g? = 1. We claim that g conjugates s to s7!.
+From calculations in the paragraph above, we have g = nso for some so € T. Then
+
+1 1 1 1
+
+gsg. = Nsy$8qn~ = nsn~' = s~'. But since g is an involution in G(k), s is a
+
+ 
+
+ 
+
+ 
+
+product of two involutions.
+
+ 
+
+We note that in groups G satisfying the hypothesis of the theorem, there are
+strongly regular elements in G(k) which are not real in G(k). We have proved that
+for a group G of type G2 defined over k, a semisimple element in G(k) is real if
+and only if it is a product of two involutions in G(k) (Theorem 6.2.2). Examples
+of semisimple elements which are not real are also constructed in the Chapter 8.4.
+Hence in a maximal torus containing such an element no strongly regular element is
+real.
+
+9.2. Cohomological Obstruction to Reality
+
+The results in this subsection are known to the experts ([Se], Chapter III, section
+2.3). However, we include some with proofs for the sake of completeness. Let G be a
+
+connected linear algebraic group defined over a field k. We have,
+
+Lemma 9.2.1. Let g € G. Let g = gsgu be the Jordan decomposition of g in G.
+Let H be the centralizer of gs inG. Then, g ts real in G if and only if gs is real and
+
+ga), tGux' are conjugate in H, where xg.x~! = gt.

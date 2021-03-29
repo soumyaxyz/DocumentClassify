@@ -1,0 +1,24 @@
+National Aeronautics and Space Administration So
+
+NASA GRC UAS Project
+
+Communications Modeling and Simulation
+Development Status
+
+Presenter — Rafael Apaza
+NASA Glenn Research Center
+21000 Brookpark Rd.
+Cleveland, Ohio 44135
+
+Modeling and Simulation Team Contributors
+Steve Bretmersky / Justin Dailey - MTI Systems
+Goutam Satapathy / David Ditzenberger / Chris Ye — Intelligent Automation Inc.
+Greg Kubat / Christine Chevalier / Thanh Nguyen — Vantage Partners, LLC.
+Rafael Apaza (Lead) - NASA GRC
+
+2014 Integrated Communication, Navigation, and Surveillance (ICNS) Conference
+
+8-10 April 2014
+Herndon, Virginia
+
+www.nasa.gov

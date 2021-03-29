@@ -1,0 +1,212 @@
+IEEE Access
+
+A. S. Winoto et a/.: Small and Slim Deep Convolutional Neural Network for Mobile Device
+
+ 
+
+TABLE 16. Result on CIFAR 10 dataset.
+
+ 
+
+ 
+
+ 
+
+Model Accurae Complexity Time
+%
+¥) Model* FLOPs* Train Infere
+(s/ nee
+epoch) (ms)
+MobileNet 82,71 3,217 6,420 44 7
+MobileNetV2 71,56 2.237 4,440 60 9)
+DenseNet121 84,26 6,964 13,84 155 23
+ResNet50 86,66 0,858 7,662 165 12
+ResNet110 86,62 1,735 15,49 317 21
+NASNetMobile 71,46 4,244 8,450 207 31
+CustomNet 82,54 0,518 1,017 96 9
+(proposed)
+CustomNet 2 84,74 0,882 1,732 177 1s
+(proposed)
+* indicates the data is in million
+90,00
+88,00
+
+ 
+
+Qo
+86,00 Z R o
+“deny
+84,00 {proposed} D 1
+
+Mobilen&® (@GustomNet
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+8200 (proposed)
+
+80,00
+
+78,00 Mobi@inetv2 N e
+
+76,00
+
+74,00 + : ; ; ;
+0 5 0 0615 058s
+
+ 
+
+ 
+
+FIGURE 10. Result of accuracy rate — inference time.
+
+to CustomNet 2 and only differs by 2 ms from CustomNet to
+MobileNet.
+
+ 
+
+90,00
+
+88,00
+
+i 50
+a0 AB: efNeti10
+
+84,00 + d)
+
+mNet Mi
+82,00
+
+80,00
+
+78,00 a @—
+76,00
+
+74,00
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+0 5 10 15 20
+
+ 
+
+FIGURE 11. Result of accuracy rate - computational complexity - model
+complexity.
+
+B. ACCURACY-RATE - COMPUTATIONAL COMPLEXITY -
+MODEL COMPLEXITY
+
+Figure 11 represent comparison of accuracy rate, computa-
+tional complexity, and model complexity with y-Axis rep-
+resent Accuracy, x-Axis represent computational complexity,
+
+125220
+
+and the radius represent model complexity. The highest accu-
+racy with FLOPs less than 5 million is our CustomNet2
+model. ResNet50 and ResNet!10 have higher accuracy than
+CustomNet2 model but their computational cost is more
+than 5 times bigger than our proposed model. Our model
+also have low parameter, where our bigger model, which
+is CustomNet 2, only differ less than 30.000 parameter,
+and very low compared to DenseNet121, MobileNet, and
+NASNetMobile.
+
+C. TRAINING AND INFERENCE TIME
+
+In Table 12, MobileNet is the fastest according to training
+time and inference time. Even so, our CustomNet model
+is included in top-3 for fastest training time and inference
+time without significant gap from top-1 and top-2. While
+our CustomNet 2 always sit on the fourth rank for inference
+time, which is after our CustomNet. But our training time is
+a little bit slower than ResNet50 and DenseNet121, which
+goes around 12-22 seconds for 50.000 images in CIFAR
+10 training data.
+
+D. INFERENCE TIME - COMPUTATIONAL COMPLEXITY -
+MODEL COMPLEXITY
+
+Figure 12 represent comparison of inference time, com-
+putational complexity, and model complexity with y-Axis
+represents inference time with batch=1, x-Axis represents
+computational complexity, and the radius represent model
+complexity. From Fig. 12, we could conclude that MobileNet
+have the fastest inference time even when it is more complex
+and having more FLOPs. But our model can compete with
+MobileNet in the case of accuracy and to the ResNet50 and
+ResNet110 with the inference time taken. Our CustomNet
+and CustomNet2 have the lowest Computational Complexity
+and smallest parameter with inference time fast enough to
+compete with ResNet50. MobileNet and MobileNetV2.
+
+ 
+
+40
+
+35
+30 QD
+
+25
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+56 10
+15 customnet7
+(prec neBiso
+10 a
+ustomNewMiol
+(proposed)
+5
+0 +
+0 5 10 15, 20
+
+ 
+
+ 
+
+FIGURE 12. Result of inference time, computational complexity, and
+model complexity.
+
+E. ANDROID INFERENCE TIME
+
+We also test all of the models trained in CIFAR10 in android
+mobile application and compare the run time inside appli-
+cation. The comparison is done using load model time,
+
+VOLUME 8, 2020

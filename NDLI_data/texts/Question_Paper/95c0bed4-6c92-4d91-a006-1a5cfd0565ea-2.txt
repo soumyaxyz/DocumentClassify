@@ -1,0 +1,77 @@
+Ay
+
+12.
+
+13.
+
+14,
+
+15.
+
+(a)
+
+(b)
+
+(a)
+
+(b)
+(a)
+
+(b) °
+
+(a)
+
+(b)
+(a)
+
+()
+
+PART B — (5 x 6 = 25)
+Answer ALL the questions.
+
+Explain about Basic terminologies of
+database.
+
+Or
+Write about advantages of DBMS.
+Write notes on foreign key.
+
+Or
+Discuss about candidate key.
+Explain about Packages.
+
+Or
+Discuss about RDBMS.
+Discuss in detail about URL.
+
+Or
+Write short notes on Internet connection.
+Discuss about Scripting Languages.
+
+Or
+Write about Chatting.
+
+16.
+
+i
+
+18.
+
+19.
+
+20.
+
+PART C — (8 x 10 = 30)
+Answer any THREE questions.
+
+Create a table for student database and explain
+about file system.
+
+Write in detail about forms and reports.
+
+Explain in detail about Difference between DBMS
+and RDBMS.
+
+Discuss about Downloading and Uploading.
+
+Explain in detail about Email.

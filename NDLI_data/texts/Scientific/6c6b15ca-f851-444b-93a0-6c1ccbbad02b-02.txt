@@ -1,0 +1,96 @@
+Published as a conference paper at ICLR 2020
+
+ 
+
+ 
+
+ 
+
+problem bound problem bound
+
+cycle detection (odd) = dw = Q(n/logn) shortest path dy/w = Q(/n/ log n)
+
+cycle detection (even) dw = Q(/n/logn) max. indep. set dw = Q(n? /log? n) for w = O(1)
+subgraph verification* d/w =Q(/n/logn) min. vertex cover. dw = 2(n?/log” n) for w = O(1)
+min. spanning tree dw =A Yn/logn) perfect coloring — dw = Q(n?/log? n) for w = O(1)
+min. cut dw = Q(/n/logn) — girth 2-approx. dw = Q(/n/log n)
+
+diam. computation dw = Q(n/logn) diam. 3/2-approx. dw = Q(/n/logn)
+
+ 
+
+Table 1: Summary of main results. Subgraph verification* entails verifying one of the following
+predicates for a given subgraph: is connected, contains a cycle, forms a spanning tree, is bipartite, is
+a cut, is an s-t cut. All problems are defined in Appendix|A]
+
+1.1 MAIN RESULTS
+
+   
+     
+     
+
+This paper studies the expressive power of message-passing graph neural networks (GNNmp)
+et al.|(2017). This model encompasses several state-of-the-art networks, including GCN (Kipf &
+
+(
+(2016), gated graph neural networks (Li et al.| (2015), molecular fingerprints (Duvenaud et al.|
+2015), interaction networks (Battaglia et al.|/2016), molecular convolutions (Kearnes et al.|/2016)
+among many others. Networks using a global state (Battaglia et al. or looking at multiple hops
+per layer (Morris et al. are not directly GNNmp, but they
+can often be re-expressed as such. The provided contributions are two-fold:
+
+    
+  
+ 
+
+    
+         
+ 
+   
+  
+
+   
+
+   
+
+I. What GNNmp can compute. Section|3]derives sufficient conditions such that a GNNmp can
+compute any function on its input that is computable by a Turing machine. This result compliments
+recent universality results (Maron et al.|[2019b} [Keriven & Peyré][2019) that considered approximation
+(rather than computability) over specific classes of functions (invariant and equivariant) and particular
+architectures. The claim follows in a straightforward manner by establishing the equivalence of
+GNNmp with LOCAL [1993), a classical model in
+distributed computing that is itself Turing universal. Ina nutshell, GNNmp are shown to be universal
+if four strong conditions are met: there are enough layers of sufficient expressiveness and width, and
+nodes can uniquely distinguish each other. Since Turing universality is a strictly stronger property
+than universal approximation, |Chen et al.|(2019)’s argument further implies that a Turing universal
+GNNnmp can solve the graph isomorphism problem (a sufficiently deep and wide network can compute
+the isomorphism class of its input).
+
+IL. What GNNjpp cannot compute (and thus learn). Section/4]analyses the implications of restrict-
+ing the depth d and width w of GNNmp that do not use a readout function. Specifically, it is proven
+that GNNinp lose a significant portion of their power when the product dw, which I call capacity, is
+restricted. The analysis relies on a new technique that enables repurposing impossibility results from
+the context of distributed computing to the graph neural network setting. Specifically, lower bounds
+for the following problems are presented: (i) detecting whether a graph contains a cycle of specific
+length; (ii) verifying whether a given subgraph is connected, contains a cycle, is a spanning tree, is
+bipartite, is a simple path, corresponds to a cut or Hamiltonial cycle; (iii) approximating the shortest
+path between two nodes, the minimum cut, and the minimum spanning tree; (iv) finding a maximum
+independent set, a minimum vertex cover, or a perfect coloring; (v) computing or approximating the
+diameter and girth. The bounds are summarized in Table[f]and the problem definitions can be found
+in Appendix[A] Section[5]presents some empirical evidence of the theory.
+
+Though formulated in a graph-theoretic sense, the above problems are intimately linked to machine
+learning on graphs. Detection, verification, and computation problems are relevant to classification:
+knowing what properties of a graph a GNNmp cannot see informs us also about which features of
+a graph can it extract. Further, there have been attempts to use GNNmp to devise heuristics for
+graph-based optimization problems (Khalil et al} 2017} Battaglia et al.| 2018} Li et al. 2018} Joshi|
+fet al.| {2019} /Bianchi et al.]|2019), such as the ones discussed above. The presented results can then be
+
+taken as a worst-case analysis for the efficiency of GNNmp in such endeavors.
+
+ 
+
+1.2 DISCUSSION
+
+The results of this paper carry several intriguing implications. To start with, it is shown that the
+capacity dw of a GNNmp plays a significant role in determining its power. Solving many problems

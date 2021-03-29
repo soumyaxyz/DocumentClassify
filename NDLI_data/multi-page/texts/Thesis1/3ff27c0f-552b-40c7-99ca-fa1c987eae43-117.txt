@@ -1,0 +1,56 @@
+105 QISO* for zero dimensional manifolds
+
+ 
+
+Since U,, is a unitary which commutes with D, = D|y,, and hence preserves the
+eigenspaces of Dn, it restricts to a unitary representation of S,, on each Hy, form <n.
+In other words, (Sn, Un|t1) € Obj(Qm), and by the universality of S there exists a
+compact quantum group morphism, say, Tm,n : Sm — Sp such that (id@amn)Um|Hm =
+Unlttm-
+
+Let p < m < n. Then we have (id @ tmnpm)Up|n, = Unlu,- It follows by the
+uniqueness of the map 7p,» that tpn = TmnTp,m, that is (Sp)new forms an inductive
+system of compact quantum groups satisfying the assumptions of Lemma 1.2.25. Denote
+by Soo the inductive limit CQG obtained in that lemma, with tpoo : Sn — S denoting
+the corresponding CQG morphisms. The family of formulas U|y,,, := (id ® t,00) 0 Un
+combine to define a unitary representation U of S. on H. It is also easy to see from
+the construction that U commutes with D. This means that (S.,U) € Obj(Q), hence
+there exists a unique surjective CQG morphism from S := QISO*(A®,H, D) to Sx
+identifying S,, as a quantum subgroup of S.
+
+The proof will now be complete if we can show that there is a surjective CQG
+morphism in the reverse direction, identifying S as a quantum subgroup of S.. This
+can be deduced from Lemma 1.2.25 by using the universality property of the inductive
+limit. Indeed, for each n € IN the unitary representation, say V;,, of QISO*(A®, H, D)
+restricts to Hy, and commutes with D on that subspace, thus inducing a CQG morphism
+Pn from S, = QISOT(A®, Hn, Dn) into S. The family of morphisms (pn)nem satisfies
+the compatibility conditions required in Lemma 1.2.25. It remains to show that the
+induced CQG morphism go from Soo into S is surjective. By the faithfulness of the
+representation V of QISO*(A®,H,D), we know that the span of matrix elements
+corresponding to all V,, forms a norm-dense subset of S. As the range of p,, contains the
+
+matrix elements corresponding to V, = V|7,,, the proof of surjectivity of poo is finished.
+
+ 
+
+ 
+
+ 
+
+The assumptions of the theorem might seem very restrictive. In the next section
+
+ 
+
+however we will describe a natural family of spectral triples on AF-algebras, constructec
+
+in [16], for which we have exactly the situation as above.
+
+3.5.2 Quantum isometry groups for spectral triples on AF algebras
+
+We first recall the construction of natural spectral triples on AF algebras due to
+E. Christensen and C. Ivan ( [16] ). Let A be a unital AF C*-algebra, the norm closure
+of an increasing sequence (A,)nemw of finite dimensional C*-algebras. We always put
+Ao = Clu, A® = UP, An and assume that the unit in each A, is the unit of A.
+Suppose that A is acting on a Hilbert space H and that € € H is a separating and
+
+cyclic unit vector for A. Let P, denote the orthogonal projection onto the subspace

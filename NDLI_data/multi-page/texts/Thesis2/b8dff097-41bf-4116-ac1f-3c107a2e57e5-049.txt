@@ -1,0 +1,54 @@
+5.2. TORI AND REPRESENTATIONS 37
+
+infinite. Let t € T(k) be a regular element (see [Bo], Proposition 8.8 and the Remark
+on Page 116). Then Ep = L{t] and we have, for f(t) € Er, f(t)(W) = W, since W
+is T-invariant. Now let k be finite. Then €r is a finite field and its multiplicative
+group €} is cyclic. The group T(k), being a subgroup of €}, is cyclic. Then a cyclic
+
+generator t of T(k) is a regular element and arguing as above, we are done in this
+
+ 
+
+ 
+
+ 
+
+case too.
+
+ 
+
+We call a torus indecomposable if it can not be written as a direct product of
+
+subtori.
+
+Corollary 5.2.2. Let T be a maximal torus in SU(V,h). Then T is indecompos-
+able if and only if V is an irreducible representation of T. That is if and only if Er
+is a field.
+
+Proof. By the above lemma, if V is reducible as a representation of T, Er is not
+a field. Hence it must be a product of at least two (separable) field extensions of L,
+say Ep = E, x... x E,. Then from Corollary 5.1.6, T = Ti, = Tp, x ... x Th.
+Hence T is decomposable. Conversely, suppose V is irreducible as a representation
+of T. Then, by the above lemma, €r is a field. Suppose the torus T’ decomposes
+as T = T, x T) into a direct product of two proper subtori. Suppose first that k is
+infinite. Let t € T(k) be a regular element (see [Bo], Proposition 8.8 and the Remark
+on Page 116). Then the minimal polynomial (= characteristic polynomial) y(X) of
+t factorizes over k, as can be seen by base changing to k, and conjugating T to the
+diagonal torus in SL(n). Therefore Ep = L[X]/x(X) is not a field, a contradiction.
+Hence T is indecomposable. When k is finite, the multiplicative group €7 of Er is
+
+cyclic and hence T(k) is cyclic. A cyclic generator t of T(k) is then regular and we
+
+ 
+
+ 
+
+ 
+
+ 
+
+repeat the above argument to reach a contradiction. Hence T is indecomposable.
+
+With this we move on to pose the main question of the thesis and describe the
+
+results proved in this thesis along with known results.

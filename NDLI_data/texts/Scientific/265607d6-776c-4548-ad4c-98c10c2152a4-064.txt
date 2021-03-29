@@ -1,0 +1,39 @@
+2. Web Information Retrieval
+
+ 
+
+       
+   
+ 
+
+fy.(q.d) > 20
+
+ 
+
+fopy(9.0) > 25
+
+ 
+
+hpi (9.0) > 25
+NO YES
+
+ 
+
+fopy(9.d) > 10
+
+Figure 2.6: Example regression tree with query-independent (URL length (UL), ham
+likelihood (HL), and PageRank (PR)) and query-dependent (DPH and pBiL) features.
+
+Both AFS and LambdaMART optimise an information retrieval evaluation
+metric, such as the several metrics introduced in Section 2.3.3, as their loss func-
+tion A. Nevertheless, most such metrics are non-continuous and non-differentiable
+and hence cannot be optimised directly (Burges et al., 2006). In order to over-
+come this limitation, AF'S leverages an evaluation metric indirectly, as a criterion
+for selecting the best performing feature at each iteration. LambdaMART, on the
+other hand, uses the gradient of an evaluation metric (Burges et al., 2006)—as op-
+posed to the metric itself—as a loss function. In particular, in order to learn both
+a regression tree A ({x;}) and its weight w” at each iteration, LambdaMART
+
+performs a gradient descent optimisation (Friedman, 2001).
+
+46

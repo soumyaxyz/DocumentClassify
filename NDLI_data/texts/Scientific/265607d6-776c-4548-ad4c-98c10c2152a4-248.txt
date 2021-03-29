@@ -1,0 +1,42 @@
+REFERENCES REFERENCES
+
+ 
+
+trieval Conference, Gaithersburg, MD, USA. 3, 6, 76, 101, 102, 103, 118, 134,
+135, 144, 161, 175, 181, 186, 221
+
+Clarke, C.L.A., Craswell, N., Soboroff, I. & Ashkan, A. (2011a). A comparative
+analysis of cascade measures for novelty and diversity. In Proceedings of the
+4th ACM International Conference on Web Search and Data Mining, 75-84,
+ACM, Hong Kong, China. 80, 82, 104
+
+Clarke, C.L.A., Craswell, N., Soboroff, I. & Voorhees, E.M. (2011b). Overview
+of the TREC 2011 Web track. In Proceedings of the 20th Text REtrieval Con-
+ference, Gaithersburg, MD, USA. 3, 6, 76, 101, 102, 103, 118, 134, 141, 144,
+221
+
+Clarke, C.L.A., Craswell, N. & Voorhees, E.M. (2012). Overview of the TREC
+2012 Web track. In Proceedings of the 21st Text REtrieval Conference,
+Gaithersburg, MD, USA. 6, 76, 221
+
+Cleverdon, C. (1967). The Cranfield tests on index language devices. Aslib Pro-
+ceedings, 19, 173-194. 48
+
+Cleverdon, C.W. (1991). The significance of the Cranfield tests on index lan-
+guages. In Proceedings of the 14th Annual International ACM SIGIR Con-
+ference on Research and Development in Information Retrieval, 3-12, ACM,
+Chicago, IL, USA. 74
+
+Cleverdon, C.W. & Keen, M. (1962). Report on the testing and analysis of an
+investigation into the comparative efficiency of indexing systems. ASLIB Cran-
+field Research Project, 2. 50
+
+Cleverdon, C.W. & Keen, M. (1966). Factors determining the performance of
+indexing systems. ASLIB Cranfield Research Project, 2. 50
+
+Clough, P., Sanderson, M., Abouammoh, M., Navarro, S. & Paramita, M. (2009).
+Multiple approaches to analysing query diversity. In Proceedings of the 32nd
+International ACM SIGIR Conference on Research and Development in Infor-
+mation Retrieval, 734-735, ACM, Boston, MA, USA. 56, 157, 197
+
+230

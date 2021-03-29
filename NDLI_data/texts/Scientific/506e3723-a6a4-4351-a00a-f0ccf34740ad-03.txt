@@ -1,0 +1,125 @@
+track of the maximum proof depth d:
+or§(G,d,S) = [S’|H:-BE&,
+
+A 1
+S’ € andg(B,d, unifye(H,G, $))| “
+
+For example, given a goal G = [situatedIn, Q, UK]
+and a rule H ~ B with H = [locatedIn,X, Y]
+and B = [[locatedIn, X, Z], [locatedIn, Z, Y]], the
+model would unify the goal G with the rule head H, and
+invoke the and modules to prove the sub-goals in the rule
+body B.
+
+AND Module. The and module recursively proves a list
+of sub-goals in a rule body. Given the first sub-goal B and
+the following sub-goals B, the and$(B : B,d,S) module
+will substitute variables in B with constants according to
+the substitutions in S, and invoke the or module on B. The
+resulting state is used to prove the atoms in B, by recursively
+invoking the and module:
+
+andg(B : B,d,$)=[S” |d>0,
+S” € and§$(B,d, S’), (2)
+S’ € or§(sub(B, Sy),d—1,5)]
+
+For example, when invoked on the rule body B of the example
+mentioned above, the and module will substitute variables
+with constants for the sub-goal [locat edIn, X, Z] and in-
+voke the or module, whose resulting state will be the basis of
+the next invocation of and module on [LocatedIn, Z, Y].
+
+Proof Aggregation. After building a neural network that
+evaluates all the possible proof paths of a goal G on a KB &,
+NTPs select the proof path with the largest proof score:
+
+ntpg(G,d) = max S,
+- (3)
+with S$ € org(G,d,(2,1))
+
+where d € N is a predefined maximum proof depth. The
+initial proof state is set to (@, 1) corresponding to an empty
+substitution set and to a proof score of 1.
+
+Training. In NTPs, embedding representations are learned
+by minimising a cross-entropy loss £*(@) on the final proof
+score, by iteratively masking facts in the KB and trying to
+prove them using other available facts and rules.
+
+Negative examples are obtained via a corruption process,
+denoted by corrupt(-), by modifying the subject and object
+of triples in the KB (Nickel et al. 2016):
+
+£80) =— S> logntpg\"(F, d)
+F- [Jer
+we 4)
+— SO bogli —ntps(F,d)]
+
+F~corrupt(F)
+
+NTPs can also learn interpretable rules. Rocktiéschel and
+Riedel (2017) show that it is possible to learn rules from
+data by specifying rule templates, such as H :— B with H =
+(,:,X, Y] and B = [[@,:, X, Z], [9,:,Z, Y]].
+
+Parameters 8):, 9g:, 9r: € R*, denoting rule-predicate em-
+beddings, can be learned from data by minimising the loss in
+Eq. 4, and decoded by searching the closest representation of
+known predicates.
+
+Efficient Differentiable Reasoning
+on Large-Scale KBs
+
+NTPs are capable of deductive reasoning, and the proof paths
+with the highest score can provide human-readable expla-
+nations for a given prediction. However, enumerating and
+scoring all bounded-depth proof paths for a given goal, as
+given in Eq. 3, is computationally intractable. For each goal
+and sub-goal G, this process requires to unify G' with the
+representations of al/ rule heads and facts in the KB, which
+quickly becomes computationally prohibitive even for mod-
+erately sized KBs. Furthermore, the expansion of a rule like
+p(X, Y) :- q(X, Z), r(Z, Y) via backward chaining causes
+an increase of the sub-goals to prove, both because all atoms
+in the body need to be proven, and because Z is a free vari-
+able with many possible bindings (Rocktischel and Riedel
+2017). We consider two problems — given a sub-goal G such
+as [p, A, B], we need to efficiently select i) the ky facts that
+are most likely to prove a sub-goal G, and ii) the k,. rules to
+expand to reach a high-scoring proof state.
+
+Fact Selection. Unifying a sub-goal G with all facts in the
+KB & may not be feasible in practice. The number of facts
+in a real-world KB can be in the order of millions or billions.
+For instance, Freebase contains over 637 x 10° facts, while
+the Google Knowledge Graph contains more than 18 x 10°
+facts (Nickel et al. 2016). Identifying the facts F € & that
+yield the maximum proof score for a sub-goal G reduces to
+solving the following optimisation problem:
+f ‘ Fo ox
+ntpg@(G, 1) pees SS 6)
+with S* = unifyg(F,G, (2, 1))
+
+Hence, the fact F € & that yields the maximum proof score
+for a sub-goal G is the fact F that yields the maximum unifi-
+cation score with G. Recall that the unification score between
+a fact F and a goal G is given by the similarity of their embed-
+ding representations Of: and 0g:, computed via a Gaussian
+kernel k(@p, 9c). Given a goal G, NTPs will compute the
+unification score between G and every fact F € & in the KB.
+This is problematic, since computing the similarity between
+the representations of the goal G and every fact F € & is
+computationally prohibitive — the number of comparisons is
+O(|&|n), where n is the number of (sub-)goals in the prov-
+ing process. However, nt p#(G, d) only returns the single
+largest proof score. This means that, at inference time, we
+only need the largest proof score for returning the correct
+output. Similarly, during training, the gradient of the proof
+score with respect to the parameters 6 can also be calculated
+exactly by using the single largest proof score:
+Ont pZ(G, 1), Omaxpeg Ss Os;
+
+06 00 0@
+
+with S> = max Sr
+Fes

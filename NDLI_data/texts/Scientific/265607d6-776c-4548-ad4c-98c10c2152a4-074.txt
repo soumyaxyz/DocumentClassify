@@ -1,0 +1,42 @@
+3. Search Result Diversification
+
+ 
+
+Song et al. (2009) analysed the ambiguity of web search queries through a
+user study. In their study, five assessors manually classified 60 queries sampled
+from the log of a commercial search engine from August 2006 as either ambigu-
+ous, underspecified, or clear queries. While a high assessor agreement (90%) was
+observed for judging whether a given query was ambiguous or not, distinguish-
+ing between underspecified and clear queries turned out to be substantially more
+difficult. Nonetheless, based on the demonstrated feasibility of the former case,
+they proposed a binary classification approach to automatically identify ambigu-
+ous queries. Based on the learned classification model, they estimated that 16%
+of the queries in their entire query log sample were ambiguous.
+
+Another log analysis of query ambiguity was performed by Clough et al.
+(2009). In their analysis, a total of 14,909 unique queries that satisfied mini-
+mum frequency criteria were selected from a one-month sample of the query log
+of a commercial search engine from 2006. Of the sample queries, 18% had a high
+click entropy, which quantified the spread of each query’s clicked documents. Such
+queries were mostly informational, whereas queries with a low entropy were pre-
+dominantly navigational (Broder, 2002). Analysing the subset of queries with an
+exact match among Wikipedia disambiguation pages, they found no significant
+correlation between click entropy and the number of suggested interpretations on
+Wikipedia. However, they observed that queries with a dominant interpretation
+on Wikipedia had a higher entropy. Such queries tended to be underspecified,
+with clicks covering a range of aspects of the dominant interpretation. In particu-
+lar, they found a significant correlation between the entropy of these queries and
+the total length of the corresponding articles on Wikipedia, suggesting that they
+indeed covered broad topics. Finally, considering both queries with high entropy
+and those with at least one reformulation in the query log, they estimated that
+from 9.5% to 16.2% of all queries in their sample were ambiguous.
+
+The aforementioned studies characterised query ambiguity from different per-
+spectives. In common, all studies reached the surprisingly consensual figure that
+around 16% of all user queries are ambiguous, while many more can be under-
+specified to some degree. In the next section, we will discuss how query ambiguity
+can pose challenges to traditional ranking approaches, and how search result di-
+
+versification can be deployed to address such challenges.
+
+56

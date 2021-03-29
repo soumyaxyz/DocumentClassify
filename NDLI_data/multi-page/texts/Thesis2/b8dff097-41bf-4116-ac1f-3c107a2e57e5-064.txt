@@ -1,0 +1,61 @@
+52 7. REALITY IN CLASSICAL GROUPS
+
+Proof. We note that Iso(D,a) = {x € D | xo(x) = 1} C D*. Hence the result
+
+follows from previous theorem.
+
+ 
+
+ 
+
+ 
+
+ 
+
+We remark that in view of Proposition 1.3.3 the group Iso(D,c), for o of the first
+kind, is a form of orthogonal group. The group Iso(D,o), for o of the second kind, is
+
+a form of unitary group.
+
+7.4. Orthogonal Groups
+
+Let V be a vector space over k with a nondegenerate quadratic form Q. We
+denote the orthogonal group by O(Q). Wonenburger proved ([W1], Theorem 2; see
+also [E12] and [E13])
+
+Proposition 7.4.1. Any element of the orthogonal group O(Q) is strongly real,
+i.e., the group O(Q) is bireflectional. Hence every element of O(Q) is real.
+
+Djokovié extended this result ({D], Theorem 1) to fields of characteristic 2. However,
+
+Kniippel and Nielsen proved ([KN], Theorem A),
+
+Proposition 7.4.2. The group SO(Q) is trireflectional, except when dim(V) =
+2 and V #4 H3, where Hz is the hyperbolic plane over F3. The group SO(Q) is
+bireflectional if and only if dim(V) #2 (mod 4) or V = Hz, and hence in this case
+
+every element is real.
+
+They give necessary and sufficient condition for an element in special orthogonal
+
+group to be strongly real ([KN], Proposition 3.3).
+
+Proposition 7.4.3. Let t € SO(Q). Then t is strongly real in SO(Q) if and
+only if dim(V) # 2 (mod 4) or an orthogonal decomposition of V into orthogonally
+
+indecomposable t-modules contains an odd dimensional summand.
+
+In the case dim(V) = 2 (mod 4), we explore reality for semisimple elements in
+SO(Q). First we prove,
+
+Lemma 7.4.4. Lett € SO(Q) where dim(V) = 2 (mod 4). Lett be a semisimple
+element which has only two distinct eigenvalues \ and \~* (hence \ # +1) over k.
+Then t is not real in SO(Q).
+
+ 
+
+Proof. We prove that the element ¢ is not real over k. Let dim(V) = 2m where
+m is odd. The element t over k is conjugate to A = diag(A,...,,A71,..., 71)
+SY “VS
+
+m m

@@ -1,0 +1,7 @@
+Introduction
+
+¢ Numerical methods can be classified in two groups
+
+¢ (1) Mesh-based method like FEM, FD, BEM, FVM
+
+¢ (2) Mesh-less methods/Mesh Free Methods (MFM)

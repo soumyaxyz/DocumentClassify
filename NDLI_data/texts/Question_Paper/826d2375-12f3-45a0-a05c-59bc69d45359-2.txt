@@ -1,0 +1,101 @@
+Le:
+
+12.
+
+13.
+
+14.
+
+(a)
+
+‘)
+
+(a)
+
+(b)
+(a)
+
+(b)
+
+(a)
+
+(b)
+
+PART B — (5 x 5 = 25)
+
+Answer ALL questions.
+Details about the following
+(i) Vector animation.
+
+(ii) Key frame animation.
+Or
+
+Explain about Interesting, copying and
+pasting in flash.
+
+’ Discuss about the following
+
+@) Tweening.
+Gi) Symbols.
+Or
+Describe about the basic action scripts.
+
+Discuss about the buttons animations with ©
+
+sound.’
+Or
+
+Explain about the following.
+
+@) Hit Tests
+
+(ii) Frame Labelling.
+
+Write down the textbox and it's types.
+Or
+
+Details about the followings.
+
+@) Setting properties.
+
+Gi) Attaching from Library.
+
+15.
+
+16.
+
+Tv.
+
+18.
+
+19,
+
+20.
+
+(a) Discuss about the following.
+
+@ _ Scrolling tents.
+Gi) Arrays. :
+-Or
+(b) Explain about the loading external texts and
+pictures
+PART C — (8 x 10 = 30)
+Answer any THREE questions.
+
+Briefly explain about the File and Page Properties
+with details. :
+
+(a) What is the use of layers? .
+
+(b) Discuss about the Library with details.
+(5+5=10)
+
+Write notes on Exporting with protection for web
+and other applications with details.
+
+Explain about the following.
+@ = Text Effects.
+(ii) Action Scirpt-Timeline control.
+
+Write a procedure to loading external tents and
+pictures in flash.

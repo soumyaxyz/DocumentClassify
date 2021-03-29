@@ -1,0 +1,53 @@
+8.2. SU(V,5) CG 67
+
+Corollary 8.2.5. Let A € SU(H) with characteristic polynomial x 4(X) over
+L same as its minimal polynomial. Then, A = B, By with B,, By € U(H) and
+BiB, == BoBo.
+
+From this corollary, we get the following,
+
+Lemma 8.2.6. Let A € SU(H), with characteristic polynomial over L equal to
+its minimal polynomial. Then,
+(1) A is conjugate to A~! in U(H), if and only if A= Ay Az with A,, Ay € U(#)
+and A, A, =I = AgAp.
+(2) A is conjugate to A~! in SU(H), if and only if A = A,Ay with Ay, Ao €
+SU(H) and A, A; = I = Ag Ag.
+
+The following proposition is due to Neumann ([N], Lemma 5). Recall that we
+have fixed a basis {f1, fo, fs} for V = L+ over L in Theorem 8.2.2.
+
+Proposition 8.2.7. Let € be an octonion algebra over k and let L be a quadratic
+field extension of k, which is a subalgebra of €. An element t € G(€/L) is a product
+of two involutions in Aut(€), if and only if, the corresponding matrix A € SU(H) is
+a product of two matrices A,, Ag € SU(H), satisfying AyA, = ApAg = I.
+
+We now have,
+
+Theorem 8.2.8. Let ty be an element in G(€/L) which does not have a fixed
+point outside L and let A denote the image of to in SU(H). Suppose the characteristic
+polynomial of A is equal to its minimal polynomial over L. Then to is conjugate to
+
+tp’, if and only if to is a product of two involutions in G(k).
+
+Proof. From Theorem 8.2.2 we have, to is conjugate to to', if and only if A is
+conjugate to A~! in SU(H). From Lemma 8.2.6 above, A is conjugate to A~! in
+SU(H) if and only if A = Ay Ay with Ay, Ay € SU(H) and A, A; = I = ApAy. Now,
+
+from Proposition 8.2.7, it follows that to is a product of two involutions.
+
+ 
+
+ 
+
+ 
+
+ 
+
+In [W2] and [L] examples of elements in G(k), for G of type Ge, are constructed,
+which are not product of two involutions. These examples are neither semisimple
+nor unipotent. However, we continue our analysis to produce examples of semisimple
+elements which are not real. Let V be a vector space over L of dimension n together
+with a nondegenerate hermitian form h. Let A € SU(H). Let us denote the conjugacy
+class of A in U(H) by C and the centralizer of A in U(H) by Z and let
+
+La = {det(X) | X € Z}.

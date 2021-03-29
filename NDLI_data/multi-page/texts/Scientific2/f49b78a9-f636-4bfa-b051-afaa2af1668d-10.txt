@@ -1,0 +1,145 @@
+IEEE Access:
+
+S. Banerjee et al.: Physically Secure Lightweight Anonymous User Authentication Protocol for loT
+
+ 
+
+for the fulfillment of the condition ¢ = 0. In all other
+cases, it returns a null value.
+
+Semantic security of session key: According to the ROR
+model, A must distinguish between an instance’s actual
+session key and a random key. A can perform the repeated
+number of Test(-) queries to 7“ or 7%, and saves the result
+of Test into bit b. A wins the game if b = 0’, where 0’ is
+a randomly guessed bit. The advantage of A in breaking the
+semantic security of the proposed authenticated key agree-
+ment (AK E), say P in time t is defined as AdvA%"(t) =
+|2.Pr[SUCCESS] — 1|, where SUCCESS represents an
+event such that A wins the game.
+
+Random oracle: All communicating entities in the pro-
+posed scheme including A will have access to the secure
+PUF, PU F(:) as well as a collision-resistant hash function,
+h(-). Both are modeled as random oracles, say HO.
+
+Security proof: By utilizing the definition of the secure
+PUF and the collision-resistant hash function from Section
+and acknowledging that passwords obey Zipf’s law
+and the above described ROR model, Theorem[I]provides the
+semantic security of the proposed scheme.
+
+Theorem 1: Let A be a polynomial time adversary running
+against the proposed scheme P under the ROR model, in
+which user-chosen passwords follow the Zipf’s law [50], and
+1, and ly denote the number of bits in the biometric secret key
+q,, and the secret user identity [D,,, respectively. If Adv?
+denotes .A’s advantage in breaking P’s semantic security in
+order to derive the session key between a legal registered user
+U and an accessed IoT sensing device SD, then
+
+AKE dh dp ds 4s
+Advp.a'() S Tash] * [PUI * 9h? gb}
+where gp, gp and q, are the number of hash, PUF and Send
+queries, respectively, |Hash| and |PUF'| define the range
+spaces of h(-) and PU F‘(-), respectively, and C’ and s’ are
+the Zipf’s parameters [50].
+
+Proof 1: We follow our proof analogous to the proof that
+presented in [12], [51], (52). Go-G, are the five sequential
+games are defined. The event SUCCESS; denotes that the
+adversary A can successfully guess the bit c in the game G;,
+Jj € [0,4]. The games are described in detailed as follows.
+e Game Go: This game corresponds to an actual (real)
+attack on the proposed scheme, P by A. Since bit c is
+guessed at the beginning of Go, it is follows that
+
+Adve (t) = |2.Pr[SUCCESSo]—1|. (1)
+
+e Game G}: This game models as an eavesdropping at-
+tack, where A can query Execute(x, x) oracle to in-
+tercept the messages My = (DID. Qug, Qua, DIDa,
+Authy), Mz = (Ca,, Qg, Authr,, Auth,) and M3 =
+(HQpr, Qa, Qr:,, Autha) during login & authentication
+process. Afterwards A can also query Test oracle and
+determine if the result is the actual session key SC or
+a random number. Note that in the proposed scheme,
+SK = h(kau || Rly || Rh) = (By || Kua || RY) is
+
++2max{C’.q?
+
+ 
+
+ 
+
+ 
+
+the established session key between a user U and a smart
+device SD. To compute SX, A requires the parallel
+knowledge of short term secrets (k,; and ka) as well
+as long term secrets (ID,, and [Da). As these values
+are unknown to A, only the intended user U and smart
+device SD can compute Sx. Therefore, A’s probability
+of wining the game G} is not increased through an
+eavesdropping attack. Consequently, we have the fol-
+lowing result:
+
+Pr[SUCCESS,] = Pr[SUCCESS)]. 2)
+
+Game G2: Under this game, the Send and hash queries
+are simulated. This game is modeled as an active attack,
+where A can attempt to fool a legitimate participant
+into accepting a modified message. A is permitted to
+make repeated queries to the random oracles to examine
+the presence of hash collisions. However, since all the
+messages M,, Md and M3 contain random nonces, no
+hash coalition occurs when A queries the Send oracle
+with the help of h(-). It is worth noticing that both the
+games G and G2 are “indistinguishable” except the
+Send and hash queries are simulated in G2. Thus, by
+using the birthday paradox results, we have
+
+2
+_ p,. th __
+|Pr[SUCCESS2| — Pr[SUCCESS\]| < sari
+
+Q)
+Game G3: This game is as an extension to Gz where the
+simulation of PUF queries are included in this game.
+Using analogous argument provided in G2, the secure
+PUF(-) function property (discussed in Section
+gives the following result:
+
+ 
+
+ 
+
+2
+~y a 7 dp
+|Pr[SUCCESS3] — Pr[SUCCESS$9]| < PUP):
+
+(4)
+Game G',: This is the final game and it is considered
+as an extension of the previous game G3, which incor-
+porates the CorruptSC and CorruptSD queries sim-
+ulation. Through the queries to these oracles, A can ex-
+tract (IPB, DID? ki... hdi) and (IDa, {hda, }|Vi €
+[1, m]) from the smart card of the user U and from the
+smart device SD, respectively. For non-compromised
+IoT smart device SD, both ID, and the set {hdg, } are
+also distinct. However, the probability of guessing the
+biometric secret key o; of 1; bits, and secret identity
+of lz bits, are approximately ah and ae respectively
+(53). In addition, A can leverage the Zipf’s law on pass-
+words to guess the passwords. If we just consider
+trawling guessing attacks, the advantage of A will be
+over 0.5 when gs = 10” or 10° [50]. Furthermore, if
+we account for targeted guessing attacks where A can
+utilize the target user’s personal information, A will
+have an advantage over 0.5 when gs < 10° {50}. In
+practice, arbitrarily many wrong password attempts are
+not permitted in the system. In the absence of guessing
+
+ 
+
+VOLUME 7, 2019

@@ -1,0 +1,56 @@
+Ad hoc retrieval via entity linking and semantic similarity 563
+
+performing annotation system on a variety of document types such as Web pages and Tweets,
+and also has publicly accessible RESTful API and is available as an open source project.
+
+For indexing concepts identified in each document, we use their corresponding Concep-
+tIDs, which is an integer number corresponding to the ID of a Wikipedia entry, as a key in
+Lucene.? The concept indexer module has a second stage in which the normalization factor
+Z (Eq. 4) is calculated and stored for each document. The normalization factor is calculated
+based on the degree of semantic relatedness between concepts of a document and all of the
+concepts of the collection. In the semantic analysis module, which provides the required
+semantic relatedness values, we use three different techniques that are the basis for the three
+different configurations. All three semantic analysis techniques save their relatedness esti-
+mations in files that are loaded by concept indexer and SELM for indexing, ranking and
+retrieval.
+
+6.1 Tagme semantic analysis
+
+Tagme [12], which is known for its on-the-fly entity linking service, also provides an entity
+relatedness measuring service. Inspired by the work presented in [50], Tagme calculates relat-
+edness between two Wikipedia pages using their shared links to other Wikipedia pages and
+produces a number between 0 and 1. We directly used this service and generated similarities
+between all concept pairs in our concept index.
+
+6.2 ESA semantic analysis
+
+Explicit semantic analysis (ESA) [9] is a well-known method for finding semantic similar-
+ities between natural language texts. ESA represents the meaning of a text by mapping it
+to a weighted vector of Wikipedia entries, known as ‘concept vector, and exploits cosine
+similarity for finding similarities between vectors. Since ESA is designed to find similarities
+between texts but not knowledge base entries, it cannot be directly used in our framework.
+For this purpose, we represent a Wikipedia page by the text part of the ‘dbo:abstract’ and
+‘rdfs:comment’ fields of its corresponding DBPedia entity, so for each pair of concepts in
+concept index, it is possible to find their corresponding concept vectors and calculate their
+similarities.
+
+6.3 Paragraph2Vec semantic analysis
+
+Representing words in a vector space using neural networks has emerged recently as one of
+the successful semantic modeling techniques for texts [31,47]. Word vectors are learnt to rep-
+resent semantics of words, i.e., semantically close words such as ‘powerful’ and ‘strong’ are
+mapped to close points in the multi-dimensional space where the representation of seman-
+tically unrelated words such as ‘powerful’ and ‘pears’ is more distant [26]. Based on the
+vector representation of words, paragraph-to-vector is proposed in [26] to map the meanings
+of variable-length texts to vectors. Our third configuration of the framework uses paragraph
+vectors to represent Wikipedia entries and find the degree of their relatedness. For forming
+paragraph vectors, we use word vectors that were trained over Wikipedia. Paragraph vectors
+are trained over concept texts. Similarly to the second configuration, we used the text part
+of the ‘dbo:abstract’ and ‘rdfs:comment’ fields of the corresponding DBPedia entities as the
+text of each Wikipedia concept.
+
+ 
+
+3 http://lucene.apache.org/.
+
+a Springer

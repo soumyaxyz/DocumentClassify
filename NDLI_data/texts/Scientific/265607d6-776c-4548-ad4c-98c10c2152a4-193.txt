@@ -1,0 +1,44 @@
+8. Document Novelty
+
+ 
+
+Q2. How does novelty perform in comparison to coverage?
+Q3. How does novelty perform in combination with coverage?
+Q4. What is the role of novelty as a diversification strategy?
+
+We address the first three research questions in Section 8.3.2. To answer Q1,
+we fix the diversification strategy to novelty, in order to evaluate the impact of
+different aspect representations. Conversely, to tackle Q2 and Q3, we measure
+the effectiveness of novelty in comparison to and in combination with coverage,
+respectively, across multiple aspect representations, which are held fixed. Finally,
+to provide further insights into the role of novelty as a diversification strategy,
+in Section 8.3.3, we address Q4, by thoroughly evaluating this strategy with
+simulated rankings of various quality. In the remainder of this section, we describe
+
+the experimental setup that supports the investigation of these questions.
+
+8.3.1 Experimental Setup
+
+In this section, we describe the setup that supports our investigation. In partic-
+ular, we describe the test collections, the retrieval approaches, and the training
+
+procedure carried out for the experiments in Sections 8.3.2 and 8.3.3.
+
+8.3.1.1 Test Collections
+
+Our experiments are based on the WT09 and WT10 test collections. As described
+in Table 5.1, these test collections comprise 49 and 48 queries from the diversity
+task of the TREC 2009 and 2010 Web track (Clarke et al., 2009a, 2010), re-
+spectively. As a document corpus, we use the category B portion of ClueWeb09,
+described in Section 5.1.1. We index this corpus with Terrier (Macdonald et al.,
+
+2012a), after applying Porter’s stemmer and removing stopwords.
+
+8.3.1.2 Retrieval Approaches
+
+To verify the consistency of our results, we experiment with several retrieval
+approaches and aspect representations. Firstly, as an adhoc retrieval approach,
+
+which does not perform diversification, we use the DPH model (Equation (2.31))
+
+175

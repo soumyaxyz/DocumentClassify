@@ -1,0 +1,150 @@
+from potential candidate entities. In practice, this means that
+the model might not able to distinguish between situations
+such as “brad pitt seven” and “brad pitt olympics” if they are
+not present in our alias set] However, we are able to impose
+contextual knowledge by introducing a new conteztual rele-
+vance model that uses learned representations of query words
+and entities, and it is able to quickly compute a relevance
+measure between a string of text and an entity. This way, the
+algorithm is able to link entities with just a forward-backward
+scanning procedure that can be implemented efficiently using
+dynamic programming in O(k?), where k is the number of
+query terms.
+
+The remainder of this paper is organized as follows. Sec-
+tion B] reviews some works related to ours. Section
+duces the probabilistic model, along with the contextual
+model. Section [4] presents experiments and results comparing
+our approaches with state of the art baselines in terms of
+linking quality and speed. The paper concludes in Section 5]
+
+ 
+
+2. RELATED WORK
+
+Automatically generating links to a knowledge base is one
+way of providing semantics to digital items. Entity linking
+has become an ubiquitous way to add semantics to different
+media types, most notably in text [22] [25] and across different
+genres, such as news, archives, or tweets {6} [8] [20]. The com-
+prehensiveness, popularity, and free access to Wikipedia has
+made it a rich source and the most popular target knowledge
+base for entity linking.
+
+Many methods for entity linking are heavily inspired by
+those from the field of word sense disambiguation [27]. The
+main challenge entity linking systems have to face is ambigu-
+ity, i.e., how to distinguish among different entities with the
+same label and also a possible lack of specificity, in which
+case more generic and possibly less meaningful entities are
+identified. These issues are generally addressed by identify-
+ing segments, key phrases or weighting terms based on, e.g.,
+document-frequency inspired heuristics. For instance, a sim-
+ple and frequently taken approach for linking text to concepts
+is to perform lexical matching between (parts of the text)
+and the titles [9] [21], an approach related to keyword-based
+interfaces to databases [36].
+
+Milne and Witten introduced one of the earliest papers
+on linking text to Wikipedia, which uses machine learning and
+unambiguous candidates for disambiguation. Among those
+methods, “commonness” is a popular unsupervised baseline
+for either short or long textual fragments [T1}[20]. We use it as
+a baseline and describe it further in Sectio: In this line of
+work, Ratinov et al. [33] propose the use of a “local” approach
+(e.g., commonness) to generate a disambiguation context and
+then apply “global” machine learning for disambiguation. Pilz
+and Paaf [30] extended previous bag of word approaches for
+disambiguation with Latent Dirichlet Allocation generated
+topics, comparing topic distributions of source document with
+candidate entities. Recent approaches make extensive use
+of topic modeling, for example Houlsby and Ciaramita
+perform inference with a variant of LDA in which each topic
+corresponds to a Wikipedia article, i-e., an entity. Below
+we include the work of Cheng and Roth [7] (which is an
+extension of [33]) as a representative baseline of an inference-
+based method. This approach tries to embed context and
+
+ 
+
+ 
+
+ 
+
+‘Brad Pitt is the name of both a US Celebrity/Actor and a
+lesser known Australian boxer.
+
+RIGHTS LIN Kd
+
+180
+
+ensure topical coherence by linking a set of semantically-
+related mentions to a set of semantically-related concepts
+simultaneously.
+
+The first works geared specifically towards disambiguating
+entities in queries focus almost exclusively on Named Entity
+Recognition but applied to a domain different than the usual
+long text found news and articles [26]. For instance Guo et al.
+[13] propose a language model that includes weak supervi-
+sion to learn relationships, e.g., lyrics to music. Moving
+forward, Pantel et al. [29] predict entity type distributions
+in Web search queries via so-called intents (strings that give
+contextual clues about the entity type) mined from query
+logs. We too make use of query logs for gathering evidence,
+although we aim at disambiguation and not type spotting.
+Hu et al. [17] propose a similar approach through query in-
+tent classification. Sawant and Chakrabarti [34] assume that
+entities have already been annotated in text and tackle the
+related task of extracting query target types and words that
+are type hints. Pound et al. [31] [32] focus on retrieving an
+ordered selection of attributes, taken from a static KB, and
+ranking syntactic relationships from queries via a collective
+assignment problem.
+
+In the case of queries—especially in the context of web
+search—one would need to add entity annotations as quickly
+as possible in order to be of any use to subsequent processes
+such as actual retrieval. Topic modeling approaches which
+typically need to perform online parameter estimation are
+too time-consuming. Furthermore, they are of little help
+when there is limited context such as in the case of queries.
+Little work exist on entity linking methods for queries to
+date. Meij et al. [19] perform entity linking in the context of
+the semantic web and include session history-based features
+to provide additional context. Proof of the increasing interest
+from industry and academia in query entity linking in the
+context of web search, however, is the recent ERD challeng{?]
+In this paper we use a large (~2.5K queries) test set from
+a commercial web search engine that is easily available for
+download.
+
+Other relevant streams of work are related to query log
+mining [2], providing a signal orthogonal to that of textual
+corpora. For instance, Pagca [28] mined instances of semantic
+classes from query logs using information extraction and
+Alfonseca et al. [I] mined query logs to find attributes of
+entity instances. Once equipped with a reliable entity linking
+system, it is possible to provide deeper query analyses of user
+patterns and web usage [15].
+
+None of the previous works deals with the problem of
+linking entities in the context of web search, i.e, operating in
+the shortest amount of time possible with additional storage
+constraints, nor they introduce richer semantic contexts as
+our approach does.
+
+3. MODELING ENTITY LINKING
+
+For our entity linking model we establish a connection
+between entities and their aliases (which are their textual
+representations, also known as surface forms) by leveraging
+anchor text or user queries leading to a click on the Web page
+that represents the entity. In the context of this paper we
+focus on using Wikipedia as KB and therefore only consider
+anchor text within Wikipedia and clicks from web search re-
+sults on Wikipedia results—although it is general enough to
+
+   
+
+gram.research.microsoft.com/ERD2014/

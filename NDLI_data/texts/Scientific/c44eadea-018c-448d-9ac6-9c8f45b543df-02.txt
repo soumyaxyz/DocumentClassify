@@ -1,0 +1,50 @@
+due to the close proximity of publication dates. All of these problems create more
+sparsity in the citation graph and we lose out on probable valuable edges.
+
+  
+
+In classical literature a text document is represented by its histogram based
+bag-of-words or N-gram model which are sparse and can suffer from high dimen-
+sionality. There have been later research which explore probabilistic generative
+models like LDA and pLSA which try to obtain document representations in the
+topic space instead. These typically result in richer and denser vectors of much
+fewer dimensions than bag-of-words. Throughout the last decade there have been
+some attempts at alleviating the network sparsity problem discussed above with
+the help of text information for all kinds of bibliographic, web and email net-
+works. Some of those methods extend the probabilistic representation of text
+documents by exploiting their underlying network structure [LO[7]. These algo-
+rithms show promise as they result in better performances than their content-
+only (text) or network-only (graph) counterparts on a range of classification
+tasks. However most of the approaches are semi-supervised and rely on the idea
+of label propagation throughout the graph and the representations thus created
+are specific to the task at hand. The notion of injecting textual information spe-
+cific to an academic citation graph have been studied in [Il]. Here the authors
+make use of potential citations by which they enrich the citation graph and re-
+duce its sparsity. The algorithm proposed for finding these potential citations are
+based on collaborative filtering and matrix imputation based schemes. A recent
+approach called TADW{[L3] was proposed for learning network representations
+along with text data. To the best of our knowledge this has been the first attempt
+at tackling the problem of learning fully unsupervised representations of nodes
+in a graph where the nodes themselves are text data. The learning algorithm
+in TADW is based on matrix factorization techniques. We treat TADW as an
+important baseline in our experiments.
+
+There has been a surge of unsupervised feature learning approaches of late
+which use deep neural networks to learn embeddings in a low dimensional latent
+vector space. These approaches originated in the field of computer vision and
+speech signal processing and are now being adopted extensively in other domains.
+For text, there came shallow neural network based approaches like word2vec [6]
+and paragraph vectors which are dense word and document representations
+created using algorithms commonly known as Skip-gram [6]. These approaches
+are fully unsupervised and are based on the distributional hypothesis “you shall
+know a word by the company it keeps”. A flurry of research work in the last few
+years make use of the so called word, document embeddings and achieve state-of-
+the-art performances throughout the breadth of Natural Language Processing
+(NLP) tasks [2]. The Skip-gram algorithm introduced in [6] have been extended
+well beyond words and documents to create representations for nodes in a graph
+[12183].
+
+We harness the power of these neural networks in our quest of creating rich
+scientific paper embeddings and propose two novel ways by which we can combine
+the textual data from papers with the graph information from citation networks.
+We evaluate Paper2vec against state-of-the-art representations for both graph

@@ -1,0 +1,41 @@
+4 1. CLASSICAL GROUPS
+
+Let V be a vector space of dimension n over k. A map q: V — k is called a
+quadratic form if
+(i) q(ax) = a? q(x), for alla€ k andz eV,
+(ii) the map bg: V x V — k defined by b,(x,y) = q(a + y) — q(x) — q(y) is
+bilinear.
+We note that the bilinear form associated to q is symmetric. Given a symmetric
+bilinear form b, we can define the associated quadratic form as q(x) = 6(x,x). If
+characteristic of k 4 2, this gives a one-one correspondence between symmetric bilin-
+ear forms and quadratic forms.
+Let k be a quadratic field extension of a field ko. Let o be the nontrivial field
+automorphism of k over ko. We write o(a) = @ for a€ k. Let V be a vector space of
+
+dimension n over field k. A map b: V x V = k is called a sesquilinear if
+b(ax + by,z) = ab(x,z) + bb(y, z)
+b(a,ay+bz) = ab(x,y) + bb(2, z)
+
+ 
+
+for all x,y,z € V anda,be k.
+
+Definition 1.1.2. A sesquilinear form is called hermitian if (x, y) = b(y, x) for
+alla,yeV.
+
+Let {e1,...,€n} be a basis of V over k. Then there exists a matrix B such that
+b(x,y) = vBy. The matrix B has 6(e;,e;) as its ij" entry. Note that the form 6 is
+hermitian if and only if the corresponding matrix B is hermitian, i.e., ‘B = B.
+Let V be a vector space of dimension n over k. Let o be an automorphism of field
+k such that o? = 1 (identity or non-identity). We denote by ko the fixed subfield of k
+under o when o is non-identity. We call (V,6) asymmetric or quadratic (sym-
+plectic, hermitian) space if the form b is symmetric (skew-symmetric, hermitian)
+on V. Let (V,6) be a space with a form 6 of one of the above types. Then the form
+6 is called nondegenerate if one of the following equivalent conditions is true:
+(i) the subspace {x € V | b(a,y) =0, Vy e V} =0,
+(ii) the subspace {y € V | b(z,y) =0, Vr Ee V} =0,
+(iii) the corresponding matrix B to the form is nonsingular.
+A quadratic form q on V is called nondegenerate if the corresponding bilinear form
+6, is nondegenerate on V. A vector v € V is called isotropic if b(v, v) = 0 otherwise
+it is called anisotropic. Let W be a subspace of V. We define W+ = {y € V |
+(x,y) = 0 Vx € W}. A subspace W of V is called isotropic if WM W+ 4 {0} and

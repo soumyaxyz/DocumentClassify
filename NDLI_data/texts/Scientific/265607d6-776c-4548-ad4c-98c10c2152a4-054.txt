@@ -1,0 +1,51 @@
+2. Web Information Retrieval
+
+ 
+
+2.2.2. Query-independent Ranking
+
+The previous section described query-dependent ranking approaches, which infer
+he extent to which a document is about the topic of the user’s query. While
+opicality is essential for inferring the relevance of a document (Boyce, 1982),
+here may be too many documents with relatively similar topicality scores for
+the same query. In addition, some queries may be better answered by sources
+hat fulfil a specific quality criterion, such as authoritativeness, credibility, or
+rustworthiness, particularly when the user is searching for a specific information
+provider (Kraaij et al., 2002; Bendersky et al., 2011). To distinguish between
+documents with similar topicality, and also to address queries that explicitly
+seek for quality content, several query-independent ranking approaches have been
+roposed in the literature. In this section, we describe two broad classes of such
+approaches, which are used in the experimental part of this thesis. In particular,
+
+Section 2.2.2.1 describes approaches that infer the a priori quality of a document
+
+ 
+
+based upon evidence in the document itself, whereas Section 2.2.2.2 focuses on
+
+approaches that infer quality from sources external to the document.
+
+2.2.2.1 On-Document Evidence
+
+A typical assumption underlying query-dependent ranking approaches is that all
+documents in a corpus are equally relevant a priori (Kraaij et al., 2002). While
+his assumption may hold when retrieving from curated corpora such as newswire
+documents, it may be unrealistic in an environment such as the Web (Bendersky
+et al., 2011). In particular, web documents are produced independently by au-
+hors with various motives and backgrounds, leading to a vast heterogeneity in
+content quality, ranging from high quality sources, such as online encyclopedias,
+o adversarial content, such as spam (Castillo & Davison, 2011).
+
+Kraaij et al. (2002) were among the first to analyse the usefulness of the a priori
+evidence of the quality of documents for web search. To this end, they investigated
+he effectiveness of several features for estimating the document prior p(d) in a
+
+query likelihood model, as described in Section 2.2.1.2. Among these, URL-
+
+ 
+
+ased features were shown to be particularly effective for identifying homepages,
+
+a classical web search task (Broder, 2002). For instance, the URL type feature
+
+36

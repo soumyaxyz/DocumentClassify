@@ -1,0 +1,59 @@
+3. Search Result Diversification
+
+ 
+
+Table 3.1: Representative diversification approaches in the literature, organised into
+two complementary dimensions: diversification strategy and aspect representation.
+
+Diversification Aspect representation
+
+ 
+
+strategy Implicit Explicit
+
+Carbonell & Goldstein (1998)
+Zhai et al. (2003)
+
+Chen & Karger (2006)
+
+Zhu et al. (2007)
+
+ 
+
+ 
+
+ 
+
+Novelty Wang & Zhu (2009) Santos et al. (2012b)
+Rafiei et al. (2010)
+Zuccon & Azzopardi (2010)
+Gil-Costa et al. (2011, 2013)
+Radlinski & Dumais (2006)
+Coverage Carterette & Chandar (2009) Radlinski et al. (2008a)
+: He et al. (2011) Capannini et al. (2011)
+Santos et al. (2012b)
+Yue & Joachims (2008) Agrawal et al. (2009)
+Hybrid Santos et al. (2010e) Santos et al. (2010a)
+Raman et al. (2012) Slivkins et al. (2010)
+
+3.3.1 Novelty-based Approaches
+
+Novelty-based approaches have the longest history in the search result diversifi-
+cation literature, stemming from research on identifying novel sentences for text
+summarisation (Carbonell & Goldstein, 1998). The definitional characteristic of
+such approaches is their account for dependences between the ranked documents,
+and consequently their strict adherence to the formulation in Algorithm 3.1.
+The novelty-based diversification approaches in the literature typically dif-
+fer according to their estimation of document dependence. As highlighted in
+Table 3.1, the vast majority of these approaches adopts an implicit aspect repre-
+sentation, typically comprising the space of unique terms in a document corpus.®
+For such approaches, at the 7-th iteration, an evaluation of the objective function
+f(q,d,D,) would have a cost @; « u(i—1), where v is the number of unique terms
+~~ 87 enable the assessment of the effectiveness of novelty as a diversification strategy in
+
+isolation from the aspect representation dimension, in Chapter 8, we introduce the first explicit
+novelty-based diversification approaches in the literature.
+
+ 
+
+64

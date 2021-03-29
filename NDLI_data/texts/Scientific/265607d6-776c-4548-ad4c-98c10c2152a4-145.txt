@@ -1,0 +1,49 @@
+6. Sub-Query Generation
+
+ 
+
+In their approach, Broccolo et al. (2012) used only queries that ended a sat-
+isfactory session (i.e., $3 in sessions #5 to #8 in Figure 6.2). Arguably, non-
+satisfactory sessions (i.e., sessions with no clicks, such as session #1, or without
+clicks on the last query in the session, such as sessions 7##2 to #4) can also con-
+tribute relevant suggestions. Moreover, non-final queries (queries s; and s2 in
+Figure 6.2) in both satisfactory and non-satisfactory sessions may also be use-
+ful. In Section 6.4.2, we will investigate multiple structured virtual document
+representations based on different combinations of the available fields (i.e., Q, S,
+and C), as well as on different sampling criteria (i.e., whether to index queries
+from all sessions or from only satisfactory sessions, and whether to index all or
+only the last query in each of these sessions). A breakdown of these alternative
+representations in terms of the storage overhead incurred by each of them is pro-
+vided in Table 6.1. Percentage figures denote the incurred overhead compared to
+storing only the query string (Q) of each suggestion. The total number of queries
+
+indexed for different representations is shown in the bottom row of the table.
+
+Table 6.1: Space requirements for storing each of the seven considered structured
+virtual document representations: Q, 5, C, QS, QC, SC, QSC.
+
+ 
+
+Sessions All Satisfactory
+
+Queries All Last All Last
+
+Q 141.7 78.3 86.4 44.2
+3 iS) 513.4 — (+262%) 92.7 (418%) 322.4 (+273%) 62.1 (441%)
+$ C 278.8 (497m) 210.5 (4169%) 256.2 (196%) 201.2 4356%)
+= Qs 655.1 (4362%) 171.0 (4+118%) 408.8 (+373%) 106.3  (+141%)
+g QC 420.5  (+197%) 288.8 (+269%) 342.6 (4296%) 245.3  (+456%)
+Ss SC 792.2 (+459%) 303.2 (4287) 578.6 (+570%) 263.2  (4496%)
+QSC 933.9  (+559%) 381.5 (+387%) 665.0 (+670%) 307.4  (+596%)
+
+Q 56.0 32.0 33.4 16.8
+z iS) 139.3 (149%) = 334.1 (47%) 95.3 (4185%) 22.8 (435%)
+Zz Cc 56.6 (+1%) 44.5 (439%) 52.7 — (+58%) 42.7 (4154%)
+5. Qs 195.3 (4249) 66.1 (4+107%) 128.7 (4285%) 39.7 (4135%)
+5 QC 112.6 (4101%) 76.5 (4139%) 86.1 (4158%) = 59.6 (4.254%)
+o SC 195.9 (4250%) 78.6 (+146%) 145.0 (+343%) 65.5 (4289%)
+QSC 251.9 (4350%) 110.6 (+240%) 181.4  (+443%) 82.4  (+389%)
+
+# suggestions 6,382,973 3,484,172 4,075,725 2,118,571
+
+127

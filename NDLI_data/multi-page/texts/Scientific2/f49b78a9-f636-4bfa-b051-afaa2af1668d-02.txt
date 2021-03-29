@@ -1,0 +1,133 @@
+IEEE Access:
+
+S. Banerjee et al.: Physically Secure Lightweight Anonymous User Authentication Protocol for loT
+
+ 
+
+I. INTRODUCTION
+
+We live in the age of information and a significant portion
+of the information is derived from the innumerable Internet
+connected smart devices and sensors that make up the Inter-
+net of Things (IoT). It is projected that by the year 2020, the
+number of IoT devices will approach fifty billion [1]. This
+exponential growth in popularity of loT devices, partly driven
+by the cultural shift of preference of smart (Internet enabled)
+consumer appliances, exposes a huge attack surface for the
+adversaries to exploit the information. Without adequate ad-
+dressable of the concern regarding the security and privacy
+of the vast amount of sensitive data that is expected to flow
+through these IoT networks, popular consumer deployment
+of these technologies will be untenable [2]. The economic
+potential alone provides the impetus to develop robust au-
+thentication mechanism for IoT architecture. Fig.[I]describes
+a generalized IoT architecture.
+
+The authors in [3] defined the objectives of IoT that bridges
+between the physical world and the computer-based systems
+unlocking great economic welfare, accuracy, and efficiency
+with minimal human action. Through this definition, loT
+subsumes the wireless sensor networks (WSNs) domain. The
+authentication problem in IoT architecture is quite similar to
+the problems addressed for WSNs. Thus, the lessons learned
+developing anonymous authentication schemes for WSNs
+carry over to the IoT architecture. However, one difference
+between a typical IoT device and a typical WSN sensor is
+that generally the loT device is more complex and expensive.
+Consequently, it is quite conceivable that an loT device can
+have replaceable subsystems. The current standard threat
+model (defined in Section [-Bp ensures that the stolen cre-
+dentials from one system cannot be utilized to compromise
+the security of unrelated devices. But, in light of reusable
+modular IoT devices, a new attack must also be considered,
+such as impersonation of compromised devices. An adver-
+sary can extract the credentials from a physically captured
+smart device and using these credentials the adversary can
+impersonate the captured smart devices. As the users and
+gateway nodes will use the very same credentials to verify
+the identity of the device, this impersonating device cannot
+be also detected. In this scenario, even if the rest of the
+network is not compromised, the user who connects to the
+spurious devices will expose him/herself to the adversary.
+To get around a similar problem of stolen user credentials,
+a widely accepted approach is to incorporate user biometric
+into the authentication scheme. Analogously, we need to
+employ some sort of device biometric. Physically Unclonable
+Functions (PUFs) support such a functionality. In this paper,
+we present a novel physically secure lightweight anonymous
+authentication protocol for loT using PUFs.
+
+ 
+
+A. NETWORK MODEL
+
+In this paper, we follow a similar network model to that
+presented in ]. The IoT architecture is composed of dis-
+joint sub-networks consisting of multiple oT smart devices
+operating as sensors or actuators, that are connected over
+
+ 
+
+2
+
+the public Internet. The smart devices are accessed through
+their respective gateway node (G'W N) over a heterogeneous
+network. The authorized users, prior to enjoying services of
+a smart device (SD), must register with the corresponding
+GWN. The registered mobile users (/Us) can mutually
+authenticate with a smart device SD through the GW N in
+order to negotiate a session key for accessing the device real-
+time data. A standard security requirement for authentication
+is that it must support anonymity and intractability for both
+MU and SD Bj.
+
+B. THREAT MODEL
+
+The authors in [3] defined the security requirements and
+also a threat model related to loT ecosystems. In our work,
+we adhere to the broadly accepted Dolev-Yao (DY) threat
+model [6]. Under DY-threat model, an adversary .A will have
+complete control over the communication media. Thus, A
+can eavesdrop upon, alter, delete and even forge messages
+that are transmitted through the communication media. Ad-
+ditionally, it is assumed that through power analysis attacks
+(7, A can extract the sensitive data stored in a lost or
+stolen smart card. Furthermore, it is within A’s capacity to
+physically capture some IoT smart devices as the loT devices
+can be deployed in some unattended environment, such as in
+some IoT applications including healthcare and surveillance,
+and A can extract the credentials stored in those captured
+devices. We work under the assumption that the GW Ns are
+being physically secured under locking systems and thus,
+the GW Ns are considered to be trusted entities in the loT
+environment [8].
+
+This proposed scheme is also based on the CK-adversary
+model [9]. The CK-adversary model is a stronger threat
+model and it is considered as the current de facto standard
+in modeling key-exchange protocols {10}. Under the CK-
+adversary model, the adversary A, in addition to all capabili-
+ties of the adversary under the DY model, can compromise
+secure information like session state, private and session
+keys. Thus, the key-exchange protocols need to guarantee
+that in the event of ephemeral (short-term) secret leakage,
+the effect on the security of session keys established among
+the communicating entities in an authenticated key-exchange
+protocol should be minimal is
+
+C. ORGANIZATION OF THE PAPER
+
+The organization of the paper is as follows. We present the
+theoretical background relevant to the work in Section [IT] A
+short review of the relevant authentication schemes from the
+existing literature is presented in Section [Ml] The proposed
+scheme is presented in|[V|with the detailed description of all
+the phases. In sien ty we provide the rigorous security
+analysis of the proposed scheme through the formal security
+analysis and verification using ROR model and AVISPA ver-
+ification) tool and also the informal analysis. We then present
+a comparative study showcasing the strength of the proposed
+scheme in Section[VI] with related existing schemes. A simu-
+lation study for the practical impact of the proposed scheme
+
+VOLUME 7, 2019

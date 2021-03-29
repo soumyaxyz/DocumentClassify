@@ -1,0 +1,16 @@
+Routing Algorithms for Channels, Switchboxes
+and MCM's in VLSI Layout Design
+
+Dissertation submitted for the degree of
+Doctor of Philosophy
+of the
+Indian Statistical Institute
+
+Sandip Das
+Advanced Computing and Microelectronics Unit
+
+Indian Statistical Institute
+203, B. T, Road, Calcutta - 700 035
+INDIA
+
+(Revised )

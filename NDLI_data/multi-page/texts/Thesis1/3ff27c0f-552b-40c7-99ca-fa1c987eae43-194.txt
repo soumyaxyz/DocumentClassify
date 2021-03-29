@@ -1,0 +1,49 @@
+Chapter 5: Quantum isometry groups of the Podles spheres 182
+
+ 
+
+Define
+
+v( En )=( En ) onty
+—En —En
+
+Lemma 5.4.10. V commutes with D and V is a unitary representation of S , that is
+(S, Ao, V) is an object in Q'(D).
+
+Proof : As the eigenspaces corresponding to distinct eigenvalues of D are spanned
+
+en En,
+
+e e
+by " ) and ” } , V commutes with D.
+The fact that V is a representation follows from the proof of Lemma 5.4.9.
+
+To prove that V is a unitary, it is enough to check the following:
+V en iV em _ en . em A Vv en Vv em _
+en em en em en —Em
+en . Em 1, V En Vv Em = €n em a
+en —Em En —Em —En —Em
+The proofs being similar, we prove only the first equation.
+V en iV em _ en @ rt, em @ rt
+en em en Em
+7 ~ Orn Tm
+2 2 en em
+which, if n 4 m equals 0 = ‘ wl
+en em
+and if n = m, equals 1 = en ; m wl.
+en em
+
+Setting rz = rjty, we observe that rz is a unitary and satisfies :
+
+ 
+
+ 
+
+ 
+
+ 
+
+rer, =riri*, for alln>1. (5.4.18)
+rine, =r,r,-, foralln>1. (5.4.19)
+
+Using r; = rer tt 4 ( from 5.4.18 ) in ( 5.4.19 ) we have rts = rater

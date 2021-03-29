@@ -1,0 +1,130 @@
+language texts, by embedding logic atoms and textual men-
+tions in the same embedding space. Furthermore, GNTPs are
+interpretable and can provide explanations in terms of logic
+proofs at scale.
+
+References
+Arora, S.; Liang, Y.; and Ma, T. 2017. A simple but tough-
+to-beat baseline for sentence embeddings. In JCLR.
+Bahdanau, D.; Cho, K.; and Bengio, Y. 2015. Neural Machine
+Translation by Jointly Learning to Align and Translate. In
+ICLR.
+Bollacker, K. D.; Cook, R. P.; and Tufts, P. 2007. Freebase: A
+Shared Database of Structured General Human Knowledge.
+In AAAI, 1962-1963.
+Bordes, A.; Usunier, N.; Garcfa-Duran, A.; Weston, J.; and
+Yakhnenko, O. 2013. Translating Embeddings for Modeling
+Multi-relational Data. In NJPS, 2787-2795.
+Bos, J. 2008. Wide-coverage semantic analysis with boxer.
+In STEP. Association for Computational Linguistics.
+Bouchard, G.; Singh, S.; and Trouillon, T. 2015. On approx-
+imate reasoning capabilities of low-rank vector spaces. In
+AAAI Spring Symposia. AAAI Press.
+BoSnjak, M.; Rocktischel, T.; Naradowsky, J.; and Riedel, S.
+2017. Programming with a Differentiable Forth Interpreter.
+In JCML, volume 70, 547-556.
+Bowman, S. R.; Angeli, G.; Potts, C.; and Manning, C. D.
+2015. A large annotated corpus for learning natural language
+inference. In EMNLP.
+
+Das, R.; Neelakantan, A.; Belanger, D.; and McCallum, A.
+2017. Chains of Reasoning over Entities, Relations, and Text
+using Recurrent Neural Networks. In EACL, 132-141.
+
+Das, R.; Dhuliawala, S.; Zaheer, M.; Vilnis, L.; Durugkar, L;
+Krishnamurthy, A.; Smola, A. J.; and McCallum, A. 2018.
+Go for a Walk and Arrive at the Answer: Reasoning Over
+Paths in Knowledge Bases using Reinforcement Learning. In
+ICLR.
+
+d’ Avila Garcez, A. S.; Besold, T. R.; Raedt, L. D.; Féldiak, P.;
+Hitzler, P.; Icard, T.; Kiihnberger, K.; Lamb, L. C.; Miikku-
+lainen, R.; and Silver, D. L. 2015. Neural-symbolic learning
+and reasoning: Contributions and challenges. In AAAI Spring
+Symposia.
+
+Davis, J., and Goadrich, M. 2006. The relationship between
+Precision-Recall and ROC curves. In JCML, volume 148.
+Dettmers, T.; Minervini, P.; Stenetorp, P.; and Riedel, S. 2018.
+Convolutional 2D Knowledge Graph Embeddings. In AAAI.
+Etzioni, O.; Banko, M.; and Cafarella, M. J. 2006. Machine
+reading. In AAAI, 1517-1519. AAAI Press.
+
+Evans, R., and Grefenstette, E. 2018. Learning Explanatory
+Rules from Noisy Data. JAIR 61:1-64.
+
+Fyodorov, Y.; Winter, Y.; and Francez, N. 2000. A Natural
+Logic Inference System. In Proceedings of the of the 2nd
+Workshop on Inference in Computational Semantics.
+Garcia-Duran, A., and Niepert, M. 2018. KBlrn: End-to-End
+Learning of Knowledge Base Representations with Latent,
+Relational, and Numerical Features. In UAI, 372-381.
+
+Gardner, M.; Talukdar, P. P.; Krishnamurthy, J.; and Mitchell,
+T. M. 2014. Incorporating Vector Space Similarity in Random
+Walk Inference over Knowledge Bases. In EMNLP, 397-406.
+Garnelo, M., and Shanahan, M. 2019. Reconciling deep
+learning with symbolic artificial intelligence: representing
+objects and relations. Current Opinion in Behavioral Sciences
+29:17 - 23.
+
+Graves, A.; Wayne, G.; and Danihelka, I. 2014. Neural
+Turing Machines. CoRR abs/1410.5401.
+
+Grefenstette, E.; Hermann, K. M.; Suleyman, M.; and Blun-
+som, P. 2015. Learning to Transduce with Unbounded Mem-
+ory. In NIPS, 1828-1836.
+
+Guidotti, R.; Monreale, A.; Ruggieri, S.; Turini, F.; Giannotti,
+F; and Pedreschi, D. 2018. A Survey of Methods for Ex-
+plaining Black Box Models. ACM CSUR 51(5):93:1-93:42.
+Guo, S.; Wang, Q.; Wang, L.; Wang, B.; and Guo, L. 2016.
+Jointly Embedding Knowledge Graphs and Logical Rules. In
+EMNLP, 192-202.
+
+Hermann, K. M.; Kocisky, T.; Grefenstette, E.; Espeholt, L.;
+Kay, W.; Suleyman, M.; and Blunsom, P. 2015. Teaching
+Machines to Read and Comprehend. In N/PS, 1693-1701.
+Huang, Z.; van Harmelen, F.; and ten Teije, A. 2005. Rea-
+soning with Inconsistent Ontologies. In LJCAI, 454-459.
+Johnson, J.; Douze, M.; and Jégou, H. 2017.  Billion-
+scale similarity search with gpus. arXiv preprint
+arXiv: 1702.08734.
+
+Joulin, A., and Mikolov, T. 2015. Inferring Algorithmic
+Patterns with Stack-Augmented Recurrent Nets. In NIPS.
+Kaiser, L., and Sutskever, I. 2016. Neural GPUs Learn
+Algorithms. In JCLR.
+
+Kemp, C.; Tenenbaum, J. B.; Griffiths, T. L.; Yamada, T.;
+and Ueda, N. 2006. Learning Systems of Concepts with an
+Infinite Relational Model. In AAAI, 381-388.
+
+Kingma, D. P., and Ba, J. 2015. Adam: A Method for
+Stochastic Optimization. In JCLR.
+
+Kok, S., and Domingos, P. M. 2007. Statistical Predicate
+Invention. In JCML, volume 227, 433-440.
+
+Lao, N.; Mitchell, T. M.; and Cohen, W. W. 2011. Random
+Walk Inference and Learning in A Large Scale Knowledge
+Base. In EMNLP, 529-539.
+
+Levesque, H. J. 2014. On our best behaviour. Artificial
+Intelligence 212:27-35.
+
+Lipton, Z. C. 2018. The mythos of model interpretability.
+Commun. ACM 61(10):36-43.
+
+MacCartney, B., and Manning, C. D. 2007. Natural logic for
+textual inference. In ACL-PASCAL@ACL, 193-200. ACL.
+McCallum, A.; Neelakantan, A.; and Verga, P. 2017. Gen-
+eralizing to Unseen Entities and Entity Pairs with Row-less
+Universal Schema. In EACL, 613-622.
+
+Miller, G. A. 1995. WordNet: A Lexical Database for English.
+Communications of the ACM 38(11):39-41.
+
+Minervini, P.; d’ Amato, C.; Fanizzi, N.; and Esposito, F. 2016.
+Leveraging the schema in latent factor models for knowledge
+graph completion. In SAC, 327-332. ACM.

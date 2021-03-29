@@ -1,0 +1,123 @@
+In this paper, we propose to efficiently compute S*, the high-
+est unification score between a given sub-goal G and a fact
+F € &, by casting it as a Nearest Neighbour Search (NNS)
+problem. This is feasible since the Gaussian kernel used
+by NTPs is a monotonic transformation of the negative Eu-
+clidean distance.
+
+Identifying S* permits to reduce the number of neural
+network sub-structures needed for the comparisons between
+each sub-goal and facts from O(||) to O(1). We use the
+exact and approximate NNS framework proposed by Johnson,
+Douze, and Jégou (2017) for efficiently searching & for the
+best supporting facts for a given sub-goal. Specifically we
+use the exact L2-nearest neighbour search and, for the sake
+of efficiency, we update the search index every 10 batches,
+assuming that the small updates made by stochastic gradient
+descent do not necessarily invalidate previous search indexes.
+
+Rule Selection. We use a similar idea for selecting which
+tules to activate for proving a given goal G. We empiri-
+cally notice that unifying G with the closest rule heads,
+such as G = [locatedIn,LONDON, UK] and H =
+[situatedIn, X,Y], is more likely to generate high-
+scoring proof states. This is a trade-off between symbolic
+reasoning, where proof paths are expanded only when the
+heads exactly match with the goals, and differentiable reason-
+ing, where all proof paths are explored.
+
+This prompted us to implement a heuristic that dynami-
+cally selects rules among rules sharing the same template
+during both inference and learning. In our experiments, this
+heuristic for selecting proof paths was able to recover valid
+proofs for a goal when they exist, while drastically reducing
+the computational complexity of the differentiable proving
+process.
+
+More formally, we generate a partitioning % € 2° of
+the KB &, where each element in 8 groups all facts and
+tules in & sharing the same template, or high-level struc-
+ture — e.g. an element of $8 contains all rules with structure
+O:(X, Y) - 04:(X, Z), O,:(Z, Y), with Op., 0g:,0,; € R*.>
+We then redefine the or operator as follows:
+
+or§(G,d,S) =[S’|H:-B € Np(G), PER,
+Se and§$(B, d, unifye(H, G, S))]
+
+where, instead of unifying a sub-goal G with all rule heads,
+we constrain the unification to only the rules where heads are
+in the neighbourhood Np(G) of G.
+
+Learning to Attend Over Predicates. Although NTPs
+can be used for learning interpretable rules from data, the
+solution proposed by Rocktaschel and Riedel (2017) can be
+quite inefficient, as the number of parameters associated to
+tules can be quite large. For instance, the rule H :— B, with
+H = [@,,,X,Y] and B = [[0,., X, Z], [@,:,Z, Y]], where
+Op: 94, Or: € R*, introduces 3k parameters in the model,
+
+Grouping rules with the same structure together makes allows
+parallel inference to be implemented very efficiently on GPU. This
+optimisation is also present in Rocktaschel and Riedel (2017).
+
+where k; denotes the embedding size, and it may be computa-
+tionally inefficient to learn each of the embedding vectors if
+k is large.
+
+We propose using an attention mechanism (Bahdanau, Cho,
+and Bengio 2015) for attending over known predicates for
+defining the rule-predicate embeddings 0)., 04:, 9r:. Let R
+be the set of known predicates, and let R € R'®!** be a
+matrix representing the embeddings for the predicates in R.
+We define 0). as 0p, = softmax(a,.)'R. where ap; € RR
+is a set of trainable attention weights associated with the
+predicate p. This sensibly improves the parameter efficiency
+of the model in cases where the number of known predicates
+is low, i.e. |R| < k, by introducing c|R| parameters for
+each rule rather than ck, where c is the number of trainable
+predicate embeddings in the rule.
+
+Jointly Reasoning on Knowledge Bases
+and Natural Language
+
+In this section, we show how GNTPs can jointly reason over
+KBs and natural language corpora. In the following, we as-
+sume that our KB & is composed of facts, rules, and textual
+mentions. A fact is composed of a predicate symbol and a
+sequence of arguments, e.g. [locat ionOf, LONDON, UK].
+On the other hand, a mention is a textual pattern between two
+co-occurring entities in the KB (Toutanova et al. 2015), such
+as “LONDON is located in the UK”.
+
+We represent mentions jointly with facts and rules in & by
+considering each textual surface pattern linking two entities
+as a new predicate, and embedding it in a d-dimensional
+space by means of an end-to-end differentiable reading com-
+ponent. For instance, the sentence “United Kingdom borders
+with Ireland” can be translated into the following mention:
+[[[argl],borders, with, [arg2]], UK, IRELAND],
+by first identifying sentences or paragraphs containing KB
+entities, and then considering the textual surface pattern
+connecting such entities as an extra relation type. While
+predicates in R are encoded by a look-up operation to a
+predicate embedding matrix R € R!®!**, textual surface
+patterns are encoded by an encodeg : V* > R* module,
+where V is the vocabulary of words and symbols occurring
+in textual surface patterns.
+
+More formally, given a textual surface pattern t € V*
+—such as t = [[arg1], borders, with, [arg2]]-— the
+encodeg module first encodes each token w in t by means
+of a token embedding matrix V € RIYI**’, resulting in
+a pattern matrix W; € RIIx*", Then, the module pro-
+duces a textual surface pattern embedding vector 0, €
+R* from W, by means of an end-to-end differentiable en-
+coder. For assessing whether a simple encoder architec-
+ture can already provide benefits to the model, we use an
+encodeg module that aggregates the embeddings of the
+tokens composing a textual surface pattern via mean pool-
+ing: encodeg(t) = Ti] ower Vu- € R*. Albeit the en-
+coder can be implemented by using other differentiable ar-
+chitectures, for this work we opted for a simple but still
+very effective Bag of Embeddings model (White et al. 2015;
+Arora, Liang, and Ma 2017) showing that, even in this case,

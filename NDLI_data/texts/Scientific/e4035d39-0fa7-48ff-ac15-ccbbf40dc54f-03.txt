@@ -1,0 +1,63 @@
+162 Bibliography
+
+modeling framework. In ICTIR ’07: Proceedings of the 1st International Conference on Theory of
+Information Retrieval, pages 125-134. (Cited on Page 19.)
+17] Azzopardi, L., Kazai, G., Robertson, S. E., Riiger, S. M., Shokouhi, M., Song, D., and Yilmaz,
+E., editors (2009). Advances in Information Retrieval Theory, Second International Conference on
+the Theory of Information Retrieval, ICTIR 2009, volume 5766 of Lecture Notes in Computer Science.
+Springer. (Cited on Pages 163 and 168.)
+18] Baeza-Yates, R. and Ribeiro-Neto, B. (1999). Modern Information Retrieval. Addison Wesley.
+(Cited on Pages 36, 120, and 121.)
+19] Baeza-Yates, R., Broder, A., Maarek, Y., and Raghavan, P. (2010). The new frontiers of web
+search: going beyond the 10 blue links. In D. Harper and P. Schauble, editors, 33rd Annual ACM
+SIGIR Conference: SIGIR 2010 Industry Track. Presented at the SIGIR 2010 Industry Track. (Cited
+on Pages 143 and 144.)
+20] Bai, J. and Nie, J.-Y. (2008). Adapting information retrieval to query contexts. Information
+Processing and Management, 44(6), 1901-1922. (Cited on Pages 20 and 21.)
+21] Bai, J., Song, D., Bruza, P., Nie, J.-Y., and Cao, G. (2005). Query expansion using term rela-
+tionships in language models for information retrieval. In CIKM ’05: Proceedings of the 14th ACM
+international conference on Information and knowledge management, pages 688-695, New York, NY,
+USA. ACM Press. (Cited on Pages 20, 21, and 30.)
+22] Bailey, P., Craswell, N., White, R., Chen, L., Satyanarayana, A., and Tahaghoghi, S. M. M.
+(2010). Evaluating search systems using result page context. In IIIX ’10: Proceedings of the fourth
+international symposium on Information interaction in context. (Cited on Page 41.)
+23] Balog, K. (2008). People Search in the Enterprise. Ph.D. thesis, University of Amsterdam. (Cited
+on Page 96.)
+24] Balog, K., Weerkamp, W., and de Rijke, M. (2008). A few examples go a long way: constructing
+query models from elaborate query formulations. In SIGIR ’08: Proceedings of the 31st annual
+international ACM SIGIR conference on Research and development in information retrieval, pages
+371-378, New York, NY, USA. ACM. (Cited on Pages 18, 20, 21, 27, and 57.)
+25] Balog, K., de Vries, A. P., Serdyukov, P., Thomas, P., and Westerveld, T. (2009). Overview of the
+TREC 2009 entity track. In [331]. (Cited on Page 159.)
+26] Balog, K., Meij, E., and de Rijke, M. (2010). Entity search: Building bridges between two worlds.
+In Proceedings of the Workshop on Semantic Search (SemSearch 2010) at the 19th International
+World Wide Web Conference (WWW 2010). (Cited on Pages 10, 159, and 160.)
+27] Banko, M., Cafarella, M. J., Soderland, S., Broadhead, M., and Etzioni, O. (2007). Open in-
+formation extraction from the web. In M. M. Veloso, editor, IJCAI, pages 2670-2676. (Cited on
+Page 111.)
+28] Beitzel, S. M., Jensen, E. C., Lewis, D. D., Chowdhury, A., and Frieder, O. (2007). Automatic
+classification of web queries using very large unlabeled query logs. ACM Trans. Inf. Syst., 25(2), 9.
+(Cited on Page 124.)
+29] Bendersky, M. and Croft, W. B. (2008). Discovering key concepts in verbose queries. In SIGIR
+‘08: Proceedings of the 31st annual international ACM SIGIR conference on Research and development
+in information retrieval, pages 491-498, New York, NY, USA. ACM. (Cited on Pages 20 and 33.)
+30] Bennett, G., Scholer, F., and Uitdenbogerd, A. (2007). A comparative study of probabilistic and
+language models for information retrieval. In ADC ’08: Proceedings of the nineteenth conference
+on Australasian database, pages 65-74, Darlinghurst, Australia, Australia. Australian Computer
+Society, Inc. (Cited on Pages 16 and 50.)
+Berger, A. and Lafferty, J. (1999). Information retrieval as statistical translation. In SIGIR ’99:
+Proceedings of the 22nd annual international ACM SIGIR conference on Research and development in
+information retrieval, pages 222-229, New York, NY, USA. ACM. (Cited on Pages 21, 22, and 89.)
+32] Berners-Lee, T. (2009). Linked Data — Design Issues. http://www.w3.org/DesignIssues/
+LinkedData.htm1 [Online; accessed August 2010]. (Cited on Pages 111 and 144.)
+33] Berners-Lee, T., Hendler, J., and Lassila, O. (2001). The semantic web. Scientific American.
+(Cited on Page 3.)
+34] Bhalotia, G., Hulgeri, A., Nakhe, C., Chakrabarti, S., and Sudarshan, S. (2002). Keyword search-
+ing and browsing in databases using banks. In Proceedings of the 18th International Conference on
+Data Engineering, pages 431-440. (Cited on Page 35.)
+35] Bhogal, J., Macfarlane, A., and Smith, P. (2007). A review of ontology based query expansion.
+Information Processing and Management, 43(4), 866-886. (Cited on Pages 20 and 32.)
+
+3
+
+a

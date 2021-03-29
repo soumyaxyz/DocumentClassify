@@ -1,0 +1,68 @@
+560 F. Ensan, W. Du
+
+where Scoreseim(d,q) = Pseim(Qq|Da), and Score means a normalized score. Similar to
+Eq. (7), we use a linear mixture model that has mixture weights for combining different
+language models. On the other hand, we did not integrate probabilities in query term level,
+instead we integrate scores that are found over the whole query. The reason is that there
+is no shared interpretation of query terms across different models: in SELM, queries are
+interpreted as a set of concepts, each of which are associated with one or more query terms.
+Our integration model is close to what is proposed in [13] and [27], especially the CombSUM
+combination formula, according to which the scores of multiple systems are added together
+for creating the final score of a document. We also use the normalization strategy exploited in
+[27] for normalizing scores before integrating them. According to this strategy, the normalized
+score is defined as follows:
+
+5 Sa ) Score(d, q¢) — MinScore (9)
+core(d, g) = ———_____—_.
+
+a MaxScore — MinScore
+where MinScore and MaxScore are the minimum and maximum scores among the retrieved
+documents.
+
+The integration model in Eq. 8 allows us to integrate semantic scoring with any arbitrary
+scoring. We use the EM algorithm to estimate mixture weights. For each query q, 6, =
+{Aoxws AOseim }> We have:
+
+*
+67 = arg TAR
+
+i=N
+log (x Aégy Scorex w(d, q) + AéGetmSCOPEseim (a, 0) (10)
+
+i=1
+
+where N is the total number of documents and A, y + Aeim = 1. In order to estimate A, the
+mixture weight for a given query q is computed as follows:
+
+t
+don wo
+Mew Scorexw (di, q)
+
+1
+Wu Ge zi ay
+
+SF dbp}, Scorex w(di.q) + Ah,,,, Scoreseim (di. q)
+
+ 
+
+The mixture weight is calculated for each query separately, making it possible to assign
+different weights to semantic- and keywords-based models for retrieving different queries.
+To terminate the EM iterations, we set a threshold such that changes less than the threshold
+will stop the EM algorithm. In our experiments, we find that EM converges quickly usually
+converging in less than 5 iterations.
+
+Returning to the example depicted in Fig. 2, the final score that is calculated for the doc-
+ument is estimated based on the score found by a keyword-based retrieval system, which
+calculates ranking scores based on document and query term matching, and the SELM prob-
+ability function that takes into account similarities between the query concept ‘Journalism’
+and document concepts.
+
+The following example from our experiments clarifies the impact of the interpolation of
+SELM with other keyword-based models. For the Trec topic 340: ‘Land Mine Ban,’ the
+state-of-the-art techniques such as [30] would not be able to retrieve documents that do
+not explicitly include the keywords such as land, land mine, or ban but are relevant to the
+query from a content perspective, e.g., FBIS3-44701 is ranked 398 by [30] because it does
+not have the explicit query keywords while it is a relevant document to the query in the
+gold standard. However, SELM retrieves this document and ranks it in the first position. The
+
+a Springer

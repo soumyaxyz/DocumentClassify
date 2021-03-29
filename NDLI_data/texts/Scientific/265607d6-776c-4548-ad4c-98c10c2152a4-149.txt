@@ -1,0 +1,39 @@
+6. Sub-Query Generation
+
+ 
+
+query log itself, so as to draw insights regarding which query log evidence can
+be helpful for ranking query suggestions. The considered features include quality
+signals, such as the length of the query suggestion in tokens and characters (too
+long suggestions may denote robot-submitted queries) and the presence of digits,
+punctuation, and swearing (which usually indicate low-quality or adult-oriented
+queries). Additionally, we also derive features that quantify the popularity of a
+query suggestion in terms of number of sessions and clicks, as popular sugges-
+tions arguably indicate higher quality a priori. Finally, we consider features that
+summarise the profile of a suggestion across the sessions where it occurs. These
+include the number of clicks received, the total number of queries and the ratio
+
+of clicked queries, and the suggestion’s relative position in each session.
+
+6.3. Evaluating Query Suggestions
+
+The effectiveness of a query suggestion mechanism is typically assessed qualita-
+tively, based on user studies (Silvestri, 2010). On the other hand, Hauff et al.
+(2010) have shown that users are not good at predicting the retrieval performance
+of query suggestions. At the same time, it seems natural to assess the performance
+of a suggestion in terms of how much it helps the users satisfy their information
+need. More precisely, we argue that the effectiveness of a query suggestion mech-
+anism should be assessed as to whether its suggested queries help the users satisfy
+the information need expressed by their query. With this in mind, we formalise
+a framework for the quantitative evaluation of query suggestions that directly
+builds upon existing retrieval evaluation efforts. In particular, we envisage two
+scenarios, depending on whether or not the user’s initial query is ambiguous.
+The first scenario assumes that the user’s query is unambiguously defined. In
+this scenario, given a query q and a ranking of suggestions S, produced for this
+query, our goal is to evaluate these suggestions in terms of their retrieval perfor-
+mance when used as a replacement for g. In particular, we introduce s-evaly(e)
+for query suggestion evaluation as the counterpart of a standard retrieval evalu-
+
+ation metric eval(e) (e.g., nDCG in Equation (2.51)), according to:
+
+131

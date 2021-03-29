@@ -1,0 +1,26 @@
+studies on Finite Linear Cellular Automata
+
+- Thesis submitted to the Indian Statistical Institute in partial fulfillment of
+the requirements for the award of the degree of Doctor of Philosophy
+
+by
+
+Palash Sarkar
+Applied Statistics Unit
+Indian Statistical Institute
+203, B.T. Road,
+Calcutta 700035.
+INDIA
+e-mail: palashQisical.ac.in
+
+under the supervision of
+
+Dr. Rana Barua
+Stat-Math Unit
+Indian Statistical Institute
+203, B.T. Road,
+Calcutta 700035.
+INDIA
+email: rana@isical.ac.in
+
+( Revised Version)

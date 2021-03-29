@@ -1,0 +1,45 @@
+Chapter 4: Quantum isometry groups for Rieffel deformed manifolds 136
+
+ 
+
+J [x 8.55, 8 54, 8t2, $14) (10,1) (Ur U2 1,0; 1) X(s4,55,04.h) AC0,n) (4,
+ug, 1,0, 1)e(u.v)dudv
+
+[ [Mane (—$52),e(81))(u1s2, 1.0, N(e(~$42),e(t))
+Azo) ((e(—s4)s€(—sh)) (urs ta. 1, 0, 1)(€(4), €(t8)))e(uv)dude
+
+which by ( 4.4.1 ) equals
+
+. 6 6 6
+J [ Avoasle(Seeme(—Sha), elGsr)ure(—Ft2)) Ano (e(-siune(—6),
+e(—s5)uze(t}) )e(u.v)dudv
+6 0
+| [ GonreGurel—side(—t)e(sr- + ty.t) + 52.85 + te.ty)dsids'dsodsydty
+
+dt, dtgdt'
+
+0
+tea fiianes,
+
+Jfoe e(ty. (tutijatiat, ff e(—ts)e(ta-ts tat
+which by Proposition 1.3.1 equals
+L1i1=1
+Similarly,
+
+Aio,1) X7 Aton (M, U2, 1,0, 1) = 1
+
+ 
+
+ 
+
+ 
+
+ 
+
+Remark 4.4.11. It can be easily checked that
+Ady yoa *F Ani n.73 (ur, U2, Ws 72, 73) =0
+
+if (11,72, 73) F (11,725 73)-
+Similar is the case with By, > 3-
+
+Lemma 4.4.12. Agoo x 7 Booo = Booo x 7 Aooo-

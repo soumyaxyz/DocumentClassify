@@ -1,0 +1,42 @@
+7. Document Coverage
+
+ 
+
+7.1 Intents in Web Search
+
+Not all information needs have the same underlying intent. In particular, Broder
+(2002) proposed a taxonomy of information needs in web search, categorising
+their intent according to three classes: navigational, denoting a need to find a
+specific document; informational, denoting a need for information about a topic,
+which may be covered on one or more documents; and transactional, denoting a
+need to perform a web-mediated activity. This taxonomy was later extended by
+Rose & Levinson (2004), who devised a hierarchy of intents stemming from the
+three broad classes proposed by Broder (2002). Nevertheless, Broder’s taxonomy
+remains the most widely adopted in the literature (Calderon-Benavides, 2011).
+
+Several ranking approaches have benefited from exploiting the intent under-
+lying web search queries. Such intent-aware approaches can be categorised as
+to whether they rely on the classification of queries into predefined intents. For
+instance, query intent detection approaches classify a query with respect to a pre-
+defined set of intents. A ranking model trained for the predicted intent is then
+applied to rank documents for the query. In this vein, Kang & Kim (2003) showed
+that queries of distinct intents can benefit from intent-aware ranking models. A
+major shortcoming of this family of approaches, however, is the limited accuracy
+of existing intent detection mechanisms (Craswell & Hawking, 2004).
+
+Instead of classifying a query into a predefined target intent, an alternative is
+to identify similar queries from a training set, and then apply a ranking model
+appropriate for this set. This approach has an advantage over a classification of
+queries based on a fixed set of intents, as queries of the same intent often benefit
+from different ranking models (Craswell & Hawking, 2004). For example, Geng
+et al. (2008) proposed an instance-based learning approach using k-nearest neigh-
+bour (k-NN) classification (Aha et al., 1991) to improve web search effectiveness.
+In their approach, a k-NN classifier was used to identify training queries simi-
+lar to an unseen query. A ranking model was then learned using the identified
+neighbouring queries and applied to the unseen query. A more general approach
+was proposed by Peng et al. (2010). In their work, multiple ranking functions
+were chosen from a pool of candidate functions, according to their retrieval per-
+
+formance on training queries similar to an unseen query.
+
+150

@@ -1,0 +1,31 @@
+S.No. 5822 I RSBE 2:1
+
+(For candidates admitted from 2010 — 2011 onwards)
+
+B.Sc. DEGREE EXAMINATION, AUGUST 2013.
+Computer Application — Skill Based Elective
+
+HARDWARE TROUBLE SHOOTING
+
+Time : Three hours Maximum : 75 marks
+
+H
+°
+
+OF eee eer be
+
+PART A — (10 x 2 = 20)
+
+Answer ALL questions.
+How many bits in a byte?
+What are the two main input devices?
+What are two other names for the mother board?
+What is the use of surge suppressor?
+List three kinds of memory modules.
+How many pins are in the serial port?
+How is the resolution of the mouse measured?
+What are common features of available in modem?
+Name any two non impact printer.
+
+What are the possible problem if blank page is
+printed in Laser printer?

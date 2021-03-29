@@ -1,0 +1,74 @@
+9.2. COHOMOLOGICAL OBSTRUCTION TO REALITY 89
+
+Proof. Let g be real in G, i.e., there exists  € G such that rgv~! = g-!. Then
+
+1
+
+x conjugates g, and g, to gz! and g7! respectively.
+
+Conversely let h € H such that hgy'h7! = 2g,v7!. Then,
+holeg(h te)! = holaga th =holagalegqye th =h-'grlagya th
+
+= goth 'xqa'th= 9.'g,' =9"".
+
+ 
+
+ 
+
+Hence g is real in G.
+
+ 
+
+ 
+
+It is not true that g is real if and only if g, real and g, real. We give examples of
+this situation.
+Example 1: Let G = GL4(k). We take s = diag(A, A, 71, A7!) with \? 4 1, u =
+
+1 0 11
+diag (( ; : and g = su. Then g, = S$, g, = u and the centralizer of
+
+0 1 0
+sin G is Zgr,(n)(s) = {diag(A, B) | A, B € GL2(k)}. The elements s and wu are real
+but g is not real. In fact asa7! = s~! where
+
+0
+
+oe
+
+oocr
+ooro
+
+0
+0
+1
+
+0
+0
+i 2
+0
+and vua7! = diag (( ') ; ( ; : )) are not conjugate in
+
+Zor,(k)(8) hence g is not real by Lemma 9.2.1.
+
+The elements w
+
+Example 2: In G2 over a finite field, all semisimple as well as unipotent elements
+
+are real but still there are nonreal elements (see Section 8.4.3).
+
+Next we derive a cohomological obstruction to reality over the base field k. Let G
+be a connected linear algebraic group defined over k. Let t € G(k) be real in G. We
+put H = Z(t), the centralizer of t in G. Let X = {x € G| xta-! = t-1}. Then X is
+an H-torsor defined over k with H-action given by h.c = xh forh € H and xe X.
+
+Since t is real over k, we have X 4 ¢. The torsor X corresponds to an element
+of H'(k, H) ([Se], Chapter 1, section 5.2, Proposition 33). Let « € X and 7 be the
+cocycle corresponding to X. Then 7¥ is given by 7(0) = a~1o(z) for allo € T =
+
+Gal(k/k). Now we look for a condition which determines when t is k-real.
+
+Proposition 9.2.2. Let G be a connected algebraic group defined over k. Let
+t € G(k) be real over k. Then t is real in G(k) if and only y, as above, represents a
+
+trivial cocycle in H1(k, H) where H is the centralizer of t in G.

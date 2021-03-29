@@ -1,0 +1,69 @@
+EventRecommendations |«— purpose LocationGraphConsentPolicy storage —>| InternalServers
+
+data processing recipients
+
+Fig. 36. A policy for the usage of a sub-graph of location data in the knowledge graph
+
+ 
+
+Claimant-XY12SDA |- - -Claimant-name- - - +! John Smith \- - cipher: - »{ CipherName-XY12SDA
+Claimant-name-enc crypto keylength algorithm
+
+ay
+
+     
+
+Fig. 37. Directed edge-labelled graph with the name of the claimant encrypted; plaintext elements are dashed
+and may be omitted from published data (possibly along with encryption details)
+
+framework for graphs that uses WebID for authentication and provides a vocabulary for specifying
+access control policies. Extensions of this WAC vocabulary have been proposed to capture privacy
+preferences [428] and to cater for contextual constraints [101, 510]. Although ODRL is primarily
+used to specify licenses, profiles to specify access policies [473] and regulatory obligations [3, 117]
+have also been proposed in recent years, as discussed in the survey by Kirrane et al. [273].
+
+As a generalisation of access policies, usage policies specify how data can be used: what kinds of
+processing can be applied, by whom, for what purpose, etc. The example usage policy presented
+
+of (LocationGraph) can be performed on by
+
+in Figure 36 states that the process (A
+
+members of (CompanyStaff) in order to provide (EventRecommendations), Vocabularies for usage policies have
+
+been proposed by the SPECIAL H2020 project [52] and the W3C Data Privacy Vocabularies and
+Controls Community Group (DPVCG) [55, 371]. Once specified, usage policies can then be used to
+verify that data processing conforms to legal norms and the consent provided by subjects [55, 119].
+
+ 
+
+9.3.3 Encryption. Rather than internally controlling usage, the tourist board could use encryption
+mechanisms on parts of the published knowledge graph, for example relating to reports of crimes,
+and provide keys to partners who should have access to the plaintext. While a straightforward
+approach is to encrypt the entire graph (or sub-graphs) with one key, more fine-grained encryption
+can be performed for individual nodes or edge-labels in a graph, potentially providing different
+clients access to different information through different keys [180]. The CryptOntology [176] can
+further be used to embed details about the encryption mechanism used within the knowledge
+graph. Figure 37 illustrates how this could be used to encrypt the names of claimants from Figure 31,
+storing the ciphertext (zhk..kig), as well as the key-length and encryption algorithm used. In order
+to grant access to the plaintext, one approach is to encrypt individual edges with symmetric keys
+so as to allow specific types of edge patterns to only be executed by clients with the appropriate
+key [265]. This approach can be used, for example, to allow clients who know a claimant ID (e.g.,
+(Claimant-xY12SDA)) and have the appropriate key to find (only) the name of the claimant through
+an edge pattern (Claimant-XY12SDA)-Claimant-name-»{?name}, A key limitation of this approach, however,
+
+is that it requires attempting to decrypt all edges to find all possible solutions. A more efficient
+alternative is to combine functional encryption and specialised indexing to retrieve solutions from
+the encrypted graph without attempting to decrypt all edges [149].
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+69

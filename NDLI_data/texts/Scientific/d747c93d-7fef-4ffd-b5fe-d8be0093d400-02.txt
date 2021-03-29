@@ -1,0 +1,129 @@
+pear in the source text; they fail at predicting
+meaningful keyphrases with a slightly different se-
+quential order or those that use synonyms. How-
+ever, authors of scientific publications commonly
+assign keyphrases based on their semantic mean-
+ing, instead of following the written content in
+the publication. In this paper, we denote phrases
+that do not match any contiguous subsequence of
+source text as absent keyphrases, and the ones
+that fully match a part of the text as present
+keyphrases. Table | shows the proportion of
+present and absent keyphrases from the docu-
+ment abstract in four commonly-used datasets,
+from which we can observe large portions of ab-
+sent keyphrases in all the datasets. The absent
+keyphrases cannot be extracted through previous
+approaches, which further prompts the develop-
+ment of a more powerful keyphrase prediction
+model.
+
+Second, when ranking phrase candidates, pre-
+vious approaches often adopted machine learning
+features such as TF-IDF and PageRank. However,
+these features only target to detect the importance
+of each word in the document based on the statis-
+tics of word occurrence and co-occurrence, and
+are unable to reveal the full semantics that underlie
+the document content.
+
+Table 1: Proportion of the present keyphrases and
+absent keyphrases in four public datasets
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Dataset #Keyphrase % Present % Absent
+Inspec 19,275 55.69 44.31
+Krapivin 2,461 44.74 52.26
+NUS 2,834 67.75 32.25
+SemEval 12,296 42.01 57.99
+
+ 
+
+ 
+
+To overcome the limitations of previous stud-
+ies, we re-examine the process of keyphrase pre-
+diction with a focus on how real human annotators
+would assign keyphrases. Given a document, hu-
+man annotators will first read the text to get a ba-
+sic understanding of the content, then they try to
+digest its essential content and summarize it into
+keyphrases. Their generation of keyphrases relies
+on an understanding of the content, which may not
+necessarily use the exact words that occur in the
+source text. For example, when human annota-
+tors see “Latent Dirichlet Allocation” in the text,
+they might write down “topic modeling” and/or
+“text mining” as possible keyphrases. In addition
+to the semantic understanding, human annotators
+
+might also go back and pick up the most impor-
+ant parts, based on syntactic features. For exam-
+ple, the phrases following “we propose/apply/use”
+could be important in the text. As a result, a better
+keyphrase prediction model should understand the
+semantic meaning of the content, as well as cap-
+ure the contextual features.
+
+To effectively capture both the semantic and
+syntactic features, we use recurrent neural net-
+works (RNN) (Cho et al., 2014; Gers and Schmid-
+huber, 2001) to compress the semantic informa-
+ion in the given text into a dense vector (i.e., se-
+mantic understanding). Furthermore, we incorpo-
+rate a copying mechanism (Gu et al., 2016) to al-
+low our model to find important parts based on
+positional information. Thus, our model can gen-
+erate keyphrases based on an understanding of
+the text, regardless of the presence or absence of
+keyphrases in the text; at the same time, it does
+not lose important in-text information.
+
+The contribution of this paper is three-fold.
+First, we propose to apply an RNN-based gen-
+erative model to keyphrase prediction, as well
+as incorporate a copying mechanism in RNN,
+which enables the model to successfully pre-
+dict phrases that rarely occur. Second, this is
+the first work that concerns the problem of ab-
+sent keyphrase prediction for scientific publica-
+tions, and our model recalls up to 20% of absent
+keyphrases. Third, we conducted a comprehen-
+sive comparison against six important baselines
+on a broad range of datasets, and the results show
+that our proposed model significantly outperforms
+existing supervised and unsupervised extraction
+methods.
+
+In the remainder of this paper, we first review
+the related work in Section 2. Then, we elaborate
+upon the proposed model in Section 3. After that,
+we present the experiment setting in Section 4 and
+results in Section 5, followed by our discussion in
+Section 6. Section 7 concludes the paper.
+
+ 
+
+2 Related Work
+
+2.1 Automatic Keyphrase Extraction
+
+A keyphrase provides a succinct and accurate
+way of describing a subject or a subtopic in a
+document. A number of extraction algorithms
+have been proposed, and the process of extracting
+keyphrases can typically be broken down into two
+steps.
+
+The first step is to generate a list of phrase can-

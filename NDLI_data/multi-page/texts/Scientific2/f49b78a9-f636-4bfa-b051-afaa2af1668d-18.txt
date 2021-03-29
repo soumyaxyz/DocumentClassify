@@ -1,0 +1,71 @@
+IEEE Access:
+
+S. Banerjee et al.: Physically Secure Lightweight Anonymous User Authentication Protocol for loT
+
+ 
+
+Samiran Chattopadhyay is currently working as
+Professor in the Department of Information Tech-
+nology, Jadavpur University, Kolkata, India. He
+has received his Ph.D from Jadavpur University,
+Kolkata, India, and Masters and Bachelors in com-
+puter science and engineering from IIT Kharagpur,
+India. He is having over 25 years of teaching expe-
+rience at Jadavpur University, 4 years of industry
+experience, and 12 years of technical consultancy
+in the reputed industry houses. He has authored
+over 110 papers in international journals and conferences.
+
+ 
+
+Joel J. P. C. Rodrigues (S’01, M’06, SM’06)
+is Professor at the National Institute of Telecom-
+munications (Inatel), Brazil; senior researcher at
+the Instituto de TelecomunicagGes, Portugal; and
+visiting professor at the Federal University of Pi-
+auf, Brazil. Prof. Rodrigues is the leader of the
+Internet of Things research group (CNPq), Direc-
+tor for Conference Development - IEEE ComSoc
+Board of Governors, IEEE Distinguished Lecturer,
+Technical Activities Committee Chair of the IEEE
+ComSoc Latin America Region Board, the President of the scientific council
+at ParkUrbis Covilh Science and Technology Park, the Past-Chair of the
+IEEE ComSoc Technical Committee on eHealth, the Past-chair of the
+IEEE ComSoc Technical Committee on Communications Software, Steering
+Committee member of the IEEE Life Sciences Technical Community and
+Publications co-Chair, and Member Representative of the IEEE Communi-
+cations Society on the IEEE Biometrics Council. He is the Editor-in-Chief
+of the International Journal of E-Health and Medical Communications and
+an editorial board member of several top journals. He has authored or coau-
+thored over 700 papers in refereed international journals and conferences, 3
+books, and 2 patents. He had been awarded several Outstanding Leadership
+and Outstanding Service Awards by IEEE Communications Society and
+several best papers awards. He is member of the Internet Society, and a senior
+member ACM and IEEE.
+
+ 
+
+Yongho Park (M’17) received his BS, MS,
+
+and PhD degrees in electronic engineering,
+
+Kyungpook National University, Daegu, Korea in
+
+1989,1991, and 1995, respectively. He is currently
+
+a professor at the School of Electronics Engi-
+
+neering, Kyungpook National University. In 1996-
+
+2008, he was a professor at the School of Electron-
+
+CA ics and Electrical Engineering, Sangju National
+
+} University, Korea. In 2003-2004, he was a visiting
+
+scholar at the School of Electrical Engineering and
+
+Computer Science, Oregon State University, USA. His research interests
+include computer networks, multimedia, and information security.
+
+18 VOLUME 7, 2019

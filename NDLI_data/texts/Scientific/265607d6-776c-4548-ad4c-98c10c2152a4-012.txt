@@ -1,0 +1,51 @@
+List of Figures
+
+2.1
+2.2
+2.3
+2.4
+2.5
+2.6
+
+2.7
+
+3.1
+
+3.2
+3.3
+3.4
+
+4.1
+4.2
+4.3
+
+6.1
+
+Schematic view of a web search engine. .. 2... ...0...20.. 11
+Schematic view of a crawler... 2... 0.0222 ee. 1
+Schematic view of an indexer... 2... 2. 2 ee 14
+Schematic view of a query processor. ...............-. Li?
+Discriminative learning framework. ................. 43
+Example regression tree with query-independent (URL length (UL),
+
+ham likelihood (HL), and PageRank (PR)) and query-dependent
+(DPH and pBiL) features. . 2... ee 46
+
+Example precision vs. recall graph. .. 2... 2.26 ee ee 50
+
+Relevance-oriented ranking and the often conflicting goals of diversity-
+
+oriented ranking, namely, to attain maximum coverage and maxi-
+
+mum woveltys go: :a meh ee Me EEO SEER Hwee ewe Eee 59
+TREC-7 Interactive track, topic 353i and its sub-topics.. . 2... 75
+TREC 2009 Web track, topic 1 and its sub-topics.. 2.2... 0... 76
+NTCIR-9 Intent task (Chinese), topic 0015 and its sub-topics. . . 77
+Query- vs. document-driven diversification... ........... 85
+Sample space partitioned by sub-queries. ... 2... ...002.. 89
+
+xQuAD’s graphical models of (a) relevance and (b) diversity, which
+are mixed for the selection of a document d € Ry \ Dy at the i-th
+iteration of Algorithm 3.1. ................. 0000. 92
+
+Virtual document representation for the suggestion “metallica”. . 126

@@ -1,0 +1,67 @@
+Vina del Mar
+
+     
+
+4 4
+Report-station type type
+
+Pickpocketing -+—Report-cme SC )-Repot-lamant—m Claimant-XY12SDA Claimant-id —(XY125DA )
+
+Report-date
+
+ue Se
+
+Claimant-country
+
+Claimant-name
+John Smith
+
+Fig. 31. Possible result of applying a direct mapping to the first rows of both tables in Figure 30
+
+ 
+
+6.4 Structured Sources
+
+Much of the legacy data available within organisations and on the Web is represented in struc-
+tured formats, primarily tables — in the form of relational databases, CSV files, etc. — but also
+tree-structured formats such as JSON, XML etc. Unlike text and markup documents, structured
+sources can often be mapped to knowledge graphs whereby the structure is (precisely) transformed
+according to a mapping rather than (imprecisely) extracted. The mapping process involves two
+steps: 1) create a mapping from the source to a graph, and 2) use the mapping in order to materialise
+the source data as a graph or to virtualise the source (creating a graph view over the legacy data).
+
+6.4.1 Mapping from tables. Tabular sources of data are prevalent, where, for example, the structured
+content underlying many organisations, websites, etc., are housed in relational databases. In
+Figure 30 we present an example of a relational database instance that we would like to integrate
+into our knowledge graph under construction. There are then two approaches for mapping content
+from tables to knowledge graphs: a direct mapping, and a custom mapping.
+
+A direct mapping automatically generates a graph from a table. We present in Figure 31 the result
+of a standard direct mapping [18], which creates an edge (*)-y>@ for each (non-header, non-empty,
+non-NULL) cell of the table, such that ) represents the row of the cell, y the column name of the cell,
+and (9 the value of the cell. In particular, (*) typically encodes the values of the primary key for a row
+(e.g., Claimant.id); otherwise, if no primary key is defined (e.g., per the Report table), (x) can be an
+anonymous node or a node based on the row number. The node (x) and edge label y further encode
+the name of the table to avoid clashes across tables that have the same column names used with
+different meanings. For each row (x), we may add a type edge based on the name of its table. The
+value (2) may be mapped to datatype values in the corresponding graph model based on the source
+domain (e.g., a value in an SQL column of type Date can be mapped to xsd: date in the RDF data
+model). If the value is NULL (or empty), typically the corresponding edge will be omitted.”* With
+respect to Figure 31, we highlight the difference between the nodes and
+where the former denotes the row (or entity) identified by the latter primary key value. In case ofa a
+foreign key between two tables — such as Report.claimant referencing Claimant.id — we can
+link, for example, to rather than A), where the former node also has the name
+and country of the claimant. A direct mapping along these lines has been standardised for mapping
+relational databases to RDF [18], where Stoica et al. [475] have recently proposed an analogous
+direct mapping for property graphs. Another direct mapping has been defined for CSV and other
+tabular data [489] that further allows for specifying column names, primary/foreign keys, and data
+types — which are often missing in such data formats — as part of the mapping itself.
+
+ 
+
+ 
+
+28One might consider representing NULLs with anonymous nodes. However, NULLS in SQL can be used to mean that there is
+no such value, which conflicts with the existential semantics of anonymous nodes in models such as RDF (i.e., blank nodes).
+
+53,

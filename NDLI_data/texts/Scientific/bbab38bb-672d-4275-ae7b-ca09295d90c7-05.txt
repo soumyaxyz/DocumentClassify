@@ -1,0 +1,59 @@
+Ad hoc retrieval via entity linking and semantic similarity 555
+
+3.1 Background
+
+Language models have been widely studied and applied in different retrieval tasks due to
+their clearly defined statistical foundations and good empirical performance [40]. The query
+likelihood model is the basic method for using language models in information retrieval.
+Based on this model, for ranking document d given query q, P(d|q) needs to be estimated,
+where the probability of a document given a query is interpreted as the relevance of the
+document to the query. Using Bayes rules, P(d|q) can be calculated as follows:
+
+P(d\q) = P(q\d)P(d)/P(q)
+
+For the purpose of document ranking, P(q) is ignored because it is identical for all
+documents. Also, P(d) is often assumed to be uniform across all documents for the purpose
+of simplification,” so it can also be ignored in the ranking process. Consequently, documents
+are ranked based on P(q|d), which is interpreted as the probability of generating query q¢
+using the language model derived from d. Here, the main idea is to estimate a language model
+0a for each document d and to rank documents based on the likelihood of generating the
+query using the estimated language models.
+
+In other words, for ranking document d, the following scoring method is employed:
+
+Score(d, q) = P(q|@a)
+
+where, 64, the language model estimated for document d, is a probability distribution over
+all possible query units, and P(q|@qz) denotes the probability of query qg according to dis-
+tribution 6,. Clearly, one of the important steps is the estimation method for finding 6y.
+Keyword-based language modeling approaches primarily define the probability distribution
+based on the exact match of terms in the query and those in the documents as well as the
+collection of documents [32,40]. For example, the multinomial unigram language model, one
+of the most commonly used keyword-based methods, uses a multinomial distribution over
+words for estimating document language models. In contrast, our language model estimates
+the probability distribution based on semantic relatedness between concepts recognized in
+queries and documents.
+
+3.2 The SELM model
+
+Based on the language modeling approach to information retrieval, we assume that a query
+q is generated from a document d by the probabilistic model 67. Here we are interested in
+estimating P(q|6,) for the purpose of scoring and ranking d. SELM provides an estimation
+for 6a = {P(gild) }ie|1,)Q|), where P (q;|d) is the probability of query q; and Q is the set of all
+query units. We ensure that }°. ujol ?(@ild) = 1. Inestimating the probability distribution,
+we adopt an undirected graphical model for calculating the conditional probability of a set
+of target variables, given the set of observed variables. In the context of our model, concepts
+of the query are modeled as the target variables and concepts of the document are modeled
+as the set of observed variables.
+
+Our undirected graphical model is similar to CRFs that have been previously applied
+to different information retrieval tasks. In work such as [29], CRFs are used for modeling
+sequential data. In these works, it is assumed that the output is a sequence of labels, and input
+variables and their dependencies form a chain. In [38,39], CRFs are used as a method for
+combining a diverse set of features. The challenging aspect of existing work is to efficiently
+
+ 
+
+2 P(d) is used in some retrieval methods for modeling document-specific criteria such as authority.
+
+a Springer

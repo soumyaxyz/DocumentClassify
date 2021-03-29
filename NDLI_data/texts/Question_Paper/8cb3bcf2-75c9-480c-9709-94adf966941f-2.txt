@@ -1,0 +1,66 @@
+Lh
+
+12,
+
+13.
+
+14.
+
+15.
+
+(a)
+
+(b)
+(a)
+
+(b)
+(a)
+
+(b)
+(a)
+
+(b)
+(a)
+
+PART B — (5 x 5 = 25)
+Answer ALL questions.
+Discuss the functions of networking models.
+Or
+Explain TCP/IP model.
+Write a note on user datagram protocol.
+
+Or
+Write a note on HTTP.
+
+Describe the purpose of IP addressing.
+
+Or
+
+What are the rules for network ID?
+
+Explain public and private IP address.
+Or
+
+Discuss about routing tables.
+
+Give a brief note on proxy ARP.
+
+Or
+
+Explain how packets travel from network to
+network.
+
+16.
+17.
+18.
+19.
+20.
+
+- PART C — (3 x 10 = 30)
+Answer any THREE questions.
+Explain OSI model.
+Discuss about Internet message access protocol.
+Explain the rules for Host IDS.
+Give a detail note on subnet.
+
+Write an example for simple network.

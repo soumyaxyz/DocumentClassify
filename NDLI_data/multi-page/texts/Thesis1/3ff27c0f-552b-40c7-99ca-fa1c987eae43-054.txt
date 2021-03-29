@@ -1,0 +1,55 @@
+Chapter 1: Preliminaries 42
+
+ 
+
+Therefore, one has II;(b*)is(b) = 0, and hence i7(b*b) = i7(Ayz, (a)) = 0. It thus follows
+that I(i(A,,(a))) = 0, which implies i(A;,(a)) = 0. But the faithfulness of h means
+that 7 is one one, hence A;7,(a) = 0 for all n. Thus, recalling Lemma 1.3.12, we have
+
+ 
+
+ 
+
+ 
+
+a= lino f, (a) = 0, which proves the faithfulness of h,.
+
+At this point, we note a useful implication of the Lemma 1.3.10. Let us make use o
+
+ 
+
+the identification of Qo as a common vector-subspace of all Q;. To be precise, we shal
+
+sometimes denote this identification map from Qo to QF by py.
+
+Corollary 1.3.14. Let W be a finite-dimensional (say, n-dimensional) unitary repre-
+sentation of Q, with Ww belonging to M;(C)® Qo be the corresponding unitary. Then, for
+any J, we have that Wy = (id@py)(W) is unitary in Q;, giving a unitary n-dimensional
+representation of Q7. In other words, any finite dimensional unitary representation of
+
+QO is also a unitary representation of Oy:
+
+Proof:
+Since the coalgebra structures of Q and Q 7 are identical, and Wy is identical with WwW
+as a linear map, it is obvious that W, gives a nondegenerate representation of Q;.
+Let y = (id ® h)(W3W,). It follows from the proof of Proposition 6.4 of [41] that y is
+invertible positive element of M,, and (y2 @1l)Wy(y72 ®1) gives a unitary representation
+of Q;. We claim that y = 1, which will complete the proof of the corollary. For
+convenience, let us write W in the Sweedler notation: W = wi) ® wi). We note that
+
+by Lemma 1.3.10, we have
+
+(id @ h)(W3W,)
+= waywayh(wey x 7 way)
+
+= Wy wayh(w(a)wW2))
+= (id@h)(W*W) = (id@h)(1@1)=1.
+
+Example The Rieffel deformed orthogonal groups
+
+Let 6 be an X n skew symmetric matrix. C(T”) sits inside C(O(n)) as a quantum
+subgroup. It can be easily seen that Og(n) is obtained by Rieffel deformation from
+C(O(n)) by using the induced R?” action as given in the equation ( 1.3.8 ) and consid-
+ering the matrix J =—J®J when n is even and —J' ® J’ when n is odd where J and
+
+J’ are the matrices introduced while giving the definition of the @ deformed spheres.

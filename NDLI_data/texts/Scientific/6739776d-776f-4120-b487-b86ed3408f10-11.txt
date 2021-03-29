@@ -1,0 +1,66 @@
+Kingma, Diederik P. and Ba, Jimmy. Adam: A method for stochastic optimization. arXiv preprint
+arXiv: 1412.6980, abs/1412.6980, 2014.
+
+Krishna, Ranjay, Zhu, Yuke, Groth, Oliver, Johnson, Justin, Hata, Kenji, Kravitz, Joshua, Chen,
+Stephanie, Kalantidis, Yannis, Li, Li-Jia, Shamma, David A, et al. Visual genome: Connecting
+language and vision using crowdsourced dense image annotations. International Journal of
+Computer Vision, 123(1):32-73, 2017.
+
+Lafferty, J., McCallum, A., and Pereira, F. Conditional random fields: Probabilistic models for
+segmenting and labeling sequence data. In Proceedings of the 18th International Conference on
+Machine Learning, pp. 282-289, 2001.
+
+Liao, Wentong, Yang, Michael Ying, Ackermann, Hanno, and Rosenhahn, Bodo. On support relations
+and semantic scene graphs. arXiv preprint arXiv:1609.05834, 2016.
+
+Lin, Guosheng, Shen, Chunhua, Reid, Ian, and van den Hengel, Anton. Deeply learning the messages
+in message passing inference. In Advances in Neural Information Processing Systems, pp. 361-369,
+2015.
+
+Lu, Cewu, Krishna, Ranjay, Bernstein, Michael S., and Li, Fei-Fei. Visual relationship detection with
+language priors. In European Conf. Comput. Vision, pp. 852-869, 2016.
+
+Meshi, O., Sontag, D., Jaakkola, T., and Globerson, A. Learning efficiently with approximate
+inference via dual losses. In Proceedings of the 27th International Conference on Machine
+Learning, pp. 783-790, New York, NY, USA, 2010. ACM.
+
+Newell, Alejandro and Deng, Jia. Pixels to graphs by associative embedding. In Advances in Neural
+Information Processing Systems 30 (to appear), pp. 1172-1180. Curran Associates, Inc., 2017.
+
+Newell, Alejandro, Huang, Zhiao, and Deng, Jia. Associative embedding: End-to-end learning for
+joint detection and grouping. In Neural Inform. Process. Syst., pp. 2274-2284. Curran Associates,
+Inc., 2017.
+
+Pei, Wenzhe, Ge, Tao, and Chang, Baobao. An effective neural network model for graph-based de-
+pendency parsing. In Proceedings of the 53rd Annual Meeting of the Association for Computationa
+Linguistics, pp. 313-322, 2015.
+
+Plummer, Bryan A., Mallya, Arun, Cervantes, Christopher M., Hockenmaier, Julia, and Lazebnik,
+Svetlana. Phrase localization and visual relationship detection with comprehensive image-language
+cues. In JCCV, pp. 1946-1955, 2017.
+
+Raposo, David, Santoro, Adam, Barrett, David, Pascanu, Razvan, Lillicrap, Timothy, and Battaglia,
+Peter. Discovering objects and their relations from entangled scene representations. arXiv preprint
+arXiv: 1702.05068, 2017.
+
+Schwing, Alexander G and Urtasun, Raquel. Fully connected deep structured networks. ArXiv
+e-prints, 2015.
+
+Shelhamer, Evan, Long, Jonathan, and Darrell, Trevor. Fully convolutional networks for semantic
+segmentation. Proc. Conf. Comput. Vision Pattern Recognition, 39(4):640-651, 2017.
+
+Taskar, B., Guestrin, C., and Koller, D. Max margin Markov networks. In Thrun, S., Saul, L., and
+Schélkopf, B. (eds.), Advances in Neural Information Processing Systems 16, pp. 25-32. MIT
+Press, Cambridge, MA, 2004.
+
+Xu, Danfei, Zhu, Yuke, Choy, Christopher B., and Fei-Fei, Li. Scene Graph Generation by Iterative
+Message Passing. In Proc. Conf. Comput. Vision Pattern Recognition, pp. 3097-3106, 2017.
+
+Yang, Jianwei, Lu, Jiasen, Lee, Stefan, Batra, Dhruv, and Parikh, Devi. Graph R-CNN for scene
+graph generation. In European Conf. Comput. Vision, pp. 690-706, 2018.
+
+Zaheer, Manzil, Kottur, Satwik, Ravanbakhsh, Siamak, Poczos, Barnabas, Salakhutdinov, Ruslan R,
+and Smola, Alexander J. Deep sets. In Advances in Neural Information Processing Systems 30, pp.
+3394-3404. Curran Associates, Inc., 2017.
+
+11

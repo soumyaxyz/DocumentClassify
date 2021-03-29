@@ -1,0 +1,135 @@
+Lemma rank | Bandwidth | Queries/sec
+1 | 6.65 GB/s 6,073
+2 | 2.13 GB/s 2,641
+3 | 2.11 GB/s 2,201
+4 | 2.03 GB/s 2,107
+5 | 2.01 GB/s 2,088
+6 | 1.71 GB/s 2,036
+7 | 1.37 GB/s 1,817
+8 | 1.13 GB/s 1,509
+9 | 1.12 GB/s 1,495
+
+10 | 1.03 GB/s 1,471
+
+Figure 6. Query and bandwidth demands by top lemmas on distributed
+key-value store.
+
+other option is to perform the decompression, scanning, to-
+kenization, detection of lemma occurrences, and conversion
+to CFVs exactly once, and thereafter work with CFVs alone,
+distributed suitably across the cluster. (Whether CFVs are
+instantiated to disk or not is a finer detail, depending on
+how disambiguation tasks are scheduled.) In this section,
+preparatory to applying MR (Section 5), we will evaluate and
+establish that the CFV scattering protocol is practical.
+
+Each CFV initially has a key @, its lemma ID. In the most
+general setting, the system installs a disambiguator for each
+lemma @ at one or more hosts, and CFVs keyed on ¢ are
+communicated over the network to one of these hosts, to get
+disambiguated. Different lemmas are encountered at diverse
+rates in the corpus. E.g., “John Smith” is far more frequent
+than “Apostoulos Gerasoulis”. To address this skew, we may
+choose to more aggressively replicate My for frequent ¢ to
+more hosts than rarer lemmas.
+
+4.1. The global CFV shuffle
+
+Consider all CFVs destined to one host. One option is to
+process them in the arbitrary order in which they are received,
+avoiding a per-host sort. In this case, as we disambiguate CFVs
+one by one, any CFV may call upon any Mp, and this would
+have to be loaded from disk. If we overflow RAM, some
+other Ms will need to be discarded. We can set up a suitable
+caching protocol to make it more likely that a demanded My
+is found in RAM when needed. Section 3.4 hints that this
+strategy may not succeed.
+
+The alternative is to invest time up-front to sort the incoming
+CFVs by key @. The collection of all CFVs sent to a host
+will usually be large and disk-resident, so actual data (and
+not just an indirection array of keys) reorganization will be
+involved in the sort. However, the benefit is that CFVs will
+now be processed at each host in lemma order. All work for
+one lemma will be completed before moving on to the next, so
+only one M; needs to be in RAM at any time. Thus, our RAM
+requirement per host will be essentially negligible (beyond the
+lemma dictionary, usually stored in RAM as a trie).
+
+Summarizing the design discussion up to now,
+
+1) documents are scanned and a sequence of CFVs in no
+particular @ order are emitted from each host,
+
+2) these CFVs are reshuffled through all-to-all communi-
+cation,
+
+3) all CFVs sent to a destination host are sorted by @,
+
+4) each host loads in sequence a (sub)set of Ms, and
+completes disambiguation for all CFVs with key @ in
+
+one chunk.
+Compressed corpus size per document 3KB
+Size of CFVs emitted per document 11.8KB
+Time to convert document into CFVs 17 ms/doc
+
+ 
+
+Minimum ambiguity of a lemma 2
+
+Maximum ambiguity of a lemma 742
+Minimum number of CFVs for a lemma | 1
+
+Maximum number of CFVs for a lemma | 23.42 million
+Minimum work for a lemma 0.6 ms
+Maximum work for a lemma 14h 12m
+
+ 
+
+ 
+
+ 
+
+Figure 7. CFV statistics.
+
+4.2. Preliminary measurements
+
+Figure 7 shows some key statistics about CFVs. Generating
+CFVs from documents takes about half the time as disam-
+biguating them. However, a 3 KB compressed document blows
+up to almost four times that size in CFVs. Therefore we
+also need to estimate the time taken to communicate CFVs
+across the cluster, and make sure the communication time
+does not dominate computation time. Our final system sends
+and receives a total of about 24GB per host, which (even if
+not overlapped with computation) takes about 33 minutes in
+parallel, which is small compared to overall job time.
+
+1000
+
+100 +
+
+Ambiguity
+R
+oO
+
+ 
+
+. +] ,—.
+
+1 100 10000 1000000
+Rank
+Figure 8. Distribution of ambiguity across lemmas.
+
+Figure 8 shows the distribution of the number of candidate
+entities (“ambiguity”) per lemma (which is highly skewed).
+Figure 9 shows the distribution of number of CFVs per lemma
+(which is again highly skewed). The total CPU work for a
+lemma is the product of the number of CFVs, and the time
+to process a CFV. We model the latter using the least-square
+linear regression
+
+time/CFV = 0.0044 - ambiguity + 0.045 qd)
+
+103

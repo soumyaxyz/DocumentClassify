@@ -1,0 +1,45 @@
+30 4. GALOIS COHOMOLOGY
+
+The algebra obtained in this proposition is denoted by [K,G,a]. Proposition 4.1.3
+provides a surjective map form Z?(G, K*) > Br(K/k) defined by at [K,G,a]. This
+map induces a group isomorphism of H?(G, K*) and Br(K/k).
+
+Let k bea field. We say k has cohomological dimension < 1 (written as cd(k) <
+1) if Br(/<) = 0 for every algebraic extension K of k. For k with cd(k) < 1, let L/K
+be a finite Galois extension with K algebraic over k, then the norm Nz x: L* + K*
+is surjective ({Se], Chapter II, Section 3.1, Proposition 5).
+
+A field k is a C field if every equation f(a1,...,2n) = 0, where f is a homogeneous
+polynomial of degree d > 1, with coefficients in k, has a nontrivial solution in k” if
+n>d. Let k be aC, field. Then every algebraic extension K of k is C, and cd(k) < 1
+({Se], Chapter II, Section 3.2, Corollary). A finite field, an extension of transcendence
+degree 1 of an algebraically closed field are examples of C; field. For the notion of C,
+fields see [Se], Chapter II, Section 4.5.
+
+4.2. Non-Commutative Cohomology
+
+Let G be a group and A a set on which G acts. We denote s(a) = *a for s € G and
+aé A. We call A a G-set. If A is a group and the action of G is via automorphisms
+then we say A is a G-group. We define cohomology groups as follows. Let A be a
+G-set. Then H°(G,A) = AG = {a € A| 8a =a Vs € G}, set of fixed points of A
+under the action of G.
+
+A map a: G = A is called a L-cocycle if
+Ast = As°a4 (5,t € G).
+
+Two 1-cocycles a and b are equivalent if there exists c € A such that b, = c71a,8c. This
+is an equivalence relation on the set of 1-cocycles and the quotient group is denoted as
+H'(G, A). The set H'(G, A) need not be a group but it has a distinguished element,
+namely, the class of 1-cocycles of the form b~!%b for b € A called the neutral element
+or trivial cocycle.
+
+If A is commutative group we can define higher cohomology groups as defined in
+Section 4.1.
+
+Example : Let K be a finite Galois extension of k with Galois group G =
+Gal(K/k). Let G act on the group GL,(K) entry wise. Then H°(G,GL,(K)) =
+GL,,(k) and H'(G,GL,(K)) = {1}.
+
+Let A be a G-group. A principal homogeneous space or torsor for G over A
+
+is a non-empty G-set P, on which A acts on the right (compatible with the action of

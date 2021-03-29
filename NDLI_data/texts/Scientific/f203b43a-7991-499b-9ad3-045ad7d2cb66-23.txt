@@ -1,0 +1,97 @@
+EIRINI PAPAGIANNOPOULOU AND GRIGORIOS TSOUMAKAS 23
+
+ 
+
+ 
+
+Semeval Krapivin NUS
+
+ 
+
+Methods Fi:@5 | F:@10 | F,;@5 | F,;@10 | Fi;@5 | F,@10
+
+ 
+
+KEA 0.025 | 0.026 | 0.110 | 0.152 | 0.069 | 0.084
+
+MAUI 0.044 | 0.039 | 0.249 | 0.216 | 0.249 | 0.268
+CopyRNN | 0.291 | 0.296 | 0.302 | 0.252 | 0.342 | 0.317
+CorrRNN 0.320 | 0.320 | 0.318 | 0.278 | 0.358 | 0.330
+
+RNN 0.157 | 0.124 | 0.135 | 0.088 | 0.169 | 0.127
+WINGNUS | 0.205 | 0.247 5 = 5 7
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+TABLE 4 Performance of supervised keyphrase extraction methods. There are no available results for WINGNUS
+regarding the Krapivin and NUS datasets in the scientific literature.
+
+3.5 | Subjectivity and Class Imbalance
+
+Unbalanced training data is a very common problem in supervised keyphrase extraction because candidate phrases
+that are not annotated by humans as keyphrases are consider as negative training examples. This problem occurs for
+many reasons (e.g., authors select as keyphrases those that promote their work in a particular way or those that are
+
+popular regarding concept drift etc.) which can be summarized into one, subjectivity. (2016) conduct an
+interesting study where they conclude that unlabeled keyphrase candidates are not reliable as negative examples.
+
+To deal with this problem,|Sterckx et al.
+labeled Learning based onjElkan and Noto
+
+ment and the candidate. Particularly, they try to model the annotations by multiple annotators and the uncertainty
+
+6} propose to treat supervised keyphrase extraction as Positive Un-
+
+  
+ 
+
+by assigning weights to training examples depending on the docu-
+
+of negative examples. Firstly, they train a classifier on a single annotator’s data and use the predictions on the nega-
+tive/unlabeled phrases as weights. Then, a second classifier is trained on the re-weighted data to predict a final rank-
+ing/labels of the candidates. It is worth to see in depth the process discussed above step by step. A weight equal to 1 is
+assigned to every positive example and the unlabeled examples are duplicated such that one copy is considered as posi-
+tive (weight w(x) = P(keyphrase|x, s = 0),s indicates whether x is labeled or not) and the other copy as negative (weight
+1 -— w(x)). According tofSterckx et al,|(2016], this weight is not just a factor of the prediction of the initial classifier as
+proposed in[ETkan and Noto] 2008}. Actually, they normalize the predictions and they include a measure for pairwise
+
+co-reference between unlabeled candidates and known keyphrases in a function Coref(candidate, keyphrase) € {0,1}
+
+returning 1 if one of the binary indicator features, presented in/Bengtson and Rot!
+
+ 
+
+8) is present.
+
+ 
+
+To sum up, the problem of subjectivity could be partially addressed using multiple annotators or treating super-
+
+vised keyphrase extraction as Positive Unlabeled Learning (Chuang et al.||2 bj/Sterckx et al.|/2016}. In this direc-
+
+tion,|Sterckx et al.
+
+tion methods, derived from various sources with multiple annotations. The golden set of keyphrases, which is utilized
+
+   
+
+ 
+
+8} propose as solution the creation of new collections for the evaluation of keyphrase extrac-
+
+for evaluation reasons, also incorporates subjectivity issues. Therefore, the need for reliable semantic evaluation ap-
+proaches is also evident. Although there is a variety of evaluation approaches in the keyphrase extraction task, the
+
+most preferred one is the more classic and strict exact (string) matching.

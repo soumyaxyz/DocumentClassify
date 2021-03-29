@@ -1,0 +1,47 @@
+REFERENCES REFERENCES
+
+ 
+
+Omohundro, $.M. (1989). Five balltree construction algorithms. Tech. Rep. TR-
+89-063, International Computer Science Institute. 194
+
+Ounis, I., Amati, G., Plachouras, V., He, B., Macdonald, C. & Lioma, C. (2006).
+Terrier: A high performance and scalable information retrieval platform. In
+Proceedings of ACM SIGIR 2006 Workshop on Open Source Information Re-
+trieval. 102
+
+Over, P. (1997). Trec-6 interactive report. In Proceedings of the 6th Text REtrieval
+Conference, 73-81, Gaithersburg, MD, USA. 75
+
+Over, P. (1998). Trec-7 interactive track report. In Proceedings of the 7th Text
+REtrieval Conference, 33-39, Gaithersburg, MD, USA. 75
+
+Page, L., Brin, S., Motwani, R. & Winograd, T. (1999). The PageRank citation
+ranking: Bringing order to the Web. Tech. Rep. 1999-66, Stanford InfoLab. 40
+
+Pant, G., Srinivasan, P. & Menczer, F. (2004). Crawling the Web. In M. Levene
+& A. Poulovassilis, eds., Web dynamics: Adapting to change in content, size,
+
+topology and use, Springer. 11
+
+Paramita, M.L., Tang, J. & Sanderson, M. (2009). Generic and spatial approaches
+to image search results diversification. In Proceedings of the 31st European
+Conference on IR Research on Advances in Information Retrieval, 603-610,
+
+Springer, Toulouse, France. 217
+
+Pearson, K. (1901). On lines and planes of closest fit to systems of points in space.
+Philosophical Magazine, 2, 559-572. 162, 200
+
+Peng, D. & Dabek, F. (2010). Large-scale incremental processing using distributed
+transactions and notifications. In Proceedings of the 9th USENIX Conference
+on Operating Systems Design and Implementation, 1-15, USENIX Association,
+
+Vancouver, BC, Canada. 14
+
+Peng, F., Ahmed, N., Li, X. & Lu, Y. (2007a). Context sensitive stemming for web
+search. In Proceedings of the 30th Annual International ACM SIGIR Confer-
+ence on Research and Development in Information Retrieval, 639-646, ACM,
+Amsterdam, The Netherlands. 15, 16
+
+245

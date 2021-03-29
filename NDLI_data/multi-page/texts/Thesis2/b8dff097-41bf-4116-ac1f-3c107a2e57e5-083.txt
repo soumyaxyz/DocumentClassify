@@ -1,0 +1,79 @@
+8.3. SL(3) CG 71
+
+Therefore, to fixes h(x) € Co and h(x) ¢ L, a contradiction. Hence any h € Aut(€),
+
+conjugating to to tj in G, leaves L invariant.
+
+ 
+
+ 
+
+ 
+
+ 
+
+From Theorem 7.1.2 it follows that if to is conjugate to tj’ in G(€/L) & SL(3) then
+
+to is strongly real. Hence we may assume that A is not real in SL(3).
+
+Theorem 8.3.2. With notation fired as above, let A be the matrix of to in SL(3).
+Let A be not real in SL(3). Then to is conjugate to ty' in G = Aut(€), if and only
+if A is conjugate to ‘A in SL(3).
+
+Proof. Let h € G be such that htgh7! = ty: In view of the lemma above, we have
+h(L) = L. We may, without loss of generality (up to conjugacy by an automorphism),
+
+assume that
+
+c=4( % © lla gekrwer$ withtb=4(% © \jagex
+w B 0 8
+
+By Proposition 3.2.3, h belongs to G(€/L) » H. Clearly h does not belong to G(€/L)
+since we have assumed A is not real in SL(3). Hence h = gp for some g € G(€/L). Let
+A denote the matrix of to on U in SL(3) and B that of g. Then, a direct computation
+
+gives,
+BA By
+htoh av) n
+
+w pb 'B A'Bw B
+and
+
+ifav a Atv
+
+ts = .
+
+w 6B Aw 6
+
+Therefore,
+
+htpyh' =tp' @ A= BAB.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Hence, to is conjugate to tg! in G(k) if and only if A is conjugate to ‘A in SL(3).
+
+Lemma 8.3.3. Let A be a matrix in SL(n) with its characteristic polynomial
+equal to its minimal polynomial. Then A is conjugate to ‘A in SL(n) if and only if A
+
+is a product of two symmetric matrices in SL(n).
+
+Proof. Any matrix conjugating A to 4 is necessarily symmetric ((TaZ], Theorem
+2). Let S be a symmetric matrix which conjugates A to Ain SL(n), ie, SAS! = 4.
+Let B= SA = ‘AS. Then B is symmetric and belongs to SL(n). Hence A = S~1B
+
+is a product of two symmetric matrices in SL(n). Conversely, let A be a product of
+
+ 
+
+ 
+
+ 
+
+two symmetric matrices from SL(n), say A = $1S. Then S conjugates A to 4.

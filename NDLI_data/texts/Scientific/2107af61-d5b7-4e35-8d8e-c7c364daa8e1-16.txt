@@ -1,0 +1,74 @@
+Preprint. Under review.
+
+ 
+
+performances of the algorithm on three out of five real world datasets. The property testing section
+(Section[6.2) shows empirically that the color scheme improves the expressiveness of CLIP.
+
+E.2 GRAPH PROPERTY TESTING
+
+ 
+
+In Section|6.2]we evaluate the expressive power of CLIP on benchmark synthetic datasets. Our goal
+is to show that CLIP is able to distinguish basic graph properties, where classical MPNN cannot. We
+considered a binary classification task and we constructed balanced synthetic dataset{!]for each of
+the examined graph properties. The 20-node graphs are generated using Erdés-Rényi model
+fand Rényi] [T959) (and its bipartite version for the bipartiteness) with different probabilities p for edge
+creation. All nodes share the same (scalar) attribute. We thus have uninformative feature vectors.
+
+In particular, we generated datasets for different classical tasks 2018): 1) connectivity,
+2) bipartiteness, 3) triangle-freeness, and 4) circular skip links (Murphy et al.|/2019). In the following,
+we present the generating protocol of the synthetic datasets and the experimentation setup we used
+for the experiments.
+
+ 
+
+Synthetic datasets:
+
+In every case of synthetic dataset we follow the same pattern: we generate a set of random graphs
+using Erdés-Rényi model, which contain a specific graph property and belong to the same class and
+by proper edge addition we remove this property, thus creating the second class of graphs. By this
+way, we assure that we do not change different structural characteristics other than the examined
+graph property.
+
+- Connectivity dataset: this dataset consists of 1000 (20-node) graphs with 500 positive samples
+and 500 negative ones. The positive samples correspond to disconnected graphs with two 10-node
+connected components selected among randomly generated graphs with an Erd6és-Rényi model
+probability of p = 0.5. We constructed negative samples by adding to positive samples a random
+edge between the two connected components.
+
+- Bipartiteness dataset: this dataset consists of 1000 (20-node) graphs with 500 positive samples
+and 500 negative ones. The positive samples correspond to bipartite graphs generated with an
+Erdés-Rényi (bipartite) model probability of p = 0.5. For the negative samples (non-bipartite
+graphs) we chose the positive samples and for each of them we added an edge between randomly
+selected nodes from the same partition, in order to form odd cyclesP|
+
+- Triangle-freeness dataset: this dataset consists of 1000 (20-node) graphs with 500 positive
+samples and 500 negative ones. The positive samples correspond to triangle-free graphs selected
+among randomly generated graphs with an Erdés-Rényi model probability of p = 0.1. We
+constructed negative samples by randomly adding new edges to positive samples until it creates at
+least one triangle.
+
+- Circular skip links: this dataset consists of 150 graphs of 41 nodes as described in
+{2019}(Chen et al.||2019). The Circular Skip Links graphs are undirected regular graphs with node
+degree 4. We denote a Circular skip link graph by G’,,;, an undirected graph of n nodes, where
+(i,j) € E holds if and only if | — j| = 1 or k( mod n) This is a 10-class multiclass classification
+task whose objective is to classify each graph according to its isomorphism class.
+
+Experimentation protocol: We evaluate the different configurations of CLIP and its competitors
+GIN and RP-GIN based on their hyper-parameters. For the architecture implementation of the GIN,
+we followed the best performing architecture, presented in (2019). In particular, we used
+the summation as the aggregation operator, MLPs as the combination level for the node embedding
+generation and the sum operator for the readout function along with its refined version of concatenated
+graph representations across all iterations/layers of GIN, as described in[Xu et al] ;
+
+In all the tested configurations for CLIP and its competitors (GIN, RP-GIN) we fixed the number of
+layers of the MLPs and the learning rate: we chose 2-layer MLPs and we used the Adam optimizer
+with initial learning rate of 0.001 along with a scheduler decaying the learning rate by 0.5 every 50
+epochs. Concerning the other hyper-parameters, we optimized: the number of hidden units within
+{16, 32, 64} (except for the CSL task where we only use 16 hidden units to be fair w.r.t. RP-GIN
+
+'The datasets are available upon request.
+"Having an odd cycle ina graph makes the graph non bipartite.
+
+16

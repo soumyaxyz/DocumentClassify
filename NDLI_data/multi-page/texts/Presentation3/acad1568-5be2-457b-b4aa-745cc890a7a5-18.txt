@@ -1,0 +1,35 @@
+How BI?
+
+IT Department Business Users
+
+Source Systems
+
+ORDERS Data Warehouse
+
+BI Tools
+
+*Report
+
+OU (eV)
+are lahiie) gual *Analyze
+
+eLoad Alert
+
+*Extract
+
+ 
+
+Web Clicks
+
+  
+    
+
+External
+Data
+
+ 
+
+  
+
+Analytic Applications
+(Product Profitability, Workforce Planning, CRM)

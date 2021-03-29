@@ -1,0 +1,13 @@
+Contents
+
+ 
+
+LI Some special kinds of queues
+LI Deque
+
+LI Priority Queue
+
+LI Double Ended Priority Queue
+LI Applications of Priority Queues
+
+UI Applications of Queues

@@ -1,0 +1,13 @@
+CRYPTOGRAPHIC AND
+COMBINATORIAL PROPERTIES
+OF BOOLEAN FUNCTIONS AND
+
+S-BOXES
+
+Thesis submitted to Indian Statistical Institute
+
+by
+Kishan Chand Gupta
+Applied Statistics Unit
+Indian Statistical Institute
+2004

@@ -1,0 +1,60 @@
+arXiv:1907.03199v2 [cs.LG] 28 Jan 2020
+
+Published as a conference paper at ICLR 2020
+
+ 
+
+WHAT GRAPH NEURAL NETWORKS CANNOT LEARN:
+DEPTH VS WIDTH
+
+Andreas Loukas
+Ecole Polytechnique Fédérale Lausanne
+andreas.loukas@epfl.ch
+
+ABSTRACT
+
+This paper studies the expressive power of graph neural networks falling within the
+message-passing framework (GNNmp). Two results are presented. First, GNNmp
+are shown to be Turing universal under sufficient conditions on their depth, width,
+node attributes, and layer expressiveness. Second, it is discovered that GNNnp can
+lose a significant portion of their power when their depth and width is restricted.
+The proposed impossibility statements stem from a new technique that enables
+the repurposing of seminal results from distributed computing and leads to lower
+bounds for an array of decision, optimization, and estimation problems involving
+graphs. Strikingly, several of these problems are deemed impossible unless the
+product of a GNNmp’s depth and width exceeds a polynomial of the graph size;
+this dependence remains significant even for tasks that appear simple or when
+considering approximation.
+
+1 INTRODUCTION
+
+A fundamental question in machine learning is to determine what a model can and cannot learn.
+In deep learning, there has been significant research effort in establishing positive results for feed-
+forward (Cybenko] and recurrent neural networks (Neto|
+et al.|[1997), as well as more recently for Transformers and Neural GPUs
+
+We have also seen the first results studying the universality of graph neural networks, i.e., neural
+networks that take graphs as input. (2019b) derived a universal approximation theorem
+over invariant functions targeted towards deep networks whose layers are linear and equivariant to
+permutation of their input. Universality was also shown for equivariant functions and a particular
+
+shallow architecture (Keriven & Peyré||2019).
+
+Universality statements allow us to grasp the expressive power of models in the limit. In theory, given
+enough data and the right training procedure, a universal network will be able to solve any task that it
+is presented with. Nevertheless, the insight brought by such results can also be limited. Knowing that
+a sufficiently large network can be used to solve any problem does not reveal much about how neural
+networks should be designed in practice. It also cannot guarantee that said network will be able to
+solve a given task given a particular training procedure, such as stochastic gradient descent.
+
+On the other hand, it might be easier to obtain insights about models by studying their limitations.
+After all, the knowledge of what cannot be computed (and thus learned) by a network of specific
+characteristics applies independently of the training procedure. Further, by helping us comprehend
+the difficulty of a task in relation to a model, impossibility results can yield practical advice on how
+to select model hyperparameters. Take, for instance, the problem of graph classification. Training a
+graph classifier entails identifying what constitutes a class, i.e., finding properties shared by graphs in
+one class but not the other, and then deciding whether new graphs abide to said learned properties.
+However, if the aforementioned decision problem is shown to be impossible by a graph neural
+network of certain depth then we can be certain that the same network will not learn how to classify a
+sufficiently diverse test set correctly, independently of which learning algorithm is employed. We
+should, therefore, focus on networks deeper that the lower bound when performing experiments.

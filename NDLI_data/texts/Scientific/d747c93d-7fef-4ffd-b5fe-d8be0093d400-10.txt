@@ -1,0 +1,133 @@
+Felix A Gers and E Schmidhuber. 2001. Lstm recur-
+rent networks learn simple context-free and context-
+sensitive languages. [EEE Transactions on Neural
+Networks 12(6):1333-1340.
+
+Sujatha Das Gollapalli and Cornelia Caragea. 2014.
+Extracting keyphrases from research papers us-
+ing citation networks. In Proceedings of the
+Twenty-Eighth AAAI Conference on Artificial Intel-
+ligence. AAAI Press, AAAT’14, pages 1629-1635.
+
+http://dl.acm.org/citation.cfm?id=2892753.2892779.
+
+Maria Grineva, Maxim Grinev, and Dmitry Lizorkin.
+2009. Extracting key terms from noisy and multi-
+theme documents. In Proceedings of the 18th In-
+ternational Conference on World Wide Web. ACM,
+New York, NY, USA, WWW ’09, pages 661-670.
+https://doi.org/10.1145/1526709.1526798.
+
+Jiatao Gu, Zhengdong Lu, Hang Li, and Victor OK
+Li. 2016. Incorporating copying mechanism in
+sequence-to-sequence learning. arXiv preprint
+arXiv: 1603.06393 .
+
+Shuguang Han, Daqing He, Jiepu Jiang, and Zhen Yue.
+2013. Supporting exploratory people search: a study
+of factor transparency and user control. In Pro-
+ceedings of the 22nd ACM international conference
+on Information & Knowledge Management. ACM,
+pages 449-458.
+
+Kazi Saidul Hasan and Vincent Ng. 2010. Conundrums
+in unsupervised keyphrase extraction: making sense
+of the state-of-the-art. In Proceedings of the 23rd In-
+ternational Conference on Computational Linguis-
+tics: Posters. Association for Computational Lin-
+guistics, pages 365-373.
+
+Sepp Hochreiter and Jiirgen Schmidhuber. 1997.
+Long short-term memory. Neural computation
+9(8):1735-1780.
+
+Anette Hulth. 2003. Improved automatic keyword ex-
+traction given more linguistic knowledge. In Pro-
+ceedings of the 2003 conference on Empirical meth-
+ods in natural language processing. Association for
+Computational Linguistics, pages 216-223.
+
+Anette Hulth and Beata B Megyesi. 2006. A study
+on automatically extracted keywords in text catego-
+rization. In Proceedings of the 21st International
+Conference on Computational Linguistics and the
+44th annual meeting of the Association for Compu-
+tational Linguistics. Association for Computational
+Linguistics, pages 537-544.
+
+Steve Jones and Mark S Staveley. 1999.  Phrasier:
+a system for interactive document retrieval using
+keyphrases. In Proceedings of the 22nd annual in-
+ternational ACM SIGIR conference on Research and
+development in information retrieval. ACM, pages
+160-167.
+
+Daniel Kelleher and Saturnino Luz. 2005. Automatic
+hypertext keyphrase detection. In Proceedings of
+the 19th International Joint Conference on Artificial
+
+Intelligence. Morgan Kaufmann Publishers Inc., San
+Francisco, CA, USA, UCAI’05, pages 1608-1609.
+http://dl.acm.org/citation.cfm?id=1642293.1642576.
+
+Su Nam Kim, Olena Medelyan, Min-Yen Kan, and
+Timothy Baldwin. 2010. Semeval-2010 task 5: Au-
+tomatic keyphrase extraction from scientific articles.
+In Proceedings of the 5th International Workshop
+on Semantic Evaluation. Association for Computa-
+tional Linguistics, pages 21-26.
+
+Diederik Kingma and Jimmy Ba. 2014. Adam: A
+method for stochastic optimization. arXiv preprint
+arXiv: 1412.6980 .
+
+Mikalai Krapivin, Aliaksandr Autayeu, and Maur-
+izio Marchese. 2008. Large dataset for keyphrases
+extraction. Technical Report DISI-09-055, DISI,
+Trento, Italy.
+
+Tho Thi Ngoc Le, Minh Le Nguyen, and Akira Shi-
+mazu. 2016. Unsupervised Keyphrase Extraction:
+Introducing New Kinds of Words to Keyphrases,
+Springer International Publishing, Cham, pages
+665-671.
+
+Zhiyuan Liu, Xinxiong Chen, Yabin Zheng, and
+Maosong Sun. 2011. Automatic keyphrase extrac-
+tion by bridging vocabulary gap. In Proceedings of
+the Fifteenth Conference on Computational Natural
+Language Learning. Association for Computational
+Linguistics, pages 135-144.
+
+Zhiyuan Liu, Wenyi Huang, Yabin Zheng, and
+Maosong Sun. 2010. Automatic keyphrase extrac-
+tion via topic decomposition. In Proceedings of
+the 2010 conference on empirical methods in nat-
+ural language processing. Association for Compu-
+tational Linguistics, pages 366-376.
+
+Zhiyuan Liu, Peng Li, Yabin Zheng, and Maosong
+Sun. 2009. Clustering to find exemplar terms for
+keyphrase extraction. In Proceedings of the 2009
+Conference on Empirical Methods in Natural Lan-
+guage Processing: Volume 1-Volume 1. Association
+for Computational Linguistics, pages 257-266.
+
+Patrice Lopez and Laurent Romary. 2010. Humb:
+Automatic key term extraction from scientific
+articles in grobid. In Proceedings of the 5th
+International Workshop on Semantic Evaluation.
+Association for Computational Linguistics, Strouds-
+burg, PA, USA, SemEval °10, pages 248-251.
+http://dl.acm.org/citation.cfm?id=1859664.1859719.
+
+Sumit Chopra Marc’ Aurelio Ranzato, Michael Auli,
+and Wojciech Zaremba. 2016. Sequence level train-
+ing with recurrent neural networks. JCLR, San Juan,
+Puerto Rico .
+
+Yutaka Matsuo and Mitsuru Ishizuka. 2004. Key-
+word extraction from a single document using word
+co-occurrence statistical information. Jnternational
+Journal on Artificial Intelligence Tools 13(01):157—
+169.

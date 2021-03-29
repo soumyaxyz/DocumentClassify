@@ -1,0 +1,73 @@
+10.
+
+bh.
+
+12.
+
+13.
+
+14,
+
+How is the resolution of the dot matrix printer is
+measured?
+
+Name any two possible problem in a laser printer.
+
+PART B — (5 x 5 = 25)
+Answer ALL questions.
+
+(a) Give an overview of CPU family.
+Or
+
+(b) Give a brief history of IBM.PC.
+
+(a) Write a short note on daughter board.
+Or
+
+(b) Write a short note on ISA and PCI buses.
+
+(a) Draw a diagram for serial port and explain
+about its operation.
+
+Or
+
+(b) Explain the operation of printer port.
+
+(a) Describe about the operation of mouse.
+Or
+
+(b) Write a short note on Modem.
+
+15.
+
+16.
+
+Ae:
+
+18.
+
+19.
+
+20.
+
+(a) Give an overview for printer maintenance,
+Or
+
+(b) Discuss about PC handling techniques.
+
+PART C — (3 x 10 = 30)
+Answer any THREE questions.
+
+Describe in detail about the operation of CPU.
+
+Explain the working principle of SMPS with a
+suitable diagram.
+
+Draw the functional black diagram of hard disk
+drive and explain its operation.
+
+Explain the operation of keyboard with neat
+diagram.
+
+Explain in detail about the working of laser
+printer.

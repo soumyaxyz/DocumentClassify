@@ -1,0 +1,61 @@
+15 Quantum Groups
+
+ 
+
+Let E and F be two Hilbert A modules. We say that a C linear map L from EF to F is
+adjointable if there exists a C linear map L* from F to E such that (L(x), y) = (x, L*(y))
+for all « in E, y in F. We call L* the adjoint of L. The set of all adjointable maps
+from E to F is denoted by L(E, F). In case, E = F, we write £(E) for £(E, E). For
+an adjointable map L, both L and L* are automatically A-linear and norm bounded
+maps between Banach spaces. We say that an element L in £(E, F) is an isometry if
+(La, Ly) = (x,y) for all x,y in E. L is said to be a unitary if L is isometry and its range
+is the whole of F. One defines a norm on £(E, F’) by ||Ll| = supzer, jjeij<1 ||E(@)|| - £(Z)
+is a C* algebra with this norm.
+
+There is a topology on L(E,F) given by a family of seminorms {]].||
+EB, y © F} ( where |lt||, = (ez, tx) 2 (ty.ty)?|
+topology. For « in E, y in F, we denote by 6, the element of £(E,F') defined by
+
+ally +2 €
+
+ 
+
+ 
+
+ 
+
+ 
+
+and ||¢||, = | ) known as the strict
+Ox,y(z) = y (a, 2) ( where z is in E ). The norm closure ( in L(E,F) ) of the A linear
+span of {6 : 2 € E, y € F} is called the set of compact operators and denoted
+by K(£,F) and we denote K(E,E) by K(E). These are not necessarily compact in
+the sense of compact operators between two Banach spaces. One has the following
+
+important result:
+
+Proposition 1.1.10. The multiplier algebra M(K(E)) of K(E) is isomorphic with
+L(E) for any Hilbert module E.
+
+Using this, for a possibly non-unital C* algebra B, we often identify an element V of
+M(K(H) ® B) with the map from H to H ® B which sends a vector € of H to V(E@ 1g)
+nH®B.
+
+Given a Hilbert space H and a C* algebra A, and a unitary element U of M(K(H) ®
+A), we shall denote by ay(= ady) the *-homomorphism ay(X) = U(X ® 1)U0* for
+X belonging to B(H). For a not necessarily bounded, densely defined (in the weak
+operator topology) linear functional 7 on B(H), we say that ay preserves 7 if ay maps
+a suitable (weakly) dense *-subalgebra (say D) in the domain of 7 into D @a1g A and
+(7 ® id)(ay(x)) = 7r(x).1,4 for all e in D. When 7 is bounded and normal, this is
+equivalent to (7 @ id)(ay(x)) = r(x)1, for all x belonging to B(H).
+
+We say that a (possibly unbounded) operator T on H commutes with U if T @ I
+(with the natural domain) commutes with U. Sometimes such an operator will be called
+
+U-equivariant.
+
+1.2. Quantum Groups
+
+In this section, we will recall the basics of Hopf algebras and then define compact
+
+quantum groups ( as in [67], [66] ). After that, we will discuss a few examples of

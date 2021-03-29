@@ -1,0 +1,26 @@
+Studies on Public Key and Identity-Based Cryptographic
+Primitives
+
+Thesis submitted to the Indian Statistical Institute in partial fulfillment of the
+requirements for the award of the degree of Doctor of Philosophy
+
+by
+Mahabir Prasad Jhanwar
+C R Rao Advanced Institute of Mathematics, Statistics and Computer Science
+University of Hyderabad Campus
+Prof C R Rao Road, Gachibowli
+Hyderabad 500046
+INDIA
+
+e-mail: mahavir.jhawar@gmail.com
+
+under the supervision of
+
+Prof Rana Barua
+Theoretical Statistics and Mathematics Unit
+Indian Statistical Institute
+203, B.T. Road
+Kolkata 700108
+INDIA
+
+e-mail: ranaQisical.ac.in

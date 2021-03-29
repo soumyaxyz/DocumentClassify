@@ -1,0 +1,46 @@
+4. The xQuAD Framework
+
+ 
+
+The conditional independence assumption in Equation (4.4) has a subtle but
+important implication: it turns the computation of novelty from a direct compari-
+son between documents into an estimation of the marginal utility of any document
+satisfying each sub-query. In other words, instead of comparing a document d
+to all documents already selected in Dy, as implicit novelty-based diversification
+approaches would do (see Section 3.3.1), we estimate the utility of any document
+satisfying the sub-query s, as the probability that none of the already selected
+documents in D, satisfy this sub-query. Although we achieve the same goal of
+promoting novelty, we do so in a much more efficient way. In particular, our
+approach does not require looking up all the terms contained in all documents
+from the initial ranking R,, so as to enable their direct comparison. Instead, we
+just need to update the novelty estimation of a given sub-query, based on the es-
+timation of how much this sub-query is already covered by the documents in Dg.
+In contrast to implicit approaches, this estimation only incurs a few additional
+inverted file lookups for the documents matching each of the sub-query terms.
+
+In order to derive p(D,|q, s) in Equation (4.4), we make a second conditional
+independence assumption. In particular, we assume that the documents already
+selected in Dj are independently relevant to the sub-query s. This assumption
+seems reasonable, since novelty is estimated as the probability of the entire set
+D, (as opposed to any particular document in D,) not satisfying s. Lastly, for
+convenience, Equation (4.5) is derived into Equation (4.6), by replacing p(d;|q, s)
+with its complementary probability, subtracted from 1, i.e., 1 — p(dj|q,s). It is
+
+interesting to observe that this simple algebraic transformation emphasises the
+
+ 
+
+similarity of the probabilities p(d|q,s) and p(d;|q, s), which must be estimated as
+part of the computation of each document’s coverage and novelty, respectively.
+The derivation of xQuAD’s relevance and diversity components in Equa-
+tion (4.1) is further illustrated by the graphical models in Figures 4.3(a) and (b),
+respectively. Finally, by replacing Equation (4.6) into (4.1), the final diversifica-
+
+tion objective of xQuAD can be expressed according to:
+
+fequan (4:4, Da) = (1 — A) p(dla)
++AS° p(sla) p(dla.s) [] -pldjlas)). (4.7)
+
+seSq djEDg
+
+91

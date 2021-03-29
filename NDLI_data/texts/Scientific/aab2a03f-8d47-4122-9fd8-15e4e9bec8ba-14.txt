@@ -1,0 +1,166 @@
+B. Logic for the ‘Birds” Rulebase
+
+Sergot’s original logic!? for the “birds” rulebase is as follows
+(“not” denotes negation as failure, “—” denotes hard nega-
+tion):
+
+% Rules:
+
+% If someone is a bird and not abnormal then they can fly.
+
+can_fly(X) + bird(X), not abnormal _bird(X)
+
+% If someone is an ostrich then they are a bird.
+bird(X) < ostrich(X)
+
+% If someone is an ostrich then they are abnormal.
+abnormal_bird(X) < ostrich(X)
+
+% If someone is an ostrich then they cannot fly.
+acan_fly(X) + ostrich(X)
+% If someone is a bird and wounded
+
+% then they are abnormal.
+abnormal_bird(X) < bird(X), wounded(X)
+
+% If someone is wounded then they cannot fly.
+scan_fly(X) <- wounded(X)
+
+% And the following facts:
+
+% Arthur is a bird and not wounded.
+bird(arthur). swounded(arthur).
+
+% Bill is an ostrich.
+ostrich(bill).
+
+% Colin is a bird and wounded.
+bird(colin). wounded(colin).
+
+% Dave is not an ostrich and wounded.
+sostrich(dave). wounded(dave).
+
+C. The “Electricity” Rulebases
+
+The four electricity rulebases, and the scenario vocabularies,
+exactly as provided to the model, are shown below:
+
+C.1 Electricity1
+
+Rulebase
+
+If a circuit has a switch and the switch is on then the circuit is
+complete.
+
+If a circuit does not have a switch then the circuit is complete.
+If a circuit is complete and the circuit has a light bulb then the
+light bulb is glowing.
+
+If a circuit is complete and the circuit has a bell then the bell
+is ringing.
+
+If a circuit is complete and the circuit has a radio then the
+radio is playing.
+
+Scenario Generation
+
+A circuit has a switch. (included as a fact with p=0.5)
+
+A switch is on. (p=0.5)
+
+A circuit has a light bulb. | A circuit has a bell | A circuit
+has a radio. (select 1)
+
+Shttps://www.doc.ic .ac.uk/~mjs/teaching/KnowledgeRep49 1/
+ExtendedLP_491-2x1.pdf, p5
+
+C.2 Electricity2
+
+Rulebase
+
+If a circuit has a switch and the switch is on then the circuit is
+complete.
+
+If a circuit does not have a switch then the circuit is complete.
+If a circuit is complete then a current runs through the circuit.
+If a current runs through a circuit and the circuit has a light
+bulb then the light bulb is glowing.
+
+If a current runs through a circuit and the circuit has a bell
+then the bell is ringing.
+
+If a current runs through a circuit and the circuit has a radio
+then the radio is playing.
+
+Scenario Generation
+
+A circuit has a switch. (p=0.5)
+
+A switch is on. (p=0.5)
+
+A circuit has a light bulb. | A circuit has a bell | A circuit
+has a radio. (select 1 fact)
+
+C.3 Electricity3
+
+Rulebase
+
+If a circuit has a battery then the circuit is powered.
+
+If a circuit does not have a battery then the circuit is dead.
+
+If a circuit is dead then a bell is not ringing.
+
+If a circuit is dead then a radio is not playing.
+
+If a circuit is dead then a light bulb is not glowing.
+
+If a circuit has a switch and the switch is on then the circuit is
+complete.
+
+If a circuit does not have a switch then the circuit is complete.
+If a circuit is powered and the circuit is complete then a cur-
+rent runs through the circuit.
+
+If a current runs through a circuit and the circuit has a light
+bulb then the light bulb is glowing.
+
+If a current runs through a circuit and the circuit has a bell
+then the bell is ringing.
+
+If a current runs through a circuit and the circuit has a radio
+then the radio is playing.
+
+Scenario Generation
+
+A circuit has a battery. (p=0.9)
+
+A circuit has a switch. (p=0.5)
+
+A switch is on. (p=0.5)
+
+A circuit has a light bulb. | A circuit has a bell | A circuit
+has a radio. (select 1)
+
+C.4 Electricity4
+
+Rulebase
+
+If a circuit includes a battery and the battery is not flat then
+the circuit is powered.
+
+If a circuit includes a switch and the switch is on then the cir-
+cuit is complete.
+
+If a circuit does not include a switch then the circuit is com-
+plete.
+
+If a wire is metal then the wire is conducting.
+
+If a wire is plastic then the wire is not conducting.
+
+If a circuit is powered and the circuit is complete and a wire
+is conducting then a current runs through the circuit.
+
+If a current runs through a circuit and the circuit includes a
+light bulb then the current runs through the light bulb.

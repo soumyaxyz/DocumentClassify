@@ -1,0 +1,129 @@
+3.3. Caching disambiguation models
+
+Not only do lemma models have diverse and highly skewed
+sizes, but the rates at which lemmas are encountered while
+scanning the corpus are also highly skewed [2]. This raises the
+hope that good hit rates and fast annotation may be achieved by
+maintaining a cache of lemma models within limited RAM,
+with a suitable model eviction policy such as least recently
+used (LRU) and least frequently used (LFU). However, one
+potential problem with caching is RAM fragmentation. In
+earlier work [2], models for all lemmas were carefully packed
+and compressed into one RAM buffer. Shattering that buffer
+into individual lemma models of diverse sizes, and repeatedly
+loading and unloading them from RAM, may cause intolerable
+stress on the memory manager and garbage collector of the
+JVM.
+
+30 4
+
+25 4
+
+——LRU
+LFU
+
+Miss Rate (%)
+
+ 
+
+0 i rs ss |
+0 250 500 750 1000 1250
+Cache Size (MB)
+
+Figure 4. Cache miss rate vs. cache size.
+
+3.4. Caching performance
+
+Figure 4 shows miss rates for LFU and LRU as lemma
+model cache size is increased. LRU is superior. The absolute
+miss rates may look reasonably low (few percent). But this
+has to be reinterpreted in the light of the new application.
+Globally, about 284,000 CFVs are generated per second, about
+14,200 CFVs at each of 20 hosts, as the corpus is scanned,
+tokenized, and lemmas are matched. Even a 10% miss rate
+means 1,421 misses per second per host. Even leaving aside
+for a moment the issue of cache memory management in the
+JVM and attendant garbage collection (GC), a miss almost
+certainly results in a disk seek (because the OS cache is
+overwhelmed by corpus scan and later, index run write-outs),
+which, on commodity 7,200 rpm disks, can easily cost 10
+milliseconds. This makes miss servicing impossible even at
+10% miss rates.
+
+Figure 5 explores the sensitivity of the above findings to
+growth in the size of the model set. At a cache size of
+200-400 MB, misses per second per host can double if the
+number of models is quadrupled. Therefore, extending from
+Wikipedia to Freebase relying on a caching approach is out of
+
+1100 4
+
+ 
+
+ 
+
+1000
+900
+o 800 —e— 300%
+% 700 —%— 100%
+ss,
+3 600 3H 75%
+3 500 —*— 50%
+—E— 25%
++
+ss 400 —o— 11%
+3% 300
+os
+= 200
+v
+= 100
+0 Se
+
+0 250 500 750
+
+Cache Size (MB)
+
+1000 1250
+
+Figure 5. LRU miss rate change vs. percent increase in lemma model set.
+
+the question — a larger catalog and richer features will only
+make matters worse.
+
+Given the diverse sizes of models (Figure 1) loaded, evicted
+and reloaded, memory fragmentation and GC also presented
+insurmountable difficulties and led to impractical running
+times. Therefore we present just one data point: with 540 MB
+cache, the 54GB corpus took 7.6 hours, compared to about 6
+hours with bin packing given the same RAM.
+
+3.5. Distributed in-memory model storage
+
+At this point, our predictable reaction was to investigate
+the use of a distributed in-memory key-value store such as
+Memcached [20] or HBase [13] by storing lemma models into
+them (keyed by their ID), to see if we can avoid disk access
+on cache miss by converting it to an access over the network.
+Unless substantial tweaks (replication by hand, random key
+padding) are undertaken, only one host will handle request for
+a lemma key. Just to support the disambiguation of the most
+frequent lemma, the key-value store should be able to serve
+the corresponding model at the rate of 6.65 GB/s. Overall, to
+keep up with document scanning, tokenization, and detection
+of lemma matches, the key-value store should be capable of
+serving about 284,000 requests per second, involving about
+69GB of network transfer per second. (See Figure 6 for
+details.) These are all quite impractical on current commodity
+networks. Moreover, preliminary extrapolation suggests that
+quadrupling the number of lemma models will almost double
+the query bandwidth demanded from the key-value store.
+Therefore, matters will get much worse as we begin to
+recognize new lemmas from Freebase not currently in our
+catalog.
+
+4. SCATTERING CONTEXT FEATURE VECTORS
+
+Section 3 has made clear that retaining our earlier
+document-streaming form of annotation is not feasible. The
+
+102

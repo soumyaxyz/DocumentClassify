@@ -1,0 +1,46 @@
+Bibliography
+
+A] E. Artin, “Geometric algebra”, Reprint of the 1957 original, Wiley Classics Li-
+brary, A Wiley-Interscience Publication, John Wiley & Sons, Inc., New York,
+1988.
+
+B] N. Bourbaki, “Lie Groups and Lie Algebras”, Chapters 4 — 6, Springer-Verlag,
+2000.
+
+Bel] E. A. Bender, “Symmetric matrices, characteristic polynomials and Hilbert sym-
+bols over local number fields”, Bulletin of the American Mathematical Society
+79 (1973), 518-520.
+
+Be2] E. A. Bender, “Characteristic polynomial of symmetric matrices”, Pacific Jour-
+nal of Mathematics 25 No. 3 (1968), 433-441.
+
+Bo] A. Borel, “Linear algebraic groups”, GTM 126, Springer-Verlag, 1991.
+
+CF] J. W.S. Cassels and A. Frohlich (editor), “Algebraic number theory” Proceed-
+
+ings of an instructional conference organized by the London Mathematical So-
+
+ 
+
+ciety (a NATO Advanced Study Institute) with the support of the Inter na-
+tional Mathematical Union, Academic Press, London; Thompson Book Co., Inc.,
+Washington, D.C. 1967.
+
+[CR] B. Chang and R. Ree, “The characters of G2(q)”, Symposia Mathematica, Vol.
+XIII (Convegno di Gruppi e loro Rappresentazioni, INDAM, Rome,1972), Aca-
+demic Press, London, 1974, 395-413.
+
+[D] D. Z. Djokovié, “Product of two involutions”, Arch. Math. (Basel) 18 (1967),
+582-584.
+
+[Ei] S. Eilenberg, “On the problems of topology”, Ann. of Math. (2) 50 (1949),
+247-260.
+
+[Ell] Erich W. Ellers, “Products of two involutory matrices over skewfields”, Linear
+Algebra Appl. 26 (1979), 59-63.
+
+[E12] Erich W. Ellers, “Decomposition of orthogonal, symplectic, and unitary isome-
+tries into simple isometries”, Abh. Math. Sem. Univ. Hamburg 46 (1977), 97-
+127.
+
+99

@@ -1,0 +1,59 @@
+164 Bibliography
+
+22, and 30.)
+58] Cao, G., Nie, J.-Y., Gao, J., and Robertson, S. (2008). Selecting good expansion terms for
+pseudo-relevance feedback. In SIGIR ’08: Proceedings of the 31st annual international ACM SIGIR
+conference on Research and development in information retrieval, pages 243-250, New York, NY,
+USA. ACM. (Cited on Page 21.)
+59] Caracciolo, C., Euzenat, J., Hollink, L., Ichise, R., Isaac, A., Malaisé, V., Meilicke, C., Pane,
+J., , Shvaiko, P., Stuckenschmidt, H., Svab, O., and Svatek, V. (2008). Results of the ontology
+alignment evaluation initiative 2008. In The Third International Workshop on Ontology Matching
+at ISWC, pages 73-120. (Cited on Page 36.)
+60] Carpineto, C., de Mori, R., Romano, G., and Bigi, B. (2001). An information-theoretic approach
+to automatic query expansion. ACM Trans. Inf. Syst., 19(1), 1-27. (Cited on Pages 57 and 58.)
+61] Carterette, B., Allan, J., and Sitaraman, R. (2006). Minimal test collections for retrieval evalu-
+ation. In SIGIR ’06: Proceedings of the 29th annual international ACM SIGIR conference on Research
+and development in information retrieval, pages 268-275, New York, NY, USA. ACM. (Cited on
+Pages 41, 44, 48, 149, and 150.)
+62] Carterette, B., Pavlu, V., Kanoulas, E., Aslam, J. A., and Allan, J. (2008). Evaluation over thou-
+sands of queries. In SIGIR ’08: Proceedings of the 31st annual international ACM SIGIR conference
+on Research and development in information retrieval, pages 651-658, New York, NY, USA. ACM.
+(Cited on Pages 41, 43, 44, and 48.)
+63] Chelba, C. and Jelinek, F. (1998). Exploiting syntactic structure for language modeling. In
+ACL-36: Proceedings of the 36th Annual Meeting of the Association for Computational Linguistics and
+17th International Conference on Computational Linguistics, pages 225-231. (Cited on Page 14.)
+64] Chemudugunta, C., Holloway, A., Smyth, P., and Steyvers, M. (2008). Modeling documents by
+combining semantic concepts with unsupervised statistical learning. In ISWC ’08: Proceedings of
+the 7th International Semantic Web Conference, pages 229-244. (Cited on Page 37.)
+65] Chen, S. F. and Goodman, J. (1996). An empirical study of smoothing techniques for language
+modeling. In Proceedings of the 34th annual meeting on Association for Computational Linguis-
+tics, pages 310-318, Morristown, NJ, USA. Association for Computational Linguistics. (Cited on
+Page 16.)
+66] Chen, Y., Xue, G.-R., and Yu, Y. (2008). Advertising keyword suggestion based on concept
+hierarchy. In WSDM ’08: Proceedings of the international conference on Web search and web data
+mining, pages 251-260, New York, NY, USA. ACM. (Cited on Page 34.)
+67] Chung, Y. (2004). Optimization of some factors affecting the performance of query expansion.
+Information Processing and Management, 40(6), 891-917. (Cited on Page 30.)
+68] Church, K. W. and Gale, W. A. (1995). Inverse document frequency (IDF): A measure of devi-
+ations from poisson. In Proc. Third Workshop on Very Large Corpora, pages 121-130. (Cited on
+Page 121.)
+69] Cimiano, P., Schultz, A., Sizov, S., Sorg, P., and Staab, S. (2009). Explicit versus latent concept
+models for cross-language information retrieval. In IJCAI’09: Proceedings of the 21st international
+jont conference on Artifical intelligence, pages 1513-1518, San Francisco, CA, USA. Morgan Kauf-
+mann Publishers Inc. (Cited on Page 30.)
+70] Clarke, C., Cormack, G., Lynam, T., Buckley, C., and Harman, D. (2009). Swapping documents
+and terms. Information Retrieval, 12(6), 680-694. (Cited on Pages 67 and 69.)
+71] Clarke, C. L., Kolla, M., Cormack, G. V., Vechtomova, O., Ashkan, A., Biittcher, S., and MacKin-
+non, I. (2008). Novelty and diversity in information retrieval evaluation. In SIGIR ’08: Proceedings
+of the 31st annual international ACM SIGIR conference on Research and development in information
+retrieval, pages 659-666, New York, NY, USA. ACM. (Cited on Pages 43 and 44.)
+72] Clarke, C. L. A., Craswell, N., and Soboroff, I. (2010). Overview of the TREC 2009 web track.
+In [331]. (Cited on Page 47.)
+73] Clements, M., de Vries, A. P., and Reinders, M. J. T. (2010). The influence of personalization on
+tag query length in social media search. Information Processing and Management, 46(4), 403-412.
+(Cited on Page 20.)
+74] Cleverdon, C. W. (1966). The effect of variations in relevance assessments in comparative
+experimental tests of index languages. Technical Report 3, Cranfield Institute of Technology, UK.
+(Cited on Pages 2, 32, and 40.)
+75] Cleverdon, C. W., Mills, J., and Keen, M. (1966). Factors determining the performance of
+indexing systems. In ASLIB Cranfield project, Cranfield. (Cited on Pages 2 and 40.)

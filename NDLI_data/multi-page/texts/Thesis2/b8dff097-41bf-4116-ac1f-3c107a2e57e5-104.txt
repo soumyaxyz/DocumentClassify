@@ -1,0 +1,30 @@
+92 9. REALITY IN ALGEBRAIC GROUPS
+
+—lin W. That is, we have nosng | =s7! for alls € T. We claim that the coset noT
+is T-stable. We note that for ¢ €¢ P = Gal(k/k),
+
+a(no)sa(no)~* = (nga (s)ng!) = (a7 (s71)) = 8?
+
+for alls € T anda € T. Hence o(no) € N(T) also represents —1 in W. Thus we
+have o(no)T = noT and so ngo(no) € T.
+
+We look at the cocycle defined by o +> noa(no). Then the image of this cocycle
+lands in T. Since cd(k) < 1, from a theorem of Steinberg ([S1], Theorem 1.9) we have
+H'(k,T) =0 and hence the cocycle defined above is a trivial cocycle. That is, there
+exists tg € T such that noo(no) = toa(tg’) for all o € . This implies o(noto) = noto
+for allo € T and hence noto € G(k). We check that noto is an involution and
+
+conjugates every element of T to its inverse.
+
+(noto)? = Notonoto = toto = 1
+and
+
+notos(noto) > = notosty no = nosno = st.
+
+ 
+
+ 
+
+ 
+
+Hence every semisimple element of G(k) is real in G(k).

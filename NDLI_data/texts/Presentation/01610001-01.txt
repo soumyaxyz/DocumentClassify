@@ -1,0 +1,31 @@
+Tribological behaviour of natural fiber (luffa cylindrical)
+reinforced hybrid epoxy composite
+
+Dr S K Acharya,Professor
+&
+Niharika Mohanta (research scholar)
+Department of Mechanical Engineering, N I T Rourkela -769008 Orissa,
+India
+ABSTRACT
+
+Environmental awareness today is motivating the researchers worldwide on the
+studies of natural fibre reinforced polymer composite as cost effective option to synthetic
+fibre. The easy availability of natural fibres and manufacturing process have tempted
+researchers to try locally available inexpensive fibres and to study their feasibility of
+reinforcement purposes and to what extent they satisfy the required specifications of good
+reinforced polymer composite for tribological applications. With this background in this
+present work the effect of stacking sequence on erosive wear behaviour of untreated luffa
+cylindrica fibre and glass fabric reinforced epoxy hybrid composites has been investigated
+experimentally. Composite laminates were fabricated by hand lay-up technique. All the
+composites were made with a total of 4 plies, by varying the number and position of glass
+layers so as to obtain five different stacking sequences. The erosion rates of these composites
+have been evaluated at different impingement angles (30°,45°,60°,90°) and at four different
+particle speeds (v=48, 70, 82,109 m/s). Silica sand with size 200-250 um of irregular shapes
+is used as erodent. The impingement angle was found to have a significant influence on the
+erosion rate. The composite laminate showed semi ductile behaviour with maximum erosion
+at 45-60° impingement angles. The Factograpic analysis of the eroded surface was examined
+by SEM. From the study it is concluded that the erosive wear behaviour of natural fibre luffa-
+
+cylindrica can be improved significantly by hybridizing with synthetic fibre glass.
+
+Key Word: Natural fiber, Hybrid composite, Erosive wear, Semi ductile,SEM

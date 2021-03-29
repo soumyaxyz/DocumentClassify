@@ -1,0 +1,102 @@
+10.
+
+1GF
+
+12.
+
+13.
+
+14.
+
+What are user-defined functions?
+
+What is closing of a file?
+
+(a)
+
+(b)
+
+(a)
+
+(b)
+
+(a)
+
+(b)
+
+(a)
+
+(b)
+
+PART B — (5 x 5 = 25)
+Answer ALL questions.
+
+Realize AND, OR and NOT logic using NAND
+gate alone.
+
+Or
+
+With the help of a neat diagram discuss the
+working of a multiplexer.
+
+Explain about the various types of memories.
+Or
+
+Give a short note about optical disk and flash
+memory.
+
+What are the different types of plotters?
+Discuss their working principle.
+
+Or
+What is the function of a keyboard in a
+
+computer? What is a keyboard encoder?
+Explain.
+
+Illustrate the use of ternary operator.
+Or
+
+Differentiate between break and continue
+statements.
+
+15.
+
+16.
+
+Vs
+
+18.
+
+19.
+
+20.
+
+(a) Write a ‘C’ program to perform matrix
+multiplication.
+
+Or
+
+(b) What are various string handling functions
+available in ‘C’? Explain.
+
+PART C — (8 x 10 = 30)
+Answer any THREE questions.
+
+Using tabulation method, Simplify the following
+Boolean function
+
+F (x1, x2, x3, x4,x6, x6, x7)= > (28, 20, 60, 52).
+What is virtual memory? Why it is used? What
+replacement algorithms are used in virtual
+memory?
+
+Explain the different types of addressing modes
+with appropriate examples.
+
+Give the general form of while and do loops in ‘C’
+and bring out their differences and similiarities
+with suitable example.
+
+Explain the concept of structures with reference to
+the ‘C’ programming language.

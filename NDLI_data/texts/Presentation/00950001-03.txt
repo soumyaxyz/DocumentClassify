@@ -1,0 +1,16 @@
+“The power (in a set-theoretic sense) of our thinking and feeling is much
+higher than the power of living language. If in turn we compare the power of a
+living language with the logical language, then we will find that logic is even
+poorer.” — Zimmermann
+
+¢ Expressing any natural phenomenon by mathematical expressions does not
+always guarantee exact capturing of the phenomenon itself:
+
+¢ If any phenomenon, especially related to human decision making can be
+expressed linguistically chance of proper capturing of the phenomenon
+increases.
+
+* Fuzzy logic is a logic based on approximate reasoning and can be
+expressed linguistically to capture the inherent vagueness of human mind;
+thus, it can be applied to the areas which involve human decision making
+like supervision, monitoring, planning, scheduling etc.

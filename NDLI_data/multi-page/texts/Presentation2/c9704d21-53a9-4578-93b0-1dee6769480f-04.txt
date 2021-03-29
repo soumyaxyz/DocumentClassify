@@ -1,0 +1,30 @@
+Business Layer
+
+This layer consists of four components —
+
+1. Business requirements
+_ Ee BUSINESS VALUE
+
+¢ Business drivers cs
+
+* Business Goals ——
+
+¢ Business Strategies a
+2. Business Value TaROer aN
+
+DEVELOPMENT
+
+MANAGEMENT
+
+¢ Return on Investment
+
+¢ Return on Assest
+
+¢ Total Cost of Ownership
+¢ Total Value of Ownership
+
+ 
+
+3. Program Management
+
+4. Development

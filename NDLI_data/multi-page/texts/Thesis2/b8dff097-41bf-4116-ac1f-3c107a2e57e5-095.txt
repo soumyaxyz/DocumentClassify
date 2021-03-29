@@ -1,0 +1,59 @@
+8.5. CENTRALIZERS IN ANISOTROPIC G2 83
+
+discussed in previous paragraph and in Lemma 8.5.3 hence we assume that X — 1 is
+
+not a factor of y4(X). For other elements we have,
+
+Lemma 8.5.5. With notation as above, let t € G(€/L). Suppose 1 is not a root
+of xa(X). Then, Z(t) c G(€/L).
+
+Proof. Let t € G(€/L) be such that t does not fix any point in L+. Let g € Z(t)
+then g € G(€,L) & SU(L+,h)» < p > where p is an extension of conjugation on
+L (Proposition 3.2.5). We denote the matrix of t in SU(H) by A. Then, either
+g € SU(L+,b) or g = hp for some h € SU(L+,h). When g € SU(L+,h) we denote
+the matrix of g by C. Then g € Zc(t) implies AC = CA in SU(H). When g = hp
+we denote the matrix of h by B and we denote the action of p on elements of L by
+
+at a. Then,
+gt(aya + agb+a3c) = hpt(aya+agb+ a3c) = hp(a,Aa + a2Ab + a3Ac)
+= h(a@,Aa + Ab + @3Ac) = @,BAa + GB Ab + &3B Ac
+
+and
+
+ 
+
+tg(aya + agb+a3c) = thp(aiat agb + a3c) = th(aa + Gb + 3c)
+= t(a, Ba + Q2Bb + a3 Bc) = a, ABa + Q2ABb + a3ABc.
+
+As g € Z(t), above calculation implies AB = BA where B € SU(H). Suppose Zg(t)
+is not contained in G(€/L). Then there exist g = hp € G(€,L) such that gt = tg.
+With calculations above if we denote the matrix of h by B in SU(H), we get AB = BA
+in SU(H). In this case the characteristic polynomial y4(X) = X°— aX? +aX —-1
+will have a = @. But y4(X) = X?— aX? +aX —1=(X —-1)(X?4+(1—a)X +1) is
+reducible and A has 1 as an eigenvalue. Which contradicts the assumption that 1 is
+not a root of y4(X). Hence Z(t) C G(€/L).
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Remark 8.5.6. In view of above calculations we observe that the centralizer of
+t € G(€/L) in G is isomorphic to {B € SU(H) | AB = BA}U{Be SU(H) | AB=
+BA}.
+
+Let t € G(€/L) and let A € SU(H) be the corresponding matrix. Moreover we
+assume that 1 is not a root of y4(X). Let K be an algebraic closure of k containing
+L. As t is semisimple we have following cases:
+
+(1) The characteristic polynomial of A has distinct roots over Kk.
+(2) The characteristic polynomial of A has two distinct roots over K which
+
+belong to k.

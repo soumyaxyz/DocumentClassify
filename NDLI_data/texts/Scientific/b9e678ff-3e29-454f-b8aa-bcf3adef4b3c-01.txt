@@ -1,0 +1,133 @@
+Discovering Mathematical Objects of Interest—A Study of
+
+Mathematical Notations
+
+André Greiner-Petter
+University of Wuppertal
+Germany
+andre.greiner-petter@zbmath.org
+
+Corinna Breitinger
+University of Wuppertal and
+University of Konstanz
+Germany
+corinna.breitinger@uni-konstanz.de
+
+Moritz Schubotz
+FIZ-Karlsruhe and
+University of Wuppertal
+Germany
+moritz.schubotz@fiz-karlsruhe.de
+
+Howard S. Cohl
+Applied and Computational
+Mathematics Division, National
+Institute of Standards and Technology,
+Mission Viejo, California, U.S.A.
+howard.cohl@nist.gov
+
+Bela Gipp
+University of Wuppertal and
+University of Konstanz
+Germany
+gipp@uni-wuppertal.de
+
+Fabian Miiller
+FIZ-Karlsruhe
+Germany
+fabian.mueller@fiz-karlsruhe.de
+
+Akiko Aizawa
+National Institute of Informatics
+Japan
+aizawa@nii.ac.jp
+
+ABSTRACT
+
+Mathematical notation, i.e., the writing system used to communi-
+cate concepts in mathematics, encodes valuable information for
+a variety of information search and retrieval systems. Yet, math-
+ematical notations remain mostly unutilized by today’s systems.
+In this paper, we present the first in-depth study on the distribu-
+tions of mathematical notation in two large scientific corpora: the
+open access arXiv (2.5B mathematical objects) and the mathemati-
+cal reviewing service for pure and applied mathematics zDMATH
+(61M mathematical objects). Our study lays a foundation for future
+research projects on mathematical information retrieval for large
+scientific corpora. Further, we demonstrate the relevance of our
+results to a variety of use-cases. For example, to assist semantic
+extraction systems, to improve scientific search engines, and to
+facilitate specialized math recommendation systems.
+
+The contributions of our presented research are as follows: (1)
+we present the first distributional analysis of mathematical formu-
+lae on arXiv and zbMATH; (2) we retrieve relevant mathematical
+
+objects for given textual search queries (e.g., linking PLP) (x) with
+‘Jacobi polynomial’); (3) we extend zbMATH’s search engine by pro-
+viding relevant mathematical formulae; and (4) we exemplify the
+applicability of the results by presenting auto-completion for math
+inputs as the first contribution to math recommendation systems.
+To expedite future research projects, we have made available our
+source code and data.
+
+ 
+
+This paper is published under the Creative Commons Attribution 4.0 International
+(CC-BY 4.0) license. Authors reserve their rights to disseminate the work on their
+personal and corporate Web sites with the appropriate attribution.
+
+WWW 20, April 20-24, 2020, Taipei, Taiwan
+
+© 2020 IW3C2 (International World Wide Web Conference Committee), published
+under Creative Commons CC-BY 4.0 License.
+
+ACM ISBN 978-1-4503-7023-3/20/04.
+
+https://doi.org/10.1145/3366423.3380218
+
+CCS CONCEPTS
+
++ Information systems — Mathematics retrieval; « Informa-
+tion systems — Novelty in information retrieval; Information
+extraction; « Information systems~Recommender systems; +
+Information systems~Near-duplicate and plagiarism detec-
+tion;
+
+KEYWORDS
+
+Mathematical Objects of Interest, Mathematical Information Re-
+trieval, Distributions of Mathematical Objects, Term Frequency-
+Inverse Document Frequency, Mathematical Search Engine
+
+ACM Reference Format:
+
+André Greiner-Petter, Moritz Schubotz, Fabian Miiller, Corinna Breitinger,
+Howard S. Cohl, Akiko Aizawa, and Bela Gipp. 2020. Discovering Mathemat-
+ical Objects of Interest—A Study of Mathematical Notations. In Proceedings
+of The Web Conference 2020 (WWW 20), April 20-24, 2020, Taipei, Taiwan.
+ACM, New York, NY, USA, 12 pages. https://doi.org/10.1145/3366423.3380218
+
+1 INTRODUCTION
+
+Taking into account mathematical notation in the literature leads to
+a better understanding of scientific literature on the Web and allows
+one to make use of semantic information in specialized Information
+Retrieval (IR) systems. Nowadays applications in Math Information
+Retrieval (MathIR) [15], such as search engines [7, 17, 18, 22, 24,
+27, 31], semantic extraction systems [23, 36, 37], recent efforts in
+math embeddings [10, 13, 25, 44], and semantic tagging of math
+formulae [6, 43] either consider an entire equation as one entity or
+only focus on single symbols. Since math expressions often contain
+meaningful and important subexpressions, these applications could
+benefit from an approach that lies between the extremes of exam-
+ining only individual symbols or considering an entire equation as
+one entity. Consider for example, the explicit definition for Jacobi
+polynomials [8, (18.5.7)]
+
+T(a@+n+1)
+
+‘asp T(at+f+n+m+1) [x-1
+Pn (= ameapee Dm Remy (a 2 ) 8
+
+Corrected Version of Record v.1.1. Published July 14, 2020

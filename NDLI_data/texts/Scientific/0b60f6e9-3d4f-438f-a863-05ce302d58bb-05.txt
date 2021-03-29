@@ -1,0 +1,110 @@
+the input sequence. The pointer network has been
+used to create hybrid approaches for NMT (Gul-
+cehre et al., 2016), language modeling (Merity
+et al., 2016), and summarization (Gu et al., 2016;
+Gulcehre et al., 2016; Miao and Blunsom, 2016;
+Nallapati et al., 2016; Zeng et al., 2016).
+
+Our approach is close to the Forced-Attention
+Sentence Compression model of Miao and Blun-
+som (2016) and the CopyNet model of Gu et al.
+(2016), with some small differences: (i) We cal-
+culate an explicit switch probability pgen, whereas
+Gu et al. induce competition through a shared soft-
+max function. (ii) We recycle the attention distri-
+bution to serve as the copy distribution, but Gu et
+al. use two separate distributions. (iii) When a
+word appears multiple times in the source text, we
+sum probability mass from all corresponding parts
+of the attention distribution, whereas Miao and
+Blunsom do not. Our reasoning is that (i) calcu-
+lating an explicit pgen usefully enables us to raise
+or lower the probability of all generated words or
+all copy words at once, rather than individually,
+(ii) the two distributions serve such similar pur-
+poses that we find our simpler approach suffices,
+and (iii) we observe that the pointer mechanism
+often copies a word while attending to multiple oc-
+currences of it in the source text.
+
+Our approach is considerably different from
+that of Gulcehre et al. (2016) and Nallapati et al.
+(2016). Those works train their pointer compo-
+nents to activate only for out-of-vocabulary words
+or named entities (whereas we allow our model to
+freely learn when to use the pointer), and they do
+not mix the probabilities from the copy distribu-
+tion and the vocabulary distribution. We believe
+the mixture approach described here is better for
+abstractive summarization — in section 6 we show
+that the copy mechanism is vital for accurately
+reproducing rare but in-vocabulary words, and in
+section 7.2 we observe that the mixture model en-
+ables the language model and copy mechanism to
+work together to perform abstractive copying.
+
+Coverage. Originating from Statistical Ma-
+chine Translation (Koehn, 2009), coverage was
+adapted for NMT by Tu et al. (2016) and Mi et al.
+(2016), who both use a GRU to update the cov-
+erage vector each step. We find that a simpler
+approach — summing the attention distributions to
+obtain the coverage vector — suffices. In this re-
+spect our approach is similar to Xu et al. (2015),
+who apply a coverage-like method to image cap-
+
+tioning, and Chen et al. (2016), who also incorpo-
+rate a coverage mechanism (which they call ‘dis-
+traction’) as described in equation (11) into neural
+summarization of longer text.
+
+Temporal attention is a related technique that
+has been applied to NMT (Sankaran et al., 2016)
+and summarization (Nallapati et al., 2016). In
+this approach, each attention distribution is di-
+vided by the sum of the previous, which effec-
+tively dampens repeated attention. We tried this
+method but found it too destructive, distorting the
+signal from the attention mechanism and reducing
+performance. We hypothesize that an early inter-
+vention method such as coverage is preferable to
+a post hoc method such as temporal attention — it
+is better to inform the attention mechanism to help
+it make better decisions, than to override its de-
+cisions altogether. This theory is supported by the
+large boost that coverage gives our ROUGE scores
+(see Table 1), compared to the smaller boost given
+by temporal attention for the same task (Nallapati
+et al., 2016).
+
+4 Dataset
+
+We use the CNN/Daily Mail dataset (Hermann
+et al., 2015; Nallapati et al., 2016), which con-
+tains online news articles (781 tokens on average)
+paired with multi-sentence summaries (3.75 sen-
+tences or 56 tokens on average). We used scripts
+supplied by Nallapati et al. (2016) to obtain the
+same version of the the data, which has 287,226
+training pairs, 13,368 validation pairs and 11,490
+test pairs. Both the dataset’s published results
+(Nallapati et al., 2016, 2017) use the anonymized
+version of the data, which has been pre-processed
+to replace each named entity, e.g., The United Na-
+tions, with its own unique identifier for the exam-
+ple pair, e.g., @entity5. By contrast, we operate
+directly on the original text (or non-anonymized
+version of the data),? which we believe is the fa-
+vorable problem to solve because it requires no
+pre-processing.
+
+5 Experiments
+
+For all experiments, our model has 256-
+dimensional hidden states and 128-dimensional
+word embeddings. For the pointer-generator mod-
+els, we use a vocabulary of 50k words for both
+source and target — note that due to the pointer net-
+work’s ability to handle OOV words, we can use
+
+2at www. github.com/abisee/pointer-generator

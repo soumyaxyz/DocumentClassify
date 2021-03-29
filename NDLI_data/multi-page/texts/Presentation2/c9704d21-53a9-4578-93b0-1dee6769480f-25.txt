@@ -1,0 +1,25 @@
+BI Roles and Responsibilities
+
+Program Roles Project Roles
+
+ 
+
+Business Manager
+
+BI Program Manager BI Business Specialist
+
+BI Data Architect BI Project Manager
+
+ 
+
+BI ETL Architect Business Requirements Analyst
+
+BI Technical Architect | Decision Support Analyst
+
+Metadata Manager BI Designer
+
+ 
+
+BI Administrator ETL Specialist
+
+Data Administrator

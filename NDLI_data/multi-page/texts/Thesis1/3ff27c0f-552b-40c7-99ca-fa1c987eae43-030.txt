@@ -1,0 +1,49 @@
+Chapter 1: Preliminaries 18
+
+ 
+
+(2)fola=ea(f), luea=en(a);
+
+(3) f* > a= feKa(a)* (equivalently f > a* = Ky(f)* >a)
+
+for all f, fi, fg in U and a,aj, ag in A.
+
+Similarly, a right action of a Hopf *-algebra ( U,Au,«u,ey ) on another Hopf *-
+algebra (A, Au,«.4,€, ) is a bilinear form «: Ax U — C if the following conditions
+hold: ayag<f = (a1<f(1))(a2<f(2)), a<( fife) = Aa(a)<(fi@ fo), Las f = eu(f), aly =
+e4(a),a<f* = Ka4(a)* <f ( equivalently a* < f = a<Ky(f)*) for all f, fi, fo in U and
+@,@1,@2 in A.
+
+U = A’ gives a particular case of this duality pairing.
+
+1.2.2. Compact Quantum Groups: basic definitions and examples
+
+Definition 1.2.10. A compact quantum group (to be abbreviated as CQG from
+now on) is given by a pair (S,A), where S is a unital separable C* algebra equipped
+with a unital C*-homomorphism A: S + S @S (where ® denotes the injective tensor
+product) satisfying
+
+(ai) (A @id) oA = (id @ A) oA (co-associativity), and
+
+(aii) each of the linear spans of A(S)(S@1) and of A(S)(1@S) are norm-dense inS@S.
+
+It is well-known (see [67], [66]) that there is a canonical dense *-subalgebra So of S,
+consisting of the matrix elements of the finite dimensional unitary (co)-representations
+(to be defined shortly) of S, and maps € : Sg > C (co-unit) and « : So — So (antipode)
+defined on Sp which make Sp a Hopf *-algebra.
+
+The following theorem is the analogue of Gelfand Naimark duality for commutative
+
+CQG s.
+
+Proposition 1.2.11. Let G be a compact group. Let C(G) be the algebra of continuous
+functions on G. If we define A by A(f)(g,h) = f(g-h) for f in C(G), g,h in G, then
+this defines a CQG structure on C(G).
+
+Conversely, let (S, A) be a commutative CQG. Let H(S) denote the Gelfand spec-
+trum of S and endow it with the product structure given by xx’ = (x@x‘)A where x, x!
+are in H(S). Then H(S) is a compact group.
+
+Remark 1.2.12. In [57], A Van Daele removed Woronowicz’s separability assumption
+
+(in [67] ) for the C* algebra of the underlying compact quantum group. We remark

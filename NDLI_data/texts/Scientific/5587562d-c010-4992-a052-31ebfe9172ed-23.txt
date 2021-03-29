@@ -1,0 +1,80 @@
+5. If F is equivariant w.rt. the action described in Cor. 22, so is E(F).
+
+Proof. Define,
+E(F) = {a 6 (m(f(x)1),.--,m(F(@)n)) : f € Fo NC(X,R"), me C(R",F), kh > 1}.
+As MLP are continuous and by the universality of MLP on a compact set (see §C.1),
+FOAF) CF:
+This already implies 1. and that p (F) C p(E(F)) C p(F). Using Lem. 13 yields 2.
+
+We now show 3. Take h € C(F?,F), f,g € Fo, f € C(X,R"’), g € C(X, R"2) and m € C(R”’, F),
+1€C(R"s,F). All we have to det is that,
+
+ars (Rim(f(2)1), Ug(a)1)),--+h(m(f(@)n), U(G(@)n))) € EF) -
+
+But as Fo is stable by concatenation, z ++ (f(x), g(x)) € R'#t"s is still in Fo. Moreover,
+y EReeths vy h(m(yr,- <5 Yny)s UYng-+1s «+++ Yhy-+hy) is also in C(R"# +s, F) which shows that
+the map above is indeed in €(F). The last two points are immediate consequences of the definition
+
+of E(F).
+
+ 
+
+ 
+
+ 
+
+ 
+
+We start with the invariant case.
+
+Corollary 21. Let X be a compact space, Y = F = R? be some finite-dimensional vector space,
+G be a finite group acting (continuously) on X and F C C1(X,Y) a (non-empty) set of invariant
+functions.
+
+Assume that, for any h € C(F?,F) and f,g € F,
+
+a+ A(F(x),9(2)) €F
+
+Then the closure of F is, _
+F={f €C(X,Y): pr C py}.
+
+Proof. We want to apply Cor. 10. Clearly the first and the third assumptions are satisfied. All we
+need to show is that the set of functions Fyca; C C(X, R) defined by,
+
+Fecat = {f € C(X,R): fle F}
+satisfy,
+
+PF scat © PF +
+Take (x,y) ¢ py and we show that (x,y) ¢ py. Indeed, by definition there exists f € F,
+i e€ {l,..., ae such that f(x); # f(y)i. Let h € C(F,F) defined by, for z € F, h(z) =
+(h(z)i,..-,h(z)i). Then, by assumption ho f. But ho f is of the form . with 1 € C(X,R),
+and by definition, 1 € Fecat. Moreover, ho f(x) # ho f(y) so that I(x) # I(y). Therefore,
+(2,y) ¢ PF reat
+
+Thus, we can apply Cor. 10 which yields the result.
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+In our previous version of our approximation result for node embedding, we did not allow features
+in the output as it would have made the statement and the proof a bit convoluted. With this new
+assumption, this is much easier.
+
+Corollary 22. Let X be a compact space, Y = F", with F = R? and G = S,, the permutation
+group, acting (continuously) on X and acting on F" by, for a € Syn, « € F",
+
+Wie {1,...,p}, (0° 2)i = 2o-1(%) ,
+
+Let F C Ceq(X,F”) be a (non-empty) set of equivariant functions.
+Consider the following assumptions,
+1. Foranyh € C(F?,F ene
+F(x)1, 9(@)1), ++ MF (@)n, 9(@)n)) € F-
+
+23

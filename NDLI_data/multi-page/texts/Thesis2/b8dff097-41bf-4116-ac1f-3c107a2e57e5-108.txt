@@ -1,0 +1,45 @@
+96 10. EPILOGUE
+
+of Fy in which there are no k-rational involutions. Our results suggest that in such
+forms of F, (which are necessarily anisotropic), there are no nontrivial real elements.
+
+3. Real elements and orthogonal representations: In view of the connection
+to representation theory described in the previous section it would be of interest to
+directly relate self-dual representations to real elements, at least for groups with
+suitable hypothesis. Even in the case of finite groups there seem to be no satisfactory
+answer. We are lead to the following question: Let G be a finite group. Is the number
+of strongly real conjugacy classes of G/Z(G) equal to the number of orthogonal
+characters of G/Z(G)?
+
+4. Reality in linear algebraic groups: A lot of results, Theorem 9.1.2 and
+Theorem 9.3.3, suggest stronger results should be true. For example one should be
+able to generalise Theorem 9.1.2 for all semisimple elements not just for strongly
+regular elements. In the analysis in Chapter 9, the result of Wonenburger about
+GL,(k), which is a reductive group but not semisimple, is left out. One should
+modify the hypothesis suitably for reductive groups and bring in the results about
+GL,(k) into the picture. Perhaps, a suitable notion of Weyl group associated to an
+element will do. We would like to mention here a few questions raised by T. A.
+
+Springer. Let G be a connected reductive group.
+
+(i) Do the real elements in G' form a Zariski closed subset of G?
+(ii) If so, what are the dimension of its components?
+
+(iii) Do the real semisimple elements form a dense subset?
+
+5. Obstruction to reality: We have hardly dealt with the arithmetic aspect of
+reality property in this thesis, though it is very much in the scheme of things to deal
+with the local-global behavior of reality of an element in these groups. We specify the
+question more clearly here. Let G a group defined over a global field k. Let g € G(k)
+be a real element. Is it true that g is real in G(k) if and only if g is real in G(k,), Vp
+and in G(R)? One can ask another related question to compute obstruction to reality
+for a particular group. We explain it here. Let G be a group defined over k. Let
+g € G(k). Suppose g is real in G(k), where k is an algebraic closure of k. Calculate
+the obstruction to g being real in G(k). We have calculated this for the groups of type
+G in this thesis (see Corollary 8.2.11 and 8.3.7 and Section 9.2). For a local-global
+principle for conjugacy classes in classical groups, we refer to [FI].
+
+6. Centralizers and their conjugacy classes: Conjugacy classes and cen-
+tralizers have been studied extensively in the literature and are very important in
+
+understanding the structure of a group. With several results about groups of type

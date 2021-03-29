@@ -1,0 +1,17 @@
+ee
+Outline
+
+@ Basic concepts
+e@ Mixed convection
+e Stretching Surface
+e Soret and Dufour effects
+
+@ Mathematical formulation of the proposed problem
+
+@ Results and Discussion
+
+ 
+
+ 
+
+a = = = NA

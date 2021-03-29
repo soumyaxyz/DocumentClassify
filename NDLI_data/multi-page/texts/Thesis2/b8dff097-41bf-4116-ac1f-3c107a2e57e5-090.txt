@@ -1,0 +1,50 @@
+78 8. REALITY IN GROUPS OF TYPE G2
+
+Corollary 4). Therefore, for K chosen as above, Q*/N(i*) is not trivial. Hence
+all conditions required by Lemma 8.3.8 are satisfied by the polynomial p(X) and we
+get a semisimple element to € G2(Q) which is not conjugate to its inverse, using
+Lemma 8.3.8, Proposition 8.3.4 and Theorem 8.3.5.
+
+ 
+
+ 
+
+ 
+
+ 
+
+8.4.3. Nonreal Elements in G2 over Finite Fields. Let k = F, be a finite
+field. We have shown (Theorem 8.1.7) that semisimple elements and unipotent ele-
+ments in G(k) are real in G(k). We now construct an element in G(k) which is not
+conjugate to its inverse. Let € be the split octonion algebra over k, assume that the
+characteristic of k is not 2 or 3. We use the matrix model for the split octonions,
+as introduced in the Section 3.1. Let L be the split diagonal subalgebra of €. We
+assume that k contains primitive third roots of unity. We have, G(€/L) = SL(3).
+
+Let w be a primitive third root of unity in k. Let
+
+w -1 0
+A= 0 w 1
+0 O w
+
+Then A € SL(3) and the minimal polynomial (=characteristic polynomial) of A is
+p(X) = (X —w)%. Let b € k be such that the polynomial X? — 0? is irreducible
+over k (this is possible due to characteristic assumptions). Let D = diag(b,1,1) and
+B= DAD-'. Then B € SL(3) and has the same minimal polynomial as 4. Note
+that B is neither semisimple, nor unipotent. Let t € G(€/L) be the automorphism
+of € corresponding to B. It is clear that the fixed point subalgebra of t is precisely
+L.
+
+Theorem 8.4.6. The element t € G(€/L) as above, is not real.
+
+Proof. If not, suppose for h € G(k), hth-! =t~+. Then, since t fixes precisely L
+pointwise, we have h(L) = L. Therefore h € G(€, L) = G(€/L)xH, where H =< p >
+is as in Proposition 3.2.3. If h € G(€/L), conjugacy of t and t+ by h would imply
+conjugacy of B and B-! in SL(3). But this can not be, since w is the only root of
+p(X). Thus h = gp for g € G(€/L). Now, by exactly the same calculation as in the
+proof of Theorem 8.3.2, conjugacy of t and t~! in G(k) is equivalent to conjugacy of
+B and 'B in SL(3). Let CBC7! ='B with C € SL(3). Let
+
+0 0 1
+T={|0 -1 0
+1 0 0

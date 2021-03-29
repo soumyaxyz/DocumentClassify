@@ -1,0 +1,50 @@
+41.
+
+Contents. 7
+1 Introduction to ‘Deep Stratification'
+2s Description about the computer program
+2e1 Objectives
+Cec Input data
+2e% Output
+2.4 Subprograms used ©
+Be Method to generate all possible
+solution matrices &
+4s Computation of P. and Pot
+Be Method of selection of sample units
+6. Estimation of population total and mean
+7. Properties of n° 's and ns 5" Vs
+8. Comments .on q ( Bon )
+9. Method of generation of random numbers
+10. Computer outputs
+i.
+References ni Stier BETIS.
+
+oe 10
+. 3.0. AUG TSB
+
+“oN
+
+se 4 * *
+
+a“
+— +:
+
+Ss Lr
+
+.. ee
+
+e#e6
+
+—_
+
+wm ow 6 FlLUFCUF
+
+42
+13
+An
+a7
+48
+19
+20
+
+a1

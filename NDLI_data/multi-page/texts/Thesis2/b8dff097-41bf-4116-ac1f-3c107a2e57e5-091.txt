@@ -1,0 +1,52 @@
+8.4. EXAMPLES OF NONREAL ELEMENTS 79
+
+Then T € SL(3) is symmetric and TAT~! = 4. Hence A is a product of two
+symmetric matrices in SL(3), say A = T)T> with T; € SL(3), symmetric (see the
+proof of Lemma 8.3.3). But CBC~1 = 'B gives (DCD)A = '‘A(DCD). Therefore, by
+an argument used in the proof of Theorem 8.3.6, using the fact that the characteristic
+polynomial is equal to the minimal polynomial of A, we have, DCD = T>f(A) for
+some polynomial f € k[X]. Taking determinants, we get b? = det(f(A)) = f(w)°.
+
+But this contradicts the choice of b. Hence t is not real.
+
+ 
+
+ 
+
+ 
+
+A similar construction can be done for the subgroup SU(V,h) C G. We continue
+
+ 
+
+to assume that & is a finite field with characteristic different from 2,3. We first note
+that the (split) octonion algebra contains all quadratic extensions of k. We assume
+that 2 is a square in k and that & contains no primitive cube roots of unity. Let L
+be a quadratic extension of k containing a primitive cube root of unity w. Let b € L
+with N;/,(b) = 1 such that the polynomial X* — 6? is irreducible over L. Let a € L
+with N; (a) = —1. Let
+
+j 1 i 1
+Wt 4 3 qo
+A=| -jw? w jaw?
+_ 1~ 1
+—4a -30 w-F
+
+then A € SU(3) and the minimal polynomial (= characteristic polynomial) of A over
+L is (X —w)?. Let F be a cubic extension of k and E = FL. Then E is a cyclic
+extension of L and we have the trace hermitian form as defined in Proposition 8.4.2,
+on E. We fix an orthogonal basis for F' over k for the trace bilinear form and extend it
+to a basis of F over L. Then the trace hermitian form has diagonalization < 1,1,1 >.
+We construct € = L © E with respect to the hermitian space (£, tr), as in Section 3.
+Then SU(L+,h) = SU(3). Let D = diag(b, 1,1) and B= DAD—!. Then B € SU(3)
+and has the same minimal polynomial as A. Note that B is neither semisimple, nor
+unipotent. Let t denote the automorphism of € corresponding to B. Then the fixed
+
+point subalgebra of t in € is precisely L. We have,
+Theorem 8.4.7. The element t € G(€/L) as above, is not real.
+
+Proof. Suppose t is real in G(k). Then there is h € G(k) such that hth7! = ¢71.
+Since the fixed point subalgebra of t is L, we have h(L) = L. Thus, by Proposi-
+tion 3.2.5, h € G(€, L) = G(€/L) x H, where H =< p > is as in Proposition 3.2.5.
+If h € G(€/L), then B and Bo! would be conjugate in SU(3), but that can not
+be since w is the only eigenvalue for B. Hence h = gp for g € G(€/L). Then,

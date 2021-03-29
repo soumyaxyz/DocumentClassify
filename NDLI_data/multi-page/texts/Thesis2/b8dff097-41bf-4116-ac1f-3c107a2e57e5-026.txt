@@ -1,0 +1,46 @@
+14 2. LINEAR ALGEBRAIC GROUPS
+
+The next proposition reduces the study of structure of reductive groups to that
+
+of tori and semisimple groups ({Sp], Corollary 8.1.6).
+
+Proposition 2.3.1. Let G be a connected reductive group. Let G’ = |G, G] be the
+commutator subgroup of G. Then, G = G'.Z° where Z° is the connected component
+of the center of G.
+
+In this decomposition G’ is a semisimple group and Z° is a torus. Moreover, this
+decomposition is an almost direct product, i-e., the intersection of G’ and Z° is a
+finite group (or equivalently the connected component of this intersection is triv-
+ial). An example of this decomposition is GL,(k) = SLn(k).Z2(GL,»(k))° where
+Z(GL,(k)) = 2(GL,(k))° = k*. The intersection of the components is scalar matri-
+ces AI of determinant 1, i.e., A” = 1, which is a finite group.
+
+Let G be a connected semisimple group. We can decompose such a group as an
+almost direct product of simple groups. Recall that a group G is a simple (also called
+quasi-simple) algebraic group if any proper normal subgroup of G is finite and lies
+in the center of G. Some examples of simple groups are SLn, SOn, Spon, G2 (all these
+
+groups have been introduced in this thesis) et cetra. We have ({Sp], Theorem 8.1.5),
+
+Proposition 2.3.2. Let G be a connected semisimple group. Then G has a finite
+
+set of closed normal subgroups G1,...,G_ such that:
+(i) each G; is simple,
+(ii) [GG] =1 fi Fj,
+(iii) G = G1G2:--Gy,
+(iv) GiN Gy -++Gi-1Giy1-++G, is finite for each i.
+
+The G; are uniquely determined by these conditions. They are called simple com-
+ponents of the semisimple group G. Simple groups can be classified via root system
+
+which we recall briefly in next section.
+
+2.4. Root Datum and Reductive Groups
+
+Let G be a connected reductive group over k. Let g be the Lie algebra of G.
+Then G acts via the Ad representation on the Lie algebra g, i.e., we have a rational
+representation Ad: G — GL(g). We fix a maximal torus T in G and denote the
+character group of T by X(T’) = Hom(T,G,,,). If the rank of the group G is r then
+the group X is isomorphic to Z”. The torus T acts on g via the Ad representation.
+
+Since T is a commuting set of semisimple elements, it acts diagonally on g ({Sp],

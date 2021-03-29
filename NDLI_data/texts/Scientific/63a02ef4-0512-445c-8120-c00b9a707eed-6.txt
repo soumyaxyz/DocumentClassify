@@ -1,0 +1,141 @@
+Processing, pages 543-551. Asian Federation of
+Natural Language Processing.
+
+Ricardo Campos, Vitor Mangaravite, Arian Pasquali,
+
+Alipio Mario Jorge, Célia Nunes, and Adam Jatowt.
+2018. Yake! collection-independent automatic key-
+word extractor. In Advances in Information Re-
+trieval, pages 806-810. Springer International Pub-
+lishing.
+
+Erion Cano and Maurizio Morisio. 2015. Characteriza-
+
+tion of public datasets for recommender systems. In
+2015 IEEE Ist International Forum on Research and
+Technologies for Society and Industry Leveraging a
+better tomorrow (RTSI), pages 249-257.
+
+Corina Florescu and Cornelia Caragea. 2017. Position-
+
+rank: An unsupervised approach to keyphrase ex-
+traction from scholarly documents. In Proceedings
+of the 55th Annual Meeting of the Association for
+Computational Linguistics, pages 1105-1115. Asso-
+ciation for Computational Linguistics.
+
+George Foster, Ashish Vaswani, Jakob Uszkoreit,
+
+Wolfgang Macherey, Lukasz Kaiser, Orhan Firat,
+Llion Jones, Noam Shazeer, Yonghui Wu, Ankur
+Bapna, Melvin Johnson, Mike Schuster, Zhifeng
+Chen, Macduff Hughes, Niki Parmar, and Mia Xu
+Chen. 2018. The best of both worlds: Combin-
+ing recent advances in neural machine translation.
+In ACL (1), pages 76-86. Association for Computa-
+tional Linguistics.
+
+Max Grusky, Mor Naaman, and Yoav Artzi. 2018.
+
+Newsroom: A dataset of 1.3 million summaries with
+diverse extractive strategies. In Proceedings of the
+2018 Conference of the North American Chapter of
+the Association for Computational Linguistics: Hu-
+man Language Technologies, pages 708-719. Asso-
+ciation for Computational Linguistics.
+
+Kazi Saidul Hasan and Vincent Ng. 2014. Automatic
+
+keyphrase extraction: A survey of the state of the
+art. In Proceedings of the 52nd Annual Meeting
+of the Association for Computational Linguistics,
+pages 1262-1273.
+
+Anette Hulth. 2003. Improved automatic keyword ex-
+
+traction given more linguistic knowledge. In Pro-
+ceedings of the 2003 conference on Empirical meth-
+ods in natural language processing, pages 216-223.
+Association for Computational Linguistics.
+
+Mikalai Krapivin, Aliaksandr Autayeu, Maurizio
+
+Marchese, Enrico Blanzieri, and Nicola Segata.
+2010. Keyphrases extraction from scientific docu-
+ments. In The Role of Digital Libraries in a Time of
+Global Change.
+
+Chin-Yew Lin. 2004. Rouge: A package for automatic
+
+evaluation of summaries. In Proc. ACL workshop on
+Text Summarization Branches Out, page 10.
+
+Olena Medelyan. 2009. Human-competitive automatic
+
+topic indexing. The University of Waikato, Phd The-
+sis.
+
+Rui Meng, Sanqiang Zhao, Shuguang Han, Daqing
+He, Peter Brusilovsky, and Yu Chi. 2017. Deep
+keyphrase generation. In Proceedings of the 55th
+Annual Meeting of the Association for Computa-
+tional Linguistics, pages 582-592. Association for
+Computational Linguistics.
+
+Ramesh Nallapati, Bowen Zhou, Cicero dos Santos,
+Caglar Gulcehre, and Bing Xiang. 2016. Ab-
+stractive text summarization using sequence-to-se-
+quence rnns and beyond. In Proceedings of The
+20th SIGNLL Conference on Computational Natural
+Language Learning, pages 280-290. Association for
+Computational Linguistics.
+
+Courtney Napoles, Matthew Gormley, and Benjamin
+Van Durme. 2012. Annotated gigaword. In Pro-
+ceedings of the Joint Workshop on Automatic Knowl-
+edge Base Construction and Web-scale Knowledge
+Extraction, AKBC-WEKEX 7°12, pages 95-100,
+Stroudsburg, PA, USA. Association for Computa-
+tional Linguistics.
+
+Thuy Dung Nguyen and Minh-Thang Luong. 2010.
+Wingnus: Keyphrase extraction utilizing document
+logical structure. In Proceedings of the Sth Interna-
+tional Workshop on Semantic Evaluation, SemEval
+°10, pages 166-169, Stroudsburg, PA, USA. Associ-
+ation for Computational Linguistics.
+
+Stuart Rose, Dave Engel, Nick Cramer, and Wendy
+Cowley. 2010. Automatic keyword extraction from
+individual documents. In Michael W. Berry and Ja-
+cob Kogan, editors, Text Mining. Applications and
+Theory, pages 1-20. John Wiley and Sons, Ltd.
+
+Alexander M. Rush, Sumit Chopra, and Jason Weston.
+2015. A neural attention model for abstractive sen-
+tence summarization. In Proceedings of the 2015
+Conference on Empirical Methods in Natural Lan-
+guage Processing, pages 379-389. Association for
+Computational Linguistics.
+
+Abigail See, Peter J. Liu, and Christopher D. Man-
+ning. 2017. Get to the point: Summarization with
+pointer-generator networks. In Proceedings of the
+55th Annual Meeting of the Association for Compu-
+tational Linguistics, pages 1073-1083. Association
+for Computational Linguistics.
+
+Arnab Sinha, Zhihong Shen, Yang Song, Hao Ma, Dar-
+rin Eide, Bo-June (Paul) Hsu, and Kuansan Wang.
+2015. An overview of microsoft academic ser-
+vice (mas) and applications. In Proceedings of the
+24th International Conference on World Wide Web,
+WWW ’15 Companion, pages 243-246, New York,
+NY, USA. ACM.
+
+Jie Tang, Jing Zhang, Limin Yao, Juanzi Li, Li Zhang,
+and Zhong Su. 2008. Arnetminer: Extraction and
+mining of academic social networks. In Proceedings
+of the 14th ACM SIGKDD International Conference
+on Knowledge Discovery and Data Mining, KDD
+°08, pages 990-998, New York, NY, USA. ACM.

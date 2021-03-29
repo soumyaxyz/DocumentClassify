@@ -1,0 +1,11 @@
+86 8. REALITY IN GROUPS OF TYPE G2
+Hence we have proved,
+
+Theorem 8.5.9. Let G be the anisotropic group of type Gg over R. Then the
+
+total number of orbit types (conjugacy classes of centralizers) are five, corresponding
+to elements
+
+I, diag{a, 3, y}, diag{a, 3, 3}, diag{1, —1, —1}, diag{1, a, a}
+
+where none of a,3,y are 1 or -1.

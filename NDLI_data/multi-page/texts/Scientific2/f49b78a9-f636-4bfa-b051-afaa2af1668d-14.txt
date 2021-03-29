@@ -1,0 +1,141 @@
+IEEE Access:
+
+S. Banerjee et al.: Physically Secure Lightweight Anonymous User Authentication Protocol for loT
+
+ 
+
+TABLE 4: Security & functionality features comparison
+
+ 
+
+ 
+
+Feature Our Gopeefal. (12) Zhou eral. (46) Wazid eral. (5) | Gope eral. (40) Chang-Le [36]
+FRi uw w wu wz WA 4
+FR2 uw wu NA wu x x
+FR3 w wz 4 wz 4% x
+FRa uw wu a ‘w x x
+FRs “ v4 w v4 4 x
+FR6 uw wv uv wz v4 a
+FRz uw va uv wz wz w
+FRs uw wz w wz wz w
+FR9 uw wz x wz wz w
+FRi0 w u NA x x x
+FRiu w uw uv uw x x
+FRi2 w wz x wz 4z 4
+FRizg ws w x w uw w
+FRia w wz uv uz uv u
+FR15 w x x u x x
+FRie  w uz uv uz wz x
+FRiz 3 3 2 3 2 2
+FRisg “w wz w wz 4z x
+FRi9 w uw uv x uw x
+FRo wv NA ¥ v x
+
+ 
+
+Note: 7: a scheme supports a feature or it is resilient against an attack; %: a scheme does not support a feature or it is not secure against an attack. NA: not
+
+applicable for the scheme
+
+FR: user anonymity; FR: smart device anonymity; FR: untraceability; FR4: resilience against offline password guessing attack; FR5: fast detection
+
+of erroneous inputs; F7¢: mutual authentication; FR7:
+
+ 
+
+ion key agreement; Rs: resilience against impersonation attack; F’Ro9: resilience against
+
+smart device physical capture attack; F R10: resilience against compromised device impersonation attack, FR11: resilience against privileged insider attack;
+F R12: resilience against forward secrecy; FR13: resilience against replay attack; F714: resilience against man-in-the-middle attack; FR 5: resistant to
+ESL attack; FR16: resilience against stolen smart card attack; F R17: two/three factor authentication; F R18: local password and biometric change; FR1g9:
+
+no clock synchronization; F R29: dynamic smart device addition
+
+160 + 160) = 608 bits and (160 + 160 + 160 + 160) = 640
+bits during the time of the login and authentication phase.
+The total communication overhead of the proposed scheme
+is then (800 + 608 + 640) = 2048 bits, that is, 256 bytes. In
+Table B] we summarize the communication costs as well as
+the number of messages exchanged for the proposed schemes
+and compared schemes. We can observe that the proposed
+scheme commends the lowest communication overhead as
+compared to that for the other schemes.
+
+C. SECURITY AND FUNCTIONALITY FEATURES
+COMPARISON
+
+tabulates the security & functionality features of the
+proposed scheme and other existing schemes. It is appar-
+ent that the proposed scheme offers superior security and
+more functionality features as compared to other compared
+schemes. The schemes proposed in [12] and [5], while these
+are closed in terms of functionally & security features, the
+scheme [12] achieves these at much higher computation
+and communication overheads. Additionally, the scheme
+fails to resist ESL attack under the CK adversary model. On
+the other hand, the scheme [5] requires clock synchronization
+and it provides no resolution for device impersonation attack.
+
+ 
+
+ 
+
+Vil. PRACTICAL IMPACT STUDY
+
+In this section, through a simulation study using the widely
+accepted NS3 (3.28) simulator [59], we measure the impact
+of the proposed scheme on various network performance
+parameters, such as network throughput (in bytes per sec-
+ond), end-to-end delay (in seconds), packet delivery ratio and
+
+14
+
+packet loss rate (in number of packets per seconds).
+
+We ran several simulations, with different number of users
+and smart devices for each. We simulated a single fixed
+access point which operated as the gateway node. The smart
+devices were radially scattered along a ring (inner radius
+20 m and outer radius 100 m) centered on the gateway
+node GW N. The users were permitted to move freely (and
+randomly) across a square area of side 150 m and centered
+on the GW. All the nodes communicate over 2.4 GHz
+IEEE 802.11 wi-fi standard. Additional details about the
+simulations are tabulated in Table[5] Any details that are not
+explicitly mentioned means that those are assume the default
+values as specified by NS3 (3.28) simulator.
+
+TABLE 5: Simulation parameters
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Parameter Description
+Platform NS3(3.28) / Ubuntu 16.04 LTS
+Network scenarios | No. of users | No. of devices
+1 8 15
+2 10 15
+3 8 20
+4 10 20
+5 8 35
+6 10 35
+7 8 50
+8 10 50
+Mobility random (0-3 m/s )
+Simulation time 1200 sec
+
+ 
+
+ 
+
+VOLUME 7, 2019

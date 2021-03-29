@@ -1,0 +1,39 @@
+CHAPTER 6
+Main Results
+
+In this chapter we discuss the main problem addressed in this thesis. We mention
+known results and theorems proved in this thesis. Proof of the theorems will follow
+in later chapters. The results proved in this thesis are titled “Theorem” in this
+chapter. Results which were known are attributed to the respective author(s) with
+label “Proposition”. I appologise for this convention, though limited to this chapter
+only.
+
+Let G be an algebraic group defined over a field k. It is desirable, from the
+representation theoretic point of view, to study conjugacy classes of elements in G.
+We call an element g € G real if there exists h € G such that hgh! = g-!. An
+element g € G(k) is called k-real if there exists h € G(k) such that hgh! = gut.
+
+We address the following problem in this thesis:
+Problem: Characterize real elements of the group G(k).
+
+An involution in G is an element g with g? = 1. Note that with our convention the
+identity element is also an involution. An element in G is called strongly real if it
+
+is a product of two involutions in G. We raise the following question here.
+Problem: Let g € G(k) be a k-real element. Is g strongly k-real in G(k)?
+
+Note that a strongly k-real element in G(k) is always k-real in G(k). Conversely,
+a real element g € G(k) is strongly k-real if and only if there exists a conjugating
+element in G(k) which is an involution, i.e., there exists t € G(k) with t? = 1 such
+that tgt~! = g7!. This remark is very useful in investigating the structure of real
+elements.
+
+It is worth mentioning that the characterization of real elements depends on the
+base field. We will give examples of elements in a group G of type G2 which are
+not k-real but are strongly real over k. We note that every element of a conjugacy
+class which contains a real element is real. Such a conjugacy class is called a real
+conjugacy class. For finite groups, the number of real conjugacy classes is same
+as the number of real irreducible characters. Let G be a finite group. A complex
+representation of G is realizable if it is defined over R. It is obvious that a character
+
+39

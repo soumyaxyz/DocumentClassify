@@ -1,0 +1,69 @@
+68 8. REALITY IN GROUPS OF TYPE G2
+
+Lemma 8.2.9. With notation as fired above, for X,Y € U(H), XAX~ is con-
+jugate to YAY~1 in SU(H) if and only if det(X) = det(Y)(modL a).
+
+Proof. Suppose there exists S € SU(H) such that SXAX-1S-! = YAY",
+Then, Y-!SX € Z and det(X) = det(Y)(modL a).
+
+Conversely, let det(XY~!) = det(B) for Be Z. Put S$ = YBX~-!. Then
+det(S) = 1, S € SU(H) and Y"'SX = Be Z. Then, Y"'SXA = AY~'SX gives
+SXAX 19-1 =YAY-1.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Lemma 8.2.10. Let to be an element in G(€/L) for L a quadratic field extension
+of k and A be the corresponding element in SU(H). Suppose the characteristic poly-
+nomial of A is irreducible over L. Then, to is conjugate to ty’ in G(k), if and only if
+for every X € U(H) such that XAX—! = A“, det(X) € Ly.
+
+Proof. We have, by Theorem 8.2.2, to is conjugate to tp! in G(k) if and only if A is
+conjugate to A~! in SU(H). Let X € U(H) be such that X AX! = A7!. Then from
+the above lemma, A is conjugate to A7! in SU(H) if and only if det(X) € Ly.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Corollary 8.2.11. With notation as fixed above, whenever L'/L, is trivial, to is
+conjugate to tz’ in G(k), where L' = {a € Llad = 1}.
+
+Proof. We have L1 = {a € L | aa = 1} = {det(X)|X € U(H)}. Now let us
+fix Xo € U(H) such that XpAXg' = A-!. Then, for any X € U(H) such that
+XAX—! = A“, we have X51X € Zy(4)(A). Hence det(X) € det(Xo)L4. But since
+
+L'/L, is trivial, we have det(X) € La. From the above lemma, it now follows that
+
+ 
+
+ 
+
+ 
+
+ty is conjugate to to! in G(k).
+
+ 
+
+Remark 8.2.12. From the proof above, for any X € U(H) such that X AX! =
+At, we get X € Xo Zu; (A). Since the characteristic polynomial of A is irreducible,
+that of A is irreducible as well. Therefore Zy(4)(A) C Zpna,(v)(A) = L[A] © L[T]/ <
+xa(L) >. In fact, Zu (A) = {@ € Zena,(v)(A) | con(x) = 1}. Hence we can write
+X = Xof(A) for some polynomial f(T) € L{T].
+
+Lemma 8.2.13. Let A € SU(H) and its characteristic polynomial x 4(X) be
+irreducible over L. Let E = L[X]/x4(X), a degree three field extension of L. Then
+L/L 4 L*/N(E).
+
+Proof. Define a map ¢: L1 —+ L*/N(E*) by x + axN(E*). We claim that
+ker(o) ={v € L1| xe N(E*)} = Lg ={N(a) | x € E*, x0(x) = 1}. Let x € ker(6),
+ie., «© = N(y) for some y € €* and xo(x) = 1. Let § = ry lo(y) € E€* then

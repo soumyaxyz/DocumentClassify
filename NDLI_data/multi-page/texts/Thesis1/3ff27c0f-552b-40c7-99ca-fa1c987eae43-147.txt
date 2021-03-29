@@ -1,0 +1,65 @@
+135 QISO® of a Rieffel deformed noncommutative manifold
+
+ 
+
+which proves ( 4.4.2 ).
+
+( 4.4.3 ) follows similarly and therefore we omit the proof.
+
+ 
+
+ 
+
+ 
+
+ 
+
+QISO*(C(T?)) = C(T? ><(Z3 ><Ze)) which as a C* algebra is isomorphic to
+®i=12,..8C(T?). We will denote the generators of QISO*£(T?) by {A Bi
+
+(71, 72:73) € Z3}, more precisely, we fix the following convention:
+
+(n172093) P(q1.92078) *
+
+Aor yaya) (213 225 Vhs V25 V3) = 21s Bey yaya) (21 22) Vs 2s 73) = 22
+
+Now, T? sits as a subgroup of T? ><Z} as {(z1, 22,0,0,0) : 2 € S}.
+
+Hence, the action of T? on T? ><Z3 with which we are concerned with is given
+by the group multiplication in T? ><Z3, that is, the action of (21,22) ((z € S')) on
+(24, 25,71, 72,73) (€ T? ><IZ3) is given by (21, 22,0,0,0)(z4, 24,71, 72;73)-
+
+The action of R* on QISO*(C(T?)) as prescribed by Wang ( 1.3.8 ) is given by
+
+Q(s,u) = (Q(—s) @ id)A(id @ O(u))A
+
+where s,u belong to R?.
+If s = (81,59), w= (ui, ug) belong to R? and 21, z2 belong to $', we have
+O(5,u) f (21, 22, V1+ 72573) = f((e(—81), e(— $2), 0, 0, 0) (21, 22, V1, 12,73) (e(u1), e(u2),
+0,0,0)).
+
+0 20 0
+
+g
+~ -§ 00 0
+Moreover, J=—-J@OJ= 2 6
+0 00 -§
+0 0 $ 0
+
+Hence, J(s1, 82, t1,t2)' = (859, —8s1, —$to, faye where t stands for the transpose of
+a matrix.
+Let s = (s1,82),¢ = (t1,t2),s’ = (s}, 84), t! = (th, th) belong to R? u = (s,t), v =
+
+(s!,t’).
+
+Lemma 4.4.10. {A(, 49,73); Beyjyo,73)} are unitaries for the multiplication x
+
+for (y1, 72,73) belonging to Z3.
+
+Z and
+
+Proof : We give the proof for A901), the proof for the rest being exactly similar.
+AG, 0,1) xz 7 Al 0, 1(u1, U2, 1, 0, 1)
+
+=f fret (1,0,1))(t1, U2, 1,0, 1)Xv(A1,0,1) (t, U2, 1, 0, 1)
+e(u.v)dudu

@@ -1,0 +1,21 @@
+5.1.1 The original definition by Podles...............00.. Al
+5.1.2 The Podles spheres as in [24]... ....0.0.... 0000005. 42
+5.1.3 The Podles spheres as in [37]... 0.0.00 000 eee ee 43
+5.1.4 The description asin [50]... .......0.. 0.000000. 44
+5.1.5 Haar functional on the Podles spheres .............2.. 45
+5.2 Spectral triples on the Podles spheres 2... 04 2 6s ee ec eww we AT
+5.2.1 The spectral triple as in [24]... ..............00.. 47
+5.2.2 S$U,,(2) equivariance of the spectral triple ............. 148
+5.2.3 The CQG SO,,(3) and its action on the Podles sphere .... . 49
+5.3 Quantum Isometry Groups of the Podles sphere... ........... 50
+O31 Linearity of theaction .<«ss6 esse eee eee eR We we 152
+5.3.2. Homomorphism conditions ..................00. 56
+5.3.3 Relations from the antipode... 2... .....0.2.2.22.00.. 58
+5.3.4 Identification of SO,,(3) as the quantum isometry group .... . 60
+5.3.5 The quantum isometry group in the caseuw=1.......2... 67
+5.3.6 Existence of QISO+(D) .. 00... ee 69
+5.4 The spectral triple by Chakraborty and Pal on Sas CRO as sm mm 71
+5.4.1 The spectral triple... 2... 0.22000... .0000.000. 71
+5.4.2 Computation of the quantum isometry group ........... 73
+
+Bibliography 187

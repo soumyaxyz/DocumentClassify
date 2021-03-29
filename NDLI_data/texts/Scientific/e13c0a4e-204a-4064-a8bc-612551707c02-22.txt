@@ -1,0 +1,100 @@
+Weisfeiler and Leman go sparse
+
+ 
+
+Table 6: Mean MAE (mean std. MAE, logMAE) on large-scale (multi-target) molecular regression tasks.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Dataset
+Method
+ZINC (10k) ZINC (50k) ZINC (FULL) ALCHEMY (10K) ALCHEMY (50K) ALCHEMY (FULL)
+2 GINE-< 0.278 0.022 0.145 +0.006 0.084 40.004 0.185 +0.007 -1.864 +0.062 0.127 +0.004 -2.415 40.053 0.103 +0.001 -2.956 +0.029
+3 2-WL-GNN 0.399 +0.006 0.357 40.017 0.133 40.013 0.149 +0.004 -2.609 +0.029 0.105 0.001 -3.139 +0.020 0.093 +0.001 -3.394 +0.035
+
+8 6-2-GNN 0.374 +0.022 0.150 +0.064 0.042 +0.003 0.118 +0.001 -2.679 +0.044 0.085 +0.001 -3.239 +0.023 0.080 +0.001 -3.516 +0.021
+6-2-LGNN 0.306 +0.044 0.100 +0.005 0.045 +0.006 0.122 +0.003 -2.573 40.078 0.090 40.001 -3.176 +0.020 0.083 +0.001 -3.476 +0.025
+
+ 
+
+ 
+
+Table 7: Overall computation times for the whole datasets in seconds (Number of iterations for 1-WL, 2-WL, 3-WL, 5-2-WL,
+WLOA, 6-3-WL, 5-2-LWL, and 6-3-LWL: 5), OoT— Computation did not finish within one day (24h), OOM— Out of memory.
+
+ 
+
+Dataset
+
+ 
+
+Graph Kernel
+ENZYMES IMDB-BINARY IMDB-Muttt NCI1 NCI109 PTC_FM_ PROTEINS REDDIT-BINARY
+
+ 
+
+Baseline
+
+Global
+
+Local
+
+ 
+
+ 
+
+ 
+
+GR <1 <l <l 1 1 <l <l 2
+
+SP <l <l <l 2 2 <l <l 1035
+1-WL <l <l <l 2 2 <l <l 2
+
+WLOA <l <l <l 14 14 <l 1 15;
+
+2-WL 302 89 44 1422 1445 11 14755 Oom
+3-WL 74712 18 180 5346 Oot Oot 5346 OoM Oom
+6-2-WL 294 89 44 1469 1459 11 14620 OomM
+6-3-WL 64 486 17464 5321 OoT Oor 1119 OomM Oom
+6-2-LWL 29 25 20 101 102 1 240 59 378
+6-2-LWLt 35 31 24 132 132 1 285 84044
+6-3-LWL 4453 3.496 2127 18035 17848 98 OoM Oom
+6-3-LWLt 4973 3748 2275 20644 20410 105 OoM Oom
+
+ 
+
+computation times for the 1-WL, WLOA, the 6-k-LWL, the 6-k-LWL*, and the k-WL with five refinement steps. All
+kernel experiments were conducted on a workstation with an Intel Xeon E5-2690v4 with 2.60GHz and 384GB of RAM
+running Ubuntu 16.04.6 LTS using a single core. Moreover, we used the GNU C++ Compiler 5.5.0 with the flag -02.
+
+Neural architectures For comparing to kernel approaches, see Tables 4 and 5, we used 10-fold cross-validation. For the
+
+small-scale datasets, the number of components of the (hidden) node features in {32, 64, 128} and the number of layers in
+{1, 2,3, 4,5} of the GIN and GIN-e layer were selected using a validation set sampled uniformly at random from the
+training fold (using 10% of the training fold). For the medium-scale datasets, due to computation time constraints, we set
+the number of (hidden) node features to 64 and the number of layers to 3. We used mean pooling to pool the learned node
+embeddings to a graph embedding and used 2-layer MLP for the final classification, using a dropout layer with p = 0.5
+after the first layer of the MLP. We repeated each 10-fold cross-validation ten times with different random folds, and report
+the average accuracy and standard deviations. Due to the different training methods, we do not provide computation times
+for the GNN baselines.
+
+For the larger molecular regression tasks, ZINC and ALCHEMY, see Table 6, we closely followed the hyperparameters
+found in (Dwivedi et al., 2020) and (Chen et al., 2019a), respectively, for the GINE-< layers. That is, for ZINC, we used four
+GINE-e layers with a hidden dimension of 256 followed by batch norm and a 4-layer MLP for the joint regression of the
+twelve targets, after applying mean pooling. For ALCHEMY and QM9, we used six layers with 64 (hidden) node features
+and a set2seq layer (Vinyals et al., 2016) for graph-level pooling, followed by a 2-layer MLP for the joint regression of the
+twelve targets. We used exactly the same hyperparameters for the (local) 6-2-LGNN, and the dense variants 6-2-GNN and
+2-WL-GNN.
+
+For ZINC, we used the given train, validation split, test split, and report the MAE over the test set. For the ALCHEMY and
+Qm9 datasets, we uniformly and at random sampled 80% of the graphs for training, and 10% for validation and testing,
+respectively. Moreover, following (Chen et al., 2019a; Gilmer et al., 2017), we normalized the targets of the training split to
+zero mean and unit variance. We used a single model to predict all targets. Following (Klicpera et al., 2020), we report
+mean standardized MAE and mean standardized logMAE. We repeated each experiment five times (with different random
+splits in case of ALCHEMY and QM9) and report average scores and standard deviations.

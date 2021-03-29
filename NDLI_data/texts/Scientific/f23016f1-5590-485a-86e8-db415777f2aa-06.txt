@@ -1,0 +1,51 @@
+Template Scoring: The Compatibility function between a path P and a prediction r(s, 0) as
+defined in equation | offers a natural way of scoring an explanation path P for the given prediction.
+Since a given similarity based template represents comparable paths with same sequence of edge
+types in it, we can quantify it with the explanation path having maximum score. Accordingly, we
+define template score, T;5, for a similarity based template Ti as:
+
+TS(s,r,0) = max Compatibility(P, r(s,o)) Vi € {1,...,4} (2)
+
+Inspired by the notion of selecting the best amongst all paths in a given similarity based template,
+we define score of frequency based templates TS as the normalized frequency of the corresponding
+relation, tail entity pair (r,o) in KB:
+
+|{s’: r(s',0) © KB}|
+
+TE (s,r,0.) = — >
+5 (8:70) [{(s',0') : 8’, r(s',0') © KB}|
+
+(3)
+These goodness scores act as important features in the template selection module (section 3.3). Once
+a template is selected, an explanation in English is produced as shown in Table 3. For templates
+T1-T4, we ground them with the entities/relations in the explanation path corresponding to the
+argmax of the Compatibility score.
+
+Faithfulness of Explanation Paths to the TF Model: Multiplicative models like TypeDistMult use
+three-way products to compute scores of a triple. So, a high dot product (and therefore, cosine score)
+between two relation embeddings r and r’ (or two entity embeddings) fundamentally represents that
+model M considers the two relations (entities) as somewhat replaceable. This idea is exploited in our
+similarity templates. Consider, as an example, a query r(s,?) and the corresponding prediction, o0,
+for the tail entity by the model W. Say OXKBC explains the prediction using T1 by finding the best
+fact r’(s, 0) in the KB such that r ~j, r’ (cosine score between the two is high). Now, since r’(s, 0)
+is in the KB, model score for r’(s,0) must be trained to be high, and hence, Hadamard product of
+the embeddings of s and 0 is likely to be closely aligned with the embedding of r’. Because r ~jy 1’
+Hadamard product of the embeddings of s and 0 is also closely aligned with that of r, resulting in a
+high model score for r(s,0). Thus, this explanation is one reasonable clue why model M/ may have
+decided to make this prediction in the first place. Similar arguments can be made for T2 T3 and T4.
+
+3.3 Selection Module
+
+OxKBC’s selection module (SM) decides which template to select for explaining a given prediction.
+It uses a 2 layer MLP for this task. For each template 7, it takes an input feature vector and outputs a
+score S°™, representing SM’s belief that this template is a good explanation for the prediction. The
+scores SSM are converted into probabilities PsM through a softmazx layer. OXKBC chooses the
+template with the highest probability.
+
+Input Features: For a given query r(s,?) and a template 7, we compute template goodness scores
+T3(s,r,u) Vu € E. This defines a distribution of goodness scores over tail entities for a given input
+query r(s, ?). To explain a prediction r(s, 0), we construct a feature vector such that it captures the
+relative score T5(s,r, 0) of o w.r.t the distribution T5(s,r, wv) over u € E. We claim that this feature
+vector has all the information to decide if this template is good for explaining the given prediction
+or not. It maintains the distribution level global features w.r.t. the query r(s,?): max, mean, std
+deviation of the distribution, and prediction specific features: score, rank and other statistics of

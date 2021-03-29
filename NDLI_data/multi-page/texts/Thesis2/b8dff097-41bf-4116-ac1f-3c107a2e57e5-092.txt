@@ -1,0 +1,49 @@
+80 8. REALITY IN GROUPS OF TYPE G2
+
+conjugacy of t and t~1 in G(k) is equivalent to conjugacy of B and B- in SU(3),
+by the same calculation as in the proof of Th. 6.5. By Lemma 8.2.6, this is if and
+only if B = B, By with B; € SU(3) and B;B; = 1. But then B= DAD~! = B, By
+and hence A = (D~!B,D~!)(DByD) = A, Ag, say. Then A; € U(3) and A;A; = 1.
+Let C € SU(3) be such that CBC-! = B-!. Then CDAD-!C7! = DA7!D-.
+This gives, (D-'CD~!)A(DC~!D) = A7!. Hence, by Lemma 8.2.6, A = T;T> with
+T,; € SU(3), T;,T; =1. Therefore, by a similar argument as in the remark following
+Corollary 8.2.11, we must have, T,A;! = f(A) for a polynomial f(X) € L[X]. Taking
+determinants, we get b-? = f(w)°, contradicting the choice of b. Therefore ¢ is not
+real in G(k).
+
+ 
+
+ 
+
+ 
+
+ 
+
+Remarks 8.4.8. 1. Our results in fact show that if an element in G(k), for a
+group G of type Go, is conjugate to its inverse in G(k), the conjugating element can
+be chosen to be an involution. The same is true for unipotents (these are always
+conjugate to their inverses).
+
+2. The obstruction : From our results, we see that semisimple elements be-
+longing to decomposable tori are always product of two involutions and hence real in
+G(k). For semisimple elements belonging to an indecomposable maximal torus T, the
+obstruction to reality is measured by L'/N(E!), where T C SU(V,6) = SU(E,5™)
+is given by T = €1 and € is a cubic field extension of L. In the other case, when
+T C SL(8), the obstruction is measured by k*/N(F*), where F is a cubic field ex-
+tension of k. In both cases, the obstruction has a Brauer group interpretation. When
+T Cc SL(3) C G is an indecomposable maximal torus, coming from a cyclic cubic
+field extension F of k, the obstruction to reality for elements in T(k), is the relative
+Brauer group B(F/k). For an indecomposable torus T C SU(E,h"“) C G, where € is
+a cubic cyclic field extension of L, the obstruction is the quotient B(E/L)/¢(B(F/k),
+where F is the subfield of €, fixed by the involution o on € and ¢ is the base change
+map B(F/k) — B(E/L).
+
+8.5. Centralizers in Anisotropic G2
+
+In this section, we compute conjugacy classes of centralizers in compact G2. Let
+G be an anisotropic group of type G2 over a field k. Then there exists €, an octonion
+division algebra over k, such that G = Aut(€). By abuse of notation we write
+G = Aut(€). We fix these notation for this section. First, we calculate centralizer of
+an element in G. Let t € G. We denote the centralizer of t in G by Z(t) = {g €
+
+G | gt = tg}. Since G is anisotropic, every element in G is semisimple and leaves a

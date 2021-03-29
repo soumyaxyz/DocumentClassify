@@ -1,0 +1,20 @@
+Introduction to KMP Algorithm
+
+ 
+
+* KMP is a pattern matching algorithm which is named after
+its inventors Donald Knuth , James H. Morris and Vaughan
+Pratt.
+
+¢ This was conceived in 1974 and was formally published in 1977.
+¢ Knuth , Morris and Pratt developed a method which keeps the
+information gathered and never re-compares the symbols that have
+matched in earlier.
+
+* This methodology reduces the no. of comparisons w.r.t other
+native approaches such as BruteForce, and achieves the running
+time of O(m+n).
+
+¢ It uses the pre-processing of the patterns to analyze its structure.
+
+* It uses the concept of prefix and suffix in the pattern.

@@ -1,0 +1,76 @@
+Va = (pi, p2),b = (q1, 92) € [n]?, let E(a, b) denote the equivalence class of 4-tuples containing
+(pi, P2; 41, 92), and let E(b) represent the equivalence class of 2-tuples containing (q1, q2). Two 4-
+tuples (u,v, w, x), (u’, v’, w’, 2”) are considered equivalent if Sa € S,, such that 7(u) = u’,7(v) =
+v',7(w) = w’,7(x) = 2’. Similarly is equivalence between 2-tuples defined. By equation 9(b) in
+(17], using the notations of T, B, C, w, 8 defined there, L is described by, given A as an input as b as
+the subscript index on the output,
+
+(nn)
+
+LA= SS Tada +Y¥o
+a=(p1,p2)=(1,1)
+= Sow, Br Aa + 1 BiG @B)
+ay
+= CY Aa)wy + Bee)
+BH ae[n]?
+(a,b)Eu
+First, let
+b
+Sy. = ~ Aa
+ag[n]?
+(a,b)eu
+
+By the inductive hypothesis,
+
+Sh= So Act SO Act SO Aa
+
+a€[n]2 ae(n]2 a€[n]2
+(a,b)eu (a,b)Eu (a,b)eu
+acE acN acs
+
+=Yia+ dV at+¥B (4)
+a€[n]2 a€[n]2 a€[n]2
+(a,b) Ep (a,b)Ep (a,b)Ep
+ace aeN aes
+
+= ma (b, WE + mn(b, WE + ms (b, WE
+
+where m(b, j1) is defined as the total number of distinct a € [n]? that satisfies (a,b) € panda € E,
+and similarly for my(b, j) and ms(b, 14). Formally, for example, mmz(b, 4) = card{a € [n]? :
+(a,b) € p,a € E}.
+
+Since EU NUS = [n]?, b belongs to one of E, N and S. Thus, let 7(b) = Eifb € E,7(b) = N
+ifb € N andr(b) = Sif b € S. It turns out that if A is the adjacency matrix of a undirected
+regular graph with degree d, then mz(b, 1), mn (b, 2), ms(b, 4) can be instead written (with an
+abuse of notation) as m_(7(b), 4), mn (7(b), w), mg(7(b), 1), meaning that for a fixed ju, the values
+of mz,mwn and mg only depend on which of the three sets (E', N or S) b is in, and changing b to a
+different member in the set r() won’t change the three numbers. In fact, for each 7(b) and ju, the
+three numbers can be computed as functions of n and d using simple combinatorics, and their values
+are seen in the three tables Bland] An illustration of these numbers is given in Figure[D]
+
+Therefore, we have L(A), = 30, w,(me(7(d), “)+mn(7(d), H)+ms(7(b), 1) +Be(5). Moreover,
+notice that 7(b) determines €(b): if r(b) = E or N, then €(b) = €(1,2); if r(b) = S, then
+&(b) = E(1,1). Hence, we can write 8,(,) instead of Bi») without loss of generality. Then in
+particular, this means that L(A), = L(A)y if r(b) = 7(b’). Therefore, L(A), = €;Lpeet+Eolpen+
+Esllyes, where €; = 0, wy(ma(E, 1) +mwn(E, uw) +ms(E, p)) +p, €o = Dy, We(mae(N, we) +
+my(N, pu) +:ms(N, 1) + Bn, and €; = D7, wy(mn(S,u) + mn (S,u) +ms(S, 2) + Bs.
+
+  
+ 
+
+Similarly, L(A’), = & bee + &olsen: + &'3llycsr. But importantly, V equivalence class of
+4-tuples, , and VA, A2 € {E, N, S},my, (Ag, 4) = m4, (Az, 12), as both of them can be obtained
+from the same entry of the same table. Therefore, €, = €,, €) = &, €3 = &'3.
+
+Finally, let €} = o(€,),€3 = o(€,), and €§ = o(€,). Then, there is o(L(A)), = €{loce +
+Elloen + 3 lloes, and o(L(A’))y = G lsce + & loc’ + &3 les’, as desired.
+
+ 
+
+ 
+
+ 
+
+ 
+
+16

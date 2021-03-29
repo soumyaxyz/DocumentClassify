@@ -1,0 +1,34 @@
+Introduction
+
+Case Studies Grid Size
+Compulsory Study 1 — Grid 0.72, 2.10, 5.75 millions
+Convergence
+Compulsory Study 2 — Half Body 5.75 million
+
+analysis without sting
+
+Compulsory Study 3 — Half Body 6.60 million
+analysis with sting
+
+Optional Study 1 — Side Slip Studies 6.26 million
+
+Optional Study 2 — Wall Effect Studies 6.10 million
+
+ 
+
+Notes
+
+C, , Cp and C,, convergence for
+6° and 18°
+
+Flow Fields for 13 indices from -
+4° to 24°
+
+Flow Fields for 5 indices from 0°
+to 24°
+
+Flow Fields for 6° , 20° and 22°
+with 10° yaw
+
+Flow Fields for 5 indices from
+18° to 22°

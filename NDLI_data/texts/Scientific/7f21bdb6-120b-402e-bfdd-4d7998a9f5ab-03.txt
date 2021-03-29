@@ -1,0 +1,193 @@
+IEEE Access
+
+A. S. Winoto et a/.: Small and Slim Deep Convolutional Neural Network for Mobile Device
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+¥ y
+3x3 Depth-wise
+stride =s 1x1 Conv2D 1x1 Conv2D
+ReLU6 ReLU6
+Batch Normalization v
+ReLu ~
+3x3 Depth-wise
+ReLU6 3x3 Depth-wise
+stride =2
+ReLU6
+1x1 Conv2D v
+| 1x1 Conv2D
+Batch Normalization v v.
+ReLu >} Add 1x1 Conv2D
+a) MobileNet b) MobileNetV2 stride=1 Cc) MobileNetV2 stride=2
+
+FIGURE 3. Convolutional Block in MobileNet and MobileNetV2.
+MobileNetV2 are using two kinds of Convolutional Block depending on
+the stride of the depth-wise layer.
+
+3) MOBILENET AND MOBILENETV2
+
+MobileNet is an efficient Neural Network that consisted
+of depth-wise separable convolution layer which utilizes
+the depth-wise and 1x1 convolutional layer as we can see
+in Fig. 3. Based on the theory that smaller models are
+less troubled with overfitting [15], [16], MobileNet uses
+the depthwise mostly because it has smaller complexity.
+MobileNet itself actually built rather shallow with only
+20 layers which consisted of 1 x 1 convolutional and
+depth-wise layers [15].
+
+Meanwhile, MobileNetV2, an upgraded version of
+MobileNet are implementing new block of layer which is
+two kinds of Bottleneck layer which differ by the stride and
+instead of the usual Bottleneck layer that consisted only of
+convolutional layer, they use a depth-wise convolution layer,
+which hoped to lower the parameter even more [16].
+
+4) NASNETMOBILE
+
+NASNet [26] is actually a study which shows that the learning
+progress by training on smaller dataset which they can be
+stacked on one another to be used in training a bigger dataset.
+For example, NASNet could be used to train on ImageNet by
+training on CIFAR1O beforehand [26]. Actually, NASNet is
+not DCNN, instead, it is a Recurrent Neural Network (RNN)
+based which they can make and improve the CNN by its own
+using the controller.
+
+B. ENSEMBLE LEARNING
+
+Ensemble Learning is widely known and already has been
+implemented in various fields including Artificial Intelli-
+gence [28]. One of the well-known methods is Averaging or
+Major Voting. While both of them may seem similar, Averag-
+ing takes all value of the output layer and take the mean from
+all output layers as we can see in (4) while major voting will
+take one (max) output from the output layer, which will be
+
+125212
+
+counted using (5) [28]. Apart from (5), we could also use (4)
+to avoid error if there are some “equal” votes which every
+model predict a different class. So, we will use the (4) to
+average every value from output layer and take the result.
+
+T
+1
+A(x) = Doin)
+n=1
+
+G ty he
+
+1 1 f
+735 ys ei ty @) (4)
+
+rejected otherwise
+
+H(x)=
+
+Ill. PROPOSED ARCHITECTURE
+
+After studying the state-of-arts architecture, we concluded
+that there is some layer that might help in building this archi-
+tecture such as: 1) bottleneck layer, 2) batch normalization
+layer, 3) residual layer, 4) depth-wise separable convolution,
+5) dropout layer. In the end of this section, we will explain
+about the difference between our proposed models, named
+CustomNet and CustomNet2.
+
+A. BOTTLENECK LAYER
+
+Bottleneck layer are already used by some state-of-arts archi-
+tectures [14], [16], [25], [29]. Some used bottleneck layer for
+reducing total parameter or feature map to improve the com-
+putational efficiency. As portrayed in Fig. 4, Bottleneck layer
+has a characteristic of convolutional layer with small kernel
+between another convolutional layer with bigger kernel.
+
+—_4»
+Convolutional Layer, 128
+
+ 
+
+—___¥
+Convolutional Layer, 32
+
+ 
+
+_<—_—_—_¥
+Convolutional Layer, 128
+
+ 
+
+ 
+
+v
+
+FIGURE 4. Example of Bottleneck layer.
+
+B. BATCH NORMALIZATION LAYER
+
+Based on [30] we could use the batch normalization layer
+to smooth the optimization result while having more stable
+yet faster to converge in the training process. We also could
+have a better convergence limit by using batch normalization
+layer. The usage of batch normalization layer was meant to
+make the CNN goes to the minimum loss as fast as possible
+which in this case, in lower epoch as possible [30], [31]. Batch
+normalization layer also may let us use a bigger learning
+
+VOLUME 8, 2020

@@ -1,0 +1,169 @@
+Queries-->
+
+ 
+
+Figure 7: MAP of discriminative minus map of
+generic, compared query-wise between generic and
+discriminative. Below zero means discriminative did
+worse than generic on that query. Queries in (arbi-
+trary) order of discriminative AP gain.
+
+better than the scheme proposed by Bergeron et al.[7]. This
+may be of independent interest in multiple instance ranking
+and max-margin learning with latent variables.
+
+ 
+
+Bergeron (26) | Entropy (27)
+
+MAP 0.416 0.462
+MRR 0.432" 0.481
+Figure 8: Benefits of annealing protocol.
+
+ 
+
+ 
+
+ 
+
+6.4.3. Comparison with B&N’s type prediction
+
+B&N [65] proposed two models, of which the “entity-centric”
+model was generally superior. Each entity e was associated
+with a textual description (e.g., Wikipedia page) which in-
+duced a smoothed language model 6¢. B&N estimate the
+score of type t as
+
+Pr(q|t) = Vee+s Pr(qlde) Pr(elt), (31)
+
+where Pr(e|t) was set to uniform. Note that no corpus (apart
+from the one of entity descriptions) was used. The output
+of B&N’s algorithm (hereafter, “B&N”) is a ranked list of
+types, not entities. We implemented B&N, and obtained ac-
+curacy closely matching their published numbers, using the
+DBpedia catalog with 358 types, and 258 queries (different
+from our main query set and testbed).
+
+ 
+
+ 
+
+ 
+  
+
+Q
+9
+a
+z 0.4
+& =f Discr(k=10)
+3 =O Discr(k=5)
+=O Discr(k=1)
+—O—BaN
+0.2 ©
+
+ 
+
+1 2
+Figure 9: Type prediction by B&N vs. discrimina-
+tive.
+
+3 4 SRank6 7 8 9 10
+
+We turned our system into a type predictor (Section[5.6.3),
+and also used DBpedia like B&N and compared type predic-
+tion accuracy on dataset provided in [5]. Results are shown
+in Figure [9] after including the top k returned types. At
+k = 1, our discriminative type prediction matches B&N,
+and larger k performs better, owing to stabilizing consen-
+sus from lower-ranked entities. Coupled with the results in
+Section[E-4.6] this is strong evidence that our unified formu-
+lation is superior, even if the goal is type prediction.
+
+RIGHTS LIN Ka
+
+1107
+
+6.4.4 Comparison with B&N-based entity ranking
+
+A type prediction may be less than ideal, and yet entity
+prediction may be fine. One can take the top type predicted
+by B&N, and launch an entity query (see Section[6.L.2) with
+that type restriction. To improve recall, we can also take the
+union of the top k predicted types. The result is a ranked
+list of entities, on which we can compute entity-level MAP,
+MRR, NDCG, as usual. In this setting, both B&N and
+our algorithm (discriminative) used YAGO as the catalog.
+Results for our dataset (Section[6.2) are shown in Figure[10]
+
+  
+
+k MRR||%Q better ]%Q worse
+
+1 5] 0.068 5.50 88.58
+
+5 15.80 76.30
+10 20.73 69.53
+15 24.54 63.47
+20 26.80 60.51
+25 0.233 29.34 56.84
+30 0.244
+
+29.76
+
+55.01
+Generic =
+Figure 10: B&N-driven entity ranking accuracy.
+
+We were surprised to see the low entity ranking accuracy
+of B&N (which is why we recreated very closely their re-
+ported type ranking accuracy on DBpedia). Closer scrutiny
+revealed that the main reason for lower accuracy was chang-
+ing the type catalog from DBpedia (358 types) to YAGO
+(over 200,000 types). Entity ranking accuracy is low because
+B&N’s type prediction accuracy is very low on YAGO: 0.04
+MRR, 0.04 MAP, and 0.058 NDCG@10. For comparison,
+our type prediction accuracy is 0.348 MRR, 0.348 MAP, and
+0.475 NDCG@10. This is entirely because of corpus/snippet
+signal: if we switch off snippet-based features @4, our accu-
+racy also plummets. The moral seems to be, large organic
+type catalogs provide enough partial and spurious matches
+for any choice of hints, so it is essential (and rewarding) to
+exploit corpus signals.
+
+6.4.5 Role of the corpus
+
+A minimally modified B&N that uses the corpus may re-
+place Wikipedia entity descriptions with corpus-driven de-
+scriptions, i.e., a pseudo-document made up of all snippets
+retrieved for a particular entity from the corpus. As we see
+in Figure [J] ranking accuracy improves marginally. This
+indicates that in the case of Web-scale entity search, an im-
+perfectly annotated corpus can prove to be more useful than
+a small human-curated information source.
+
+ 
+
+ 
+
+k| MAP|MRR||%Q better |%Q worse
+1] 0.070} 0.078 5.08 88.01
+5| 0.163 | 0.170 15.94 73.77
+10} 0.213 | 0.222 22.28 63.47
+15] 0.237 | 0.246 26.66 55.99
+20] 0.270} 0.279 29.34 49.65
+25 | 0.277 | 0.287 30.89 45.98
+30 | 0.287 | 0.299 32.16 42.45
+Generic | 0.323 | 0.432 = —
+
+ 
+
+ 
+
+Figure 11: B& N-driven entity ranking accuracy with
+corpus-driven entity description.
+
+On an average, B&N type prediction, followed by query
+launch, seems worse than generic. This is almost entirely
+because of choosing bad types for many, but not all queries.
+There are queries where B&N shows a (e.g., MAP) lift be-
+yond generic, but they are just too few (Figure[I2).

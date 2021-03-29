@@ -1,0 +1,54 @@
+Preprint. Under review.
+
+ 
+
+Pinkus, A. (1999). Approximation theory of the mlp model in neural networks. Acta numerica,
+8:143-195.
+
+Qi, C. R., Su, H., Mo, K., and Guibas, L. J. (2017). Pointnet: Deep learning on point sets for 3d
+classification and segmentation. CVPR.
+
+Rudin, W. (1987). Real and Complex Analysis, 3rd Ed. McGraw-Hill, Inc., New York, NY, USA.
+
+Saxe, A. M., McClelland, J. L., and Ganguli, S. (2014). Exact solutions to the nonlinear dynamics of
+learning in deep linear neural networks. JCLR.
+
+Scarselli, F., Gori, M., Tsoi, A. C., Hagenbuchner, M., and Monfardini, G. (2009). The graph neural
+network model. [EEE Transactions on Neural Networks, 20(1):61-80.
+
+Shervashidze, N., Schweitzer, P., Leeuwen, E. J. v., Mehlhorn, K., and Borgwardt, K. M. (2011).
+Weisfeiler-lehman graph kernels. Journal of Machine Learning Research.
+
+Sperduti, A. and Starita, A. (1997). Supervised neural networks for the classification of structures.
+IEEE Transactions on Neural Networks, 8(3):714-735.
+
+Szegedy, C., Vanhoucke, V., Ioffe, S., Shlens, J., and Wojna, Z. (2016). Rethinking the inception
+architecture for computer vision. In Proceedings of the IEEE conference on computer vision and
+pattern recognition, pages 2818-2826.
+
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, t., and
+Polosukhin, I. (2017). Attention is all you need. In Advances in Neural Information Processing
+Systems, pages 5998-6008. Curran Associates, Inc.
+
+Velickovic, P., Cucurull, G., Casanova, A., Romero, A., Lio, P., and Bengio, Y. (2018). Graph
+attention networks. JCLR.
+
+Verma, S. and Zhang, Z.-L. (2019). Graph capsule convolutional neural networks. JCLR.
+
+Weisfeiler, B. and Lehman, A. (1968). A reduction of a graph to a canonical form and an algebra
+arising during this reduction. Nauchno-Technicheskaya Informatsia, 2(9):12-16.
+
+Xu, K., Hu, W., Leskovec, J., and Jegelka, S. (2019). How powerful are graph neural networks?
+ICLR.
+
+Ying, R., You, J., Morris, C., Ren, X., Hamilton, W. L., and Leskovec, J. (2018). Hierarchical graph
+representation learning with differentiable pooling. In Advances in Neural Information Processing
+Systems, pages 4805-4815.
+
+Zaheer, M., Kottur, S., Ravanbakhsh, S., Péczos, B., Salakhutdinov, R., and Smola, A. J. (2017).
+Deep sets. In Advances in Neural Information Processing Systems.
+
+Zhang, M., Cui, Z., Neumann, M., and Chen, Y. (2018). An end-to-end deep learning architecture for
+graph classification. In Proceedings of AAAI Conference on Artificial Inteligence.
+
+11

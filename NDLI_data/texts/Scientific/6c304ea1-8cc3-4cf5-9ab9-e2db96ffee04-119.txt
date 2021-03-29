@@ -1,0 +1,65 @@
+An interpretation I satisfies a knowledge-base K if and only if, for all of the syntactic axioms in
+K, the corresponding semantic conditions in Table 6 hold for J. In this case, we call I a model of K.
+As an example, for K := (A, T, R), let:
+e A:= {City(Arica), City(Santiago), flight (Arica, Santiago)};
+e T:= {City E Place, Sflight.T € dnearby.Airport};
+e R:= {flight € connectsTo}.
+For I = (A/,-"), let:
+Al := (nb, De, 0};
+
+ 
+
+ 
+
+© Arica! = Santiago! = De, AricaAirport! = %,
+© City! := (£6, 2a}, Airport! = {%};
+e flight! := {(, 2a)}, connectsTo! := {(b, 2a)}, sells! := {(%, &)}.
+
+The interpretation J is not a model of K since it does not have that xb. is nearby some Airport, nor
+that <£ and 2a are in the class Place. However, if we extend I with the following:
+
+© Place! = {cf 2a};
+
+e nearby! := {(, %}.
+
+Now I is a model of K. Note that although K does not imply that sells(Arica, coffee) while I
+indicates that % sells s#, I is still a model of K since K is not assumed to be a complete description
+of the world, as per the Open World Assumption.
+
+Finally, the notion of a model gives rise to the key notion of entailment.
+
+Definition B.43. Given two DL knowledge bases K; and K2, we define that K; entails Kz, denoted
+K, — Kg, if and only if any model of Kz is a model of Kj.
+
+The entailment relation tells us which knowledge bases hold as a logical consequence of which
+others: if all models of Kz are also models of K; then, intuitively speaking, Kz says nothing new over
+K,. For example, let K; denote the knowledge base K from the previous example, and define a second
+knowledge base with one assertion: Kz = ({connectsTo(Arica, Santiago)}, {}, {}). Though K;
+does not assert this axiom, it does entail Kz: to be a model of K2, an interpretation must have that
+(Arica’, Santiago!) € connectsTo!, but this must also be the case for any interpretation that
+satisfies K, since it must have that (Arica’, Santiago’) € flight! and flight! C connectsTo!.
+
+Unfortunately, the problem of deciding entailment for knowledge bases expressed in the DL
+composed of the unrestricted use of all of the axioms of Table 6 combined is undecidable. We could,
+for example, reduce instances of the Halting Problem to such entailment. Hence DLs in practice
+restrict use of the features listed in Table 6. Different DLs then apply different restrictions, implying
+different trade-offs for expressivity and the complexity of the entailment problem. Most DLs are
+founded on one of the following base DLs (we use indentation to denote derivation):
+
+ALC (Attributive Language with Complement [439]), supports atomic classes, the top and bottom
+classes, class intersection, class union, class negation, universal restrictions and existential
+restrictions. Relation and class assertions are also supported.
+
+S extends ALC with transitive closure.
+
+These base languages can be extended as follows:
+
+Ht adds relation inclusion.
+
+R adds (limited) complex relation inclusion, as well as relation reflexivity, relation irreflexivity,
+relation disjointness and the universal relation.
+O adds (limited) nomimals.
+I adds inverse relations.
+F adds (limited) functional properties.
+
+119

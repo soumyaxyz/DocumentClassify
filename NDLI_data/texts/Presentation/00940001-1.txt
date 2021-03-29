@@ -1,0 +1,46 @@
+Challenges and Applications of Mathematics in in Science and Technology
+(CAMIST)" held in Mathematics department, NIT Rourkela. 2010
+
+SOME APPLICATIONS OF FUZZY LOGIC IN TRANSPORTATION
+ENGINEERING
+
+U. Chattaraj and M. Panda
+
+Department of Civil Engineering, National Institute of Technology, Rourkela — 769
+008, Orissa, India
+
+ABSTRACT
+
+Fuzzy logic is able to express any natural phenomenon especially related to human
+decision making efficiently using linguistic variables, which is not promising using
+any mathematical expression. In this paper details of fuzzy sets and fuzzy inference are
+presented. Fuzzy logic proved its wide applications in many areas. A review of
+important applications of fuzzy logic in transportation engineering (involving traffic
+flow modeling, transportation planning, and traffic control mechanisms and so on) has
+been presented in this paper, from which it is observed that fuzzy logic is an important
+tool for understanding and solving various problems related to transportation engineering.
+
+INTRODUCTION
+
+“The power (in a set-theoretic sense) of our thinking and feeling is much higher than the
+power of living language. If in turn we compare the power of a living language with the
+logical language, then we will find that logic is even poorer.” — Zimmermann [1].
+
+From the above quotation it can be said that expressing any natural phenomenon by
+mathematical expressions does not always guarantee exact capturing of the phenomenon
+itself. So, if any phenomenon, especially related to human decision making can be expressed
+linguistically chance of proper capturing of the phenomenon increases. Fuzzy logic is such a
+logic, which is based on approximate reasoning and can be expressed linguistically to capture
+the inherent vagueness of human mind. So, it can be applied to the areas which involve
+human decision making like supervision, monitoring, planning, scheduling etc. In this Paper
+basic properties of fuzzy logic have been described in the beginning and then its applications
+to transportation engineering have been presented. Transportation engineering involves
+human decision making in terms of route choice, choice of speed etc. and some control
+mechanisms (as for example, signalized intersection) where prevailing situations are
+imprecise in nature and the outcome of any adopted control strategy is unknown. So, there are
+plenty of scopes of application of fuzzy logic in transportation engineering.
+
+This paper is broadly divided into five sections, of which this is the first to introduce the
+matter. The next section discusses in detail about fuzzy sets; while, the third section is on
+fuzzy inference. The fourth section concentrates on the review of the case studies of
+applications of fuzzy logic in transportation engineering. Finally, in the fifth section

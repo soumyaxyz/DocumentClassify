@@ -1,0 +1,16 @@
+Lecture 2
+
+Variational Principles in Computational
+Solid Mechanics
+
+Chapters
+
+Principle of virtual work. Reciprocal Theorem.
+
+The Least Action Principle in dynamics.
+(Hamilton’s principle and the Euler-Lagrange equation)
+
+Weighted Residual (Galerkin’s) Method and the principle
+of minimum potential energy.
+
+Element formulations using variational principles.

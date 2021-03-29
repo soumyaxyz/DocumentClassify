@@ -1,0 +1,48 @@
+42 6. MAIN RESULTS
+
+Feit and Zuckermann discuss reality for spin groups in [FZ] (Corollary D). They
+
+prove,
+
+Proposition 6.1.8. Let F be an algebraically closed field. Let (V,q) be an n-
+dimensional quadratic space. Suppose n is odd. Then, every element in Spin(q) is
+
+real in Spin(q).
+
+Let V be a vector space of dimension 2n with a symplectic form. We denote the
+corresponding symplectic group by Sp(2n, k). Let Sp*(2n, q) be the group consisting
+of symplectic and skew-symplectic isometries. Feit and Zuckermann proved ({FZ],
+Theorem E).
+
+Proposition 6.1.9. Let F = F, be a finite field. Then,
+(i) Ifq¢=1 (mod 4) then every element of Sp(2n,q) is real.
+(ii) If¢ =3 (mod 4) then every element of Sp(2n,q) is real in Sp*(2n,q).
+Wonenburger proved ({W1], Theorem 2),
+
+Proposition 6.1.10. Any element of S'p(2n, k) is a product of two skew-symplectic
+
+involutions.
+
+That every element of a symplectic group over fields of characteristic 2 is a product
+of two involutions is settled in [Ni]. Recently Vinroot ([V], Theorem 2) proved for
+GSp(2n, k) over k with characteristic F 2,
+
+Proposition 6.1.11. Let g € GS'p(2n,k) with similitude factor (g) = 3. Then
+g = tite, where t; is a skew-symplectic involution and ty is such that f(t2) = —8 with
+= BL,
+
+ 
+
+The center of Sp(2n,k) is Z(Sp(2n,k)) = {+1}. We denote the projective symplectic
+group by PSp(2n,k) = Sp(2n, k)/Z(Sp(2n, k)). We prove,
+
+Theorem 6.1.12. Let t € Sp(2n,k) be a semisimple element. Suppose t is either
+conjugate to t-! or —t~'. Then the conjugation can be achieved by an element s €
+Sp(2n,k) such that s? = —1. Hence a semisimple element of PSp(2n,k) is real if
+and only if it is strongly real in PSp(2n,k).
+
+We give an example of a symplectic transformation which can not be written as a
+product of two involution but is a real element.
+We now determine real semisimple elements in unitary groups. Let K be a qua-
+
+dratic extension of k.

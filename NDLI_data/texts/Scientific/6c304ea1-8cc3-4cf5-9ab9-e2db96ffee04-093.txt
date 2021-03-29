@@ -1,0 +1,119 @@
+333
+334
+
+335,
+
+337
+
+338
+
+339
+
+340
+
+342
+
+343
+
+344
+
+345
+
+346
+
+347
+
+348
+
+349
+
+350
+351
+
+352
+
+353
+
+354
+
+ 
+
+Marvin Minsky. 1974. A Framework for representing knowledge. MIT-AI Memo 306, Santa Monica (1974), 76.
+
+Mike Mintz, Steven Bills, Rion Snow, and Daniel Jurafsky. 2009. Distant supervision for relation extraction without
+labeled data. In ACL 2009, Proceedings of the 47th Annual Meeting of the Association for Computational Linguistics
+and the 4th International Joint Conference on Natural Language Processing of the AFNLP, 2-7 August 2009, Singapore,
+Keh-Yih Su, Jian Su, and Janyce Wiebe (Eds.). The Association for Computational Linguistics, 1003-1011.
+
+Tom M. Mitchell, William W. Cohen, Estevam R. Hruschka Jr., Partha P. Talukdar, Bo Yang, Justin Betteridge, Andrew
+Carlson, Bhavana Dalvi Mishra, Matt Gardner, Bryan Kisiel, Jayant Krishnamurthy, Ni Lao, Kathryn Mazaitis, Thahir
+Mohamed, Ndapandula Nakashole, Emmanouil A. Platanios, Alan Ritter, Mehdi Samadi, Burr Settles, Richard C.
+Wang, Derry Wijaya, Abhinav Gupta, Xinlei Chen, Abulhair Saparov, Malcolm Greaves, and Joel Welling. 2018.
+Never-ending learning. Communications of the ACM 61, 5 (2018), 103-115.
+
+Federico Monti, Davide Boscaini, Jonathan Masci, Emanuele Rodola, Jan Svoboda, and Michael M. Bronstein. 2017.
+Geometric Deep Learning on Graphs and Manifolds Using Mixture Model CNNs. In 2017 IEEE Conference on Computer
+Vision and Pattern Recognition, CVPR 2017, Honolulu, HI, USA, July 21-26, 2017. IEEE Computer Society, 5425-5434.
+https://doi.org/10.1109/CVPR.2017.576
+
+Elena Montiel-Ponsoda, Victor Rodriguez-Doncel, and Jorge Gracia. 2017. Building the Legal Knowledge Graph for
+Smart Compliance Services in Multilingual Europe. In Proceedings of the 1st Workshop on Technologies for Regulatory
+Compliance co-located with the 30th International Conference on Legal Knowledge and Information Systems (JURIX 2017),
+Luxembourg, December 13, 2017 (CEUR Workshop Proceedings), Victor Rodriguez-Doncel, Pompeu Casanovas, and Jorge
+Gonzalez-Conejero (Eds.), Vol. 2049. Sun SITE Central Europe (CEUR), 15-17. http://ceur-ws.org/Vol-2049/02paper.pdf
+Benjamin Moreau, Patricia Serrano-Alvarado, Matthieu Perrin, and Emmanuel Desmontils. 2019. Modelling the
+Compatibility of Licenses, See [226], 255-269.
+
+Andrea Moro and Roberto Navigli. 2013. Integrating Syntactic and Semantic Analysis into the Open Information
+Extraction Paradigm. In IJCAI 2013, Proceedings of the 23rd International Joint Conference on Artificial Intelligence,
+Beijing, China, August 3-9, 2013, Francesca Rossi (Ed.). IJCAI/AAAI, 2148-2154.
+
+Andrea Moro, Alessandro Raganato, and Roberto Navigli. 2014. Entity Linking meets Word Sense Disambiguation: a
+Unified Approach. Transactions of the Association for Computational Linguistics 2 (2014), 231-244.
+
+Boris Motik, Bernardo Cuenca Grau, Ian Horrocks, Zhe Wu, Achille Fokoue, and Carsten Lutz. 2012. OWL 2 Web
+Ontology Language Profiles (Second Edition), W3C Recommendation 11 December 2012. W3C Recommendation. World
+Wide Web Consortium. http://www.w3.org/TR/2012/REC-owl2-profiles-20121211/
+
+Boris Motik, Rob Shearer, and Ian Horrocks. 2009. Hypertableau Reasoning for Description Logics. Journal of Artificial
+Intelligence Research 36 (2009), 165-228.
+
+Varish Mulwad, Tim Finin, and Anupam Joshi. 2013. Semantic Message Passing for Generating Linked Data from
+Tables, See [8], 363-378.
+
+Chris Mungall, Alan Ruttenberg, Ian Horrocks, and David Osumi-Sutherland. 2012. OBO Flat File Format 1.4 Syntax
+and Semantics. Editor’s Draft. http://owlcollab.github.io/oboformat/doc/obo-syntax.html
+
+Emir Mufioz, Aidan Hogan, and Alessandra Mileo. 2014. Using Linked Data to mine RDF from Wikipedia’s tables. In
+Seventh ACM International Conference on Web Search and Data Mining, WSDM 2014, New York, NY, USA, February
+24-28, 2014, Ben Carterette, Fernando Diaz, Carlos Castillo, and Donald Metzler (Eds.). ACM Press, 533-542.
+
+Sergio Mufioz, Jorge Pérez, and Claudio Gutiérrez. 2009. Simple and Efficient Minimal RDFS. Journal of Web Semantics
+7, 3 (2009), 220-234.
+
+David Nadeau and Satoshi Sekine. 2007. A survey of named entity recognition and classification. Lingvisticae
+Investigationes 30, 1 (2007), 3-26.
+
+Ndapandula Nakashole, Tomasz Tylenda, and Gerhard Weikum. 2013. Fine-grained Semantic Typing of Emerging
+Entities. In Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics, ACL 2013, 4-9
+August 2013, Sofia, Bulgaria, Volume 1: Long Papers. The Association for Computational Linguistics, 1488-1497.
+https://www.aclweb.org/anthology/volumes/P 13-1
+
+Arvind Narayanan and Vitaly Shmatikov. 2009. De-anonymizing Social Networks. In 30th IEEE Symposium on Security
+and Privacy (S&P 2009), 17-20 May 2009, Oakland, California, USA. IEEE Computer Society, 173-187.
+
+Roberto Navigli. 2009. Word Sense Disambiguation: A Survey. ACM Computing Surveys 41, 2 (2009), 1-69.
+
+Roberto Navigli and Simone Paolo Ponzetto. 2012. BabelNet: The automatic construction, evaluation and application
+of a wide-coverage multilingual semantic network. Artificial Intelligence 193 (2012), 217-250.
+
+Markus Nentwig, Michael Hartung, Axel-Cyrille Ngonga Ngomo, and Erhard Rahm. 2017. A survey of current link
+discovery frameworks. Semantic Web Journal 8, 3 (2017), 419-436.
+
+Sebastian Neumaier and Axel Polleres. 2019. Enabling Spatio-Temporal Search in Open Data. Journal of Web Semantics
+55 (2019), 21 - 36. https://doi.org/10.1016/j.websem.2018.12.007
+
+Sebastian Neumaier, Jiirgen Umbrich, Josiane Xavier Parreira, and Axel Polleres. 2016. Multi-level Semantic Labelling
+of Numerical Values, See [194], 428-445.
+
+93,

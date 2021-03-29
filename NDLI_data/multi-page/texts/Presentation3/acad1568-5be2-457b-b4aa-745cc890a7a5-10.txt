@@ -1,0 +1,28 @@
+Features of Business Intelligence
+
+Fact-based decision making:
+Decisions made through Business Intelligence are based purely on fact and history.
+It is about staying in tune with the data flowing through your business systems.
+
+Refer to the case study brief on “GoodFood Restaurants Inc.”. Let us try to understand
+fact-based decision making using the example of our “GoodFood” restaurant. Every
+restaurant will report the quantity of food wasted across the globe within six hours from
+the closing hour of restaurant. This data is aggregated and shared among all chefs, back
+office staff, operations manager, and marketing campaign teams. A team analyzes reasons
+and spot drivers of variance and set target to reduce wastage week-by-week. The same
+team tracks data and initiates actions to correct the process to reduce waste and achieve set
+target.
+
+Single version of truth: Put simply, a single version of truth means that if the same piece of
+data is available at more than one place, all the copies of the data should agree wholly and
+in every respect. BI helps provide single version of truth.
+
+In our above example of the restaurant, picture a customer walking into the restaurant a
+little late for lunch. He asks at the reception about the availability of a particular cuisine
+(say, Thai cuisine) at the buffet lunch. The receptionist confirms the availability after
+checking on the networked computer system, and the customer proceeds to the dining
+area. On the way, the customer come across the head waiter and asks the same question.
+He too confirmed using his PDA (Personal Digital Assistant).
+
+Thus, this is the “single version of truth” wherein same piece of information shared by
+multiple persons agrees wholly and in every respect.

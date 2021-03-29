@@ -1,0 +1,203 @@
+accuracy increases rapidly with the training size. For comparatively
+larger size of the training corpus, accuracy still increases, albeit
+more gradually.
+
+3 31 936) ¢ i 3 3 18 2 g 68 ol
+2 34 37 «-f 16 3 8 a4 8 8 7 24
+g g Eg g
+2s | 25 fa 2 3 227 69
+6 6 6 6
+BAC TEQ OBS BAC TEQ OBS BAC TEQ OBS BAC TEQ OBS
+cs.NI es.TLT cs.TPAMI es.combined
+
+Figure 5: Confusion matrices.
+
+Figure 5 presents the confusion matrices corresponding to the
+best runs (i.e., for the Fine-tuned model) on the test subsets of the
+four CS corpora. Table 4 presents the per-class precision, recall,
+F1-score, and support, corresponding to the same runs.
+
+ 
+
+ 
+
+Dataset Label P R F Ss
+BACKGROUND 78.21 67.63, 72.54 207
+cs.NI TECHNIQUE 69.43 60.56 64.69 180
+
+OBSERVATION 41.13 69.86 51.78 73.
+
+BACKGROUND = 80.37. 81.13. 80.75 106
+¢s.TLT TECHNIQUE 71.22 83.90 77.04 118
+OBSERVATION 92.50 72.55 81.32 102
+BACKGROUND 91.57. 79.17 84.92 96
+TECHNIQUE 79.56 92.31 85.46 156
+OBSERVATION 83.87 70.27. 76.4774
+BACKGROUND 76.04 80.68 += 78.29 409
+cs.combined | TECHNIQUE 72.04 77.75 74.79 454
+
+OBSERVATION 81.38 61.45. 70.02 249
+
+Table 4: Results expressed in terms of (P)recision, (R)ecall,
+(F)1 and (S)upport.
+
+ 
+
+ 
+
+cs. TPAMI
+
+ 
+
+ 
+
+ 
+
+ 
+
+It is clear that the relatively poor accuracy for cs.NI is the result
+of the failure of our model to identify the sentences belonging to the
+class OBSERVATION. In general, abstracts tend to follow the pattern
+BACKGROUND— TECHNIQUE OBSERVATION. However, as
+reported by the annotators, the abstracts in cs.NI often deviate from
+this trend. Moreover, cs.NI is quite imbalanced, with significantly
+fewer instances of OBSERVATION. All these factors contribute to
+the model’s difficulty with the cs.NI dataset. However, based on our
+observation in Fig 4, we expect with a larger volume of training
+data, these limitations can be overcome.
+
+ 
+
+ 
+
+ 
+
+Details Accuracy on cs.NI test subset
+Fine-tuned on original cs. NI 65.22
+Fine-tuned on noisy and augmented cs.NI 67.99
+
+ 
+
+ 
+
+Table 5: Experiment with noisy data.
+
+To test this hypothesis, we performed an experiment. We took the
+model fine-tuned on cs.combined dataset and used it to predict the
+labels for 150 additional abstracts from arXiv.CS.NI. These abstracts
+had no corresponding golden labels but we expect the predictions to
+
+have accuracy comparable to those of the test subset of cs.combined.
+
+We augmented the cs.NI training subset, so that now it contains
+
+110+150 = 260 examples (albeit of somewhat questionable integrity).
+
+Then, the model that was pre-trained on PubMed was fine-tuned
+with this augmented corpus. We observed a 2% increase in accuracy
+on the the original cs.NI test subset (Table 5). This vindicates our
+hypothesis.
+
+5.3 Ablation Analysis
+
+The ablation study of the proposed model in the context of cs.combined
+is depicted in Table 6 where we subtract one layer at a time and re-
+port the changed accuracy. We observe that the abstract processing
+step, with the bidirectional LSTM to extract the conceptual informa-
+tion from the sentences, contributes the greatest toward the model’s
+performance. Embeddings, with their capability to represent the
+contextual relationship between the tokens, has the second-highest
+contribution. The CRF in the output generation layer also has a ma-
+jor impact on the model’s performance. This layer takes advantage
+of the sequential dependency in the output label sequence. This ties
+into the poor performance on the cs.NI dataset, as the sequential
+information is somewhat lacking in that dataset.
+
+ 
+
+ 
+
+ 
+
+Dataset ‘Accuracy
+Full Model 75.18
+= Token Processing ~~ —ss—i—C—ti‘“‘i‘“=;*é*™*S~S ‘SSC
+— Sentence Processing 70.67
+— Abstract Processing 43.15
+— CRF in Output Layer (replaced with softmax) _ 66.02
+
+ 
+
+ 
+
+Table 6: Summary of ablation analysis.
+
+6 CONCLUSION
+
+In this paper, we proposed a method for automatic discourse classifi-
+cation of sentences in computer science abstracts. We demonstrated
+that transfer learning with fine-tuning can provide remarkable re-
+sults even on a sparsely labeled dataset. We observed that due to
+the difference in presentation style, the nature of the discourse
+classification of CS abstracts vary across sub-fields. Nevertheless,
+the results on cs.combined demonstrate that the proposed model
+generalizes fairly well across sub-fields of CS.
+
+ACKNOWLEDGMENTS
+
+This work is supported by the National Digital Library of India
+Project sponsored by the Ministry of Human Resource Development,
+Government of India at IIT Kharagpur.
+
+REFERENCES
+
+1] Cuan, J., Cuanc, J. C., Hore, T., SHanar, D., anp Krrtur, A. SOLVENT: A mixed
+initiative system for finding analogies between research papers. Proceedings of
+the ACM on Human-Computer Interaction 2, CSCW (2018), 31.
+
+[2] Conen, J. A coefficient of agreement for nominal scales. Educational and
+psychological measurement 20, 1 (1960), 37-46.
+
+[3] Dernoncourt, F. Sequential short-text classification with neural networks. PhD
+thesis, Massachusetts Institute of Technology, 2017.
+
+[4] Dernoncourt, F., AND Lee, J. Y. PubMed 200k RCT: a dataset for sequential
+sentence classification in medical abstracts. arXiv preprint arXiv:1710.06071 (2017).
+
+[5] Ju, D., anv Szotovits, P. Hierarchical neural networks for sequential sentence
+
+classification in medical scientific abstracts. arXiv preprint arXiv:1808.06161
+
+(2018).
+
+Krnema, D. P., AND Ba, J. Adam: A method for stochastic optimization. arXiv
+
+preprint arXiv:1412.6980 (2014).
+
+PENNINGTON, J., SOCHER, R., AND MANNING, C. GloVe: Global vectors for word
+
+representation. In Proceedings of the 2014 conference on empirical methods in
+
+natural language processing (EMNLP) (2014), pp. 1532-1543.
+
+Ruppte, A. M., Mork, J. G., Rozier, J. M., AND KNEcur, L. S. Structured abstracts
+
+in MEDLINE: Twenty-five years later. National Library of Medicine (2012).
+
+Sutton, C., McCatum, A., ET AL. An introduction to conditional random fields.
+
+Foundations and Trends® in Machine Learning 4, 4 (2012), 267-373.
+
+{10] US| NarionaL Lrprary oF HEALTH. Structured abstracts.
+
+https://www.nlm.nih.gov/bsd/policy/structured_abstracts.html.
+
+ 
+
+[6
+
+7
+
+[8
+
+[9

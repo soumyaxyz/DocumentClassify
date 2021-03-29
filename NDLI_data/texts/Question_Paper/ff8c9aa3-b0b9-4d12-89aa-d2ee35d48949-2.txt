@@ -1,0 +1,68 @@
+10.
+
+eh)
+
+12.
+
+13.
+
+14.
+
+Name the command that can be used to Format a 15.
+
+disk.
+
+What is the purpose of EDIT command?
+PART B — (5 x 5 = 25)
+Answer ALL questions.
+
+(a) Explain the functions of Operating System.
+
+Or
+(b) Write short notes on single-user operating
+system.
+16.
+(a) Write short notes on following:
+qa) NTFS 17.
+Gi) FAT. 18.
+Or 19.
+(b) What is Access control? Explain.
+(a) What are the advantages of DOS?
+Or
+(b) Write the steps for Booting process.
+(a) Explain the difference between External and 20.
+Internal command.
+Or
+
+(b) Explain the path command.
+
+hee EN Te
+
+(a) What is the purpose of Internal command?
+
+Or
+(b) Explain the following:
+(i) EDIT
+(ii) XCOPY
+(ii) LABEL.
+
+PART C — (8 x 10 = 30)
+Answer any THREE questions.
+
+Explain the Multi user Operating System in
+detail.
+
+How will you create directory? Explain.
+Explain the naming rules in DOS.
+
+Explain the following commands with example:
+
+(a) TIME
+
+(b) CLS
+(c) DIR
+(d) PATH.
+
+Explain External commands in detail.
+
+Q Qa aT. Foard

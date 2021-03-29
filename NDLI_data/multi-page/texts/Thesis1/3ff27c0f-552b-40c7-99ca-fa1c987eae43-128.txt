@@ -1,0 +1,51 @@
+Chapter 4: Quantum isometry groups for Rieffel deformed manifolds 116
+
+ 
+
+Lemma 4.2.3. The map © satisfies
+
+[Clam ax) © (Q(v) ay)e(u.v)dudv = | (a > (Q(Ju)))(y > A(v) )e(u.v)dudv,
+
+R2n
+
+for x,y in Qo. When x,y are in Qo, we have
+
+R2n
+
+[,e dz) © (Q(v) sy)e(u.v)dudv = / (xP (Q(Ju)))(y > Q(v) )e(u.v)dudv.
+
+Proof : The expression in the left hand side equals
+
+[Gun ax) © (A(v") ay)e(ul.v)du' de!
+= | (fe —u.v)e(w.s)(O(—Ju) <(O(Ju’) 42) > O(Jw))
+‘Ren Rin
+(O(—v) 4 (Q(v") ay) > O(s)) dududwds}e(ul.v')dul dv!
+= / (Q(J(ul — u)) ax) bP OVTw))(Q(v! — v) ay > Q(s))
+Ron
+e(u’.v')e(—u.v)e(w.s)duduvdwdsdu' dv’
+7 | e(w.s)dwds{ e(u’.v')e(—u.v)dudvdu' dv’
+R2n Ran
+
+(Q(T (ul — u)) daw)(Q(v! — v) 4 ys)},
+
+where ty = 27> O(Jw), ys = yo A(s).
+The proof of the lemma will be complete if we show
+
+| e(ulv!)e(—u.v) (Q(T (u! —u))< tw) (Av! —v) <ys)dudvdu'du! = tw.ys-
+Ran
+
+By tah variable in the above integral, with z = u’ — u,t = v' — v, it becomes
+Jean e(—uv)e “ + 2z).(u + t))O(z, t)dudvdzdt
+= Jean O(2, the(u.t + z.v)e(z.t)dudvdzdt, where
+
+(2,4) = (Q(I(z)) 42)(QE) ys).
+
+By taking (z,t) = X,(v,u) = Y, and F(X) = ¢(z,t)e(z.t), the integral can be written
+
+as
+f fre e(X.Y)dXdY
+
+ho ( by Proposition 1.3.1)
+= (2(F(0)) 47w)(2(0) ays)
+
+= Lw-Ys,

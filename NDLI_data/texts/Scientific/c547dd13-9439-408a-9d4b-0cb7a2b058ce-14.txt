@@ -1,0 +1,119 @@
+Kandimalla et al.
+
+Boyack, K. W. and Klavans, R. (2018). Accurately
+identifying topics using text: Mapping pubmed
+(Centre for Science and Technology Studies
+(CWTS)), 107-115
+
+Bunk, S. and Krestel, R. (2018). Welda: Enhancing
+topic models by incorporating local word context.
+In Proceedings of the 18th ACMAEEE on Joint
+Conference on Digital Libraries. JCDL ’ 18, 293-
+302
+
+Caragea, C., Wu, J., Gollapalli, S. D., and Giles,
+C. L. (2016). Document type classification in
+online digital libraries. In Proceedings of the
+13th AAAI Conference
+
+Cer, D., Yang, Y., Kong, S., Hua, N., Limtiaco, N.,
+John, R. S., et al. (2018). Universal sentence
+encoder for english. In Proceedings of EMNLP
+Conference
+
+Charte, F., Rivera, A. J., del Jestis, M. J., and
+Herrera, F. (2015). Addressing imbalance in
+multilabel classification: Measures and random
+resampling algorithms. Neurocomputing 163,
+3-16
+
+Chawla, N. V., Bowyer, K. W., Hall, L. O., and
+Kegelmeyer, W. P. (2002). Smote: Synthetic
+minority over-sampling technique. J. Artif: Int.
+Res. 16, 321-357
+
+Cho, K., van Merrienboer, B., Giilgehre, C.,
+Bahdanau, D., Bougares, F., Schwenk, H., et al.
+(2014). Learning phrase representations using
+RNN encoder-decoder for statistical machine
+translation. In Proceedings of the 2014
+Conference on Empirical Methods in Natural
+Language Processing, EMNLP 2014. 1724-1734
+
+Conneau, A., Kiela, D., Schwenk, H., Barrault, L.,
+and Bordes, A. (2017). Supervised learning of
+universal sentence representations from natural
+language inference data. In Proceedings of the
+EMNLP Conference
+
+Devlin, J., Chang, M., Lee, K., and Toutanova, K.
+(2019). BERT: pre-training of deep bidirectional
+transformers for language understanding. In
+NAACL-HLT
+
+Fellbaum, C. (2005). Wordnet and wordnets. In
+Encyclopedia of Language and Linguistics, ed.
+A. Barber (Elsevier). 2-665
+
+Subject Category Classification
+
+Fortunato, S., Bergstrom, C. T., Borner, K., Evans,
+J. A., Helbing, D., Milojevi¢, S., et al. (2018).
+Science of science. Science 359
+
+Garcia, V., Sanchez, J. S., and Mollineda, R. A.
+(2012). On the effectiveness of preprocessing
+methods when dealing with different levels of
+class imbalance. Knowl.-Based Syst. 25, 13-21
+
+Gerlach, M., Peixoto, T. P., and Altmann, E. G.
+(2018). A network approach to topic models.
+Science advances 4, eaaq1360
+
+Giles, C. L., Bollacker, K. D., and Lawrence,
+S. (1998). CiteSeer: An automatic citation
+indexing system. In Proceedings of the 3rd ACM
+International Conference on Digital Libraries,
+June 23-26, 1998, Pittsburgh, PA, USA. 89-98
+
+Glanzel, W. and Thijs, B. (2017). Using
+hybrid methods and ‘core documents’ for
+the representation of clusters and topics: the
+astronomy dataset. Scientometrics 111, 1071—
+1087
+
+Goldberg, Y. and Levy, O. (2014). word2vec
+explained: deriving mikolov et al.’s negative-
+
+sampling word-embedding method. arXiv
+
+preprint arXiv: 1402.3722
+
+Grave, E., Mikolov, T., Joulin, A., and Bojanowski,
+P. (2017). Bag of tricks for efficient text
+classification. In Proceedings of the 15th EACL
+
+Greff, K., Srivastava, R. K., Koutnik, J.,
+Steunebrink, B. R., and Schmidhuber, J. (2017).
+LSTM: A search space odyssey. IEEE Trans.
+Neural Networks Learn. Syst. 28, 2222-2232
+
+He, G., Fang, J., Cui, H., Wu, C., and Lu, W. (2018).
+Keyphrase extraction based on prior knowledge.
+In Proceedings of the 18th ACM/IEEE on Joint
+Conference on Digital Libraries, JCDL
+
+Hochreiter, S. and Schmidhuber, J. (1997). Long
+Short-Term Memory. Neural Comput. 9, 1735-
+1780
+
+Iyyer, M., Manjunatha, V., Boyd-Graber, J.,
+and Daumé III, H. (2015). Deep unordered
+composition rivals syntactic methods for text
+classification. In Proceedings ACL
+
+Khabsa, M. and Giles, C. L. (2014). The number
+of scholarly documents on the public web. PLoS
+ONE 9, e93949
+
+14

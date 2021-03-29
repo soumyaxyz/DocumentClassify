@@ -1,0 +1,136 @@
+Chapter 5: Quantum isometry groups of the Podles spheres 152
+
+ll
+
+vie
+
+1
+3 =
+
+1
+LF > (yPu_1) = N? Fo(E£pwi.)
+-1 i
+
+1
+iF > (Eb (a—psy)) = N?, Fb (—p* — psa*)
+
+273
+
+1
+a—psN?
+
+ll
+|
+
+vie
+
+wi
+
+1
+(a— psy) = N?
+
+ll
+
+NIK
+
+4.
+
+i
+2
+
+NIK
+NIK
+NIK
+Nie
+
+ll
+zy
+So
+Vv
+=
+<
+ro
+<
+
+(E> (a — ps7y))
+
+Nie
+
+i
+~~ 2
+
+A.
+uN} 47° ysN
+272
+
+*
+Qa.
+
+VIF PE NIA SE
+
+i
+2
+
+(—hy* — psa")
+
+NIE
+
+Nie IE
+
+i
+2
+
+ 
+
+Combining these, we have the result.
+
+ 
+
+ 
+
+ 
+
+Lemma 5.3.3. 1. 7(A)u!, y € span{v, Wee vite ,
+ail ocnis (II 1 UHL
+(Btn © span{vyy in» Vm—1.N) Vainio
+yl pan fyl-l 1 41
+7(B Un. € span{Vni iN» Vin-+1,N? Vantin}
+
+2. m(A*)(ul, w) € span{vi, N: Vane? beseees ; vay ?
+
+m’ pn’) (al ans lem!—n! | |-(n’-n’—1) l4n!+m/
+3. 1(A™ B” )(vi, nw) € span{v. WN > Vinn/N 4 EE > Vunew Nt
+
+T BR*S) (ail — J—s—r J—s—r+1 l+s+r
+4. 7(A"B Ce) E span{Vy}sN> Ver gn gre Vints.N}-
+
+Proof : Using ( 5.1.7 ) and ( 5.2.2 ), we have
+
+1
+7 (A)Umn
+1 | tt
+735 Um,N
+142 ™* 14 yp?
+
+ 
+
+[ap (1m; Nyy + aS(I,m; Nyvl, + ag (l,m; Nutt hl:
+
+Thus, 7(A)v!, y belongs to span{Vin Ns Vat VatN :
+Similarly, using the expressions for B and B* from ( 5.1.7 ) and then using ( 5.2.2
+) just as above, we get the required statements for 7(B) and 7(B*). This proves 1.
+
+Repeated use of 1. now yields 2.,3. and 4.
+
+ 
+
+ 
+
+ 
+
+ 
+
+5.3.1 Linearity of the action
+
+For a vector v in H, we shall denote by T, the map from B(H) to L?(SU,,(2)) given by
+T,(z) = av EH C L?(SU,,(2)). It is clearly a continuous map w.r.t. the SOT on B(H)

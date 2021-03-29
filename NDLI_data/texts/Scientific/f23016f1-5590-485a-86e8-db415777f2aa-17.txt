@@ -1,0 +1,79 @@
+Default Template —————»  2layerMLP —————>
+
+Tifeatures ————> 2layerMLP —————>)
+
+Best Explaning
+
+T2 features —————> 2layerMLP ————>
+Template
+
+XBLUYOS
+
+T3 features —————> 2layerMLP ~————>
+
+Tnfeatures —————> 2layerMLP —————>
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Figure 1: Architecture of our Selection Module. The underlying two-layer MLP is same when
+predicting score for every template.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Dataset Setting Pneg | Ppos | r2 | At
+Un-supervised 1 0.1 07) 0
+
+FBISK Semi supervised 1 0.125 | 1 1
+Un-supervised | 0.5 0.2 0 | 0
+
+<AGO Semi supervised | 0.25 | 0.25 | 1 1
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Table 8: Hyper-parameters used for various settings
+
+the feature vectors for the train and dev sets. For training the two layer MLP in SM, we used a GPU
+with 16 GB memory, though the GPU memory required is less than 1 GB (for a batch size of 2048).
+The module gets trained in about 20 minutes.
+
+At test time, to explain a prediction in OXKBC most of the time is spent in extracting features
+for different templates. For FB15K, it takes on average around 500 milliseconds per test sample to
+extract template features using a single core of an Intel(R) Xeon(R) W-2145 CPU @ 3.70GHz. Once
+features are extracted, it takes only 0.38 milliseconds to select the best template using the selection
+module. On the other hand, in rule mining, once the rules are mined, it takes only 2.04 milliseconds
+to select the best rule for a given test sample. Even though at test time, OXKBC is much slower than
+rule mining, we believe it is still fast enough to be usable, especially for a human interacting with
+an explanation interface. We also note that this extra inference time comes with the advantage of
+improved quality of explanations.
+
+17

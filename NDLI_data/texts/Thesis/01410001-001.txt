@@ -1,0 +1,13 @@
+PATTERN CLASSIFICATION USING
+GENETIC ALGORITHMS
+
+Sanghamitra Bandyopadhyay
+Machine Intelligence Unit
+Indian Statistical Institute
+
+Calcutta 700035, India
+
+A thesis submitted to the Indian Statistical Institute
+in partial fulfillment of the requirements for the degree of
+Doctor of Philosophy
+1998

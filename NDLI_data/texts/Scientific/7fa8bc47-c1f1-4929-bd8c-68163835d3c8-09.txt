@@ -1,0 +1,151 @@
+Therefore the optimization we face is
+
+‘ We 1
+(1<P:<Pil=1,..} “ee [= - ( + P De +P), ©)
+
+1 - We @
+=c+—= += Pr.
+al PW et cm dE, oy Pe + pd é
+
+ 
+
+const.
+
+where we need to choose replication P, for each lemma model
+M;. This represents P’ combinations.
+
+Instead of searching over those, we will propose candidate
+values Th for the term maxyW/P,, check if each Tp is
+feasible, and pick the best overall estimate of finish time Ty
+over all feasible Tos.
+
+1: initialize best finish time Ts <— 00
+
+2: for each proposed Tp do
+
+3: for each @=1,...,L do
+
+4 let Pp [We/To]
+
+5: if Pp > P then
+
+6 To is infeasible, continue with next To
+7 Ty + min{Ty, maxe We/ Py + (c/P) do, Pe}
+8: return best 7’; with corresponding P,s
+
+The following analysis suggests that there is no need to scan
+through all values of To; we will get near-optimal overhead if
+we check Tp = 1,2,4,8,... for feasibility, then binary-search
+between the last infeasible and first feasible values for To.
+
+In practice, even the binary search for Tp can be avoided
+using the following all-or-nothing policy: For some K of the
+largest jobs, set Pe = P; for the rest, set Pe = 1. K is
+tuned to minimize the above objective. We now give some
+informal justification why this simpler scheme is good enough
+for highly skewed task times (as in Figure 11).
+
+Let us model the task time skew using the commonly-used
+power-law distribution:
+iC
+
+= 5a
+where a > 1 is the power and we have assumed W > --- >
+
+Wy, without loss of generality. Then the total work in the
+system is
+
+Dmaryerer [cea
+¢ “ 0
+
+im
+
+We with €=1,...,L, (6)
+
+ 
+
+Le-1
+
+T
+ani = 3 for large LI. (7)
+
+Suppose we split lemmas up to ¢9; then, even for the extreme
+case of c = 0, 00 satisfies
+
+£ T
+—— > rn
+Pim = Plat) (average work/proc), (8)
+or lo <(a—1)/%. (9)
+
+In other words, the same power-law skew that limits paral-
+lelism [19] also limits the number of tasks that need to be
+split for good load balance.
+
+From the previous discussion, we note that when we pick
+Pe = 1, the optimal solution has no motivation to allocate
+P, > 1, and so, the excess cost of our heuristic is at most
+
+¢
+
+plP — lho < ea — iy,
+
+or, a constant number of per-task overheads. As a sample,
+a=12 = (a-1)!/* x 0.26, anda =3 = (a-
+1)V/e = 1.26.
+
+This approach can be used for any application in general, by
+optimizing the aforementioned objective to obtain the optimal
+number of partitions (per key); which can then be used to plan
+the schedule (greedily), using offline estimates of the work on
+a sample of data. A custom partition function can then be used
+to implement the schedule thus obtained.
+
+(10)
+
+75 7
+
+   
+
+ 
+
+a
+&
+&
+o
+=
+Be
+
+5
+
+0
+
+1 7 1319 25 3137 43 49 55 61 67 73 79
+Core
+Figure 17. Computation imbalance for our technique.
+
+5.5. Performance of our approach
+
+Figure 17 shows the CPU busy times on 80 cores, using
+our proposed scheduler. The overall job time reduces from
+19h 31m to 3h 47m with an additional (one-time) overhead
+of 50 minutes for creation of schedule using a sample 6 GB
+corpus. The average CPU idle time is 7 minutes, or 3% of job
+time. The maximum and minimum reducer times are 69 and 59
+minutes, representing excellent load balance. Figure 18 shows
+that inbound communication is also well-balanced, although
+no conscious effort was made in that direction: the maximum
+and minimum number of bytes destined to a host were 10.7 GB
+and 8.65 GB.
+
+6. CONCLUSION
+
+We have described the evolution of a critical Web annotation
+application from a custom implementation to a highly opti-
+mized version based on Hadoop MR. The evolution was crit-
+ical as an essential data structure began to exceed RAM size
+on our cluster. We started with two incremental approaches,
+but their performance was unacceptable. Then we attempted to
+use standard Hadoop, but hit a serious (reduce) skew problem,
+which seems endemic in MR applications in this domain. We
+
+107

@@ -1,0 +1,38 @@
+Chapter 3: Quantum group of orientation preserving Riemannian isometries 108
+
+ 
+
+On the other hand we have
+
+m
+
+4;
+= EY euis;) @ ais
+j=l sj=1
+
+ 
+
+a(é
+
+ 
+
+ 
+
+ 
+
+and the comparison of the formulas above yields exactly ( 3.5.2 ).
+
+ 
+
+One can deduce from the above lemma the exact structure of generators and relations
+between them for each S,, associated with a commutative AF algebra. To be precise, if
+An = C* for some kn € IN, then the quantum isometry group S,, is generated as a unital
+C*-algebra by the family of self adjoint projections Uj_,{@a,,3, : 0,0) = 1,--- , ki}
+such that for each fixed i = 1,...,n the family {a(q,,g,) : ai, 8; = 1,--- , ki} satisfies
+
+the relations of QU/;,, and the additional relations between a(q, g,) and ay for
+
+41,8141)
+i€ {1,...,n—1} are given by the formulas ( 3.5.2 ), after suitable reinterpretation of
+
+indices according to the multiplicities in the embedding of C* into C+.

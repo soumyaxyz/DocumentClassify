@@ -1,0 +1,60 @@
+EIRINI PAPAGIANNOPOULOU AND GRIGORIOS TSOUMAKAS 15
+
+ 
+
+igrams, Tf, Idf, Tfldf, POS tags for every word in the phrase, phrase length, previous/next token of the phrase, POS
+of previous/next token of the phrase, distance between the phrase and the citation, a boolean feature that encodes
+whether the phrase is in IEEE taxonomy list, Wikipedia-based Idf, Glove embedding of the phrase, and unsupervised
+model based features. An ensemble of unsupervised models, random forest (RF) and linear models are used for candi-
+
+date keyphrase ranking. Recently,|Mcllraith and Weinberger’
+
+learns feature representations based on the document's graph of words. The Gaussian Naive Bayes classifier is used
+
+ 
+
+have proposed SurfKE, a supervised method that
+
+to train their model.
+Keyphrase Extraction as Learning to Rank Task
+
+Learning to rank approaches learn a ranking function that sorts the candidate phrases based on their score of being
+a keyphrase, whereas classification methods have to make hard decisions. A representative method in this category
+is Ranking SVM which first constructs an appropriate training set by following a particular process.
+Suppose there is a training set of L documents D = dj, d2,...,d, and for each document k there are Ny candidate
+keyphrases, each of them is represented by a feature vector x;; (the ‘th candidate keyphrase of the kth document) and
+the corresponding rank y;,;. In order to train a ranking function f*, the training data is transformed into a set of ordered
+phrase pairs (xxi — Xj, 2x) where z, jj shows their preference relationships, z,jj = +1 if ye; > yes and z_jj = —1,
+otherwise. Then, an SVM model is trained on this training set that ends up to an optimization problem whose optimal
+
+solution are the w weights, denoted as w* and the corresponding ranking function becomes:
+f*(x) = (w*,x)
+
+MIKE (Zhang et al.|2017) is a more advanced learning to rank method. First, it selects the candidate words by ap-
+plying stopword and POS filters. Then, a graph of words is constructed based on the co-occurrence relations between
+the candidate words within the target document. Afterwards, features of candidate words and their co-occurrences
+(i.e., node features, such as Tfldf, Tfldf over a certain threshold, first occurrence, relative position, POS tags, and cita-
+tion Tfldf as well as edge features which are based on the co-occurrence frequency between candidate word pairs in the
+word graph), topic distributions of candidates and relative importance relation between candidates (i.e., prior knowledge
+based on some documents that defines a partial ordering between keyphrases - non keyphrases pairs) are collected
+and integrated into arandom-walk parametric model. Then, the model defines a loss function, which is optimized using
+gradient descent, in order to learn the parameters, and computes the ranking score of each candidate word. Finally,
+consecutive words, phrases or n-grams are scored by using the sum of scores of individual words that comprise the
+phrase.
+
+Keyphrase Extraction Using Supervision
+
+ 
+
+Bougouin et al. ‘TopicCoRank) extend the unsupervised method TopicRank, making it capable of assigning
+domain-specific keyphrases that do not necessarily occur within the document, by unifying a second graph with the
+domain to the basic topic graph. Particularly, the keyphrases manually assigned to the training documents are consid-
+ered as controlled keyphrases. In addition, these controlled keyphrases are not further clustered as they are supposed
+to be non-redundant. The unified graph is denoted as G = (V = T UK, E = Ejn U Eout), where V are the graph vertices
+that comprise the set of topics T = fy, t2,..., tn and the set of controlled keyphrases K = ky, k2,..., km. Furthermore,
+the set Ejn contains edges of type < tj,t; > or < kj,kj >, whereas the set Eo, contains edges of type < kj, t; >. An
+edge connects a controlled keyphrase k; with a topic t; if the controlled keyphrase is a member of the topic. Moreover,
+two topics t; and t; or two controlled keyphrases k; and k; are connected in case they co-occur within a sentence of
+the document or as keyphrases of a training document, respectively. The weight of the edge < t;, t; > is the number
+
+of times (w;;) topics t; and t; co-occur in the same sentence within the document. Similarly, a weight is assigned to the

@@ -1,0 +1,138 @@
+IEEE Access:
+
+S. Banerjee et al.: Physically Secure Lightweight Anonymous User Authentication Protocol for loT
+
+ 
+
+TABLE 2: Computation costs comparison
+
+ 
+
+ 
+
+ 
+
+Scheme’ User Gateway node __ Sensing device Total cost
+Our 17Tp, + Ty 6T), + Ty 31T);, + 2T,
+= 71.575 ms = 4ms = 66.075 ms 141.65 ms
+Gope et al. (12) 6Tp + 3Ty AT), + 2T 19T), + 5Ty
+= 192.225 ms & 4.5 ms = 128.15 ms & 324.875 ms
+Zhou et al. 107}, 19T), 36T);,
+= 5 ms = 3.5 ms 9.5 ms ~ 18 ms
+Wazid et al.[5) 13T, + 2Tp, +Ts 57, +4Tp, AT, + 2Tp, 22T, + 8Tp, + Ty
+= 86.975 ms = 37.3 ms = 19.4 ms & 143.68 ms
+Gope et al. (40) 8Th 6Th, 23T},
+= 4ms & 4.5 ms = 3ms = 11.5 ms
+Chang-Le[36) 7T, +2Tm 5T, + 2Tm 21T, +4Tm
+& 129.65 ms & 4.5 ms & 128.65 ms & 262.8 ms
+
+ 
+
+7) Resilience against Privileged-Insider Attack
+
+An adversary A, who acts as a privileged-insider user of the
+GW N, can intercept the initial registration request informa-
+tion /_D,,. Also, none of the authentication messages contains
+any value dependent on the secrecy of J.D,,. Additionally, as-
+suming that the privileged adversary attempts the previously
+discussed offline guessing attack with a stolen smart card, he
+or she will still need to simultaneously guess password PW,
+and biometric key a.,,. It is then a computationally infeasible
+task for A too. Thus, the proposed scheme is secure against
+privileged-insider attack.
+
+8) Resilience against Physical Capture of Smart Device
+Suppose A can physically capture some smart devices. Then,
+A can extract all the secret credentials from the memory of
+a physically captured smart device SD compromising of the
+information {[Da, Ca, hda} from S'D’s memory. However,
+as [Dg and {Cy} are generated randomly, these are distinct
+and independent for all deployed smart devices. Hence, the
+compromised information does not help in computing the
+session keys among a user U and other non-compromised
+sensing devices SD’. Additionally, due to the use of PUF(-)
+in this authentication scheme, A cannot even impersonate
+already compromised smart devices. This is because of the
+nature of PUF(-:), A cannot compute {Ry} from {Cu, hda},
+which is essential for generating the valid message M3 =
+(HQr, Qa, Qry,, Autha). Thus, the proposed scheme is un-
+conditionally secure against physical capture of smart de-
+vices.
+
+Vi. COMPARATIVE STUDY
+
+In this section, we preform a detailed comparative study of
+the proposed scheme in terms of security & functionality
+features, communication and computational overheads with
+other existing related schemes, such as the schemes proposed
+by Gope er al. [12] , Zhou er al. [46], Wazid er al. (5) and
+Chang and Le [36]. For the scheme [36], we consider its
+ECC-based version as it is more secure than its basic version.
+
+A. COMPUTATION COSTS COMPARISON
+
+We use the notations Tp,, Tn, Ty and T}, to denote the time
+needed for computing symmetric encryption/decryption, el-
+liptic curve point (scalar) multiplication, fuzzy extractor op-
+
+VOLUME 7, 2019
+
+eration and hash operation, respectively. Based on experi-
+mental results reported in , we have Tr, 8.7,
+Tm © 63.075, Ty ~ Tm = 63.075 and Th 0.5
+milliseconds, respectively.
+
+In the proposed scheme, during the login and authentica-
+tion process, the user U, the GW N and the smart device SD
+need to perform 177}, + Ty, 87}, and 67), + Tp operations,
+respectively. Thus, the total computation cost is 317}, + 27,
+that requires approximately 141.65 ms. Table [2]summarizes
+the computational cost for the compared schemes. It is clear
+that the proposed scheme has a much lower computational
+overhead as compared to that for other schemes |*| with
+the exception of the schemes [40], [46]. However, both the
+schemes [40], [46] are two-factor authentication schemes
+with poor security & functionality features (see Table [Ap and
+higher communication overhead (see Table
+
+ 
+
+ 
+
+TABLE 3: Communication costs comparison
+
+   
+  
+   
+
+Scheme No. of bytes No. of messages
+Our 256 3
+Gope et al. 280 6
+Zhou et al. 732 3
+Wazid et al. 324 4
+Gope et al. 275 4
+Chang-Le 284 4
+
+B. COMMUNICATION COSTS COMPARISON
+
+In order to compute the communication overheads of the
+different schemes, we assume that the hash digest (assuming
+SHA-1 hash algorithm [58]) and identity to be 160 bits each,
+random nonce and PUF challenge-response pair each to be
+128 bits long. For other schemes, we additionally assume the
+timestamp to be 32 bits long, ECC point to be 320 bits and
+a ciphertext block (assuming Advanced Encryption Standard
+(AES-128) symmetric encryption) to be 128 bits.
+
+In the proposed scheme, three exchanged messages M1 =
+(DIDu, Qug, Qua, DIDa, Authy), Mz = (Ca;, Qg,
+Authp,, Auth,) and M3 = (HQpr, Qa, Qr:,, Autha)
+require (160+160+160+160+160) = 800 bits, (128+160+
+
+?It should be noted that the scheme in [12], as presented by Gope er al.,
+assumes ideal PUFs. But, all other schemes account for noisy PUF/biometric
+for the sake of fairness. We have assumed that all PUFs and Biometric are
+processed through the corresponding fuzzy extractor. The values reported in
+Table[2Jare account for use of fuzzy extractor.
+
+13

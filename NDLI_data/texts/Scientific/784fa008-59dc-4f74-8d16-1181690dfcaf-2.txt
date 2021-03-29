@@ -1,0 +1,141 @@
+Our approach is in part inspired by the work [19]. They
+proposed a method for acquiring named entities from query
+log using templates. There are some differences between
+their work and ours. Our focus is NERQ while theirs is
+offline query log mining (there is no online prediction in
+their case). We employ a probabilistic model, while they
+take a deterministic approach in the sense that they assume
+that each named entity can only belong to one class.
+
+Our contribution in this paper lies in the following points.
+(1) We have formalized the problem of NERQ. (2) We have
+proposed a novel method for conducting NERQ. (3) We have
+developed a new topic modeling method with weakly super-
+vised learning, i.e. WS-LDA.
+
+The rest of the paper is organized as follows. Section 2
+introduces related work. Section 3 defines the problem of
+NERQ and proposes a probabilistic approach to the task.
+Section 4 describes WS-LDA in details. Experimental re-
+sults are presented in Section 5. Conclusions are made in
+the last section.
+
+2. RELATED WORK
+
+Needless to say, query processing is critically important
+for web search. Previous work mainly focused on query seg-
+mentation, query parsing, query classification, and query log
+mining. As far as we know, however, there was no work on
+Named Entity Recognition in Query (NERQ) as defined in
+this paper.
+
+Query segmentation separates a query into a number of
+units (20, 2, 25]. However, it does not identify named entities
+from units and also does not assign class labels to units. Syn-
+tactic parsing focuses on identifying linguistic structure of
+query [9, 12, 13]. Query classification falls into two groups:
+(1) classification according to search intent, such as informa-
+tional, navigational or transactional [7, 21, 16]; (2) classifi-
+cation according to semantics of query, such as “Shopping”
+or “Living” [24, 1]. In query classification, the whole query
+is classified and there is no further analysis on the internal
+structure of query.
+
+Query log mining is also related to our work, particularly
+that by Pasca [19, 18, 23]. Pasca proposes a method for
+acquiring named entities in a class from query log. A query
+is supposed to consist of an instance (named entity) and a
+template (context). A bootstrapping method is employed
+to mine instances of a class by utilizing the templates of the
+class, starting with a small number of seed instances. Their
+approach is deterministic and it can only work well in the
+cases in which a named entity belongs to a single class.
+
+Named Entity Recognition is usually performed on text
+documents. Early work on NER was based on rules [11].
+Recently machine learning techniques have been applied to
+NER, including supervised machine learning [6, 3], semi-
+supervised learning [8] and unsupervised learning [10]. Fea-
+tures are utilized in these approaches. However, directly ap-
+plying previous NER approaches to NERQ would not work
+well, because queries are usually short and not well formed.
+
+Related work also includes topic modeling. Many topic
+models have been proposed including PLSI [15], LDA [5],
+and their extensions [14, 4]. Topic models have been utilized
+in topic discovery, document classification, citation analysis,
+and social network analysis. Our work exploits topic model-
+ing in a new application, and is particularly unique in that
+it trains LDA with a weekly supervised learning method.
+There are several methods proposed for performing super-
+
+vised learning of topic models [26, 17, 22]. In WS-LDA, we
+include weak supervision information as soft constraints in
+the objective function.
+
+3. OUR APPROACH TO NERQ
+
+3.1 NERQ Problem
+
+Named Entity Recognition in Query (NERQ) is a task
+defined as follows. Given a query, we try to detect the named
+entities within query and categorize the named entities into
+classes. The classes are from a predefined taxonomy.
+
+We have conducted a manual analysis on 1,000 unique
+queries randomly selected from the search log of a commer-
+cial web search engine. It indicates that named entities ap-
+pear very frequently in queries and about 70% of the queries
+contain named entities. Furthermore, if a named entity oc-
+curs in a query, usually only that single named entity occurs
+and less than 1% of the queries contain two or more named
+entities. (In this paper, we focus on single-named-entity
+queries and take the processing of multiple named-entity
+queries as future work).
+
+Queries tend to be short (i.e., 2-3 words on average) and
+not well formed. It makes NERQ a challenging task. In this
+paper, we propose a probabilistic approach to the problem
+using query log data.
+
+3.2. Probabilistic Approach
+
+A single-named-entity query q can be represented as triples
+(e, t,c), where e denotes named entity, ¢ denotes the context
+of e in q, and c denotes the class of e. Note that ¢ is fur-
+ther expressed as a#3, where a and ( denote the left and
+right contexts respectively and # denotes a placeholder for
+named entity. Either a or 3 can be empty (e.g. “# walk-
+through”, “lyrics to #”), or both can be empty (ie. “#”).
+For example, for query “harry potter walkthrough” belong-
+ing to Game, the associated triple is (“harry potter”, “#
+walkthrough”, Game).
+
+The goal of NERQ is to detect the named entity e in query
+q, and assign the most likely class label c to e. Therefore,
+it can be accomplished by finding the triple (e, t,c)* among
+all possible triples, satisfying:
+
+(e,t,c)” = argmax,, ,.) Pr(q,e,t,¢)
+= argmax,e <) Pr(ale,t,¢) Pr(e,t,)
+= arg max(e +.-)ea(q) Pr(e,t,¢) (1)
+
+In Eqn. (1), conditional probability Pr(qle, t,c) represents
+how likely query qg is generated from triple (e, t,c). Note that
+given a triple, it will uniquely determine a query. There-
+fore, for fixed query qg and triple (e,t,c), Pr(gle,t,c) can
+only be one or zero. That is, there are only two possibil-
+ities: either (e,t,c) generates g or (e,t,c) does not gener-
+ate g. For instance, query “harry potter walkthrough” can
+be generated by (“harry potter”, “# walkthrough”, «), but
+not (“halo 3”, “# walkthrough”, *). We define G(q) as the
+set containing all possible triples that can generate query q
+(i.e., Pr(qle,t,c) equals one). Thus, the triple having largest
+probability (e,t,c)* must be in G(q).
+
+Therefore, to conduct NERQ we only need to calculate
+the joint probability Pr(e, t,c) for each triple in G(q), which
+can be further factorized as below:
+
+Pr(e,t,c) = Pr(e) Pr(cle) Pr(tle,c)
+= Pr(e) Pr(cle) Pr(t\c) (2)

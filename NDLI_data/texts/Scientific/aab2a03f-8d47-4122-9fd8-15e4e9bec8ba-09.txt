@@ -1,0 +1,142 @@
+Mod0 = Mod1 Mod2 Mod3) MMax
+Training D=0 D<=1 D<=2 D<=3 DMax
+Test (own):
+RoBERTa
+BERT
+ESIM
+DECOMP
+Test (DMax):
+RoBERTa
+BERT
+ESIM
+DECOMP
+
+ 
+
+  
+ 
+ 
+   
+ 
+
+56.4 57.4
+
+(Includes questions at depths unseen during training)
+
+Table 6: Transformers (ROBERTa,BERT) are sufficient but not
+strictly necessary for this task, although other architectures (ESIM)
+do not score as well. DECOMP was run as a sanity check that the
+datasets are not trivially solvable - its low score (random baseline is
+50%) suggests they are not.
+
+restricted English (Table 1). This suggests that the pretrained
+knowledge in RoBERTa is playing a role in its performance
+and making learning easier. Similarly the zero-shot transfer
+to hand-authored language, Figure 7 and Table 5, suggests
+pretrained knowledge of language may be playing a role.
+
+5 Discussion and Future Work
+
+Although our demonstrations have been in a limited setting,
+the implications of being able to predictably reason with lan-
+guage are significant. With further advances, we may poten-
+tially be able to:
+
+e author theories in English (e.g., Figure 6), thus sidestep-
+ping the intricacies of formal languages and offering
+new opportunities for easy creation and maintenance of
+knowledge.
+
+e have the machine apply general knowledge, e.g., from
+Wikipedia, to explainably solve novel problems
+
+e teach our AI when it makes a mistake, by providing
+the missing facts and/or correcting the erroneous ones
+it used (“instructable systems”).
+
+e reason about counterfactual situations. For example, we
+might describe a world in which plastic is a type of
+metal, and see how the conductivity of objects change.
+This useful capability has previously been out of scope
+for transformers.
+
+Our RuleTaker models demonstrate these capabilities in a
+narrow setting. We now discuss additional steps needed to
+achieve these goals more broadly.
+
+5.1 Extending The Theory Language
+
+While we have shown that transformers can emulate a form
+of deductive reasoning, our demonstrations have been with
+small theory sizes (< 20 facts, < 10 rules), small domains (<
+100 possible ground facts), and with a limited rule language
+(at most one variable that is universally quantified over). Ex-
+panding the expressiveness of the rule language would en-
+hance the model’s utility. For example, we have not yet ex-
+plored using multi-variable rules such as “If a person’s father
+is a second person, and the second person’s father is a third
+
+ 
+
+person, then the first person’s grandfather is the third person,”
+limiting what can be stated (e.g., rules of transitivity). Sim-
+ilarly there are other forms of reasoning we would like to
+train the model to handle, e.g., taxonomic inheritance, rea-
+soning with disjunctive conclusions, and handling functional
+relations (“A country has exactly one capital”). This again
+requires characterizing the semantics of such statements, and
+generating training data showing the valid conclusions.
+
+More generally, there are many natural language state-
+ments whose formal meaning is less clear (e.g., “Most birds
+fly”, “It often rains in Seattle in winter”). To apply our
+methodology to statements with more complex semantics
+would require new training data, either synthesized from a
+richer formal representation and model of inference,'? or col-
+lected from people.
+
+5.2 Generating Training Data
+
+We assume that our synthetic training data is sufficiently rep-
+resentative of the real problems that the model will eventually
+be used for. However, it is possible that the generation pro-
+cedure under-represents or misses some important types of
+theory, potentially giving the model a “blind spot” on novel
+problems if it is unable to fully generalize. (A minor example
+of this was the MMax results on Electricity4, last paragraph
+of Section 4.3). It would be valuable to find ways to charac-
+terize the different types of inference problems in the space,
+and design training curricula to ensure they are systematically
+covered and/or the model is able to generalize to them. Ad-
+versarial approaches to generation, where the generator learns
+to create theories that are hard for a partially trained model,
+may be useful in this context, e.g., [Kalyan er al., 2019;
+Goodfellow, 2016].
+
+5.3. Formal Theorem Proving
+
+If a transformer can reliably emulate the results of correct
+reasoning, it may have utility for the formal reasoning com-
+munity. In particular, if its output generalizes to more com-
+plex problems than seen during training (as our experiments
+demonstrate for one particular setting, Table 1), one might
+be able to train on problems that are solvable with reasonable
+computing resources, but then apply it to more complex prob-
+lems that are computationally infeasible, and still obtain high
+accuracy. Even if accuracy is not perfect, the results might
+help inform more rigorous theorem-proving. For example,
+one could imagine a transformer as a “proof assistant” that
+finds likely true conclusions that could then be verified by a
+formal reasoner (where verification is easier than proof from
+scratch). Our results in Section 4.5 suggest first steps to re-
+constructing proofs using the facts and rules in the theory.
+Similarly, a system that can identify facts that are likely true
+may help guide model generators, e.g., [Niemela and Simons,
+1997].
+
+Although we have presented theories in English, another
+open question is whether transformers could reason with the-
+ories expressed in their native (formal) form, rather than
+
+'? Tf one even exists - formal reasoning is still far from modeling
+all of natural language inference.

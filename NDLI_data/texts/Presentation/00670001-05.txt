@@ -1,0 +1,13 @@
+SEARCHING IN B TREE
+
+Parent in child ©.
+*50 *100 *150* Then we may f
+
+search in child ©
+145 in it.
+
+e between 100-150 in
+
+Child B Child C child Dies
+
+*10*20*30* *60*80* *120*140*145* *160*180*200*

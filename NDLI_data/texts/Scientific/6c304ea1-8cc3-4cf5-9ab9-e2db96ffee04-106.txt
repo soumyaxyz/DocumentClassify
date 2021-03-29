@@ -1,0 +1,53 @@
+Moving to the 00’s, Jiang and Ma (2002) [257] introduce the notion of “plan knowledge graphs”
+where nodes represent goals and edges dependencies between goals, further encoding supporting
+degrees that can change upon further evidence. Search algorithms are then defined on the graph
+to determine a plan for a particular goal. Helms and Buijsrogge (2005) [221] propose a knowl-
+edge graph to represent the flow of knowledge in an organisation, with nodes representing
+knowledge actors (creators, sharers, users), edges representing knowledge flow from one actor
+to another, and edge weights indicating the “velocity” (delay of flow) and “viscosity” (the depth
+of knowledge transferred). Graph algorithms are then proposed to find bottlenecks in knowl-
+edge flow. Kasneci et al. (2008) [264] propose a search engine for knowledge graphs, defined to
+be weighted directed edge-labelled graphs, where weights denote confidence scores based on the
+centrality of source documents from which the edge/relation was extracted. From the same group,
+Elbassuoni et al. (2009) [137] adopt a similar notion of a knowledge graph, adding edge attributes
+to include keywords from the source, a count of supporting sources, etc., showing how the graph
+can be queried. Coursey and Mihalcea (2009) [102] construct a knowledge graph from Wikipedia,
+where nodes represent Wikipedia articles and categories, while edges represent the proximity of
+nodes. Subsequently, given an input text, entity linking and centrality measures are applied over
+the knowledge graph to determine relevant Wikipedia categories for the text.
+
+Concluding with the 10’s (prior to 2012), Pechsiri and Piriyakul (2010) [378] use knowledge
+graphs to capture “explanation knowledge” — the knowledge of why something is the way it is - by
+representing events as nodes and causal relationships as edges, claiming that this graphical notation
+offers more intuitive explanations to users; their work focuses on extracting such knowledge graphs
+from text. Corby and Faron-Zucker (2010) [97] use the phrase “knowledge graph” in a general way
+to denote any graph encoding knowledge, proposing an abstract machine for querying such graphs.
+
+Other phrases were used to represent similar notions by other authors, including “information
+graphs” [284], “information networks” [484], “knowledge networks” [87], as well as “semantic
+networks” [62, 351, 525] and “conceptual graphs” [465], as mentioned previously. Here we exclu-
+sively considered works that (happen to) use the phrase “knowledge graph” prior to Google’s
+announcement of their knowledge graph in 2012, where we see that many works had independently
+coined this phrase for different purposes. Similar to the current practice, all of the works of this
+period consider a knowledge graph to be formed of a set of nodes denoting entities of interest and
+a set of edges denoting relations between those entities, with different entities and relations being
+considered in different works. Some works add extra elements to these knowledge graphs, such as
+edge weights, edge labels, or other meta-data [137]. Other trends include knowledge acquisition
+from experts [124, 311, 403] and knowledge extraction from text [25, 231, 252, 476], combinations
+of symbolic and inductive methods [116, 311, 436, 455], as well as the use of rules [408], ontolo-
+gies [231], graph analytics [221, 264, 470], learning [116, 403, 436, 455], and so forth. Later papers
+(2008-2010) by Kasneci et al. [264], Elbassuoni et al. [137], Coursey and Mihalcea [102] and Corby
+and Faron-Zucker [97] introduce notions of knowledge graph similar to current practice.
+
+However, some trends are not reflected in current practice. Of particular note, quite a lot of
+the knowledge graphs defined in this period consider edges as denoting a form of dependence or
+causality, where ()}—>() may denote that x is a prerequisite for y [257, 316, 440] or that x leads to
+y [25, 257, 311, 403, 408, 455]. In some cases AND-oR graphs are used to denote conjunctions or
+disjunctions of such relations [311], while in other cases edges are weighted to assign a belief to a
+relation [257, 311, 403]. In addition, papers from 1970-2000 tend to have worked with small graphs,
+which contrasts with modern practice where knowledge graphs can reach scales of millions or
+billions of nodes [365]: during this period, computational resources were more limited [440], and
+fewer sources of structured data were readily available meaning that the knowledge graphs were
+often sourced solely from human experts [124, 311, 403] or from text [25, 231, 252, 476].
+
+106

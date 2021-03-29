@@ -1,0 +1,101 @@
+10.
+
+11.
+
+12.
+
+13.
+
+What are the data types supported by javascript?
+
+What is event handling?
+
+(a)
+
+(b)
+
+(a)
+
+(b)
+
+(a)
+
+(b)
+
+SECTION B — (5 x 5 = 25)
+Answer ALL questions.
+
+Illustrate the use of the <title> tag in HTML
+document.
+
+Or
+
+Explain the various attributes of the <body>
+tag.
+
+Describe the text structuring tags and
+attributes in HTML.
+
+Or
+
+What are the uses of <meta> tags in the
+head section? :
+
+Explain the method of assigning a
+background design for a document.
+
+Or
+
+What are the attributes of <img> tag?
+Explain.
+
+2 S.No. 9030
+
+14.
+
+15.
+
+16.
+
+Ae
+
+18.
+
+19.
+
+20.
+
+(a) *
+
+(b)
+
+(a)
+
+(b)
+
+xplain the uses of text field in H'lML.
+Or
+rite a short note on check boxes in HTML.
+
+rite down the applications of J avascript.
+| Or
+Describe the objects of Javascript.
+SECTION C — (3 x 10 = 30)
+
+Answer any THREE questions.
+
+Explain the features of HTML.
+
+Write a note on link attributes in the header
+section.
+
+Design a web page of your home town in
+appropriate colors.
+
+Explain the usage of <select> tag.
+
+Discuss the important tools of J avaScript.
+
+ 
+
+3 S.No. 9030

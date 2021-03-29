@@ -1,0 +1,42 @@
+2. Web Information Retrieval
+
+ 
+
+frequency distribution departs from a ‘benchmark’ distribution, that is, the distri-
+bution described by a random process” (Amati, 2003). To quantify this hypothesis,
+
+a prototypical DFR model can be defined as follows:
+
+Jorr (9,4) = > Wg Wt,d> (2.26)
+
+teq
+
+where uy, and uyq represent the weight of each term ¢ in the query q and in
+the document d, respectively. The former weight is typically computed as the
+
+normalised frequency of t in g, according to:
+
+Weg = = Ee (2.27)
+
+In turn, the weight w,¢ is computed as:
+wra = inf, info, (2.28)
+where inf, = —logy p,(t\C) and inf, = 1 — po(t|d) define the informativeness of
+
+the term ¢ in the corpus C and in a document d that contains t, respectively. As
+a result, the weight w;q of each query term ¢t in a document d is a decreasing
+function of both probabilities p,(t|C) and p,(t|d). In particular, the probability
+p,(t|C) defines a basic randomness model of the distribution of t in the corpus C,
+whereas p(t|d) defines the information gain of observing the term t in the docu-
+ment d. As the amount of information in a document is directly proportional to
+its length, a third component is introduced to perform a term frequency normali-
+sation. Different distributional assumptions for estimating the basic randomness
+model and the information gain conveyed by the occurrence of a term in a docu-
+ment, as well as different term frequency normalisation schemes, lead to a variety
+of effective DFR models (Amati, 2003). In the following, we describe examples of
+models that are used in the experimental part of this thesis. These include both
+parametric and non-parametric models that assume term independence, as well
+as an extended non-parametric model that exploits term dependence, in order to
+
+promote documents where the query terms occur in close proximity.
+
+32

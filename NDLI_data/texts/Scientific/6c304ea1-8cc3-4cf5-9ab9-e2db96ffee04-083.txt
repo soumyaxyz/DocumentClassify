@@ -1,0 +1,118 @@
+129
+
+130
+
+132
+
+133
+
+134
+
+135
+
+136
+
+137
+
+138
+
+139
+140
+
+141
+
+142
+143
+
+144
+
+145
+
+146
+
+147
+
+148
+
+149
+
+ 
+
+ 
+
+Martin Diirst and Michel Suignard. 2005. Internationalized Resource Identifiers (IRIs). RFC 3987. Internet Engineering
+Task Force. http://www.ietf.org/rfe/rfc3987.txt
+
+Arnab Dutta, Christian Meilicke, and Heiner Stuckenschmidt. 2014. Semantifying Triples from Open Information
+Extraction Systems. In STAIRS 2014 - Proceedings of the 7th European Starting AI Researcher Symposium, Prague, Czech
+Republic, August 18-22, 2014 (Frontiers in Artificial Intelligence and Applications), Ulle Endriss and Joao Leite (Eds.),
+Vol. 264. IOS Press, 111-120.
+
+Arnab Dutta, Christian Meilicke, and Heiner Stuckenschmidt. 2015. Enriching Structured Knowledge with Open
+Information, See [168], 267-277.
+
+Cynthia Dwork. 2006. Differential Privacy. In Automata, Languages and Programming, 33rd International Colloquium,
+ICALP 2006, Venice, Italy, July 10-14, 2006, Proceedings, Part II (Lecture Notes in Computer Science), Michele Bugliesi,
+Bart Preneel, Vladimiro Sassone, and Ingo Wegener (Eds.), Vol. 4052. Springer, 1-12.
+
+Eugene Dynkin. 1965. Markov processes. Springer.
+
+Julian Eberius, Katrin Braunschweig, Markus Hentsch, Maik Thiele, Anmad Ahmadov, and Wolfgang Lehner. 2015.
+Building the Dresden Web Table Corpus: A Classification Approach. In 2nd IEEE/ACM International Symposium on Big
+Data Computing, BDC 2015, Limassol, Cyprus, December 7-10, 2015, loan Raicu, Omer F. Rana, and Rajkumar Buyya
+(Eds.). IEEE Computer Society, 41-50.
+
+Mikel Egafia, Alan Rector, Robert Stevens, and Erick Antezana. 2008. Applying Ontology Design Patterns in Bio-
+ontologies. In Knowledge Engineering: Practice and Patterns, 16th International Conference, EKAW 2008, Acitrezza, Italy,
+September 29 - October 2, 2008. Proceedings (Lecture Notes in Computer Science), Aldo Gangemi and Jéréme Euzenat
+(Eds.), Vol. 5268. Springer, 7-16.
+
+Lisa Ehrlinger and Wolfram W6f. 2016. Towards a Definition of Knowledge Graphs. In Joint Proceedings of the Posters
+and Demos Track of the 12th International Conference on Semantic Systems - SEMANTIiCS2016 and the Ist International
+Workshop on Semantic Change & Evolving Semantics (SuCCESS’16) co-located with the 12th International Conference on
+Semantic Systems (SEMANTICS 2016), Leipzig, Germany, September 12-15, 2016 (CEUR Workshop Proceedings), Michael
+Martin, Marti Cuquet, and Erwin Folmer (Eds.), Vol. 1695. Sun SITE Central Europe (CEUR), 4. http://ceur-ws.org/Vol-
+1695/paper4.pdf
+
+Shady Elbassuoni, Maya Ramanath, Ralf Schenkel, Marcin Sydow, and Gerhard Weikum. 2009. Language-model-
+based ranking for queries on RDF-graphs. In Proceedings of the 18th ACM Conference on Information and Knowledge
+Management, CIKM 2009, Hong Kong, China, November 2-6, 2009, David Wai-Lok Cheung, Il-Yeol Song, Wesley W.
+Chu, Xiaohua Hu, and Jimmy J. Lin (Eds.). ACM Press, 977-986.
+
+Basil Ell, Andreas Harth, and Elena Simperl. 2014. SPAROL Query Verbalization for Explaining Semantic Search
+Engine Queries, See [396], 426-441.
+
+Orri Erling. 2012. Virtuoso, a Hybrid RDBMS/Graph Column Store. IEEE Data Engineering Bulletin 35, 1 (2012), 3-8.
+Ivan Ermilov and Axel-Cyrille Ngonga Ngomo. 2016. TAIPAN: Automatic Property Mapping for Tabular Data, See
+[45], 163-179.
+
+Diego Esteves, Anisa Rula, Aniketh Janardhan Reddy, and Jens Lehmann. 2018. Toward Veracity Assessment in
+RDF Knowledge Bases: An Exploratory Analysis. Journal of Data and Information Quality 9, 3 (2018), 16:1-16:26.
+https://doi.org/10.1145/3177873
+
+Ernesto Estrada. 2011. The Structure of Complex Networks: Theory and Applications. Oxford University Press, Inc.
+Oren Etzioni, Michael J. Cafarella, Doug Downey, Stanley Kok, Ana-Maria Popescu, Tal Shaked, Stephen Soderland,
+Daniel S. Weld, and Alexander Yates. 2004. Web-scale information extraction in knowitall: (preliminary results). In
+Proceedings of the 13th international conference on World Wide Web, WWW 2004, New York, NY, USA, May 17-20, 2004,
+Stuart I. Feldman, Mike Uretsky, Marc Najork, and Craig E. Wills (Eds.). ACM Press, 100-110.
+
+Oren Etzioni, Anthony Fader, Janara Christensen, Stephen Soderland, and Mausam. 2011. Open Information Extraction:
+The Second Generation, See [518], 3-10.
+
+Anthony Fader, Stephen Soderland, and Oren Etzioni. 2011. Identifying Relations for Open Information Extraction.
+In Proceedings of the 2011 Conference on Empirical Methods in Natural Language Processing, EMNLP 2011, 27-31 July
+2011, John McIntyre Conference Centre, Edinburgh, UK, A meeting of SIGDAT, a Special Interest Group of the ACL. The
+Association for Computational Linguistics, 1535-1545. https://www.aclweb.org/anthology/volumes/D11-1/
+Wenfei Fan, Xin Wang, and Yinghui Wu. 2013. Diversified Top-k Graph Pattern Matching. Proceedings of the VLDB
+Endowment 6, 13 (2013), 1510-1521.
+
+Michael Farber. 2019. The Microsoft Academic Knowledge Graph: A Linked Data Source with 8 Billion Triples of
+Scholarly Data, See [179], 113-129.
+
+Michael Farber, Frederic Bartscherer, Carsten Menne, and Achim Rettinger. 2018. Linked data quality of DBpedia,
+Freebase, OpenCyc, Wikidata, and YAGO. Semantic Web Journal 9, 1 (2018), 77-129.
+
+Javier D. Fernandez, Sabrina Kirrane, Axel Polleres, and Simon Steyskal. 2017. Self-Enforcing Access Control for
+Encrypted RDF, See [47], 607-622.
+
+83,

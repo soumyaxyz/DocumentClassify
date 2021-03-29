@@ -1,0 +1,75 @@
+(6 pages)
+
+S.No. 4313 RNE 414 E/RNH 414 E
+
+(For candidates admitted from 1996-1997 onwards)
+M.Sc. DEGREE EXAMINATION, NOVEMBER 2009.
+Mathematics/Applied Maths — Elective
+ADVANCED NUMERICAL ANALYSIS
+Time : Three hours Maximum : 75 marks
+
+SECTION A — (10 x 2 = 20)
+
+Answer ALL questions.
+
+1. Define the efficiency index of an iterative method
+with an example.
+
+2. Define sturm sequence. Also state the Strum’s
+theorem. :
+
+3. Prove that the infinite series [+A+A? +...
+converges to (I — A)” if lim,, > oA” =0.
+
+4. State any prove Gerschgorin theorem.
+
+Derive Lagrange’s bivariate _ interpolating
+polynomial.
+
+6. Find a uniform polynomial approximation of
+degree four or less to e* on - 1,- 1] using Lanczos
+economization with a tolerance of « = 0.02.
+
+G
+
+10.
+
+11.
+
+Using the forward difference operator method
+from the following data find f’(1.2), f”(1.2).
+
+aes 1.0 1.2 14 16 18 2.0 2.2
+f(x): 2.7183 3.3201 4.0552 4.9530 6.0496 7.3891 9.0250
+
+Li
+
+Evaluate j fe" +’ dxdy using trapezoidal rule
+00
+
+with h=k=0.5.
+
+Using the fourth order Runge-Kutta method
+
+determine y (0.1) if we are given y'’=y-—x with
+
+e (0) = 2,
+
+Derive the Predictor formula using Newton’s
+backward interpolation method.
+
+SECTION B — (5 x 5 = 25)
+
+Answer ALL questions.
+
+(a) Use Syntehtic division and perform two
+iterations of Bierge-Vieta method to find a
+real root of the equation x°-x+1=0,
+Po =-1.5.
+
+Or
+
+(b) Perform two iterations of the Bairstow’s
+method to extract a quadratic factor from
+the polynomial x* —3.7x? + 6.25x — 4.069 =
+0 (p, g) = (-2.5, 3.0).

@@ -1,0 +1,54 @@
+WAIS and ISIS. One can know journal titles subscribed by a particular library or
+availability of a particular title.
+
+4.0 SPECIALISED SERVICES OFFERED THROUGH ICAST WEBSITE
+
+Access to select list of Full-Text Journals available on Internet.
+
+Journals Contents page service (Subscribed by ICAST).
+
+Journal Contents downloading from publishers sites.
+
+Web Alert Service - by identifying important sites relevant to NAL scientists
+
+Access to International Databases - by subscribing to IDS/Cambridge Scientific
+
+Abstracts (as a consortia approach with other leading aerospace organisations) for
+
+Aerospace and Material Science Databases simultaneously.
+
+o Links have been provided for accessing Full Text electronic journals either freely
+available on the net or via subscription.
+
+o More than 300 S&T journals content have been put up on the site for browsing.
+An e-mail based service for the journals contents is being provided to NAL users.
+
+o For some relevant journals (not subscribed by NAL) of interest to NAL scientists,
+hyperlinks have been provided for downloading.
+
+o Through AeroInfo — Web Alert Service, a Current Awareness Service is extended
+
+to NAL staff by identifying and linking to important and relevant sites.
+
+oo000
+
+5.0 MAINTANENCE AND UPDATION
+
+The site is being continuously updated by visiting the existing and new sites. Latest
+information regarding the current awareness service is being provided. Users suggestion
+for further improvement is being taken care of. More worldwide information coverage is
+being thought of.
+
+6.0 WHAT YOU SHOULD DO TO ACCESS ‘AeroInfo’.
+
+Access URL
+http://www.cmmacs.ernet.in/nal/icast/ - for Internet
+http://192.168.6.60/icast/ - for NAL Intranet
+
+6.0 CONCLUSION:
+
+Electronic information sources are the prime attraction of readers in today’s networked
+environment. AeroInfo catering to the needs of Aerospace users’ community to the hilt is
+intended to emerge as the first of its kind of virtual Library in the country. Continuous
+efforts are being made to update the site with more links with a view to provide
+information electronically to the maximum in the coming future.

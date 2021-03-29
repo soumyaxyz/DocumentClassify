@@ -1,0 +1,62 @@
+10.
+
+a.
+
+12.
+
+13.
+
+14.
+
+Give an example for impact printer.
+List the four signals in the keyboard cable.
+‘PART B — (5 x 5 = 25)
+Answer ALL questions.
+(a) Write a short note on personal computer.
+Or
+
+(b) Explain the operation of cultural processing
+unit.
+
+(a) Draw a block diagram for motherboard and
+explain.
+
+Or
+(b) Write a short note on system bus.
+
+(a) Explain the operation of hard disk drive.
+
+Or
+(b) Explain the operation of CD-ROM drive.
+(a) Write a short note on network protocols.
+Or
+
+(b) Explain in detail about DSL networking.
+
+16.
+
+ae
+18.
+19.
+
+20.
+
+(a) Explain the operation of laser printer.
+
+Or
+
+(b) Describe about trouble shooting of inkjet
+printer.
+
+PART C — (3 x 10 = 30)
+Answer any THREE questions.
+
+Draw the functional block diagram of PC and
+explain each block.
+
+Explain the operation of online UPS.
+Explain the operation of DVD-ROM drive.
+Explain in detail about the working of mouse.
+
+Draw the functional block diagram of dot matrix
+and explain.

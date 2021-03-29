@@ -1,0 +1,72 @@
+SECTION B — (5 x 5 = 25)
+Answer ALL questions.
+
+11. (a) Determine stationary functions associated
+1
+
+with the integral I = fry" ~pW*y?)dx, where T, p
+m8
+
+and W are given constants or functions of x.
+Or
+(b) Determine the curve of length / which passes
+through the points (0,0) and (1,0) and for which the
+area I between the curve and the x axis is a maximum.
+
+12. (a) Discuss the problem of finding y(x) such that
+
++2
+él=6 |F (x1y,y')dx =0 where x, is fixed and
+y (x;)=9,, but the point (x.,y(x,.)) is such that
+y (x2) = g(x,.) for acurve y =g (x).
+Or ;
+(b) Derive Lagrange’s equation.
+13. (a) Obtain the integral equation corresponding to
+d®
+TPA) + B(x) y = F(x), 9 (4) = ¥0 and
+y'(a) = y-
+Or
+(b) Solve the equation
+
+y(x)=A [Q-8x ¢) (Ede +F (x).
+
+2 S.No. 1263
+
+14. (a) Let y,,(x) and y, (x) be the characteristic
+functions of Fredholm equation corresponding to
+distinct characteristic numbers. Prove that y,,(x) and
+
+y,(x) are orthogonal over (a, d).
+Or
+
+(b) Prove that the resolvent kernel ie considered
+as a function of the two variables x and tand the
+parameter 7 is the solution of
+
+b
+y(x)=F(x)+a [x (x, €) y (€)dé when the
+prescribed function F' is replaced by the kernel K.
+
+15. (a) State and prove Inversion theorem for
+Fourier transform.
+
+Or
+
+(b) Find the Fourier cosine transform of e
+SECTION C — (3 x 10 = 30)
+Answer ALL questions.
+
+<x?
+
+16. (a) Derive the Euler’s equation corresponding to
+
+i= JF my, y') dx with y(x,)=y, and ¥(%2)=92-
+
+ay,
+
+Or
+d’y
+(b) Solve the equation at here using the
+x
+Rayleigh-Ritz method.
+3 S.No. 1263

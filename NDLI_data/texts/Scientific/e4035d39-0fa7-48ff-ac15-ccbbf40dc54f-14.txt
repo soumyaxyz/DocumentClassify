@@ -1,0 +1,110 @@
+Bibliography 173
+
+in information retrieval, pages 206-214, New York, NY, USA. ACM. (Cited on Pages 30, 51, 69,
+and 95.)
+
+236] Momtazi, S. and Klakow, D. (2010). Hierarchical Pitman-Yor language model for information
+
+retrieval. In SIGIR ’10: Proceeding of the 33rd international ACM SIGIR conference on Research and
+
+development in information retrieval, pages 793-794. (Cited on Page 15.)
+
+237] Mooers, C. N. (1952). Information retrieval viewed as temporal signaling. In Proceedings of
+
+the International Congress of Mathematicians, pages 572-573. (Cited on Page 1.)
+
+238] Morrison, P. J. (2008). Tagging and searching: Search retrieval effectiveness of folksonomies
+
+on the world wide web. Information Processing and Management, 44(4), 1562 - 1579. (Cited on
+
+Page 87.)
+
+239] Nallapati, R., Croft, B., and Allan, J. (2003). Relevant query feedback in statistical language
+
+modeling. In CIKM ’03: Proceedings of the twelfth international conference on Information and
+
+knowledge management, pages 560-563, New York, NY, USA. ACM. (Cited on Pages 19 and 23.)
+
+240] Ng, K. (2001). A maximum likelihood ratio information retrieval model. In Proceedings of the
+
+9th Text Retrieval Conference (TREC 2000). (Cited on Pages 15 and 17.)
+
+241] Nie, J.-Y., Cao, G., and Bai, J. (2006). Inferential language models for information retrieval.
+ACM Transactions on Asian Language Information Processing (TALIP), 5(4), 296-322. (Cited on
+
+Page 22.)
+
+242] Ogilvie, P., Voorhees, E., and Callan, J. (2009). On the number of terms used in automatic
+
+query expansion. Information Retrieval, 12(6), 666-679. (Cited on Pages 20, 59, 69, and 74.)
+
+243] Peat, H. J. and Willett, P. (1991). The limitations of term co-occurrence data for query expan-
+
+sion in document retrieval systems. Journal of the American Society for Information Science, 42(5),
+
+378-383. (Cited on Page 30.)
+
+244] Petras, V. and Baerisch, S. (2008). The domain-specific track at CLEF 2008. In CLEF ’08
+
+Working Notes. (Cited on Pages 48 and 99.)
+
+245] Petras, V., Baerisch, S., and Stempfhuber, M. (2007). The domain-specific track at CLEF 2007.
+
+In CLEF ’07. (Cited on Pages 48 and 99.)
+
+246] Platt, J. C. (1999). Fast training of support vector machines using sequential minimal opti-
+
+mization. In Advances in kernel methods: support vector learning, pages 185-208. MIT Press. (Cited
+
+on Page 123.)
+
+247] Ponte, J. (2000). Language models for relevance feedback. In Advances in Information Retrieval,
+
+pages 73-95. Kluwer Academic. (Cited on Page 58.)
+
+248] Ponte, J. M. and Croft, W. B. (1998). A language modeling approach to information retrieval.
+
+In SIGIR ’98: Proceedings of the 21st annual international ACM SIGIR conference on Research and
+
+development in information retrieval, pages 275-281, New York, NY, USA. ACM. (Cited on Page 14.)
+
+249] Popov, B., Kiryakov, A., Manov, D., Kirilov, A., Ognyanoff, D., and Goranov, M. (2003). To-
+
+wards semantic web information extraction. In Human Language Technologies Workshop at the 2nd
+International Semantic Web Conference (ISWC2003), pages 2-22. (Cited on Page 37.)
+
+250] Pu, Q. and He, D. (2009). Pseudo relevance feedback using semantic clustering in relevance
+
+language model. In CIKM ’09: Proceeding of the 18th ACM conference on Information and knowledge
+
+management, pages 1931-1934, New York, NY, USA. ACM. (Cited on Page 31.)
+
+251] Qi, X. and Davison, B. D. (2009). Web page classification: Features and algorithms. ACM
+
+Comput. Surv., 41(2), 1-31. (Cited on Page 3.)
+
+252] Qiu, Y. and Frei, H.-P. (1993). Concept based query expansion. In SIGIR ’93: Proceedings of
+
+the 16th annual international ACM SIGIR conference on Research and development in information
+
+retrieval, pages 160-169, New York, NY, USA. ACM. (Cited on Page 21.)
+
+253] Quinlan, R. J. (1993). C4.5: Programs for Machine Learning. Morgan Kaufmann. (Cited on
+
+Page 123.)
+
+254] Rajashekar, T. B. and Croft, W. B. (1995). Combining automatic and manual index represen-
+
+ations in probabilistic retrieval. J. Am. Soc. Inf. Sci., 46(4), 272-283. (Cited on Pages 33, 88,
+and 105.)
+
+255] Ramage, D., Hall, D., Nallapati, R., and Manning, C. D. (2009). Labeled Ida: a supervised
+
+topic model for credit attribution in multi-labeled corpora. In Proceedings of the 2009 Conference
+
+on Empirical Methods in Natural Language Processing, EMNLP 2009, pages 248-256, Morristown,
+
+NJ, USA. Association for Computational Linguistics. (Cited on Page 159.)
+
+256] Rennie, J. D. M., Teevan, J., and Karger, D. R. (2003). Tackling the poor assumptions of naive
+bayes text classifiers. In ICML ’03: In Proceedings of the 20th International Conference on Machine

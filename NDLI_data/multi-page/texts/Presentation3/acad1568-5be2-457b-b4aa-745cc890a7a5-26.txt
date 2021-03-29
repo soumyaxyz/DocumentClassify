@@ -1,0 +1,28 @@
+ERP vs. BI
+
+ERP BI as an enterprise application
+
+ 
+
+ERP is for data input BI is for data retrieval
+
+Essentially an operational /transactional/ Essentially OLAP
+OLTP system
+
+Supports the capture, storage and flow of | Supports the integration of data from varied
+
+data across multiple units of an organization | data sources, transforms the data as per
+business requirements and stores it in the
+business data warehouse
+
+Has support for a few prebuilt reports which |Supports advanced form of _ reporting
+
+usually help to meet the transactional needs | (boardroom quality) and visualization. Has
+
+of the organization support for dynamic reports, drill down
+reports, drill across reports , etc.
+
+ 
+
+Has little or no support for analytical needs |Supports the analytical needs of the
+of the organization organization

@@ -1,0 +1,159 @@
+Query Answer
+
+Correct Answer Type of Error
+
+ 
+
+designer dogs types
+
+clinton falls asleep
+
+candidate killed in storm
+
+france world cup 98 reaction
+
+2005 presidential election in Egypt
+kansas city hotels airport
+
+Dog_type
+
+FIFA_World_Cup
+Elections_in_Egypt
+
+Clinton_Falls_Township
+Storm_(Marvel_Comics)
+
+Sheraton_Kansas_City_Hotel
+
+Crossbreed Parallel concept
+Bill_Clinton Wrong segmentation
+Storm Candidate too popular
+
+Not enough context
+Not enough context
+Too much context
+
+FIFA_World_Cup_1998
+2005_Elections_in_Egypt
+Kansas_City
+
+ 
+
+Table 6: Different examples of mistakes made by the context aware system along with their types, top linked
+
+entity displayed.
+
+ 
+
+ 
+
+Query FEL answer FEL+Context
+
+install roof insulation Insolation Building_insulation
+inventor of gunpowder Gunpowder History_of_gunpowder
+
+us political map Map Red_states_and_blue_states
+dj jobs Jobs_(film) Disc_jockey
+
+buy used car parts online Automobile Used_car
+
+what is the longest running tv show Television The_Simpsons
+
+ 
+
+Table 7: Example queries that were corrected from the base system FEL when the contextual vectors were
+incorporated into the model, top linked entity displayed.
+
+boost entity candidates that are more related to the query,
+e.g., History_of_gunpowder versus Gunpowder.
+
+5. CONCLUSIONS
+
+In this paper we have described a probabilistic model for
+entity linking on web search queries. This task already poses
+numerous challenges by itself but a major limitation in the
+context of web search is that we are heavily constrained from
+a runtime perspective, imposing time and space requirements
+whilst maintaining accuracy. Our method leverages informa-
+tion from query logs and anchor texts to automatically obtain
+a large number of aliases for the entities in a knowledge base
+and uses a probabilistic model to rank entities in query seg-
+ments. Our model uses dynamic programming to generate
+the best entity segmentation and, in order to add information
+about the query context into the ranking, we devise a novel
+way of aggregating vectors that encode word distributional
+semantics. This new contextual vector model significantly
+outperforms various state-of-the-art baselines from the liter-
+ature on a public test set comprised of 2.5K queries, while
+being able to provide sub-millisecond response times—several
+orders of magnitude faster than entity linking systems from
+the literature.
+
+Furthermore, all the data structures used by our system
+are compressed using state-of-the-art hashing, quantization,
+and integer encoding techniques. This yields a final data-pack
+storing hundreds of millions of aliases for all 4.6M Wikipedia
+entities using less than 2GB of storage. We also note that
+the size of the word vector representations can be reduced
+by an order of magnitude without any execution overhead.
+
+For future work, we would like to test the scalability of
+the system when considering hundreds of millions of entities
+and billions of aliases. This might require to employ static
+pruning algorithms to reduce the size of the compressed data
+structures [4]. Additionally, we generated the contextual vec-
+tors using Wikipedia but we could expand the input sources
+to accommodate for other types of data, such as queries or
+news, which could incorporate more interesting contextual
+
+RIGHTS LIN K4>
+
+187
+
+relations that fall outside of encyclopedic knowledge (e.g.,
+trends, gossip, etc.). Another interesting line of work could
+involve incorporating session-level features into the entity
+linking process in order to make use of a richer source of con-
+textual information. Finally, we believe that our contextual
+entity models are general enough to be of value in different
+types of applications that make use of word aggregation
+distributional similarities.
+
+Acknowledgments
+
+The authors would like to thank Sebastiano Vigna and
+Hugues Bouchard for their kind help in implementing the sys-
+tem described in the paper, and their support with uncount-
+able useful suggestions. The second author was supported by
+Midas EU Project (318786), eCloud EU Project (325091) and
+by the Yahoo Faculty Research and Engagement Program.
+
+References
+
+1] E. Alfonseca, M. Pasca, and E. Robledo-Arnuncio.
+Acquisition of instance attributes via labeled and
+related instances. In Proceedings of the 33rd
+International ACM SIGIR Conference on Research and
+Development in Information Retrieval, 2010.
+
+R. Baeza-Yates, C. Hurtado, and M. Mendoza. Query
+recommendation using query logs in search engines. In
+Proceedings of the 2004 International Conference on
+Current Trends in Database Technology, 2004.
+
+J. Bergstra, O. Breuleux, F. Bastien, P. Lamblin,
+
+R. Pascanu, G. Desjardins, J. Turian, D. Warde-Farley,
+and Y. Bengio. Theano: a CPU and GPU math
+expression compiler. In Proceedings of the Python for
+Scientific Computing Conference (SciPy), June 2010.
+Oral Presentation.
+
+R. Blanco and A. Barreiro. Probabilistic static pruning
+of inverted files. ACM Trans. Inf. Syst., 28(1):1:1-1:33,
+Jan. 2010.
+
+R. Blanco, B. B. Cambazoglu, P. Mika, and N. Torzec.
+Entity recommendations in web search. In The
+
+2]

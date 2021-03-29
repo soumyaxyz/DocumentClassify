@@ -1,0 +1,46 @@
+119 Some preparatory results
+
+ 
+
+Lemma 4.2.6. Fors in So, a in Ao,
+
+a(a) ey &(s) = ay s(1) ® (f fay) aay) © (Q(v) 4 $2) e(u.v)dudy. (4.2.7)
+
+For a,b in Ao,
+
+a(a) e; a(b) = aaybi) ® (f far Jaz) © (Q(v) aby e(u.v)dudv}. (4.2.8)
+Proof : We have
+
+a(a) e7 a(s)
+= (aq) @ a(2)) ©7 (sa) @ 8(2))
+= 44) Oe (2) © 8@))
+
+= J [ Gnkaw Bu (sy )e(u.v)dudv ® (aia) © s(2))-
+Let € be the counit of O. So we have (id @ €)a = id and (id @ €)& = id. This gives,
+
+a(a) e; a(s)
+
+= ff (id ® €)a(Bju(acy)) (id ® €)&(Bo(s(1))e(u.v)dudv ® (aig) © 82).
+
+Note that by Lemma 4.2.4, [ (id @ €)(a(87u(a(1y)) (id @ €)(@(Be(s(1))))
+
+e(u.v)dudu
+
+= J [lid ® (aay ay @ (id @ ATu))(A(aayQy))) (id @ €)(sayay ® (id
+
+ae ))))e(u.v)dudu
+
+= f (id @ ©)(aqyry ® (aay) > Q(Ju)) (id @ €)(saycay ® (Sayay > Q(v)))e(u.v)
+
+dudv
+
+=f faaasmayelaaye 2) > O(a) (saya) > O(v))e(u.v)dudv.
+
+Using the fact that foe =eof = f for any functional on Qo, one has €(4(1)(2) >
+Q(Ju)) = (Ju) (aqyay) and €(s(y(2) > Q(v)) = Q(e)(say(2)); from which it follows that
+
+a(a) e; a(s)
+= aayaysaya rf J roreo QC: V)(8(1)(2) e(u.v)dudv ® (aa) © 8:2)
+
+/ i (id @ Q( Ju) ® id) (aay(1) @ @(ay(2) ® aay) © (id @ Q(v) @ id)(s(ayq1) @
+5(1)(2) ® §(2) )e(u.v)dudu

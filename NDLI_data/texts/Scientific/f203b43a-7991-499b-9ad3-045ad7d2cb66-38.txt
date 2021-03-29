@@ -1,0 +1,125 @@
+38 | EIRINI PAPAGIANNOPOULOU AND GRIGORIOS TSOUMAKAS
+
+ 
+
+Finally, the differences between manual and average matching F,-scores have a slightly higher median/mean but more
+concentrated range of values around zero, compared to the rest types of differences (Exact, Partial). Figure[6](see
+Appendix{D], shows an alternative view of the differences between the F, -score values based on the manual evaluation
+and the F;-score values calculated according to the exact (solid line), partial (dashed line) and average (dotted line)
+
+evaluation approaches for KPM and MR methods.
+
+ 
+
+ 
+
+0.2 —
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Differences
+
+ 
+
+ 
+
+ 
+
+ 
+
+-0.2
+
+ 
+
+-0.4
+
+ 
+
+ 
+
+ 
+
+Exact Partial Average
+
+(a) KPM
+
+ 
+
+0.4 —
+
+ 
+
+0.2 a
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+0.0 —
+
+ 
+
+Differences
+
+ 
+
+ 
+
+ 
+
+ 
+
+-0.2
+
+-0.4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Exact Partial Average
+(b) MR
+FIGURE 5 _ Distribution of differences between the F,-scores based on the manual evaluation and the F,-scores
+
+based on the exact (Exact), partial (Partial) and average (Average) evaluation approaches for the 50 manually
+evaluated documents given on the x axis.
+
+Our analysis suggests that researchers should consider the average of exact and partial matching for empirical

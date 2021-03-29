@@ -1,0 +1,141 @@
+Final Distribution
+
+ 
+
+ 
+
+ 
+
+ 
+
+Context Vector
+
+Attention
+
+"Argentina’
+x (1 — pgen) gp ee
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+os
+uonnquisig Aiejnqeoo,,
+
+ 
+
+ 
+
+Distribution
+
+ 
+
+Encoder
+Hidden
+States
+
+badbedes
+
+Germany emerge victorious in 20 win
+
+Xu
+vv
+
+Source Text
+
+against Argentina on
+
+ 
+
+<START> Germany
+
+Saturday .. beat
+
+a
+saje1S UappIH Japooaq
+
+——_
+
+Partial Summary
+
+Figure 3: Pointer-generator model. For each decoder timestep a generation probability pgen € (0, 1] is
+calculated, which weights the probability of generating words from the vocabulary, versus copying words
+from the source text. The vocabulary distribution and the attention distribution are weighted and summed
+to obtain the final distribution, from which we make our prediction. Note that out-of-vocabulary article
+words such as 2-0 are included in the final distribution. Best viewed in color.
+
+a probability distribution over the source words,
+that tells the decoder where to look to produce the
+next word. Next, the attention distribution is used
+to produce a weighted sum of the encoder hidden
+states, known as the context vector h;:
+
+np =Yathi (3)
+The context vector, which can be seen as a fixed-
+size representation of what has been read from the
+source for this step, is concatenated with the de-
+
+coder state s, and fed through two linear layers to
+produce the vocabulary distribution Pyocab:
+
+Procas = softmax(V'(V[s,,h7] +b) +b’) (4)
+
+where V, V’, b and b’ are learnable parameters.
+Pyocab iS a probability distribution over all words
+in the vocabulary, and provides us with our final
+distribution from which to predict words w:
+
+P(w) = Procab(w) (5)
+
+During training, the loss for timestep ¢ is the neg-
+ative log likelihood of the target word w7 for that
+timestep:
+
+loss, = — log P(w; ) (6)
+and the overall loss for the whole sequence is:
+lor
+loss = F ar loss; (7)
+
+2.2 Pointer-generator network
+
+Our pointer-generator network is a hybrid between
+our baseline and a pointer network (Vinyals et al.,
+2015), as it allows both copying words via point-
+ing, and generating words from a fixed vocabulary.
+In the pointer-generator model (depicted in Figure
+3) the attention distribution a’ and context vector
+hy are calculated as in section 2.1. In addition, the
+generation probability Pen € [0, 1] for timestep t is
+calculated from the context vector h7, the decoder
+state s, and the decoder input x;:
+
+(8)
+
+where vectors wy, Ws, Wx and scalar bp, are learn-
+able parameters and o is the sigmoid function.
+Next, Pgen is used as a soft switch to choose be-
+tween generating a word from the vocabulary by
+sampling from Pyocab, or copying a word from the
+input sequence by sampling from the attention dis-
+tribution a’. For each document let the extended
+vocabulary denote the union of the vocabulary,
+and all words appearing in the source document.
+We obtain the following probability distribution
+over the extended vocabulary:
+
+P(w) = PgenProcab(W) a a _ Deen) y dj (9)
+
+Note that if w is an out-of-vocabulary (OOV)
+word, then Pyocab(w) is zero; similarly if w does
+
+Peen = O(Whah? +w! s, + wt xy + Bot)
+
+iwi=w

@@ -1,0 +1,43 @@
+12 2. LINEAR ALGEBRAIC GROUPS
+
+Let V be a finite dimensional vector space over k. A rational representation
+of an algebraic group G' in V is a homomorphism of algebraic groups r: G > GL(V).
+For a group G defined over k we say that a rational representation r is defined over
+k if the map is defined over k. We denote by k|G] the coordinate algebra of the
+algebraic group G. The right translation map of G defined by (g,x) + ag@! gives
+
+rise to a representation p of G:
+
+p:G— GL(KG]) , (o(9)f)(#) = fxg)
+where f € k[G].
+
+2.2. Jordan Decomposition
+
+We now describe the Jordan decomposition of an element in an algebraic group.
+First we recall Jordan decomposition from linear algebra. Let V be a finite dimen-
+sional vector space over k. An endomorphism T of V is called semisimple if there
+is a basis of V consisting of eigenvectors of T. We say that an endomorphism T' is
+nilpotent if 7° = 0 for some integer s > 1 and T' is unipotent if T — 1 is nilpo-
+tent. For any element ¢ € End(V) there are unique t,,t, € End(V) such that ¢, is
+semisimple, t,, is nilpotent, t,t, = tnt, and t =t,+t,. This is called the additive
+Jordan decomposition. Let t € GL(V). There are unique elements t,,t, € GL(V)
+such that t, is semisimple and t, is unipotent and t = t,t, = tut, (multiplicative
+Jordan decomposition).
+
+Jordan decomposition generalises to infinite dimensional vector space for locally
+finite endomorphisms. Let V be a vector space (not necessarily finite dimensional)
+over k. An element t € End(V) is locally finite if V is a union of finite dimensional
+t-stable subspaces. Let G be an algebraic group. We have for an element g € G ((Sp],
+Theorem 2.4.8),
+
+Theorem 2.2.1 (Jordan decomposition). Let g € G. There exist unique elements
+9s;9u € G such that g = 9sgu = Jugs and for any rational representation ¢: G —
+GL(V) the element $(gs) = 0(g)s is semisimple and $(gu) = 6(g)u is unipotent.
+
+The element g, is called the semisimple part of g and g, is called the unipotent part
+of g.
+
+Let G be an algebraic group defined over k. Let g € G(k). Then g, and g, need
+not belong to G(k). But if the field k is perfect, the elements g, and g, belong to
+
+G(k) and we have the Jordan decomposition for g over k.

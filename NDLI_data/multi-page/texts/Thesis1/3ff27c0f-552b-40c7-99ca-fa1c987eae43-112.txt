@@ -1,0 +1,42 @@
+Chapter 3: Quantum group of orientation preserving Riemannian isometries 100
+
+ 
+
+Proof for ( 3.4.7 ) that is, ug1ut, + u22ujy = 0.
+
+Ug Uj, + U22QUig
+= ua1k(ui1) + u22K(ua1)
+= uziti22D;,! — fu22t21 Dj,"
+= (u21u22 _ jiuggta1) Dj"
+
+= 0.
+Proof for (3.4.9 ) that is, (1 — p?)ufyui2 — w?(udgu22 — u22ud9) = 0.
+
+(1 =p? )ujytae — p?(udgu22 — u22t159)
+
+= (1—p*)K(ua1)ur — 2? (K(u22)u22 — ur2K(u22))
+
+= -—p— H)(uri12D;,") - 1 (uru22D;" - ug2u11D;,')
+= —-p{- 1) (u2iui2D;,') = p(u22ui1D;,! — wu22D,,')]
+= p= p?)uarmeD yt — (ur! = p)urguar Dz")
+
+= -p(1- Ww) (uigua1 — uygua1)D,
+
+Proof for ( 3.4.10 ) that is, uj,u22 — pug2t}, = 0.
+
+UjgU22 — [LU22Uj9
+= K(tg1) Ugg — HUg2Kk(U21)
+— 2, p> uosD=!
+= bu22u21l, — Hu21U22L,,
+Nos) -1
+= p(puggue1 — ug1U22)D,,
+= 0.
+
+Proof for (3.4.11 ) that is, —wuyyuty + purud, — pPudguar +ujgui = 0.
+
+—puyuty + pug ud — pPudgua, + ujourn
+= pu (ug1) + pug K(u22) — pn (ug2)u21 + K(ua1)ui1
+= pitty (—puerDj") + pours (ui1D;') _ unuaD,' = pugunD;,"
+= pe (urruar — usuear)Dz! + wut — uait1)D,
+
+= 0.

@@ -1,0 +1,83 @@
+7. What is the output of the following code?
+String s;
+System.out.println (“s=“ts);
+8.  Abbreviate
+(a) API
+(b) JDK.
+
+9. | What is Synchronization?
+
+10. What is an Applet?
+PART B — (5 x 5 = 25)
+Answer ALL questions.
+
+11. (a) Explain the difference between C++ and
+Java?
+
+Or
+(b) Write a short note on java virtual machine
+with diagrams?
+
+12. (a) Describe the different forms of ‘if statements
+available in java?
+
+Or
+
+(b) Describe in detail about the constructors with
+example?
+
+13.
+
+14.
+
+15.
+
+16.
+
+es
+
+(a)
+
+(b)
+
+(a)
+
+(b)
+
+(a)
+
+(b)
+
+Write a java program to display
+multiplication table using two-dimensional
+array.
+
+Or
+
+Write a java program to generate the
+alphabetical ordering of strings.
+
+Explain in detail about the java API packages
+with example?
+
+Or
+
+Write a java program using try and catch
+blocks to handle an arithmetic exception?
+
+Write short note on synchronization with
+example?
+
+Or
+
+Design a web page for mobile show room
+using HTML tags?
+
+PART C — (8 x 10 = 30)
+
+Answer any THREE questions.
+
+Discuss in detail about the java features.
+
+Write a program to compute the ‘power of 2’ using
+for loop.

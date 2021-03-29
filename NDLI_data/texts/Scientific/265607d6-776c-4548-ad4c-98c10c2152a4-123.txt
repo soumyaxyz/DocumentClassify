@@ -1,0 +1,52 @@
+5. Framework Validation
+
+ 
+
+ 
+
+Q2. How effective is xQuAD’s diversification strategy?
+
+ 
+
+ 
+
+Q3. How effective is xQuAD’s aspect representation?
+
+ 
+
+In the following, Section 5.2.1 details the specific setup that supports our
+
+investigations, while Section 5.2.2 analyses our results.
+
+5.2.1 Experimental Setup
+
+In addition to the general methodology adopted in all experiments of this thesis,
+as described in Section 5.1, in this section, we describe the specific experimental
+
+setup that underlies the investigations in this chapter.
+
+5.2.1.1 Retrieval Baselines
+
+The most straightforward baseline for any diversification approach is arguably a
+ranking approach that does not perform any diversification at all. With this mind,
+we evaluate the effectiveness of different diversification approaches in this chapter
+at re-ranking the documents retrieved by a relevance-oriented baseline. In partic-
+ular, we consider two such baselines. The first of these is the DPH model (Amati
+et al., 2007). As described in Section 2.2.1.3, DPH is a non-parametric ranking
+model from the divergence from randomness framework (Amati, 2003). As such,
+it provides an effective retrieval performance without requiring any training.
+Besides DPH, we consider a machine-learned ranking model produced by
+LambdaMART (Wu et al., 2008), a state-of-the-art learning to rank algorithm.
+As described in Section 2.2.3.2, this listwise learning algorithm falls into the gen-
+eral framework of boosting (Kearns, 1988; Schapire, 1990): given some training
+data, the algorithm iteratively learns an ensemble of boosted regression trees,
+with the gradient of a standard evaluation metric used as a loss function. In or-
+der to instantiate this approach, we use nDCG@1000 (Equation (2.51)) as a loss
+function. As a learning sample for each query, we use the top 5,000 documents re-
+turned by DPH. This setup has been shown to be particularly effective for learning
+to rank for web search (Macdonald, Santos & Ounis, 2013). Lastly, as ranking
+features, we consider a total of 45 features commonly used in the learning to
+
+rank literature (Qin et al., 2010; Liu, 2009), including both query-dependent and
+
+105

@@ -1,0 +1,50 @@
+Chapter 3: Quantum group of orientation preserving Riemannian isometries 74
+
+ 
+
+that 2 = u(V) C R” has compact closure, $|y is trivial and D has the local expression
+
+D= i 1 H(e;)Vj, where V; = V_a_ denotes the covariant derivative (with respect to
+. Oz;
+
+the canonical Levi Civita connection) operator along the vector field ao on L?(Q) and
+(v) denotes the Clifford multiplication by a vector v. Now, 6077! € L*(Q) C L7(Q)
+and it is easy to observe from the above local structure of D that [D, Mg] has the local
+expression )>; iM 2» ® p(ej). Thus, the fact Mg € (),5; Dom(d5) implies ¢ 0 wt is
+in Dom(dj, ...d;, ) for every integer tuples (j1,..., je), ji € {1,-..,.n}, where dj := ao: In
+other words, 60 W~! is in H*(Q) for all k > 1, where H*(Q) denotes the k-th Sobolev
+space on () (see [48]). By Sobolev’s Theorem (see, for example. [48],Corollary 1.21, page
+24) it follows that ¢o 7! is in C™~(Q).
+
+We note that f is one-to-one as ¢ > go f is an automorphism of L°°. Now, we shall
+show that f is an isometry of the metric space (M,d), where d is the metric coming
+
+from the Riemannian structure, and we have the explicit formula ( 1.4.1 )
+
+d(p, 9) = SUPgec%(M),||[D.Mgl||<1!O(P) — O(4)|-
+
+Since U commutes with D, we have ||[D, Mgo,]|| = |||[D, UMsU*]|| = ||ULD, Mg]U*|| =
+||[D, Mg]|| for every ¢, from which it follows that d(f(p), f(q)) = d(p,q). Finally, f is
+orientation preserving if and only if the volume form (say w), which defines the choice
+of orientation, is preserved by the natural action of df, that is, (df A... \df)(w) =w.
+This will follow from the explicit description of w in terms of D, given by (see [65] Page
+26, also see [20] )
+
+w(dod¢1...dgn) = T(eMy4,[D, Mg,].-.[D, Mz,,]);
+
+where do,.-.,¢n belong to C°(M), € = 1 in the odd case and « = y ( the
+
+grading operator ) in the even case and 7 denotes the volume integral. In fact,
+
+. Tr(e~tP? X oo . . ye,
+mx) = Limo, ( where Lim is as in subsection 1.5.2 ), which implies
+Fe
+
+7T(UXU*) =7(X) for all X in B(H) (using the fact that D and U commute). Thus,
+
+w(b0° f d(bre f)..-d(gne f))
+= 1(€(UMg,U*U[D, Mg,]U*...U[D, Mg,,JU*)
+= T(UeM,,[D, Mg,]...[D, Mg,,]U*)
+= 1(eMg.[D, Mg,]---[D, Mo,])
+
+= w(dodd1...dbn).

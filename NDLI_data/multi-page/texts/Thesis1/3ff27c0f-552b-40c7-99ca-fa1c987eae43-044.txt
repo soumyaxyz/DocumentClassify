@@ -1,0 +1,54 @@
+Chapter 1: Preliminaries 32
+
+ 
+
+(bii) the linear span of a(B)(1 @ S) is norm-dense in B® S.
+
+It is known ( see, for example, [60] , [44] ) that (bii) is equivalent to the existence
+of a norm-dense, unital *-subalgebra Bo of B such that a(Bo) C Bo @alg So and on Bo,
+(id ®e)oa=id.
+
+We shall sometimes say that a is a ‘topological’ or C* action to distinguish it from
+
+a normal action of von Neumann algebraic quantum group.
+
+Definition 1.2.30. Let (S,a) has a C* action a on the C* algebra B. We say that the
+action a is faithful if there is no proper Woronowicz C*-subalgebra S, of S such that
+a is a C* action of S; on B.
+
+Definition 1.2.31. Let (S,a) has a C* action a on the C* algebra B. A continuous
+
+linear functional @ on B is said to be invariant under a if
+
+(¢ ® id)a(b) = g(b).1s.
+
+Now, we recall the work of Shuzhou Wang done in [60]. One can also see [4], [5].
+The quantum permutation group Ql/, is defined to be the C* algebra generated
+
+by aij (i,j =1,2,...n ) satisfying the following relations:
+
+Yo aij = = 1,2 n
+jal
+n
+Seay =1 §=1,2,..n
+i=1
+
+The name comes from the fact that the universal commutative C* algebra generated
+by the above set of relations is isomorphic to C(S,) where S;, denotes the permutation
+group on n symbols.
+
+Let us consider the category with objects as compact groups acting on on a n-point
+set X, = {21,29,..., Un}. If two groups G; and Gy have actions a; and ag respectively,
+then a morphism from G to G2 is a group homomorphism ¢ such that a2(¢ x id) = ay.
+Then C(S,,) is the universal object in this category. It is proved in [60] that the quantum
+permutation group enjoys a similar property.
+
+We have that C(Xn) = C*{e; : e? =e; = ef, Why er = 1,0 = 1,2,...,n}. Then
+
+QU, has a C* action on C(X,,) via the formula:
+
+n
+
+a(e;) = ei @ ay, j =1,2,...n.
+
+i=1

@@ -1,0 +1,70 @@
+Preprint. Under review.
+
+ 
+
+2. Aggregation and combination: This step is performed for all colorings c € C;, using a uni-
+versal set representation as the aggregation function: rf )4) = yo (xe, Vien, pO (as is
+where w and y are MLPs with continuous non-polynomial activation functions and 7(x, y)
+denotes the result of ~ applied to the concatenation of x and y. The aggregation scheme
+we propose is closely related to DeepSet (Zaheer et al} 2017), and a direct application of
+Corollary[I]proves the universality of our architecture. More details, as well as the proof of
+universality, are available in Appendix [C]
+
+   
+
+3. Colored readout: This step performs a maximum over all possible colorings in order to
+obtain a final coloring-independent graph representation. In order to keep the stability by
+concatenation, the maximum is taken coefficient-wise
+
+‘i
+w= (we3- sir] ; (5)
+
+i=l
+
+where ~ is an MLP with continuous non polynomial activation functions.
+
+We treat k as a hyper-parameter of the algorithm and call k-CLIP (resp. oo-CLIP) the algorithm
+using k colorings (resp. all colorings, i.e. k = |C(v, A)|). Note that, while our focus is graphs with
+node attributes, the approach used for CLIP is easily extendable to similar data structures such as
+directed or weighted graphs with node attributes, graphs with node labels, graphs with edge attributes
+or graphs with additional attributes at the graph level.
+
+5.3 UNIVERSAL REPRESENTATION THEOREM
+
+As the colorings are chosen at random, the CLIP representation is itself random as soon as k <
+|C(v, A)|, and the number of colorings & will impact the variance of the representation. However,
+co-CLIP is deterministic and permutation invariant, as MPNNs are permutation invariant. The
+separability is less trivial and is ensured by the coloring scheme.
+
+Theorem 3. The co-CLIP algorithm with one local iteration (T = 1) is a universal representation
+of the space Graph, of graphs with node attributes.
+
+The proof of Theorem[3]relies on showing that oo-CLIP is separable and applying Corollary[I] This
+is achieved by fixing a coloring on one graph and identifying all nodes and edges of the second
+graph using the fact that all pairs (v;, c;) are dissimilar (see Appendix [D). Similarly to the case of
+MLPs, only one local iteration is necessary to ensure universality of the representation. This rather
+counter-intuitive result is due to the fact that all nodes can be identified by their color, and the readout
+function can aggregate all the structural information in a complex and non-trivial way. However, as
+for MLPs, one may expect poor generalization capabilities for CLIP with only one local iteration,
+and deeper networks may allow for more complex representations and better generalization. This
+point is addressed in the experiments of Section [6] Moreover, oo-CLIP may be slow in practice due
+to a large number of colorings, and reducing k will speed-up the computation. Fortunately, while
+k-CLIP is random, a similar universality theorem still holds even for k = 1.
+
+Theorem 4. The 1-CLIP algorithm with one local iteration (T = 1) is a random representation
+
+whose expectation is a universal representation of the space Graph,,, of graphs with node attributes.
+
+The proof of Theorem|4relies on using oo-CLIP on the augmented node attributes v/ = (v;,c;). As
+all node attributes are, by design, different, the max over all colorings in Eq. &) disappears and, for
+any coloring, 1-CLIP returns an ¢-approximation of the target function (see Appendix[D}.
+
+Remark 1. Note that the variance of the representation may be reduced by averaging over multiple
+samples. Moreover, the proof of Theorem|4]shows that the variance can be reduced to an arbitrary
+precision given enough training epochs, although this may lead to very large training times in practice.
+
+5.4 COMPUTATIONAL COMPLEXITY
+
+As the local iterative steps are performed T times on each node and the complexity of the aggregation
+depends on the number of neighbors of the considered node, the complexity is proportional to the
+number of edges of the graph E and the number of steps T. Moreover, CLIP performs this iterative

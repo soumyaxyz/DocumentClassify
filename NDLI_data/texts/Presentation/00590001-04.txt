@@ -1,0 +1,10 @@
+In this lecture, we will learn
+
+¢ About basics of data modelling
+
+¢ How to go about designing a data model
+at the conceptual and logical levels?
+
+¢ Pros and Cons of the popular modelling
+techniques such as ER modelling and
+dimensional modelling

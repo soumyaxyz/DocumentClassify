@@ -1,0 +1,56 @@
+Chapter 1: Preliminaries 44
+
+ 
+
+Thus, the set of eigenvalues of £ is countable, each having finite multiplicities, and
+accumulating only at infinity. Moreover, there exists an orthonormal basis of L?(M)
+consisting of eigenvectors of £ which belong to C™~(M). It can be shown ( Lemma 2.3
+of [30] ) that for a compact manifold, the complex linear span of the eigenvectors of £
+
+is dense in C™(M/) in the sup norm.
+
+The following result is in the form in which it has been stated and proved in [30] (
+Proposition 2.1 ).
+
+Proposition 1.4.1. Let M be a compact Riemannian manifold. Let £L be the Laplacian
+of M. A smooth map y: M > M is a Riemannian isometry if and only if y commutes
+
+with L in the sense that L(f oy) = (L(f)) oy for all f in C™(M).
+
+Using this fact, we give an operator theoretic proof of the fact that for a compact
+manifold, [SO(M) is compact. As the action of [SO(M) commutes with the Laplacian,
+it has a unitary representation on L?(M). As the action preserves the finite dimensional
+
+eigenspaces of the Laplacian, [S'O(M) is a subgroup of U(d;) x U(d2) x ..... ..( where
+
+ 
+
+{d; : i > 0} denote the dimension of the eigenspaces of the Laplacian and U(d) denotes
+the group of unitary operators on a Hilbert space of dimension d ) which is a compact
+group. As ISO(M) is closed, it is a closed subgroup of a compact group, hence compact.
+We will see that this technique can be generalized in the noncommutative set-up in the
+chapters 2 and 3.
+
+Proposition 1.4.1 has the generalization in a more general context.
+
+Let us fix some notations. Let Y be a compact metrizable space and @: MxY — M.
+Let €y : M — M defined by &(m) = 0(m,y). Let a : C(M) > C(M)@C(Y) =
+C(M x Y) be defined by a(f)(m,y) = f(0(m,y)) for all y in Y, m in M. For a state
+@ on C(Y), denote by ag, the map: (id @ ¢)a : C(M) — C(M). Lastly, let A3° be the
+span of eigenvectors of the Laplacian £ of M.
+
+Then, we have the following( Lemma 2.5 of [30] ):
+
+Proposition 1.4.2. The following are equivalent:
+
+a. For every y in Y, &y is smooth isometric.
+b. For every state bd on O(Y), we have ag(Ag°) C AX? and agl = Lag on AR.
+
+Example 1.4.3. 1. The isometry group of the n-sphere S” is O(n+1) where the action
+is given by the usual action of O(n +1) on R"*!. The subgroup of O(n +1) consisting
+of all orientation preserving isometries on S” is SO(n + 1).
+2. The isometry group of the circle S' is S! ><Zy. Here the Zp ( = {0,1} ) action
+on S! is given by 1.2 =Z where z is in S' while the action of S! is its action on itself.
+3. ISO(T") = T" ><(Z} ><S,) where S;, is the permutation group on n sym-
+
+bols. Here an element of S, acts on an element (21, 22,.-.,2n) € T” by permutation.

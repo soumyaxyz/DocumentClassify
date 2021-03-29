@@ -1,0 +1,67 @@
+54 7. REALITY IN CLASSICAL GROUPS
+k by t itself. We have a t-invariant orthogonal decomposition of V;
+V=VOV18Vjn ® -- OVn
+where V, and V_; are the eigenspaces of t corresponding to 1 and —1 respectively
+and Vyas = Vy, ® V,-1 where VA, is the eigenspace corresponding to A; for x Al.
+J Z 25 set
+Since 1 and —1 are not eigenvalues for t, we have V; = 0 and V_; = 0. If r = 1 it
+
+follows from Lemma 7.4.4 that ¢ is not real. Hence we may assume r > 2. We denote
+
+ 
+
+the restriction of t on Vyas by t;. Let the dimension of Vyan be n;. Since A; # +1,
+n, is even and is either 0 (mod 4) or 2 (mod 4). Let the number of subspaces Vue
+such that n; is 2 (mod 4) be s. Then s is odd, since dim(V) = 2 (mod 4). Let
+g € SO(Q) such that gtg-! = t~+. Then g leaves Vues invariant for all 7. We denote
+the restriction of g on Vue by g;. Then g; € O(V,2) and giti95 = tt. From the
+previous lemma, determinant of g; is 1 whenever n; = 0 (mod 4) and the determinant
+of g; is —1 whenever n; = 2 (mod 4). Hence the determinant of g is (—1)* = —1,
+which contradicts g € SO(Q). Hence t can not be real in SO(Q).
+
+Conversely, if 1 or —1 is an eigenvalue then the subspace V; or V_; is non-zero.
+These subspaces are defined over k. Let us denote their descents by V; and V_; over
+k. The dimension of V; and V_; is always even. But the matrix J and —J can be
+
+written as a product of two involutions, each having determinant 1 or —1. Hence in
+
+ 
+
+ 
+
+ 
+
+this case t can be always written as a product of two involutions in SO(Q).
+
+ 
+
+7.5. Symplectic Groups
+
+Now we consider the symplectic group. Let V be a vector space of dimension 2n
+
+with a nondegenerate symplectic form. We denote the symplectic group by S'p(2n, k).
+
+ 
+
+The center of this group Z(Sp(2n, k)) = {+1} and we denote the projective symplec-
+tic group by PSp(2n,k) = Sp(2n, k)/Z(Sp(2n, k)).
+
+Lemma 7.5.1. Let t € Sp(2,k) be a semisimple element. Suppose that t is
+either conjugate tot! or —t~'. Then the conjugation can be achieved by an element
+s € Sp(2,k) such that s? = —1. Hence a semisimple element of PSp(2,k) is real if
+and only if it is strongly real in PSp(2, k).
+
+Proof. We note that Sp(2,k) = SL(2,k). Hence proof follows from Corol-
+lary 7.2.2.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Lemma 7.5.2. Let t € Sp(4,k) be a semisimple element. Suppose that t is
+
+either conjugate to t~' or —t~!. Then the conjugation can be achieved by an element

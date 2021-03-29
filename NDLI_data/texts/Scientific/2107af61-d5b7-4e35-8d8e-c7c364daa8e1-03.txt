@@ -1,0 +1,91 @@
+Preprint. Under review.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+2 eS
+& 2
+(f ) Separable » 3
+Gg. eb representation z
+LY 3
+g z =
+£ Universal representation 2
+Figure 2: Universal representations can eas-
+ily be created by combining a separable rep-
+Figure 1: Concatenation of two MLPs f and g. resentation with an MLP.
+
+the supervised learning task (i.e. one vector representation f € §q that leads to a good accuracy on the
+learning task). In order to present more general results, we will consider neural network architectures
+that can output vectors of any size, ie. § C Usen- F(X, R42), and will denote Fy = FN F(X, R?)
+the set of d-dimensional vector representations of §. A natural characteristic to ask from the class
+§ is to be generic enough to approximate any vector representation, a notion that we will denote as
+
+universal representation (Hornik et al. [T989).
+
+Definition 1. A class of vector representations § C Ugen+ F(¥’, R®) is called a universal represen-
+tation of & if for any compact subset K C ¥ and d € N*, F is uniformly dense in C(K, R¢).
+
+In other words, § is a universal representation of a normed space ¥ if and only if, for any continuous
+function ¢ : Y — R¢, any compact K C ¥ and any < > 0, there exists f € F such that
+
+Ve € K, ||o(x) — f(x)|| <e. Gb)
+One of the most fundamental theorems of neural network theory states that one hidden layer MLPs
+are universal representations of the m-dimensional vector space R™.
+
+Theorem 3.1). Let y : R > R be a continuous non polynomial activation
+function. For any compact K C R"™ and d € N*, two layers neural networks with activation p are
+uniformly dense in the set C(K, R®).
+
+ 
+
+However, for graphs and structured objects, universal representations are hard to obtain due to
+their complex structure and invariance to a group of transformations (e.g. permutations of the node
+labels). We show in this paper that a key topological property, separability, may lead to universal
+representations of those structures.
+
+3.3 SEPARABILITY IS (ALMOST) ALL YOU NEED
+
+Loosely speaking, universal representations can approximate any vector-valued function. It is thus
+natural to require that these representations are expressive enough to separate each pair of dissimilar
+elements of 4.
+
+Definition 2 (Separability). A set of functions § C F(4, )/) is said to separate points of ¥ if for
+every pair of distinct points x and y, there exists f € ¥ such that f(x) A f(y).
+
+For a class of vector representations § C Uden» F(4’, R%), we will say that ¥ is separable if its
+1-dimensional representations § separates points of V. Separability is rather weak, as we only
+require the existence of different outputs for every pair of inputs. Unsurprisingly, we now show that it
+is a necessary condition for universality (see Appendix[A]for all the detailed proofs).
+
+Proposition 1. Let § be a universal representation of X, then §1 separates points of X.
+
+While separability is necessary for universal representations, it is also key to designing neural network
+architectures that can be extended into universal representations. More specifically, under technical
+assumptions, separable representations can be composed with a universal representation of R¢ (such
+as MLPs) to become universal.
+
+Theorem 2. For all d > 0, let Mg be a universal approximation of R¢. Let § be a class of vector
+representations of X such that:

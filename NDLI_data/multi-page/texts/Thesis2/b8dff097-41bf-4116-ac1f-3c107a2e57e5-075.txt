@@ -1,0 +1,60 @@
+8.1. REALITY IN G2 63
+
+polynomial of A over L in the first case and over k in the second, is reducible and the
+minimal polynomial of A is not of the form (X —a)3, for a € L in the first case and
+
+for a €k in the second case. Then to is strongly real.
+We have the following,
+
+Theorem 8.1.7. Let G be a group of type G2 over a field k of characteristic not
+2. Let to € G(k) be an element which is not unipotent. Then, to is real in G(k) if and
+only if to is strongly real in G(k). In addition, if char(k) 4 3 then every unipotent
+element in G(k) is strongly real in G(k).
+
+Proof. The assertion about unipotents in G(k) follows from Lemma 8.1.2. In view
+of Lemma 8.1.3 and discussion following the lemma, we need to consider the case when
+to € SU(L+,}) or to € SL(3). In these cases, we look at the characteristic polynomial
+x4(X) and the minimal polynomial m4(X) of A. We first assume that y4(X) 4
+ma(X). Hence degree of ma(X) < 2 and x4(X) is reducible. The conditions in
+Proposition 8.1.6 are satisfied in this case. Hence to is strongly real. We take up the
+case of A with y4(X) = ma(X) below.
+
+ 
+
+ 
+
+ 
+
+ 
+
+The result follows from the following theorem.
+
+Theorem 8.1.8. Let to be an element in G(k) and suppose to fixes exactly a
+quadratic étale subalgebra L of € pointwise. Let us denote the image of to by A
+in SU(L+,6) or in SL(3) as the case may be. Also assume that the characteristic
+polynomial of A over L in the first case and over k in the second, is equal to the
+minimal polynomial of A. Then to is conjugate to ts" in G(k) if and only if to is
+
+strongly real in G(k).
+
+Proof. We distinguish the cases of both these subgroups below and complete the
+
+ 
+
+ 
+
+ 
+
+proof in the next two sections, see Theorem 8.2.8 and Theorem 8.3.5.
+
+ 
+
+We record the theorem about semisimple elements separately.
+
+Theorem 8.1.9. Let to be a semisimple element in G(k) and suppose to fixes the
+quadratic étale subalgebra L of € pointwise. Let us denote the image of to by A in
+SU(L+,h) or in SL(3) as the case may be. If the characteristic polynomial of A over
+L in the first case and over k in the second, is reducible then to is strongly real in
+G(k). If the characteristic polynomial is irreducible then to is real if and only if to is
+
+strongly real.

@@ -1,0 +1,58 @@
+121 Qi Ss OF of a Rieffel deformed noncommutative manifold
+
+Proof : Let us first observe that
+
+XF(u,w) (*)
+= (QA Ju) @ id)A(id @ O( Jw)) A(z)
+= (Ju) arr Q(Jw),
+
+and similarly (,5)(y) = Q(—v) <yp Q(s).
+
+Thus, we have
+
+rOY
+= [ (O(—Ju) <a> O( Jw))(OQ(—v) ay > 2(s))e(—u.v)e(w.s)dududwds
+Jian
+
+= | (Q(Ju’) <a> O(Jw))(Q(—v) ay > O(s))e(ul.v)e(w.s)duldudwds
+Ran
+
+= [.. I. XF uw) )X(w,s) (ye((u, w).(v, 8))d(u, w)d(w, 8),
+
+ 
+
+which proves the claim.
+
+ 
+
+ 
+
+Let us denote by 9; ( Q; ) the C* algebra obtained from o ( Q ) by the Rieffe
+deformation w.r.t. the matrix J described above. We recall from subsection 1.3.1 that
+
+ 
+
+the coproduct A on Qo ( Qo ) extends to a coproduct for the deformed algebra as well!
+
+and (Q;, A) ( (97,4) ) is a compact quantum group.
+
+ 
+
+4.3. QISO; of a Rieffel deformed noncommutative mani-
+fold
+
+4.3.1 Derivation of the result
+
+In this subsection, our set up is as in section 4.1 so that we have spectral triples on A?
+
+for each J.
+
+Lemma 4.3.1. Suppose that (Q,U) belongs to Obj(Q(A,H,D)), and there exists a
+unital *-subalgebra Ag C A which is norm dense in every Aj such that
+
+au (to(Ao)) © 70(Ao) @atg Qo, where QC Oo is the smallest Woronowicz C* subal-
+gebra such that ay (Ao) C (Ao) ®@ Q, and Qo is the Hopf *-algebra obtained by matrix
+coefficients of irreducible unitary (co)-representations of Q. Also, let Sy = span{as :
+a € Ag, s € Soo}, Then we have the following:
+
+(a) U(So) € So alg Qo-

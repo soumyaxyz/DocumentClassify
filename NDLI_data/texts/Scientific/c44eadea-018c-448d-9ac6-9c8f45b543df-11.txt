@@ -1,0 +1,58 @@
+= CORA Tal Gataset
+CORA ML subset
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+(a) CORA ML and full datasets (b) DBLP dataset
+
+Fig. 2: Node classification performance with varying k and D for Paper2vec.
+
+4.1 Parameter Sensitivity
+
+We used the DM model [5] and CBOW model {6] respectively for our text and
+graph learning stages. Varying window size of c; in text learning framework from
+5 to 10 did not have notable impact on our document vectors, we fixed it at 10.
+However c2, window size for the graph learning framework gave best results for
+the value of 5 on being varied from 2 to 10. This signifies that our paper similarity
+is best determined by its 5-hop neighbourhood distribution. During DM training
+for optimising f; we ran 10 epochs by setting a learning-rate decay of 0.02 after
+every epoch and keeping it constant throughout the epoch. The two remaining
+hyper-parameters to tune for Paper2vec are number of neighbors to connect k
+and our embedding dimensions D. From Figures |2a] and 2b] we can see a steady
+increase of node classification performance as we connect 2,4,5 neighbours for
+our small, medium and large datasets respectively. After this performance peak,
+there is a steady decline as we start connecting arbritary (less similar) nodes
+together. In this experiment D was kept constant at 100 and 200 for small and
+medium datasets respectively. Similarly in Figure [2b] we see a constant increase
+in performance by cranking up D on our large dataset. Bigger networks contain
+more data and we need to keep a higher value for D to capture all of it. However
+beyond a certain limit (D = 500 for DBLP), this gain diminishes. We used the
+popular library m for both optimisation (f1, f2) implementations.
+
+ 
+
+ 
+
+4.2 Runtime and Scalability
+
+We conducted all our experiments on a single desktop PC with specifications:
+Intel Pentium G3220 processor and 8GB memory. Every neural network based
+algorithm (Deepwalk, LINE, Paragraph Vector) including ours, were scalable to
+handle the DBLP dataset. However for our text-only baseline tHidf we had to run
+mini-batch stochastic gradient descent for the classification task due to memory
+limitations. Unfortunately for the TADW algorithm, its matrix factorization
+based approach was not directly scalable to our DBLP dataset.

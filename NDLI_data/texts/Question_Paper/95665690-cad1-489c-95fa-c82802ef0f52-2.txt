@@ -1,0 +1,84 @@
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+
+What is event handling?
+
+Write down the properties of objects.
+
+(a)
+
+(b)
+
+(a)
+
+(b)
+
+(a)
+
+(b)
+
+(a)
+
+(b)
+
+SECTION B — (5 x 5 = 25)
+Answer ALL the questions.
+
+Explain the usage of paragraph tag.
+Or
+Describe the HTML generations.
+What are the tags used for text structuring
+in an HTML document?
+Or
+What are the uses of <meta> tags in the
+head section?
+Explain about the table creation in HTML.
+Or
+What are the four types of alignments?
+Explain.
+What are the two choices of values of method
+attribute? Describe.
+Or
+Explain the uses of submit button in HTML.
+
+15.
+
+16.
+
+17.
+
+18.
+
+19.
+
+20.
+
+(a) What are the data types supported by
+javascript? Give examples.
+
+Or
+(b) Describe applications of javascript.
+SECTION C — (8 x 10 = 30)
+Answer any THREE questions.
+
+Explain how to create a HTML page and run it.
+
+What are the two methods of formatting
+characters? Explain with examples.
+
+Design a web page of your favorite teacher,
+explaining his academic and personal facets and
+give suitable heading and horizontal rules. Design
+it in appropriate color.
+
+Write a note on radio button and check boxes.
+
+What are the javascript objects the events on that
+are for processing of an HTML form? Explain.

@@ -1,0 +1,15 @@
+Physical properties of graphene
+
+Graphene is an exciting material:
+*large theoretical specific surface area (2630 m2 g~! AND Recent
+report 3754 m?g~1+),
+* High intrinsic mobility (200 000 cm 2v-!s~71),
+* High Young’s modulus ( ~ 1.0 TPa)
+* Thermal conductivity (~ 5000 Wm ~-! K~-1),
+* Optical transmittance ( ~ 97.7%)
+
+* Good electrical conductivity capacity ~ 109 A/cm?:
+
+Massless Dirac Fermion quasiparticles, shows ballistic transport up to
+
+room temperature, mean free path ~1ym

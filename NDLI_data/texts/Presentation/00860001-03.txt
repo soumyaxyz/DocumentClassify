@@ -1,0 +1,19 @@
+Lecture 3
+The Best-fit Paradigm of FEA:
+
+Shadows of the Exact
+
+Chapters
+The Algebra of Vector Spaces and Projections.
+
+How the “Principle of Virtual Work” works to make
+FEA the best-fit.
+
+Real Examples: Simple one-dimensional elements.
+
+Consequence of the best-fit nature in FEA.
+
+Optimal points (Gauss’s and Prathap’s points) for exact
+
+strain recovery.
+3

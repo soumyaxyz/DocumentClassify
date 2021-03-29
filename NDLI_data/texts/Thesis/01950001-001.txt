@@ -1,0 +1,19 @@
+ON
+
+CTV MINIMIZATION
+
+IN
+
+SINGLE MACHINE SCHEDULING
+
+by
+
+D. K. Manna
+
+SQC & OR Unit
+
+Indian Statistical Institute
+110 Nelson Manickam Road
+Aminjikarai
+
+Madras 600 029

@@ -1,0 +1,14 @@
+ON IMAGE SEGMENTATION
+USING NEURAL NETWORKS AND
+FUZZY SETS
+
+ASHISH GHOSH
+Electronics and Communication Sciences Unit
+Indian Statistical Institute
+Calcutta
+
+A thesis submitted to the Indian Statistical Institute
+in partial fulfillment of the requirements for the degree of
+
+DOCTOR OF PHILOSOPHY
+1992

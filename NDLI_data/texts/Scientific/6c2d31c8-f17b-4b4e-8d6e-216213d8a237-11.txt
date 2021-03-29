@@ -1,0 +1,133 @@
+Olena Medelyan, Eibe Frank, and Ian H. Witten.
+2009. Human-competitive tagging using automatic
+keyphrase extraction. In Proceedings of the 2009
+Conference on Empirical Methods in Natural Lan-
+guage Processing, EMNLP 2009, 6-7 August 2009,
+Singapore, A meeting of SIGDAT, a Special Interest
+Group of the ACL, pages 1318-1327.
+
+Rui Meng, Sanqiang Zhao, Shuguang Han, Daqing
+He, Peter Brusilovsky, and Yu Chi. 2017. Deep
+keyphrase generation. In Proceedings of the 55th
+Annual Meeting of the Association for Computa-
+tional Linguistics, ACL 2017, Vancouver, Canada,
+July 30 - August 4, Volume 1: Long Papers, pages
+582-592.
+
+Rada Mihalcea and Paul Tarau. 2004. Textrank: Bring-
+ing order into text. In Proceedings of the 2004 Con-
+ference on Empirical Methods in Natural Language
+Processing , EMNLP 2004, A meeting of SIGDAT, a
+Special Interest Group of the ACL, held in conjunc-
+tion with ACL 2004, 25-26 July 2004, Barcelona,
+Spain, pages 404-411.
+
+Thuy Dung Nguyen and Min-Yen Kan. 2007a.
+Keyphrase extraction in scientific publications. In
+Asian Digital Libraries. Looking Back 10 Years
+and Forging New Frontiers, 10th International Con-
+ference on Asian Digital Libraries, ICADL 2007,
+Hanoi, Vietnam, December 10-13, 2007, Proceed-
+ings, pages 317-326.
+
+Thuy Dung Nguyen and Min-Yen Kan. 2007b.
+Keyphrase extraction in scientific publications. In
+Asian Digital Libraries. Looking Back 10 Years
+and Forging New Frontiers, 10th International Con-
+ference on Asian Digital Libraries, ICADL 2007,
+Hanoi, Vietnam, December 10-13, 2007, Proceed-
+ings, pages 317-326.
+
+Ramakanth Pasunuru and Mohit Bansal. 2017. Re-
+inforced video captioning with entailment rewards.
+In Proceedings of the 2017 Conference on Em-
+pirical Methods in Natural Language Processing,
+EMNLP 2017, Copenhagen, Denmark, September
+9-11, 2017, pages 979-985.
+
+Romain Paulus, Caiming Xiong, and Richard Socher.
+2018. A deep reinforced model for abstractive sum-
+marization. In International Conference on Learn-
+ing Representations (ICLR).
+
+Martin F. Porter. 2006. An algorithm for suffix strip-
+ping. Program, 40(3):211-218.
+
+Marc’ Aurelio Ranzato, Sumit Chopra, Michael Auli,
+and Wojciech Zaremba. 2015. Sequence level
+training with recurrent neural networks. CoRR,
+abs/1511.06732.
+
+Steven J. Rennie, Etienne Marcheret, Youssef Mroueh,
+Jarret Ross, and Vaibhava Goel. 2017. Self-critical
+sequence training for image captioning. In 20/7
+IEEE Conference on Computer Vision and Pattern
+Recognition, CVPR 2017, Honolulu, HI, USA, July
+21-26, 2017, pages 1179-1195.
+
+Abigail See, Peter J. Liu, and Christopher D. Manning.
+2017. Get to the point: Summarization with pointer-
+generator networks. In Proceedings of the 55th An-
+nual Meeting of the Association for Computational
+Linguistics, ACL 2017, Vancouver, Canada, July 30
+- August 4, Volume 1: Long Papers, pages 1073—
+1083.
+
+Richard S. Sutton and Andrew G. Barto. 1998. Re-
+inforcement learning - an introduction. Adaptive
+computation and machine learning. MIT Press.
+
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob
+Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz
+Kaiser, and Illia Polosukhin. 2017. Attention is all
+you need. In Advances in Neural Information Pro-
+cessing Systems 30: Annual Conference on Neural
+Information Processing Systems 2017, 4-9 Decem-
+ber 2017, Long Beach, CA, USA, pages 6000-6010.
+
+Xiaojun Wan and Jianguo Xiao. 2008. Single doc-
+ument keyphrase extraction using neighborhood
+knowledge. In Proceedings of the Twenty-Third
+AAAI Conference on Artificial Intelligence, AAAI
+2008, Chicago, Illinois, USA, July 13-17, 2008,
+pages 855-860.
+
+Li Wang, Junlin Yao, Yunzhe Tao, Li Zhong, Wei
+Liu, and Qiang Du. 2018. A reinforced topic-aware
+convolutional sequence-to-sequence model for ab-
+stractive text summarization. In Proceedings of the
+Twenty-Seventh International Joint Conference on
+Artificial Intelligence, IJCAI 2018, July 13-19, 2018,
+Stockholm, Sweden., pages 4453-4460.
+
+Lu Wang and Claire Cardie. 2013. Domain-
+independent abstract generation for focused meet-
+ing summarization. In Proceedings of the 51st An-
+nual Meeting of the Association for Computational
+Linguistics, ACL 2013, 4-9 August 2013, Sofia, Bul-
+garia, Volume 1; Long Papers, pages 1395-1405.
+
+Minmei Wang, Bo Zhao, and Yihua Huang. 2016.
+PTR: phrase-based topical ranking for automatic
+keyphrase extraction in scientific publications. In
+Neural Information Processing - 23rd International
+Conference, ICONIP 2016, Kyoto, Japan, October
+16-21, 2016, Proceedings, Part IV, pages 120-128.
+
+Yue Wang, Jing Li, Irwin King, Michael R Lyu, and
+Shuming Shi. 2019. Microblog hashtag genera-
+tion via encoding conversation contexts. CoRR,
+abs/1905.07584.
+
+Ronald J. Williams. 1992. Simple statistical gradient-
+following algorithms for connectionist reinforce-
+ment learning. Machine Learning, 8:229-256.
+
+Jan H. Witten, Gordon W. Paynter, Eibe Frank, Carl
+Gutwin, and Craig G. Nevill-Manning. 1999. KEA:
+practical automatic keyphrase extraction. In Pro-
+ceedings of the Fourth ACM conference on Digital
+Libraries, August 11-14, 1999, Berkeley, CA, USA,
+pages 254-255.
+
+2173

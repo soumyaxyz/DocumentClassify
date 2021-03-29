@@ -1,0 +1,37 @@
+Important Properties: expected
+v Higher operating temperatures
+v Higher neutron flux exposure
+v Highly corrosive environment
+
+v Longer life time (> 60 years)
+
+Factors for Selection:
+Y Stability under radiation
+v Swelling / growth
+
+Y Tensile properties at high
+Temperature
+
+v Fracture toughness
+¥Y Corrosion behavior
+
+  
+
+ 
+
+Common Alloys used
+F-M steels
+
+Zircaloy
+
+Austenitic stainless steels |
+Ni based super alloys
+Low Cr steels |
+
+Limitations
+High temperature instability
+
+Corrosion and radiation
+resistance insuficient
+
+Swelling

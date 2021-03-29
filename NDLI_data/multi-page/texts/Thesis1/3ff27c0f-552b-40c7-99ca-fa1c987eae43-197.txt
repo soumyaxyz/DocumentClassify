@@ -1,0 +1,67 @@
+185 The spectral triple by Chakraborty and Pal on SF as c>0
+
+Moreover, a(T) ( 0 ) =a(r) ( 3 ) =0.
+€0
+
+Thus, a(7) = Vins TPr ® rt art? + Vnd1TQn ® re it = Vend1T(Pa + Qn) ®
+
+ab tbe
+Tn-1"n
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Theorem 5.4.16. The *-homomorphism a is not a C* action.
+
+Proof : We begin with the observation that each of the C* algebras m4(S2 0) is
+nothing but the Toeplitz algebra. For example, consider C := m+4(S7 .). Clearly, T =
+a4.(B) in an invertible operator with the polar decomposition given by, T = 7|T|, hence
+7 belongs to C. Thus, C contains the Toeplitz algebra C*(7,), which by Proposition
+5.4.13 contains all compact operators. In particular, C*(7;) must contain 7,(A) as well
+as all the eigenprojections P,, of |7.(B)| so it must contain the whole of C. Similar
+arguments will work for n_(S?.).
+
+Thus, tT = 71 © 71 = 7(B)|7(B)|7! belongs to 7(S? .). If a is a C* action, then for
+an arbitrary state ¢ on QISO*(D) we must have ag(7) = (id @ $) 0 a(7) is in (97),
+hence ag(7)P; must belong to C = m4 (Sie)s where P, denotes the projection onto
+H+. By Proposition 5.4.13, this implies that [ag(r)P+,71] must be a compact operator.
+We claim that for suitably chosen ¢, this compactness condition is violated, which will
+complete the proof of the theorem.
+
+To this end, fix an irrational number 0 and consider the sequence A, = e27” of
+complex number of unit modulus. We note that the linear functionals which send the
+
+generator of C(Z2)( which is y ) to 1 and the generator of the n-th copy of C(T) ( which
+
+eh
+n-1
+
+Using Remark 1.1.6, we have a unital *-homomorphism ¢ : QISO*(D) = C(Z2) *
+or)”
+Sn Ant (Pn + Qn). Moreover, we see that
+
+[ag(r)Py7 ( ¢ )
+
+= (id@ ¢)a(r) ( ~~ ) — (id @ an te ) @rt_art*)
+
+= (An-1—An) ( “a2 ) ne.
+0
+0
+
+Similarly, [ag(7) P+, 71] o\_ (An-1—An)
+en En—-2
+
+cannot be compact since An — An—1 does not go to 0 as n > ov.
+
+is r*_rt* by Proposition 5.4.8 ) to A, are evaluation maps and hence homomorphisms.
+
+— C which extends the above mentioned homomorphisms. Hence, ag(T) =
+
+) . Hence, the above commutator

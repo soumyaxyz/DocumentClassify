@@ -1,0 +1,68 @@
+Event
+
+I T
+Festival Periodic Market
+
+i T T 1 i 1
+Food Festival Drinks Festival Music Festival ... Open Market Closed Market
+
+Fig. 10. Example class hierarchy for Event
+
+Table 1. Definitions for sub-class, sub-property, domain and range features in semantic schemata
+
+ 
+
+Feature Definition Condition Example
+SUBCLASS @-subc. of +@) @+type+© implies @-type+@  (City}-subc. of >
+SUBPROPERTY @-subp. of +@ @&+p+) implies @-9>+@ (venue) subp. of >
+Domain @-domain-+@ @-p-+@ implies @-type+© domain
+RANGE @—range—>© @&+p+@ implies G-type+@ (venue) —range—>
+
+Gee oe)
+= domain %
+
+subce. of subc. of subp. of subp. of subce. of subce. of
+
+(Fane) (Periodic Market ) Market — |-range—>{ City ) (City) (Venu)
+eG) _-~la
+
+Fig. 11. Example schema graph describing sub-classes, sub-properties, domains, and ranges
+
+ 
+
+ 
+
+    
+
+ 
+
+ 
+
+ 
+
+ 
+
+Semantic schema are typically defined for incomplete graph data, where the absence of an edge
+between two nodes, such as (Via del Mar}—flight rica), does not mean that the relation does not
+hold in the real world. Therefore, from the graph of Figure 1, we cannot assume that there is no
+flight between Vifia del Mar and Arica. In contrast, if the Closed World Assumption (CWA) were
+adopted — as is the case in many classical database systems — it would be assumed that the data
+graph is a complete description of the world, thus allowing to assert with certainty that no flight
+exists between the two cities. Systems that do not adopt the CWA are said to adopt the Open World
+Assumption (OWA). A consequence of CWA is that the addition of an edge to the data graph may
+contradict what was previously assumed to be false (due to missing information), whereas with
+OWA, a statement that is proven false continues to be false with the addition of more edges.
+
+Considering our running example, it would be unreasonable to assume that the tourism organi-
+sation has complete knowledge of everything describable in its knowledge graph. However, it is
+inconvenient if a system is unable to definitely answer “yes” or “no” to questions such as “is there
+a flight between Arica and Vira del Mar?”, especially when the organisation is certain that it has
+complete knowledge of the flights. A compromise between OWA and CWA is the Local Closed
+World Assumption (LCWA), where portions of the data graph are assumed to be complete.
+
+ 
+
+3.1.2 Validating schema. When graphs are used to represent diverse, incomplete data at large-scale,
+the OWA is the most appropriate choice for a default semantics. But in some scenarios, we may
+wish to guarantee that our data graph — or specific parts thereof — are in some sense “complete”.
+Returning to Figure 1, for example, we may wish to ensure that all events have at least a name, a

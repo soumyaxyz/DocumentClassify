@@ -1,0 +1,148 @@
+5. EXPERIMENTAL RESULTS
+
+We conducted experiments to verify the effectiveness of
+NERQ using WS-LDA. In this section, we first introduce
+the data sets used in experiments. Then we demonstrate
+the effectiveness of our approach in NERQ. Finally, we com-
+pare our method of NEQR using WS-LDA with two base-
+line methods, the deterministic approach proposed in [19],
+referred to as Determ, and conventional LDA (unsupervised
+learning), referred to as LDA. Note that although LDA is
+viewed as a baseline, there was no previous work on using
+LDA in NERQ. In the experiments \ was set to 1 by default.
+
+5.1 Data Set
+
+We made use of a real data set consisting of over 6 billion
+queries, in which the number of unique queries is 930 million.
+The queries were randomly sampled from the query log of a
+commercial web search engine.
+
+Four semantic classes were considered in our experiments,
+including “Movie”, “Game”, “Book”, and “Music”. Based on
+these classes, 180 named entities were selected from the web
+sites of Amazon, GameSpot, and Lyrics. Four human anno-
+tators labeled the classes of the named entities. If there was
+a disagreement among the annotators, we took a majority
+voting. Multiple classes can be assigned to one named en-
+tity. The annotated data was further divided into a training
+set containing 120 named entities and a test set containing
+60 named entities.
+
+The data set has the following characteristics. First, the
+overlap ratios between classes vary according to class pairs,
+e.g. the “Movie” and “Game” classes as well as the “Movie”
+and “Book” classes have higher overlap ratios (> 20%). It
+seems natural because a movie is often adapted from a book
+with the same title, or a game is often inspired by a movie
+and named after the movie. Second, the selected classes
+differ from one another in terms of frequency in query log,
+e.g. named entities in “Movie” and “Game” classes occur
+more frequently than in “Book” and “Music” classes.
+
+Starting from the 120 seed named entities, we trained a
+WS-LDA model for conducting NERQ. Specifically, we ex-
+tracted all the possible contexts of seed named entities, and
+created a WS-LDA model as described in Sections 3 and 4.
+Finally we obtained 432,304 contexts and indexed about 1.5
+million named entities.
+
+5.2 NERQ by WS-LDA
+
+We conducted NERQ on queries from a separate query
+log, which consists of about 12 million unique queries, and
+obtained about 0.14 million recognition results. We ran-
+domly sampled 400 queries from the recognition results for
+evaluation. Table 2 gives some examples from the data set
+and Table 3 shows the number of queries in the data set
+grouped by the predicted classes of named entities.
+
+Each recognition result was then manually labeled as “cor-
+rect” or “incorrect”. A result is viewed as correct if and only
+if both the detection and classification of the named entity
+are correct. The performance of NERQ is evaluated in terms
+of top N accuracy. “Top N accuracy” here is defined in the
+following way: an algorithm output will be considered “cor-
+rect” if at least one of top N results is labeled as “correct”.
+
+Fig. 1 shows the accuracy of our NERQ method in terms
+of top N accuracy. “Overall” stands for the average perfor-
+mance of NERQ over all classes. From Fig. 1 we can see
+that the overall top 1 accuracy is 81.75% which is reason-
+ably good. When we consider the top 3 results, we can even
+
+Table 2: Example Queries
+pics of fight club braveheart quote
+watch gladiator online american beauty company
+12 angry men characters mario kart guide
+pe mass effect crysis mods
+mother teresa images condemned screenshots
+4 minutes lyric king kong
+the black swan summary blackwater novel
+new moon rehab the song
+nineteen minutes synopsis umbrella chords
+all summer long video girlfriend lyrics
+
+  
+
+Table 3: Statistics on Sampled Recognition Results
+Movie | Game | Book | Music
+Num. of queries lil 108 82
+
+ 
+
+ 
+
+ 
+
+make the overall accuracy reach 97.5%. Fig. 1 also shows
+the performances of NERQ in different classes. From the re-
+sults we can see that our method of NERQ using WS-LDA
+is effective in each class.
+
+We further made error analysis on our NERQ results.
+There were mainly three types of errors. (1) Errors were
+mainly caused by inaccurate estimation of Pr(e). It seems
+that the current way of estimating Pr(e) has certain bias,
+which prefers the segmentation with a shorter named entity.
+We may reduce such kind of errors by employing a better
+estimation method. (2) Some contexts were not learned in
+our approach since they are uncommon. For example, in
+the query “lyrics for forever by chris brown”, “forever by
+chris brown” was recognized as a “Music” named entity and
+“lyrics for #” the context. Ideally, “forever” should be recog-
+nized as named entity of “Music”, and “lyrics for # by chris
+brown” as context. However, since the context “lyrics for #
+by chris brown” is quite specific, it was not covered by our
+learning method. Some of such errors may be eliminated by
+using more seed named entities. (3) Some queries contained
+the named entity out of predefined classes. For example, in
+query “american beauty company”, “american beauty” was
+incorrectly recognized as a movie name. Since “american
+beauty” was indexed as a movie name and “# company”
+was as a common context, our NERQ system may occasion-
+ally make such kind of errors. We may reduce them when
+we utilize more classes.
+
+5.3. WS-LDA vs. Baselines
+
+We performed experiments to make comparison between
+the WS-LDA approach and two baseline methods: Determ
+and LDA. Note that the main difference of these approaches
+lies in different assumptions and ways for modeling the re-
+lationship between named entity, context, and class.
+
+Determ learns the contexts of a certain class by simply ag-
+gregating all the contexts of named entities belonging to that
+class. It can perform very well when a named entity only be-
+longs to a single class. In contrast, LDA and WS-LDA take
+a probabilistic approach and handle the ambiguity of named
+entities. However, LDA is based on unsupervised learning,
+and thus cannot ensure the alignment between latent classes
+and predefined classes.
+
+5.3.1 Modeling Contexts of Class
+
+We first compared the learning of contexts of each class
+between WS-LDA and two baselines. Table 4 shows the top
+ranked contexts of each class according to Pr(t|c) generated

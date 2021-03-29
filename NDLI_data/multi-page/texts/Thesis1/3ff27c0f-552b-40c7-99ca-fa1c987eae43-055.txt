@@ -1,0 +1,54 @@
+43 Classical Riemannian geometry
+
+ 
+
+1.4 Classical Riemannian geometry
+
+In this section we recall some classical facts regarding manifolds which will be useful to
+
+us later on.
+
+1.4.1 Classical Hilbert space of forms
+
+Let M be an n dimensional Riemannian manifold and Q*(M) ( k = 0,1,2,...n ) be
+the space of smooth k-forms. Set *(M) = {0} for k > n. The de-Rham differential
+d maps 2*(M) to Q*+1(M). Let 2 = Q(M) = &,0*(M). We will denote the Rieman-
+nian volume element by dvol. We recall that the Hilbert space L?(M) is obtained by
+completing the space {f € C2°(M)} with respect to the pre-inner product given by
+(fis f2) = Sry fifedvol.
+
+In an analogous way, one can construct a canonical Hilbert space of forms. The
+Riemannian metric (. , .),,, ( for m in M ) on T;,M induces an inner product on the
+vector space T*,M and hence also A*T* M, which will be again denoted by (., .),,-
+This gives a natural pre-inner product on the space of compactly supported k-forms by
+integrating the compactly supported smooth function m ++ (w(m),7(m)),,, over M. We
+will denote the completion of this space by H*(M). Let H = @-H*"(M).
+
+Then, one can view d : 2 — Q as an unbounded, densely defined operator ( again
+denoted by d ) on the Hilbert space H with the domain . It can be verified that it is
+
+closable.
+
+1.4.2 Isometry groups of classical manifolds
+
+Let M be a Riemannian manifold of dimension n. Then the collection of all isometries of
+M has a natural group structure and is denoted by [SO(M). Let C and U be respectively
+a compact and open subset of M and let W(C,U) = {h € ISO(M) : h.C C U}. The
+compact open topology on 1SO(M) is the smallest topology on [SO(M) for which the
+sets W(C,U) are open. It follows ( see [34] ) that under this topology, [SO(M) is a
+closed locally compact topological group. Moreover, if M is compact, [SO(M) is also
+compact.
+
+We recall that the Laplacian £ on M is an unbounded densely defined self adjoint
+operator —d*d on the space of zero forms H°(D) = L?(M,dvol) which has the local
+
+expression
+
+c(h) = o Vat ef)
+
+1 “8
+Vdet(g) & Ou;
+
+for f in C%°(M) and where g = ((gij)) is the Riemannian metric and g~! = ((g’)).
+
+It is well known that on a compact manifold, the Laplacian has compact resolvents.

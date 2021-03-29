@@ -1,0 +1,43 @@
+10. Conclusions and Future Work
+
+ 
+
+variation is observed not only in terms of the aspects underlying a query in differ-
+ent verticals, but also in terms of the likelihood of these different aspects. With
+the prevalence of aggregated search interfaces in modern web search (Murdock &
+Lalmas, 2008; Diaz et al., 2010), an open question faced by web search engines is
+how to tackle query ambiguity across multiple search verticals.
+
+In this vein, we have proposed an extension of xQuAD to tackle the aggregated
+search result diversification problem (Santos et al., 2011a). Following the greedy
+approach in Algorithm 3.1, given a query g and an initial ranking R,, comprising
+search results from multiple verticals ) € © triggered by this query, and a set Dy C
+R, with the search results selected in the previous iterations of the algorithm, we
+
+defined the ranking objective of xQuAD%% as follows:
+
+Jquanvon (4; 4, Dy) = Y> p(d|q) [(1 — dv) pl(dlg, 8) + Av r(d, Dyyola,)], (10.1)
+veo
+
+where p(#|q) is the probability of selecting the vertical 0 for the query qg, while
+p(d\q,0) and p(d,Dgjolq, 0) are vertical-specific instantiations of xQuAD’s rele-
+vance and diversity probabilities in Equation (4.1). Accordingly, A» is the vertical-
+specific diversification trade-off, denoting the expected ambiguity of the query q
+in the scope of the vertical ¥. Besides open questions regarding the estimation of
+the various components that emerge from this extended formulation (i.e., vertical-
+specific sub-query generation, coverage, and novelty), an interesting modelling
+question also arises. In particular, the extended formulation in Equation (10.1)
+takes a local approach, by diversifying the search results within each vertical,
+and then aggregating the rankings produced from the various verticals. As a
+result, redundancy is penalised only within each vertical, but not across different
+verticals. In practice, we assume that similar search results of the same type
+(e.g., two videos about the same event) may be redundant, but similar results
+of different types (e.g., a video and a news story covering the same event) may
+be actually complementary. Another plausible formulation could take a global
+approach, namely, by aggregating the search results from multiple verticals first,
+and only then performing a diversification. Given the lack of a shared test collec-
+tion for aggregated search evaluation, the empirical validation of these proposed
+
+complementary approaches is also left as an open direction for investigation.
+
+218

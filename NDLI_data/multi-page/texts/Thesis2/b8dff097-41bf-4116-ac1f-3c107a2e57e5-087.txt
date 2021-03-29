@@ -1,0 +1,45 @@
+8.4. EXAMPLES OF NONREAL ELEMENTS 75
+
+We proceed to construct an example of the situation required in Proposition 8.2.14.
+
+Proposition 8.4.2. Let k be a number field. There exist octonion algebras € over
+
+k such that not every (semisimple) element in Aut(€) is real.
+
+Proof. We use Proposition 8.2.14 here. Let L be a quadratic field extension of
+k. Let F be a degree three cyclic extension of k. Then we have E = F.L, a degree
+three cyclic extension of L. We denote the extension of the nontrivial automorphism
+of L over k to E over L by a, which is the identity automorphism when restricted to
+F. Sometimes we write £ = o(x) for  € E. Let us consider E as a vector space over
+
+L. We consider the trace hermitian form on F defined as follows:
+
+tr: Ex E — L
+tr(z,y) = treyz(ay).
+
+The restriction of this form to F is the trace form tr: F x F — k, given by tr(a, y) =
+trry/r(xy). We choose an orthogonal basis of F' over k, say {f1, fo, fs}, with respect
+to the trace form, and extend it to a basis of E/L. Then the bilinear form tr with
+respect to this basis has diagonalization < 1,2,2 > ([KMRT], Section 18.31). We
+have disc(tr) = 4 € Nzj,(L*). Hence (£,tr) is a rank 3 hermitian space over L with
+trivial discriminant and SU(L,tr) is isomorphic to SU(H) where H = diag(1, 2, 2).
+We choose an element 1 4 a € T? — Lt, where T! = {a € E | e% = 1, Ngyz(x) = 1}.
+
+Let us consider the left homothety map,
+
+lL: & — £E
+la(z) = ax
+
+Since a € T!—L!, the characteristic polynomial y(X) of I, is the minimal polynomial
+of a over L, which is irreducible of degree 3 over L. Next we prove that |, € SU(E,tr).
+
+This is so since,
+tr(la(2); aly) = tr(ar, ay) = trys (avai) = trey (x9) = tr(x,y).
+
+Let S = (s;;) denote the matrix of 1, with respect to the chosen basis {f1, f2, f3} of
+F over k. Then the matrix of I; is 5 = (s;;). Also, since aa = 1, we have $9 = 1.
+Thus we have a matrix S in SU(#), for H =< 1,2,2 >, satisfying the conditions of
+Proposition 8.2.14.
+
+Now, let L = k(y) with 7? = c € k*. We write Q =k @®F. Since (F,tr) isa
+quadratic space with trivial discriminant, we can define a quaternionic multiplication

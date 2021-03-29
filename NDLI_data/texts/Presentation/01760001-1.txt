@@ -1,0 +1,25 @@
+Physical Sciences
+
+Quantum walks of spatially extended path-entangled photons and dynamics
+of non-classical light in Glauber Fock photonic lattices
+
+Amit Rai
+
+Department of Physics and Astronomy, National Institute of Technology, Rourkela-769008,
+Odisha, India.
+“E-mail: raia@nitrkl.ac.in
+
+Keywords: Waveguides, optics, Quantum walk
+
+Abstract
+
+In this work we study the dynamics of squeezed states of light in Glauber-Fock
+photonic lattices. The behaviour of squeezing is investigated for different transverse positions
+of the squeezed state input. Our results show the revival and transfer of squeezing across the
+waveguide array. We also analyse the quantum walk of correlated and anti-correlated path-
+entangled photon states by studying the evolution of the coincidence rate at the output of the
+waveguide. We consider both the cases of small and large size lattice. In the case of a large
+lattice, we found that because of the quantum interference effect the dynamics of a separable
+state is significantly different in comparison to the path-entangled input states. For the case of
+
+small size lattice, we show the revival of the path-entangled input state.

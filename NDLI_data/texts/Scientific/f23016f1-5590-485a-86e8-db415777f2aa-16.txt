@@ -1,0 +1,73 @@
+compare against only MINERVA. On FB15k-237, which is a smaller version of FB15k with 237
+relations, MINERVA reports HITS @ 1 of 0.217 (table 4 in [Das et al., 2018]) whereas our underlying
+model Type-Distmult reports significantly higher HITS @ 1 of 0.293 (table 3 in [Jain et al., 2018]).
+[Das et al., 2018] doesn’t report performance of MINERVA on full FB15K, though their code is
+publicly available. In our preliminary experiments, we trained their code on FB15K using the same
+hyperparameters as that for FB15K-237 provided by the authors and we achieved HITS @ 1 of only
+0.25 and upon optimizing it further, we could reach only 0.29. On the other hand, [Jain et al., 2018]
+reports HITS @1 of 0.66 for the Type-Distmult TF model used in our experiments.
+
+A.2 Pedagogical Approach
+
+The approach as mentioned in [Gusmao et al., 2018] does not scale to the size of FB15K dataset.
+They perform their experiments on a toy FB13 dataset where they use only 13 relations of the entire
+FB15K dataset. We tried their methodology on FB15K but memory and storage requirements where
+intractable. According to our calculations, it would take 25 TB of storage and 20 days of compute,
+using the available code on an available system with 256 GB of RAM and 40 Intel(R) Xeon(R) CPU
+@ 2.80GHz cores.
+
+A.3 Template Features
+
+Table 7 enumerates the template features used as input to the Selection Module.
+
+ 
+
+ 
+
+ 
+
+ 
+
+lobal Features for a query 1(s, ? rediction specific features for r(s, 0
+Global Feat fe ae Predict fic feat fe y
+max score max T9(s,7,u) score T(s,7, 0)
+istr. mean mean T9(s,r,u similari simy | 0,argmax TS (s,r,u
+dist TF (syn; larit M | 0, arg TP (8,7,
+ucE ucE
+distr. std std T9(s,r, u) rank rank, T(s,7, u)
+ucE ucE
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Table 7: Input Features for a prediction r(s,0) from i” template Ti
+
+A.4 Architecture of Selection Module
+
+We use a two layer MLP with 90 and 40 neurons in two hidden layers as our model for the selection
+module. We imitate the Multi-Instance Learning setting, where the same model is used to output
+scores for each template T7. Finally, we take a softmax over all these scores, to return a probability
+distribution over the space of templates, and select the one with maximum probability as our best
+explanation template. Figure 1 shows the overall architecture.
+
+A.5 Experiment Details
+
+Hyperparameters: We use SGD optimizer, with a learning rate of 0.001, momentum of 0.9 and a
+batch size of 2048 for all our experiments. Table 8 states the hyper parameters used for each setting.
+
+Computing Infrastructure and Time Analysis: For generating feature vectors corresponding to
+each template, we used a machine with 16 Intel(R) Xeon(R) W-2145 CPU @ 3.70GHz cores and 128
+GB of RAM. No GPU memory was required. It required about 5 hours to preprocess and generate
+
+16

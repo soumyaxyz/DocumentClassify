@@ -1,0 +1,14 @@
+Key Purpose of Using IT in Business
+
+Departmental IT applications
+— Payroll processing applications
+Online Transaction Processing Systems
+— Train/Air reservation application
+Business Process/Model Innovation
+— Amazon book store
+— The ability to transfer money across the globe to any bank account from home
+is a new innovation
+Decision Support Systems
+— Example: A system that supports a user’s decision of buying a vehicle by
+providing a range of options to choose from based on the users specified input
+of budget, mileage, speed, etc.

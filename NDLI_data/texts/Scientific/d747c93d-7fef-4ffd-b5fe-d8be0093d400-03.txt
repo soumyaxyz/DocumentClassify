@@ -1,0 +1,113 @@
+didates with heuristic methods. As these candi-
+dates are prepared for further filtering, a consid-
+erable number of candidates are produced in this
+step to increase the possibility that most of the
+correct keyphrases are kept. The primary ways
+of extracting candidates include retaining word se-
+quences that match certain part-of-speech tag pat-
+terns (e.g., nouns, adjectives) (Liu et al., 2011;
+Wang et al., 2016; Le et al., 2016), and extracting
+important n-grams or noun phrases (Hulth, 2003;
+Medelyan et al., 2008).
+
+The second step is to score each candidate
+phrase for its likelihood of being a keyphrase in the
+given document. The top-ranked candidates are
+returned as keyphrases. Both supervised and un-
+supervised machine learning methods are widely
+employed here. For supervised methods, this task
+is solved as a binary classification problem, and
+various types of learning methods and features
+have been explored (Frank et al., 1999; Witten
+et al., 1999; Hulth, 2003; Medelyan et al., 2009b;
+Lopez and Romary, 2010; Gollapalli and Caragea,
+2014). As for unsupervised approaches, primary
+ideas include finding the central nodes in text
+graph (Mihalcea and Tarau, 2004; Grineva et al.,
+2009), detecting representative phrases from topi-
+cal clusters (Liu et al., 2009, 2010), and so on.
+
+Aside from the commonly adopted two-step
+process, another two previous studies realized the
+keyphrase extraction in entirely different ways.
+Tomokiyo and Hurst (2003) applied two language
+models to measure the phraseness and informa-
+tiveness of phrases. Liu et al. (2011) share the
+most similar ideas to our work. They used a word
+alignment model, which learns a translation from
+the documents to the keyphrases. This approach
+alleviates the problem of vocabulary gaps between
+source and target to a certain degree. However,
+this translation model is unable to handle seman-
+tic meaning. Additionally, this model was trained
+with the target of title/summary to enlarge the
+number of training samples, which may diverge
+from the real objective of generating keyphrases.
+
+Zhang et al. (2016) proposed a joint-layer recur-
+rent neural network model to extract keyphrases
+from tweets, which is another application of deep
+neural networks in the context of keyphrase ex-
+traction. However, their work focused on se-
+quence labeling, and is therefore not able to pre-
+dict absent keyphrases.
+
+2.2 Encoder-Decoder Model
+
+The RNN Encoder-Decoder model (which is also
+referred as sequence-to-sequence Learning) is an
+end-to-end approach. It was first introduced by
+Cho et al. (2014) and Sutskever et al. (2014) to
+solve translation problems. As it provides a pow-
+erful tool for modeling variable-length sequences
+in an end-to-end fashion, it fits many natural lan-
+guage processing tasks and can rapidly achieve
+great successes (Rush et al., 2015; Vinyals et al.,
+2015; Serban et al., 2016).
+
+Different strategies have been explored to im-
+prove the performance of the Encoder-Decoder
+model. The attention mechanism (Bahdanatu et al.,
+2014) is a soft alignment approach that allows the
+model to automatically locate the relevant input
+components. In order to make use of the impor-
+tant information in the source text, some stud-
+ies sought ways to copy certain parts of content
+from the source text and paste them into the target
+text (Allamanis et al., 2016; Gu et al., 2016; Zeng
+et al., 2016). A discrepancy exists between the
+optimizing objective during training and the met-
+rics during evaluation. A few studies attempted
+to eliminate this discrepancy by incorporating
+new training algorithms (Marc’ Aurelio Ranzato
+et al., 2016) or by modifying the optimizing ob-
+jJectives (Shen et al., 2016).
+
+3 Methodology
+
+This section will introduce our proposed deep
+keyphrase generation method in detail. First,
+the task of keyphrase generation is defined, fol-
+lowed by an overview of how we apply the RNN
+Encoder-Decoder model. Details of the frame-
+work as well as the copying mechanism will be
+introduced in Sections 3.3 and 3.4.
+
+3.1 Problem Definition
+
+Given a keyphrase dataset that consists of N
+data samples, the i-th data sample (x), p“)
+contains one source text x), and M;,_ tar-
+get keyphrases p = (p@), p42)... p@Mb),
+Both the source text x and keyphrase p“) are
+sequences of words:
+
+)_ 7M of PAC)
+x) =) af pero EL,
+x
+
+ped = yf, yD, yl
+th
+
+Lyi) and Ly¢.5) denotes the length of word se-
+quence of x and p‘s) respectively.

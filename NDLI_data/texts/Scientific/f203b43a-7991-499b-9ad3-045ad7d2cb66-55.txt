@@ -1,0 +1,88 @@
+EIRINI PAPAGIANNOPOULOU AND GRIGORIOS TSOUMAKAS 55
+
+ 
+
+A | QUALITATIVE RESULTS
+
+We give an example where the partial match evaluation can be considered as harmful compared to the strict exact
+match evaluation. The results are based on the output of the MR method. Once again, we quote the publication’s title
+
+and abstract below in order to get a sense of its content:
+
+ 
+
+Title: Programming and Verifying Real-Time Systems by Means of the Synchronous Data-Flow Language LUSTRE.
+Abstract: The benefits of using a synchronous data-flow language for programming critical real-time systems are
+investigated. These benefits concern ergonomy (since the dataflow approach meets traditional description tools
+used in this domain) and ability to support formal design and verification methods. It is shown, using a simple ex-
+ample, how the language LUSTRE and its associated verification tool LESAR, can be used to design a program, to
+specify its critical properties, and to verify these properties. As the language LUSTRE and its uses have already
+
+been discussed in several papers, emphasis is put on program verification.
+
+ 
+
+ 
+
+ 
+
+The corresponding set of the “gold” keyphrases are: {sampling, matrix algorithms, low-rank approximation}. For eval-
+uation purposes, we transform the set of “gold” keyphrases into the following one (after stemming and removal of
+punctuation marks, such as dashes and hyphens):
+
+{(samp!/), (matrix, algorithm), (lowrank, approxim)}
+
+The MR’s result set is given in the first box below, followed by its stemmed version in the second box. The words
+
+that are both in the golden set and in the set of our candidates are highlighted with bold typeface:
+
+ 
+
+{low-rank approximations, algorithm, singular vectors, rows, lemma, assumption a1, entries, problem,
+
+modern applications, matrix}
+
+ 
+
+ 
+
+{(lowrank, approxim), (algorithm), (singular, vectort), (row), (lemma), (assumpt, a1), (entri), (problem),
+
+(modern, applic), (matrix)}
+
+ 
+
+ 
+
+ 
+
+According to the exact match evaluation, the top-10 returned candidate keyphrases by MR include 1 True Positive
+(TP), the bigram phrase low-rank approximations, 9 False Positives (FPs) and 2 False Negatives (FNs). We should notice
+that this example belongs to the less usual case where the exact match evaluation is close to the manual evaluation,
+ie.,in a right direction, indicating the actual success rate of the method. Hence, precision = 0.10, recall = 0.33, F; = 0.15
+
+However, partial match evaluation approach uses the stemmed set of words found in all golden keyphrases, i.e.:
+
+{(samp!/), (matrix), (algorithm), (lowrank), (approxim)}
+and the set of words found in all extracted keyphrases by MR, i.e.:
+
+ 
+
+{(lowrank), (approxim), (algorithm), (singular), (vector), (row), (lemma), (assumpt), (a1), (entri), (problem),
+(modern), (appli), (matrix)}
+
+ 
+
+ 
+
+ 
+
+According to the partial match evaluation, the top-10 returned candidate keyphrases by MR include 4 TPs, lowrank,
+approxim, algorithm and matrix, 10 FPs and 1 FNs. Hence, precision = 0.29, recall = 0.80, F; = 0.42
+
+Despite the fact that the partial match evaluation gives F;-scores closer to the manual ones, we see here that the
+F,-score based on the partial match evaluation is quite far from the actual performance of the method on the specific
+document. Particularly, the partial match strategy fails to evaluate the syntactic correctness of the returned phrases
+algorithm and matrix, which have very general meaning when they returned as unigrams by MR compared to the bigram
+
+gold keyphrase matrix algorithm.

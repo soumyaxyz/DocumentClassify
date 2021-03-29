@@ -1,0 +1,51 @@
+47 Noncommutative Geometry
+
+ 
+
+the volume form of the manifold can be recovered by the formula
+
+Tr( Met”
+be fdvol = di 0
+
+where dimM =n, c(n) is a constant depending on the dimension.
+
+1.5 Noncommutative Geometry
+
+In this section, we recall those basic concepts of noncommutative geometry which we
+
+are going to need. We refer to [17], [40], [22] for more details.
+
+1.5.1 Spectral triples
+
+Motivated by the facts in Proposition 1.4.5, Alain Connes defined his formulation of
+
+noncommutative manifold based on the idea of a spectral triple:
+
+Definition 1.5.1. A spectral triple or spectral data is a triple (A~,H, D) where H
+is a separable Hilbert space, A® is a* subalgebra of B(H), ( not necessarily norm closed
+) and D is a self adjoint ( typically unbounded ) operator such that for all a in A®,
+the operator [D,a] has a bounded extension. Such a spectral triple is also called an odd
+spectral triple. If in addition, we have y in B(H) satisfying y = y* = y~!, Dy = —yD
+and [a, y| = 0 for alla in A™, then we say that the quadruplet (A~,H,D,7) is an even
+spectral triple. The operator D is called the Dirac operator corresponding to the spectral
+
+triple.
+
+Furthermore, given an abstract *-algebra B, an odd ( even ) spectral triple on B is
+an odd ( even ) spectral triple ( 7(B),H,D ) ( respectively, ( 7(B),H,D,y7 ) ) where
+a: B — B(H) is a x-homomorphism.
+
+Since in the classical case, the Dirac operator has compact resolvent if the manifold
+is compact, we say that the spectral triple is of compact type if A® is unital and D
+
+has compact resolvent.
+
+Definition 1.5.2. We say that two spectral triples (™(A),H1, D1 ) and (79(A), H2, Do
+) are said to be unitarily equivalent if there is a unitary operator U : Hy + Hz such
+that Dz = UD,U* and 7(.) = Um (.)U* where 1;,j =1,2 are the representations of A
+
+in Hj, respectively.
+
+Next, we will give two examples of spectral triples in classical geometry and a non-
+
+classical example. We will give more examples in chapters 3 and 5.

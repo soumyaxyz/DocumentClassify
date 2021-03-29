@@ -1,0 +1,57 @@
+Chapter 3: Quantum group of orientation preserving Riemannian isometries 102
+
+ 
+
+The vectors e; = (1, 0) and eg = (0, 1) form an orthonormal basis of the eigenspace
+corresponding to the eigenvalue zero.
+
+The Laplacian in the sense of chapter 2 exists in this case, and is given by
+L(U™V") = —(m? + n?)U™V™. We recall that we denote the quantum isometry group
+from the Laplacian L in the sense of [30] by QISO*?.
+
+Lemma 3.4.13. Let (9, W) be an object of Q’(D). Then the x-homomorphism a = aw
+
+must be of the following form:
+
+a(U) =U x, (3.4.22)
+a(V) =V®xz, (3.4.23)
+where 21,22 are two commuting unitaries.
+
+Proof: We denote the the maximal Woronowicz C* subalgebra of O which acts on
+C(T?) faithfully by Q.
+
+We observe that D?(ae;) = L(a)e; for i = 1,2. Now, W commutes with D implies
+that W commutes with D? as well. Using this, we can show that (£ @ id)a(a)e; =
+aL(a)e;, i= 1,2. As the pair {e1, e9} is together separating for C(T?), we conclude that
+a commutes with the Laplacian £. Therefore, Q is a quantum subgroup of QI SOF,
+From Theorem 2.2.17, we conclude that QISO£” = C(T? ><(Z2 ><1Z2)). Thus Q must
+be of the form C(G) for a classical subgroup G of the orientation preserving isometry
+group of T?, which is T? itself and whose (co )action is given by U + U @U an
+ViVev.
+
+ 
+
+ 
+
+ 
+
+ 
+
+—~—+
+Theorem 3.4.14. The universal CQG QISO (C%(T?),H, D) exists and is isomorphic
+with C(T?) * C(T) = C*(Z? * Z) (as a CQG). Moreover, QISO* of this spectral triple
+is isomorphic with C(T?).
+
+Proof: Let (Q, W) be an object in Q’(D) as in Lemma 3.4.13. Since {e), e2} is an
+
+orthonormal basis for an eigenspace of D, we must have
+
+W(e1) =€1 @q1 + €2 @ MH, (3.4.24)
+
+ 
+
+W (e2) = e1 @ qai + €2 @ gna, (3.4.25)
+
+for some qj in Q.
+
+We now make use of the equation (D @ id)W (Ue; © 1) = W(D@ id)(Ue; ® 1). Let

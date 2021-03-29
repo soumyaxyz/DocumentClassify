@@ -1,0 +1,50 @@
+7.5. SYMPLECTIC GROUPS 55
+
+s € Sp(4,k) such that s? = —1. Hence a semisimple element of PSp(4,k) is real if
+and only if it is strongly real in PSp(4, k).
+
+-1 -1 _ _
+Proof. Let J = diag (( : 7 ; ( : 4 )). Then Sp(4,k) = {A € GL(4,k) |
+
+AJA = J}. We first assume t is conjugate to t-!. We may assume t = diag(\, A71, uw, 71).
+
+We let
+0 -1 0 -1 =
+= di ; € Sp(4,k).
+
+Then g? = —1 and gtg"! =t7!.
+Now let ¢ be conjugate to —t~!. Then we may assume ¢ = diag(\, A7?, —A, —A7?).
+
+ 
+
+0 0 0-1
+0 0 1 0 ee 4
+Let g = éa00l Then g belongs to Sp(4,k) with g* = —1 and gtg™t =
+1 0 0 0
+tt.
+
+ 
+
+ 
+
+ 
+
+Theorem 7.5.3. Let t € Sp(2n,k) be a semisimple element. Suppose t is either
+conjugate to t-' or —t~'. Then the conjugation can be achieved by an element s €
+Sp(2n,k) such that s? = —1. Hence a semisimple element of PSip(2n,k) is real if
+and only if it is strongly real in PSp(2n,k).
+
+Proof. First we consider semisimple elements in Sp(2n,k). Let t € Sp(2n,k) be
+semisimple with t conjugate to t~!. Then t can be conjugated to diag(A;, \y',..., An; An?)
+and this diagonal element can be conjugated to its inverse by s = diag(N,...,N)
+
+——
+
+—1
+where N = ( : i ) . Clearly s? = —1. A conjugate of s then does the job.
+
+Now let us assume t is conjugate to —t~! in Sp(2n,k). Then t can be conjugated
+
+to
+
+diag(Ar,Ap*,—An, —AP Aes Apt Ae A Ms Mays Mess Hy)

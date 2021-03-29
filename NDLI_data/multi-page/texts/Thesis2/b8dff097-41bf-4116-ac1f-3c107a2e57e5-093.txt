@@ -1,0 +1,64 @@
+8.5. CENTRALIZERS IN ANISOTROPIC G2 81
+
+subalgebra of € fixed pointwise (Lemma 8.1.3). We denote the subalgebra of fixed
+points of t by C= {x € €| t(x) =a}.
+
+Proposition 8.5.1. Let G be an anisotropic group of type Gy over k. Let € be
+the octonion division algebra over k such that G = Aut(€). Lett € G. Then € is a
+composition subalgebra of € and the centralizer Z(t) C G(€, €').
+
+Proof. The subalgebra €* C € is a composition subalgebra as € is division. Let
+g € Z(t). Then,
+t(g(z)) = g(a), Vee
+Hence g(x) € €', Vx € €'. This shows that g € G(€, €') and Ze(t) c G(€, €’).
+
+ 
+
+ 
+
+ 
+
+ 
+
+We note that t restricted to Co, trace zero space of €, is an element of special orthog-
+onal group of an odd dimensional space ({SV], Proposition 2.2.2), hence t has a fixed
+point in €9 by Cartan-Dieudonne theorem. This implies that the dimension of €° is
+> 2. As the dimension of a composition subalgebra can be 2, 4 or 8 the subalgebra ¢*
+is either a quadratic field extension of k, a quaternion subalgebra or t = J. Hence we
+need to calculate centralizers of elements which are contained in a subgroup G(€/L)
+where L is a quadratic field extension or G(€/Q) where Q is a quaternion subalgebra.
+
+Let Q be a quaternion subalgebra of the octonion division algebra €, hence Q
+itself is division.
+
+Lemma 8.5.2. Let € be an octonion division algebra and G = Aut(€). Let Q
+be a quaternion subalgebra of €. Let t = R, € G(C/Q) for some p € SLi(Q) with
+p&ék. Then Z(t) = {Rp Te, € G(E,Q) | pic: € L} where L = k(p), a quadratic
+field extension of k.
+
+Proof. We have t = ®, € G(€/Q) with p ¢ k. We write € = Q © Qb for some
+b € Qt. Then t(x + yb) = x + (py)b. From Proposition 8.5.1 we get, Zq(t) C
+G(E€, Q) = {Rp Te. | pr € SLi(Q),c1 € Q*}. Let g € Z(t) and let g = Ry, F.,. Then
+
+gt =tg > Ky, Te, Ry = RyRy, Jo, > MR
+
+-1
+P1CipCy
+
+Je = Rov. Jer
+
+and we get, picip = ppici, ie., pic © Zq(p) = L where L = k(p) is a quadratic fiel
+extension of k. Hence Z(t) = {Rp,3., | pic: € Lic € Q*, pr € SLi(Q)}.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Now we consider conjugacy classes of centralizers of these elements in G.
+
+Lemma 8.5.3. Let t,t! € G = Aut(€). Let t and t’ leave quaternion subalgebra
+Q and Q' fixed pointwise, respectively. Suppose Q and Q' are isomorphic. Let t = Ry

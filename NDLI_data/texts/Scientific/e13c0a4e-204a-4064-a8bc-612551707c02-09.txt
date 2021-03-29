@@ -1,0 +1,78 @@
+Weisfeiler and Leman go sparse
+
+ 
+
+Weisfeiler, B. On Construction and Identification of Graphs.
+Lecture Notes in Mathematics, Vol. 558. Springer, 1976.
+
+Weisfeiler, B. and Leman., A. The reduction of a
+graph to canonical form and the algebra which ap-
+pears therein. Nauchno-Technicheskaya Informatsia, 2
+(9):12-16, 1968. English translation by G. Ryabov is
+available at https: //www.iti.zcu.cz/w1l2018/
+pdf/wl_paper_translation.pdf.
+
+Wu, Z., Ramsundar, B., Feinberg, E. N., Gomes, J., Geniesse,
+C., Pappu, A. S., Leswing, K., and Pande, V. MoleculeNet:
+A benchmark for molecular machine learning. Chemical
+Science, 9:513-530, 2018.
+
+Wu, Z., Pan, S., Chen, F., Long, G., Zhang, C., and Yu, P. S.
+A comprehensive survey on graph neural networks. CoRR,
+abs/1901.00596, 2019.
+
+Xu, K., Li, C., Tian, Y., Sonobe, T., Kawarabayashi, K., and
+Jegelka, S. Representation learning on graphs with jumping
+knowledge networks. In International Conference on
+Machine Learning, pp. 5453-5462, 2018.
+
+Xu, K., Hu, W., Leskovec, J., and Jegelka, S. How powerful
+are graph neural networks? In International Conference on
+Learning Representations, 2019.
+
+Yadati, N., Nimishakavi, M., Yadav, P., Nitin, V., Louis, A.,
+and Talukdar, P. P. HyperGCN: A new method for training
+graph convolutional networks on hypergraphs. In Advances
+in Neural Information Processing Systems, pp. 1509-1520,
+2019.
+
+Yan, X., Cheng, H., Han, J., and Yu, P. S. Mining significant
+graph patterns by leap search. In ACM SIGMOD Interna-
+tional Conference on Management of Data, pp. 433-444,
+2008.
+
+Yanardag, P. and Vishwanathan, S. V. N. A structural smooth-
+ing framework for robust graph comparison. In Advances
+in Neural Information Processing Systems, pp. 2125-2133,
+2015a.
+
+Yanardag, P. and Vishwanathan, S. V. N. Deep graph kernels.
+In ACM SIGKDD International Conference on Knowledge
+Discovery and Data, pp. 1365-1374. ACM, 2015b.
+
+Ying, R., You, J., Morris, C., Ren, X., Hamilton, W. L., and
+Leskovec, J. Hierarchical graph representation learning
+with differentiable pooling. In Advances in Neural Infor-
+mation Processing Systems, pp. 4800-4810, 2018.
+
+You, J., Ying, R., and Leskovec, J. Position-aware graph
+neural networks. In Jnternational Conference on Machine
+Learning, pp. 7134-7143, 2019.
+
+Zhang, M., Cui, Z., Neumann, M., and Yixin, C. An end-to-
+end deep learning architecture for graph classification. In
+AAAI Conference on Artificial Intelligence, pp. 4428-4435,
+2018.
+
+Zhang, R., Zou, Y., and Ma, J. Hyper-SAGNN: A self-attention
+based graph neural network for hypergraphs. In Interna-
+tional Conference on Learning Representations, 2020.
+
+Zhou, D., Huang, J., and Schélkopf, B. Learning with hy-
+pergraphs: Clustering, classification, and embedding. In
+Advances in Neural Information Processing Systems, pp.
+1601-1608, 2006.
+
+Zhou, J., Cui, G., Zhang, Z., Yang, C., Liu, Z., Wang, L., Li, C.,
+and Sun, M. Graph neural networks: A review of methods
+and applications. CoRR, abs/1812.08434, 2018.

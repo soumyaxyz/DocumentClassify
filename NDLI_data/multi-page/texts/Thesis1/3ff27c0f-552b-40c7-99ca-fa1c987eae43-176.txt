@@ -1,0 +1,80 @@
+Chapter 5: Quantum isometry groups of the Podles spheres 164
+
+ 
+
+Using ( 5.3.41 ) we deduce —(1 + p?)?T3T} = (Tz — 1)(1 + p?T2). Thus we obtain (
+5.3.42 ).
+Applying « on ( 5.3.42 ), we deduce ( 5.3.43 ).
+
+ 
+
+ 
+
+ 
+
+ 
+
+Lemma 5.3.21. SiS4 = S4S% = (1+ p2) 7 y2(1 — Th)”.
+
+Proof : Adding ( 5.3.25 ) and ( 5.3.26 ), we have : —p4(1 + 2/1 — p?)TFT3 +
+wA(L + 2)?(d — p)Sa8p = —?(1 + 2)(1 — w?)To(1 — Ta) — p?(1 — p?) S253.
+Using p? 4 1, we obtain,
+
+ 
+
+ 
+
+ 
+
+37% 2 * ‘ *
+—w(L+ we) T3Ts + w+ pw?) S4Sp = —p?(1 + w?)To(1 — Te) — 1? S283.
+Now using ( 5.3.41 ) and ( 5.3.43 ), we reduce the above equation to
+
+wh(L + 42)" SaS%
+= -W(L—Te)(To + PT) +? + Ty) + WL + w?)(L-— Th) (W? + Tr)
+p8(1 — To)’.
+
+Thus,
+6
+* B 2
+SySj = ———_,(1- 1)
+‘ wh(1 +p?)
+2
+Lu 2
+= ; —T
+(1+ 42)?
+
+. * 2 2
+Applying &, we have S754 = a —T))*.
+Thus, S754 = $45} = ay = To).
+
+ 
+
+ 
+
+ 
+
+ 
+
+Lemma 5.3.22. :2(1 + p2)?S%53 = (u2 + Tp)[w2(1 + u2) — (1— T)].
+
+Proof : Using Lemma 5.3.19 in ( 5.3.4 ), we have
+5353 + T3T3 + T3T3 + S7S4 = 1. (5.3.44)
+
+The lemma is derived by substituting the expressions of T3773, 7373 and S7S4 from
+(5.3.41), (5.3.42 ) and Lemma 5.3.21 in the equation ( 5.3.44 ).
+
+ 
+
+ 
+
+ 
+
+ 
+
+Lemma 5.3.23. (1+ 2)?S3S% = (1+ p2T)(1 + p2 — p4(1 — %)).
+
+Proof : By unitarity of the matrix Z, in particular equating the ( 1, 1 ) th entry
+of ZZ* to 1 we get 9393 + w?(1 + pw?) T3T¥ + y?.$7S4 = 1. Then the Lemma follows by
+
+using ( 5.3.42 ) and Lemma 5.3.21 in the above equation.

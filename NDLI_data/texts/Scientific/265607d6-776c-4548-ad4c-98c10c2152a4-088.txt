@@ -1,0 +1,45 @@
+3. Search Result Diversification
+
+ 
+
+Radlinski & Dumais (2006) proposed to diversify the documents retrieved for
+a query according to these documents’ coverage of multiple reformulations of the
+query, mined from a query log. In particular, given a query q, they selected the k
+queries most likely to follow g across multiple sessions in a query log as a set S, of
+query reformulations. In order to select the 7 most diverse documents from the
+ranking R,, they enforced a proportional coverage of the identified reformulations.
+According to this proportional coverage (PC) policy, each reformulation s € S,
+could be represented by at most 7/k documents, which essentially filtered out
+
+documents covering already well covered reformulations, according to:
+
+fad) ifaseS,|de ReA|RsAD,| < 7/k,
+foo(q. 4, Da) = | \ (3.17)
+0 otherwise,
+
+where R, is the set of documents that match the reformulation s. Despite ensur-
+ing a proportional coverage of different reformulations, the selected documents
+are still ranked by their estimated relevance to the initial query, f(q, d).
+
+In a similar vein, Capannini et al. (2011) proposed to mine query specialisa-
+tions (i.e., queries with a more specific representation of the user’s information
+need compared to the initial query (Boldi et al., 2009b)) from a query log in
+order to guide the diversification process. In particular, they selected the 7 most
+diverse documents from FR, according to each document’s weighted proportional
+coverage (WPC) of the identified specialisations s € S,. More precisely, their
+
+approach can be formalised into the following objective function:
+
+. fig,d) ifds Ee S,|de R,A|RsODy| < p(siq)7,
+fwee(@ 4, Da) = ‘ ‘ (3.18)
+0 otherwise,
+
+where p(s|q)7 is the proportion of the final ranking dedicated to documents
+matching each specialisation s € S,, given each specialisation’s likelihood p(s|q).
+For documents matching a not well represented specialisation s, f(q,d) denotes
+each document’s utility, such that f(q,d) « Y.es, P(s|@) Caer. Wee where
+Rs is a ranking produced for each specialisation s and f(d,d;) measures the sim-
+
+ilarity between d and each document d; € R,;, ranked at position r(d;, Rs).
+
+70

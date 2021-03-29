@@ -1,0 +1,83 @@
+19
+
+BIBLIOGRAPHY
+
+ 
+
+ 
+
+55
+
+56
+
+58
+
+59
+
+60
+
+61
+
+62
+
+63
+
+64
+
+66
+
+67
+
+68
+
+69
+
+ 
+
+Srivastava, S. M.: “A course on Borel sets”, Graduate Texts in Mathematics,
+180, Springer-Verlag, New York (1998).
+
+Takesaki, M.: “ Theory of Operator Algebras I”’, Springer Verlag, New York,
+Heidelberg, Berlin.
+
+Van Daele, Alfons.: The Haar measure on a compact quantum group, Proc.
+Amer. Math. Soc. 123 (1995), 3125-3128.
+
+Van Daele, Alfons.: Discrete Quantum Groups, Journal of Algebra, 180 ( 1996
+), 431-444.
+
+Wang, 5.: Free products of compact quantum groups, Comm. Math. Phys. 167
+(1995), no. 3, 671-692.
+
+Wang, S.: Quantum symmetry groups of finite spaces, Comm. Math. Phys.
+195(1998), 195-211.
+
+Wang, S.: Structure and isomorphism classification of compact quantum groups
+A,(Q) and B,(Q), J. Operator Theory 48 (2002), 573-583.
+
+Wang, S.: Deformation of Compact Quantum groups via Rieffel’s Quantization,
+Comm. Math. Phys. 178( 1996 ), 747-764.
+
+Wang, S.: Ergodic actions of universal quantum groups on operator algebras.
+Comm. Math. Phys. 203 (1999), no. 2, 481-498.
+
+Wang, S.: Rieffel type discrete deformation of finite quantum groups. Comm.
+Math. Phys. 202 (1999), 291-307.
+
+Varilly, J.C.: “An Introduction to Noncommutative Geometry”, EMS Series of
+Lectures in Mathematics (2006).
+
+Woronowicz, S. L.: Compact matrix pseudogroups, Comm. Math. Phys.
+111(1987), no. 4, 613-665.
+
+Woronowicz, 5. L.: “Compact quantum groups”, pp. 845-884 in Symétries quan-
+tiques (Quantum symmetries) (Les Houches, 1995), edited by A. Connes et al.,
+
+Elsevier, Amsterdam, 1998.
+
+Woronowicz, S. L.: Pseudogroups, pseudospaces and Pontryagin duality, Pro-
+ceedings of the International Conference on Mathematical Physics, Lausane
+(1979), Lecture Notes in Physics 116, pp. 407-412.
+
+Connes, Alain. and Landi, Giovanni.: Noncommutative manifolds, the Instanton
+algebra and Isospectral deformations, Comm. Math. Phys. 221(2001), 141- 159.

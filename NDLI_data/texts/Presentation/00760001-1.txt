@@ -1,0 +1,95 @@
+42nd Lunar and Planetary Science Conference (2011)
+
+1383.pdf
+
+VARIATION OF PRIMARY MAGNETIZATION OF BASALTIC TARGET ROCKS DUE TO ASTEROID
+IMPACT: EXAMPLE FROM LONAR CRATER, INDIA. Md. Arif’, K. Deenadayalan', N. Basavaiah' and S.
+Misra’, ' Indian Institute of Geomagnetism, Navi Mumbai-410218, India (mdarifkrl@gmail.com), "School of Geo-
+logical Sciences, University of KwaZulu-Natal, Durban- 4000, South Africa (misras@ukzn.ac.za).
+
+Introduction: Lonar lake, India [1, 2] is one of the
+few known terrestrial asteroid impact craters that is
+fully excavated in Deccan Trap basalts (~65 Ma) [3],
+and thus comparable to those craters formed on rocky
+planetary bodies in our Solar System having basaltic
+crusts [4]. This simple, bowl-shaped, near-circular
+impact crater has a diameter of ~1.8 km with an aver-
+age rim height of ~30 m above the adjacent plains,
+whereas the crater floor lies ~90 m below the pre-
+impact surface [5]. The age of the crater is controver-
+sial and could be ~52+6 [6] or 656+81 ka [7]. This
+crater was formed by an oblique impact of a chondrite
+that hit the pre-impact target at an angle bewteen 30-
+45° from the east [8, 9]. Our preliminary observations
+showed that the unshocked and shocked basalts from
+Lonar significantly differ in their bulk-coercivity,
+squareness of hysteresis, coercivity ratio, and low and
+high temperature susceptibility measurements [10]. It
+is also understood that anisotropy of magnetic suscep-
+tibility (AMS) of unshocked and shocked target basalts
+show systematic variations with reference to the direc-
+tion of impact [9, 11]. In the present work, we report
+variations in primary magnetization component be-
+tween the unshocked and shocked target rocks of Lo-
+nar crater and their relation to the direction of impact.
+
+Sampling and experimental procedures: In the
+Lonar area six basalt flows of ~8-40 m thickness have
+been reported, the four bottom flows of which are only
+exposed along the crater wall [12]. We have collected
+oriented drill core samples of apparently unshocked
+and shocked basalts from the top of fourth basalt flow;
+the unshocked samples were collected from the base of
+Durga Tegri at ~2 km ESE of Lonar crater rim and the
+shocked basalt samples were collected from around the
+crater rim [9].
+
+The cylindrical samples of 2.54 cm diameter and 2
+cm height obtained from drill cores were used for pa-
+laeomagnetic measurements. The NRM was measured
+by a Molspin spinner magnetometer. Alternating field
+demagnetization (AFD) was performed up to 100 mT
+with an average of 14 demagnetization steps using an
+ASC D-2000 AF demagnetizer; magnetic remanence
+after each demagnetization step was measured by an
+AGICO JR-6 spinner magnetometer. The primary and
+secondary magnetization components were derived
+from these data by principal component analysis [13],
+guided by visual inspection of orthogonal demagneti-
+zation plots [14].
+
+Primary magnetization: Our measurements on
+the unshocked target basalt from the base of Durga
+
+Tegri (n=12) show that the site-mean high-temperature
+(HT) component (Fig. la) has a declination (Dn)=
+194.1°, inclination (Im)= +65.9°, dos= 3.8°. This direc-
+tion is, however, different from the data reported earli-
+er (chron C29R; at Lonar D= 157.6°, I= +47.4°) [15,
+16].
+
+The HT component of most of the shocked basalts
+(n=52) from around the Lonar crater rim are mostly
+oriented toward the ESE to SSE (Fig. 1b) and have a
+site-mean D,,= 117.9°, Im= +39.6°, dos= 4.6°, which are
+similar to the published data of fourth basalt flow ex-
+posed on the Lonar crater wall (D,= 126.4°, I=
++44.7°, dos= 4.1°) [17]. The HT direction for shocked
+basalts from sourthern and southwestern crater rim,
+however, are different. The shocked basalts (n=9) from
+southern crater rim have contrasting NE orientation of
+HT component and have a site-mean of D,= 51°, In=
++15.6°, dos= 16.1°. Those from the SW crater rim
+(n=10) have the same orientation (SE) of site-mean HT
+component but all inclinations are negative (D,=
+117.3°, Im= -27.4°, Oos= 7.1).
+
+a
+
+ 
+
+ 
+
+Fig. 1. Equal area projections of HT component and their associated
+Q»s confidence ellipses of (a) unshocked Deccan Trap basalts from
+the base of Durga Tegri hillock at ~2 km ESE of Lonar crater; (b)

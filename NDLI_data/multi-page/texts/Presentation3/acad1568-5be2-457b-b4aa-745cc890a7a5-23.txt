@@ -1,0 +1,15 @@
+Data Mining in Credit Card Fraud
+
+Credit card fraud costs the industry billions of dollars each year and pattern
+discovery tools and machine learning models such as neural networks are routinely
+
+used to analyze fraud databases to identify triggers.
+
+“A self-service transaction at a gas station followed by an expensive purchase” is
+indicative of fraud.
+— An example pattern learned from credit card fraud data
+— Pattern is then used in real-time to flag transactions that might be fraudulent.
+For instance, if you fill gas in your car with a credit card and then make an
+expensive purchase then the merchant may be instructed (by the point of sale
+
+system) to check the user’s ID.

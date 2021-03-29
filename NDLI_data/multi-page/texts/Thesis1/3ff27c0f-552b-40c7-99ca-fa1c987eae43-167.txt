@@ -1,0 +1,79 @@
+155 Quantum Isometry Groups of the Podles sphere
+
+ 
+
+We have U(£) belongs to Span{vl, wi MD peared 1, N= +5}. Let us write
+
+ 
+
+UES@I= > Un,n ® Mm,N),(mo,No)*
+m=—l,...,NSt$
+
+where q (m,N),(mo,No) belong to Q. Since ay preserves the R-twisted volume, we have :
+> dm, N), (m’, Nn) Wrn,N), (m,n) = 1- (5.3.1)
+m',N'
+
+It also follows that U(A€) belong to Span{v!, Ny = Tp eccrans Uj =1-1,1,14+1, N=
+
+ 
+
+1
+
++5}.
+
+Recalling Lemma 5.3.3, we have ¢(A)U(E@ 1) = Yo, m=—l,..1,.N=+} Att vn ®
+
+! pn! yl f
+Qk m, N), (mo,No) + 2am’, n!n’#0, m=—t,....,N=+} A” BY Um, nv @ Rm’, n'Vnn), (mo,No)
+t
+
+s 840, m=—....1, N=+} A'B*y Um, N ® Ri, 3 (m,N), (mo,No)*
+Let mo denote the largest integer m’ such that there is a nonzero Scene cit of
+
+A™ Br’ 7! > 1 in the expression of ¢(A). We claim that the coefficient of v.
+G(A)U(E ® 1) is Ring, n! Im, N), (mo,No)*
+
+m!—n!
+
+I— n
+Tneleead; ube term v,,, ay _y can arise in three ways: it can come from a term of the
+
+=mp—n! zi
+m—n!,N In
+
+form A™” Br” Uin,N or Atul or ATB*y!, y, for some m',n', kyr, 8.
+
+, ‘ "on
+In the first case, using Lemma 5.3.3, we must have 1—mg—n!’ =l—m —n +t, 0<
+
+” ”. i ” : ‘ ‘
+t<2m andm—n'=m-—n implyingm =m +t, and since mp is the largest integer
+
+such that such that A’ B”’ appears in ¢(A), we only have the possibility t = 0, that is
+l—mj—n’
+m—n!,N
+
+In the second case, we have m — n’ = m implying n’ = 0. - a contradiction. In the
+
+v appears only in A™ B”’.
+last case, we have m—n! = m+s so that —n’ = s which is only possible when n’ = s = 0
+which is again a somtrad tion.
+
+Now, coefficient of v. mee in U(AE @ 1) is zero if m) > 1 (as n’ £0). It now
+follows from the above claim, using Lemma 5.3.3 and comparing coefficients in the
+equality U(Ag @ 1) = 6(A)U(E @ 1), that Rint, w/G[m,.v), (mo,No) = 0 for all n’ > 1, for all
+m,N when mp > 1. Now varying (mo, No), we conclude that the above holds for all
+(mo, No). Using (5.3.1), we conclude that
+
+Rtn! Dom! ,N! m,n), ont.w) Urn, N),(m’, wr) = 0 for all n> 1,
+
+that is, Ryn = 0 for all n' > 1 if mp > 1. Proceeding by induction on mp, we
+deduce Rm, n/ = 0 for all m’ > 1, n’ > 1.
+
+Similarly, we have Q; = 0 for all k > 2 and R,, e=Oforalr>1,s21L
+
+Thus, ¢(A) belongs to span{1, A, B, B*, B’,....... B", B®, .....B*™), But the coeffi-
+tn! nin b(AU(E® 1) is Ron’. Arguing as before, we conclude that Ro, » = 0
+
+cient of Uni,
+for all n’ > 2. In a similar way, we can prove Ro _,, = 0 for all n’ > 2.

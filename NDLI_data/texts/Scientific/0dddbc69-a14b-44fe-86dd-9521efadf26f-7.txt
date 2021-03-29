@@ -1,0 +1,84 @@
+Car96]
+
+CV14
+
+Hov+13a]
+
+Hov+13b]
+
+Jacl2|
+Kri04]
+
+KS06]
+
+Lee+12]
+
+Min+15]
+
+Mor99]
+
+PIV18|
+
+Upa+16]
+
+Vos+18]
+
+Jean Carletta. “Assessing Agreement on Classification Tasks: The Kappa Statistic”. In: Computational
+Linguistics 22.2 (1996), pp. 249-254. URL: https: //www.aclweb.org/anthology/J96-2004.
+
+Agata Cybulska and Piek Vossen. “Using a Sledgehammer to Crack a Nut? Lexical Diversity and
+Event Coreference Resolution”. In: Proceedings of the Ninth International Conference on Language
+
+Resources and Evaluation (LREC’14). Reykjavik, Iceland: European Language Resources Association
+(ELRA), May 2014. ISBN: 978-2-9517408-8-4.
+
+Dirk Hovy et al. “Learning Whom to Trust with MACE”. In: Proceedings of the 2013 Conference of
+the North American Chapter of the Association for Computational Linguistics: Human Language
+Technologies. Atlanta, Georgia: ACL, June 2013, pp. 1120-1130. URL: http: //www.aclweb.org/
+anthology/N13-1132.
+
+Eduard Hovy et al. “Events are Not Simple: Identity, Non-Identity, and Quasi-Identity”. In: Workshop
+on Events: Definition, Detection, Coreference, and Representation. Atlanta, Georgia: ACL, June
+2013, pp. 21-28. URL: http: //www.aclweb. org/anthology/W13-1203.
+
+Paul Jaccard. “The distribution of the flora in the alpine zone”. In: New phytologist 11.2 (1912),
+pp. 37-50.
+
+Klaus Krippendorff. Content Analysis, an Introduction to Its Methodology, 2nd Edition. Thousand
+Oaks, CA: Sage Publications, 2004.
+
+Tibor Kiss and Jan Strunk. “Unsupervised Multilingual Sentence Boundary Detection”. In: Compu-
+tational Linguistics 32.4 (2006), pp. 485-525. Dor: 10.1162/co1i.2006.32.4.485. eprint: https: //
+doi.org/10.1162/coli.2006.32.4.485. URL: https://doi.org/10.1162/coli.2006.32.4.485.
+
+Heeyoung Lee et al. “Joint Entity and Event Coreference Resolution across Documents”. In: Pro-
+ceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and
+Computational Natural Language Learning. Jeju Island, Korea: ACL, 2012, pp. 489-500. URL:
+http: //www.aclweb.org/anthology/D12-1045.
+
+Anne-Lyse Minard et al. “SemEval-2015 Task 4: TimeLine: Cross-Document Event Ordering”. In:
+Proceedings of the 9th International Workshop on Semantic Evaluation (SemEval 2015). Denver,
+Colorado: ACL, June 2015, pp. 778-786. DOI: 10.18653/v1/S15-2132. URL: https://www.aclweb.
+org/anthology/S15-2132.
+
+Thomas S. Morton. “Using Coreference for Question Answering”. In: Proceedings of the Eighth Text
+REtrieval Conference (TREC 8). 1999, pp. 685-688. URL: https: //www.aclweb.org/anthology/
+W99-0212.
+
+Marten Postma, Filip Ilievski, and Piek Vossen. “SemEval-2018 Task 5: Counting Events and
+Participants in the Long Tail”. In: Proceedings of The 12th International Workshop on Semantic
+Evaluation. New Orleans, Louisiana: ACL, June 2018, pp. 70-80. URL: http: //www.aclweb.org/
+anthology/S18-1009.
+
+  
+
+Shyam Upadhyay et al. “Revisiting the evaluation for cross document event coreference”. In:
+Proceedings of COLING 2016, the 26th International Conference on Computational Linguistics:
+Technical Papers. 2016, pp. 1949-1958.
+
+Piek Vossen et al. “Don’t Annotate, but Validate: a Data-to-Text Method for Capturing Event Data”.
+In: Proceedings of the Eleventh International Conference on Language Resources and Evaluation
+(LREC 2018). Miyazaki, Japan: European Language Resources Association (ELRA), May 2018.
+ISBN: 979-10-95546-00-9.
+
+29

@@ -1,0 +1,22 @@
+Graph (continued)
+
+ 
+
+ 
+
+°A graph may be pictorially represented as shown in the
+figure:
+
+In this graph, vertices are labeled
+using letters a, b, c, d and e.
+Therefore,
+Vo ={a, b, c, d, e}
+E,={ab , be, ed , de, ca, be , ad}
+or
+Eg={el, e2, e3, e4, e5, 6, e7}
+
+In this graph, edge between two
+vertices can be written in any
+order. For example, the edge
+between the vertices a and d can
+be written as either ad or da.

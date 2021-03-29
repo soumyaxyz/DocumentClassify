@@ -1,0 +1,52 @@
+19 Quantum Groups
+
+ 
+
+that although we assume that CQG s are separable, most of the results in this thesis go
+
+through in the non separable case also.
+
+Definition 1.2.13. Let (S, Ags) be a compact quantum group. A vector space M is said
+to be an algebraic S co-module (or S co-module) if there exists a linear map a: M >
+M ®aig So such that
+
+1. a® idja = (id@® Ag)a,
+
+2. (id ® e)a(m) =m for all m in M.
+
+In the notations as above, let us define @: M@S > M®@S by a = (id®@m)(a@id).
+Then we claim that @ is invertible with the inverse given by T(m@q) = (id@k)a(m)(1®
+q), where m is in M, q is in S. As T is defined to be So linear, it is enough to check
+that aAT(m@1)=m@l1.
+
+aT(m® 1)
+
+= (ma) ® K(mMe@))1)
+= Maya) ® May(2ys(™M2y)
+= (id@®m/(id@ k)A)a(m)
+= (id ® €().1)a(m)
+= m@l.
+
+Similarly, Ta = id. Thus,
+T=a1. (1.2.1)
+
+Definition 1.2.14. A morphism from a CQG (S81, A1) to another CQG (S2, Ag) is a
+
+unital C* homomorphism nm : S1 — S2 such that
+
+(7 @ w)Ay = Aor.
+
+It follows that in such a case, 7 preserves the Hopf *-algebra structures, that is, we
+have
+
+W((S1)o) S (S2)9, TK1 = Kam, ET = 1,
+
+where &1,€, denotes the antipode and counit of S; respectively while K2,€2 denotes
+those of So.
+
+Definition 1.2.15. A Woronowicz C*-subalgebra of a CQG (Si, A) is a C* subal-
+gebra Sz of S; such that (Sz, Als,) is a CQG such that the inclusion map from Sz > 8,
+is a morphism of CQG s.
+
+Definition 1.2.16. 4 Woronowicz C*-ideal of a CQG (S,A) is a C* ideal J of S
+such that A(J) C Ker(7 @ 7), where x is the quotient map from S to S/J.

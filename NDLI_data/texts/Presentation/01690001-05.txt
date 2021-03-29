@@ -1,0 +1,12 @@
+Introduction
+
+ 
+
+Introduction to OFDM
+
+Disadvantages
+@ Sensitive to frequency synchronization problems.
+@ It is also sensitive to Doppler Shift.
+@ The peak to average power ratio of OFDM is also very high.
+@ High PAPR increases the complexity of ADC & DAC converters.
+@ High PAPR reduces the power efficiency and battery life.

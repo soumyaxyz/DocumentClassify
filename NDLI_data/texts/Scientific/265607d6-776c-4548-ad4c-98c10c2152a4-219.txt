@@ -1,0 +1,43 @@
+9. Diversification Trade-Off
+
+ 
+
+approach at improving the diversification performance of MMR and xQuAD.
+In Section 9.3.2.2, we analyse the suitability of different groups of features for
+predicting an effective diversification trade-off on a per-query basis. Finally, in
+Section 9.3.2.3, we further investigate the robustness of our approach based on
+
+the impact of random perturbations on the prediction of this trade-off.
+
+9.3.2.1 Diversification Effectiveness
+
+In this experiment, we address research question Q1, regarding the effectiveness
+of our selective diversification approach. To this end, Table 9.2 shows the di-
+versification performance of MMR and xQuAD, deployed on top of BM25 and
+DPH, under the several training regimes described in Section 9.3.1.3. These in-
+clude UNI(BASE) as a baseline uniform regime, and SEL(RAND) as a sanity check
+for the several variants of our selective regime, i.e., SEL(K-NN,e). Additionally,
+UNI(ORA) and SEL(ORA) provide upper-bound performances for both a uniform
+and a selective diversification regime, respectively. Diversification performance is
+given by ERR-IA (Equation (3.28)) and a-nDCG (Equation (3.29)). Significance
+is verified by a paired t-test, with the symbols previously introduced in Sec-
+tion 5.1.2 denoting significant differences (or lack thereof). For all instantiations
+of MMR and xQuAD, a first symbol denotes significant differences compared
+to BM25 or DPH. A second such symbol denotes significance with respect to
+UnI(BASE), while a third symbol denotes significance with respect to UNI(ORA).
+
+From Table 9.2, we first observe that, compared to the adhoc retrieval base-
+lines, ie., BM25 and DPH, MMR cannot improve significantly. On the other
+hand, xQuAD significantly improves upon both baselines in most settings, cor-
+roborating our findings in Chapter 8 regarding the superiority of a hybrid diver-
+sification strategy in contrast to a pure novelty-based strategy.
+
+Contrasting the training regimes deployed by MMR and xQuAD, we note
+that SEL(k-NN,e) improves over UNI(BASE) in all cases for BM25+MMR, and in
+most cases for DPH+MMR, often significantly. For xQuAD, significant improve-
+ments over UNI(BASE) are observed for the SEL(k-NN,BFS) variant on top of both
+BM25 and DPH. Recalling research question Q1, on the effectiveness of our selec-
+
+tive approach, these observations show that predicting an effective diversification
+
+201

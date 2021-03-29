@@ -1,0 +1,57 @@
+Chapter 5: Quantum isometry groups of the Podles spheres 154
+
+ 
+
+Proposition 5.3.7. 4(A), ¢(B), ¢(B*) belong to O(S?. .) @alg Q.-
+
+Proof : We give the proof for (A) only, the proof for B, B* being similar. From the
+Corollary 5.3.6 and Lemma 5.3.4 it follows that for every bounded linear functional w
+on Q, we have T(¢,,(A)) belongs to V N82. Cc O(SU,(2)) 1 Ker(w) ( by Lemma 5.1.2 )
+and hence V (| S =Vf\ O(S% 2), where V is the finite dimensional subspace mentioned
+in Corollary 5.3.6. Clearly, VNO(S?..) is a finite dimensional subspace of O(S7. .)
+implying that there must be finite m, say, such that for every w, T'(¢.,(A))belongs to
+Span{A*, A*’B!, AkB* :0 < k,l < m}. Denote by W the (finite dimensional) subspace
+of B(H) spanned by {A*, A*B!, A’ B*!: 0 < k,l < m}. Since for every state (and hence
+for every bounded linear functional) w on Q, we have T(¢,,(A)) = Ri(@u(A)) = ¢0(A).1,
+it is clear that @,,(A) is in W for every w in O*. Now, let us fix any faithful state w on
+the separable unital C*-algebra Q and embed Q in B(L?(Q,w)) = B(K). Thus, we get a
+canonical embedding of L(H® Q) in B(H@K). Let us thus identify (A) as an element
+of B(H @ K), and then by choosing a countable family of elements {q1,q@2,...} of O
+which is an orthonormal basis in K = L?(w), we can write ¢(A) as a weakly convergent
+series of the form weyet $4(A) ® |qi >< qj|. But 64(A) = (id @ wj)(O(A)), where
+wi;(-) = w(qF - qj). So we have ¢/(A) belongs to W for all i,j, and hence the sequence
+ijel $'4(A) ® |qi >< q| belongs to W @ B(K) converges weakly, and W being finite
+dimensional ( hence weakly closed ), the limit, that is ¢(A), must belong to W @ B(K).
+In other words, if Aj,..., A, denotes a basis of W, we can write ¢(A) = Ys Aj © Bi
+for some B; in B(K).
+
+We claim that each B; must belong to Q. For any trace-class positive operator
+p in H, say of the form p = )7,Aj|e; >< ej], where {e1,e2,,...} is an orthonormal
+basis of H and A; > 0, y3 Aj < co, let us denote by , the normal functional on
+B(H) given by x + Tr(px), and it is easy to see that it has a canonical extension
+dp = (Wp @id) on L(H @ Q) given by p(X) = Dj Aj < ej @1,X(e; @1) >g, where X
+is in £(H® Q) and < -,-, >g denotes that Q valued inner product of H® Q. Clearly, vp
+is a bounded linear map from L(H® Q) to Q. Now, since Aj,..., A, in the expression o
+@(A) are linearly independent, we can choose trace class operators p1,..., Pn such that
+Wp,(Ai) = 1 and wp,(Aj) = 0 for 7 A i. Then, by applying Vo; on (A) we conclude tha
+
+B; belongs to Q. But by definition of Q as the Woronowicz subalgebra of Q generate
+
+ 
+
+ 
+
+ 
+
+ 
+
+by < €@1,4(x)(n®1) >6 with 7, € belonging to H, we must have B; belongs to Q.
+
+Proposition 5.3.8. ¢ keeps the span of 1, A, B, B* invariant.
+
+Proof : We prove the result for ¢(A). The proof for the others are exactly similar.
+
+Using Proposition 5.3.7, we can write ¢(A) as a finite sum of the form 7,5) A* ®
+Qe + Dimintn' go A” BY ® Ronin! + Dong spo A BY ® Rl
+
+Let = hag iN"

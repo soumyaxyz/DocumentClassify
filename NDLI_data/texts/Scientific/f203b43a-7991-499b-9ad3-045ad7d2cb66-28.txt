@@ -1,0 +1,86 @@
+28 | EIRINI PAPAGIANNOPOULOU AND GRIGORIOS TSOUMAKAS
+
+ 
+
+5.2.1 | Free Software
+
+Table[6]presents free keyphrase extraction software along with some useful features, such as the implemented meth-
+ods, supported languages and implementation language. There are software packages that include only one keyphrase
+extraction method (Maui, KEA, seq2seq, TextRank, YAKE, RAKE, TopicCoRank) and others that have more than one
+methods implemented (PKE - Python Keyphrase Extraction (Boudin2016), the KE package, Sequential Labeling, Cite-
+TextRank). As far as the supported languages by each software concerned, RAKE supports English, French and Spanish,
+TopicCorank supports English and French, KEA and Maui support English, French, German and Spanish, whereas Tex-
+tRank supports additional languages, e.g., Swedish, Danish, Dutch, Italian etc. Although the default language in PKE
+and YAKE is English, keyphrases can also be extracted in other languages by setting the language parameter to the
+
+desired language.
+
+5.2.2. | Commercial Software
+
+As far as the commercial keyphrase extraction software concerned, to the best of our knowledge, Google Cloud Natu-
+ral Language APfJhas not included a service devoted to keyphrase extraction. However, an interesting feature of this
+API is the one of entity recognition which identifies entities and labels by types, such as person, organization, location,
+event, product, and media. Furthermore, our empirical analysis presented in Table[7]shows that the entity recognition
+feature provided by Google’s API is an alternative option, as it returns satisfactory results compared to the state-of-
+the-art methods of the keyphrase extraction task. In the same direction, the TextRazor APPoffers entity recognition
+service that besides the classic confidence score (confidence related to the validity of the returned entity), it also gives
+the relevance score, which shows the relevance of the returned entity to the source text. Microsoft offers its com-
+mercial software for keyphrase extraction via Microsoft's Text Analytics Apif] Moreover, Aylien Text Analysis AP[’]
+performs a variety of complex NLP tasks on documents including keyphrase extraction, whereas, IBM and Amazon of-
+fer their commercial solutions for advanced text analysis as well as keyphrase extraction via Watson Natural Language
+Understanding APB] and the Comprehend APP]
+
+Googlq®] TextRazor!t 1BM™] and Microsoft Text Analytic{!]APIs have a wide range of supported languages,
+
+however, Amazon Comprehend API performs direct text analysis only on English and Spanish texts. Particularly, Ama-
+
+ 
+
+zon Comprehend proposes the conversion of the text of an unsupported language to English or Spanish via the Amazon
+
+ 
+
+Translate, and then uses Amazon Comprehend to perform text analysis. Finally, the Aylien Text Analysig
+ports the following 6 languages regarding the keyphrase extraction feature: English, German, French, Italian, Spanish
+and Portuguese.
+
+In Section
+
+ 
+
+Table[7]shows the performance of the commercial APIs discussed above on 5 popular datasets of
+
+the task. We should note that this empirical study is conducted in the context of the survey on the task using very
+
+         
+   
+
+“https: //cloud.google.com/natural- language
+
+“ht: //waa.textrazor.com/
+
+  
+ 
+ 
+  
+
+//azure microsoft .com/en-us/services/cognitive-services/text-analytics
+
+https: //docs.aylien.com/s
+https: //www.ibm.com/watson/services/natural-language-understanding/
+
+https: //cloud. google. com/natural- language/docs/languages
+ht //waw.textrazor.com/languages
+
+  
+ 
+ 
+ 
+       
+
+ 
+     
+
+https://docs.aylien.com/textapi/#language- support
+
+1“

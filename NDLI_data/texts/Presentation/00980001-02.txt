@@ -1,0 +1,14 @@
+Outline of the Talk
+
+@ Optimization under Generalized Equation Constraints in Asplund Spaces
+e Fp strictly differentiable and Fy is continuous
+
+eo Fy is strictly differentiable and Fy are strictly Lipschitz continuous
+
+e@ Fy and Fy are strictly Lipschitz continuous
+
+e Fp and Fy are strictly differentiable
+
+ 
+
+enn ce nan OU Optimization under Generalized Equation Cor

@@ -1,0 +1,6 @@
+60 7. REALITY IN CLASSICAL GROUPS
+
+A to its inverse. But if k has an element a such that a? = —1, then A is conjugate
+to its inverse by T such that T? = —1. For example one can take K = Q(V—1, V5)
+
+and k = Q(/-1).

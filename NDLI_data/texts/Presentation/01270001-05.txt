@@ -1,0 +1,14 @@
+Experimental
+
+Sample Preparation
+
+Thick film by diffusion reaction technique
+Substrate Y211+ Ca (green phase)
+Overlayer Ba,Cu.O,
+
+Y211+Ca+Ba,Cu,O, — YBCO
+Y211+Ca+Ba,Cu,O,+Y,0, =» YBCO+Y,0,
+
+Irradiation of Thick film by 200 MeV Ag ions of Fluence
+> 5x 10" ions/cm?
+> 5x 10" ions/cm?

@@ -1,0 +1,23 @@
+S.No. 5957 SBE 9:2
+
+(For candidates admitted from 2008-09 onwards)
+U.G. DEGREE EXAMINATION, APRIL 2013.
+
+Computer Hardware and Networking — Skill Based
+Elective
+
+ADVANCED HARDWARE CONCEPTS
+
+Time : Three hours Maximum : 75 marks
+
+PART A — (10 x 2 = 20)
+Answer ALL questions.
+1. Write the properties of video display devices.
+2. What is rasterization?
+3. What is a diskette?
+4. . What is Read-Only Memory (ROM)?
+5. Define latency.
+
+6. What is a secondary storage system?
+
+7. . What is disk storage?

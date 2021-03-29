@@ -1,0 +1,53 @@
+APPLICATIONS OF FUZZY LOGIC IN TRANSPORTATION
+ENGINEERING
+
+Transportation engineering, when concentrated on road transportation is concerned about
+construction and maintenance of roads and movement of vehicles therein. The second part,
+i.e., movement of vehicles requires scheduling and routing of vehicles and a lot of control
+mechanisms. These all depend on availability of resources (like, number of vehicles available,
+whether proper electronic devices are available for signal controlling at intersection or not
+etc.) and the demand of people for transportation. For a particular resource availability
+condition, the task is to effort for catering the demand efficiently. For this it is of utmost
+necessity to have proper control mechanism and scheduling and routing strategy. Most
+importantly, it is necessary to understand the motion of vehicles on roads, i.e., the traffic flow
+theory. Various models have been proposed to understand traffic flow using various methods
+till now. On the operation side, lots of problems are encountered everyday, namely, delay,
+traffic jam, accidents and so on. Studies have been conducted on analysis of delay and queue
+on roads and also on reasons and mitigations of accidents.
+
+There are some areas in transportation engineering where imprecise perception involves. One
+of them is modeling the behavior of drivers (which is a human thought process). Modeling
+driver behavior involves to predict how a driver of a particular vehicle responds (in terms
+acceleration) according to the behavior of other drivers (in terms acceleration) and the
+environment. This environment may be static (roadway features) as well as dynamic (other
+vehicles). So, fuzzy logic has been applied into modeling driver behavior, which is imprecise
+in nature. Fuzzy logic has also been applied into transportation planning for deciding mode
+choice and route choice. Control devices, like signal control at signalized intersection (where
+the perception of the condition is not clear and the consequence of decision is not known) are
+suitable places for applicability of fuzzy logic.
+
+Fuzzy logic has been applied into traffic modeling, transportation planning, traffic control and
+some more areas in transportation engineering. In the modeling and planning side fuzzy
+inference system has been developed to capture the imprecise decision making of drivers;
+whereas, in the control and application side, the concept of fuzzy logic has been implemented
+into machines.
+
+Application of Fuzzy Logic in Traffic Flow Modeling: Car Following Behavior
+
+Modeling traffic flow involves studying the behavior of vehicles in response to the behavior
+of other vehicles. Generally, a vehicle considers the vehicle just ahead and behaves
+accordingly. This behavior is called car following behavior, which is observed during
+congested traffic flow; because at free flow condition a driver need not to bother about the
+vehicles far ahead. Study of this behavior is necessary for adaptive cruise control for
+automated highway system (AHS). Some models have been proposed by various researchers
+to capture the car following behavior; among them one worth mentioning model is by General
+Motors (GM) [7]. This model uses the following equation to represent the behavior of the
+following vehicle (n+1" vehicle) in terms of acceleration (where, n" vehicle is the leading
+
+vehicle)
+ar(L,m)( iy (t+ At)”
+
+dea Keyes
+Ful AD= yx, Oy
+
+314, - X40] (14)

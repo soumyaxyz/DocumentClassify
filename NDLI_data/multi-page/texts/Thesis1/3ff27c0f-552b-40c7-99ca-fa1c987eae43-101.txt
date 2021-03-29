@@ -1,0 +1,62 @@
+89 Comparison with the approach of [30] based on Laplacian
+
+ 
+
+3.3. Comparison with the approach of [30] based on Lapla-
+
+cian
+
+Throughout this section, we shall assume the set-up of subsection 3.2.3 for the existence
+of a ‘Laplacian’, including assumptions 1 — 6. Let us also use the notation of that
+subsection.
+
+We recall from chapter 2 that a CQG (S,A) which has an action a on A is said
+to act smoothly and isometrically on the noncommutative manifold ( of compact type
+) (A®,H, D) if (id ® d) o a( AZ?) C AZ? for every state ¢ on S, and also (id @ ¢) oa
+commutes with the Laplacian £ = Lp on Aj? ( where A>° is the complex linear span
+of the eigenvectors of £ ). One can consider the category Q/. p of all compact quantum
+groups acting smoothly and isometrically on A, where the morphisms are quantum
+group morphisms which intertwin the actions on A. We make the following additional
+
+assumption throughout the present section:
+
+(7) There exists a universal object in Q/,,, ( the quantum isometry group for the
+Laplacian £ = Lp in the sense of [30]), and it is denoted by QISO* = QISO*?
+
+The following result now follows immediately from Theorem 3.2.17 of subsection 2.3.
+Corollary 3.3.1. If (A~,H,D) is a spectral triple ( of compact type ) satisfying any
+
+of the two conditions (a) or (b ) of Theorem 3.2.17, then QISO}(D) is a sub-object
+of QISOfL in the category QQ:
+
+Proof: The proof is a consequence of the fact that QISO7 (D) has the C*-action ao
+
+on A, and the observation already made in the proof of the Theorem 3.2.17 that this
+
+ 
+
+ 
+
+ 
+
+action commutes with the Laplacian Lp.
+
+ 
+
+Now, we will need the Hilbert space of forms 7(g4q* corresponding to a @-summable
+spectral triple (A®%,H, D) as discussed in subsection 1.5.2. We recall that one obtains
+an associated spectral triple (A™®, Ha+a«,d+d*). We assume that this spectral triple is
+of compact type, that is, d+ d* has compact resolvents.
+
+We will denote the inner product on the space of k forms coming from the spectral
+triples (A®, H, D) and (A®, Ha+a-, d+ d*) by (, v4, and (, rth ae respectively,
+k=0,1.
+
+We will denote by 7p, 7a+a* the representations of A® in H and Ha+a* respectively.
+
+Let Ugya« be the canonical unitary representation of QISO} (d+ d*) on Haar.
+
+Ha+a« breaks up into finite dimensional orthogonal subspaces corresponding to the
+distinct eigenvalues of A := (d+d*)? = d*d+dd*. It is easy to see that A leaves each of
+
+the subspaces 7p invariant, and we will denote by V),; the subspace of 11), j. spanned

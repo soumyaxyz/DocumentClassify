@@ -1,0 +1,56 @@
+5. Framework Validation
+
+ 
+
+denotes a statistically significant difference (or lack thereof) from the relevance
+baseline, namely, DPH or LambdaMART. As described in Section 5.1.2, for each
+evaluation metric, we also report the number of queries negatively affected (—),
+positively affected (+), and unaffected (=) with respect to these baselines. In
+addition, a second significance symbol, when present, denotes a significant differ-
+ence from the best performing approach in each group, which is underlined. The
+overall best approach in each column is highlighted in bold.
+
+Table 5.6: Diversification performance of the xQuAD framework compared to MMR,
+
+PC, and IA-Select, as prominent representatives of novelty-based, coverage-based, and
+hybrid diversification approaches, respectively.
+
+ 
+
+ 
+
+S; ERR-IA a-nDCG
+@20 - = + @20 - = +
+DPH 0.253 0.364
++MMR 0.253°° 55) 30 «60 «~0.367°Y) 56 28 61
++PC BS 0.2564° 25 58 62 0.3754% 29 55 61
+
++IA-Select DZ 0.250° 67 12 66 0.356°% 70 12 63
++xQuAD BS _ 0.281° 40 24 81 0.4024 37 24 84
+
+ 
+
+LambdaMART 0.337 0.464
++MMR 0.338°° 69 20 56 0.466°° 69 20 56
++PC BS 0.3394° 27 52 66 0.4724° 32 45 68
+
++IA-Select DZ 0.217% 93 13 39 0.329% 98 13 34
++xQuAD BS 0.351° 43 24 78 0.479% 42 23 80
+
+ 
+
+From Table 5.6, we first observe that xQuAD is the best performing of all con-
+sidered approaches in terms of both ERR-IA@20 and a-nDCG@20, with gains
+of up to 11% on top of DPH, and 4% on top of LambdaMART. These results
+show that, while a high performing relevance baseline improves the overall diver-
+sification performance, it also leaves less room for improvement. Nevertheless,
+significant improvements compared to these relevance baselines are observed in
+all cases, except for ERR-IA@20 when xQuAD is deployed on top of DPH.
+
+Compared to the diversification baselines, significant improvements are ob-
+served in many cases, particularly on top of DPH for a-nDCG, when MMR, PC,
+and [A-Select are all significantly outperformed. Indeed, not only does xQuAD
+
+perform consistently better on average, but it also compares favourably to all
+
+111

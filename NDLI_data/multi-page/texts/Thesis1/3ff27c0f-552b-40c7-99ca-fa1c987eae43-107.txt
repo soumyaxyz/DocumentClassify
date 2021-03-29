@@ -1,0 +1,72 @@
+95 Examples and computations
+
+ 
+
+2xZ* -YW*
+= ay @XW* +a" @YZ" + 1@XZ" + (1- (1+ 4)y"9) @ Fe
+YW* — XZ"
+1@ ——.._
++18 JS"
+
+YW* = 2X Z*
+
+tte )+(- (1+ #?)9*9)
+
+= ay@®Xw*+y7a @YZ*4+1@(XZ*4+
+ol@X2 - YW"
+1+.
+
+Thus, comparing coefficient of 1 in ®(ay), we can see that it belongs to Vo if and
+only if XZ* + YW* =0.
+In the case of 1— (14+ p?)y*7,
+
+ 
+
+= 1@1-(1+p*)(aa* @ ZZ* +. a7 @ ZW* + 7*0* @WZ* + 7°7@ WW*)
+
+= 1@1-(1+p?)(1 = p?9*7) @ ZZ" — a7 @ (14+ w)ZW* — pa*y* @ (1+ 1?)
+WZ*-—(1+p?)y*7 @ WW*
+
+= 1@1-—(1+p?).1@ ZZ* + (-14+1— (14+ p7)9*7) @ —W?ZZ* — ay @ (1+ p’)
+ZW* — po*y* @ (1+ p?)WZ* + (-14+-1- (1+ p2)9"*7) @ WW"
+
+ 
+
+= 1@(1-(1+p?)ZZ* + ZZ" — WW") + (L— (1+ y?)y*9) @ (-P ZZ" +
+WW*) —ay@ (14+ P)ZW* — pa*y* @ (1+ 2)WZ".
+
+ 
+
+Comparing the coefficient of 1 in this case, we have the condition 1 — (1+ p?)ZZ* +
+wZZ* —WW* =0, that is, ZZ* + WW* = 1.
+x* ZF
+But these conditions follow from the unitarity of the matrix vow}? which
+is nothing but the matrix corresponding to the restriction of ® to Vit. Thus, ® keeps
+Span{éj; : i,j = —1,0, 1} invariant.
+Moreover, we claim that by using the recursive relations ( 1.2.18 ), (1.2.19 ) and the
+
+multiplication rule ( 1.2.23 ), we obtain that for all! > 3/2, avr?) Cc VO Pe yh?
+3
+ag
+exactly similar. We have
+
+We prove this for ¢ db 3 <i<l= 3, j <Jl only, as the proofs of the others are
+
++3
+Ot, 5)
+= (l,i, J) ®( )O (2 544) +e(l,i NOPE _2 542)
+5 1
+a , 4 2) a l
+= cL 6 OZ 1) P(E a 543) FU a NOG OE, 1 +3)
+
+> yl spo
+toto. tk=H
+
+l 1
+i+$,m? 3k i-g,m 2
+
+ 
+
+1
+€ Span{t?, ,t
+5

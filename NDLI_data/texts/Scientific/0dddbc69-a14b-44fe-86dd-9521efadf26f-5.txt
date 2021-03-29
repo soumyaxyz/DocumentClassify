@@ -1,0 +1,153 @@
+1.0
+
+1.0
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ATS x —_ J. + at
+= 08+ > === <= 08} 4 a= os .
+| peer | Ue Te | glee
+» 06; ape * “2 0.6 Bi sfeaeg 0.6} I
+& * & ma 7 Lo
+zz a q = els
+5 o4b 8 oat + 04
+a & # oa
+2 2
+= ob = oak 02 H
+0.0 po 0.0 po 0.0 po
+2 3 4 5 6 7 8 2 3 4 5 6 7 8 2 3 4 5 6 7 8
+Number of Crowd Annotators (bootstrapped) Number of Crowd Annotators (bootstrapped) Number of Crowd Annotators (bootstrapped)
+(a) Seminal event y/n (b) Hierarchy event y/n (c) Set of mentioned events
+
+Figure 3: Agreement between experts and different numbers of crowd annotators for each task. Each distribution
+is the result of 100 bootstrapped runs.
+
+Table 1: Comparison between FCC (our dataset), ECB+ and GVC. *We found 13 annotated cross-subtopic
+clusters of which 3 stem from annotation errors.
+
+ 
+
+ECB+ [CV14] GVC [Vos+18] | FCC (ours)
+
+ 
+
+Unit of annotation token token sentence
+Annotators 2 experts 2 experts crowd
+Annotation duration 4 months 6 weeks 3 weeks
+Documents 982 510 451
+Sentences 16314 9782 15529
+Topics 43 1 1
+Subtopics per topic 2 241 95
+Events 8911 1411 217
+Singletons 8010 365 48
+Within-doc chains 20 301 10
+Cross-doc clusters 881 745 159
+Cross-subtopic clusters 10* 0 142
+
+Mentions 15003 7298 2618
+
+compared to the experts’ work. Figure 3 shows the resulting agreement distributions for the three tasks in our
+annotation scheme (mention detection for seminal events, mention detection for other events, annotating the
+set of referenced events). With five crowd annotators, we reach a mean Krippendorff’s Alpha of 0.734, 0.719
+and 0.677, allowing tentative conclusions [Car96]. This constitutes a suitable tradeoff between quality and costs,
+leading us to annotate the main portion of the dataset with five crowd annotators.
+
+4.3 Execution and Analysis
+
+Using time measurements from pre-studies as a reference point, we paid annotators according to the US minimum
+wage of $7.25/hour. Overall, 451 documents were annotated over the course of three weeks, amounting to $2800 in
+total.
+
+Table 1 shows the properties of our dataset alongside a comparison to existing CDCR datasets. The contrast
+in the overall number of annotated events is a result of different annotation strategies: In ECB+, all mentions of
+a document’s seminal event as well as any other events mentioned in the same sentence were annotated. For the
+Gun Violence Corpus (GVC), only mentions of a given seminal event and a predefined set of its subevents were
+annotated. In our dataset, 311 coarse-grained events were available for annotation across all event hierarchies
+In the end, 217 of these events were annotated by crowd annotators. Given their higher granularity compared
+to those annotated in ECB+ and the GVC, these events are less frequent by nature. Most notably however,
+our proposed annotation scheme resulted in a dataset with a large number of cross-subtopic event coreference
+clusters. While the annotation of this type of coreference is technically possible with traditional token-level
+annotation schemes, ours is markedly faster and does not require complex or domain-dependent annotation
+guidelines or trained annotators, which to the best of our knowledge makes it the first scalable technique for
+
+   
+
+ 
+
+27

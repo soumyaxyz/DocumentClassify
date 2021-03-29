@@ -1,0 +1,70 @@
+65 Computation of QISO*
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Lemma 2.2.11. :
+Ap By = By Aix for alli a 4s k x l.
+
+Proof : From Lemma 2.2.10, we have for all k £1, Aj, By— By Aix = AjrBu—ByAje.
+We consider the case where i # j.
+
+We have, Ran(Ay,By — By Ain) C Ran(Aje) + Ran(By) C Ran(By By + Ay, Ain) (
+using the facts that Aj, and Bj; are normal partial isometries by Lemma 2.2.8 and 2.2.9
+and also that Bi Bi and A*¥,Aj, are projections ).
+
+Similarly, Ran(Aj,.By — ByAj,) C Ran(By By + Aj, Ajr)-
+
+Let
+T, = Ax By — By Aix, (2.2.33)
+Te = AjpBy — BuAje, (2.2.34)
+T3 = By, By + Aj Aix; (2.2.35)
+Ty = By Bu + Aj, Aje- (2.2.36)
+
+Hence, T, = To, RanT, C RanT3 , RanT) C RanT.
+
+We claim that 7,73 = 0.
+
+Then Ran(Z3) C Ker(T1).
+
+But RanT C RanT3 will imply that RanT, C KerTy. Hence, Ran(T) C Ker(T1) =
+Ran(T7)~ = Ran(Zi)~ But Ran(T2) C Ran(T1) which implies that Ran(T2) = 0 and
+hence both T) and T; are zero. Thus, the proof of the lemma will be complete if we can
+prove the claim.
+
+T1T3 = (By Bu + Aj, Aje) (Bi By + Aj, Aix) (2.2.37)
+
+ 
+
+= Bi BaBj By + Bi By Aj, Aix af Aj Ajx Bi Bit at Aj Age Ain Aik: (2.2.38)
+
+From Lemma 2.2.6, we have for all i 4 j, By Bj = 0 implying Bi By =0as By isa
+normal partial isometry.
+
+Again, from Lemma 2.2.7 for all k 4 1, By Aj, = 0. Then Ajz is a normal partial
+isometry implies that By A}, = 0 for all k #1.
+
+Similarly, by taking adjoint of the relation BrAj, = 0 for all k £1 obtained from
+Lemma 2.2.7, we have Aj Bi, =0.
+
+From Lemma 2.2.6, we have Aj, Ajz = 0 for alli 4 j. Ajy, is a normal partial isometry
+implies that Aj,A%, = 0 for alli ¥ j.
+
+Using these, we note that 7,73 = 0 which proves the claim and hence the lemma.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Lemma 2.2.12. :

@@ -1,0 +1,37 @@
+42
+
+Explanation 2:- In this section and in sections 127 to 129, the expression ‘legal
+practitioner’ or ‘legal professional adviser’ includes any person who, by law, is
+empowered to appear on behalf of any other person before any judicial or
+administrative authority; and the expression ‘client’ shall be construed
+accordingly.
+
+Explanation 3:- For the purpose of clause (b) of the proviso to this section, it is
+immaterial whether the attention of such legal practitioner was or was not directed
+to such fact by or on behalf of his client.
+
+Illustrations.
+
+(a) A, a client, says to B, a legal practitioner — “I have
+committed forgery, and I wish you to defend me.”
+
+As the defence of a man known to be guilty is not a criminal purpose, this
+communication is protected from disclosure.
+
+(b) A, a client, says to B, a legal practitioner — “I wish to
+obtain possession of property by the use of a forged deed
+on which I request you to sue.”
+
+This communication being made in furtherance of a criminal purpose, is not
+protected from disclosure.
+
+(c) A, being charged with embezzlement, retains B, a
+legal practitioner to defend him. In the course of
+proceedings, B observes that an entry has been made in A’s
+account book, charging A with the sum said to have been
+embezzled, which entry was not in the book at the
+commencement of his professional engagement.
+
+This being a fact observed by B in the course of his engagement, showing that a
+fraud has been committed since the commencement of the proceedings, it is not
+protected from disclosure.”

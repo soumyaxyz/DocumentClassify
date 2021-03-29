@@ -1,0 +1,39 @@
+Acknowledgments
+
+It gives me immense pleasure to acknowledge the support of many of my friends,
+colleagues, family members and teachers, without whom I could not have imagined
+he existence of this thesis. A large part of the work in this thesis was done at Harish-
+Chandra Research Institute during my stay there. I wish to acknowledge the support
+of the institute and its staff members for providing me with excellent facilities and
+highly competitive work environment.
+
+First, I would like to thank Prof. Maneesh Thakur, my thesis supervisor, for
+his help and encouragement. He has been understanding, supportive, patient and
+assionate throughout my association with him. I am indebted for my views and
+knowledge of Mathematics to him which grew out of numerous discussions over the
+years. I deeply appreciate his way of working, start from basics, and must say that
+
+it has had a great influence on me. The questions in this thesis were suggested to me
+
+ 
+
+by him.
+
+At Harish-Chandra Research Institute, I had the opportunity to talk Mathematics
+with several people. I give credit to Prof. Dipendra Prasad for growing my interest in
+algebra. It was his graduate course and other courses on Algebraic Number Theory
+and Algebraic Groups which fascinated me to choose the subject for my research. My
+association with him dates back to the summers of my undergraduate years when I
+was a visiting student at HRI. Even, till date, I do not let go in vain any opportunity
+to discuss Mathematics with him. I also thank him for his remarks on my thesis
+which helped to improve it tremendously. I owe my understanding of Mathematics to
+many mathematicians at HRI, specially to Prof. S.D. Adhikari, Prof. Suryaramana,
+Prof. C. 5. Dalawat, Prof. SatyaDeo, Prof. I.B.S. Passi, Prof. Ravi Kulkarni, Prof.
+E. K. Narayanan, Dr. Shripad Garge, Dr. Ritumoni Sarma, Dr. Manoj Keshari and
+Dr. A. V. Jayanthan. I learned mathematics from them and had influence on my
+working style as well. I thank them for always being there to help me out with even
+silly doubts. All of the students of School of Mathematics at HRI deserve a note
+of appreciation for being enthusiastic about discussing mathematics with me. Mrs.
+Seema Agrawal and Dr. Archana Tandon deserve salute from me. At times, I derived
+
+v

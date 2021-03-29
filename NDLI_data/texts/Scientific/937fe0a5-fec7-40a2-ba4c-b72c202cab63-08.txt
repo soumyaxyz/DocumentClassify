@@ -1,0 +1,159 @@
+ap
+—+— wav (140)
+—— dav-ne
+—*— d2v-cac
+
+ 
+
+—s— NPM
+—e— hdev
+
+a
+a
+
+ 
+
+ 
+
+ 
+
+ 
+
+Dimension
+
+Figure 3: Varying & on DBLP. The scores of w2v
+keeps increasing to 26.63 at k = 1000, and then
+begins to drop. Although at the cost of a larger
+model and longer training/inference time, it still
+cannot outperform h—d2v of 30.37 at k = 400.
+
+too few citation contexts to train a good model.
+Moreover, DBLP requires a larger dimension size
+k to store more information in the embedding vec-
+tors. We increase k and report the Rec @ 10 scores
+in Figure 3. We see that all approaches have bet-
+ter performance when k increases to 200, though
+d2v-based ones start to drop beyond this point.
+
+Second, the I4I variant of w2v has the worst
+performance among all approaches. This obser-
+vation validates our hypothesis in Section 5.3.
+
+Third, the d2v—cac approach outperforms its
+variant d2v—nc in terms of all datasets and met-
+rics. This indicates that context awareness matters
+in the citation recommendation task.
+
+Fourth, the performance of NPM is sandwiched
+between those of w2v’s two variants. We have
+tried our best to reproduce it. Our explanation is
+that NPM is citation-as-word-based, and only de-
+pends on citation contexts for training. Therefore,
+it is only context aware but neither content aware
+nor newcomer friendly, and behaves like w2v.
+
+Finally, when retrofitting pv-dm, h-d2v gen-
+erally has the best performance. When we substi-
+tute pv—dm with random initialization, the perfor-
+mance is deteriorated by varying degrees on differ-
+ent datasets. This implies that content awareness
+is also important, if not so important than context
+awareness, on the citation recommendation task.
+
+5.3.2 Impact of Newcomer Friendliness
+
+Table 7 analyzes the impact of newcomer friendli-
+ness. Opposite from what is done in Section 5.2.2,
+we only evaluate on testing examples where at
+least a ground-truth paper is a newcomer. Please
+note that newcomer unfriendly approaches do not
+
+ 
+
+ 
+
+ 
+
+Newcomer
+Model Friendly Rec MAP MRR nDCG
+w2v (140) x 3.64 3.23 341 2.73
+NPM x 1.37 1.13 115 0.92
+d2v-ne vo 648 3.52 3.54 3.96
+d2y-cac v 8.16 5.13 5.24 5.21
+h-d2v v 641 495 5.21 449
+
+ 
+
+Table 7: DBLP results evaluated on 63,342 cita-
+tion contexts with newcomer ground-truth.
+
+ 
+
+Category Description
+Weak
+
+ 
+
+Weakness of cited approach
+
+ 
+
+CoCoGM Contrast/Comparison in Goals/Methods (neutral)
+CoCo- — Work stated to be superior to cited work
+CoCoRO Contrast/Comparison in Results (neutral)
+CoCoXY Contrast between 2 cited methods
+
+ 
+
+PBas Author uses cited work as basis or starting point
+
+PUse Author uses tools/algorithms/data/definitions
+
+PModi — Author adapts or modifies tools/algorithms/data
+
+PMot This citation is positive about approach used or
+problem addressed (used to motivate work in cur-
+rent paper)
+
+PSim Author’s work and cited work are similar
+
+PSup Author’s work and cited work are compati-
+ble/provide support for each other
+
+Neut Neutral description of cited work, or not enough
+
+textual evidence for above categories, or unlisted
+citation function
+
+ 
+
+Table 8: Annotation scheme of citation functions
+in Teufel et al. (2006).
+
+necessarily get zero scores. The table shows that
+newcomer friendly approaches are superior to un-
+friendly ones. Note that, like Table 5, this table is
+also based on controlled experiments and not in-
+tended for comparing approaches.
+
+5.3.3. Impact of Context Intent Awareness
+
+In this section, we analyze the impact of context
+intent awareness. We use Teufel et al. (2006)’s
+2,824 citation contexts!! with annotated citation
+functions, e.g., emphasizing weakness (Weak) or
+using tools/algorithms (PBas) of the cited papers.
+Table 8 from Teufel et al. (2006) describes the full
+annotating scheme. Teufel et al. (2006) also use
+manual features to evaluate citation function clas-
+sification. To test all models on capturing con-
+text intents, we average all context words’ IN vec-
+tors (trained on DBLP) as features. Noticing that
+pv-dbow does not output IN word vectors, and
+OUT vectors do not provide reasonable results, we
+use pv—dm here instead. We use SVM with RBF
+
+"The number is 2,829 in the original paper. The inconsis-
+tency may be due to different regular expressions we used.
+
+2391

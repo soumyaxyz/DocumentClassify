@@ -1,0 +1,48 @@
+1.3. ALGEBRAS WITH INVOLUTIONS AND CLASSICAL GROUPS 7
+
+Now we include a discussion about symplectic groups. Let V be a vector space
+with a nondegenerate skew-symmetric form 6 on it. Since the corresponding matrix
+is skew-symmetric it follows that the dimension of V is even. Let the dimension of V
+
+be n = 2m.
+
+Proposition 1.2.5. With notation as above, there exists a basis {t1, U1, ..-,Um; Um}
+of V such that 6(u;,v;) = 1, 6(w, vj) = 0,6(u, ui) = 0 and b(u;, uj) = 0 for all i,j
+with i # J.
+
+Such a basis is called asymplectic basis for V. The corresponding matrix of the form
+
+—l1 0
+For a symplectic basis, the matrix B does not depend on k hence we denote the
+
+0 1
+with respect to a symplectic basis is B = diag(N,...,N) where N = ( )
+
+symplectic group by S'pon(k). When n = 2, the group Spo(k) = SL2(k). The center
+of S'p(V, 6) is {7,—J} and every element of the symplectic group has determinant 1.
+
+1.3. Algebras with Involutions and Classical Groups
+
+We refer to the book [KMRT] for detailed treatment of topics covered in this
+section. Let & be a field and A an associative k algebra with identity. An involution
+
+on A is a map (not necessarily k-linear) o: A > A such that
+o(e + y) = o(z) +0(y), o(ey) = o(y)o(a) Vz,y EA
+
+and o? = 1. For an algebra A with involution o, the group Aut(A,c) of k-linear
+automorphisms of A commuting with o, is an algebraic group defined over k.
+
+We describe here how classical groups arise this way from matrix algebras. Let
+V be a finite dimensional vector space over k with a nondegenerate bilinear form
+b. Then 6: V — V* defined by 6(x)(y) = 6(2,y) is an isomorphism. This defines
+a map op: End,(V) > End,(V) by oo(T) = 6-16 where 'T € End,(V*). The
+map 0» is an anti-automorphism of the k-algebra End;,(V). We call o, the adjoint
+
+anti-automorphism of End;(V) with respect to 6.
+
+Theorem 1.3.1. The map 6 + oy gives a one-one correspondence between equiv-
+alence classes of nondegenerate bilinear forms on V modulo k* and k-linear anti-
+automorphisms of the algebra End;,(V). Under this map a k-linear involution on
+End,(V) corresponds to a bilinear form on V which is either symmetric or skew-
+
+symmetric.

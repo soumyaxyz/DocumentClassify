@@ -1,0 +1,10 @@
+Data Mining in UI Optimization
+
+“A simple example had to do with discovering that on the Yahoo Front Page,
+centering the search box on the page (as opposed to having it be left-justified) would
+increase consumer usage. This led to better user engagement and there was no cost
+to Yahoo! to make the change. This was discovered by discovering the hidden
+pattern that showed that Netscape users tended to use search more than IE users, and
+by discovering that the only visible difference was the subtle position of the box! It
+was centered on Netscape browsers but left justified on IE browsers. A very
+unnoticeable difference, yet an important one. Who would figure that out???”

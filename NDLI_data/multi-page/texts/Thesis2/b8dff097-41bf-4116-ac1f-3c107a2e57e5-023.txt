@@ -1,0 +1,40 @@
+CHAPTER 2
+Linear Algebraic Groups
+
+In this chapter we give a brief account of the theory of algebraic groups. For the
+material covered here, we refer the books [S3], [Sp], [Hu] and [Bo], written by some
+
+of the masters of the subject.
+
+2.1. Definition and Examples
+
+Let k be an algebraically closed field. An algebraic group G is a variety over k
+with a group structure on it such that the maps m: Gx G — G defined by (x,y) > xy
+and i: G — G defined by 2 ++ 21 are maps of varieties. If the underlying variety
+of G is an affine variety over k then the group is called an affine algebraic group.
+We give some examples below.
+
+Examples :
+
+(1) The multiplicative group G,, and the additive group G, of k are algebraic
+groups.
+
+(2) The general linear group GL, is an algebraic group. Following subgroups
+of GL, are examples of algebraic group: a finite subgroup, D, (diagonal matrices in
+GL,), Tn (upper triangular matrices in GL,,), Un (unipotent upper triangular matrices
+in GL,), SL, (special linear group i.e. matrices of determinant 1), O, (orthogonal
+group), SO, (special orthogonal group), Span (symplectic group).
+
+(3) Elliptic curves are example of algebraic groups which are not affine.
+
+Any affine algebraic group G is a closed subgroup of some GL,,. Hence often affine
+algebraic groups are called linear algebraic groups. In this thesis we will only deal
+with linear algebraic groups and hence we will drop the adjective affine (or linear)
+occasionally.
+
+Let k be a field and k be an algebraic closure of k. An algebraic group G is defined
+over k: (or G is a k-group) if the polynomials defining the underlying variety G are
+defined over k, with the group maps m and i defined over k and the identity element
+e € Gisa k-rational point. We denote the k-points of G by G(k).
+
+u

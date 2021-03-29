@@ -1,0 +1,23 @@
+Thus, in short,
+
+Business Intelligence (BI) is about
+providing the right information, in the
+right format to the right decision makers,
+at the right time.
+
+BI is an enterprise-wide platform that
+supports reporting, analysis and decision
+making.
+
+BI leads to:
+* fact-based decision making
+¢ “single version of the truth”
+
+BI includes reporting and analytics.
+
+Right Right
+
+nformation Time
+
+Right
+Format

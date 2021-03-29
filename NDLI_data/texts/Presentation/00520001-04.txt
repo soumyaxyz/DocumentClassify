@@ -1,0 +1,19 @@
+Introduction
+
+ 
+
+Queue is a linear data structure.
+
+Queue has two ends Front and Rear.
+
+Element can be added at Rear of the queue and the
+element can be removed from the Front end of the queue.
+The elements of a queue are processed in the same order
+as they were added into the queue.
+
+Queues are also known as FIFO (First In Order First
+Out) list or FCFS (First Come First Serve basis) list
+
+For Example,
+Queue at the ticket counter of railway station, bank, post
+office, bill deposit counter etc.

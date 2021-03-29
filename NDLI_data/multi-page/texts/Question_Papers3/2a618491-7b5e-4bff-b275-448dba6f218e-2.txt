@@ -1,0 +1,60 @@
+12.
+
+18.
+
+14.
+
+(a)
+
+(b)
+
+(a)
+
+(b)
+
+(a)
+
+(b)
+
+What are the advantages of centralised purchasing?
+Or
+
+(i) . The availability of an imported machinery component
+is irregular and consequently, the consumption —
+pattern also varies during the year. Show how should
+the “re-ordering level” be ascertained for this
+component. :
+
+(ii) From the following data for the last 12 months, ~
+compute the average stock level for the said
+
+component :
+
+Consumption
+(1) Maximum usage in a month 300 Nos
+(2) Minimum usage in a month 200 Nos
+(3) Average usage in a month 225 Nos
+
+Time lag for procurement of material; maximum 6
+months; minimum — 2 months; Re-ordering quantity :
+750 Nos.
+
+List out requisites of a good time-keeping system.
+Or
+
+State the merits and demerits of Gant's Task and Bonus
+plan.
+
+What are the advantages of departmentalisation of
+overhead expenses? Explain.
+
+Or
+
+ 
+
+Calculate Machine Hour Rate from the following :
+(i) Cost of machine Rs. 19,200
+
+(ii) Estimated scrap value Rs. 1,200
+
+2 S.No. 2284

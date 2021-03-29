@@ -1,0 +1,79 @@
+miss citing some important papers. In s
+
+hort-papers and poster papers, there is a
+
+strict space constraint and authors do not have much choice other than including
+
+a mere handful of citations. We claim
+
+papers is important and thus aim to bri
+
+text content but do not have a direct ci
+
+that the textual similarity between two
+ng closer two papers which share similar
+ation edge between them. In Section [4.1]
+
+we provide further details on selecting k with respect to dataset sizes.
+
+Our second method is motivated from the works in the field of computer
+vision [9], where the authors used pre-trained neural network weights from a
+general task. They found that their network gave good invariant features when
+trained on a large dataset that were shown to be generic. Instead of random
+weight initialization for any domain specific task, they successfully used these
+pre-trained weights to obtain improved performance across several sub-domain
+tasks related to computer vision. We use our document vectors learnt from text
+in Phase 1 as initialization points and further refine them by a new objective
+function f2 in Phase 2 which minimizes loss over edges as described in the
+following subsection
+
+Later in Figure we show through our empirical evaluations that the two
+aforementioned methods individually contribute to an increase in performance
+throughout our datasets. We combine both of them to get Paper2vec, a new
+state-of-the art technique for estimating scientific paper representations.
+
+ 
+
+ 
+
+ 
+
+ 
+
+2.4 Learning from Graph
+
+Henceforward we take G’ as our input graph and first define the notion of context
+or neighbourhood inside G’: a valid context cy € C2 for a node v; is the collection
+of all nodes v; that are atmost h hops away from v;. Value of h is determined by
+window size of c2. Note that here we do not differentiate between (v;,v;) pairs
+on whether they are connected by citations or by text-based links. We obtain
+C2 by sliding over random walk sequences starting from every node v;,;¢v in
+G’. Borrowing the same idea from section [2.2] given a node vector v; we try to
+predict its neighbouring nodes vj ,yjec, in the graph. This notion of converting a
+graph into a series of text documents has been motivated by the fact that word
+frequency in a document corpus and the visited node frequency during a random
+walk for a connected graph, both follow the power law distribution [8]. Using
+the same intuitions as before, we now try to maximize the likelihood function as
+shown in Equation B] |Ce|
+
+> logPr(v;|vi)
+
+04 vj €C2
+
+ 
+
+(3)
+
+Once more for calculating Pr(v;|v;) we can run into the computational problem
+of summing over all nodes in G’ as shown in Equation [d|which can be large. We
+approximate the objective function by taking sets of positve and negative (v;, v;)
+pairs. In this case, an example for a negative context for v; would be some vertex
+vj which has a very low probability of being in h hop neighbourhood of 1.
+exp(vj7v%)
+
+C2
+t=1
+
+Pr(vj|vi) = (4)
+
+= exp(v,7v)

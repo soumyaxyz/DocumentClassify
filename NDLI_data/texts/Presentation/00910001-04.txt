@@ -1,0 +1,25 @@
+country . For e.g., .jp (Japan), .in (India), .ca (Canada), .uk (United Kingdom) and
+so on.
+
+After its trek through the Internet, and any other networks, the message reaches
+the destination e-mail server. The message is kept on the server until the
+recipient asks to get their e-mail. Then from time to time, as the user runs their e-
+mail program, they ask for any incoming e-mail messages waiting for them. The
+e-mail program transfers or downloads the user's e-mail from the server to their
+own computer. Then the user can read their messages. Alternatively, a user
+might read their e-mail online with their ISP's services. Although it may seem like
+a long and drawn out process, it is actually very fast and the actual transmission
+
+route is immaterial to the users.
+
+What are the basic functions of an e-mail? Reading, printing, saving, replying,
+writing, attaching, sending, keeping and removing. The typical components of an
+email are the text or body of the message, the recipient's address, the subject
+line and the sender's address. Some of the additional features are the Header
+Information, Signature at the bottom of the message containing brief information
+about the sender along with sometimes ‘humorous or philosophical’ quotes.
+Although there are various types of email services but the features are more or
+
+less common in each of them.
+
+Advantages of e-mail:

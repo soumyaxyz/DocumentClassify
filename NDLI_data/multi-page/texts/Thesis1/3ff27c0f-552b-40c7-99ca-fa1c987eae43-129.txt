@@ -1,0 +1,62 @@
+117 Some preparatory results
+
+ 
+
+since
+
+O(F(0)) <2w = (evn) 7g ® id)A(aw) = (eg 077g @ id)A(arw) = (€@ id)A(y) = aw
+
+and similarly (0) <Ys = Ys, Where eg, denotes the counit of the quantum group C’ (T”).
+
+This proves the claim and hence the first part of the Lemma. The second par
+follows from this and ( 4.2.1 ).
+
+ 
+
+ 
+
+ 
+
+ 
+
+Lemma 4.2.4. We have for a in Ao, s in So,
+
+&(Bu(s)) = 8) @ (id @ 2(u))(A(sQ)), (4.2.3)
+
+a(Bu(a)) = aay @ (id @ Q(u))(A(ayy)). (4.2.4)
+
+Proof : By = (id @ evy, 0 7)a. We have
+
+Bu(s)
+= (id@ Q(u))a(s)
+= (id@ Q(u))(sqy ® 51)
+= s)(Q(u))(s())-
+
+This gives,
+
+@(Bu(s))
+= Flsy)filu)(5¢9
+(id @ id @ A( u))
+= (id@id@ Q(u)) cena )a(s))
+(id @ id @ Q(u)) ((id @ A)A(s))
+81) @ (id @ Q (u))A(s(y)-
+
+)
+(A(s(1)) ® §(2) )
+(
+(
+
+Proceeding in a similar way, we obtain 3,,(a) = a(1)(Q(u))(a(ay) for all @ in Ap anc
+hence a(8,(@)) = a) @ (id @ Q(u))(A(agy)) for all @ in Ap.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Lemma 4.2.5. For all s in So,a in Ao, we have
+
+a(a x zs)) = va(f flac ) > A(Tu)) (sia > Ao ))e(u.v)dudv). (4.2.5)

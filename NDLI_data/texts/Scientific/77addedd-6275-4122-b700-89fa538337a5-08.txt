@@ -1,0 +1,88 @@
+Table 3: MobileNetV2(Top 1 Accuracy)
+Table 2: VGG-like CIFAR-10 Neuron Pruning
+
+ 
+
+ 
+
+FLOPs Methods FLOPs Accuracy
+Layer Convl Conv2 Conv3 Conv4 97M 65.40%
+Sparsity 57.03% 17.36% 20.95% 16.06% [2019] ou ele
+parsity 57.03% 17.36% 20.95% 16.06% 97M 65.10%
+FLOP 57% 37% 45% 49% 102M 66.83%
+209M 69.80%
+ConvS Conv6 Conv7 Conv8 Conv9 eM 71%
+10.76% 4.67% 5.30% 1.52% 0.39% ahem our
+9g g 9 oj 9 2 3%
+42% 33% 15% 4.50% 1.60% SOM | Tae
+Conv10 Convl1 Conv12 Conv13 Our metho 209M 73.32%
+0.35% 0.28% 0.27% 0.33% poe Sou 62n0%
+1% 0.85% 0.77% 0.84% 300M eas .
+
+Sai 305M 74.20%
+Our me 305M 74.0%
+
+4.3, VGG-like on CIFAR-10
+
+For VGG-like model, we use CIFAR-10 dataset to evaluate the performance. VGG-like is a standard
+convolution neural network with 13 convolutional layers followed by 2 FC layers (512 and 10
+respectively). The total number of trainable parameters is 15M. Similar to previous works, we use
+the reference VGG-like model pre-trained with SGD with testing error 7.60%.
+
+In this structure, we use L2-norm and L1-norm for £; with hyperparameters Se-5 and le-6, respec-
+tively. We evaluate both Leaky ReLU and Softplus STEs. Leaky ReLU gives a fast sparsification
+speed while Softplus shows a smooth convergence with approximately 1.5x running time. We suggest
+selecting the proper STE based on the time constraint.
+
+For neuron pruning task, as shown in Table [I] our method reaches 23% FLOPs within 150 epochs.
+In Table|2| we show the layer-wise percentage FLOPs of VGG-16 structure. Our model achieves a
+
+higher sparsity at any layer compared to[Li er al.] [2017]. For weight pruning, our model reaches the
+highest 75x compression rate, with only moderate accuracy drop within 150 epochs of training.
+
+4.4 AlexNet, ResNet-50 and MobileNet on ImageNet
+Three models with ILSVRC12 dataset are also tested with our pruning method including 1M training
+images and 0.5M validation and testing images. AlexNet can be considered as deep since it contains
+
+5 convolution layers and 3 FC layers. ResNet-50 consists of 16 convolution blocks with structure
+cfg=[3,4,6,3], plus one input and one output layer, and in total 25M parameters. For MobileNet, we
+
+Table 4: Comparison of Different Weight Pruning Techniques
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Model Methods Error CR
+LeNet300-100 1.76%—2.43% 66.7
+(MNIST) 1.89%— 1.94% 64
+1.64%— 1.92% 68
+1.72% 1.78% 80
+LeNet5S 0.91%—0.91% 108
+(MNIST) 0.88%—0.97% 162
+0.80%— 0.75% 280
+0.91%—0.91% 298
+0.78%—0.80% 260
+0.91%0.91% 310
+VGG-like 6.01%—5.43% 15.58
+(CIFAR-10) 6.42% 6.69% 8.5
+7.55% 7.55% 65
+7.60% 7.82% 75
+AlexNet 43.42% 43.09% 17.7
+(ILSVRC12) 42.80% 43.04% 10.3
+43.30% 50.04% 9.1
+O 43.26% 44.10% 18.5
+ResNet50 Zhuang et al.||2018} 23.99% 25.05% 2.06
+(ILSVRC12) Our method 25.10% 25.50% 2.2

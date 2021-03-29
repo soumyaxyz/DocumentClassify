@@ -1,0 +1,42 @@
+20 3. GROUPS OF TYPE G2
+
+1 >), where < 1 > denotes the bilinear form (x,y) H zy on k. Fixing a trivialization
+w: AX(V,6) & (k, < 1 >), we define a vector product x: Vx V — V by the identity,
+b(u,uxw) = ~(uAvAvw), for u,v,w € V. Let Q be the 4-dimensional k-vector space
+Q = Q(k; V,6,w) =k @V. We define a multiplication on Q by,
+
+(a, v)(b, w) = (ab — b(v,w), aw+bu+uxw), abek, vpwev.
+
+With this multiplication, Q is a quaternion algebra over k, with norm N(a,v) =
+a? + b(v,v). The isomorphism class of Q thus obtained, does not depend on w. One
+
+can show that all quaternion algebras arise this way.
+
+Proposition 3.1.6. Let (V,6) and (V',6’) be isometric quadratic spaces with
+trivial discriminants, over a field k. Then the quaternion algebras Q(k;V,6) and
+Q(k; V', 6’) are isomorphic.
+
+3.2. Some Subgroups of G2
+
+Let € be an octonion algebra over a field k (of characteristic 4 2). Let L be a
+composition subalgebra of €. In this section, we describe subgroups of G = Aut(€),
+
+consisting of automorphisms leaving L pointwise fixed or invariant. We define
+G(€/L) = {t € Aut(€) | t((z) =a V ae L}
+and
+G(€, L) = {t € Aut(€) | tw) e LVaxe L}.
+Jacobson studied G(€/L) in his paper ({J]). We mention the descriptions of these
+subgroups here. One knows that the two dimensional composition algebras over k
+are precisely the quadratic étale algebras over k ([KMRT], Theorem 33.17). Let L
+be a two dimensional composition subalgebra of €. Then L is either a quadratic field
+extension of k or L &k x k. Let us assume first that LD is a quadratic field extension
+
+of k and L = k(y), where 7? = c.1 40. Then L+ is a left L vector space via the
+
+octonion multiplication. Also,
+h: Lt x I+ L
+h(2,y) = N(a,y) +y"N(y2,y),
+is a nondegenerate hermitian form on L+ over L. Any automorphism ¢ of €, fixing
+
+L pointwise, induces an L-linear map t|,1: L+ —+ L+. Then we have ([J], Theorem
+3),

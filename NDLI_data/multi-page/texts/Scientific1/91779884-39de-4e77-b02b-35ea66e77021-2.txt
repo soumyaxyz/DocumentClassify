@@ -1,0 +1,160 @@
+Blending Digital and Face-to-Face Interaction Using a Co-Located Social Media App in Class
+
+ 
+
+Improving face-to-face (f2f) interaction in large classrooms is a challenging task as student participation can be hard to initiate. wackcrouND BACKGROUND
+Thanks to the wide adoption of personal mobile devices, it is possible to blend digital and face-to-face interaction and integrate co-located social media
+applications in the classroom. BACKGROUND
+
+To better understand how such applications can interweave digital and f2f interaction, we performed a detailed analysis of real-world use cases of a
+particular co-located social media app: SpeakUp. tecuinique TECHNIQUE
+
+In a nutshell, SpeakUp allows the creation of temporary location-bound chat rooms that are accessible by nearby users who can post and rate messages
+anonymously. + = OBSERVATION
+
+We find that the use of co-located social media is associated with an increase in content-related interaction in the class. |
+
+ 
+
+ 
+
+ATION OBSERVATION
+Furthermore, it is associated with an increase in the perceived learning outcomes of students compared to a control group. osseRvATioN OBSERVATION
+We further provide design guidelines to blend digital and f2f interaction using co-located social media in the classroom based on 11 case studies covering
+
+ 
+
+over 2,000 students. oBsERVATION OBSERVATION
+
+ 
+
+ 
+
+Figure 1: An abstract, from cs.TLT dataset, with
+
+CONCLUSION. As similar segmented CS abstracts are not avail-
+able, we employed human annotators to prepare our own datasets.
+However, the annotators found it difficult to consistently annotate
+the sentences of CS abstracts into five distinct classes similar to
+those of the PubMed abstracts. Our discussions with the annotators
+revealed that the OBJECTIVE is hardly explicated; rather, the same
+sentence mixes the OBJECTIVE and the METHOD. These findings
+motivated us to adopt a compressed discourse structure where such
+sentences are labeled as TECHNIQUE. If a sentence is clearly an
+OBJECTIVE, it has been labeled as BACKGROUND. Similarly, CS
+abstracts typically report some qualitative or quantitative findings
+without always making a general comment. Such sentences have
+been labeled as OBSERVATION. There can be a rare fourth sentence
+label, CODE, but the sentences in this class can be easily detected
+with regular expressions in a preprocessing step. Therefore, we
+remove such lines from the corpus, before feeding the abstracts to
+the machine learning model. Thus, a CS abstract is segmented into
+three classes: BACKGROUND, TECHNIQUE, and OBSERVATION.
+The mapping between the two structures is shown in Table 1.
+
+ 
+
+ 
+
+ 
+
+ 
+
+BACKGROUND
+
+OBJECTIVE BACKGROUND
+METHOD TECHNIQUE
+RESULT
+
+CONCLUSION OBSERVATION
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Table 1: Mapping between the discourse categories in
+biomedical and computer science papers.
+
+3 DATASET
+
+We introduce five new datasets of segmented abstracts in this pa-
+per. First, we introduce the PubMed-non-RCT corpus containing
+abstracts of articles from PubMed that do not report randomized
+control trial (RCT). Like its RCT-analog in [4], it contains 20k ab-
+stracts, structured into the five classes already described.
+
+ 
+
+ 
+
+ 
+
+Dataset Classes Train Validation Test
+PubMed-non-RCT 5 15k (165681) 2.5K (26992) _2.5k (24054)
+cs.NI 3 110 (1224) - 40 (460)
+cs.TLT 3 110 (928) - 40 (326)
+
+cs. TPAML 3 110 (901) - 40 (326)
+cs.combined 3 330 (3053) - 120 (1112)
+
+ 
+
+ 
+
+Table 2: Dataset summary. Columns 3-5 show the number
+of abstracts in each subset, with the total number of lines in
+bracket.
+
+ 
+
+and predicted ( correct and errornous_) labels.
+
+We created four corpora of CS abstracts: (1) cs.NI: 150 abstracts
+on Networking and Internet Architecture from arXiv, (2) cs.TLT: 150
+abstracts from the journal JEEE Transactions on Learning Technolo-
+gies, (3) cs. TPAMI: 150 abstracts from the journal IEEE Transactions
+on Transactions on Pattern Analysis and Machine Intelligence, and (4)
+cs.combined: the aggregation of the above three CS corpora. Unlike
+PubMed-non-RCT, these abstracts were not available in structured
+format. So, we first segmented each CS abstract into sentences with
+the spaCy’ library. Each sentence in cs.TLT and cs.TPAMI abstracts
+was then labeled with one of the three classes by two independent
+annotators who are CS engineering graduates and, therefore, famil-
+iar with the domains. The inter-annotator agreement was found to
+be very high with Cohen’s Kappa [2] of 0.87 and 0.91, respectively.
+In case of cs.NI, the dataset was distributed among senior CS un-
+dergraduates. Subsequently, the annotations were reviewed by a
+CS doctoral scholar. Disagreements were resolved though mutual
+discussion. In a few instances, the sentence segmentation generated
+with spaCy was erroneous. The annotators corrected them manu-
+ally. The requirement of domain experts precluded the generation
+of very large labeled datasets in CS. Table 2 summarizes the datasets
+and how each is divided into train, validation, and test subsets.
+
+ 
+
+ 
+
+ 
+
+ 
+
+0.0 0.2 0.4 0.6 08 10
+™@mm BACKGROUND mm TECHNIQUE @mm OBSERVATION
+
+Figure 2: Distribution of labels in cs.combined, visualized.
+
+The average number of lines in a CS abstract is approximately
+nine. Figure 2 shows the distribution of labels in the cs.combined cor-
+pus. Normalizing all abstracts to nine sentences, the figure demon-
+strates what fraction of which lines belong to which label. It is
+apparent that the abstracts in the dataset roughly follow the label
+sequence: BACKGROUND — TECHNIQUE — OBSERVATION.
+
+?https: //spacy.io

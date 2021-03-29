@@ -1,0 +1,17 @@
+REFERENCES REFERENCES
+
+ 
+
+Conference of the North American Chapter of the Association for Computa-
+tional Linguistics—Human Language Technologies, 97-104, ACL, Rochester,
+NY, USA. 64, 67
+
+Zobel, J. & Moffat, A. (2006). Inverted files for text search engines. ACM Com-
+puting Surveys, 38. 15
+
+Zuccon, G. & Azzopardi, L. (2010). Using the quantum probability ranking prin-
+ciple to rank interdependent documents. In Proceedings of the 32nd European
+Conference on IR Research on Advances in Information Retrieval, 357-369,
+Springer, Milton Keynes, UK. 64, 67
+
+261

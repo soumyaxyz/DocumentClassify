@@ -1,0 +1,54 @@
+82 8. REALITY IN GROUPS OF TYPE G2
+
+and t' = Ki, where p € SL,(Q) and p' € SL1(Q') and both p,p' ¢ k. Suppose L = k(p)
+and L' = k(p') are isomorphic field extensions of k. Then Zq(t) is conjugate to Z(t’)
+inG.
+
+Proof. As Q and Q’ are isomorphic, by Theorem 3.2.8 we have an automorphism
+¢ of € such that ¢|qg is the given isomorphism of Q to Q’. By conjugating the element
+t' by @ we may assume ¢ and t’ both belong to G(€/Q). Let L and L’ be isomorphic.
+Then there exists an isomorphism ~ = 3,, conjugation by c € Q, which gives the
+isomorphism of L to L’. Let g € Z¢(R,). From previous lemma g = ®,,I-, with
+pic, € L. Then,
+
+Ugh) = IMp, Te, Jo1 = Rope? Deco.
+
+1
+
+We note that epyc-teeyc~? = cpyeyc! € L’. This implies gw! € Z(t’) and hence
+
+Zc(t) is conjugate to Z(t’) in G.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Remark 8.5.4. In similar way one can calculate centralizers of elements of
+G(€,Q). Let t € G(€,Q). Let t = R,3. where p € SL,(Q) and c € Q—k. Then
+Za(t) = {Mp Je, | cr € k(c), pica € k(pe)}.
+
+We note that the center of SL,(Q) is {1,—1} and the element ¢ in Aut(€) cor-
+responding to —1 is a non-trivial involution (ie. t? = 1). By a similar calculation
+as above it is easy to see that Z(t) = G(€,Q) for 1 # t an involution. In fact any
+non-trivial involution in Aut(€) correspond to a quaternion subalgebra in this fash-
+ion. Two involutions are conjugate if and only if the corresponding fixed quaternion
+subalgebras are isomorphic (see Section 3.3). From Proposition 3.2.9, two involutions
+have their centralizers conjugate if and only if the corresponding fixed quaternion
+subalgebras are isomorphic. We observe that the centralizers corresponding to invo-
+lutions and other type of elements in Lemma 8.5.3 are not isomorphic hence they can
+not be conjugate in the group G.
+
+Let t € G = Aut(€) where € is a division octonion algebra. Then ¢ fixes a
+quadratic subfield L pointwise as the dimension of €' is > 2. Moreover we can
+find a,b € € such that Q = L @ La is a quaternion subalgebra and € = Q © Qb.
+Then L+ is a hermitian space over L. With respect to the basis {a,b,ab} we write
+the subgroup SU(L+,) of G as SU(H) = {A € SL(3,L) | AHA = H} where
+H = diag{h(a, a), h(b, b), h(ab, ab)}. We denote the matrix of t as A with respect to
+this basis. We observe that t leaves a quaternion subalgebra fixed pointwise if and
+only if 1 is an eigenvalue of A, i.e., X — 1 is a factor of the characteristic polynomial
+
+xa(X). The conjugacy classes of centralizers of such elements have been already

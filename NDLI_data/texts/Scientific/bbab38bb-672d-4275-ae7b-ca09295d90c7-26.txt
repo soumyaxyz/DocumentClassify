@@ -1,0 +1,52 @@
+576 F. Ensan, W. Du
+
+configurations are illustrated. MAP values are calculated as the average MAP over the difficult
+set of queries. This analysis shows that SELM V2 (ESA) is the most effective system in
+answering the difficult queries over all datasets. For Robust04, SELM V2 (a = 0.85) is the
+best performing system (MAP = 0.062 compared to V1 MAP, which is 0.056, and V3 MAP,
+which is 0.058), while V2 in all thresholds has larger MAP than its peers V1 and V3. The same
+patterns repeats for ClueWeb09-B, where SELM V2 has the largest MAP values (MAP =
+0.022 for @ = 0.85) compared to the best values obtained by other configurations (V1
+MAP = 0.015, V2 MAP = 0.0127). In this dataset, SELM V2 in all of its thresholds is better
+than the other systems in all of their similarity thresholds. SELM V2 is the best performing
+configuration over ClueWeb12-B as well. When a = 0.85, SELM V2 is slightly better than
+SELM V1 and considerably better than SELM V3. For all other similarity thresholds, SELM
+V2 is the leading configuration in this collection.
+
+For the last experiment, we analyze how different similarity thresholds affect the per-
+formance of SELM variations. For this purpose we run SELM with 13 different similarity
+thresholds, ranging from 0.3 to 0.95 with intervals of 0.05. Figure 9 illustrates this experiment.
+This figure has three parts, each of which shows SELM variations performance measured by
+their MAP with different similarity thresholds (shown as @) over a document collection. For
+this experiment, MAP is calculated over all queries including those that have no concepts
+attached. These queries have no answer over all SELM variations for all a values. As seen in
+Fig. 9a, SELM V2, the configuration that uses ESA for semantic similarity, has the best MAP
+over all thresholds (@ values) in Robust04 collection. SELM V2 enjoys a slight improvement
+as @ increases, while SELM V1 and V3 experience sharp improvements with higher values
+for a. In ClueWeb09-B (Fig. 9b), SELM V2 keeps its advantage over V1 and V3, though the
+MAP chart has a different pattern. In this dataset, SELM V2 has a slight decrease in its MAP
+values as w increases, while SELM V1 and SELM V3 MAPs fluctuate over a, with a tendency
+to mostly increase after « = 0.55. In ClueWeb12-B (Fig. 9c), three variations have a very
+similar performance after « = 0.8, while SELM V3 has a slight lead to the others prior to
+that point. From Fig. 9, we can observe SELM V2 keeps a steady performance over different
+thresholds. However, the best working threshold differs for each document collection and
+each method, and hence can be found by learning methods with a set of training data.
+
+8 Related work
+
+Semantic modeling and retrieval have gained the attention of diverse research communities
+in recent years. Latent semantic models and statistical translation language models are two
+examples of ranking models that propose alternative ways for representing texts other than
+the classic bag-of-words representation for capturing semantics of documents and queries. In
+latent semantic models such as [2,17], documents and queries are modeled as a set of words
+generated from a mixture of latent topics, where a latent topic is a probability distribution
+over the terms or a cluster of weighted terms. Through these models, the similarity between
+a query and a document is analyzed based on their corresponding latent topics. In translation
+language models, the likelihood of translating a document to a query is estimated and used
+for the purpose of ranking [19,22]. In these models, translation relationships between a term
+in the document and a term in the query are estimated, and because a term in the document
+can be translated into a different term in the query, these models can be utilized to cope with
+the vocabulary gap problem. Contrary to latent semantic models and translation models, in
+SELM, documents and queries are not modeled using latent semantics. This fact introduces
+
+a Springer

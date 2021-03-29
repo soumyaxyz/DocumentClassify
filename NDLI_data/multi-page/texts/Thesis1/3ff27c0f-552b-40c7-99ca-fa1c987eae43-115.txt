@@ -1,0 +1,60 @@
+103 Examples and computations
+
+ 
+
+z1,22 are as in Lemma 3.4.13. We compute
+
+(D ® id)W (Ue; @ 1)
+= (D®id)(a(U)W(e1 ® 1))
+= (D@id\(U® a)(e1 ®@q1 +€2 ®@ m2)
+= (D@id)(UVe1 ® aqui + Ver ® aq)
+= Ueg®7q1 + Ue, @ 1qQ12-
+
+On the other hand,
+
+W(D @id)(Ue. @ 1)
+= WUe® 1)
+= W(U @id)W*W(e2@1)
+= o(V)W(e2@ 1)
+= (U® z)(e1 ® gai + €2 ® qa)
+
+= Ve, ® 21921 + Veg ® 21Q22.
+
+By comparing coefficients of Ue, and Ueg in the both sides of the equality (D ®
+id)W(Ue1) = WDUe1, we have,
+21912 = 21921 (3.4.26)
+
+and
+
+Z1911 = 21922. (3.4.27)
+
+Since z; is a unitary, we have qi; = qg2 and qi2 = qai.
+
+Similarly, from the relation (D ® I)W(Ve1) = WDVei, we have qi2 = —921, 22 =
+qi.
+
+By the above two sets of relations, we obtain :
+
+m2 = d1 = 0, qu = G2 = g ( say ).
+
+qi 12 os
+
+But the matrix is a unitary in M2(Q), so q is a unitary.
+
+q21 422
+Moreover, we note that W(aei) = a(a)W(e;) for all a in C%(T?). Using Lemma
+
+3.4.13 and the above observations, we deduce that any CQG which has a unitary repre-
+sentation commuting with the Dirac operator is a quantum subgroup of C(T?) « C(T).
+
+On the other hand, C(T?) « C(T) has a unitary representation commuting with D,
+given by the formulae ( 3.4.22 ) - ( 3.4.25 ) taking q2 = qo1 = 0, G11 = G22 = q’ where
+qd is the generator of C(T) and 21, 2 to be the generator of C(T?). This completes the
+
+ 
+
+ 
+
+ 
+
+proof.

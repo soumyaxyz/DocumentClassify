@@ -1,0 +1,33 @@
+Chapter 3
+
+Quantum group of orientation
+
+preserving Riemannian isometries
+
+3.1 Introduction
+
+The formulation of quantum isometry groups in [30] had a major drawback from the
+viewpoint of noncommutative geometry since it needed a ‘good’ Laplacian to exist. In
+noncommutative geometry it is not always easy to verify such an assumption about the
+Laplacian, and thus it would be more appropriate to have a formulation in terms of the
+Dirac operator directly. This is what we aim to achieve in the present chapter.
+
+The group of Riemannian isometries of a compact Riemannian manifold M can
+be viewed as the universal object in the category of all compact metrizable groups
+acting on M, with smooth and isometric action. Moreover, let us assume that the
+manifold has a spin structure (hence in particular orientable, so we can fix a choice of
+orientation) and D denotes the conventional Dirac operator acting as an unbounded
+self-adjoint operator on the Hilbert space H of square integrable spinors. Then, it can
+be proved that a group action on the manifold lifts as a unitary representation on the
+Hilbert space 7 which commutes with D if and only if the action on the manifold is an
+orientation preserving isometric action. Therefore, to define the quantum analogue of
+the group of orientation-preserving Riemannian isometries of a possibly noncommutative
+manifold given by a spectral triple (A®,H, D), it is reasonable to consider a category
+Q’ of compact quantum groups having unitary (co-) representation, say U, on H, which
+commutes with D, and the action on B(H) obtained by conjugation maps A into its
+weak closure. A universal object in this category, if it exists, should define the ‘quantum
+group of orientation preserving Riemannian isometries’ of the underlying spectral triple.
+It is easy to see that any object (S,U) of the category Q’ gives an equivariant spectral
+triple (A®,H, D) with respect to the action of S implemented by U. It may be noted
+
+69

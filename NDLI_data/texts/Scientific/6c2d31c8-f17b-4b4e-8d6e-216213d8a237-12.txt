@@ -1,0 +1,66 @@
+Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V.
+Le, Mohammad Norouzi, Wolfgang Macherey,
+Maxim Krikun, Yuan Cao, Qin Gao, and
+Klaus Macherey et al. 2016. Google’s neural
+machine translation system: Bridging the gap
+between human and machine translation. CoRR,
+abs/1609.08144.
+
+Hai Ye and Lu Wang. 2018. Semi-supervised learning
+for neural keyphrase generation. In Proceedings of
+the 2018 Conference on Empirical Methods in Natu-
+ral Language Processing, Brussels, Belgium, Octo-
+ber 31 - November 4, 2018, pages 4142-4153.
+
+Xingdi Yuan, Tong Wang, Rui Meng, Khushboo
+Thaker, Daqing He, and Adam Trischler. 2018.
+Generating diverse numbers of diverse keyphrases.
+CoRR, abs/1810.05241.
+
+Jiani Zhang, Xingjian Shi, Junyuan Xie, Hao Ma, Ir-
+win King, and Dit-Yan Yeung. 2018a. Gaan: Gated
+attention networks for learning on large and spa-
+tiotemporal graphs. In Proceedings of the Thirty-
+Fourth Conference on Uncertainty in Artificial Intel-
+ligence, UAI 2018, Monterey, California, USA, Au-
+gust 6-10, 2018, pages 339-349.
+
+Qi Zhang, Yang Wang, Yeyun Gong, and Xuanjing
+Huang. 2016. Keyphrase extraction using deep re-
+current neural networks on twitter. In Proceed-
+ings of the 2016 Conference on Empirical Meth-
+ods in Natural Language Processing, EMNLP 2016,
+Austin, Texas, USA, November 1-4, 2016, pages
+836-845.
+
+Wei Zhang, Yan Chuan Sim, Jian Su, and Chew Lim
+Tan. 2011. Entity linking with effective acronym
+expansion, instance selection, and topic modeling.
+In IJCAI 2011, Proceedings of the 22nd Interna-
+tional Joint Conference on Artificial Intelligence,
+Barcelona, Catalonia, Spain, July 16-22, 2011,
+pages 1909-1914.
+
+Wei Zhang, Jian Su, Chew Lim Tan, and Wenting
+Wang. 2010. Entity linking leveraging automati-
+cally generated annotation. In COLING 2010, 23rd
+International Conference on Computational Lin-
+guistics, Proceedings of the Conference, 23-27 Au-
+gust 2010, Beijing, China, pages 1290-1298.
+
+Yingyi Zhang, Jing Li, Yan Song, and Chengzhi Zhang.
+2018b. Encoding conversation context for neu-
+ral keyphrase extraction from microblog posts. In
+Proceedings of the 2018 Conference of the North
+American Chapter of the Association for Compu-
+tational Linguistics: Human Language Technolo-
+gies, NAACL-HLT 2018, New Orleans, Louisiana,
+USA, June 1-6, 2018, Volume I (Long Papers), pages
+1676-1686.
+
+Yongzheng Zhang, A. Nur Zincir-Heywood, and Evan-
+gelos E. Milios. 2004. World wide web site sum-
+marization. Web Intelligence and Agent Systems,
+2(1):39-53.
+
+2174

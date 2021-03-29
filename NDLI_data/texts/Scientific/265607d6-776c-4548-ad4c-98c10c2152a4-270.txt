@@ -1,0 +1,42 @@
+REFERENCES REFERENCES
+
+ 
+
+Santos, R.L.T., Macdonald, C. & Ounis, I. (2011la). Aggregated search result di-
+versification. In Proceedings of the 3rd International Conference on the Theory
+of Information Retrieval, 250-261, Springer, Bertinoro, Italy. 6, 217, 218
+
+Santos, R.L.T., Macdonald, C. & Ounis, I. (2011b). Effectiveness beyond the
+first crawl tier. In Proceedings of the 20th AC'M International Conference on
+Information and Knowledge Management, 1937-1940, ACM, Glasgow, UK. 102
+
+Santos, R.L.T., Macdonald, C. & Ounis, I. (2011c). How diverse are web search
+results? In Proceedings of the 34th Annual International ACM SIGIR Confer-
+ence on Research and Development in Information Retrieval, 1187-1188, ACM,
+Beijing, China. 135
+
+Santos, R.L.T., Macdonald, C. & Ounis, I. (2011d). Intent-aware search result
+diversification. In Proceedings of the 34th Annual International ACM SIGIR
+Conference on Research and Development in Information Retrieval, 595-604,
+ACM, Beijing, China. 5, 45
+
+Santos, R.L.T., Macdonald, C. & Ounis, I. (2011e). On the suitability of diver-
+sity metrics for learning-to-rank for diversity. In Proceedings of the 34th Annual
+International ACM SIGIR Conference on Research and Development in Infor-
+mation Retrieval, 1185-1186, ACM, Beijing, China. 6
+
+Santos, R.L.T., Macdonald, C. & Ounis, I. (2011f). University of Glasgow at the
+NTCIR-9 Intent task. In Proceedings of the 9th NTCIR Workshop Meeting on
+
+Evaluation of Information Access Technologies, Tokyo, Japan. 6, 77
+
+Santos, R.L.T., McCreadie, R. & Plachouras, V. (2011g). Large-scale information
+retrieval experimentation with Terrier. In Proceedings of the 20th ACM Inter-
+national Conference on Information and Knowledge Management, 2601-2602,
+ACM, Glasgow, UK. 102
+
+Santos, R.L.T., Macdonald, C., McCreadie, R., Ounis, I. & Soboroff, I. (2012a).
+Information retrieval on the blogosphere. Foundations and Trends in Informa-
+tion Retrieval, 6, 1-125. 217
+
+252

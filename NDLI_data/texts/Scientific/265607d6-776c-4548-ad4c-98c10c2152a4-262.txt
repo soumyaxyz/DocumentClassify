@@ -1,0 +1,55 @@
+REFERENCES REFERENCES
+
+ 
+
+Miller, D.R.H., Leek, T. & Schwartz, R.M. (1999). A hidden Markov model in-
+formation retrieval system. In Proceedings of the 22nd Annual International
+ACM SIGIR Conference on Research and Development in Information Re-
+trieval, 214-221, ACM, Berkeley, CA, USA. 26
+
+Mizzaro, S. (1997). Relevance: The whole history. Journal of the American Soci-
+ety for Information Science, 48, 810-832. 47
+
+ 
+
+Moffat, A. & Zobel, J. (2008). Rank-biased precision for measurement of retrieval
+
+ 
+
+ 
+
+ 
+
+o
+
+fectiveness. ACM Transactions on Information Systems, 27, 1-27. 52, 81
+
+Mowshowitz, A. & Kawaguchi, A. (2002). Assessing bias in search engines. Infor-
+mation Processing and Management, 38, 141-156. 85
+
+Murdock, V. & Lalmas, M. (2008). Workshop on aggregated search. SIGIR Fo-
+rum, 42, 80-83. 218
+
+ 
+
+Najork, M. & Wiener, J.L. (2001). Breadth-first crawling yields high-quality
+pages. In Proceedings of the 10th International Conference on World Wide
+Web, 114-118, ACM, Hong Kong, Hong Kong. 12
+
+Nemhauser, G.L., Wolsey, L.A. & Fisher, M.L. (1978). An analysis of approxima-
+tions for maximizing submodular set functions—I. Mathematical Programming,
+14, 265-294. 62, 86
+
+Newman, M.E.J. (2003). The structure and function of complex networks. SJAM
+Review, 45, 167-256. 40
+
+Ntoulas, A., Cho, J. & Olston, C. (2004). What’s new on the Web? The evolu-
+tion of the Web from a search engine perspective. In Proceedings of the 13th
+International Conference on World Wide Web, 1-12, ACM, New York, NY,
+USA. 13
+
+Ntoulas, A., Najork, M., Manasse, M. & Fetterly, D. (2006). Detecting spam
+web pages through content analysis. In Proceedings of the 15th International
+Conference on World Wide Web, 83-92, ACM. 39
+
+244

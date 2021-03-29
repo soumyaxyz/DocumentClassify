@@ -1,0 +1,55 @@
+100 BIBLIOGRAPHY
+
+El3] Erich W. Ellers, “Bireflectionality in classical groups”, Canad. J. Math. 29
+(1977) no. 6, 1157-1162.
+
+El4] Erich W. Ellers, “Products of involutions in simple Chevalley groups”, J. Geom.
+69 (2000) no. 1-2, 68-72.
+
+EG] Erich W. Ellers, N. Gordeev, “On the conjectures of J. Thompson and O. Ore”,
+Trans. Amer. Math. Soc. 350 (1998) no. 9, 3657-3671.
+
+F] E.E. Floyd, “Orbits of torus groups operating on manifolds”, Ann. of Math. (2)
+65 (1957), 505-512.
+
+FKS] B. Fein, W. Kantor and M. Schacher, “Relative Brauer groups II”, Journal fiir
+die reine und angewandte Mathematik 328 (1981), 39-57.
+
+Fl] Y. Z. Flicker, “A remark on local-global principles for conjugacy classes”, Ark.
+Mat. 40 (2002) no. 1, 47-53.
+
+FZ] W. Feit and G. J. Zuckermann, “Reality properties of conjugacy classes in spin
+
+ 
+
+groups and symplectic groups”, Algebraists’ Homage: Papers in Ring Theory
+and Related Topics (S. A. Amitsur, D. J. Saltman and G. B. Seligman, eds.),
+Contemporary Mathematics 13 (1982), 239-253.
+
+[G] L. C. Grove, “Classical groups and geometric algebra”, Graduate Studies in
+Mathematics, 39, American Mathematical Society, Providence, RI, 2002.
+
+[Hu] J. E. Humphreys, “Linear algebraic groups”, Graduate Texts in Mathematics,
+No. 21. Springer-Verlag, New York-Heidelberg, 1975.
+
+[J] N. Jacobson, “Composition algebras and their automorphisms”, Rendiconti del
+Circolo Matematico Palermo (2) 7 (1958), 55-80.
+
+[JL] G. James and M. Liebeck, “Representations and characters of groups”, Second
+
+edition, Cambridge University Press, New York, 2001.
+
+[K] M. Kneser, “Lectures on Galois cohomology of classical groups, With an appen-
+diz by T. A. Springer, Notes by P. Jothilingam”, Tata Institute of Fundamental
+Research Lectures on Mathematics, No. 47, Tata Institute of Fundamental Re-
+search, Bombay, 1969.
+
+[Ka] K. Kariyama, “On conjugacy classes of maximal tori in classical groups”, J.
+Algebra 125 (1989), no. 1, 133-149.
+
+[KMRT] M. A. Knus, A. Merkurjev, M. Rost and J. P. Tignol, “The book of involu-
+tions”, American Mathematical Society Colloquium Publications, vol. 44, The
+American Mathematical Society, Providence, RI, 1998.
+
+[KN] F. Kntippel and K. Nielsen, “Products of involutions in O*(V)”, Linear Algebra
+Appl. 94 (1987), 217-222.

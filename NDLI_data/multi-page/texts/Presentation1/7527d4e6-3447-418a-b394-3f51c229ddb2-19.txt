@@ -1,0 +1,7 @@
+Answer a Few Quick Questions
+
+* Cite a few examples of Department IT applications
+* Cite a few examples of OLTP applications
+¢ Cite a few examples of Business Process/Model Innovation
+
+* Cite a couple of examples of Decision Support Systems

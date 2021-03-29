@@ -1,0 +1,176 @@
+IEEE Access:
+
+S. Banerjee et al.: Physically Secure Lightweight Anonymous User Authentication Protocol for loT
+
+ 
+
+schemes including user authentication for IoT. In addition
+to the individual vulnerabilities, all the discussed schemes
+fail to prevent impersonation of compromised smart devices
+(sensor nodes) using the extracted credentials.
+
+Gope et al. [12] used physically unclonable function (PUF)
+to physically secure sensor nodes in industrial wireless sensor
+networks. Devadas et al. [13] proposed PUF-based RFID
+integrated circuits for anti-counterfeiting application. Since
+then PUFs have been widely used in securing RFID systems.
+Gope et al. [14] discussed the issue of noise in PUF output
+and its implication on authentication schemes. They utilized
+fuzzy extractor technique to circumvent this issue. Ad-
+ditionally, their scheme has high communication overhead,
+and it is only secure under the DY threat model and cannot
+resist ephemeral secret leakage attack under the current CK-
+adversary model (discussed in the threat model in Section
+
+ 
+
+ 
+
+In this article, we aim to propose a novel secure
+lightweight anonymous authentication protocol for loT en-
+vironment using PUFs that can prevent impersonation of
+compromised smart devices in addition to resisting other
+well-known attacks needed for IoT security.
+
+IV. THE PROPOSED SCHEME
+
+In this section, we present our proposed scheme that is a
+physically secure lightweight user authentication scheme in
+the IoT environment based on PUFs. The proposed scheme is
+divided into five distinct phases, namely 1) setup, 2) device
+enrollment, 3) user registration, 4) mutual authentication and
+session key agreement, and 5) maintenance. In Table fy we
+define the important notations and their significance that are
+used in the proposed scheme.
+
+TABLE 1: Important notations and their significance
+
+ 
+
+ 
+
+Symbol Description
+
+IDu,SCu Identity and smart card of a user U, respectively
+PWu,BIOu Password & biometrics of U, respectively
+IDg,GWN Identity of an IoT smart device SD and the gateway
+
+node, respectively
+
+LTS Long term secret of the GW N.
+
+Gen(-), Rep(-) Fuzzy extractor probabilistic generation & reproduc-
+tion functions, respectively
+
+et Error tolerance threshold applied in Rep(-)
+PUF(-) Physically unclonable function
+(Ci, Ri) it challenge response pair associated with PU F(-)
+
+rectified with fuzzy extractor
+
+p A sufficiently large prime number (160 bit number)
+
+Zo A finite (prime) field, Z, = {0,1,++» ,p — 1}
+
+h(-) Collision-resistant cryptographic one-way hash func-
+tion
+
+||,@ String concatenation and bitwise exclusive (XOR)
+
+operations, respectively
+
+ 
+
+The detailed description of all the phases related to the
+proposed scheme is provided in the following subsections.
+
+A. SETUP PHASE
+
+During the setup phase, the gateway node (GW N) defines
+the system parameters: a collision-resistant cryptographic
+one way hash function h(-), a physically unclonable function
+
+VOLUME 7, 2019
+
+PU F(.), and the fuzzy extractor generator and reproduction
+functions Gen(-) and Rep(-). The GWN selects a prime
+field Z,, and also generates a long term secret key LTS € Zp.
+After the setup, the system is ready for operations like device
+enrollment, user registration and other phases.
+
+B. DEVICE ENROLLMENT PHASE
+The IoT smart devices can be dynamically enrolled into the
+system in offline mode anytime after setup through the steps
+described below.
+
+e Step 1. The GWN defines the identity [Dy of each
+smart device SD. The GW N then generates Cu, a set
+of n random challenges to be used during authentication
+for SD, where Cy = {Ca,,--- Ca t-E]
+
+e Step 2. The GWN computes the response set Resq for
+the challenge set Cy as Resa, = PUF(Ca,),Vi €
+[1, n]. The sets Ry and hdg are then calculated by pass-
+ing Res, through the fuzzy generator function Gen(-),
+where Ry = {Rajjicfinj}, hda = {hda,jie(anj} and
+{Ra,, hda,} = Gen(Resa,), Vi € [1, n].
+
+« Step 3. The GW N stores the credentials {I Du, Ca, hda}
+along with the public system parameters h(-), PUF‘(-),
+Gen(-), Rep(-), et (an error tolerance threshold param-
+eter used in Rep(-) function) and Z, in the memory
+of SD prior to its deployment in the IoT environment.
+On the other hand, the GW N saves each device $_D’s
+identity [Dq and the challenge response sets Ca and Ra
+along with the public system parameters h(-), PUF‘(-),
+Gen(-), Rep(-), et, and Z,, and also its own long term
+secret key LTS in its database.
+
+The device enrollment steps have been summarized in
+
+Figure]
+
+ 
+
+Gateway (GW N)
+
+Save each device SD’s identity [Da, and sets Ca
+and Ry along with h(-), PUF(-), Gen(-), Rep(-),
+et, and Z,, and long term secret key LTS’
+Smart device (SD)
+
+Store [Dy, Ca and hdg, along with h(-),
+PUF(.), Gen(-), Rep(.), et, and Zp
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+FIGURE 2: Summary of device enrollment
+
+C. USER REGISTRATION PHASE
+The users can register into the system anytime after the above
+setup phase in offline mode through secure channel with the
+following steps.
+« Step 1. Auser U picks his/her identity [_D,, and sends it
+as the registration request message to the gateway node
+GW N through a secure channel.
+
+' Additional random challenges are unnecessary in order to handle the
+issue of desynchronization or denial of service (DoS) attack as described
+in (12), because our proposed scheme does not require synchronization
+between the GW N and the smart devices.

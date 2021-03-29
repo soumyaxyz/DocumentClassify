@@ -1,0 +1,40 @@
+CHAPTER 10
+Epilogue
+
+In this chapter, we address the question of reality in the frame work of represen-
+tation theory. We start with a discussion of the question for finite groups. We do
+not define some of the terminology used in this chapter, however we give appropriate
+
+references.
+
+10.1. Reality Question and Representation Theory
+
+First we discuss real representations of a finite group and its relation to real
+elements in the group. For the theory here we refer to the book [JL] chapter 23. Let
+G be a finite group. We consider representations of G over C. A character y of G is
+called real if y(g) € R, for all g € G. Then we have (see [JL], Theorem 23.1),
+
+Proposition 10.1.1. Let G be a finite group. The number of real irreducible
+
+characters of G is equal to the number of real conjugacy classes of G.
+
+Note that if an element g is real then all conjugates of g are real and we call the
+conjugacy class of g, a real conjugacy class. A representation ¢: G — GL(V) is
+realizable if it is defined over R, i.e. with respect to some basis of V the ¢(G) C
+GL,(R). It is obvious that a character corresponding to a realizable representation
+is real. This brings us to the question of determining representations which give rise
+
+to real characters.
+
+Proposition 10.1.2. Let G be a finite group and x be an irreducible character
+of a representation V. Then, x is real if and only if there is a non-zero G-invariant
+
+bilinear form on the representation space V.
+
+A representation (¢,V) of G is called orthogonal (symplectic) if there exists a
+non-zero symmetric (skew-symmetric) bilinear form on V which is G-invariant. That
+is, o(G) C O,(C) if the representation is orthogonal and ¢(G) C Spom(C) if the
+representation is symplectic. The next proposition determines which real characters
+come from realizable representations.
+
+93

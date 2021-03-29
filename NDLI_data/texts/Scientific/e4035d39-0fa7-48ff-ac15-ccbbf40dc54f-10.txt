@@ -1,0 +1,104 @@
+Bibliography 169
+
+trieval. Journal of Documentation, 60(5), 493-502. (Cited on Page 12.)
+
+156] Jones, K. S., Walker, S., and Robertson, S. E. (2000). A probabilistic model of information
+
+etrieval: development and comparative experiments. Information Processing and Management,
+
+36(6), 779-808. (Cited on Page 13.)
+
+157] Joyce, T. and Needham, R. M. (1958). The thesaurus approach to information retrieval. Amer-
+
+ican Documentation, 9(3), 192-197. (Cited on Pages 1, 3, 4, 12, and 87.)
+
+158] Kalt, T. (1996). A new probabilistic model of text classification and retrieval. Technical Report
+
+UM-CS-1998-018, University of Massachusetts, Amherst, Massachusetts. (Cited on Page 15.)
+
+159] Kamps, J., Lalmas, M., and Larsen, B. (2009). Evaluation in context. In M. Agosti, J. L.
+
+Borbinha, S. Kapidakis, C. Papatheodorou, and G. Tsakonas, editors, ECDL, volume 5714 of Lecture
+
+Notes in Computer Science, pages 339-351. Springer. (Cited on Page 39.)
+
+160] Kasneci, G., Suchanek, F. M., Ifrim, G., Ramanath, M., and Weikum, G. (2008). Naga: Search-
+
+ing and ranking knowledge. In ICDE, pages 953-962. IEEE. (Cited on Page 36.)
+
+161] Kaufmann, E. and Bernstein, A. (In Press, Accepted Manuscript). Evaluating the usability of
+
+natural language query languages and interfaces to semantic web knowledge bases. Web Semantics:
+
+Science, Services and Agents on the World Wide Web, pages —. (Cited on Page 36.)
+
+162] Kelly, D. and Belkin, N. J. (2001). Reading time, scrolling and interaction: exploring implicit
+
+sources of user preferences for relevance feedback. In SIGIR ’01: Proceedings of the 24th annual
+
+international ACM SIGIR conference on Research and development in information retrieval, pages
+408-409. (Cited on Page 23.)
+
+163] Kelly, D., Fu, X., and Shah, C. (2010). Effects of position and number of relevant documents
+
+retrieved on users’ evaluations of system performance. ACM Trans. Inf. Syst., 28(2), 1-29. (Cited
+on Page 40.)
+
+164] Kent, A., Berry, M. M., Luehrs, and Perry, J. W. (1955). Machine literature searching VIII,
+
+operational criteria for designing information retrieval systems. American Documentation, 6(2),
+93-101. (Cited on Pages 40 and 42.)
+
+165] Keskustalo, H., Jarvelin, K., and Pirkola, A. (2008). Evaluating the effectiveness of relevance
+
+feedback based on a user simulation model: effects of a user scenario on cumulated gain value.
+Information Retrieval, 11(3), 209-228. (Cited on Pages 23, 33, and 88.)
+
+166] Kiryakov, A., Popov, B., Terziev, I., Manov, D., and Ognyanoff, D. (2004). Semantic annotation,
+
+indexing, and retrieval. Web Semantics: Science, Services and Agents on the World Wide Web, 2(1),
+49-79. (Cited on Page 37.)
+
+167] Koolen, M. and Kamps, J. (2010). The importance of anchor text for ad hoc search revisited. In
+SIGIR ’10: Proceeding of the 33rd international ACM SIGIR conference on Research and development
+
+in information retrieval, pages 122-129, New York, NY, USA. ACM. (Cited on Page 152.)
+
+168] Korfhage, R. R. (1984). Query enhancement by user profiles. In SIGIR ’84: Proceedings of
+
+the 7th annual international ACM SIGIR conference on Research and development in information
+
+retrieval, pages 111-121, Swinton, UK, UK. British Computer Society. (Cited on Page 21.)
+
+169] Kraaij, W. and de Jong, F. (2004). Transitive probabilistic CLIR models. In Proceedings of RIAO
+04. (Cited on Page 89.)
+
+170] Kurland, O. (2008). The opposite of smoothing: a language model approach to ranking query-
+specific document clusters. In SIGIR 08: Proceedings of the 31st annual international ACM SIGIR
+conference on Research and development in information retrieval, pages 171-178, New York, NY,
+USA. ACM. (Cited on Pages 35 and 57.)
+
+171] Kurland, O. and Lee, L. (2004). Corpus structure, language models, and ad hoc information
+retrieval. In SIGIR ’04: Proceedings of the 27th annual international ACM SIGIR conference on
+Research and development in information retrieval, pages 194-201, New York, NY, USA. ACM. (Cited
+on Page 35.)
+
+172] Kurland, O., Lee, L., and Domshlak, C. (2005). Better than the real thing?: iterative pseudo-
+
+query processing using cluster-based language models. In SIGIR ’05: Proceedings of the 28th annual
+
+international ACM SIGIR conference on Research and development in information retrieval, pages 19-
+
+26, New York, NY, USA. ACM. (Cited on Page 18.)
+
+173] Lafferty, J. and Zhai, C. (2001). Document language models, query models, and risk mini-
+
+mization for information retrieval. In SIGIR ’01: Proceedings of the 24th annual international ACM
+
+SIGIR conference on Research and development in information retrieval, pages 111-119, New York,
+
+NY, USA. ACM. (Cited on Pages 17, 19, 51, and 95.)
+
+174] Lafferty, J. and Zhai, C. (2003a). Probabilistic relevance models based on document and query
+
+#

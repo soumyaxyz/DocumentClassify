@@ -1,0 +1,46 @@
+6. Sub-Query Generation
+
+ 
+
+and with edges connecting consecutive queries in each session, weighted by these
+queries’ textual similarity. A candidate suggestion for a given query was then
+scored based on the length of the path between the two queries, accumulated
+across all sessions where the query and the suggestion co-occurred.
+
+A click-based approach was proposed by Baeza-Yates et al. (2004). In par-
+ticular, they proposed to cluster queries represented using the terms present in
+the URLs clicked for these queries. Given an input query, candidate suggestions
+from the same cluster as the query were then weighted based on their similarity
+to the query and their success rate, as measured by their fraction of clicked doc-
+uments in a query log. Relatedly, Mei et al. (2008) exploited random walks on
+a bipartite query-click graph. To this end, they weighted a candidate suggestion
+for a query based on its “hitting” time (i.e., the time it took for the node repre-
+senting this query suggestion to be visited for the first time) for a random walk
+starting from the input query. Similarly, Boldi et al. (2009a) proposed to weight
+candidate suggestions by performing a short random walk on different slices of a
+query-flow graph, a query transition graph with edges classified as generalisations,
+
+specialisations, error corrections, or parallel moves (Boldi et al., 2008).
+
+6.1.2 Query Suggestion under Sparsity
+
+Random walk approaches are generally regarded as the state-of-the-art in the
+iterature dedicated to the query suggestion problem (Silvestri, 2010). Despite
+heir relative success, most of these approaches share a common shortcoming. In
+articular, they underperform and can even fail to produce any relevant sugges-
+tion for queries with sparse or no past usage in a query log, which amount to
+a substantial fraction of the web search traffic (Downey et al., 2007). In order
+o overcome this issue, Szpektor et al. (2011) proposed the notion of query tem-
+late, a generalisation of a query in which entities are replaced with their type.
+By enriching the query-flow graph (Boldi et al., 2008) with query templates, their
+approach was able to effectively generate suggestions for long-tail queries. A dif-
+
+erent approach aimed at tackling query sparsity was proposed by Broccolo et al.
+
+ 
+
+2012). In particular, they proposed to index each query in a query log as a vir-
+
+tual document comprising the terms in the query itself and those of other queries
+
+122

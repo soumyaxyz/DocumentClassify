@@ -1,0 +1,110 @@
+based method for keyphrase extraction is YAKE!
+(Campos et al., 2018). It heuristically combines
+features like casing, word position or word fre-
+quency to generate an aggregate score for each
+phrase and uses it to select the best candidates.
+
+One of the first supervised methods is KEA
+described by Witten et al. (1999). It extracts
+those candidate phrases from the document that
+have good chances to be keywords. Several fea-
+tures like TF-JDF are computed for each candi-
+date phrase during training. In the end, Naive
+Bayes algorithm is used to decide if a candidate
+is a keyword or not (binary classification). An
+improvement and generalization of KEA is MAUI
+(Medelyan, 2009). Additional features are com-
+puted, and bagged decision trees are used instead
+of Naive Bayes. The author reports significant per-
+formance improvements in precision, recall and F;
+scores.
+
+The above keyphrase extraction methods and
+others like Florescu and Caragea (2017) or
+Nguyen and Luong (2010) reveal various prob-
+lems. First, they are not able to find an optimal
+value for NV (number of keywords to generate for
+an article) based on article contents and require it
+as a preset parameter. Second, the semantic and
+syntactic properties of article phrases (considered
+as candidate keywords) are analyzed separately.
+The meaning of longer text units like paragraphs
+or entire abstract/paper is missed. Third, only
+phrases that do appear in the paper are returned.
+In practice, authors do often assign words that are
+not part of their article.
+
+Meng et al. (2017) overcome the second and
+third problem using an encoder-decoder model
+(COPYRNN) with a bidirectional Gated Recurrent
+Unit (GRU) and a forward GRU with attention.
+They train it on a datasets of hundred thousands
+of samples, consisting of abstract-keyword (one
+keyword only) pairs. The model is entirely data-
+driven and can produce terms that may not appear
+in the document. It still produces one keyword at
+a time, requiring N (first problem) as parameter to
+create the full keyphrase string.
+
+3.2 Text Summarization Methods
+
+To overcome the three problems mentioned in Sec-
+tion 3.1, we explore abstractive text summariza-
+tion models proposed in the literature, trained with
+article abstracts and titles as sources and keyword
+strings as targets. They are expected to learn and
+
+paraphrase over entire source text and produce a
+summary in the form of a keyphrase string with
+no need for extra parameters. They should also
+introduce new words that do not appear in the ab-
+stract. Two simple encoder-decoder variants based
+on LSTMs are described in Figure 3 of Tanti et al.
+(2017). MERGE (Figure 3.a) encodes input and the
+current summary independently and merges them
+in a joint representation which is later decoded to
+predict the next summary token. INJECT model
+(Figure 3.b) on the other hand injects the source
+document context representation to the encoding
+part of the current summary before the decoding
+operation is performed.
+
+ABS is presented in Figure 3.a of Rush et al.
+(2015). The encoder (Figure 3.b) takes in the in-
+put text and a learned soft alignment between the
+input and the summary, producing the context vec-
+tor. This soft alignment is the attention mechanism
+(Bahdanau et al., 2014). To generate the summary
+words, Rush et al. apply a beam-search decoder
+with a window of / candidate words in each po-
+sition of the summary.
+
+Pointer-Generator network (POINTCOV) de-
+picted in Figure 3 of See et al. (2017) is similar
+to ABS. It is composed of an attention-based en-
+coder that produces the context vector. The de-
+coder is extended with a pointer-generator model
+that computes a probability pgen from the context
+vector, the decoder states, and the decoder output.
+That probability is used as a switch to decide if the
+next word is to be generated or copied from the
+input. This model is thus a compromise between
+abstractive and extractive (copying words from in-
+put) models. Another extension is the coverage
+mechanism for avoiding word repetitions in the
+summary, a common problem of encoder-decoder
+summarizers (Tu et al., 2016).
+
+4 Results
+
+We performed experiments with the unsupervised
+and supervised methods of Section 3 on the first
+three datasets of Section 2 and on OAGK. All
+supervised methods were trained with the 2M
+records of OAGK train part. An exception was
+MAuI which could be trained on 25K records at
+most (memory limitation). In addition to the pro-
+cessing steps of Section 2, we further replaced
+digit symbols with # and limited source and tar-
+get text lengths to 270 and 21 tokens, respectively.
+Vocabulary size was also limited to the 90K most

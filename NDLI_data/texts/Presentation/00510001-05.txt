@@ -1,0 +1,14 @@
+When to shift to Data Warehouse solution
+when organization is facing following
+problems-
+
+1. Lack of Information Sharing
+
+2. Lack of information credibility
+
+3. Reports take a longer time to be prepared
+
+4
+
+. Little or no scope for ad hoc querying or queries that
+require historical data.

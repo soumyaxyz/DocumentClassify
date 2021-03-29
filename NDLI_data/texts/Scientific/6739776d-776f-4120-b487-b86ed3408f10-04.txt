@@ -1,0 +1,62 @@
+A natural requirement is that the function F produces the same result when given the same features,
+up to a permutation of the input. For example, consider a label space with three variables y,, y2, y3,
+and assume that F takes as input z = (21, 22, 23, 212, 213, 223) = (fi, fo. fs, fiz, fis, fo3), and
+outputs a label y = (yt, y5, y3). When F is given an input that is permuted in a consistent way, say,
+z' = (fo, fi. fs, far, fo3, f13), this defines exactly the same input. Hence, the output should still be
+y = (y3,y}. 3). Most inference algorithms, including BP and mean field, satisfy this symmetry
+requirement by design, but this property is not guaranteed in general in a deep model. Here, our
+goal is to design a deep learning black-box, and hence we wish to guarantee invariance to input
+permutations. A black-box that violates this invariance “wastes” capacity on learning it at training
+time, which increases sample complexity, as shown in Sec. We proceed to formally define the
+permutation invariance property.
+
+Definition 1. Let z be a set of node features and edge features, and let o be a permutation of
+{1,...,n}. We define o(z) to be a new set of node and edge features given by [a(z)]; = Zo(i) and
+
+[o(2)li.g = Zo(i),0(3)-
+
+We also use the notation o([y1,---,¥n]) = [Yo(1);++++¥o(n)| for permuting the labels. Namely, o
+applied to a set of labels yields the same labels, only permuted by o. Be aware that applying o to
+the input features is different from permuting labels, because edge input features must permuted in a
+way that is consistent with permuting node input features. We now provide our key definition of a
+function whose output is invariant to permutations of the input. See Figure[2|(left).
+
+Definition 2. A graph labeling function F is said to be graph-permutation invariant (GPJ), if for
+all permutations o of {1,...,n} and for all z it satisfies: F(o(z)) = o(F(z)).
+
+3.1 Characterizing Permutation Invariance
+
+Motivated by the above discussion, we ask: what structure is necessary and sufficient to guarantee
+that F is GPI? Note that a function F takes as input an ordered set z. Therefore its output on z
+could certainly differ from its output on o(z). To achieve permutation invariance, F should contain
+certain symmetries. For instance, one permutation invariant architecture could be to define y; = g(z:)
+for any function g, but this architecture is too restrictive and does not cover all permutation invariant
+functions. Theorem[I]below provides a complete characterization (see Figure2}for the corresponding
+architecture). Intuitively, the architecture in Theorem[]]is such that it can aggregate information from
+the entire graph, and do so in a permutation invariant manner.
+
+Theorem 1. Let F be a graph labeling function. Then F is graph-permutation invariant if and only
+
+if there exist functions a, p, @ such that for allk =1,...,n:
+n
+[Flan =p | ze, Soe | 21,90 b(zi, 215,25) | |. (1)
+i=1 j#i
+
+where @ : R24+¢ — RE, a: RO+e RW and pp: RV+4 SR.
+
+Proof. First, we show that any F satisfying the conditions of Theorem[I]is GPI. Namely, for am
+permutation 0, [F(a(z))|x = [F(z)]o(x)- To see this, write [F(o(z))],, using Eq,[IJand Definition
+
+[F(o(2))le = p(Zo(x); > Q(Zo(i)s > $(Zo(i); Zo(),0(4) Zo(4))))» (2)
+i j#i
+The second argument of p above is invariant under a, because it is a sum over nodes and their
+neighbors, which is invariant under permutation. Thus Eq.2]is equal to:
+
+p(Zatky: ¥_ (zi, 9, P(2i, 21,5, 23))) = (Fleece)
+i j#i
+where equality follows from Eq.[I] We thus proved that Eq.[I]implies graph permutation invariance.
+
+Next, we prove that any given GPI function Fo can be expressed as a function F in Eq.[]] Namely,
+we show how to define @, a and p that can implement Fo. Note that in this direction of the proof the
+function Fo is a black-box. Namely, we only know that it is GPI, but do not assume anything else
+about its implementation.

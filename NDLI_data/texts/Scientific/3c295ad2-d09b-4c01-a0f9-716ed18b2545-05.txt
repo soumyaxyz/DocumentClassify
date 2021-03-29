@@ -1,0 +1,153 @@
+a very tight cluster, the broad cluster should have higher
+confidence, but the centroid method cannot distinguish the
+two. In fact, as we will see below, Centroid is outperformed
+by LR in both a benchmark task and in the actual entity
+linking task.
+
+3.3. Optimizations
+
+In this section we detail the three types of optimizations
+we employ, including early stopping and two kinds of com-
+pression.
+
+3.3.1 Early Stopping
+
+With the added contextual scoring HIGHESTSCORE(p{i :
+j|,q) must now return, among all the entities that match
+the alias pli: j], the one that maximizes P(e|s) alo so the
+probability must be computed for each entity. First, note that
+we can remove the denominator P(q) from the computation,
+since it does not depend on the entity. Then, the score to
+compute becomes P(e|s)P(q|e). The first component is the
+basic FEL score, the second is the contextual relevance. The
+contextual relevance might take longer to compute than the
+FEL score, because it involves retrieving the entity vectors
+from the model data structure and computing several vector-
+vector products. However, we are only interested in retrieving
+the highest-scored entity. We can significantly reduce the
+number of score computations by early-stopping the process
+in a safe way. We do this by noting that P(g|e) is at most
+1; hence, if e, is the top-scoring entity and e a candidate
+entity, if P(e|s) < P(e.|s)P(q\e.) then a fortiori the full
+score of e cannot be higher than that of e.. With this in
+mind, we can process the entities sorted by decreasing score
+P(e|s) and stop computing the contextual relevance score as
+soon as P(e|s) is smaller than the full score of the current
+top-scoring entity. This technique reduces the overall runtime
+of the algorithm by a factor of 5.
+
+ 
+
+ 
+
+ 
+
+ 
+
+3.3.2. Compressing the Vectors
+
+We now turn to the data structure used to store the word
+and entity vectors. The data structure represents a general
+mapping from strings to vectors, which we can split in two
+parts: a mapping from n strings to numeric identifiers in [0,n),
+and the actual vectors, which is convenient to see as a matrix
+V € R"*”, whose rows are the vectors. The mapping can
+be easily represented with a minimal perfect hash function,
+which computes the identifier of a string in constant time and
+guarantees that no collisions can occur between strings of the
+key set. Such a function can however return arbitrary values
+on other strings; to make the collision probability negligible
+a constant-sized signature is associated to each string, so
+that it can be checked whether the string being looked up
+was present in the key set. This data structure is commonly
+referred to as a signed minimal perfect_hash function for
+which we use the Sux4J implementation,
+
+To store the matrix V we adopt standard techniques from
+vector quantization and signal compression (for reference see
+{T2]) and quantize the entries of the matrix with an uniform
+dead-zone quantizer, that is, an element x is quantized as
+sgn(x)||x|/q| for a given quantization parameter q. We use
+the same gq for all the elements in the matrix, and choose the
+largest value that yields a target error bound; specifically, we
+target a relative error in Lz norm of the vectors of 0.1, which
+
+ 
+
+RIGHTS LIN Kd
+
+183
+
+ 
+
+ 
+
+Number Size
+Alias strings 114M 7.24 bytes/alias
+Entity strings 4.6M 25.22 bytes/alias
+Entity values (rows 5,6) 9.2M 3.72 bits/value
+
+Alias values (rows 1-4, 7,8) 912M _ 5.32 bits/value
+
+ 
+
+Table 2: Size of compressed features and strings.
+
+produced no measurable loss in accuracy of the vectors in
+our experiments. The integers obtained from quantization
+are then encoded with Golomb codes; since the columns of
+the matrix might have different statistics, we use a differ-
+ent Golomb modulus for each column. We concatenate the
+encodings of each vector into a single bit stream, and store
+their starting positions in an Elias-Fano monotone sequence
+data structure that allows to retrieve them in constant time.
+
+To further improve the compression of the word vectors
+we note that transforming them with any operation that
+preserves the mutual cosine distances does not affect their
+quality. We can therefore apply the orthogonal Karhunen—
+Loéve transform [T2] to the vectors before compressing them,
+without having to apply the inverse transform at decoding
+time. The transform improves the compression by about 10%
+without affecting the overall accuracy. It is however not pos-
+sible to apply the same technique to the entity vectors, since
+it would not preserve the scalar products against the word
+vectors unless the inverse transform is applied in decoding,
+which would be prohibitively slow.
+
+Overall, the compressed vector representations take 3.44
+bits per entry for the word vectors, 3.42 for the Centroid
+vectors, and 3.83 for the LR, which is almost 10 times smaller
+than using 32-bit floating points numbers.
+
+3.3.3 Compressing the Features
+
+We also generate a compressed data structure to hold the
+information about aliases and entities. The numerical features
+required by the model are summarized in Table|1} The data
+structure is a hash table represented as follows. Each key of
+the table corresponds to a different alias and the values are
+split into two parts: entity-independent features (rows 1-4)
+stored as a monotone sequence of integers, and a sequence of
+N entity-dependent features (rows 5-8), one per candidate
+entity. For compactness, entities in the table are represented
+with a numerical id although we hold a separate identifier
+to string map stored as a front-coded list. We store integer
+values using Elias-Fano monotone sequences [10]. However,
+and given that the number of entities is several orders of
+magnitude smaller than the number of aliases, we store the
+alias-independent features (rows 5,6) in its own Elias-Fano
+list, indexed by entity id. The alias strings are perfectly-
+hashed in a similar fashion to the word vectors and we hold
+an additional (compressed) list of cut pointers indicating the
+boundaries of the per alias information in the compressed
+list of values. The size of the different components of the
+hash table is detailed in Table 2]
+
+Note that once the scoring function is fixed it would be
+sufficient to store just the mapping from aliases to (entity,
+score) pairs; however, this would require to recompute the
+data structure if the score function needs to be modified. In
+this case we favor flexibility over space, since the savings
+would be very small and the time to compute the scores is
+negligible.

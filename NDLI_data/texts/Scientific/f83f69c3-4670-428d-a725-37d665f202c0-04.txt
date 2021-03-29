@@ -1,0 +1,128 @@
+linear PCA
+
+<sep> convex function <sep> SVD </s>
+
+ 
+
+ 
+
+H ‘|
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+<s> linear PCA
+
+ 
+
+<sep> convex function <sep> SVD
+
+5 :a ():8 @:c
+
+Figure 1: The architecture of the proposed model for improving keyphrase diversity. A represents last states of
+a bi-directional source encoder; B represents the last state of target encoder; C indicates decoder states where
+target tokens are either delimiters or end-of-sentence tokens. During orthogonal regularization, all C' states are
+used; during target encoder training, we maximize mutual information between states A with B. Red dash arrow
+indicates a detached path, i.e., no back-propagation through such path.
+
+by previous representation learning works (Lo-
+geswaran and Lee, 2018; van den Oord et al., 2018;
+Hjelm et al., 2018), we train the target encoder in
+an self-supervised fashion (Figure 1). Specifically,
+due to the autoregressive nature of the RNN-based
+decoder, we follow Contrastive Predictive Coding
+(CPC) (van den Oord et al., 2018), where a Noise-
+Contrastive Estimation(NCE) loss is used to maxi-
+mize a lower bound on mutual information. That is,
+we extract target encoder’s final hidden state vec-
+tor nM, where M is the length of target sequence,
+and use it as a general representation of the target
+phrases. We train by maximizing the mutual infor-
+mation between these phrase representations and
+the final state of the source encoder h7 as follows.
+For each phrase representation vector ae, we take
+the encodings HY = {hZ),..., hen} of N dif-
+ferent source texts, where Revue is the encoder
+representation for the current source text, and the
+remaining N — 1 are negative samples (sampled at
+random) from the training data. The target encoder
+is trained to minimize the classification loss:
+
+GE seies Age)
+Viel] Gh ;,h8G)’ (2)
+g(ha, hy) = exp(h, Bhp)
+
+L£gsc = —log
+
+where B is bi-linear transformation.
+
+The motivation here is to constrain the overall
+representation of generated keyphrase to be seman-
+tically close to the overall meaning of the source
+text. With such representations as input to the de-
+coder, the semantic coverage mechanism can poten-
+tially help to provide useful keyphrase information
+and guide generation.
+
+3.2.2 Orthogonal Regularization
+
+We also propose orthogonal regularization, which
+explicitly encourages the delimiter-generating de-
+coder states to be different from each other. This
+is inspired by Bousmalis et al. (2016), who use
+orthogonal regularization to encourage representa-
+tions across domains to be as distinct as possible.
+Specifically, we stack the decoder hidden states cor-
+responding to delimiters together to form matrix
+H = (hi3,..., hi") and use the following equation
+as the orthogonal regularization loss:
+
+, G3)
+
+Lor = ||H"H 0 (1- In)
+
+ 
+
+ 
+
+where H' is the matrix transpose of H, I, is the
+identity matrix of rank n, © indicates element wise
+multiplication, |||, indicates L? norm of each
+element in a matrix /. This loss function prefers
+orthogonality among the hidden states nit, — hip
+and thus improves diversity in the tokens following
+the delimiters.
+
+3.2.3. Training Loss
+
+We adopt the widely used negative log-likelihood
+loss in our sequence generation model, denoted as
+Lyx. The overall loss we use for optimization is:
+
+L=Lnirt+Aor:for+Asc:£sc, 4)
+where Aor and Asc are hyper-parameters.
+
+3.3 Decoding Strategies
+
+According to different task requirements, various
+decoding methods can be applied to generate the
+target sequence y. Prior studies Meng et al. (2017);
+Yang et al. (2017) focus more on generating ex-
+cessive number of phrases by leveraging beam

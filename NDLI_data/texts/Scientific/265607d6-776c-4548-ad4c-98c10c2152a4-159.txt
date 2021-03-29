@@ -1,0 +1,56 @@
+6. Sub-Query Generation
+
+ 
+
+6.4.2.2 Diversification Performance
+
+In this section, we address research question Q2, by assessing the effectiveness of
+our produced suggestions when used for diversifying the retrieved documents. As
+discussed in Section 6.3, for this evaluation, we use two different instantiations of
+the s-deval metric defined in Equation (6.3), by leveraging the primary metrics for
+diversity search evaluation used in the TREC Web track (Clarke et al., 2011b):
+ERR-IA (Equation (3.28)) and a-nDCG (Equation (3.29)). In particular, we
+consider the scenario where a user would inspect the top = 20 documents,
+diversified by the xQuAD framework (as the reference diversification system)
+using the top k suggestions provided by each query suggestion mechanism as a
+set of sub-queries S,. As baselines for this investigation, we consider the initial
+query, as well as the suggestions produced by Bing (BS) and BM25(QSC), as the
+best performing unsupervised variant from Table 6.4. Table 6.6 shows the results
+
+of this investigation, with significance symbols defined as in Table 6.5.
+
+Table 6.6: Diversification performance (in terms of both s-ERR-IA@8,20 and s-a-
+nDCG@8,20) attained by the suggestions produced by various mechanisms.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Ss s-ERR-IA s-a-nDCG
+4g
+@8,20 - = + @8,20 - = +
+Bing (Query) 0.382 0.502
++xQuAD BS 0.4064 33. 27 90 0.5244 35 23 92
+BM25(QSC) 0.4034° 42 32 76 0.5214° 41 30 79
++AFS 0.4044°° 41 21) «88 «6(0.5224°° = 338 22-90
+
++LambdaMART 0.4124°° 44 15 91 0.5274° 47 14 89
+
+From Table 6.6, we first observe that both the unsupervised approach of Broc-
+
+ 
+
+colo et al. (2012) using BM25 as well as our learning to rank approach using AFS
+and LambdaMART significantly improve upon the initial query, attesting the
+suitability of mining effective sub-queries from a query log to diversify a ranking
+of documents. Moreover, the performance attained by these approaches does not
+differ significantly from that attained by the suggestions produced by the Bing
+API. Once again, this is a remarkable result, given the substantially larger amount
+
+of data available to Bing compared to our one-month query log snapshot. Finally,
+
+141

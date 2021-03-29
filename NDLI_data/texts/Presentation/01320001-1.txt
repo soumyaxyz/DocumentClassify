@@ -1,0 +1,134 @@
+Nanoparticles of cobalt ferrite grown with controlled parameters of sol-gel method
+
+R.K. Panda and D. Behera, Department of Physics, NIT Rourkela
+
+ 
+
+Introduction
+
+Ferrimagnetic Spinel ferrites are an important class of magnetic materials whose magnetic and electrical properties depend on the nature and
+distribution of their cations in the tetrahedral (A) and octahedral (B) sublattices of a cubic structure. Most of the spinel ferrites are the derivatives of the
+magnetite in that cobalt ferrite is a very important magnetic material which has covered a wide range of applications. Cobalt ferrite has inverse spinel
+structure represented by (01-xF ex) A (CoxFe, x)pO4 where x Tepresents degree of j inversion, A represents tetragonal sites and B represents octahedral
+sites. Present work concentrates on prepara tion of cobalt ferrite nanopd ticles DY rv ‘solge combustion method and study its IR ando ptical prop erties.
+
+" Glycine | Results and Discussion
+Materials and methods:
+
+FTIR Spectroscopy rc
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+       
+      
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1. Fe-O (Octaedral site) a =Cmip Lattice parameter a=8.383
+2. Fe-O (Tetrahedral site) __ GLY | (Gagan eC ee) [311] —— KG
+=77 nm(Gly)
+Lattice strain = 0.368% (EG) ~
+= 12 =0.261%(Gly) S
+D | 570 cm - Tetragonal Fe-O bond q
+¢ 420 cm*+- octahedral Fe-O bond >
+“) 3440 and 1636 cm!- O-H bond ~~
+S (moisture) 0
+i 2350 cm - co, (absorbed by the oO
+UV-Vis Spectroscopy 7
+0 500 1000 1500 2000 2500 3000 3500 4000 4500
+20 © 30 50, 60
+Frequency (cm"4) Angle(2 theta)
+=———= glycine
+——— ethylene glycol EG
+
+@ ®
+& = oO
+c D c-
+® Oo ®
+O = ©
+: 3 5
+D 2 Oo
+O <x a Y”)
+
+L © m=2.64ev
+L
+
+300 600 700 120 480 50 AAO 480 520
+Wave lenth (nm) Wavelength(nm) Wavelength(nm)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Particles exhibited a strong band edge around 400 nm. The band gap re 2.52 eV for the cobalt ferrite prepared using ethylene glycol and 2.64 eV
+for the sample prepared using glycine, has been observed.
+
+ 
+
+ 
+
+Conclusion:
+
+By using glycine we have prepared cobalt ferrite pure phase but some impurity peaks are observed in the sample prepared using ethylene glycol. For
+nitrate salts ae is better one ae to the SS oe From the FTIR it is clear is structure is ec and neers absorb some amount

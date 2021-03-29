@@ -1,0 +1,66 @@
+9.3. REALITY OVER FIELDS OF cd(k) < 1 91
+9.3. Reality over Fields of cd(k) <1
+
+In this section we discuss reality for semisimple elements over fields of cd(k) < 1.
+
+We have,
+
+Theorem 9.3.1. Let k be a field with cd(k) < 1. Let G be a connected reductive
+group defined over k with —1 in its Weyl group. Then every semisimple element in
+G(k) is real in G(k).
+
+Proof. Let t € G(k) be semisimple. Let T be a maximal torus defined over k
+with t € T(k). Then the Weyl group W = N(T)/T, where N(T) is the normalizer of
+
+T in G. We have the exact sequence
+13-T>N(T)—-W 1.
+
+The corresponding Galois cohomology sequence is
+
+ 
+
+1— T(k) — N(T)(k) — W(k) — H*(k,T)
+
+Since cd(k) < 1, by Steinberg’s theorem ([S1], Theorem 1.9), H1(k,T) = 0. Hence
+the longest element wo in the Weyl group, which acts by —1 on the set of roots, lifts to
+an element h € N(T)(k). Hence hth! = t-! with h € G(k) and t is real in G(k).
+
+ 
+
+ 
+
+ 
+
+ 
+
+Corollary 9.3.2. Let G and k be as in the above theorem. Then every regular
+
+element of G is real.
+
+Proof. Let g € G be regular and g = gsg, be the Jordan decomposition of g in
+G with g, semisimple and g,, unipotent. Then, by the above theorem, hg,h~! = gy!
+
+for some h € G. Then hg,h~! and gy!
+
+are regular unipotents in Zq(g,)° and hence
+there is 7 € Z¢(gs) such that xhg,h-!a~! = g7!. Then (ah)g(xh)-! = g! and hence
+
+g is real (see [SS], Corollary 1.9, Chapter IIH).
+
+ 
+
+ 
+
+ 
+
+ 
+
+Theorem 9.3.3. Let k be a field with cd(k) < 1 (e.g. algebraically closed fields
+and finite fields etc.). Let G be a simple adjoint group defined over k. Suppose that
+the longest element wo in the Weyl group of G with respect to a maximal torus T acts
+
+as —1 on the roots. Then every semisimple element in G(k) is strongly real in G(k).
+
+Proof. Let t € G(k) be a semisimple element. Let T be a torus in G defined over
+k which contains t, i.e., t € T(k). From a theorem of Richardson and Springer ({RS],
+Proposition 8.22), as —1 € W, there exists no € N(T) with n3 = 1 which represents

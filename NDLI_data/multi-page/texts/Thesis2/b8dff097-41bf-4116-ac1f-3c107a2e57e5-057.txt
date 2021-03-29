@@ -1,0 +1,41 @@
+6.3. RESULTS IN ALGEBRAIC GROUPS 45
+6.3. Results in Algebraic Groups
+
+Motivated by several results obtained above we have investigated the structure
+of real elements in general algebraic groups. We would like to mention the work of
+Tiep and Zalesski (refer [TiZ]) in this connection. They look at a slightly different
+question. They were interested in classifying groups in which all elements are real.
+They have successfully classified ([TiZ], Theorem 1.2) finite quasi-simple groups in
+which all elements are real. They also look at the question of all unipotent elements
+being real in simple, simply connected algebraic group over a finite field. However, it
+
+is worth mentioning a theorem about simple algebraic group proved in that paper.
+
+Proposition 6.3.1. Let G be a simple algebraic group over an algebraically closed
+field of characteristic p £ 0. All elements of G are real if and only if G is of type
+Bn, Cn, Dan, Go, Fi, Ey or Eg.
+
+We look to characterize real elements in somewhat the same class of groups considered
+by Tiep and Zalesskii but over an arbitrary base field k (not just over algebraically
+closed field). An element ¢ in a connected linear algebraic group G is called regular
+if its centralizer Zg(t) has minimal dimension among all centralizers. An element is
+
+called strongly regular if its centralizer in G is a maximal torus. We prove,
+
+Theorem 6.3.2. Let G be a connected simple group of adjoint type defined over k.
+Suppose the longest element wo of the Weyl group W of G with respect to a maximal
+k-torus T acts by —1 on the roots. Lett € G(k) be a strongly regular element. Then t
+is k-real in G(k) if and only if t is strongly k-real in G(k). Moreover, if T(k) contains
+
+a strongly regular element, then every element of T(k) is strongly real in G(k).
+
+We study the question for semisimple elements in groups over fields of cd(k) < 1 and
+
+prove,
+
+Theorem 6.3.3. Let k be a field with cd(k) <1. Let G be a simple adjoint group
+defined over k. Suppose that the longest element wo in the Weyl group of G with
+respect to a maximal torus T acts as —1 on the roots. Then every semisimple element
+in G(k) is strongly real in G(k).
+
+We devote next three chapters for the proofs of the theorems mentioned here.

@@ -1,0 +1,36 @@
+S.No. 6059 SBE 31:6
+
+(For candidates admitted from 2008-2009 onwards)
+_U.G. DEGREE EXAMINATION, APRIL 2013.
+Part IIT — Office Automation — Skill Based Elective
+BACK OFFICE AND PRESENTATION
+
+Time : Three hours Maximum : 75 marks
+
+PART A — (10 x 2 = 20)
+Answer ALL questions.
+
+Define relational model.
+
+What is a database?
+
+What is an index?
+
+What is a record?
+
+Give the form properties
+
+What is hyperlink?
+
+Define query wizard
+
+What is a report?
+
+2 SSS oe
+
+Give the definition of data integrity.
+
+»
+°
+
+What is the use of select statement?

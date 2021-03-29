@@ -1,0 +1,9 @@
+Online Transactional Processing
+
+B Traditional database application is focused on
+Online Transactional Processing (OLTP),
+
+— Short, simple queries and frequent updates
+involving a relatively small number of tuples e.g.,
+recording sales at cash-registers, selling airline
+tickets.

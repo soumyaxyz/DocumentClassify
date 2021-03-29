@@ -1,0 +1,53 @@
+10.2.3. Social networks. Enterprise knowledge graphs have also emerged in the context of social
+networking services. Facebook [365] have gathered together a knowledge graph describing not
+only social data about users, but also the entities they are interested in, including celebrities,
+places, movies, music, etc., in order to connect people, understand their interests, and provide
+recommendations. LinkedIn [214] announced a knowledge graph containing users, jobs, skills,
+companies, places, schools, etc., on top of which a taxonomic schema is defined. The knowledge
+graph is used to provide multilingual translations of important concepts, to improve targetted
+advertising, to provide advanced features for job search and people search, and likewise to provide
+recommendations matching jobs to people (and vice versa). Another knowledge graph has been
+created by Pinterest [188], describing users and their interests, the latter being organised into a
+taxonomy. The main use-cases for the knowledge graph are to aid users to more easily find content
+of interest to them, as well as to enhance revenue through targetted advertisements.
+
+10.2.4. Finance. The financial sector has also seen deployment of enterprise knowledge graphs.
+Amongst these, Bloomberg [326] has proposed a knowledge graph that powers financial data
+analytics, including sentiment analysis for companies based on current news reports and tweets,
+a question answering service, as well as detecting emerging events that may affect stock values.
+Thompson Reuters (Refinitiv) [495] have likewise announced a knowledge graph encoding “the
+financial ecosystem” of people, organisations, equity instruments, industry classifications, joint
+ventures and alliances, supply chains, etc., using a taxonomic schema to organise these entities.
+Some of the applications they mention for the knowledge graph include supply chain monitoring,
+risk assessment, and investment research. Knowledge graphs have also been explored in academic
+settings with Banca d'Italia [32], using rule-based reasoning to determine, for example, the per-
+centage of ownership of a company by various stakeholders. Other companies exploring financial
+knowledge graphs include Accenture [368], Capital One [65], Wells Fargo [355], amongst others.
+
+10.2.5 Other industries. Enterprises have also been actively developing knowledge graphs to
+enable novel applications in a variety of other industries, including: health-care, where IBM are
+exploring use-cases for drug discovery [365] and information extraction from package inserts [173],
+while AstraZeneca [34] are using a knowledge graph to advance genomics research and disease
+understanding; transport, where Bosch are exploring a knowledge graph of scenes and locations
+for driving automation [223]; oil & gas, where Maana [107] are using knowledge graphs to perform
+data integration for risk mitigation regarding oil wells and drilling; and more besides.
+
+11 SUMMARY AND CONCLUSION
+
+We have provided a comprehensive introduction to knowledge graphs, which have been receiving
+more and more attention in recent years. Under the definition of a knowledge graph as a graph of
+data intended to accumulate and convey knowledge of the real world, whose nodes represent entities
+of interest and whose edges represent relations between these entities, we have discussed models by
+which data can be structured as graphs; representations of schema, identity and context; techniques
+for leveraging deductive and inductive knowledge; methods for the creation, enrichment, quality
+assessment and refinement of knowledge graphs; principles and standards for publishing knowledge
+graphs; and finally, the adoption of knowledge graphs in the real world.
+
+Knowledge graphs ultimately serve as a common substrate of knowledge within an organisation
+or community, enabling the representation, accumulation, curation, and dissemination of knowl-
+edge over time [365]. In this role, knowledge graphs have been applied in a wide variety of use-cases,
+ranging from commercial applications — involving semantic search, user recommendations, conver-
+sational agents, targetted advertising, transport automation, etc. — to open knowledge graphs made
+available for the public good. Some general trends in adoption include: (1) the use of knowledge
+
+75

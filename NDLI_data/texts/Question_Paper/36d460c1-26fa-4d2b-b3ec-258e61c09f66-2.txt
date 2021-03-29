@@ -1,0 +1,82 @@
+10.
+
+tL,
+
+12,
+
+13.
+
+14.
+
+Define hierarchical inheritance. 15,
+
+What do you mean polymorphism?
+
+Define overloading.
+
+(a)
+
+(b)
+(a)
+
+(b)
+
+(a)
+
+(b)
+(a)
+
+(b)
+
+PART B — (5 x 5 = 25)
+
+Answer ALL questions.
+
+Write notes on difference between the C and 16
+
+C++ with detail.
+Or
+
+Ts
+Describe about the structure of C++ program.
+18.
+Discuss about the classes with neat
+examples. 19.
+Or
+20.
+
+Explain about the arrays.
+
+Write short notes on constructor.
+Or
+Explain about the destructor.
+Explain about the multilevel Inheritance.
+
+Or
+
+Discuss about the hybrid inheritance.
+
+29 S No. 9036
+
+(a) Explain about the polymorphism.
+Or
+
+(b) Write about the rules for overloading
+operators.
+
+PART C — (8 x 10 = 80)
+Answer any THREE questions.
+
+Briefly explain about the OOPS concept with neat
+example.
+
+Discuss about the inline functions with example.
+Write notes on multiple constructors.
+
+Discuss about the single Inheritance with neat
+example.
+
+Briefly explain about the operator overloading and
+it's functions.
+
+a S.No. 9036

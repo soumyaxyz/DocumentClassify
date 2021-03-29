@@ -1,0 +1,33 @@
+200 S. Dhar et al.
+
+Tokenization and Unification. It is done to get sub-formula or sub-expression
+and to remove insignificant data. During variable unification, all variables in the
+expressions are replaced by unified symbols (ids) in both indexing and searching
+phase so those expressions with same semantic meaning but with different vari-
+ables would match. For example after variable unification expression like x + y*
+and a + b* will be id; + idi#. Moreover, like variable unification constants are
+also replaced by a unified symbol.
+
+3.7 EuDML
+
+ 
+
+Fig. 4. EuDML interface
+
+The European Digital Mathematics Library EuDML was created by a con-
+sortium of 15 partners from 9 countries in frames of a project partly funded by
+the European Commission in the EC Competitiveness and Innovation Frame-
+work Programme, Information and Communication Technology Policy Support
+Programme, in the period from 1 February 2010 to 31 January 2013.
+
+The EuDML provides a free access to a large volume of scholarly mathemat-
+ical literature including the content of the Czech Digital Mathematics Library
+DML-CZ. Scientific journals and articles are included in Eu-DML as shown in
+Fig. 4. Currently 260413 documents across 14 collections are searchable. Of those,
+223,723 full-texts are indexed and 13,269 were made accessible to print disabled
+users [14, 18, 29].
+
+3.8 SearchOnMath
+
+The first version of SearchOnMath was released in 2013. Later on, it had become
+a start-up by the end of 2015 and consequently a part of Microsoft BizSpark

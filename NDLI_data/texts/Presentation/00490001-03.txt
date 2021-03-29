@@ -1,0 +1,15 @@
+CONTENTS FOR TODAY’S LECTURE
+
+ 
+
+¢ Introduction to Expression trees
+
+¢ Why Expression Tree
+
+¢ Implementation of Expression trees
+¢ Introduction to Huffman Algorithm
+¢ Prefix Codes
+
+¢ Huffman Code : Construction
+
+* Huffman Code : Decoding

@@ -1,0 +1,58 @@
+556 F. Ensan, W. Du
+
+Q Q
+
+Journalism Journalism
+
+  
+
+ 
+
+OO e6|/|O0 e6
+
+Knight Ridder Newspaper "William Dean Star-News Knight Ridder Newspaper William Dean Star-News
+Singleton Singleton
+
+(a) (b)
+
+Fig. 2 Sample query and document relationship model. a Semantic relationships between concepts. b Rela-
+tionships used by SELM for semantic ranking
+
+ 
+
+learn appropriate weights for different feature functions based on the available training data.
+In this paper, we do not restrict the input document concepts to form a chain. In fact, concepts
+in the document can form a graph in any arbitrary shape. In addition, we attempt to build
+a generative language model contrary to the most dominant application of CRFs applied to
+discriminative problems. In other words, we are not interested in learning the best weights
+for diverse features that converge to the maximum value over a training dataset, instead,
+given the semantic relatedness between the observed concepts, we are interested in finding
+the probability that a query concept is generated from a specific document.
+
+As an illustrative example, consider the query gq = {Journalism} and the document d that
+is composed of the following paragraph, which is selected from Document LA082290-0094
+of TREC CDS:
+
+Singleton, [...], bought the Star-News for $55 million from the Knight-Ridder newspa-
+per chain in June 1989.
+
+Figure 2a shows the representation of the query and the document based on their concepts
+and semantic relatedness relationships. As seen in the figure, four concepts ‘Knight Ridder,’
+“William Dean Singleton,’ ‘Newspaper,’ and ‘Star-News’ have been spotted in the document.
+Also, the concept ‘Journalism’ has been found in the query. Dashed lines show semantic
+relatedness between the query concept and document concepts, and solid lines represent
+semantic relatedness between document concepts. In this figure, concepts correspond to the
+Wikipedia articles with the same names and semantic relatedness are found using a semantic
+analysis system that estimates relatedness between Wikipedia entries.
+
+This example highlights two main challenges of representing documents and queries based
+on their semantic concepts, which we address in the following. First, contrary to the bag-of-
+words model, where the probability of generating a query term given a document is estimated
+based on its occurrence in the document and in the collection, here we need to model seman-
+tic relatedness between query concepts and document concepts. We represent relatedness
+relations as probability dependencies. In our model, two semantically related concepts are
+modeled as dependent neighbors and two not semantically related concepts are modeled as
+non-neighboring nodes, which are independent given all other concepts. For forming this
+graph, our model relies on semantic analysis systems that measure semantic relatedness
+
+a Springer

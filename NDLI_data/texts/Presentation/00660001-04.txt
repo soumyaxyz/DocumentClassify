@@ -1,0 +1,22 @@
+Binary Search Tree
+
+ 
+
+= Binary search tree(BST) is a very important subclass of
+binary trees.
+
+= In binary trees data is not ordered in some logical order
+But in BST, data is managed in such a logical way that it
+can be retrieved efficiently when required.
+
+*A binary search tree is a binary tree in which node
+containing the data has the following constraints:
+
+>» Each data element in the left subtree is less than
+its root element.
+
+> Each data element in the right subtree is greater
+than or equal to its root element.
+
+> Both the left and right subtree of the root will
+be again a BST.

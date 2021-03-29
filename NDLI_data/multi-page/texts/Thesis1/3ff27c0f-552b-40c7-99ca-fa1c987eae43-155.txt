@@ -1,0 +1,74 @@
+143 The Podles Spheres
+
+ 
+
+5.1.3. The Podles spheres as in [37]
+
+This description is taken from [37], page 124.
+Let a’, 3 be elements of C such that (a’, 8) 4 (0,0). We denote by xX¢,o7, the
+
+algebra with three generators x_1, xo, x1 and the following defining relations:
+
+a2 —qait_1—q 'x_121 = B.1, (5.1.8)
+(1 — @?)a2 + qa_121 — qaiz_1 = (1— @)a’zo, (5.1.9)
+x_119 — Pxor_1 = (1— @)a’z-1, (5.1.10)
+xor1 — @aiao = (1—@’)a’ar. (5.1.11)
+Let p? = a2(8 — a2)".
+Then for q and p real, the involution is defined by «*, = —q ‘41, X= %, Ti =
+
+—qr_}.
+Moreover, from page 125 of [37], it follows that for p belonging to C, X¢,a7,g can be
+realized as a * subalgebra of SU,,(2) via:
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1. i ai
+r1=(1+@) 207+ p(l+q-7)?ac—q(1+@) 22, (5.1.12)
+xo = ba+ p(1+(q+q-*)be) — ed, (5.1.13)
+1 1 gvok
+xy = (1+4q7) 7b? + p(1 + q@?)2db—g(14+¢7) 2d’. (5.1.14)
+
+where a, b,c,d are as in subsection 1.2.5.
+
+Proposition 5.1.1. Sia as defined above is the same as Xq,o',3 withg =p, a! =t, B=
++ po? (pe? + mel =f).
+2
+
+Proof : We note that [2],, = mo = ea
+
+ 
+
+From (5.1.5 ), we have
+
+ 
+
+ 
+
+—[2]u2aya_y +02 + (tu? — tha — pt? [2)?w2(1 — 2). (5.1.15)
+
+Adding ( 5.1.4 ) with (5.1.15 ), we obtain
+—[QJa_yay — [(2]uPaya_y + (uw? + Dap - (14 p?)P = 27°14 —t)(1 + p?).
+Using [2], = me we get this to be
+
+2 2 ¢ 5 142)? 5
+ee U_12, ee paye_y + (1+ p?)a3 — (14+ p?)e? (sii) (1—t)(1+ p?).
+
+be
+
+ 
+
+ 
+
+ 
+
+Hence,
+
+2a — parya—y — pte yay = (1+ wy (1 -i)4P= 2.1.

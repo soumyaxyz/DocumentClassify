@@ -1,0 +1,17 @@
+Few Information Users and their Requirements
+
+* Role-based users who have access to certain category of IT application,
+certain level of classified information, access to specific systems & even
+specific operations they are allowed to perform.
+
+¢ Administrative users who configure IT environment, manage users, access
+control, anti-virus, perform anti-theft checks, install updates/upgrades and
+back-up enterprise data and restore in the event of data corruption.
+
+* Knowledge workers/analytical users who discover new patterns in
+enterprise data to help businesses make innovative moves in the market
+place for competitive advantage.
+
+¢ Multi-device access users who sometimes work in office, move in the
+field, use different devices ranging from desk top system to hand held
+smartphone to connect to enterprise IT applications.

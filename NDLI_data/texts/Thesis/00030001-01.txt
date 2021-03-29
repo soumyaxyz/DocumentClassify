@@ -1,0 +1,23 @@
+LOCATION OF LARGEST ISOTHETIC EMPTY RECTANGLE
+
+AMONG ARBITRARILY ORIENTED LINE SEGMENTS
+
+A dissertation submitted in partial fulfilment of the
+requirements for the M.Tech. (Computer Science)
+degree of the Indian Statistical Institute
+
+By
+
+ARANI SINHA
+
+under the supervision of
+
+DR. BHARGAB B. BHATTACHARYA
+and
+
+MR. SUBHAS C. NANDY
+
+JULY 1992
+INDIAN STATISTICAL INSTITUTE
+
+€03 B.T. ROAD, CALCUTTA - 700 Gas

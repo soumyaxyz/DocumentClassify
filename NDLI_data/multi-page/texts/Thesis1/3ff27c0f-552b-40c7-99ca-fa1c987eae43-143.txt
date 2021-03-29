@@ -1,0 +1,82 @@
+131 QISO® of a Rieffel deformed noncommutative manifold
+
+ 
+
+We now state and prove a criterion, to be used later, for extending positive maps
+defined on Ao.
+
+Lemma 4.4.3. Let B be another unital C*-algebra equipped with a T"-action, so that
+we can consider the C*-algebras Bz for any skew symmetric n x n matrix J. Let ¢:
+A® — B® be a linear map, satisfying the following :
+
+(a) ¢ is positive w.r.t. the deformed products x 7 on Ag and B®, that is d(a* x za) > 0
+(in BS C By ) for alla in Ap, and
+
+(b) & extends to a norm-bounded map (say do) from A to B.
+
+Then ¢ also have an extension ¢; as a || ||;-bounded positive map from A; to By
+satisfying ||¢,|| = \|o()
+
+ 
+
+ly-
+
+Proof : We can view ¢ as a map between the Frechet spaces A® and B°, which is
+clearly closable, since it is continuous w.r.t. the norm-topologies of A and B, which are
+weaker than the corresponding Frechet topologies. By the Closed Graph Theorem, we
+conclude that ¢@ is continuous in the Frechet topology. Since A® = AS and B® = BS
+as Frechet spaces, consider @ as a continuous map from A? to B5°, and it follows
+by the Frechet-continuity of x and * and the Frechet-density of Ao in AS that the
+positivity (w.r.t. x) of the restriction of d to Ag C AS is inherited by the extension
+on A® = AS. Indeed, given a in AS = A®, choose a sequence ay belonging to Ag
+such that a, — a in the Frechet topology. We have ¢(a* xj a) = lim, ¢(a% xj @p) in
+the Frechet topology, so in particular, ¢(a%, x an) — ¢(a* x7 a) in the norm of By,
+which implies that ¢(a* xj a) is a positive element of By since (ay, x 7 Gn) is so for
+each n. Next, by Lemma 4.1.2, we note that A® is closed under holomorphic functional
+calculus as a unital *-subalgebra of Ay (the identity of AJ is same as that of <A),
+and hence, by Lemma 4.1.2, for any self adjoint element x in A®, ||¢(2)|| < ||x|| (1).
+Thus, for any y in A®, |}4()l| = os +#434)|| < oe4)]| + oe] <
+(| + | )o(1) < 2||y|| (1). Thus, ¢ is bounded on A® and hence admits a
+
+bounded extension (say #7) on Aj, which will still be a positive map, so in particular
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+y-y"
+2t
+
+ 
+
+ 
+
+ 
+
+ 
+
+the norm of ¢; is same as ||¢7(1)]].
+
+ 
+
+Now we note that due to the assumption (iii), (QISO*) ; makes sense.
+
+Remark 4.4.4. By Lemma 4.2.7 along with Lemma 4.2.8, a is a homomorphism from
+A; to Aj@(QISO*(A)); and hence (QISOf (A))7 is an object in the category Q(A)).
+
+Theorem 4.4.5. If the Haar state is faithful on Q, then a: Ag > Ap ® Qo extends
+to an action of the compact quantum group Q7 on Az, which is isometric, smooth and
+
+faithful.

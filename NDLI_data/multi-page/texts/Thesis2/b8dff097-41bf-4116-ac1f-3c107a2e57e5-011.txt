@@ -1,0 +1,51 @@
+Notation
+
+In this thesis we denote a field by k. We consider fields of characteristic not 2
+unless stated otherwise. The notation k and k, denotes an algebraic closure and
+separable closure of k respectively. The symbols Q, R, C will denote fields of rational,
+real, complex numbers respectively. The symbol Z will denote the set of integers. We
+denote by cd(k) the cohomological dimension of k.
+
+We use G to denote an algebraic group and G(k) to denote the group of k-
+rational points of G. Sometimes we abuse notation and denote the group of k points
+of G by G. An algebraic group always means a linear algebraic group unless stated
+otherwise. The connected component of G is denoted by G®. The Lie algebra of
+G is denoted by g. An element g € G(k) is k-real if there exists t € G(k) such
+that tgt-! = g~!. Let H be a subgroup of G. We denote the centralizer of H in
+G by Ze(H) = {9 € G | gh = hg Vh © H} and the normalizer of H in G by
+No(H) = {g € G| gHg"! = H}. The center of G is denoted by Z(G). The general
+linear group is denoted by GL,,(k) and special linear group by SL,,(k). Orthogonal
+groups are denoted as O(V,6),O,(6) or O(q) where 6 or q indicates the form. Note
+that we use Spo,(b) or S'pon(k) to denote the symplectic group and U(V,h) to denote
+the unitary group with hermitian form 5.
+
+The matrix algebra over field k is denoted by M,(k). We use the symbol € to
+denote octonion (Cayley) algebras in chapters where we deal with groups of type Go.
+
++
+
+The symbols ®, @ are used to denote tensor and direct sum respectively. The end
+
+ 
+
+ 
+
+ 
+
+ 
+
+of a proof is denoted with symbol OU. Bold face word means the word appears for
+the first time and we give definition for that or a possible reference for the definition.
+The notation det(A), Hom(M, N), Aut(V), Gal(/v/k) denotes the determinant of a
+
+matrix A, the set of all homomorphisms from M to N, the set of all automorphisms of
+
+ 
+
+V and the Galois group of field over k respectively. The symbol diag(A, B,..., D)
+denotes the diagonal matrix where A,B and D themselves are matrices (possibly
+1 x 1) sitting on the diagonal. Transpose of a matrix A is written as ‘A and transpose
+
+inverse is written as ‘A~!.
+
+xi

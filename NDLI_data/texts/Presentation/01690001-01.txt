@@ -1,0 +1,18 @@
+Partial Transmit Sequence (PTS) based
+PAPR reduction for OFDM using improved
+harmony search evolutionary algorithm
+BICT 2014
+
+ 
+
+Mangal Singh, Sarat Kumar Patra
+
+Department of Electronics & Comm. Engg.
+National Institute of Technology, Rourkela, India
+
+12/03/2014 af
+ay
+
+ 
+
+ener earl Seen Meecom niece

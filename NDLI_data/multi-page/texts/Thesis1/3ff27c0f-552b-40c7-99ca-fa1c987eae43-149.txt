@@ -1,0 +1,48 @@
+137 QISO® of a Rieffel deformed noncommutative manifold
+
+ 
+
+Proof :
+
+(Aooo x 7 Booo)((u1, u2, 0, 0, 0))
+
+J [ xxe(Aoon)( (us, 12, 0,0,0))xo( Boon) ((un, 2,0, 0, 0))e( ut} dude
+
+/ bees J Fhe exntay v0 (a, 12, 0,0,0)) (405.4, (Bona)((t 2,0, 0,0))
+e(u.v)dsdtds' dt’
+= Jf 8 69,981, 4t2, $1, A000 ((u1; ta, 0, 0, 0))X (94.94.04 04) (Boo) (ur, #2; 0, 0, 0))
+e(u.v)dsdtds'dt!
+0 0 0
+= Aoool(e(—5 2) €(581))(u1, U2, 0,0, 0)(e(— 5#2), e(541))]
+Booo [(e(—s}), an ug, 0, 0,0) (e(t)), e(t4))]e(u.v)dsdtds' dt!
+
+which by ( 4.4.3 ) equals
+
+Jf Aooole(—$s2)a1e(—$t2), ($1 )uze( $11), 0, 0, 0] Boool(e(—s{ )ure(t4)), (e(—85)
+uge(ts)), 0, 0, Oje(u.v)dsdtds' dt’
+
+= fom fel—Soalnrel—Sta)el-sh)urelts)e( sis, elses) (tat el tats dsatds! a!
+
+0 0
+= uyus [ [ eSone(-stpelsassdasodss ff e(—Sta)e(tae(t.th)ataaty
+[ [ evorsivasnas, [ [etatiyanae,
+
+which by Corollary 1.3.4 and Proposition 1.3.1
+
+0
+
+Yeas
+
+= uyuge(— 9&5
+
+= uu.
+Similarly,
+(Booo x 7 Aooo)((u1, tO 0,0)
+
+= [. . f Bowol(e eS )uye(— t2)), (e(Ssi)uae( St t1)), 0,0, 0)]
+Aoool(e aa (e(—s5)uge(t5))0, 0, 0)|e(u.v)dsdtds'dt!
+
+= J- fa e(581) Juze(Sti)e e(—s/ )uze(t )e(u.v)dsdtds' dt!
+
+= um ff egs Je(—s})e(s1.84 yasiast ff eS =ty)e(t )e(t1.t4 dtr dt},
+J fees [feat

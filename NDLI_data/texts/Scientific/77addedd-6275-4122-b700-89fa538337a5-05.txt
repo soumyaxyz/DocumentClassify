@@ -1,0 +1,89 @@
+such a correlation to increase the stability of the pruning procedure. Practically, in order to boost the
+sensitivity of m,; associated with smaller weight magnitude(i.e. sensitivity consistency), we use a
+multiplier w;; to Eq.[7]
+
+Correlation Consistency: The second advantage of the update rule is that the direction of the
+gradient of an arbitrary auxiliary parameter m,;; is the same as the direction of the gradient of its
+
+‘ , é . . . OL —e OL
+corresponding |w;;|, when ignoring the regularizers, i.e., sgn( om ) = sgn( hon )s
+
+ 
+
+ 
+
+Proof. We can expand the gradient for w;; and m,,; as follows:
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+OL1 — Lace Otij OR(wij) _ OLace OR(wi;)
+Ow tig. Oss a Ow Ot h(mis) +A Owis ®)
+Blo _ Ooee Oty , R(H(mi;)) _ ALace ,, Oh(ms) , | Bh(ms) ©)
+Omi; Oty. Oi ' Omi; ti; Omiz Omiz
+If we consider the direction of the first term of both gradients while ignoring the regularizers:
+OL, Lace
+san( 5.) = s9n(—e==)san(h(mis))
+OL2, OLace Oh(m;
+sam( 52) = san( Fe )sgn(an) san 10)
+Given the conditions that h(mi;) > 0 and Ontong) > 0, we can conclude that
+i
+OL2 , OL,
+sar) = 89M aT qd)
+
+th other words, the auxiliary parameter m;; tracks the changing of the magnitude of w,;. For the
+pruning task, when the absolute value of a weight/neuron keeps moving towards zero, we should
+accelerate the pruning process of the weight/neuron.
+
+Direction Consistency: The third advantage of the update rule is that the inner product between
+the expected coarse and population gradients with respect to m is greater than zero, i.e., the update
+gradient and the population gradient form an acute angle. Updating in this way actually reduces
+the loss of vanilla BNNs. We refer to Eq. 5, Lemma4 and Lemma10 from , where
+the ReLU and linear STE form acute angle with population gradient. Since(g,,g) = o’q(w, w*),
+where g(w, wx) is a deterministic function for both cases and o represent the STE function. Since
+Tretu < TLeakyRelu S TLinear> We can then retain 0 < (Gretus 9) S (GreakyRetus9) S (Yrinears 9):
+
+3.4. Recoverable Pruning
+
+Pruning with recoverability is important to reduce the gap between the original network graph and the
+sparse network graph, which helps to achieve better sparsity. We design the pruning step following the
+idea of Dynamic Network Surgery(Guo ef aZ.|[2016]), that once some important weights are pruned
+and a large discrepancy occurs, the incorrectly pruned weights will be recovered to compensate for the
+increase of loss. Different from previous works with hard thresholding, for a specific weight/neuron,
+its opportunity to be pruned is determined automatically during optimization. The pruning step in our
+model is soft, the pruned weight will hold its value, and ready to be spliced back to the network if
+large discrepancy is observed.
+
+Based on the multi-step training framework, after m;; is updated by Eq.[7} the unpruned network
+parameters w;; will be updated based on the newly learned structure. If no regularization is applied
+on w;j, the corresponding mj; could be recovered by the accuracy loss. Note that a weight will be
+recovered if the damage made by the pruned weight cannot be restored by updating other unpruned
+weights. If weight decay is applied, any pruned weight will gradually lose recoverability with a fixed
+rate. The weight decay will decrease the magnitude of w;; and provide a negative gradient to mj;,
+which reduces the recoverability. Whether a weight will be recovered under weight decay depends on
+(1) the absolute value of w,;, and (2) the damage it made when removing it from the network. More
+specifically, recovering a weight w;; requires the gradient of m;; moving toward positive direction.
+With L1 regularization, a weight will be permanently pruned when its absolute value drops to zero.
+
+5

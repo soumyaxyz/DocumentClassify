@@ -1,0 +1,59 @@
+What is socket?
+
+Write the role of name server in DNS.
+
+(a)
+
+(b)
+(a)
+
+(b)
+(a)
+
+(b)
+(a)
+
+(b)
+(a)
+
+(b)
+
+PART B — (5 x 5 = 25)
+Answer ALL questions.
+Write notes on Twisted-pair cables.
+Or
+Write about Ethernet card and its standards.
+List the factors lead to networks differences.
+Or
+Write the uses of network interface card.
+Write notes on subnet mask.
+Or
+Write notes on domains and domain names.
+Explain (i) Mutexes (ii) Condition variables.
+Or
+Explain message queues in detail.
+Write a note on UDP sockets.
+Or
+
+Give detail on I/O multiplexing.
+
+_— SS aa i
+
+16.
+
+I.
+
+18.
+
+19.
+
+20.
+
+PART C — (8 x 10 = 30)
+Answer any THREE questions.
+Explain any two cables used in network.
+Write notes on Hub and its types.
+Explain about addressing.
+Write notes on Semaphores in Unix.
+
+Write notes on socket and its options.

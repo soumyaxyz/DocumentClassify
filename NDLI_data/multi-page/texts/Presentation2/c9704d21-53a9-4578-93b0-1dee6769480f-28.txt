@@ -1,0 +1,15 @@
+Open Source BI Tools
+
+RDBMS MySQL, Firebird
+
+Pentaho Data Integration (formerly
+
+ETL Tool
+me" called Kettle), SpagoBI
+
+Analysis Tools Weka, RapidMiner, SpagoBI
+
+Reporting Tools/Ad Hoc
+
+Pentaho, BIRT, Actuate, Jaspersoft
+Querying/Visualization e P

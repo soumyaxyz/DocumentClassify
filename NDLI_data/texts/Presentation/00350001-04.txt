@@ -1,0 +1,5 @@
+Addition theorem
+e For any two events A and B
+P(A UB) = P(A) + P(B) - P(A NB)
+e If Aand B are mutually exclusive then
+P(A U B) = P(A) + P(B)

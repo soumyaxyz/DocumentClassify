@@ -1,0 +1,22 @@
+Reporting Perspectives Common to all Levels of Enterprise
+
+Function level: Reports being generated at the function level may be
+consumed by users within a department or geographic location or region or
+by decision makers at the corporate level. One needs to keep in mind the
+target audience for the reports. The requirements will vary based on the
+target audience. Departments such as HR, marketing, production, purchase,
+accounting etc. will need specific standard reports to handle operational,
+tactical, and strategic challenges. Reports could be produced in many
+languages to meet global user needs.
+
+Internal/external: Sometimes the consumers of reports may be external to
+the enterprise. We are very familiar with the annual reports of
+organizations. Correctness as well attractive presentation of the report is of
+paramount importance.
+
+Role-based: Today we are witnessing massive information overload. The
+trend is to provide standard format of report to similar roles across the
+enterprise, as they are likely to make similar decisions. For example, a sales
+executive responsible for strategic accounts will need _— similar
+information/facts for decision making irrespective of the country/ products
+he/she handles.

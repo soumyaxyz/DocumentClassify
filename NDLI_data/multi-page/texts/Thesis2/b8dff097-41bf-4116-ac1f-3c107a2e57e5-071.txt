@@ -1,0 +1,66 @@
+7.6. UNITARY GROUPS 59
+
+and we have proved that t is a product of two involutions on each component. Hence
+
+ 
+
+ 
+
+ 
+
+t is strongly real.
+
+ 
+
+Corollary 7.6.3. Lett € SU(V,h) be semisimple. Supposen #2 (mod 4). Then
+t is real in SU(V,6) if and only if it is strongly real.
+
+Proof. The result follows by keeping track of the determinant of the conjugating
+
+ 
+
+ 
+
+element in the proof of Theorem 7.6.2.
+
+ 
+
+Remarks 7.6.4. 1. Let K be a quadratic extension of k. Let V be a two
+
+dimensional vector space over a field K with a nondegenerate hermitian form b defined
+
+ 
+
+as follows. Let {e1,¢2} be a basis of V such that (e1,e1) = 1,6(e2,e2) = —1 an
+1 0
+h(e1,¢€2) = 0. In the matrix notation, the matrix of the form is H = =
+
+and U(H) = {X € GL2(K) | 'XHX = H}. Let A= (; :) € SU(H) where
+
+€. Then A is semisimple. Let T € GLo(K) such that TAT~! = A~!. Then T is
+EFE I
+
+0 b
+of the form T’ = 4 ) Note that A is real in U(#) if and only if there exists
+c
+0 b . Fy _ . :
+= a with bb = —1 and cé = —1. The element A is not strongly real in
+c
+
+SU(H). For T to be in SU(H) we need bc = —1 and this implies T? = —1. Hence no
+involution conjugates A to its inverse. But if K has an element b such that bb = —1,
+then A can be conjugated to A7! by T such that T? = —1. For example one can take
+K =Q(vY5) andk=Q.
+
+2. Let V be a two dimensional vector space over K with a hermitian form h on
+it. Let K = k(y). Let {e1,e2} be a basis of V such that h(e1,e1) = 0, h(e2, e2) = 0
+
+and h(e1,e2) = y = —b(e2,e1). In the matrix notation, the matrix of the form is
+H= | ‘) and U(H) = {X € GL2(K) | '‘XHX = H}. Let A= ; : E
+SU(H). Then Aisa unipotent element. Let T € GL(K) be such that TAT! = AT}.
+Then T is of the form T’ = ( 5 [ ) Note that A is real in U(#) if and only
+if there exists T = 5 7 with a@ = —1 and ab — ab = 0. Here T? = a?I.
+
+The element A is not strongly real in SU(H). For if so, we would have a? = 1 and
+
+aa = —1, which would imply that 7 is a square in k. Hence no involution conjugates

@@ -1,0 +1,123 @@
+459
+
+460
+
+462
+
+463
+
+464
+
+465
+
+466
+
+467
+
+468
+
+469
+
+470
+
+472
+
+473,
+
+474
+
+475
+
+476
+
+477
+
+478
+
+479
+
+480
+
+ 
+
+Engineering & Applications Symposium, IDEAS 2017, Bristol, United Kingdom, July 12-14, 2017, Bipin C. Desai, Jun
+Hong, and Richard McClatchey (Eds.). ACM Press, 74-81. https://doi.org/10.1145/3105831.3105838
+
+Amit Singhal. 2012. Introducing the Knowledge Graph: things, not strings. Google Blog. https://www.blog.google/
+products/search/introducing-knowledge-graph-things-not/.
+
+Martin G. Skjaeveland, Daniel P. Lupp, Leif Harald Karlsen, and Henrik Forssell. 2018. Practical Ontology Pattern
+Instantiation, Discovery, and Maintenance with Reasonable Ontology Templates, See [514], 477-494.
+
+Jennifer Sleeman and Tim Finin. 2013. Type Prediction for Efficient Coreference Resolution in Heterogeneous
+Semantic Graphs. In 2013 IEEE Seventh International Conference on Semantic Computing, Irvine, CA, USA, September
+16-18, 2013. IEEE Computer Society, 78-85.
+
+Alisa Smirnova and Philippe Cudré-Mauroux. 2019. Relation Extraction Using Distant Supervision: A Survey. ACM
+Computing Surveys 51, 5 (2019), 106:1-106:35.
+
+Richard Socher, Danqi Chen, Christopher D Manning, and Andrew Ng. 2013. Reasoning with neural tensor networks
+for knowledge base completion, See [76], 926-934. http://papers.nips.cc/book/advances-in-neural-information-
+processing-systems- 26-2013
+
+Arnaud Soulet, Arnaud Giacometti, Béatrice Markhoff, and Fabian M. Suchanek. 2018. Representativeness of
+Knowledge Bases with the Generalized Benford’s Law, See [514], 374-390.
+
+John Sowa. 1979. Semantics of Conceptual Graphs. In 17th Annual Meeting of the Association for Computational
+Linguistics, 29 June - 1 July 1979, University of California at San Diego, La Jolla, CA, USA, Norman K. Sondheimer (Ed.).
+The Association for Computational Linguistics, 39-44. https://www.aclweb.org/anthology/P79- 1010,
+
+John Sowa. 1987. Semantic Networks. In Encyclopedia of Cognitive Science, Stuart C. Shapiro (Ed.). John Wiley &
+Sons. Revised version available at http://www.jfsowa.com/pubs/semnet.htm.
+
+Blerina Spahiu, Riccardo Porrini, Matteo Palmonari, Anisa Rula, and Andrea Maurino. 2016. ABSTAT: Ontology-
+Driven Linked Data Summaries with Pattern Minimalization. In The Semantic Web - ESWC 2016 Satellite Events,
+Heraklion, Crete, Greece, May 29 - June 2, 2016, Revised Selected Papers (Lecture Notes in Computer Science), Harald Sack,
+Giuseppe Rizzo, Nadine Steinmetz, Dunja Mladenic, Séren Auer, and Christoph Lange (Eds.), Vol. 9989. Springer,
+381-395.
+
+Alessandro Sperduti and Antonina Starita. 1997. Supervised neural networks for the classification of structures. IEEE
+Transactions on Neural Networks 8, 3 (1997), 714-735. https://doi.org/10.1109/72.572108
+
+Manu Sporny, Gregg Kellogg, Markus Lanthaler, Dave Longley, and Niklas Lindstrom. 2014. JSON-LD 1.0, A JSON-
+based Serialization for Linked Data, W3C Recommendation 16 January 2014. W3C Recommendation. World Wide Web
+Consortium.
+
+Rajan Srikanth and Matthias Jarke. 1989. The Design of Knowledge-Based Systems for Managing Ill-Structured
+Software Projects. Decision Support Systems 5, 4 (1989), 425-447.
+
+Steffen Staab and Rudi Studer (Eds.). 2009. Handbook on Ontologies. Springer. https://doi.org/10.1007/978-3-540-
+92673-3
+
+Claus Stadler, Jens Lehmann, Konrad Héffner, and Séren Auer. 2012. LinkedGeoData: A core for a web of spatial open
+data. Semantic Web Journal 3, 4 (2012), 333-354.
+
+Simon Steyskal and Axel Polleres. 2014. Defining expressive access policies for linked data using the ODRL ontology
+2.0, See [429], 20-23.
+
+Patrick Stickler. 2005. CBD — Concise Bounded Description, W3C Member Submission 3 June 2005. W3C Member
+Submission. https://www.w3.org/Submission/2005/SUBM-CBD- 20050603/
+
+Radu Stoica, George H. L. Fletcher, and Juan F. Sequeda. 2019. On Directly Mapping Relational Databases to Property
+Graphs, See [237], 4. http://ceur-ws.org/Vol-2369/short06.pdf
+
+Frans N. Stokman and Pieter H. de Vries. 1988. Structuring knowledge in a graph. In Human-Computer Interaction,
+Gerrit C. van der Veer and Gijsbertus Mulder (Eds.). Springer, Chapter 11, 186-206.
+
+Umberto Straccia. 2009. A Minimal Deductive System for General Fuzzy RDF. In Web Reasoning and Rule Systems,
+Third International Conference, RR 2009, Chantilly, VA, USA, October 25-26, 2009, Proceedings (Lecture Notes in Computer
+Science), Axel Polleres and Terrance Swift (Eds.), Vol. 5837. Springer, 166-181.
+
+Philip Stutz, Daniel Strebel, and Abraham Bernstein. 2016. Signal/Collect12. Semantic Web Journal 7, 2 (2016),
+139-166.
+
+Jian Su, Xavier Carreras, and Kevin Duh (Eds.). 2016. Proceedings of the 2016 Conference on Empirical Methods in
+Natural Language Processing, EMNLP 2016, Austin, Texas, USA, November 1-4, 2016. The Association for Computational
+Linguistics.
+
+Mari Carmen Sudrez-Figueroa, Gong Cheng, Anna Lisa Gentile, Christophe Guéret, C. Maria Keet, and Abraham
+Bernstein (Eds.). 2019. Proceedings of the ISWC 2019 Satellite Tracks (Posters & Demonstrations, Industry, and Outrageous
+Ideas) co-located with 18th International Semantic Web Conference (ISWC 2019), Auckland, New Zealand, October 26-30,
+2019. CEUR Workshop Proceedings, Vol. 2456. Sun SITE Central Europe (CEUR). http://ceur-ws.org/Vol-2456
+
+99

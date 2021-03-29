@@ -1,0 +1,126 @@
+STUDY
+QURAN
+
+Q. Is this a religious
+book?
+A. Yes
+
+Q. What is the year in Q. What is the edition
+the Calendar? of this book?
+A. 2016 A.2
+
+  
+
+i"
+
+We
+
+ 
+
+(d)
+
+Q. What is the year in Q. What is the title of
+the Calendar? this book?
+A. NULL’ A. Looker boon
+
+Q. What is the title of
+this book?
+A. Explicit Content
+
+Figure 4: Some sample results of our best performing method (BLOCK+CNN+W2V) on OCR-VQA-200K. (a), (b) and (c)
+are some of the successful examples, whereas (d), (e) and (f) shows a few failure cases. Current best text recognition engine
+and VQA techniques fall short to deal with challenges present in our large-scale dataset. [Best viewed in color].
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Recall (book title) Recall (author name) |
+
+Method [Without | With ED_| Without | With ED_|
+
+| Tesseract 0.28 0.43 0.25 0.40 |
+
+| CRNN 0.30 0.50 0.35 0.46 |
+
+[_Textspotter 0.53 0.83 0.52 0.77 |
+Table Il: OCR performance on reading author names
+
+and titles correctly. We observed that the TextSpotter
+performs best on our dataset. We use the the same for our
+trainable VQA model.
+
+(i) only text-block features (BLOCK), (ii) only VGG-16
+features (CNN), (iii) block and CNN features, (iv) block,
+CNN and word2vec (BLOCK+CNN+W2V) features. The
+results of these ablations are reported in Table [y] We ob-
+serve that BLOCK and CNN features alone are not sufficient
+in answering questions. This is primarily because BLOCK
+features are designed to answer only author name, book title
+or year related questions, and similarly CNN features only
+deal genre related question. The best performing variant of
+our method is BLOCK+CNN+W2V. Here, text embeddings
+of all the words on the cover, i.e. the average word2vec
+specially help in improving genre related questions.
+
+A. Error analysis and challenges
+
+The lower performance in this dataset is primarily due
+to wide variations in scale, layout and font-styles of text.
+Secondly, variations in questions asked (e.g., paraphrasing)
+and questions related to genre of book also limit the per-
+formance. We have shown some examples of successful and
+failure cases in Figure [4] In Figure [fa), (b) and (c), we
+observe that despite large variations in layout, the proposed
+
+Method | accuracy
+BLOCK 42.0
+CNN 14.3
+BLOCK+CNN 41.5
+BLOCK+CNN+W2V 48.3
+
+Table III: Ablation Study:OCR-VQA results by our proposed
+baseline and its variants.
+
+baseline is able to answer question inquiring book type, year
+and edition of book. Some failure cases are also shown in
+Figure Ald). (e) and (f). The major failures are due to fancy
+fonts and cluttered background on the book cover, where
+text detection and recognition perform poorly.
+
+We also show results for various question types in Ta-
+ble[IV] We observe that binary questions yield the maximum
+success rate, but the method is observed to be less successful
+on other factual questions, e.g., inquiring about book genre,
+author name and year. To verify the effectiveness of block
+features, we also experimented with OCR+NER baseline
+without any block features. This baseline yields 39.5%
+as compared to our method which achieves 42.9% for
+authorship questions. This result indicates the utility of our
+block features which encode layout and spatial positioning
+information along with the NER-tags.
+
+While addressing all the challenges is beyond the scope
+of a single paper, we believe our dataset will give a strong
+test bed for future research in these areas.
+
+VI. SUMMARY AND FUTURE WORK
+
+In this paper, we introduced the novel task of visual
+question answering by reading text in images, and an ac-

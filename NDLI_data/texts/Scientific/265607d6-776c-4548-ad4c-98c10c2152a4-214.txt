@@ -1,0 +1,43 @@
+9. Diversification Trade-Off
+
+ 
+
+ument features are computed based on five different ranking mechanisms (denoted
+“m’ in the “variants” column of Table 9.1), namely, BM25 (Equation (2.13)),
+DPH (Equation (2.31)), and the APIs of the Bing, Google, and Yahoo! web
+search engines. For the latter three mechanisms, URLs not present in our target
+test collection are discarded. In addition, each of these features is computed at
+ten distinct rank cutoffs (denoted “c”): 1, 2, 3, 5, 10, 20, 50, 100, 500, and 1000.
+For entity-oriented features, up to four types (denoted “t”) are considered: per-
+sons, organisations, products, and locations. Lastly, distributional features, such
+as the number of documents per domain or the pairwise distance between any
+two retrieved documents, are summarised using up to three summary statistics
+(denoted “s”): mean, standard deviation, and maximum. The devised features
+are organised into five groups, according to the tasks that motivated each feature:
+query concept identification (QCI), query intent detection (QID), query log min-
+ing (QLM), query performance prediction (QPP), and query topic classification
+
+(QTC). In the following, we describe each of these groups.
+
+Query Concept Identification (QCI) A first sign of ambiguity is present at
+the word level (Sanderson, 2008). For instance, a query might contain multiple
+named entities, possibly representing a complex information need with multiple
+intents, as discussed in Section 7.2.2.3. Alternatively, a single query term can have
+multiple meanings according to a particular source, such as a dictionary or an
+encyclopedia. To capture these intuitions, we quantify the occurrence of named
+entities in the query, as well as of Wikipedia disambiguation pages in the ranking
+produced for this query. In addition, we further quantify the ambiguity of a query
+by detecting the presence of acronyms. To this end, instead of deploying sophis-
+ticated natural language processing techniques, we simply compute the number
+
+of interpretations returned by all-acronyms.com for single-term queries.!
+
+Query Intent Detection (QID) Navigational queries are usually less am-
+biguous than informational ones (Welch et al., 2011), which suggests that useful
+query intent detection features might also be useful for predicting query ambi-
+
+guity (Kang & Kim, 2003). With this in mind, we leverage several query intent
+
+1We assume that acronyms in multi-term queries are disambiguated by the additional terms.
+
+196

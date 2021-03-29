@@ -1,0 +1,43 @@
+4.3. FORMS OF ALGEBRAIC GROUPS 31
+
+G) such that Vx,y € P, there exists a unique a € A such that y = z.a. Then ((Sel,
+Chapter I, Section 5.2, Proposition 33),
+
+Proposition 4.2.1. Let A be a G-group. There is a bijection between the set of
+
+classes of principal homogeneous spaces over A and the set H*(G, A).
+
+Next we describe the cohomology exact sequence associated to a subgroup. Let A
+be a subgroup of B which are G-groups. The homogeneous space B/A of left A-cosets
+of B is a G-set. Then we have ([Se], Chapter I, Section 5.4, Proposition 36),
+
+Proposition 4.2.2. The sequence of pointed sets :
+1 > H°(G, A) > H°(G, B) > H°(G, B/A) * H(G, A) > H1(G,B)
+is exact.
+
+If A is normal in B then the above exact sequence can be extended on its right
+up to H1(G, B/A).
+
+4.3. Forms of Algebraic Groups
+
+Let V be a vector space over a field k. Let « be a tensor (1-tensor) on V. Let
+be a Galois extension of the field k and G be the Galois group. Then the tensor « can
+be extended to xx over Vx = V ® K. We call (V, 2) and (V’,2’) are K-isomorphic
+if (Vk,vx) and (Vx%,2,) are isomorphic. Let (V,a) be a pair and Eyy.)(K/k) be
+the set of k isomorphism classes of (V’,2’) which are K isomorphic to (V,x). Let
+Ax = Autx(Vx,vK). Then G acts on Vx by s.(x7@ A) = @ s(A) for any s € G. The
+group G acts on Ax as follows:
+
+s(f)(0) =s.f(s(a)), te, 6(f) = sf.
+This action on GL,,(K) is same as the entry wise action.
+
+Let us fix (V,x). We compare E(K/k) = Evy2)(K/k) to H'(G, Ax). Let (V’,2’) €
+E(K/k) and f: Vk — Vz be the map giving isomorphism of (Vk,vx«) and (Vx, 2'¢).
+We define a map p: G + Ax by s+ f7's(f) = fo'sfs7t. It is easy to check that
+p is a l1-cocycle. We define a map 6: E(K/k) — H1(G, Ax) by 0(V',2’) & p ([Sel,
+Chapter II, Section 1.1, Proposition 1).
+
+Proposition 4.3.1. The map @ is bijective.
+
+Let us consider a nondegenerate quadratic form q as a tensor. Then the set
+E(K/k) is the set of quadratic forms that are K-isomorphic to q. The group Ax =

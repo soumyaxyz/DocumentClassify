@@ -1,0 +1,41 @@
+REFERENCES REFERENCES
+
+ 
+
+Hiemstra, D. (1998). A linguistically motivated probabilistic model of information
+retrieval. In Proceedings of the 2nd European Conference on Research and Ad-
+vanced Technology for Digital Libraries, 569-584, Springer, Heraklion, Greece.
+26
+
+Hintikka, J. & Suppes, P. (1970). Information and Inference. Synthese Library,
+Reidel. 34
+
+HocuBauM, D.S., ed. (1997). Approximation algorithms for NP-hard problems.
+PWS Publishing Co., Boston, MA, USA. 60, 87
+
+Huang, J. & Efthimiadis, E.N. (2009). Analyzing and evaluating query reformu-
+lation strategies in web search logs. In Proceedings of the 18th ACM Conference
+on Information and Knowledge Management, 77-86, ACM, Hong Kong, China.
+16
+
+Ingwersen, P. & Jarvelin, K. (2005). The Turn: Integration of Information Seeking
+and Retrieval in Conteat (The Information Retrieval Series). Springer, Secau-
+cus, NJ, USA. 48
+
+Jain, A., Cucerzan, S. & Azzam, S. (2007). Acronym-expansion recognition and
+ranking on the Web. In Proceedings of the 2007 IEEE International Conference
+on Information Reuse and Integration, 209-214. 16
+
+Jansen, B.J., Spink, A., Bateman, J. & Saracevic, T. (1998). Real life information
+retrieval: A study of user queries on the Web. SIGIR Forum, 32, 5-17. 104,
+121, 136
+
+Jansen, B.J., Spink, A. & Saracevic, T. (2000). Real life, real users, and real needs:
+A study and analysis of user queries on the Web. Information Processing and
+Management, 36, 207-227. 1, 16, 18, 54, 208, 217
+
+Jarvelin, K. & Kekalainen, J. (2002). Cumulated gain-based evaluation of IR
+techniques. ACM Transactions on Information Systems, 20, 422-446. 51, 79,
+80
+
+237

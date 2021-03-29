@@ -1,0 +1,76 @@
+Chapter 5: Quantum isometry groups of the Podles spheres 158
+
+ 
+
+in the equation ¢(BB*) = p?(A) — y4¢(A?) +. c.1 and then using Lemma 5.3.9 anc
+Lemma 5.3.10.
+
+ 
+
+ 
+
+ 
+
+ 
+
+5.3.3 Relations from the antipode
+
+Now, we compute the antipode, say « of 3.
+To begin with, we recall from Lemma 5.1.3 and Proposition 5.1.5 that {z_1, 70, x1}
+
+is a set of orthogonal vectors with same norm.
+
+Lemma 5.3.14. If x!_,, 19, «4 is the normalized basis corresponding to {x-1, xo, «1},
+then from ( 5.3.2 ) and ( 5.3.3 ) we obtain
+1
+O(ay) = al, @ 83 +49 @—pw (Lt py?) 7S. +44 @ —w'S4,
+1 1
+O(a) = #1, @ —M(L + ?)? Ts +05 @ Te +2, @ (1+ y?)? Th,
+O(a) = 2! @ —wSZ + 2p @ (1+?) 783 + a4 @ 85.
+
+ 
+
+ 
+
+Proof : As «1, %, % have same norm, it follows that 2 = Ka;, where K =
+Jil, t= {-1,0,3).
+
+Now, using (5.1.7 ) and ( 5.3.3 ), we have
+
+ 
+
+ 
+
+bay)
+Kt(1 +e)?
+= ———— $¢(B)
+Le
+1
+Kt(1+p?)? 1—t-le gp —pole
+= Mie 9 s+ ; = @ Sy +—"__ @ 534 (=H 21) » ¢,
+Le +e t(1 + p?)? t(1+ p?)?
+= Kx. 8 $3+Km 0 —-—2—~ + Kn, @ —4
+p(1 + p?)? He
+
+( by Lemma 5.3.9 )
+
+9,—-1
+=2', 28340) @-—pw (1+ p?) 25.42) @—p 194.
+
+ 
+
+ 
+
+ 
+
+By similar calculations, we get the second and the third equations.
+
+ 
+
+Hence, ¢ keeps the span of the orthonormal set {x/_,, 2, 2} invariant. More-
+over, ¢ is kept invariant by the Haar state h of SU,,(2). Therefore, we have a unitary
+representation of the CQG Q on span {al x, vi}
+
+Using Ty = T} from Lemma 5.3.10, the unitary matrix, say Z corresponding to @
+
+and the ordered basis {x’_,, xp, x} is given by :

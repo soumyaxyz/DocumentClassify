@@ -1,0 +1,43 @@
+REFERENCES REFERENCES
+
+ 
+
+Cronen-Townsend, S. & Croft, W.B. (2002). Quantifying query ambiguity. In Pro-
+ceedings of the 2nd International Conference on Human Language Technology
+Research, 104-109, Morgan Kaufmann Publishers Inc., San Diego, CA, USA.
+55
+
+Cronen-Townsend, S., Zhou, Y. & Croft, W.B. (2002). Predicting query perfor-
+mance. In Proceedings of the 25th Annual International ACM SIGIR Confer-
+ence on Research and Development in Information Retrieval, 299-306, ACM,
+Tampere, Finland. 157, 198
+
+Cui, H., Wen, J.R., Nie, J-Y. & Ma, W.Y. (2002). Probabilistic query expansion
+using query logs. In Proceedings of the 11th International Conference on World
+Wide Web, 325-332, ACM, Honolulu, HI, USA. 17
+
+Cutts, M. (2012). Spotlight keynote. In Proceedings of Search Engine Strategies,
+San Francisco, CA, USA. 1, 10, 12, 208
+
+Damerau, F.J. (1965). An experiment in automatic indexing. American Docu-
+mentation, 16, 283-289. 31
+
+Dang, V., Bendersky, M. & Croft, W.B. (2010). Learning to rank query reformu-
+lations. In Proceedings of the 33rd Annual International ACM SIGIR Confer-
+ence on Research and Development in Information Retrieval, 807-808, ACM,
+
+Geneva, Switzerland. 123
+
+Das, A. & Jain, A. (2012). Indexing the World Wide Web: The journey so far,
+chap. 1, 1-28. IGI Global. 16
+
+Dean, J. (2009). Challenges in building large-scale information retrieval systems.
+In Proceedings of the 2nd ACM International Conference on Web Search and
+Data Mining, 1, ACM, Barcelona, Spain. 13, 125
+
+Demartini, G. (2011). ARES: a retrieval engine based on sentiments sentiment-
+based search result annotation and diversification. In Proceedings of the 33rd
+European Conference on IR Research on Advances in Information Retrieval,
+772-775, Springer-Verlag, Dublin, Ireland. 217
+
+232

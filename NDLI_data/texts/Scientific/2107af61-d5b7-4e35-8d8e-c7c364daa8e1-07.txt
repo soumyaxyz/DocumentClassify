@@ -1,0 +1,66 @@
+Preprint. Under review.
+
+ 
+
+aggregation for each coloring, and its complexity is also proportional to the number of chosen
+colorings k = |C;,|. Hence the complexity of the algorithm is in O(kKET).
+
+Note that the number of all possible colorings for a given graph depends exponentially in the size of
+the groups Vj, ..., Vx,
+
+K
+
+le(v, A)| = T] 1Vel!. ©)
+
+k=1
+
+and thus oo-CLIP is practical only when most node attributes are dissimilar. This worst case
+exponential dependency in the number of nodes can hardly be avoided for universal representations.
+Indeed, a universal graph representation should also be able to solve the graph isomorphism problem.
+Despite the existence of polynomial time algorithms for a broad class of graphs (Luks|
+[Bodlaender}[T990), graph isomorphism is still quasi-polynomial in general 2016). As a result,
+creating a universal graph representation with polynomial complexity for all possible graphs and
+functions to approximate is highly unlikely, as it would also induce a graph isomorphism test of
+polynomial complexity and thus solve a very hard and long standing open problem of theoretical
+computer science.
+
+6 EXPERIMENTS
+
+In this section we show empirically the practical efficiency of CLIP and its relaxation. We run two
+sets of experiments to compare CLIP w.r.t. state-of-the-art methods in supervised learning settings: i)
+on 5 real-world graph classification datasets and ii) on 4 synthetic datasets to distinguish structural
+graph properties and isomorphism. Both experiments follow the same experimental protocol as
+described in[Xu et al.|(2019): 10-fold cross validation with grid search hyper-parameter optimization.
+More details on the experimental setup are provided in Appendix[E]
+
+6.1 CLASSICAL BENCHMARK DATASETS
+
+We performed experiments on five benchmark datasets extracted from standard social networks
+(IMDBb and IMDBm) and bio-informatics databases (MUTAG, PROTEINS and PTC). All dataset
+characteristics (e.g. size, classes), as well as the experimental setup, are available in Appendix |[E]
+Following standard practices for graph classification on these datasets, we use one-hot encodings
+of node degrees as node attributes for IMDBb and IMDBm (Xu et al.|/2019), and perform single-
+label multi-class classification on all datasets. We compared CLIP with six state-of-the-art baseline
+algorithms: 1) WL: Weisfeiler-Lehman subtree kernel (Shervashidze et al.|[2011), 2) AWL: Anony-
+mous Walk Embeddings (Ivanov and Burnaev| (2018), 3) DCNN: Diffusion-convolutional neural
+networks (Atwood and Towsley}|2016), 4) PS: PATCHY-SAN 2016), 5) DGCNN:
+Deep Graph CNN (Zhang et al.||2018) and 6) GIN: Graph Isomorphism Network (Xu et al.|[2019).
+WL and AWL are representative of unsupervised methods coupled with an SVM classifier, while
+DCNN, PS, DGCNN and GIN are four deep learning architectures. As the same experimental
+
+protocol as that of[Xu et al.|(2019) was used, we present their reported results on Table[I]
+
+As Table|1]shows, CLIP can achieve state-of-the-art performance on the five benchmark datasets.
+Moreover, CLIP is consistent across all datasets, while all other competitors have at least one weak
+performance. This is a good indicator of the robustness of the method to multiple classification tasks
+and dataset types. Finally, the addition of colors does not improve the accuracy for these graph
+classification tasks, except on the MUTAG dataset. This may come from the small dataset sizes
+(leading to high variances) or an inherent difficulty of these classification tasks, and contrasts with
+the clear improvements of the method for property testing (see Section|6 More details on the
+performance of CLIP w.r.t. the number of colors k are available in Appendix|E]
+
+Remark 2. In three out of five datasets, none of the recent state-of-the-art algorithms have statistically
+significantly better results than older methods (e.g. WL). We argue that, considering the high variances
+
+of all classification algorithms on classical graph datasets, graph property testing may be better suited
+to measure the expressiveness of graph representation learning algorithms in practice.

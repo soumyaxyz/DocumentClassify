@@ -1,0 +1,14 @@
+Connectionist Models for Certain Tasks
+Related to Object Recognition
+
+Jayanta Basak
+Machine Intelligence Unit
+Indian Statistical Institute
+
+Calcutta - 700 035
+India
+
+A dissertation submitted to the Indian Statistical Institute
+for the partial fulfillment of the degree of
+Doctor of Philosophy
+1994

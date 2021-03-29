@@ -1,0 +1,56 @@
+Ad hoc retrieval via entity linking and semantic similarity S61
+
+interpolation of SELM + SDM proves to be effective in that this relevant document is ranked in
+position 9.
+
+5 Query expansion for implementing SELM over semantic indices
+
+Query expansion, expanding an original query with additional words for the purpose of
+expressing user intent more effectively, has been widely explored in the literature, and very
+successful results have been reported so far [54]. Recently, knowledge-enabled query expan-
+sion techniques, i.e., automatic methods that utilize knowledge expressed in sources like
+Wikipedia and Freebase for query expansion, have been introduced and implemented [7,52].
+
+In this section, we investigate SELM more thoroughly and show that although it is defined
+as a language model for retrieval, it can be implemented by expanding queries not with words
+or texts but with a set of related concepts.
+
+Given a query, for being matched and selected for ranking, a document must have a
+conditional probability more than zero. Recalling Eq. (3) in Sect. 3.3, it means that there
+should be at least one feature f; that is defined over cliques in the query and the document
+whose value is greater than zero. Referring to Eq. (5), it means that there should be at least
+one pair of concepts x and y whose semantic relatedness is greater than zero. Also recall that
+the concept indexer module of the semantic retrieval framework (Fig. 1) indexes concepts
+found by the semantic annotation module for each document, but does not index the related
+concepts. Observably, it is difficult to search over concept indices for finding documents that
+do not have the exact query concepts but have the related ones.
+
+As an example, consider the Trec query #324: ‘Argentine/British Relations.’ This query is
+annotated with a Wikipedia article with Wikipedia Id #16594665, which is named ‘Argentina
+United Kingdom relations.’ Also let d, be an arbitrary document that is annotated with just
+one concept: the Wikipedia article #82533, which is named ‘International relations.’ In the
+concept index produced by concept indexer module in Fig. 1, there is a posting list associated
+with concept #82533 that includes document d;. Assuming that the concept ‘International
+relations’ is semantically related to ‘Argentine/British Relations,’ finding d for this query
+over the concept index is a challenge that needs to be addressed.
+
+For addressing this issue, we employ a simple yet effective approach that logically pro-
+duces the same set of results but is much simpler to implement given the structure of inverted
+indices that we have used. According to this approach, we expand a given query with all
+concepts that are semantically related to its concepts, using semantic relatedness measures
+as a coefficient. We pose this new query against the semantic index and find matching doc-
+uments. We rank the matching documents using SELM considering the original query. It
+should be noticed that although we expand the query for finding matching documents, we
+use the original query concepts in our ranking module. In our example, we pose query
+“16594665 OR (0.2)82533’ against the semantic index meaning that those documents that
+contain concept #16594665 match the query and return value | for the feature defined over
+the clique (16594665, 16594665). But those documents that contain concept #82533 match
+the query and return value 0.2 for the feature defined over the clique (16594665 , 82533). In
+the following, we show why the results of the expanded query are the same as the original
+formation of SELM.
+
+Without loss of generality and based on the query term independence assumption, let us
+assume c; is the query concept found in q (the other concepts will be treated independently).
+Further assume, C = {cj} 0 < i < m are semantically related concepts to cx found by the
+
+a Springer

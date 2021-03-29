@@ -1,0 +1,57 @@
+28 4. GALOIS COHOMOLOGY
+
+{a: GS A| dst = as + Say}
+
+1
+2) BGA) {a: G— A| a, =*c—c for some c € A}
+
+ 
+
+ 
+
+{a: GX GS A| dg 55,53 = *!s9,83 + As1,5983 — As1,59 }
+{a: Gx G>A| act = *h; — bot +b, for some map b: G > A}”
+
+Example 1: Let K be a finite Galois extension of a field k. Let G = Gal(K/k)
+be the Galois group. Then G acts on the additive group K by evaluation. Then
+H°(G,K) =k and H‘(G, K) = 0 for all i > 1.
+
+Example 2: Let K be a Galois extension of a field k. Let G denote the Galois
+group Gal(K/k). Then G acts on the Abelian group K* by evaluation. Then the
+cohomology groups are :
+
+(1) H°(G, K*) =k*.
+(2) H1(G, K*) =1 (Hilbert’s theorem 90).
+(3) H?(G, K*) = Br(K/k).
+
+The group Br(K’/k) is the relative Brauer group which we introduce below.
+
+ 
+
+(3) H?(G, A) =
+
+4.1.1. Central Simple Algebras and the Brauer Group. Let k be a field.
+Let A be a finite dimensional algebra over k. Then A is called simple if it has no
+two sided ideals other than 0 and A. A finite dimensional algebra is called a central
+simple algebra if it is simple and Z(A) = k. From Wedderburn’s structure theorem
+({P], Theorem, Section 3.5) it follows that a central simple algebra A is isomorphic
+to M,(D) where D is a central division algebra over k. Equivalently, a central simple
+algebra of degree n over k is a k-algebra A such that A@,k ~ M,,(k) as k-algebras. We
+define an equivalence relation on the set of finite dimensional central simple algebras
+over field k as follows. We call A and B equivalent if one of the following equivalent
+conditions is satisfied:
+
+(i) If AS M,(D) and B = M,,(D’) then D & D’.
+
+(ii) There exist m,n such that A ®@ M,,(k) = B@ M,(k).
+The Brauer group of k ({P], Proposition a, Section 12.5) is the set of equivalence
+classes of finite dimensional central simple algebras over k with multiplication defined
+by tensor product. It is denoted as Br(k). Brauer group of a field is an Abelian group.
+We give few examples here.
+
+(1) Br(F) = {0}, for any finite field F.
+
+(2) Br(k) = {0}, for any algebraically closed field k. In fact, Br(k) = {0}, for
+
+any field & of transcendence degree one over an algebraically closed field.
+(3) Br(R) = Z/2Z.

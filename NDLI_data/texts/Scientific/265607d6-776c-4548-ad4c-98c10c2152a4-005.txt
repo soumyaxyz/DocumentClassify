@@ -1,0 +1,39 @@
+Acknowledgements
+
+I would like to express my deepest gratitude to several people for their
+
+immense support during the course of my PhD.
+
+First of all, I am extremely grateful to my family for the continued
+and unconditional encouragement and for helping me manage my life
+
+in two different countries over the past four years.
+
+A great deal of gratitude is due to my supervisor, Iadh Ounis. His
+ambitious and critical view helped shape not only an outstanding
+thesis, but also my path towards a promising research career. I am also
+grateful to Craig Macdonald, for co-supervising the development of
+
+this thesis, and for collaborating in various other research endeavours.
+
+I must also thank my colleagues at the Terrier team for our collabora-
+ion over the past four years: Ben He, Jie Peng, Richard McCreadie,
+
+Nut Limsopatham, Dyaa Albakour, and Eugene Kharitonov.
+
+I am also thankful to David Manlove for his courteous and punc-
+tual encouragement over the course of my PhD, to Mark Girolami
+for our fruitful discussions regarding the probabilistic interpretation
+of the xQuAD framework at an early stage of its development, to
+he several anonymous reviewers who refereed this work in its vari-
+
+ous publications, and to Charles Clarke and Leif Azzopardi for their
+
+ 
+
+thoughtful feedback during my PhD viva.
+
+Last but foremost, I am specially grateful to my wife-to-be, for her
+incommensurable support at every single moment of this endeavour,
+
+and for shortening over 6,000 miles between us with immense love.

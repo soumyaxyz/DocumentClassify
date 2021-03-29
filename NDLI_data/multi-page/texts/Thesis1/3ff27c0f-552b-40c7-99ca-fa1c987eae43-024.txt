@@ -1,0 +1,51 @@
+Chapter 1: Preliminaries 12
+
+ 
+
+into a Banach *-algebra by defining
+
+(f *g)(t N= [16 f(s)g(s7t#)du(s),
+
+f(t) =A) FE.
+
+Here f, g are in L1(G), A is the modular homomorphism of G.
+A has a distinguished representation Treg on L?(G) defined by Treg(f) =
+J f(t)r(t)du(t) where x(t) is a unitary operator on L?(G) defined by (x(t) f)(g) =
+fe ‘ (f € L?(G), t,g € G). The reduced group C* algebra of G is defined to be
+an BIG.
+O#(G) := Treg LG).
+Remark 1.1.3. For G abelian, we have C}(G) = Co(G) where G is the group of
+
+characters on G.
+
+One can also consider the universal C* algebra described before corresponding to
+the Banach *-algebra L(G). This is called the free or full group C* algebra and denoted
+by C*(G).
+
+Remark 1.1.4. For the so-called amenable groups ( which include compact and abelian
+
+groups ) we have C*(G) = C*(G).
+
+1.1.2 von Neumann algebras
+
+We recall that for a Hilbert space H, the strong operator topology ( SOT ) , the
+weak operator topology ( WOT ) and the ultra weak topology are the locally
+convex topologies on B(H) given by families of seminorms F;, Fy, F3 respectively where
+Fi= mn :€€H}, Fo = en :€,n €H}, Fs = {pp : p is a trace class operator on H}
+and pe(x) = ||€||, pen(a) = |(xE,n)|, pp(x) = |Tr(xp)| ( where Tr denotes the usual
+trace on B(H)).
+
+Now we state a well known fact.
+
+Lemma 1.1.5. If T, is a sequence of bounded operators converging to zero in SOT,
+
+then for any trace class operator W, Tr(T,W) — 0 as n— co.
+
+For any subset B of B(H), we denote by B’ the commutant of B, that is, B’ = {x €
+B(H) : xb = be for all b € B}. A unital C* subalgebra A C B(H) is called a von
+Neumann algebra if A = A” which is equivalent to being closed in any of the three
+topologies mentioned above.
+
+A state ¢ on a von Neumann algebra A is called normal if ¢(xq) increases to 6(x)
+
+whenever xq increases to x. A state ¢ on A is normal if and only if there is a trace class

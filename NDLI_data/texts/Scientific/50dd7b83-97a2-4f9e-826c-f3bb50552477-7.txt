@@ -1,0 +1,137 @@
+Title: Exponential stability of switched stochastic delay systems with non-linear uncertainties
+
+Abstract: This article considers the robust exponential stability of uncertain switched stochastic systems with time-delay. Both almost sure
+(sample) stability and stability in mean square are investigated. Based on Lyapunov functional methods and linear matrix inequality techniques,
+new criteria for exponential robust stability of switched stochastic delay systems with non-linear uncertainties are derived in terms of linear
+matrix inequalities and average dwell-time conditions. Numerical examples are also given to illustrate the results.
+
+ 
+
+(a) Present Keyphrases
+
+Target: {stochastic systems; non-linear uncertainties; exponential stability; linear matrix inequality; average dwell-time}
+CopyRNN: 1. linear matrix inequality, 2. switched stochastic systems, 3. robust stability, 4. exponential stability, 5. average dwell-time
+TG-Net: 1. exponential stability, 2. switched stochastic systems, 3. average dwell-time, 4. non-linear uncertainties, 5. linear matrix inequality
+
+ 
+
+(b) Absent Keyphrases
+Target: {switched systems; time-delay system}
+
+ 
+
+CopyRNN: 1. switched systems, 2. switched delay systems, 3. robust control, 4. uncertain systems, 5. switched stochastic stochastic systems
+TG-Net: 1. almost sure stability, 2. switched systems, 3. time-delay systems, 4. mean square stability, 5. uncertain systems
+
+ 
+
+ 
+
+Figure 4: A prediction example of CopyRNN and TG-Net. The top 5 predictions are compared and the correct predictions are
+
+highlighted in bold.
+
+>12%) title length ratio groups. In >12% group, the title
+plays a more important role than in other groups, and conse-
+quently our model benefits more by not only explicitly em-
+phasizing the title information itself, but also utilizing it to
+guide the encoding of information in the main body. As for
+<3% group, the effect of such a short title is small on the
+latter part of the context in CopyRNN because of the long
+distance. However, our model explicitly employs the title
+to guide the encoding of each context word regardless of
+the distance, which utilizes the title information much more
+sufficiently. Consequently, our model achieves much higher
+improvement in this group. While we only display the re-
+sults of present keyphrase prediction, the absent keyphrase
+predicting task gets the similar results.
+
+Ablation Study
+
+We also perform an ablation study on Krapivin for bet-
+ter understanding the contributions of the main parts of
+our model. For a comprehensive comparison, we conduct
+this study on both present keyphrase prediction and absent
+keyphrase prediction.
+
+As shown in Table [5] after we remove the title-guided
+part and only reserve the sequence encoding for the context
+(i.e., -title), both the present and absent keyphrase predic-
+tion performance become obviously worse, indicating that
+our title-guided context encoding is consistently critical for
+both present and absent keyphrase generation tasks. We also
+investigate the effect of removing the copy mechanism (i.e.,
+-copy) from our TG-Net. From Table|5} we notice that the
+scores decrease dramatically on both present and absent
+keyphrase prediction, which demonstrates the effectiveness
+of the copy mechanism in finding important parts of the con-
+text.
+
+ 
+
+Case Study
+
+A keyphrase prediction example for a paper about the expo-
+nential stability of uncertain switched stochastic delay sys-
+tems is shown in Figure/4] To be fair, we also only compare
+the RNN-based models (i.e., TG-Net and CopyRNN). For
+present keyphrase, we find that a present keyphrase “non-
+
+ 
+
+ 
+
+Present Absent
+
+Model | FI@5 FI@10 | R@10 R@S50
+
+TG-Net | 0.349 0.295 | 0.146 = 0.253
+-title 0.334 «0.288 -| (0.142 (0.240
+-copy | 0.306 0.281 0.127 0.216
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Table 5: Ablation study on Krapivin dataset.
+
+linear uncertainties”, which is a title phrase, is correctly pre-
+dicted by our TG-Net, while CopyRNN fails to do so. As for
+absent keyphrase, we note that CopyRNN fails to predict the
+absent keyphrase “time-delay systems”. But our TG-Net can
+effectively utilize the title information “stochastic delay sys-
+tems” to locate the important abstract information “stochas-
+tic systems with time-delay” and then successfully generate
+this absent keyphrase. These results exhibit that our model is
+capable of capturing the title-related core information more
+effectively and achieving better results in predicting present
+and absent keyphrases.
+
+Conclusion
+
+In this paper, we propose a novel TG-Net for keyphrase gen-
+eration task, which explicitly considers the leading role of
+the title to the overall document main body. Instead of sim-
+ply concatenating the title and the main body as the only
+source input, our model explicitly treats the title as an ex-
+tra query-like input to guide the encoding of the context.
+The proposed TG-Net is able to sufficiently leverage the
+highly summative information in the title to guide keyphrase
+generation. The empirical experiment results on five popu-
+lar real-world datasets exhibit the effectiveness of our model
+for both present and absent keyphrase generation, especially
+for a document with very low or very high title length ratio.
+One interesting future direction is to explore more appropri-
+ate evaluation metrics for the predicted keyphrases instead
+of only considering the exact match with the human labeled
+keyphrases as the current recall and F-measure do.

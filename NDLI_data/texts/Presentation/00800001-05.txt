@@ -1,0 +1,17 @@
+Mesh Details
+
+Trimmed Mesh with 6 million
+
+Hexahedral cells
+
+10 Prism Layers to Capture Boundary
+
+Layers
+
+Refinements in wake region
+
+   
+
+Refinements at leading and trailing
+
+edges

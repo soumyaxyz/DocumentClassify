@@ -1,0 +1,43 @@
+2.3. SEMISIMPLE ALGEBRAIC GROUPS 13
+2.3. Semisimple Algebraic Groups
+
+In this section we briefly recall the structure theory of semisimple algebraic groups.
+A linear algebraic group G is diagonalizable if it is isomorphic to a closed subgroup
+of some group D,, of diagonal matrices. A group T is a torus if it is isomorphic to
+some D,,. Equivalently a torus is a connected commutative algebraic group consisting
+of semisimple elements alone. A torus T is a k-torus if T is a group defined over k
+and is a torus. A k-torus T is called k-split if T is k-isomorphic to some D,,. Tori
+play an important role in the study of algebraic groups.
+
+Let G be a connected linear algebraic group. A maximal torus of G is a torus
+
+ 
+
+in G that is not strictly contained in another torus contained in G. We record some
+important results here regarding tori in an algebraic group. Any two maximal tori
+of G are conjugate ([Sp], Theorem 6.4.1). The dimension of a maximal torus in G
+is called the rank of G. Also every semisimple element of G lies in a maximal torus
+({Sp], Theorem 6.4.5). Now let G be a connected linear algebraic group defined over
+a field k. Then G contains maximal tori defined over k ({Sp], Theorem 13.3.6) and
+every semisimple element of G(k) lies in a maximal k-torus ([Sp], Corollary 13.3.8).
+However, conjugacy of all maximal tori in G(k) is no longer true.
+
+Let G be a connected linear algebraic group. A maximal closed, connected, solv-
+able normal subgroup of G is called the radical, denoted as R(G), of G. We call a
+group G semisimple if R(G) = (e). A maximal closed, connected, unipotent normal
+subgroup of G is called the unipotent radical, denoted as R,(G), of G. In fact,
+the maximal, closed, unipotent normal subgroup of R(G) is R(G), = Ru(G). The
+group G is called reductive if the unipotent part of R(G) is trivial. For example
+the group GL, is a reductive group with R(GL,) = Dn, the diagonal torus, whereas
+SL, is a semisimple group. A torus is a reductive group which is not semisimple. Let
+G be a reductive group defined over k. We say that G is split over k or k-split if
+G contains a maximal k-torus which is k split. The group G is quasi-split if there
+exists a Borel subgroup of G defined over k and anisotropic if none of its proper
+parabolic subgroups is defined over k.
+
+Let T be a maximal torus in G. Then the group W = W(G,T) = Ne(T)/Zc(T)
+is finite and is called the Weyl group of G with respect to a fixed maximal torus
+T. If the group G is reductive then Zg(T) = T ({Sp], Corollary 7.6.4) and in this
+case the Weyl group W = Nc(T)/T. This group plays important role in the study of
+
+structure of semisimple groups.

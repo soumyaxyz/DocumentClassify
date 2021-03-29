@@ -1,0 +1,164 @@
+WWW ’20, April 20-24, 2020, Taipei, Taiwan
+
+"Gamma Function’ "Riemann Zeta Function’
+arXiv 2bMATH arXiv 2bMATH
+
+@fletia- G+it) @
+
+ 
+ 
+
+Piet) es... eclo+w)
+e(o+it)
+
+el)
+
+     
+  
+ 
+
+ie
+2
+3
+4
+5
+6
+7
+8 ‘96 (1/2+it)
+9
+
+eo
+
+e12+it -
+
+“Beta Function’
+
+ 
+
+A. Greiner-Petter, et al.
+
+"Bessel Function’ “Trigonometric Function’
+
+     
+
+2bMATH axiv 2bMATH axXiv 2MATH
+vei ers
+- Dik-w @ “ed 2-
+3 #3
+a .
+5 eK
+6 ie oP,
+7- -ljpe @ (x)
+B- ve eu
+9
+
+10 sing @
+
+    
+
+Figure 5: Top-20 ranked expressions retrieved from a topic-specific subset of documents Dg. The search query q is given above
+the plots. Retrieved formulae are annotated by a domain expert with green dots for relevant and red dots for non-relevant
+hits. A line is drawn if a hit appears in both result sets. The line is colored in green when the hit was marked as relevant.
+
+to also use TF-IDF rankings, such as a variant of BM25, to calculate
+their relevance. In its original form [34], Okapi BM25 was calculated
+as follows
+
+bm2s(t,d) = (k + 1) IDF(t) TF(t, d)
+
+bil \"
+TR(.d) +k (1b + pee)
+
+(7)
+
+ 
+
+where TF(t,d) is the term frequency of t in the document d,
+|d| the length of the document d (in our case, the number of
+subexpressions), AVGp, the average length of the documents in the
+corpus (see Table 1), and IDF (t) is the inverse document frequency
+of t, defined as
+
+N-n(t)+ 3
+
+IDF(t) := lo;
+(t) = log n+
+
+(8)
+where N is the number of documents in the corpus and n(t) the
+number of documents which contain the term t. By adding 3. we
+avoid log 0 and division by 0. The parameters k and b are free, with
+b controlling the influence of the normalized document length and
+k controlling the influence of the term frequency on the final score.
+For our experiments, we chose the standard value k = 1.2 anda
+high impact factor of the normalized document length via b = 0.95.
+
+As a result of our subexpression extraction algorithm, we gener-
+ated a bias towards low complexities. Moreover, longer documents
+generally consist of more complex expressions. As demonstrated in
+Section 2.1, a document that only consists of the single expression
+
+POP), ie., the document had a length of one, would generate
+eight subexpressions, i.e., it results in a document length of eight.
+Thus, we modify the BM25 score in Equation (7) to emphasize higher
+complexities and longer documents. First, the average document
+length is divided by the average complexity AVG, in the corpus
+that is used (see Table 1), and we calculate the reciprocal of the
+document length normalization to emphasize longer documents.
+Moreover, in the scope of a single document, we want to empha-
+size expressions that do not appear frequently in this document, but
+are the most frequent among their level of complexity. Thus, less
+
+arXiv zbMATH
+
+ 
+
+Retrieved Doc.
+
+Min. Hit Freq. 7 7
+Min. DF | 50 10
+Max. DF | 10k 10k
+
+Table 3: Settings for the retrieval experiments.
+
+complex expressions are ranked more highly if the document over-
+
+all is not very complex. To achieve this weighting, we normalize
+
+the term frequency of an expression t according to its complex-
+
+ity c(t) and introduce an inverse term frequency according to all
+
+expressions in the document
+
+|d| — TE(t, d) + 5
+TF(t.d) + 5
+
+Finally, we define the score s(t, d) of a term t in a document d as
+(k + 1) IDF(t) ITF(t, d) TF(¢, d)
+
+bAVGy. \*
+max TF(t’,d +k(1-b+ aoe)
+me Td) IqTAVG
+
+ITF(t, d) := log (9)
+
+s(t,d):= (10)
+
+The TF-IDF ranking functions and the introduced s(t, d) are used
+to retrieve relevant documents for a given search query. However,
+we want to retrieve relevant subexpressions over a set of docu-
+ments. Thus, we define the score of a formula (mBM25) over a set
+of documents as the maximum score over all documents
+
+mBM25(t, D) := maxs (t,d), (11)
+deD
+
+where D is a set of documents. We used Apache Flink [16] to
+count the expressions and process the calculations. Thus, our im-
+plemented system scales well for large corpora.
+
+Table 2 shows the top-7 scored expressions, where D is the en-
+tire zbMATH dataset. The retrieved expressions can be considered
+as meaningful and real-world examples of MOIs, since most ex-
+pressions are known for specific mathematical concepts, such as

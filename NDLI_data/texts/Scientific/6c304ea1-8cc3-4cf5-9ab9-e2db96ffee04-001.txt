@@ -1,0 +1,65 @@
+2003.02320v1 [cs.AI] 4 Mar 2020
+
+arXiv
+
+Knowledge Graphs
+
+AIDAN HOGAN, IMED, DCC, Universidad de Chile, Chile
+
+EVA BLOMQVIST, Linképing University, Sweden
+
+MICHAEL COCHEZ, Vrije Universiteit, The Netherlands
+
+CLAUDIA D’AMATO, University of Bari, Italy
+
+GERARD DE MELO, Rutgers University, USA
+
+CLAUDIO GUTIERREZ, IMED, DCC, Universidad de Chile, Chile
+
+JOSE EMILIO LABRA GAYO, Universidad de Oviedo, Spain
+
+SABRINA KIRRANE, SEBASTIAN NEUMAIER, and AXEL POLLERES, WU Vienna, Austria
+ROBERTO NAVIGLI, Sapienza University of Rome, Italy
+
+AXEL-CYRILLE NGONGA NGOMAO, DICE, Universitat Paderborn, Germany
+
+SABBIR M. RASHID, Tetherless World Constellation, Rensselaer Polytechnic Institute, USA
+ANISA RULA, University of Milano-Bicocca, Italy and University of Bonn, Germany
+LUKAS SCHMELZEISEN, WeST, Universitat Koblenz—Landau, Germany
+
+JUAN SEQUEDA, data.world, USA
+
+STEFFEN STAAB, Universitat Stuttgart, Germany and University of Southampton, UK
+ANTOINE ZIMMERMANN, Ecole des mines de Saint-Etienne, France
+
+In this paper we provide a comprehensive introduction to knowledge graphs, which have recently garnered
+significant attention from both industry and academia in scenarios that require exploiting diverse, dynamic,
+large-scale collections of data. After a general introduction, we motivate and contrast various graph-based data
+models and query languages that are used for knowledge graphs. We discuss the roles of schema, identity, and
+context in knowledge graphs. We explain how knowledge can be represented and extracted using a combination
+of deductive and inductive techniques. We summarise methods for the creation, enrichment, quality assessment,
+refinement, and publication of knowledge graphs. We provide an overview of prominent open knowledge
+graphs and enterprise knowledge graphs, their applications, and how they use the aforementioned techniques.
+We conclude with high-level future research directions for knowledge graphs.
+
+CCS Concepts: - Information systems — Graph-based database models; Information integration;
+
+Additional Key Words and Phrases: knowledge graph
+
+1 INTRODUCTION
+
+Though the phrase “knowledge graph” has been used in the literature since at least 1972 [440], the
+modern incarnation of the phrase stems from the 2012 announcement of the Google Knowledge
+Graph [459], followed by further announcements of the development of knowledge graphs by
+Airbnb [83], Amazon [280], eBay [392], Facebook [365], IBM [123], LinkedIn [214], Microsoft [457],
+Uber [205], and more besides. The growing industrial uptake of the concept proved difficult for
+academia to ignore: more and more scientific literature is being published on knowledge graphs,
+which includes books (e.g. [400], as well as papers outlining definitions (e.g., [136]), novel techniques
+(e.g., [298, 399, 521]), and surveys of specific aspects of knowledge graphs (e.g., [375, 519]).
+Underlying all such developments is the core idea of using graphs to represent data, often
+enhanced with some way to explicitly represent knowledge [365]. The result is most often used
+in application scenarios that involve integrating, managing and extracting value from diverse
+sources of data at large scale [365]. Employing a graph-based abstraction of knowledge has a
+number benefits in such settings when compared with, for example, a relational model or NoSQL
+alternatives. Graphs provide a concise and intuitive abstraction for a variety of domains, where edges
+capture the (potentially cyclical) relations between the entities inherent in social data, biological

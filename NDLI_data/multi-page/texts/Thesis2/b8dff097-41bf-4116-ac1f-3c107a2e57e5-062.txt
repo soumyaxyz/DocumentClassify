@@ -1,0 +1,62 @@
+50 7. REALITY IN CLASSICAL GROUPS
+
+Proof. Let t € PSL»(k) be a real semisimple element. Let to € SLo(k) be a
+representative of t. Then to is either conjugate to tg’ or —tj! in S$ L»(k). When to
+is conjugate to to 1 it follows from the previous lemma that there exists an element
+8 € SLo(k) with s? = —1 such that stos~! = tj’. Hence we can write ty = (—s).(sto),
+which writes t as a product of two involutions in PSL»(k).
+
+Now suppose to is conjugate to —tp' in SL(k). Then the characteristic polyno-
+
+ 
+
+ 
+
+ 
+
+mial of to is X? + 1. In this case ¢ itself is an involution in PSL2(k).
+
+ 
+
+We record an interesting fact about semisimple elements in SL2(k).
+
+Lemma 7.2.3. Let t € SLo(k) be a semisimple element. Then t is either strongly
+
+regular or central in SLo(k).
+
+Proof. It is enough to prove this over k. Let t € SL2(k) be a semisimple element.
+If t is central then t is either J or —J. Hence we may assume t is a non-central element.
+Then, up to conjugation in SL2(k), we have t = diag(a,a7!), where a? 4 1. Then
+Zero e(t) = {diag(y,y~') | y € k*}, a maximal torus in SL2(k). Hence t is strongly
+
+ 
+
+ 
+
+ 
+
+regular (i.e. centralizer of t is equal to the maximal torus containing it).
+
+ 
+
+Hence we can produce real elements in SL9(k), as in Lemma 7.2.1, which are not
+
+a product of two involutions in SL(k).
+
+Proposition 7.2.4. Let to € PSL2(k) be a semisimple element. Then to is real
+in PSLo(k) if and only if to is strongly real in PSL2(k).
+
+Proof. Let t € SL2(k) be a representative of to. Since to is real in PSL9(k), it
+follows that ¢ is either conjugate to t-! or —t~1 in SL»(k). In the second case, the
+characteristic polynomial of tf must. be X? + 1 and hence ¢? = —1. For the first case
+we prove that there exists s € SLo(k) with s? = —1 such that sts-! =¢t7!.
+
+If t is central, it is either J or —J. Hence we may assume that the element t is
+conjugate to the matrix t; = diag(a, a7) in SL2(k), for some a € k with a? 4 1. Let
+n= 0 ) € SLo(k). Then ntyn! = t7' and n? = —1. Im fact n conjugates
+every element of the torus T; = {diag(y,7~!) | y € k*} to its inverse. Hence there
+exists h € SLo(k) such that hth-! = ¢-! and h? = —I. Moreover, h conjugates every
+element of the maximal torus T containing ¢, to its inverse. Since t is real in SL(k),
+there exists g € SL2(k) such that gtg7! = t7!. Then g € hZg,, (q(t). Since ¢ is not
+
+central (by Lemma 7.2.3) we have Zg,,(j)(t) = 7, a maximal torus. We write g = hax

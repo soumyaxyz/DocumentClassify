@@ -1,0 +1,49 @@
+73 Definition and existence of the quantum group of orientation-preserving isometries
+
+ 
+
+E = Hom(P, f*(P)) (where Hom denotes the set of bundle maps). We view df as a
+section of the bundle F in the natural way. By the Lemma 3.2.2 we obtain a measurable
+lift df : M — E, which is a measurable section of E. Using this, we define a map on
+the space of measurable section of S = P x gyin(n) An as follows: given a (measurable)
+section € of S, say of the form €(m) = [p(m), v], with p(m) in P,,,v in A,, we define
+UE by (UE)\(m) = [df(f-'(m))(p(f-'(m))), v].. Note that sections of the above form
+constitute a total subset in L?(S), and the map € +> Ué is clearly a densely defined
+linear map on L?(S), whose fibre-wise action is unitary since the Spin(n) action is so
+on A,. Thus it extends to a unitary U on H = L?(S). Any such U, induced by the
+map f, will be denoted by Uy ( it is not unique since the choice of the lifting used in
+
+its construction is not unique ).
+
+Theorem 3.2.3. Let M be a compact Riemannian spin manifold (hence orientable ,
+and fix a choice of orientation) with the usual Dirac operator D acting as an unbounded
+self-adjoint operator on the Hilbert space H of the square integrable spinors, and let S
+denote the spinor bundle, with T(S) being the C°(M) module of smooth sections of
+S. Let f : M — M be a smooth one-to-one map which is a Riemannian orientation
+preserving isometry. Then the unitary Uz on H commutes with D and UsMgU; = Moo,
+for any ¢ in C(M), where My denotes the operator of multiplication by @ on L?(S).
+Moreover, when the dimension of M is even, Us commutes with the canonical grading
+7 on L*(S).
+
+Conversely, suppose that U is a unitary on H such that UD = DU and the map
+ay(X) = UXU7! for X in B(H) maps A = C(M) into L°(M) = A", then there
+is a smooth one-to-one orientation-preserving Riemannian isometry f on M such that
+U = Uy. We have the same result in the even case, if we assume furthermore that
+
+Uy = Ww.
+
+Proof: From the construction of Uy, it is clear that UyMgU;* = Moor. Moreover,
+since the Dirac operator D commutes with the Spin(n)-action on S, we have UpD =
+DU; on each fibre, hence on L?(9). In the even dimensional case, it is easy to see that
+the Spin(n) action commutes with y ( the grading operator ), hence Uy does so.
+
+For the converse, first note that ay is a unital *-homomorphism on L%®(M, dvol)
+and thus must be of the form w +> wo f for some measurable f. We claim that
+f must be smooth. Fix any smooth g on M and consider ¢ = go f. We have to
+argue that ¢ is smooth. Let dp denote the generator of the strongly continuous one-
+parameter group of automorphism (;(X) = e’?Xe-"? on B(H) (with respect to the
+weak operator topology, say). From the assumption that D and U commute it is clear
+that ay maps D := (),,, Dom(d%) into itself and since C°(M) C D, we conclude that
+au(My) = Méog belongs to D. We claim that this implies the smoothness of ¢. Let m
+
+belongs to M and choose a local chart (V, y) at m, with the coordinates (71, ..., Up), such

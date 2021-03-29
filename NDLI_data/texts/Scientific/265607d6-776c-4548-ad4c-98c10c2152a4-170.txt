@@ -1,0 +1,45 @@
+7. Document Coverage
+
+ 
+
+7.2.1 Covering Multiple Intents
+
+Given a query q, our ultimate goal is to maximise the diversity of the retrieved
+documents with respect to the multiple information needs underlying this query.
+For explicit diversification approaches—such as those introduced in Section 3.3—
+at the heart of this goal lies an estimation of how well each document satisfies
+each of these information needs. For xQuAD, as formalised in Section 4.2.1,
+this equates to estimating the probability p(d|q,s) of observing the document d
+given the query q and the sub-query s. In this section, we propose a supervised
+learning approach to perform this estimation, by predicting the appropriateness
+of multiple intent-aware ranking models for each identified sub-query.
+
+In order to formalise our approach, we further derive the probability p(dlq, 5),
+
+by marginalising it over a target set of intents Z, according to:
+
+p(dlq,s) = > plls) pldla, 8,4), (7.1)
+
+vel
+
+where p(z|s) is the probability that the sub-query s € S, conveys the intent v.
+Accordingly, p(d\q, s,+) denotes the relevance of the document d given the query
+q, the sub-query s, and the intent v. As a consequence, in order to estimate the
+
+probability p(d|q,s), our task becomes two-fold:
+1. Infer the probability p(z|s) of each intent 4 given the sub-query s;
+2. Learn an intent-aware model p(d|q, s,+) for each predicted intent ¢.
+In Section 7.2.2, we propose a classification approach for the first task. For
+
+the second task, as we will show in Section 7.2.3, we resort to learning to rank.
+
+7.2.2 Inferring Sub-Query Intents
+
+In order to infer the probability of multiple intents for a sub-query, we propose
+a linear classification approach. In particular, given a sub-query s, our goal is to
+
+estimate the probability of an intent v € Z as:
+
+P(t|s) = flw Xs), (7.2)
+
+152

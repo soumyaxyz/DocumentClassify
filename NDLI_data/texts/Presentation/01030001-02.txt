@@ -1,0 +1,12 @@
+Outlines
+
+1. General Electroceramics.
+
+2. Different Ferroelectric Material Properties.
+
+3. Applications of Ferroelectric Materials.
+
+4. Synthesis of Lead Free KNN by Microwave Process.
+5. Comparison with CS and MWS of KNN System.
+
+6. Conclusions.

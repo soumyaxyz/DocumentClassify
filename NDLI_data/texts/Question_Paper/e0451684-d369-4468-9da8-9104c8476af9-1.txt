@@ -1,0 +1,27 @@
+S.No. 9132 SBE 31:4
+
+(For candidates admitted from 2008 — 09 onwards)
+U.G, DEGREE EXAMINATION, APRIL 2012.
+Part III — Office Automation-Skill Based Elective
+MS-EXCEL
+
+Time : Three hours Maximum: 75 marks
+PART A —(10 x 2 = 20)
+Answer ALL the questions.
+Write any 2 features of excel. ‘
+Define "Time Rehearse" in power point.
+State any 3 statistical functions in excel.
+What is meant by data-validation.
+Write any 3 date and time functions in excel.
+How will you add a new slide in power point?
+
+Define auto filter.
+
+2 SS ee ae ee
+
+How will you provide security to workbook in
+excel?
+
+9. What are all the types of data sorting in excel?
+
+10. How many rows and columns in excel?

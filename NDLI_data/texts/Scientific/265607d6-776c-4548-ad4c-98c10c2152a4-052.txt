@@ -1,0 +1,49 @@
+2. Web Information Retrieval
+
+ 
+
+Non-Parametric Models Although provably effective, PL2 and several other
+models derived from the DFR framework require tuning the parameter y in Equa-
+ion (2.30) (Amati, 2003). Parameter tuning also plays an important role for term
+requency normalisation in probabilistic relevance models and for smoothing in
+anguage models, as discussed in Sections 2.2.1.1 and 2.2.1.2, respectively. To
+alleviate the need for extensive tuning while attaining an effective retrieval per-
+ormance for corpora and queries with different characteristics, Amati (2006)
+introduced a series of non-parametric DFR models. Such models deploy a hyper-
+geometric distribution (Feller, 1968) as the basic randomness model. Similarly
+
+o the binomial distribution (or its previously discussed Poisson approximation),
+
+ 
+
+he hypergeometric distribution expresses the probability p,(t|C) of observing
+tf, occurrences of a term ¢ in a corpus C. Unlike the binomial, the hypergeo-
+metric distribution assumes that samples are drawn without replacement, i-e., in
+a non-independent fashion. As a practical consequence, this randomness model
+naturally incorporates an inherent non-parametric term frequency normalisation
+mechanism, hence precluding any need for further parameter tuning.
+
+Of the family of non-parametric DFR models, DPH (Amati et al., 2007) has
+been shown to perform effectively across a variety of web search tasks (McCreadie
+et al., 2009; Santos et al., 2010d; McCreadie et al., 2011). Moreover, as it requires
+no parameter tuning, it is also efficient from a deployment perspective. Besides
+using a hypergeometric randomness model, DPH estimates the information gain
+of observing a term inspired by the notion of informative content of a theory in-
+troduced by Popper (1934) and extensively studied by Hintikka & Suppes (1970).
+
+The weighting scheme of DPH is formulated as:
+
+tha)? 5
+tha (d _ ua) In tf
+apps = Eh "Es Ig (1 mel +0.510 Gz (1 - a4)),
+td Gigi So fia i the S2 T Hf a li
+
+(2.31)
+
+Once again, as normalisation is inherent in the model, DPH provides an effec-
+tive and efficient alternative to other models. For these reasons, it will be used
+extensively in the experimental part of this thesis, both as a baseline ranking on
+
+its own as well as a strong basis for building additional baseline rankings.
+
+34

@@ -1,0 +1,105 @@
+Table 3. Ontology features for property axioms
+
+ 
+
+Feature Axiom Condition (for all x., y., Z«) Example
+
+SUBPROPERTY @-subp. of >@) @=e=@ implies @=>@ (venue)-subp. of (location)
+Doman @-domain+@) @=p—@ implies @=type>© domain >
+RANGE @—tange +O @©=-P—+-@ implies @-type+O (emu —range—> (enue
+EQUIVALENCE @-eauiv. p.>@) @=e>@ it ©=1+@ Gtart)-equiv. p.->|
+— @-invei+@ @=0i@-1—8 Gain
+Disyornt @-4isj. p+@ not ef>0 ((enue)—disj. p.—> (hosts)
+TRANSITIVE @-type+(Iransitive) @=p=>O=p=© implies @=p=>©) (Part of}- type (Transitive)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Syawmerare @-type+Qmneri) @©-P+ Oi @-r+-O Ge) -yre + Game)
+Aswawmic — @-ype-e Gomme nor OCPD @Hid-type-» Gemma
+REFLEXIVE @-type> @ep (Part of-type->{
+
+ 
+   
+
+ 
+
+not @ep (flight)-type-» (lrreflexive)
+FUNCTIONAL @-type-> (Functional) @<r—©=r+@® implies (population)-type-> (Functional)
+Inv. Functiona ()-type-+(Inv. Functional) ©)—p—-@<-p—@) implies @&) = &) _ apital)-type-» (Inv. Functional)
+anketee
+eo "Simple
+vi
+
+Cuan aon Q-4+@=-+G-4+O chain—>|
+Gn
+
+IRREFLEXIVE @-type> i
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+CH Key—+|
+
+Key
+
+   
+
+ 
+
+ 
+
+implies @=p>©
+
+ 
+
+features for defining novel classes by applying set operators on other classes, or based on conditions
+that the properties of its instances satisfy. First, using set operators, one can define a novel class
+as the complement of another class, the union or intersection of a list (of arbitrary length) of other
+classes, or as an enumeration of all of its instances. Second, by placing restrictions on a particular
+property p, one can define classes whose instances are all of the entities that have: some value from
+a given class on p; all values from a given class on p;'° have a specific individual as a value on p (has
+value); have themselves as a reflexive value on p (has self); have at least, at most or exactly some
+number of values on p (cardinality); and have at least, at most or exactly some number of values on
+p from a given class (qualified cardinality). For the latter two cases, in Table 4, we use the notation
+¢}” to count distinct entities satisfying ¢ in the interpretation. These features can then be
+combined to create more complex classes, where combining the examples for INTERSECTION and
+Has SELF in Table 4 gives the definition: self-driving taxis are taxis having themselves as a driver.
+
+ 
+
+15While something like (flight) prop—DomesticAirport)—all-»(NationalFlight) might appear to be a more natural example for
+
+Aut Vatugs, this would be a modelling mistake, as the corresponding for all condition is satisfied when no such node exists.
+In other words, with this example definition, we could infer anything known not to have any flights to be a domestic airport.
+(We could, however, define the intersection of this class and airport as being a domestic airport.)
+
+26

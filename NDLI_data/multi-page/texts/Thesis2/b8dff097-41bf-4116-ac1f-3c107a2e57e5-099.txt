@@ -1,0 +1,36 @@
+CHAPTER 9
+Reality in Algebraic Groups
+
+In this chapter we investigate the reality question for algebraic groups in general.
+We mainly prove the theorems mentioned in Section 6.3. First we look at the structure
+of strongly regular real elements in simple groups of adjoint type which have —1 in
+the Weyl group and prove that it is real if and only if it is strongly real. This we
+do in Section 9.1. Later in Section 9.3 we look at the structure of semisimple real
+elements over fields of cd(k) < 1. The results in this section are part of [ST2].
+
+9.1. Strongly Regular Real Elements
+
+In this section we discuss structure of a strongly regular real element. An element
+t in a connected linear algebraic group G is called regular if its centralizer Zg(t) has
+minimal dimension among all centralizers. An element is called strongly regular
+if its centralizer in G is a maximal torus. We note that a semisimple element in a
+connected reductive group is regular if and only if the connected component of its
+centralizer is a maximal torus. Let G be a connected, simple algebraic group defined
+over k of adjoint type such that the longest element wo in the Weyl group W of G
+with respect to a maximal torus T acts by —1 on the roots. The adjoint groups of
+type Ai, By, Ci, Du(l > 2), By, Es, Fi, G2 are precisely the simple groups which satisfy
+the above hypothesis. For the groups of the above type we mention here a theorem
+of Richardson and Springer ({RS], Proposition 8.22) which plays an important role
+in our investigation.
+
+Proposition 9.1.1 (Richardson, Springer). Let G be a simple group of adjoint
+type, let T’ be a maximal torus of G and let c€ W(T") be an involution. Then there
+exists an involution n € N(TI’) which represents c.
+
+Then we have,
+
+Theorem 9.1.2. Let G be a connected simple group of adjoint type defined over k.
+Suppose the longest element wo of the Weyl group W of G with respect to a maximal
+torus T acts by —1 on the roots. Let t € G(k) be a strongly regular element. Then
+
+87

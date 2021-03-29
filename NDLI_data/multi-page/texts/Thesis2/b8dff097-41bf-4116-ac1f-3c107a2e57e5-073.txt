@@ -1,0 +1,40 @@
+CHAPTER 8
+Reality in Groups of Type G2
+
+This whole chapter is devoted to the study of reality properties in groups of type
+G2. We give proofs to results mentioned in the Section 6.2. We also obtain results
+on conjugacy classes and centralizers in groups of type G2 which we use to calculate
+conjugacy classes of centralizers in Section 8.5. The preliminaries for this chapter
+have been discussed in Chapter 3. The results in Sections 8.1, 8.2, 8.3 and 8.4 have
+
+appeared in [ST1] and the results in 8.5 are the part of [Si].
+
+8.1. Reality in G2
+
+Let G be a group of type G2 defined over a field k (of characteristic 4 2). Then,
+there exists an octonion algebra € over k such that G = Aut(€) ([Se], Chapter HI,
+Proposition 5, Corollary). Let to be an element of G(k). We will also denote the
+image of to in Aut(€) by tp. We write €p for the subspace of trace 0 elements of €.
+In this section, we explore the condition so that to is conjugate to to 1 in G(k). We
+
+prove the following,
+
+Theorem 8.1.1. Let G be a group of type G2 over a field k of characteristic not
+2 and 3. Let ty € G(k). Then, to is real in G(k) if and only if to is strongly real in
+G(k).
+
+In fact the result is true in characteristic 3 also except for unipotent elements. We
+let Vi, = ker(to — 1)8. Then V;, is a composition subalgebra of € with norm as the
+restriction of the norm on € ([W2]). Let r,, = dim(V;,M €o). Then 1; is 1,3 or
+7. We note that if r;, = 7, the characteristic polynomial of to is (X — 1)® and tg is
+
+unipotent. We have,
+
+Lemma 8.1.2. Let tp) € G(k) be a unipotent element. In addition, we assume
+char(k) #3. Then to is strongly real in G(k).
+
+Proof. Since tp is unipotent, we have r;, = 7. In this case, the characteristic
+polynomial of to on €p is (X — 1)". The assertion follows from a theorem of Wonen-
+burger ([W2], Theorem 4), which states that if char(k) # 3 and the characteristic
+
+61

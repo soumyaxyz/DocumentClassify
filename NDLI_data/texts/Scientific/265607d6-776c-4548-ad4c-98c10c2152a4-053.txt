@@ -1,0 +1,48 @@
+2. Web Information Retrieval
+
+ 
+
+Extended Models All previously described DFR models assume that the
+query terms occur in a document independently of one another. To relax this
+assumption, Peng et al. (2007b) introduced the pBiL DFR model to exploit
+higher-order term dependence for ranking documents. Similarly to the MRF
+model of Metzler & Croft (2005), described in Section 2.2.1.2, pBiL can model
+different modes of term dependence, such as sequential and full dependence. As
+Peng et al. (2007b) have shown, full dependence generally outperforms sequential
+dependence, and is hence the mode used in our experiments. Assuming a full
+
+dependence mode, the pBiL weighting scheme can be defined as:
+
+BiL
+wea = A Ua
+
+1
+
+——|( — log, (ly -1)! + log, tf, !
+
++e > theet:),a +1 ( 82 ( : ) +1082 Kestiya
+At + logs (la-1 — thitt,),a)!
+
+— tet,),alogo(1/(la —1))
+— (la-1 = tfeg,),a) 1089((la -2)/ (la -1))), (2.32)
+
+where the parameters a, and ay control the linear interpolation between the
+unigram and full dependence weights, respectively. The unigram weight, wa,
+can be computed using any of the aforementioned DFR models, such as PL2
+(Equation (2.29)) or DPH (Equation (2.31)). The term dependence weight com-
+bines the binomial randomness model with the Laplace model of information gain
+to measure the informativeness of occurrences of pairs (t,t;) of query terms in
+each document d. The resulting factorials in Equation (2.32) can be efficiently
+computed using Lanczos’ approximation of the Gamma function (Lanczos, 1964).
+
+Different from other probability distributions, such as the Poisson and hyper-
+geometric distributions used by PL2 and DPH, respectively, the binomial distri-
+bution does not consider the total frequency of each pair (t,t;) in a corpus, which
+would be computationally expensive to estimate given the combinatorial number
+of possible pairs. Instead, the informativeness of the pair in the document d is
+solely dependent on the frequency tfy,,)q of the pair in the document and on
+the length |, of the document. As a result, pBiL is also an efficient approach for
+
+exploiting term dependence (Peng et al., 2007b; Macdonald & Ounis, 2010).
+
+35

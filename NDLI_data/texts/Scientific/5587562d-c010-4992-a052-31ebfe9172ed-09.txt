@@ -1,0 +1,89 @@
+Erd6és—Rényi graph model Regular graph model
+
+ 
+
+T 14 T
+
+ 
+
+0.8
+
+ 
+
+0.6
+
+ 
+
+ 
+
+ 
+
+Accuracy
+Accuracy
+
+0.4
+
+0.2
+
+    
+
+| |
+0 0.05 0.1 0.15 0.2 0 0.05 0.1 0.15 0.2
+
+: 0
+
+Noise level Noise level
+
+= This work —— SDP [Peng et al., 2010]
+—— LowRankAlign [Feizi et al., 2016] —— GNN [Nowak et al., 2018]
+
+ 
+
+ 
+
+ 
+
+ 
+
+Figure 1: Fraction of matched nodes for pairs of correlated graphs (with edge density 0.2) as a
+function of the noise, see Section 4.1 for details.
+
+cross-entropy loss to predict the corresponding permutation index. We used 2-FGNN with 2
+layers, each MLP having depth 3 and hidden states of size 64. We trained for 25 epochs with
+batches of size 32, a learning rate of le-4 and Adam optimizer. The PyTorch code is available at
+https: //github.com/mlelarge/graph_neural_net.
+
+For each experiment, the dataset was made of 20000 graphs for the train set, 1000 for the validation
+set and 1000 for the test set. For the experiment with Erd6s—Rényi random graphs, we consider G; to
+be a random Erdés—Rényi graph with edge density p. = 0.2 and n = 50 vertices. The graph G'z is a
+small perturbation of G; according to the following error model considered in Feizi et al. [2016]:
+
+G2 =G,0(1-Q)+(1-Gi) OQ, (8)
+
+where Q and Q’ are Erdés—Rényi random graphs with edge density p; and pz = pipe/(1 — pe)
+respectively, so that Gz has the same expected degree as G';. The noise level is the parameter p;. For
+regular graphs, we followed the same experimental setup but now G is a random regular graph with
+degree d = 10. Regular graphs are interesting example as they tend to be considered harder to align
+due to their more symmetric structure.
+
+4.2 Experimental results on graphs of varying size
+
+We tested our models on dataset of graphs of varying size, as this setting is also encompassed by our
+theory.
+
+However, contrary to message-passing GNN, GNN based on tensors do not work well with batches of
+graphs of varying size. Previous implementations, such as the one of Maron et al. [2019a], group the
+graphs in the dataset by size, enabling the GNN to only deal with batches of graphs on the same size.
+
+Instead, we use masking, which is a standard practice in recurrent neural networks. A batch of b
+tensors of sizes ny X N1,N2 X N2,...,Np X Np is represented as a tensor b X Nmax X Nmax Where
+Nmax = MaxX;=1,...,p Ni. A mask is created at initialization and is used to ensure that the operations
+on the full tensor translates to valid operations on each of the individual tensor.
+
+We implemented this functionnality as a class MaskedTensors. Thanks to the newest improvements.
+of PyTorch [Paszke et al., 2019], MaskedTensors act as a subclass of fundamental Tensor class.
+Thus they almost seamlessly integrate into standard PyTorch code. We refer the reader to the code for
+more details.
+
+Results of our architecture and implementation with graphs of varying size are shown below on Figure
+2. The only difference with the setting described above is that the number of nodes is now random.

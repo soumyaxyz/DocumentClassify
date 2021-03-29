@@ -1,0 +1,75 @@
+10.
+
+ads
+
+12.
+
+13.
+
+14.
+
+Write the different forms of constructor of the
+
+Thread class.
+
+What is the importance of the paint () method.
+PART B — (5 x 5 = 25)
+Answer ALL questions.
+
+(a) Briefly explain the salient features of Java
+language.
+Or
+
+(b) Describe the structure of a Java Program.
+
+(a) Write a short note on classes and objects.
+Or
+(b) Write a Java Program to find the factorial of
+a given number using Recursion.
+(a) Discuss in brief the string buffer class.
+Or
+
+(b) Write a Java Program to find the sum and
+Average of 'N' numbers using arrays.
+
+(a) What are the five keywords used for
+exceptional Handling in Java? Explain.
+Or
+(b) Briefly explain the method of defining and
+
+using a Arithmetic exception with an
+example.
+
+2 S.No. 9037
+
+16.
+ee
+18.
+
+19,
+
+20.
+
+(a) Explain the syntax of the Applet tag.
+Or
+
+(b) What are different states in the life cycle of a
+Thread? Explain.
+
+PART C — (3 x 10 = 80)
+Answer any THREE questions.
+Compare and contrast Java and C++.
+Describe in detail the control structures of Java.
+
+Discuss in detail the structure and
+implementation of interfaces with suitable
+examples.
+
+Write in detail about Packages. Give an example
+for access specifiers of Java.
+
+Elaborate life cycle of an applet.
+
+ 
+
+3 S.No. 9037

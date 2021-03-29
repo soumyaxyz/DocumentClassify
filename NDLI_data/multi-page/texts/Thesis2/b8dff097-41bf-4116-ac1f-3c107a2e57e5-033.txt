@@ -1,0 +1,49 @@
+3.2. SOME SUBGROUPS OF G2 21
+
+Proposition 3.2.1. Let the notation be as fixed above. Let L be a quadratic
+field extension of k as above. Then the subgroup G(€/L) of G is isomorphic to the
+unimodular (special) unitary group SU(L+,h) of the three dimensional space L+ over
+
+L relative to the hermitian form h, via the isomorphism,
+
+w: G(€/L) —+ SU(L+,6)
+
+t Ho tl.
+
+Now, let us assume that L is a split two dimensional étale subalgebra of €. Then
+€ is necessarily split and L contains a nontrivial idempotent e. There exists a basis
+B = {1,u1, ua, ug, e, Wi, w2,w3} of €, called the Peirce basis with respect to e,
+such that the subspaces U = span{w1,u2,u3} and W = span{wy, we, ws} satisfy
+U={xe€|ex=0, ce =x} andW = {x € €| xe = 0, ex = x}. We have, for
+née G(¢/L), ce U,
+
+0 = nlex) = n(e)n(x) = en(a), n(z)e = nlz)n(e) = n(ae) = n(2).
+Hence 7(U) = U. Similarly, n(W) = W. Then we have ({J], Theorem 4),
+
+Proposition 3.2.2. Let the notation be as fixed above. Let L be a split quadratic
+étale subalgebra of €. Then G(€/L) is isomorphic to the unimodular (special) linear
+group SL(U), via the isomorphism given by,
+
+@: G(C€/L) — SLU)
+n > nv.
+
+Moreover, if we denote the matrix of nlu by A and that of n\w by Ai, with respect to
+
+the Peirce basis as above, then ‘A; = Ag.
+
+In the model of the split octonion algebra as in the previous section, with respect
+to the diagonal subalgebra L, the subspaces U and W are respectively the space of
+
+strictly upper triangular and strictly lower triangular matrices. The above action is
+
+av a Av
+Y = .
+: w B Aw 6B
+
+We now compute the subgroup G(€, L) of automorphisms of the split octonion alge-
+
+then given by,
+
+bra, leaving invariant a split quadratic étale subalgebra. We work with the matrix
+
+model for split octonions. Up to conjugacy by an automorphism, we may assume that

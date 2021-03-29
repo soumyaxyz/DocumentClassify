@@ -1,0 +1,53 @@
+66 8. REALITY IN GROUPS OF TYPE G2
+
+Let V be a vector space over L of dimension n with a nondegenerate hermitian form
+6. Let H denote the diagonal matrix of h with respect to some fixed orthogonal basis.
+Then, for any A ¢ U(H), we have ‘AHA = H. Let A € SU(H) with characteristic
+polynomial y4(X) = X" +a,X"1 +--+ a,.X + (-1)". Then (—1)"a; = G@,_; for
+t= dy ving n—-1.
+
+Lemma 8.2.3. With notation as above, let A € SU(H) with its characteristic
+polynomial over L be the same as its minimal polynomial. Suppose A = A, Apo with
+A, Ao € GL(n, L) and A, A; == Ay Ap. Then, Al, Ag € U(A).
+
+Proof. Let H = diag(\1, 2,-..,An), where A1,...,An € k. We have AHA = H.
+Then,
+(HA;')A(HAy')7! = HATA, A. 4H! = HATH =4.
+Since the characteristic polynomial of A equals its minimal polynomial, by ([TadZ],
+Theorem 2) HA;! is symmetric, ie., HA’ = '(HA;') = “,'H. This implies,
+H = 'A,HA;! = 4,HA,. Hence, A; € U(H). By similar analysis we see that
+A, € U(H).
+
+ 
+
+ 
+
+ 
+
+ 
+
+Lemma 8.2.4. With notation as above, let A € SU(H) with characteristic poly-
+nomial y4(X) = X" +a,X" 1 4-++ +n 1X + (-1)" over L, equal to its minimal
+polynomial. Then, A = B, By with B,, By € GL(n, L) and By B, = I = B2By.
+
+Proof. Let A, denote the companion matrix of A, namely
+
+00... 0 —(-1)"
+
+10... 0 -@y-1
+
+Ay = an .
+
+00. 1 ay,
+
+We have,
+(-1)” 0 0 O 0 O 0 -1
+Gn. O ... O -1 0 0... -1 0
+Ay = : . : foo. . = Aj Ap,
+
+a -l... 0 0 -10... 0 0O
+
+and A,A, = I = A,Ag, using (—1)"a; = Gn; for 1 = 1,...,n—1. Since the char-
+acteristic polynomial of A equals its minimal polynomial, there exists T € GL(n, L)
+such that A = TA,T~!. We put By = TA\T~!, By = TAgT-!. Then A = B, Bo,
+where B, B, =I = ByBo.

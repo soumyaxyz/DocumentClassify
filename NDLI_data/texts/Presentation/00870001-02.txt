@@ -1,0 +1,28 @@
+What everybody knows...
+
+The Finite Element Method is a Numerical tool to solve
+differential equations (approximately) through
+discretization.
+
+Steps of FEM
+
+(1) Discretisation of the continuum into elements.
+
+(2) Element formulation using approximate solution for the differential
+equation.
+
+(3) Element assembly.
+
+(4) Solution of the system of equations, incorporating boundary
+conditions.
+
+ 
+
++— Domain boundary
+
+ia
+
+element
+
+Converge to more accurate results by using more
+elements (i.e. through finer discretization).

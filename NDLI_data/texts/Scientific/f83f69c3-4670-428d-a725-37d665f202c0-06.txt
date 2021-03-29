@@ -1,0 +1,104 @@
+Kp20K Inspec Krapivin NUS SemEval
+Model F,@5 F,@10F,@O| F,@5 F,@10F,;@O| F,@5 F,@10F,@O] F,@5 F,@10F,@O| F,@5 F,@10F,@O
+Abstractive Neural
+CopyRNN (Meng et al.) 328 255 - | 292 336 - 30.2 252 - | 342 317 - | 291 296 -
+CopyRNN* 31.7 273 335 | 244 28.9 29.0 | 305 26.6 325 | 376 35.2 406 | 318 318 317
+CorrRNN (Chen et al.) - - - - - - 318 278 - 35.8 33.0 - 320 320 -
+ParaNetT +CoAtt (Zhao and Zhang) | 36.0 28.9 - 29.6 35.7 - 329 282 - 36.0 35.0 - 311 312 -
+catSeqTG-2RF1' (Chan etal.) | 32.1 - 35.7 | 253 - 280 | 300 - 348 | 375 - 25.5 | 287 - 29.8
+KG-KE-KR-M! (Chenetal.) | 31.7 28.2 388 | 25.7 284 314 | 27.2 250 31.7 | 289 286 384 | 20.2 223 303
+CatSeq (Ours) 314 273 319 | 29.0 30.0 307 | 30.7 274 324 | 359 34.9 383 | 302 306 310
+CatSeqD (Ours) 34.8 29.8 35.7 | 276 33.3 331 | 325 28.5 37.1 | 374 36.6 40.6 | 32.7 35.2 35.7
+Extractive IR
+Trfldf (Hasan and Ng) 72 94 63 | 160 244 208 | 67 93 68 | 112 140 122 | 88 147 113
+TextRank (Mihalcea and Tarau) | 18.1 15.1 184 | 286 33.9 33.5 | 185 160 21.1 | 23.0 216 23.8 | 21.7 226 229
+KEA (Witten et al.) 46 44 51 [22 22 22 | 18 17 17 | 73 71 81 | 68 65 66
+Maui (Medelyan et al.) os 05 04 [35 46 39 | 05 07 06 | 04 06 06 | 11 14° 11
+Extractive Neural
+DivGraphPointer (Sun etal.) | 36.8 29.2 - 38.6 417 - 46.0 40.2 - 40.1 389 - 36.3 29.7 —-
+w/ Additional Data
+Semi-Multi (Ye and Wang) 328 264 - 328 318 - 323 254 - 36.5 32.6 = - 319 312 -
+TG-Net (Chen et al.) 372 315) - 315 38.100 - 34.9 295 - 40.6 370 - 318 322 -
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Table 2: Performance of present keyphrase prediction on scientific publications datasets. Best/second-best per-
+forming score in each column is highlighted with bold/underline. We also list results from literature where models
+that are not directly comparable (i.e., models leverage additional data and pure extractive models). Note model
+names with | represent its F; @O is computed by us using existing works’ released keyphrase predictions.*
+
+e F; @O: O denotes the number of oracle (ground
+truth) keyphrases. In this case, k = ||, which
+means for each data example, the number of pre-
+dicted phrases taken for evaluation is the same as
+the number of ground truth keyphrases.
+
+e F;@M: M denotes the number of predicted
+keyphrases. In this case, k = || and we simply
+take all the predicted phrases for evaluation without
+truncation.
+
+By simply extending the constant number k to
+different variables accordingly, both F;@O and
+F| @M are capable of reflecting the nature of vari-
+able number of phrases for each document, and a
+model can achieve the maximum F; score of 1.0 if
+and only if it predicts the exact same phrases as the
+ground truth. Another merit of F; @O is that it is
+independent from model outputs, therefore we can
+use it to compare existing models.
+
+5 Datasets and Experiments
+
+In this section, we report our experiment results
+on multiple datasets and compare with existing
+models. We use Cat Seq to refer to the delimiter-
+concatenated sequence-to-sequences model de-
+
+3We acknowledge that Fi @O scores of Chan et al. (2019)
+and Chen et al. (2019a) might be not completely compara-
+ble with ours. This is due to additional post-processing and
+filtering methods might have been applied in different work.
+We elaborate the data pre-processing and evaluation protocols
+used in this work in Appendix E.
+
+scribed in Section 3; Cat SeqD refers to the model
+augmented with orthogonal regularization and se-
+mantic coverage mechanism.
+
+To construct target sequences for training
+CatSeq and CatSeqD, ground truth keyphrases
+are sorted by their order of first occurrence in the
+source text. Keyphrases that do not appear in the
+source text are appended to the end. This order
+may guide the attention mechanism to attend to
+source positions in a smoother way. Implementa-
+tion details can be found in Appendix D. As for the
+pre-processing and evaluation, we follow the same
+steps as in (Meng et al., 2017). More details are
+provide in Appendix E for reproducing our results.
+
+We include a set of existing models (Meng
+et al., 2017; Chen et al., 2018a; Chan et al., 2019;
+Zhao and Zhang, 2019; Chen et al., 2019a) as
+baselines, they all share same behavior of ab-
+stractive keyphrase generation with our proposed
+model. Specially for computing existing model’s
+scores with our proposed new metrics (F; @O
+and F;@M), we implemented our own version
+of CopyRNN (Meng et al., 2017) based on their
+open sourced code, denoted as CopyRNN*. We
+also report the scores of models from Chan et al.
+and Chen et al. based on their publicly released
+outputs.
+
+We also include a set of models that use sim-
+ilar strategies but can not directly compare with.

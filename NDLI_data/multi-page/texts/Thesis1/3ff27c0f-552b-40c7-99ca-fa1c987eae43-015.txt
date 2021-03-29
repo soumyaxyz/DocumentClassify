@@ -1,0 +1,34 @@
+Chapter 0
+
+Introduction
+
+The theme of this thesis lies on the interface of two areas of the so called “ noncommuta-
+tive mathematics ”, namely noncommutative geometry (NCG) a la Connes, cf [17] and
+the theory of ( C*-algebraic ) compact quantum groups (CQG) a la Woronowicz, cf [67]
+which are generalizations of classical Riemannian spin geometry and that of compact
+topological groups respectively.
+
+The root of NCG can be traced back to the Gelfand Naimark theorem which says
+that there is an anti-equivalence between the category of (locally) compact Hausdorff
+spaces and (proper, vanishing at infinity) continuous maps and the category of (not
+necessarily) unital C* algebras and *-homomorphisms. This means that the entire
+topological information of a locally compact Hausdorff space is encoded in the com-
+mutative C* algebra of continuous functions vanishing at infinity. This motivates one
+to view a possibly noncommutative C* algebra as the algebra of “functions on some
+noncommutative space”.
+
+In classical Riemannian geometry on spin manifolds, the Dirac operator on the
+Hilbert space L?(S) of square integrable sections of the spinor bundle contains a lot of
+geometric information. For example, the metric, the volume form and the dimension of
+the manifold can be captured from the Dirac operator. This motivated Alain Connes to
+define his noncommutative geometry with the central object as the spectral triple which
+is a triplet (A, H, D) where H is a separable Hilbert space, A is a (not necessarily closed)
+*-algebra of B(H), D is a self adjoint (typically unbounded) operator ( sometimes called
+the Dirac operator of the spectral triple ) such that [D,a] admits a bounded extension.
+This generalizes the classical spectral triple (C°(M), L?(S), D) on any Riemannian spin
+manifold M, where D denotes the usual Dirac operator.
+
+On the other hand, quantum groups have their origin in different problems in math-
+ematical physics as well as the theory of classical locally compact groups. It was S.L.
+
+Woronowicz, who in [66] and [67] was able to pinpoint a set of axioms for defining

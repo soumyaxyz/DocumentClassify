@@ -1,0 +1,21 @@
+Characteristics of Internet-ready IT Applications
+
+Support large number of users of different interests and abilities
+Provides display on multiple devices and formats
+Deployed on large secure servers through license management software
+
+Support single sign-on and support special authentication & authorization
+requirements
+
+Ability to run on any operating system
+Ability to use/connect to any RDBMS for data storage
+
+Could be implemented in multiple programming languages or combinations
+as well
+
+Leverages enterprise storage capabilities and back-up systems
+
+Supports extensive connectivity to different types of networks and Internet
+services
+
+And many more...

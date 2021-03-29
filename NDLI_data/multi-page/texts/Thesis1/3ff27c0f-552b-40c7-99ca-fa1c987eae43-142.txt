@@ -1,0 +1,96 @@
+Chapter 4: Quantum isometry groups for Rieffel deformed manifolds 130
+
+ 
+
+convergent, limn(Y pci J (F(a, v)bp)(u, v)e(u.v)dudv) converges in SOT. We deduce
+
+ 
+
+ 
+
+ 
+
+the result by using Lemma 1.1.5.
+
+ 
+
+Proposition 4.4.2. Let Ly; denote the Laplacian from the spectral triple (AS, H, D).
+Then Ly coincides with Lon A® C Az.
+
+Proof : We recall that from the proof of Lemma 4.1.4, we have [D,7;(a)] =
+m([D, a]). Denoting the inner product on 24(.A®) by (.,.); and letting a,b in A®, Lim
+
+as in subsection 1.5.2, we have by using Lemma 4.4.1
+
+(Lya,b)
+Tr(eth?)
+Tr(et2”)
+Tr(f J Bsu((D, a} (D, 8])Bye(u.v)dudve*?”)
+Tr(e-!D*)
+ff Tr(Bsu((D, a)" (D, b]) Boe” Je(u.v)dudv
+Tr(etD?)
+
+= Lim,.o+
+
+= Lim;4_.o+
+
+ 
+
+= Lim,.o+
+
+ 
+
+= Lim; o+
+
+( by Lemma 4.4.1)
+
+Jf Pr(V5,((D, a] D, b))V5_-1 Bye” Je(w.v) )dudv
+Tr(e*?”)
+
+J [TrV5((P, a" [D, 4) ye V1 )e(u.v)dudv
+Tr(e?”)
+
+ff Tr(({D, a|*[D, b])B,e-” Je(u.v) )dudv
+
+Tr(e-tP”)
+Tr(f f [D,a]*[D, b] Bye” e(u.v)dudv)
+Tr(et2”)
+which by Proposition 1.3.1, equals
+Tr([D, a\*[D, je”)
+Tr(e*D?)
+
+ 
+
+= Lim,.o+
+
+ 
+
+= Lim, 9+
+
+ 
+
+ 
+
+= Lim;4_.o+
+
+ 
+
+= Lim;,.o+
+
+= Lim, 9+
+
+= (La,b).
+
+ 
+
+ 
+
+ 
+
+ 
+
+Thus, the quantum isometry group QISO£(A,) is the universal compact quantum
+group acting on Aj, with the action keeping each of the eigenspaces of £ invariant. Note
+that the algebraic span of eigenvectors of £7 coincides with that of £, that is A3°, which
+is already assumed to be Frechet-dense in A = A, hence in particular norm-dense
+in Aj. Moreover, all the results of section 4.2 hold for QISO£(A,).

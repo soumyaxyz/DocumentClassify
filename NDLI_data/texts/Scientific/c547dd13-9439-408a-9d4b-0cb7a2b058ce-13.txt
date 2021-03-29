@@ -1,0 +1,81 @@
+Kandimalla et al.
+
+Distribution of research papers in CiteseerX
+@ Biol
+
+ 
+
+ 
+
+Subject Category Classification
+
+ 
+
+Figure 9. Classification results of 1 million research papers in CiteSeerX, using our best model.
+
+into 104 SC’s using neural network methods
+based only on abstracts. Our methods appear
+to scale better than existing clustering-based
+methods which rely on citation networks. For
+neural network methods, our retrained FastText or
+GloVe combined with BiGRU or BiLSTM with
+the attention mechanism gives the best results.
+Retraining WE models and using an attention
+mechanism play important roles in improving
+the classifier performance. A two-level classifier
+effectively improves our performance when dealing
+with training data that has extremely imbalanced
+categories. The median F{’s under the best settings
+are 0.75-0.76.
+
+One bottleneck of our classifier is the overlapping
+categories. Merging closely related SCs is
+a promising solution, but should be under
+the guidance of domain experts. The TF-IDF
+representation only considers unigrams. Future
+work could consider n-grams (n > 2) and transfer
+learning to adopt word/sentence embedding models
+trained on non-scholarly corpora
+BOT? (Arora etal} 2077). (Zhang and Zhong] 2076).
+. One could investigate models that also take into
+account stop-words, e.g., (Yang et al.| |2016). One
+could also explore alternative optimizers of neural
+networks besides Adam, such as the Stochastic
+Gradient Descent (SGD).
+
+ACKNOWLEDGEMENTS
+
+We gratefully acknowledge partial support from the
+National Science Foundation. We also acknowledge
+Adam T. McMillen for technical support, and Holly
+Gaff, Old Dominion University and Shimin Liu,
+Pennsylvania State University as domain experts
+respectively in biology and the earth and mineral
+sciences.
+
+REFERENCES
+
+Agrawal, A., Fu, W., and Menzies, T. (2018).
+What is wrong with topic modeling? and how
+to fix it using search-based software engineering.
+Information and Software Technology 98, 74-88
+
+Arora, S., Liang, Y., and Ma, T. (2017). A
+simple but tough-to-beat baseline for sentence
+embeddings. In ICLR
+
+Baeza-Yates, R. A. and Ribeiro-Neto, B. (1999).
+Modern Information Retrieval (Boston, MA,
+USA: Addison-Wesley Longman Publishing Co.,
+Inc.)
+
+Beltagy, I., Cohan, A., and Lo, K. (2019).
+Scibert: Pretrained contextualized embeddings
+for scientific text. CoRR abs/1903.10676
+
+Bojanowski, P., Grave, E., Joulin, A., and Mikolov,
+T. (2017). Enriching word vectors with subword
+information. Transactions of the Association for
+Computational Linguistics 5, 135-146
+
+13

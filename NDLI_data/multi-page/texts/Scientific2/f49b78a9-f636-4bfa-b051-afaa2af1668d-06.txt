@@ -1,0 +1,184 @@
+IEEE Access:
+
+S. Banerjee et al.: Physically Secure Lightweight Anonymous User Authentication Protocol for loT
+
+ 
+
+¢ Step 2. On receiving the registration request, the GW N
+computes ky. = h(ID, || LTS) using the user
+U’s identity [D,, and its long term secret key LTS,
+and also generates a dynamic identity DID, for the
+U. Additionally, to handle the issue of desynchroniza-
+tion or DoS attack as described in (2), the GWN
+generates PIDg = {pido,--- ,pid,} as a set of un-
+linkable pseudo-identities for the user U. Finally, the
+GWN issues a smart card SC, containing the infor-
+
+mation DID,, ky,,.., PID, and the system parameters
+
+param = {h(-), PUF(-), Gen(-), Rep(-), et, Zp} for
+the user U through a secure channel.
+
+e Step 3. On receiving the smart card SC,,, the user U
+selects his/her password PW,, and imprints the bio-
+metric 3,,, and calculates y,, = PUF(@,,). Using the
+fuzzy generator function Gen(-), the smart card SC,
+generates the biometric token a,, and the correspond-
+ing reproduction parameter hd,,. Next, SC’, calculates
+IPB =h(ID, || ow || PW.) and saves it in its mem-
+ory. SC, also encrypts hd, as hd* = hd,® h(a, ||
+ID, || PW.), DID, as DIDS = DID,® h(IDy ||
+PW.,, || aw) and PID, as PID* = {pid?|i € [1, s]}
+where pid = pid;® h(a, || PW. || [Du ||
+Finally, the values DID, Kuyre and PID,, in the smart
+card SC, are replaced with DIDy, ki, and PID),
+respectively to complete the user registration process.
+
+The summary of the user registration procedure has been
+
+presented in Figure]
+
+ 
+
+User U Gateway GW IN
+
+Enters [D,
+(Du)
+
+ 
+
+ 
+
+System parameters:
+
+param = {h(-), PUF(:),
+Gen(-), Rep(-), et, Zp}
+
+Compute ky,,,.. = h(ID, || LTS)
+Generate DID,,
+
+PID, = {pido,--+ ,pids} € Zp
+Save [D,, DID, and PID,
+SCu=(DIDu,kuype PID param)
+
+secure channel
+
+secure channel
+Input PW, and imprint 3,
+
+Compute 7, = PUF(5.),
+
+(Qu, hdy) = Gen(qu),
+
+IPB =h(ID, || ou || PWu),
+
+hd, = hd, ® h(ay || 1Dy || PWu),
+
+DID* = DID, @ h(IDy || PWz || au)»
+
+Bone = Bupre OR(PWy || a || Tu),
+
+pid? = pid; ® h(ay || PW. || [Du |‘),
+PID* = {pid?|i € (1, s]}
+
+Replace DI Dy, ku,,. and PID, with
+DID), k and PJ D*,, respectively
+
+we Mupre
+
+  
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+FIGURE 3: Summary of user registration
+
+D. MUTUAL AUTHENTICATION AND SESSION KEY
+AGREEMENT PHASE
+
+A registered user U can access an enrolled smart device SD
+using the following steps described below. In this phase, both
+the user U and smart device SD can mutually authenticate in
+presence of the GW N and also negotiate a session key SK.
+
+6
+
+« Step 1. The user U provides his/he identity [D,,, pass-
+word PW,, and imprints biometric 3, at the sensor of
+a specific terminal. The smart card SC, then decrypts
+the biometric reproduction parameter hd, from hd*
+using JD, and PW,,. By passing 3, and hd,, to the
+fuzzy reproduction function Rep(-), SC,, reconstructs
+the biometric token a,,. SC, then calculates JPB’ =
+AUD, || au || PW,). If IPB # IPB’, the lo-
+gin attempt will fail. Otherwise, DID, = DID*‘®
+h(ID,, || PW, || au) and ku. = Kine ® M(PWy l|
+a, || [D,,) are recovered. SC, also selects two random
+nonces ky1,ku2 € Zp, from which the short term keys
+kua = h(kur || [Du) and kug = h(Ku2 || ID.) are
+ol Next, the values Qua = kua® h(ID, ||
+
+Busnes Quy = bus® Mbp || 1Dy), DIDa = Dae
+h(kug) and Authy = h(kug || Kua || kupre || D2Da)
+are calculated. Note that " Dqgand DID, are the identity
+and the single-use dynamic identity of the smart device
+SD. Finally SC, composes the login request message
+M, = (DID, Qug; Qua, DIDa, Auth,,) and sends it
+to the gateway node GW N via open channel.
+
+« Step 2. On receiving the login request message Mj, the
+GW WN check for DID, in its database. If DID,, is not
+found, the login request request is rejected. Otherwise,
+it looks up for the corresponding user identity [D,, and
+calculates ky. = h(IDy || LTS). The GWN then
+recovers ig = Qua® h(IDu || ku,,<) and kg =
+Qug® h(kuyr. || Du) from Qua and Qug, respectively.
+
+The GWN also calculates Auth(, = h(ki, ||
+
+|| Kupre || DJDa) and checks it against the received
+Auth,,. If the values match, the GW N updates DID,
+with DID!, = h(DID,, || kug) in its database and
+recovers [Dg = DIDa® h(kiug)- The GW N looks up
+for the challenge response pair (Cy,, Ra,) using [Dy
+from the sets Cy and Ra, respectively. If it is so, the
+challenge-response pair (Cy,,Ra,) is purged from Cy
+and Ry. Now, the GWN computes Q, = k’,, ®Ra,,
+Authr, =h(kig || Ra.) and Authg = h(
+ki 4 || Authp,). The GWN composes the authentica-
+tion request message My = (Cu,, Qg, Authr,, Auth)
+and sends it to the accessed smart device SD for which
+the user U wants to access the real-time data, via an
+open channel.
+
+« Step 3. On receiving the authentication request mes-
+sage M2, the designated smart device SD looks up
+for hda, corresponding to Cy, from the sets Cy and
+hdq. Using hda, the PU F(-) and the fuzzy reproduction
+function Rep(-), the smart. device SD calculates Ri), =
+rep(PUF(Ca,), hda,), k wud = Qg® RG, and Auth, =
+h( Wl Rey || Authr,), and then checks Auth,
+against the ‘received Authg. If these match, the SD
+selects a random nonce ky € Z, from which the short
+term key ka, = h(ka || [Dqa) is derived. SD then
+computes Qa = Ry, Okau, Qri, = h(kiia) ORY,, the
+session key shared with the user U as SK = h(kau ||
+
+ 
+
+ 
+
+      
+
+ 
+
+     
+
+VOLUME 7, 2019

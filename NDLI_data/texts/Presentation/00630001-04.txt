@@ -1,0 +1,17 @@
+Applications of Stack
+
+ 
+
+The stack is used in wide variety of applications. These are
+extensively used in system programming (compilers and
+operating system)and application programming .
+
+Evaluation of Arithmetic Expression
+
+An important application of stack is the compilation of
+arithmetic expression in the programming languages. The
+compiler must be able to translate the expression which is
+written in the usual notation known as infix notation to a
+form which is known as reverse polish notation. Compilers
+accomplish this task of notation conversion i.e. infix to
+postfix with the help of stack.

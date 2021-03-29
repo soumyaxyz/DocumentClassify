@@ -1,0 +1,70 @@
+Table 2: Crowdsourced data examples. Each sentence is taken from different documents belonging to different
+subtopics. There are two cross-subtopic event coreference clusters: sentences [1,2,3] and [2,3]. Note the annotation
+of a future event in sent. 1 and of an expression involving a quantifier in sent. 3.
+
+Subtopic Sentence Annotated Events
+
+1 CROvs. DEN R164 Awaiting Saturday, a quarterfinal date with the CRO vs. RUS QF-3
+Russian hosts in Sochi.
+
+2 CRO vs. ENG SF-_2 But it’s fair to say they’re taking the harder route, CRO vs. RUS QF-3
+having followed up back-to-back penalty shootout CRO vs. DEN R16_4
+wins over Denmark and Russia by coming from
+behind to make their way past England.
+
+3 FRA vs. CRO Final — Croatia had played extra time in each of its three CRO vs. RUS QF_3
+previous matches but showed no signs of fatigue CRO vs. DEN R164
+early in the final. CRO vs. ENG SF.2
+
+ 
+
+ 
+
+annotating cross-subtopic event coreference links.
+Table 2 shows exemplary results from our annotation. A strong point of our approach relying on commonsense
+is that crowdworkers also linked future events and expressions with quantifiers triggering multiple events (“three
+
+  
+
+previous matches”) without us having to provide detailed annotation guidelines on how to handle these ca:
+We manually analyzed a number of annotated documents. In some cases, multiple events are mentioned via
+non-countable quantifiers (“few”, “every”, “more than two”, etc.). This caused annotators to agree on the
+presence of a mention but caused disagreement for the linking step. In case annotators reach no consensus with
+respect to the set of mentioned events, the 7 parameter in our aggregation returns an empty gold set of events.
+Some sentences cause disagreement because an event mention leaves room for interpretation as to which event is
+being referenced. For example, in the sentence “World Cup 2018: France beat Uruguay 2-0 to reach semi-final” it
+is unclear whether the semifinal match or the superevent semifinal stage is mentioned.
+
+5 Conclusion
+
+We are, to the best of our knowledge, the first to tackle cross-subtopic event coreference, a salient but rarely
+occurring coreference phenomenon which is underrepresented in other datasets. To capture these links affordably
+and with sufficient density in text, we developed a novel sentence-level crowdsourcing annotation scheme, which
+produces reliable results when compared to NLP experts. We created the Football Coreference Corpus (FCC),
+the first CDCR corpus specifically targeting cross-subtopic event coreference which consists of 451 football news
+reports. Our work offers several possibilities for follow-up work: Since our proposed annotation scheme does not
+require domain-specific annotation guidelines, future work may add further topics with relative ease.
+
+Acknowledgments
+
+The authors would like to thank the anonymous reviewers for their helpful insights. This work was supported by
+the German Research Foundation under grant NeGU 798/17-1.
+
+References
+
+[AP08] Ron Artstein and Massimo Poesio. “Inter-coder agreement for computational linguistics”. In: Com-
+putational Linguistics 34.4 (2008), pp. 555-596.
+
+[BH08] Cosmin Bejan and Sanda Harabagiu. “A Linguistic Resource for Discovering Event Structures and
+
+Resolving Event Coreference”. In: Proceedings of the Siath International Conference on Language Re-
+sources and Evaluation (LREC’08). Marrakech, Morocco: European Language Resources Association
+(ELRA), May 2008. ISBN: 2-9517408-4-0.
+
+[BH14] Cosmin Adrian Bejan and Sanda Harabagiu. “Unsupervised event coreference resolution”. In:
+Computational Linguistics 40.2 (2014), pp. 311-347. Dor: 10.1162/COLI\_a\_00174.
+
+[BKL09] Steven Bird, Ewan Klein, and Edward Loper. Natural Language Processing with Python: Analyzing
+Text with the Natural Language Toolkit. O'Reilly Media, 2009.
+
+28

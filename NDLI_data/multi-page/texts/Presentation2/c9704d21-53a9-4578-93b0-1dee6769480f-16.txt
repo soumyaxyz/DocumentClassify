@@ -1,0 +1,19 @@
+BI Component — Implementation Layer
+
+The implementation layer of the BI component framework consists
+of technical components that are required for data capture,
+transformation and cleaning, data into information, and finally
+delivering that information to leverage business goals and produce
+value for the organization.
+1. Data Warehousing
+
+1. Data Sources
+
+2. Data Acquisition, Cleaning, and Integration
+
+3. Data Stores
+2. Information Services
+
+1. Information Delivery
+
+2. Business Analytics

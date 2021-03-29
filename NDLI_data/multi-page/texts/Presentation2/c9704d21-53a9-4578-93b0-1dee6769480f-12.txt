@@ -1,0 +1,26 @@
+BI Component - Administration and Operations Layer — BI and
+DW Operations
+
+Data Warehouse (DW) administration requires the usage of various tools to
+monitor the performance and usage of the warehouse, and perform
+administrative tasks on it. Some of these tools would be:
+
+¢ Backup and restore
+
+* Security
+
+* Configuration management
+
+* Database management
+Data resource administration: Involves data governance and metadata
+management.
+Data governance is a technique for controlling data quality, which is used to
+assess, Improve, manage and maintain information. It helps to define
+standards that are required to maintain data quality. The distribution of roles
+for governance of data is as follows:
+
+¢ Data ownership
+
+* Data stewardship
+
+* Data custodianship

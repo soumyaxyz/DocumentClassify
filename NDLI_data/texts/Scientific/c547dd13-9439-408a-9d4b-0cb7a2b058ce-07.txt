@@ -1,0 +1,97 @@
+Kandimalla et al.
+
+historical and future data, which has been shown to
+outperform a single direction model for many tasks.
+
+Attention Mechanism The attention mechanism
+is used to weight word tokens deferentially
+when aggregating them into a document level
+representations. In our system (Figure [I),
+embeddings of words are concatenated into a
+vector with Dy dimensions. Using the attention
+mechanism, each word t contributes to the sentence
+vector, which is characterized by the factor a; such
+that
+
+oy, = oP (ul vi) (14)
+eo Nt
+
+yo, exp (u/ ve.)
+u; = tanh (W - h; + b) (15)
+
+in which hy = (hy; hy] is the representation of
+each word after the BiLSTM or BiGRU layers, v;
+is the context vector that is randomly initialized and
+learned during the training process, W is the weight,
+and b is the bias. An abstract vector v is generated
+by aggregating word vectors using weights learned
+by the attention mechanism. We then calculate the
+
+@ #abstracts
+
+500000
+50000
+5000
+
+5
+
+#abstracts
+3
+Ss
+
+wn
+S
+
+wy rot oe eo
+
+ST ce
+oo" ae oo we
+x OP 5.0! Bue
+wer GF go
+
+Subject Category Classification
+
+weighted sum of h; using the attention weights by:
+
+v= > a;h;.
+t
+
+(16)
+
+5 EXPERIMENTS
+
+Our training dataset is from the WoS database
+for the year 2015. The entire dataset contains
+approximately 45 million academic documents,
+nearly all of which have titles and abstracts from
+published papers. They are labeled with 235
+SCs in three broad categories—Science, Social
+Science, and Art and Literature. A portion of
+the SCs have subcategories, such as “Physics,
+
+Condensed Matter”, “Physics, Nuclear’, and
+“Physics, Applied”. Here, we collapse these
+subcategories, which reduces the total number
+
+of SCs to 115. We do this because the minor
+classes decrease the performance of the model
+(due to the less availability of that data). Also,
+we need to have an ”others” class to balance the
+data samples. We also exclude papers labeled with
+more than one category and papers that are labeled
+
+= Median of abstracts (86k)
+
+»
+we co op? re oF i cer Gens gor” hy got go rr oot
+
+oe so po ws es co oo
+oe a
+
+soe so
+
+Subject category
+
+Figure 2. Distribution of numbers of abstracts in the 104 SCs for our corpus. y-axis is logarithmic. Red
+
+line marks the median number of abstracts.

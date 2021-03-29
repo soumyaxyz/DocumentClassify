@@ -1,0 +1,152 @@
+Results on Countries with Textual Mentions (without Attention)
+
+ 
+
+   
+ 
+ 
+    
+  
+
+  
+ 
+
+Strategy
+Facts and Mentions
+Facts
+
+ 
+
+Dataset
+
+ 
+
+ 
+
+ 
+
+i i 1 T t
+400 500 600 700 800
+Held Out Triples
+
+T
+300 900
+
+Results on Countries with Textual Mentions (with Attention)
+
+ 
+
+  
+   
+   
+  
+
+Strategy
+Facts and Mentions
+Facts
+
+  
+
+Dataset
+
+ 
+
+ 
+
+ 
+
+i i 1 T 1
+400 500 600 700 800
+Held Out Triples
+
+T
+300 900
+
+Figure 3: GNTPs on Countries with generated mentions. We replaced a varying number of relations with textual mentions and
+integrated them by encoding the mentions using a text encoder (Facts and Mentions) and by simply adding them to the KB
+(Facts). Two figures contrast the effects of rule learning without attention (left) and with it (right).
+
+Table 1: Comparison of GNTPs, NTPs, NeuralLP (Yang, Yang, and Cohen 2017), and MINERVA (Das et al. 2018) (from Das et
+
+al. (2018)) on benchmark datasets, with and without attention.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Models
+Datasets Metrics NTP? GNTP NSGRIEP” MINERVA Rules Learned by GNTP
+Standard Attention
+SI 90.83 +154 99.98£0.05 100.0400 100.0+40.0 1000400 locatedin(X,Y) :— locatedIn(X,Z), locatedIn(Z,Y)
+Countries $2 AUC-PR 8740+ 11.7 90.824£0.88 93.48+3.29 75.1403 92364241 neighborOf(X,Y) :-neighbor0£(X,Z), locatedIn(Z,Y)
+$3 56.68+17.6 87.704£4.79 91.2744.02 92.20£0.2 95.10+1.20 neighborOf(X,Y) :-neighbor0#(Y,X)
+MRR 035 0.719 0.759 0.619 0.720 term0(X, Y) —term0(Y, X)
+‘Kinch HITS@1 0.24 0.586 0.642 0.475 0.605 term4(X, Y) —term4(Y, X)
+SMP. HITS@3 0.37 0.815 0.850 0.707 0.812 term13(X,Y) :-term13(X, Z), term10(Z, Y)
+HITS@10 057 0.958 0.959 0.912 0.924 term2(X,Y) :-term4(X, Z), term7(Z, Y)
+MRR 061 0.658 0.645 = — commonbloc1(X, Y) :- relngo(Y, X)
+Nai HITS@1 0.45 0.493 0.490 — — timesincewar(X,Y) ;- independence(X,Y)
+eons HITS@3 0.73 0.781 0.736 = = unweightedunvote(X.Y) - relngo(X.Y)
+HITS@10 0.87 0.985 0.975 = = ngo(X, Y) :- independence(Y, X)
+MRR 0.80 0.841 0.857 0.778 0.825 isa(X,Y) :- isa(X,Z), isa(Z,Y)
+UMLS HITS@1 0.70 0.732 0.761 0.643 0.728 complicates(X,Y) -affects(X,Y)
+. HITS@3 0.88 0.941 0.947 0.869 0.900 affect s(X, Y) :-affects(X, Z), affect s(Z, Y)
+HITS@10 0.95 0.986 0.983 0.962 0.968 process.of(X,Y) -affects(X,Y)
+
+ 
+
+hand. For instance, we can see that on UMLS, a biomedical
+KB, the isa and affects relation are transitive.
+
+Experiments with Generated Mentions. For evaluating
+different strategies of integrating textual surface patterns, in
+the form of mentions, in NTPs, we proceeded as follows.
+We replaced a varying number of training set triples from
+each of the Countries S1-S3 datasets with human-generated
+textual mentions (for more details, see Appendix).® For in-
+stance, the fact nei ghbourO£(UK, IRELAND) may be re-
+placed by the textual mention “UK is neighbouring
+with IRELAND”. The entities UK and IRELAND be-
+come the arguments, while the text between them is
+treated as a new logic predicate, forming a new fact
+“X is neighbouring with Y”(UK, IRELAND).
+
+Then, we evaluate two ways of integrating textual mentions
+in GNTPs: i) adding them as facts to the KB, and ii) parsing
+the mention by means of an encoder. The results, presented
+in Fig. 3, show that the proposed encoding module yields
+consistent improvements of the ranking accuracy in compari-
+son to simply adding the mentions as facts to the KB. This
+
+is especially evident in cases where the number of held-out
+facts is higher, as it is often the case in real-world use cases,
+where there is an abundance of text but the KBs are sparse
+and incomplete (Nickel et al. 2016). GNTPs are extremely
+efficient at learning rules involving both logic atoms and
+textual mentions.
+
+For instance, by analysing the learned models and their
+explanations, we can see that GNTPs learn rules such as
+
+neighborOf(X, Y) :-“Y is a neighboring state to X”(X, Y)
+locatedIn(X, Y) :-“X is a neighboring state to Z”(X, Z),
+“Z is located in Y”(Z, Y)
+
+and leverage them during their reasoning process, providing
+human-readable explanations for a given prediction.
+
+7Results reported in Rocktischel and Riedel (2017) were cal-
+culated with an incorrect evaluation function, causing artificially
+better results. We corrected the issues, and recalculated the results.

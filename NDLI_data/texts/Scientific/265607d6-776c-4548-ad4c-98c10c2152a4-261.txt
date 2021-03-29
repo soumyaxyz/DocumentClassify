@@ -1,0 +1,41 @@
+REFERENCES REFERENCES
+
+ 
+
+Markov, A.A. (1913). An example of statistical investigation in the text of Eugene
+Onegin illustrating coupling of tests in chains. Proceedings of the Academy of
+Sciences of St. Petersburg, 7, 153-162. 25
+
+Markov, A.A. (1954). Theory of Algorithms. Academy of Sciences of the USSR.
+26
+
+Markowitz, H. (1952). Portfolio selection. The Journal of Finance, 7, 77-91. 66
+
+Maron, M.E. & Kuhns, J.L. (1960). On relevance, probabilistic indexing and
+information retrieval. Journal of the ACM, 7, 216-244. 21, 54
+
+McCreadie, R., Macdonald, C., Ounis, I., Peng, J. & Santos, R.L.T. (2009).
+University of Glasgow at TREC 2009: Experiments with Terrier—Blog, Entity,
+Million Query, Relevance Feedback, and Web tracks. In Proceedings of the 18th
+Text REtrieval Conference, Gaithersburg, MD, USA. 6, 34
+
+McCreadie, R., Macdonald, C., Santos, R.L.T. & Ounis, I. (2011). University
+of Glasgow at TREC 2011: Experiments with Terrier in Crowdsourcing, Mi-
+croblog, and Web tracks. In Proceedings of the 20th Text REtrieval Conference,
+Gaithersburg, MD, USA. 6, 34
+
+Mei, Q., Zhou, D. & Church, K. (2008). Query suggestion using hitting time.
+In Proceedings of the 17th ACM Conference on Information and Knowledge
+Management, 469-478, ACM, Napa Valley, CA, USA. 122
+
+Metzler, D. & Croft, W.B. (2005). A Markov random field model for term depen-
+dencies. In Proceedings of the 28th Annual International ACM SIGIR Confer-
+ence on Research and Development in Information Retrieval, 472-479. 28, 35,
+50
+
+Metzler, D.A. (2007). Automatic feature selection in the markov random field
+model for information retrieval. In Proceedings of the 16th Conference on In-
+formation and Knowledge Management, 253-262, ACM, Lisbon, Portugal. 45,
+158
+
+243

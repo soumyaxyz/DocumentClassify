@@ -1,0 +1,151 @@
+A. S. Winoto et al.: Small and Slim Deep Convolutional Neural Network for Mobile Device
+
+IEEE Access
+
+ 
+
+TABLE 13. Time needed for training and inference on Resized ImageNet
+32 x 32 dataset.
+
+ 
+
+Model Training Inference (ms)
+(s/Epoch)
+
+1 32 128 256
+MobileNet 412 3 4 9 15
+MobileNetV2 556 4 8 21 37
+DenseNet121 1353 10 15 32 49
+ResNet50 1703 5 13 40 74
+ResNet110 3317 9 24 ves 140
+NASNetMobile 155512 16 32 53
+CustomNet 855 4 8 24 42
+(Proposed)
+CustomNet 2 1594 a 14 44 80
+(Proposed)
+
+ 
+
+can also classify digit well as in SVHN dataset, where it uses
+real world problem to detect the house number. And it also
+can work quite well in classifying traffic sign in GTSRB.
+But as for detecting class in CIFAR 10 and CIFAR 100,
+the gap of the top 1 and our CustomNet and CustomNet 2 is
+getting bigger. Also according to the inference result, we can
+say that our CustomNet 2 can work well to detect any input
+image as fast as 11 ms per image, which could reach 90 FPS
+with accuracy better than MobileNet, MobileNetV2 and even
+DenseNet121. Moreover on ImageNet dataset, our Custom-
+Net and CustomNet 2 can work well while also comparing
+to the ResNet and DenseNet which was made especially for
+large dataset such as ImageNet.
+
+TABLE 14. Result on varied CustomNet and CustomNet 2.
+
+ 
+
+ 
+
+Model Accuracy
+
+CIFAR 10 SVHN GTSRB
+CustomNet 82,80% 93,19% 92,82%
+(Proposed)
+CustomNet 84,02% 93,51% 92,79%
+5 Thread
+CustomNet 2 84,74% 93,60% 91,71%
+(Proposed)
+CustomNet 2 85,25% 93,96% 93,07%
+5 Thread
+CustomNet 2 83,33% 93,14% 90,45%
+2 Blocks
+CustomNet 2 83,32% 93,85% 92,01%
+4 Blocks
+CustomNet 2 83,29% 93,75% 91,28%
+5 Blocks
+
+From the result also, we could say that our model is already
+optimal, as we chose the minimum thread possible which
+is 3, where the thread must be odd number to avoid same
+value on voting (averaging) system, which normally needs
+to repeat the voting system, and the number must be bigger
+than 1, as we don’t need the averaging system with only
+one value. And based on Table 14 we could see that with
+more thread it is possible to increase the accuracy, while
+also in Table 15 shows that the bigger thread will need a
+longer time to train with almost doubled time needed. This
+case also occurs to the difference on blocks used, the number
+
+VOLUME 8, 2020
+
+TABLE 15. Time needed for training and inference on varied CustomNet
+and CustomNet 2.
+
+ 
+
+Model Training Time (s/Epoch)
+
+CIFAR 10 SVHN GTSRB
+CustomNet 96 148 80
+(Proposed)
+CustomNet 165 235 134
+5 Thread
+CustomNet 2 177 259 143
+(Proposed)
+CustomNet 2 288 438 234
+5 Thread
+CustomNet 2 100 162 82
+2 Blocks
+CustomNet 2 264 402 23
+4 Blocks
+CustomNet 2 315 474 253
+5 Blocks
+
+ 
+
+of blocks needed also affects the accuracy, but the effect of
+adding blocks differs for each dataset, where we believe that
+our CustomNet and CustomNet 2 are optimal.
+
+CustomNet implementation make it not possible to be
+added more blocks as the beta is always implements Max
+Pooling, while it is possible to reduce the blocks used, it is
+impossible to add more blocks. Whereas the beta in Custom-
+Net2, the beta-2, can change the stride to imitate the pooling
+layer result.
+
+The division from 1 input to 5 threads is also utilizes
+the previous division methods which divided the input
+into 3 threads, while from those 3 threads, we then make it
+into 5 threads by making each threads into 2 threads, which
+could be called x4, x3, xa, x1, xb, and x. We then take x4,
+x3+xa, xa+x1,x1-+.xb, and x values to be each thread. This
+division method also succeed in dividing the input, moreover
+it could make the accuracy better.
+
+VI. RESULTS
+
+In this section, we rate the model based on the 1) Accuracy
+Rate — Inference Time, 2) Accuracy Rate — Computational
+Complexity — Model Complexity, 3) Training and Inference
+Time, and 4) Inference Time — Computational Complexity —
+Model Complexity. We took the training time from CIFAR
+10 dataset along with accuracy, computational complexity,
+model complexity, training time and inference time from
+Table 8 and IX.
+
+A. ACCURACY-RATE - INFERENCE TIME
+
+As we can see in Figure 10 and Table 12, the most accu-
+rate is ResNet50 with 86.66%, followed by ResNet110 with
+86.62%, and then our CustomNet2 with 84.74%. While
+ResNet1 10 took almost twice the time from our CustomNet 2,
+we can compete with ResNet50 by being on par on the infer-
+ence time. While DenseNet121, on the other hand, almost
+closing by with 0.48% difference on accuracy, but taking
+more time than ResNet110, which also taking almost twice
+the time taken by CustomNet 2. Also, there are MobileNet
+and MobilenNetV2 that considered having the quickest infer-
+ence time, still close enough to our time, which is 3 and 5 ms
+
+125219

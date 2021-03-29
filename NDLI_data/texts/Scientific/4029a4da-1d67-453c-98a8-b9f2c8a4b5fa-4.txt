@@ -1,0 +1,172 @@
+g SRT 227) 302! 443: 475'502 ...
+£ 7 7 — i =
+
+2 Videofig|_ 54] 8a] 442] [iso 236] 345] 407| 488]
+
+© TT 7 7 - ‘a
+3 wiki 51, 70 240 296: 422
+
+r=! o i Hi
+Ps 5167 103. 150 176 Ba 350 Ora
+5 truth
+
+8 100 200 300 400 500
+
+— > Lecture video timeline (in seconds)
+
+Figure 3. Segment boundaries derived from different modalities.
+Table I
+EVALUATION OF THE LECTURE VIDEO SEGMENTATION FOR THE
+LECTURE VIDEOS IN THE TEST SET Vp.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Segmentation Avg. Avg. Avg.
+Method Precision Recall F-1 Score
+Visual 0.360247 | 0.407794 | 0.322243
+SRT 0.348466 | 0.630344 | 0.423925
+Visual + SRT 0.372229 | 0.578942 | 0.423925
+Wikipedia 0.452257 | 0.550133 | 0.477073
+Visual + Wikipedia 0.396253 | 0.577951 | 0.436109
+SRT + Wikipedia 0.388168 | 0.62403 | 0.455365
+Visual + SRT + Wiki. | 0.386877 | 0.630717 0.4391
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+considered a perfect match if c and g are at most 30 seconds
+apart, and partial match if c and g are at most 120 seconds
+apart. We computed the score for each (c, g) pair based on
+the time difference between them by employing a staircase
+function as follows:
+
+ 
+
+1.0, if distance(c,g) < 30
+score(c,g) = 4 0.5, else if distance(c, g) < 120
+0, otherwise.
+
+We use the following equations to compute precision
+and recall to evaluate the accuracy of the lecture video
+segmentation. Moreover, we compute F-1 score using the
+standard formula (2 x precision x recall) /(precision+ recall).
+
+SY score(c, 9) S score(c, 9)
+
+St pecatt = St —__
+M N
+
+precision =
+where AZ and N are the number of true and predicted
+transitions, respectively, and r is the number of (c, g) pairs.
+Table I shows these scores of the lecture video segmentation
+for TRACE, state-of-the-art works (for SRT and visual
+content), and their late fusion. Experimental results show
+that our proposed scheme to determine segment boundaries
+by leveraging Wikipedia texts results in the highest precision
+and F-1 scores, and performs well especially when the state-
+of-the-art methods based on the visual content and SRT fails
+to detect lecture video segmentations. Furthermore, when we
+performed the late fusion of all approaches then it results in
+the highest recall value.
+
+V. CONCLUSIONS
+
+The proposed TRACE system provides a novel way to
+automatically determine the segment boundaries of a lec-
+ture video by leveraging Wikipedia texts. To the best of
+our knowledge, our work is the first attempt to compute
+
+segment boundaries using crowdsourced knowledge base
+such as Wikipedia. We further investigated their fusion
+with the segment boundaries determined from the visual
+content and SRT of the lecture video using state-of-the-
+art works. Experimental results confirm that the TRACE
+system can effectively segment the lecture video to facilitate
+the accessibility and traceability within their content despite
+video quality is not sufficiently high. In the future, we plan to
+introduce a browsing tool for use and evaluation by students.
+
+ACKNOWLEDGMENTS
+
+This research was supported in part by the National Natu-
+ral Science Foundation of China under Grant no. 61472266,
+the National University of Singapore (Suzhou) Research
+Institute, Suzhou Industrial Park, Jiang Su, China, and by
+JSPS KAKENHI Grant Number 15H06829.
+
+REFERENCES
+
+1] S. Gao, C. Zhang, and W.-B. Chen. An Improvement of Color
+Image Segmentation Through Projective Clustering. In Inter-
+national Conference on Information Reuse and Integration,
+pages 152-158. IEEE, 2012.
+
+2] A. Haubold and J. R. Kender. Augmented Segmentation
+and Visualization for Presentation Videos. In International
+Conference on Multimedia, pages 51-60. ACM, 2005.
+
+3] M. Lin, M. Chau, J. Cao, and J. F. Nunamaker Jr. Automated
+video segmentation for lecture videos: A linguistics-based
+approach. In IJTHI, 1(2):27-45, 2005.
+
+4] C.-W. Ngo, F Wang, and T.-C. Pong. Structuring lecture
+videos for distance learning applications. In JSMSE, pages
+215-222. IEEE, 2003.
+
+5] S. Repp, A. GroB, and C. Meinel. Browsing within Lecture
+Videos based on the Chain Index of Speech Transcription. In
+IEEE TLT, 1(3):145-156, 2008.
+
+6] R.R. Shah, A. D. Shaikh, Y. Yu, W. Geng, R. Zimmermann,
+and G. Wu.  EventBuilder: Real-time Multimedia Event
+Summarization by Visualizing Social Media. In International
+Conference on Multimedia, pages 185-188. ACM, 2015.
+
+ 
+
+ 
+
+7) R. R. Shah, Y. Yu, A. D. Shaikh, S. Tang, and R. Zim-
+mermann. ATLAS: Automatic Temporal Segmentation and
+Annotation of Lecture Videos Based on Modelling Transition
+Time. In International Conference on Multimedia, pages 209—
+212. ACM, 2014.
+
+8] R.R. Shah, Y. Yu, and R. Zimmermann. ADVISOR: Person-
+alized Video Soundtrack Recommendation by Late Fusion
+with Heuristic Rankings. In Jnternational Conference on
+Multimedia, pages 607-616. ACM, 2014.
+
+ 
+
+9] A. D. Shaikh, R. R. Shah, and R. Shaikh. SMS based FAQ
+Retrieval for Hindi, English and Malayalam. In Forum on
+Information Retrieval Evaluation, page 9. ACM, 2013.
+
+ 
+
+[10] W. Zhang, J. Lin, X. Chen, Q. Huang, and Y. Liu. Video Shot
+Detection using Hidden Markov Models with Complementary
+Features. In ICICIC, pages 593-596. IEEE, 2006.

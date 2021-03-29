@@ -1,0 +1,29 @@
+S.No. 9030 I SBE 8:6
+
+(For candidates admitted from 2008-2009 onwards)
+U.G. DEGREE EXAMINATION, AUGUST 2012.
+
+Part III — Computer Applications — Skill Based
+Elective
+
+HTML AND JAVA SCRIPTING
+
+Time : Three hours Maximum : 75 marks
+SECTION A — (10 x 2 = 20)
+apwe ALL the whetibens:
+
+1. Write down any two features of HTML.
+
+2. What are the important of components of the
+header section?
+
+3. Define: Prologue.
+
+4. What is the use of link tag?
+
+5. What are the components of table?
+-6. What do you mean by ordered list?
+
+7. | What is the use of form?
+
+8. List out the attributes of <select> tac.

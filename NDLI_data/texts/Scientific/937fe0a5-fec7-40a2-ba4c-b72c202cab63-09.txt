@@ -1,0 +1,160 @@
+Query and Ground Truth Result Ranking of w2v
+
+Result Ranking of d2v—cac Result Ranking of h-d2v
+
+ 
+
+...We also evaluate our model | 1.
+by computing the machine trans- | Statistical Translation
+
+lation BLEU score (Papineni | 2. — Indirect-HMM-based Hypothe-
+et al., 2002) using the Moses | sis Alignment for Combining Outputs
+system (Koehn et al., 2007)... from Machine Translation Systems
+
+3, The Alignment Template Approach
+to Statistical Machine Translation
+
+HMM-Based Word Alignment in
+
+(Papineni et al., 2002) BLEU: a
+Method for Automatic Evalua-
+tion of Machine Translation
+(Koehn et al., 2007) Moses:
+Open Source Toolkit for Sta-
+tistical Machine Translation
+
+9. Moses: Open Source Toolkit for
+Statistical Machine Translation
+
+57. BLEU: a Method for Automatic
+Evaluation of Machine Translation
+
+1. Discriminative Reranking for Ma- | 1. BLEU: a Method for Au-
+chine Translation tomatic Evaluation of Machine
+2, Learning Phrase-Based Head Trans- | ‘Translation
+
+duction Models for Translation of Spo- | 2. Statistical Phrase-Based
+ken Utterances Translation
+
+3. Cognates Can Improve Statistical | 3. Improved Statistical Align-
+Translation Models ment Models
+
+4. HMM-Based Word Align-
+ment in Statistical Translation
+
+5. Moses: Open Source Toolkit
+for Statistical Machine Trans-
+lation
+
+6. BLEU: a Method for Automatic
+Evaluation of Machine Translation
+29. Moses: Open Source Toolkit for
+Statistical Machine Translation
+
+ 
+
+ 
+
+Table 9: Papers recommended by different approaches for a citation context in Zhao and Gildea (2010).
+
+ 
+
+[_]EMNLP'06 (Macro: 57.00 Micro: 77.00)
+away
+[EE d2-cac
+Eb -c2v
+
+(Macro: 44.86 Micro: 74.43)
+(Macro: 24.19 Micro: 70.64)
+(Macro: 54.37 Micro: 75.39)
+
+ 
+
+ 
+
+ 
+
+ 
+
+¥ ed © oo A oo SS oS € KS
+ve £ XSF So eS aS CEES
+
+eo eS S
+
+Figure 4: F; of citation function classification.
+
+kernels and default parameters. Following Teufel
+et al. (2006), we use 10-fold cross validation.
+Figure 4 depicts the F; scores. Scores of Teufel
+et al. (2006)’s approach are from the original pa-
+per. We omit d2v—nc because it is very inferior to
+d2v-cac. We have the following observations.
+First, Teufel et al. (2006)’s feature-engineering-
+based approach has the best performance. Note
+that we cannot obtain their original cross valida-
+tion split, so the comparison may not be fair and is
+only for consideration in terms of numbers.
+Second, among all embedding-based methods,
+h-d2v has the best citation function classification
+results, which is close to Teufel et al. (2006)’s.
+Finally, the d2v—cac vectors are only good at
+Neutral, the largest class. On the other classes and
+global F;, they are outperformed by w2v vectors.
+To study how citation function affects citation
+recommendation, we combine the 2,824 labeled
+citation contexts and another 1,075 labeled con-
+texts the authors published later to train an SVM,
+and apply it to the DBLP testing set to get cita-
+tion functions. We evaluate citation recommenda-
+tion performance of w2v (140), d2v—cac, and
+h-d2v on a per-citation-function basis. In Fig-
+ure 5, we break down Rec@10 scores on citation
+functions. On the six largest classes (marked by
+solid dots), h—d2v outperforms all competitors.
+
+Count
+
+ 
+
+FS SF oS k SS
+x oe LEE SS
+
+SS SF oe SK
+SFE ES ©
+
+o
+
+Figure 5: Rec@ 10 w.r.t. citation functions.
+
+To better investigate the impact of context intent
+awareness, Table 9 shows recommended papers of
+the running example of this paper. Here, Zhao and
+Gildea (2010) cited the BLEU metric (Papineni
+et al., 2002) and Moses tools (Koehn et al., 2007)
+of machine translation. However, the additional
+words “machine translation” lead both w2v and
+d2v-cac to recommend many machine transla-
+tion papers. Only our h-d2v manages to recog-
+nize the citation function “using tools/algorithms
+(PBas)”, and concentrates on the citation intent to
+return the right papers in top-5 results.
+
+6 Conclusion
+
+We focus on the hyper-doc embedding problem.
+We propose that hyper-doc embedding algorithms
+should be content aware, context aware, new-
+comer friendly, and context intent aware. To meet
+all four criteria, we propose a general approach,
+hyperdoc2vec, which assigns two vectors to
+each hyper-doc and models citations in a straight-
+forward manner. In doing so, the learned embed-
+dings satisfy all criteria, which no existing model
+is able to. For evaluation, paper classification and
+citation recommendation are conducted on three
+academic paper datasets. Results confirm the ef-
+fectiveness of our approach. Further analyses also
+demonstrate that possessing the four properties
+helps h—d2v outperform other models.
+
+2392

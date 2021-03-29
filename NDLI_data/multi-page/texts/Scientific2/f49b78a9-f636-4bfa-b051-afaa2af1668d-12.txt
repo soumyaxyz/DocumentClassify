@@ -1,0 +1,141 @@
+IEEE Access:
+
+S. Banerjee et al.: Physically Secure Lightweight Anonymous User Authentication Protocol for loT
+
+ 
+
+ 
+
+SUMMARY SUMMARY
+SAFE SAFE
+DETAILS DETAILS
+BOUNDED_NUMBER_OF_SESSIONS BOUNDED_NUMBER_OF_SESSIONS
+PROTOCOL TYPED_MODEL
+/home/soumya/span//testsuite/results/ioT.if | PROTOCOL
+GOAL /home/soumya/span//testsuite/results/IOT.if
+as specified GOAL
+BACKEND As specified
+OFMC BACKEND
+STATISTICS. CL-AtSe
+TIME 62 ms STATISTICS
+parseTime 0 ms Analysed : 2 states
+visitedNodes: 8 nodes Reachable : 0 state
+depth: 3 plies Translation: 0.12 seconds
+Computation: 0.00 seconds
+
+ 
+
+ 
+
+ 
+
+FIGURE 8: The simulation results under OFMC and CL-
+AtSe back-ends
+
+1) Attainment of Mutual Authentication
+
+In the proposed authentication scheme, during the authenti-
+cation phase the GW N establishes trust in the authenticity
+of U if it can look up its identity /D, from its memory
+using the received DID,,. The check on Auth, ensures the
+integrity of the received message. SD on receiving the mes-
+sage My = (Ca,,Qg, Authr,, Authg) computes Auth’, and
+checks it against the received Auth,. If the values match, SD
+can trust that the message is genuinely from the GWN. U
+on receiving the message M3 = (HQr, Qa, Qn, Autha),
+computes Rij and Auth’,, from the received values. If
+Authp, # h(kug || RG,), U authenticate SD. Thus, mutual
+authentication between the user U and the smart device SD
+is attained in the proposed scheme.
+
+2) Attainment of Anonymity and Untraceability
+
+An eavesdropping adversary A can monitor the messages
+M,, Mz and M3. However, none of these eavesdropped
+messages contain any identifying information for user or
+smart device in plaintext formats. Thus, the proposed scheme
+provides both user and smart device anonymity. Moreover,
+all of these messages are composed using random nonces
+and long-term secrets, and thus, these are dynamic in na-
+ture across different authentication sessions. Therefore, it
+is infeasible for A to trace both the user and smart device
+across sessions. Thus, the proposed scheme preserves the
+untraceability property for user and smart device.
+
+3) Attainment of Forward and Backward Secrecy
+
+Assuming that A can somehow learn the session key Sir
+along with all its contributing secret values k,,, [Du, ka,
+IDq and Ra, under the CK-adversary model (as discussed
+in the threat model in Section (EB). All other values are
+for single use, and therefore, compromise of a particular
+session will not compromise the session keys of any sessions
+previously established or to be established in the future. Thus,
+the proposed scheme ensures forward & backward secrecy.
+
+4) Resilience against Ephemeral Secret Leakage (ESL)
+Attack
+
+In the proposed scheme, both a user U and a smart device SD
+establish a common session key SK = h(kau || Kua || Ra,)
+during the execution of login & authentication phase, where
+kua is a secret comprising of a short term secret k,,, and long
+term secret [.D,,. Similarly, kq,, is another secret comprising
+of a short term secret kg and long term secret J.Da, and Ra;
+is a long term single use secret.
+
+The security of the session key SK is then based on the
+
+following two cases:
+
+e Case 1. Assume that A has the short term secret creden-
+tials k,,, and kg. Then, it is computationally infeasible
+for A to calculate the session key SA without knowl-
+edge of the long term secret credentials.
+
+« Case 2. If some or all of the long term secrets [D,,, [Da
+and Ra, are revealed to A, it is also computationally
+infeasible for A to calculate SA without short term
+secrets k,,, and ka.
+
+Thus, A can derive the valid session key SK only if both
+short and long term secrets are exposed at once. Hence, it
+is evident that the proposed scheme is resilient against ESL
+attack.
+
+5) Resilience against Impersonation Attacks
+
+Assume that an adversary A attempts to impersonate
+a legitimate user U. As the pre-shared dynamic iden-
+tity DIDy and the set pseudo-identities {PID,,} are
+of single use, A cannot composite the message M, =
+(DID. Quy, Qua; DI Da, Auth,,). Similarly, if A attempts
+to impersonate the GW N by intercepting , generating
+the message Mz = (Ca,,Qg, Authp,, Authg) is compu-
+tationally infeasible as A does not have access to the chal-
+lenge response pair (Cy,, Ry,). Hence, A will not succeed
+in composing Auth, = h(Ca,||Ra,||Kug||Authr,) that is
+consistent with Cy,. Finally, if A attempts to impersonate
+SD by generating Mz = (HQr, Qa, Qr:,, Autha), it will be
+computationally infeasible. As A is not able to recreate Ry,
+and HQr = h(R4, || Qua) PAuthe,, QR, = hha) ®RG,
+and Authy = h(SK || Rj,), he or she cannot compose a
+consistent 1/3. Thus, the proposed scheme is resistant against
+impersonation attacks.
+
+6) Resilience against Stolen Smart Card and Offline
+Guessing Attacks
+
+Assume that an adversary A extracts the secret credentials
+from a lost or stolen SC; of a registered user U through
+power analysis attacks [7]. Then, A will have the credentials
+IPB, DID; ku,,, and hd;,. But, as all of these values are
+secured with the secret identity [D,,, password PW.,, and the
+biometric key a,,, A needs simultaneous guessing of all three
+factors to compromise the security of the proposed scheme.
+Thus, it becomes a computationally infeasible problem for A,
+and as a result, the proposed scheme is secure against offline
+guessing attacks in conjunction with the stolen smart card
+attack.
+
+VOLUME 7, 2019

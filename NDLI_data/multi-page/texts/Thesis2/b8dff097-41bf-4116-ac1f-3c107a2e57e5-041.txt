@@ -1,0 +1,42 @@
+4.1. COMMUTATIVE COHOMOLOGY AND CENTRAL SIMPLE ALGEBRA 29
+
+(4) Br(Q,) = Q/Z, where Q, is the field of p-adic numbers.
+Let K/k be a field extension. Then we have a map Br(k) — Br(i) defined by
+
+At> A@K. The kernel of this map is called the relative Brauer group, denoted
+as Br(i</k). Let A be a central simple algebra. Let K C A be a subfield containing
+k such that Z4(K) = K, then K is called a maximal subfield of A.
+
+Theorem 4.1.1. Let A be a central simple algebra over field k of dimension n?.
+Then any maximal subfield K of A is a splitting field of A and [K : k] = [A: K] =
+n. Conversely, given any finite field extension K of k of degree n, any element of
+Br(K/k) has a unique representative A of degree n? which contains K as a maximal
+subfield.
+
+For the proof of this theorem we refer to [P], Section 13.2 and 14.2. If D is a central
+division algebra over k of dimension n? then there exists a finite Galois extension
+
+of k which is a splitting field for D. Hence
+Br(k) = |) Br(K’/k)
+K
+
+where union is taken over all finite Galois extensions of k. Here we determine the
+structure of any central simple algebra in the context of the Brauer group ([P], Section
+14.2).
+
+Proposition 4.1.2. Let K/k be a Galois extension of fields with Galois group
+G. Let n be the degree of field extension K/k. Let A be a central simple algebra
+over k containing K as its maximal subfield. Then there exists x, € A,Vo € G and
+a:Gx G— K*, a 2-cocycle, such that A= @jegKx_ and the multiplication is
+given by
+
+ALg. BL, = A0(B)Ag7rLor-
+Conversely we have,
+
+Proposition 4.1.3. Let K/k be a Galois extension of fields with Galois group G.
+Let n be the degree of field extension K/k. Let a: Gx G— K* be a 2-cocycle. We
+put A= @jeq Kro and define multiplication as follows :
+
+0X5: Pa = 00 (B) Ora Bers
+
+Then A is a central simple algebra over k containing K as a maximal subfield.

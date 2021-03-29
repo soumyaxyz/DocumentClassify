@@ -1,0 +1,60 @@
+64 8. REALITY IN GROUPS OF TYPE G2
+
+Proof. Let us assume first that the characteristic polynomial of A over L in
+the first case and over k in the second, is irreducible. This case follows from Theo-
+rem 8.1.8. Since the characteristic polynomial of A is irreducible, it equals the minimal
+polynomial of A. Hence let us consider the case when characteristic polynomial is
+reducible. First, let us take the case when L is a field extension. Let T be a maximal
+torus in SU(L+,h) containing to. By Corollary 5.1.6, there exists an étale L-algebra
+Ep with an involution o and u € F* such that (Z+,h) & (Er, h™), here F is the fixed
+point subalgebra of o in Ep. Since the characteristic polynomial of A is reducible, we
+see that L+ is a reducible representation of T. From Corollary 5.2.2 we see that Ep
+is not a field. We can write Er = F © L where F is a cubic étale k-algebra but not a
+field. Let F = k x A, for some quadratic étale k-algebra A. Hence Ep = L x (A® L)
+and a is given by (a, f @ 8) + (a, f @f). Writing u = (w,u2) where uw, € k, the
+hermitian form §™ is given by 6 ((J,6), (U,6')) = trot (lual’) + trawr/i(du20’) =
+lu!’ + trawrjr(6u2d’). Hence L x {0} is a nondegenerate subspace left invariant by
+
+1
+
+the action of to € T, = Ti x Taw, Which acts by left multiplication. There-
+
+Er ,o4
+fore to leaves invariant a two dimensional nondegenerate k-plane in €9. The result
+
+now follows from Corollary to Theorem 8.1.4. The proof in the case when L is split
+
+ 
+
+ 
+
+ 
+
+ 
+
+proceeds on similar lines.
+
+8.2. SU(V,h) CG
+
+We continue with notation introduced in the last section. We assume that L is
+a quadratic field extension of k. Let to be an element in G(€/L) with characteristic
+
+le
+
+polynomial of the restriction to V = L+, equal to its minimal polynomial over L. W
+write € = L@®V, where V is an L-vector space with hermitian form induced by
+
+the norm on €. Then we have seen that G(€/L) = SU(V,) (Theorem 3.2.1).
+
+Lemma 8.2.1. Let the notation be as fired above. Let to be an element in G(€/L)
+which does not have a nonzero fixed point outside L. Suppose that 4g € G(k) such
+that gtog7! = to’. Then g(L) = L.
+
+Proof. Suppose that g(L) ¢ L. Then we claim that dr € LM €p such that
+g(x) ¢ L. For this, let y € L be such that g(y) ¢ L. Let « = y — dtr(y)l. Then
+tr(x) = 0 and if g(a) € L then g(y) € L, a contradiction. Hence we have 7 € LN €o
+with g(x) ¢ L. Also since to(a) = x, we have,
+
+to(g(x)) = gto '(x) = g(2).
+
+Therefore to fixes g(a) ¢ L, a contradiction. Hence, g(L) = L.

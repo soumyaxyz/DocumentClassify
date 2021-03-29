@@ -1,0 +1,72 @@
+Chapter 3: Quantum group of orientation preserving Riemannian isometries 106
+
+ 
+
+Hn := An€ of H and write Qo = Po = Poe, Qn = Pn — Pn-1 for n € IN. There exists a
+(strictly increasing) sequence of real numbers (an )°, such that the self adjoint operator
+D= new OnrQn yields a spectral triple (A®,H, D). Due to the existence of a cyclic
+and separating vector the quantum group of orientation preserving isometries exists by
+Theorem 3.2.22.
+
+In [16], the following fact was also observed:
+
+co
+
+Proposition 3.5.2. If A is infinite-dimensional and p > 0 then one can choose (an)>4
+
+in such a way that the spectral triple is p-summable. For this reasons, the spectral triple
+
+should be thought of as 0-dimensional noncommutative manifolds.
+
+Note that for each n € IN by restricting we obtain a (finite-dimensional) spec-
+tral triple (An, Hn, D\n,,). AS we are precisely in the framework of Theorem 3.5.1,
+to compute Q/SO*(A®,H, D) we need to understand the quantum isometry groups
+QISO*T(A®, Hn, D\y,,) and embeddings relating them. To simplify the notation we
+will write S, := QISO* (An, Hn, D\n,)-
+
+We begin with some general observations.
+
+Lemma 3.5.3. Let QU4,,2, denote the universal quantum group acting on A, and
+preserving the (faithful) state on An given by vector € (see [60]). There exists a CQG
+morphism from QUA, we t0 Sn:
+
+Proof: The proof is based on considering the spectral triple given by (An,Hn, D),),
+where D!, = P,,—P. It is then easy to see that QISOT (An, Hn, Di.) is isomorphic to the
+universal compact quantum group acting on A, and preserving we. On the other hanc
+universality assures the existence of the CQG morphism from QISO*(An, Hn, D},) to
+Sn.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Lemma 3.5.4. Assume that each An is commutative, An = C*, n € IN. There exists
+a CQG morphism from QUy,, to Sx,
+acting on ky, points ( [60]).
+
+where QU;,, denotes the universal quantum group
+
+in?
+
+Proof: We observe that for any measure jy on the set {1,...,k,} which has ful
+support there is a natural CQG morphism from QU;,, to QUcrn ,,. In case when yp is
+
+uniformly distributed, we simply have QU crn ,, = QUy,,, as follows from Lemma 1.2.33.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Let an : An + An ® Sp denote the universal action (on the n-th level). Then we
+have the following important property, being the direct consequence of the Theorem
+3.5.1. We have
+
+Ant1(An) C An ® Sn41 (3.5.1)

@@ -1,0 +1,63 @@
+Vikas K Garg, Stefanie Jegelka, and Tommi Jaakkola. Generalization and representational limits of
+graph neural networks. arXiv preprint arXiv:2002.06157, 2020.
+
+Marco Gori, Gabriele Monfardini, and Franco Scarselli. A new model for learning in graph domains.
+In Proceedings. 2005 IEEE International Joint Conference on Neural Networks, 2005., volume 2,
+pages 729-734. IEEE, 2005.
+
+Martin Grohe. Descriptive Complexity, Canonisation, and Definable Graph Structure Theory. Lecture
+Notes in Logic. Cambridge University Press, 2017. doi: 10.1017/9781139028868.
+
+Kurt Hornik, Maxwell Stinchcombe, and Halbert White. Multilayer feedforward networks are
+universal approximators. Neural Networks, 2(5):359 — 366, 1989. ISSN 0893-6080. doi: https:
+//doi.org/10.1016/0893-6080(89)90020-8. URL http: //www.sciencedirect.com/science/
+article/pii/0893608089900208
+
+Nicolas Keriven and Gabriel Peyré. Universal invariant and equivariant graph neural networks. In
+Hanna M. Wallach, Hugo Larochelle, Alina Beygelzimer, Florence d’ Alché-Buc, Emily B. Fox,
+and Roman Garnett, editors, Advances in Neural Information Processing Systems 32: Annual
+Conference on Neural Information Processing Systems 2019, NeurIPS 2019, 8-14 December 2019,
+Vancouver, BC, Canada, pages 7090-7099, 2019. URL http://papers.nips.cc/paper/
+8931-universal-invariant-and-equivariant-graph-neural-networks.
+
+Thomas N Kipf and Max Welling. Semi-supervised classification with graph convolutional networks.
+arXiv preprint arXiv: 1609.02907, 2016.
+
+Takanori Maehara and NT Hoang. A simple proof of the universality of invariant/equivariant graph
+neural networks. ArXiv, abs/1910.03802, 2019.
+
+Haggai Maron, Heli Ben-Hamu, Nadav Shamir, and Yaron Lipman. Invariant and equivariant graph
+networks. arXiv preprint arXiv: 1812.09902, 2018.
+
+Haggai Maron, Heli Ben-Hamu, Hadar Serviansky, and Yaron Lipman. Provably powerful graph
+networks. In Advances in Neural Information Processing Systems, pages 2153-2164, 2019a.
+
+Haggai Maron, Ethan Fetaya, Nimrod Segol, and Yaron Lipman. On the universality of invariant
+networks. arXiv preprint arXiv: 1901.09342, 2019b.
+
+Haggai Maron, Or Litany, Gal Chechik, and Ethan Fetaya. On learning sets of symmetric elements.
+CoRR, abs/2002.08599, 2020. URL https: //arxiv.org/abs/2002.08599.
+
+J.R. Munkres. Topology. Featured Titles for Topology. Prentice Hall, Incorporated, 2000. ISBN
+9780131816299. URL https: //books. google. fr/books?id=XjoZAQAATAAJ.
+
+Alex Nowak, Soledad Villar, Afonso S. Bandeira, and Joan Bruna. Revised note on learning quadratic
+assignment with graph neural networks. 20/8 IEEE Data Science Workshop (DSW), pages 1-5,
+2018.
+
+Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury, Gregory Chanan,
+Trevor Killeen, Zeming Lin, Natalia Gimelshein, Luca Antiga, Alban Desmaison, Andreas
+Kopf, Edward Yang, Zachary DeVito, Martin Raison, Alykhan Tejani, Sasank Chilamkurthy,
+Benoit Steiner, Lu Fang, Junjie Bai, and Soumith Chintala. Pytorch: An imperative style,
+high-performance deep learning library. In H. Wallach, H. Larochelle, A. Beygelzimer, F. d'Alché-
+Buc, E. Fox, and R. Garnett, editors, Advances in Neural Information Processing Systems 32,
+pages 8024-8035. Curran Associates, Inc., 2019. URL http: //papers.neurips.cc/paper/
+9015-pytorch-an-imperative-style-high-performance-deep-learning-library.
+pdf.
+
+Jiming Peng, Hans D. Mittelmann, and Xiaoxue Li. A new relaxation framework for quadratic
+
+assignment problems based on matrix splitting. Mathematical Programming Computation, 2:
+59-77, 2010.
+
+15

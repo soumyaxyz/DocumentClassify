@@ -1,0 +1,64 @@
+Chapter 2: Quantum isometry groups: approach based on Laplacian 58
+
+ 
+
+Theorem 2.2.2. The quantum isometry group QISO® is commutative as a C* algebra,
+and hence QISOf & C(O(3)).
+
+Proof : We begin with the expression
+
+3
+a(ai) = Yo a; @ Qi, 1=1,2,3,
+
+i=l
+
+and also note that x1,22,73 form a basis of Ey and {x?, a3, 22,2112, 71%3,12%3} is a
+basis of F2. Since x} = a; for each i and a is a *-homomorphism, we must have Qi; = Qi;
+for all i,7 = 1,2,3. Moreover, the condition xy + x3 + xe = 1 and the fact that a is a
+
+homomorphism gives:
+
+Qi; + Q3,; + Q3; = 1, Vi =1,2,3.
+
+Again, the condition that x;,2; commute for all i, 7 gives
+QijQej = QhjQij Vi, j,k, (2.2.1)
+
+Qin Qj + Qi jn = QjrQu + QjiQir- (2.2.2)
+
+Now, it follows from the Lemma 2.1.4 that @ : C(S?) @ QISO* — C(S?) @ QISO*
+defined by @(X ®Y) = a(X)(1@Y) extends to a unitary of the Hilbert QI SO*%-module
+L?(S?) @ QISO® (or in other words, a extends to a unitary representation of QISO*
+on L?(S?)). But a keeps V = Sp{21, a2, 3} invariant. So a is a unitary representation
+of QISO* on V, that is Q = ((Qij)) belonging to M3(QISO*) is a unitary, hence
+Q-! = Q* = QT’, since in this case entries of Q are self-adjoint elements.
+
+Clearly, the matrix Q is a 3-dimensional unitary representation of QISO£. From (
+4) of Proposition 1.2.23, the antipode « on the matrix elements of a finite-dimensional
+unitary representation U® = (uj,) is given by K(ug,) = (ug,)*-
+
+So we obtain
+
+K(Qij) = Qi; = Q5 = Qu. (2.2.3)
+
+Now from ( 2.2.1) , we have QijQkj = QejQij. Applying «& on this equation and using
+the fact that « is an antihomomorphism along with ( 2.2.3 ) , we have QjrQji = QjiQjr
+
+Similarly , applying « on ( 2.2.2 ), we get
+
+ 
+
+ 
+
+QyQki + VkjQu = QURkj + MQ Vi, j, ky |.
+
+Interchanging between k and i and also between J, 7 gives
+
+ 
+
+ 
+
+ 
+
+ 
+
+Qi Qik + QiQjn = QjrQi + Vix Qj Vi, j,k. (2.2.4)

@@ -1,0 +1,89 @@
+Published as a conference paper at ICLR 2020
+
+ 
+
+ 
+
+ 
+
+    
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+— anonymous degree —— random unique id — unique id ‘a
+1 !
+1.0 1.0
+al
+0.9
+70.9 5.0.9
+2 83!
+308 Fos 3 0.8
+s & >
+2 o s2
+207 £07 s 07
+8 2 =
+S06 0.6 1
+0.6
+0.5 0.5} ? a2
+o|
+0 1000 2000 3000 4000 0 1000 2000 3000 4000 a TSS OS
+epoch epoch depth critical
+(a) effect of anonymity (b) depth vs width
+
+Figure 2: (a) GNNs are significantly more powerful when given discriminative node attributes. (b) Test
+accuracy indicated by color as a function of normalized depth and width. Points in highlighted areas
+correspond to networks with super-critical capacity, whereas the diagonal line separates networks
+that more deep than wide. (For improved visibility, points are slightly perturbed. Best seen in color.)
+
+striking to observe that even the most powerful networks considered could not achieve a test accuracy
+above 95% for n > 16; for n = 40 their best accuracy was below 80%.
+
+Effect of anonymity. Figure [2a] plots example training and test curves for GNNmp trained with
+four different node attributes: no attributes (anonymous), a one-hot encoding of the node degrees
+(degree), a one-hot encoding of node ids (unique id), and a one-hot encoding of node ids that changed
+across graphs (random unique id). It can be clearly observed that there is a direct correlation between
+accuracy and the type of attributes used. With non- or partially-discriminative attributes, the network
+could not detect cycles even in the training set. The cycle detection problem was solved exactly
+with unique ids, but when the latter were inconsistently assigned, the network could not learn to
+generalize.
+
+Exchangeability of depth and width. Figure[2bjexamines further the relationship between depth,
+width, and test accuracy. This time, networks were separated depending on their depth and width
+normalized by the square root of the “critical capacity”. For each n, the critical capacity is the
+minimum dw of a network that was able to solve the task on a graph of n nodes—here, solving
+amounts to a test accuracy above 95%. In this way, a network of depth d and width w tested on
+n nodes corresponds to a point positioned at x = d/,/critical, y = w/V critical and no network
+positioned at wy < 1 can solve the task (non-highlighted region in the bottom left corner). As seen,
+there is a crisp phase transition between the regime of under- and super-critical capacity: almost every
+network meeting the condition dw > critical was able to solve the task, irrespective of whether the
+depth or width was larger. Note that, the exchangeability of depth and width cannot be guaranteed by
+the proposed theory which asserts that the condition dw = O(/n) is necessary—but not sufficient.
+The empirical results however do agree with the hypothesis that, for 4-cycle classification, depth and
+width are indeed exchangeable.
+
+6 CONCLUSION
+
+This work studied the expressive power of graph neural networks falling within the message-passing
+framework. Two results were derived. First, sufficient conditions were provided such that GNNmp
+can compute any function computable by a Turing machine with the same connected graph as input.
+Second, it was discovered that the product of a GNNmp’s depth and width plays a prominent role in
+determining whether the network can solve various graph-theoretic problems. Specifically, it was
+shown that GNNf, with dw = Q(n%) and 6 € [0.5, 2] cannot solve a range of decision, optimization,
+and estimation problems involving graphs. Overall, the proposed results demonstrate that the power
+of graph neural networks depends critically on their capacity and illustrate the importance of using
+discriminative node attributes.
+
+Acknowledgements. | thank the Swiss National Science Foundation for supporting this work in the
+context of the project “Deep Learning for Graph-Structured Data” (grant number PZOOP2 179981).
+
+10

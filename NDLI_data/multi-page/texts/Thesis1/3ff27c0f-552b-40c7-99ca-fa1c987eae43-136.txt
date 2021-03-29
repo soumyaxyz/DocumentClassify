@@ -1,0 +1,48 @@
+Chapter 4: Quantum isometry groups for Rieffel deformed manifolds 124
+
+ 
+
+Thus (TR ® h)Uj(a @ id)Uy = Tp(a).1
+
+Let (TR ® h)Uy(X ® id)Uy = (tr *h)(X). As Ty(- ® id)Uy keeps Ep invariant, we
+can use Sweedler notation: Uj(a@ 1)Uy = 4(1) 8 4g), with a, a1) belonging to Ep, a,z)
+belonging to Q;, to have
+
+(tTR*h@id)U,j(a@ id)Uy
+= (tr®h)(T7(aqy ® id)Uy) ® aca)
+TROA® ite ® id)ay (a)
+TR ®h® id)(id @ A)ay(a)
+TR ® id)(id @ (h @ id)A)ay(a)
+TR ® id)(id ® h(.).1)ay(a)
+id ® h(.). (tr ® ou
+id @ A(.).1)
+= (a):
+
+Dm
+
+Thus,
+
+(tr @ id)(Uj(a @ 1)Uz )
+= (tR*h® id)(Uj(a@ LUy ) = (tr * h)(aqay)a(a)
+= (tTr®h® id)(a1y1) ® a(1)(2) ® A—)) = (TR® h @id)(id @ Az)
+(Uj(a@1)U;)
+= Tr(a1))(h@ id) o Az(aay) = = TR(a(1))h(a(2y)-Lo;
+= (TR®h)(aq) ® a)) = : * h)(a).19, = TR(@)-1Q;-
+
+ 
+
+ 
+
+ 
+
+ 
+
+Remark 4.3.6. If QISOZ(A®,H,D) ( QISO+(A®,H, D), if it exists ) has a C*
+action, then from the definition of a C* action, we get a subalgebra Ap as in Lemma
+4.8.1. Thus, the assumptions of section 4.2 are satisfied so that the conclusions in
+that subsection hold for QLSO}(A®,H, D) (QISO*(A®,H, D)).. Similarly, the con-
+clusions of Lemma 4.3.1 and the subsequent Lemmas hold for QISOF(A®, H, D) (
+QISO*(A®,H, D)).
+
+For any two compact quantum groups (S1,U*) and (S2,U®) in Q'(As,H, D), we
+write S} < So if S; is a sub object of Sp in the category Q’(A,z,H, D).

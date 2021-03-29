@@ -1,0 +1,43 @@
+REFERENCES REFERENCES
+
+ 
+
+Boyce, B.R. (1982). Beyond topicality: A two stage view of relevance and the
+
+retrieval process. Information Processing and Management, 18, 105-109. 36
+
+Brin, S. & Page, L. (1998). The anatomy of a large-scale hypertextual web search
+engine. Computer Networks and ISDN Systems, 30, 107-117. 41
+
+Broccolo, D., Marcon, L., Nardini, F.M., Perego, R. & Silvestri, F. (2012). Gener-
+ating suggestions for queries in the long tail with an inverted index. Information
+Processing and Management, 48, 326-339. xiii, 122, 123, 125, 126, 127, 135,
+136, 137, 138, 139, 140, 141, 142, 143
+
+Broder, A. (2002). A taxonomy of web search. SIGIR Forum, 36, 3-10. 9, 36,
+47, 56, 76, 78, 149, 150, 155
+
+Broder, A., Kumar, R., Maghoul, F., Raghavan, P., Rajagopalan, S., Stata, R.,
+Tomkins, A. & Wiener, J. (2000). Graph structure in the Web. Computer
+Networks, 33, 309-320. 10, 11
+
+Burges, C., Shaked, T., Renshaw, E., Lazier, A., Deeds, M., Hamilton, N. &
+Hullender, G. (2005). Learning to rank using gradient descent. In Proceedings of
+the 22nd International Conference on Machine Learning, 89-96, ACM, Bonn,
+Germany. 51
+
+Burges, C.J.C., Ragno, R. & Le, Q.V. (2006). Learning to rank with nonsmooth
+cost functions. In Proceedings of the 20th Annual Conference on Neural In-
+formation Processing Systems, 193-200, MIT Press, Vancouver, BC, Canada.
+46
+
+Calder6n-Benavides, L. (2011). Unsupervised identification of the user’s query
+
+intent in web search. Ph.D. thesis, Universitat Pompeu Fabra. 150
+
+Cambazoglu, B.B., Zaragoza, H., Chapelle, O., Chen, J., Liao, C., Zheng, Z. &
+Degenhardt, J. (2010). Early exit optimizations for additive machine learned
+ranking systems. In Proceedings of the 3rd ACM International Conference on
+Web Search and Data Mining, 411-420, ACM, New York, NY, USA. 17, 19
+
+226

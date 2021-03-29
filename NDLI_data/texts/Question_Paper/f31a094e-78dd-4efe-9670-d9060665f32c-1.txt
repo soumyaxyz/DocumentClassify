@@ -1,0 +1,27 @@
+S.No. 9231 RSBE 2:1
+
+(For candidates ndinbied from 2010-11 onwards)
+U.G. DEGREE EXAMINATION, APRIL 2012.
+Part III — Computer Application — Skill Based Elective
+HARDWARE TROUBLESHOOTING
+
+Time : Three hours Maximum : 75 marks
+
+PART A — (10 x 2 = 20)
+Answer ALL questions.
+1. | What is a chip set?
+What is power-on-reset circuit?
+What is processor?
+
+What is a ‘power good’ signal?
+
+SoS
+
+All SMPS are provided with four power cables
+with connectors for peripherals. What can be done
+when additional power cables are needed?
+
+What is RTS signal in serial communication?
+7. How is the resolution of the mouse measured?
+
+8. What is MODEM?

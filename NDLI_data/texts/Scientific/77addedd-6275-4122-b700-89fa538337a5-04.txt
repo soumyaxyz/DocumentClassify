@@ -1,0 +1,83 @@
+into Xtrain and Xyq1, and we can further re-formulate the problem from minimizing a single loss
+function to minimizing the following loss functions iteratively.
+
+N
+min Ly = min > L(f (zi, W © h(M)), ys) + AR(W), 2: © Xtrain, (4)
+
+i=1
+
+ 
+
+min £2 = nino L(f(xi,W OA(M)), yi) + UR(A(M)), vi © Xvat, (5)
+The first term in both loss functions is the regular accuracy loss for neural network training. Note that
+the regularization of W is not necessarily required but we add the term to show that our method is
+consistent with traditional regularizers.
+
+3.2. Coarse Gradient for Indicator Function
+
+The indicator function h;; contains only zero and one values and thus is non-smooth and non-
+differentiable. Inspired by |Hubara ef al.|(2016] where binary weights are represented using step
+functions and trained with hard sigmoid straight through estimator (STE), we use a simple step
+function for indicator function h;; with trainable parameter mj;.
+
+Binarized neural networks (BNNs) with proper STE have been demonstrated to be quite effective in
+
+finding optimal binary parameters and can achieve promising results in complex tasks. The vanilla
+
+BNNs are optimized by updating continuous variables mj;:
+OL OL Oo(mi;)
+
+Omas = Bo(ms) “Omg” where o(mi;) = max(0,min(1,
+
+)). (6)
+
+ 
+
+ 
+
+mi tl
+2
+
+The output of each weight is the output of the hard sigmoid binary function. Note that the gradients
+
+a
+f Sma can be estimated in multiple ways.
+
+ 
+
+h(m)
+
+     
+
+Figure 1: Coarse Gradients for STEs
+
+[Srinivas er al_| (2017) discuss ante BNNs to learn sparse networks, however, the authors suggest
+
+ 
+  
+
+stable at sninima, Unfortunately, as shown in Fig.[ the gradient of ReLU is zero if the input mis
+smaller than zero. In other words, if we apply auxiliary parameters directly to any weight, without
+any regularization, the weight will permanently die once the corresponding weight has been pruned.
+Considering the pruning recoverability, we suggest using Leaky ReLU or Softplus instead of ReLU.
+
+3.3. Updating Auxiliary Parameters
+
+Instead of directly applying the gradient update as described in Eq.[6| we propose a modified update
+tule of auxiliary parameters to be consistent with (1) the magnitude of weights; (2) the change of
+weights; and (3) the directions of BNN gradients. The update rule of m;; is defined as:
+
+mij = mij — o( Ge sgn(w 1) Ge) — 2hlrnss) OD
+
+Oi Omi; © Oma;
+where Lace denotes L(f(a;,W © h(M)),¥:), 7 is the learning rate of mj;, ti; = wij © h(mi;), the
+second term can be considered as the gradient of mj, aoe 4) and the third term is related to the sparse
+regularizer. The proposed update rule is motivated from three advantages:
+
+ 
+
+Sensitivity Consistency: The gradient of a vanilla BNN is correlated with w;,, i.e., ores « Fea?
+
+which means that m,, is more sensitive if the magnitude of the corresponding w;,; is large. Such a
+sensitive correlation is counter-intuitive since a larger w;; is more likely to be pruned with a small
+turbulence which reduces the robustness of the pruning. In the proposed update rule, we decouple

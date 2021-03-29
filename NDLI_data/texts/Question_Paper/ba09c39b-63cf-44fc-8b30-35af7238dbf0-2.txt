@@ -1,0 +1,89 @@
+12.
+
+13.
+
+(a)
+
+(b)
+
+(a)
+
+(b)
+
+Solve the following system of equations by
+Decomposition method.
+
+100 \ ary
+
+4 3 -1|/x,|=|6|.
+
+35 x,) \4
+Or
+
+Find all the eigen values of the following
+matrix Using the Rutishauser method
+
+( 3)
+
+Estimate the values of f(-0.5) and (0.5)
+
+using the poece-wise cubic Hermite
+interpolation from the following data :
+#20 <1 0, 2
+Fai os
+fF: -1 7
+Or
+
+Obtain the cubic spline approximation for the
+function given in the following tabular form :
+
+ee, Od 2 |e
+f(x): 1 2 33 244
+
+and M (0)=0, M(3)=0.
+3 S.No. 4313
+
+14.
+
+15.
+
+16.
+
+(a)
+
+(b)
+(a)
+
+(b)
+
+(a)
+
+Find the approximate value of the integral
+1
+Ts ae using composite Simpson rule
+with 3, 5 and 9 nodes and Romberg
+integration.
+Or
+Derive the composite trapezoidal rule.
+
+Determine the first three non-zero terms in
+the Taylor series expansion for y (t) from the
+initial value problem y'=x?+y?, y(0)=0
+and also find the value of y (1).
+
+Or
+
+Using the Euler method solve the initial
+value problem u'=~-2tu?,u(0)=1 with
+h = 1.2 0.1 0.05 on the interval (0, 1].
+
+SECTION C — (3 x 10 = 80)
+Answer ALL questions.
+
+Find to two decimal places, the real and
+complex roots of the equation x° = 3x -1.
+
+Or
+
+4 S.No. 4313
+[P.T.0)

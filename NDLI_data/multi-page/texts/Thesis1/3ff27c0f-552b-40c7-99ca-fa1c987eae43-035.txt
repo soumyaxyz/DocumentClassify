@@ -1,0 +1,54 @@
+23 Quantum Groups
+
+ 
+
+3.1 of [59], we have that the inductive limit Sp of S, s has a unique CQG structure with
+the following property: for any CQG S’ and any family of CQG morphisms ¢y : Sp > S’
+such that @m7mn = ¢n, the uniquely defined morphism limn¢, in the category of unital
+C* algebras is a morphism in the category of CQG s.
+
+Combining the above two results, it follows that the free product C* algebra of an
+arbitrary sequence of CQG s has a natural CQG structure.
+
+Moreover, the following result was derived in [59].
+
+Proposition 1.2.24. Let [1,12 be a discrete abelian groups. Then the natural isomor-
+phisms C*(T1) = C(Fi) and C*(11) * C*([2) = C*(L1 *TP2) are isomorphism of CQG
+
+Ss.
+
+Let 7; and ig be the inclusion of CQG s S; and S» into S; * Sg. If U; and U2
+are unitary representations of CQG s S; and S_ on Hilbert spaces H, and Ha respec-
+tively, then the free product representation of U; and U2 is a representation of
+the CQG Sj; * Sz on the Hilbert space Hi © He given by the S; * Sp valued matrix
+
+(id @ 11)U1 0
+0 (id @ i2)Uq }
+
+Similarly, the free product representation of an arbitrary sequence of CQG repre-
+
+sentations are defined.
+
+The inductive limit of an arbitrary sequence of CQG s has the structure of a CQG.
+The following lemma is probably known, but we include the proof ( taken from [9] ) for
+
+the sake of completeness.
+
+Lemma 1.2.25. Suppose that (Sn)new ts a sequence of CQG s and for each n,m in
+IN, n<m there is a CQG morphism Tm :Sn — Sm with the compatibility property
+
+TmkOTnm =Trky MOMS k.
+
+Then the inductive limit of C*-algebras (Sn)new has a canonical structure of a CQG.
+It will be denoted Soo or limpnen Sn. It has the following universality property:
+
+for any CQG (S,A) such that there are CQG morphisms Tt) : Sp — S satisfying for all
+m,n € IN, m > n the equality Tm ° Tm = Tn, there exists a unique CQG morphism
+Too 1 Soo 3 S such that Tr = Too © Tn oo for alln € IN, where we have denoted by Too
+
+the canonical unital C*-homomorphism from Sp, into Soo-
+
+Proof:
+Let us denote the coproduct on S, by A;,. We consider the unital C*-homomorphism
+
+Pn? Sn > Soo ® Soo given by pn = (Tn,co ® Tn,co) 0 An, and observe that these maps do

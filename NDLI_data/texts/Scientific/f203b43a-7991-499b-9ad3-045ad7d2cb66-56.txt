@@ -1,0 +1,38 @@
+56 | EIRINI PAPAGIANNOPOULOU AND GRIGORIOS TSOUMAKAS
+
+ 
+
+B | COMMERCIAL APIS EVALUATION
+
+Semeval Krapivin 500N-KPCrowd
+
+ 
+
+MAP @10 @20
+
+ 
+
+IBM 0.066 | 0.041
+GOOGLE | 0.060 | 0.038
+Amazon 0.017 | 0.013
+Textrazor | 0.109 | 0.062
+
+Aylien 0.061 | 0.034
+TABLE 17 MAP@10 and MAP@20 according to the exact match evaluation approach of all APIs for all datasets.
+
+ 
+
+ 
+
+ 
+
+Semeval Krapivin Inspec 500N-KPCrowd
+OE
+IBM
+GOOGLE
+Amazon
+
+Textrazor
+
+Aylien
+TABLE 18 F,@10and F,@20 according to the partial match evaluation approach (pF) of all APIs for all datasets.

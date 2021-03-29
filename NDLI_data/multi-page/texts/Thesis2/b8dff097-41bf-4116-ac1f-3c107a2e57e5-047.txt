@@ -1,0 +1,40 @@
+5.1. DESCRIPTION OF MAXIMAL TORI 35
+
+We have T Cc U(V,§) C End;(V) and oy is an involution on End;(V), restricting
+to the nontrivial k-automorphism of LZ. There is a canonical isomorphism of algebras
+with involutions ({K MRT], Chapter I, Proposition 2.15),
+
+(End; (V) @x ks, oy) ¥ (Endy, (V) x End,,(V),€),
+where ¢(A, B) = (B, A). Since U(V,h) = {A € End, (V) | Aoy(A) = 1}, we have,
+U(V,b) Se ks & {(A, B) € Endz(V) @ ky | (A, B)-e(A, B) = 1}
+= {(A, A“) | A€ Ends, (V)}.
+We thus have an embedding
+T @x ks —> Endg,(V) x Endy,(V), At (A, A7’).
+
+To prove Er is étale, we may conjugate T ® k, to the diagonal torus in GL,(ks). The
+embedding then becomes,
+
+T @x ks = (k2)” —> Mi (ks) X Mn(ks),
+
+(t1,...;tn) © (diag(ti,..., tn), diag(t7',...,t77)).
+Now, we have,
+Ep @x ks = Za(T) @x ks = Zaw,n, (L @x ks)
+~ Zap (bs)xMn(ks) ({(diag(ti,...,tn), diag(ty",..., ty") | te © RE}) = Re”.
+
+Hence €r is an étale algebra of k-dimension 2n and L-dimension n. We have, TC
+Tié,o,) and, by dimension count, T = Tye,,c,). We have on V, the natural left
+End;(V)-module structure. Since Ep is a subalgebra of End, (V) and a field, V is a
+left Er-vector space of dimension 1. Let V = Er.v for v # 0. Let us consider the
+dual V* = Hom, (V, L), which is a left-E7-vector space of dimension 1 via the action:
+(a.f)(x) = f(a(x)), a € Ep, « € V. We consider the following elements in V*:
+
+do: V=Epu—L
+furs 6(F(v),0)
+
+d2 : V=Epvu Ll
+forstr(f),
+
+Since Ep is separable, both these are nonzero elements of V*. Hence there exists
+u € &; such that h(f(v),v) =tr(uf) Vf € Er. We have,
+
+b(f-v, 9-0) = B(F(e), 9()) = Dlon(Q) Fe), v) = truon(Q)f) VF.9 € Er-

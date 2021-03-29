@@ -1,0 +1,90 @@
+6 Conclusion
+
+In this paper, we presented supervised and unsupervised DL models for analysing and interpreting character
+relations in a novel. We used BERT classifiers for predicting the character relations, while an unsupervised
+approach based on temporal word embeddings was used to interpret the character relation evolution. Both
+methods are found to be promising to explore the relations involved within characters in a novel. Thus, the
+approaches can be further applied to literary text understanding for deriving character networks and hence
+studying the relations and sentiments involved. In future, we want to integrate these approaches to build a more
+user-friendly tool to analyse the character networks and use it for an extensive validation.
+
+References
+
+ACIR1Q]
+
+BDE* 16]
+
+BKO7|
+BM17|
+
+CHTH* 10]
+
+CSDID16]
+
+CYK*18]
+
+DCBP19]
+
+DCLT19]
+
+HLAP19]
+HS97]
+
+HSG*19]
+
+ 
+
+KA19]
+
+Apoorv Agarwal, Augusto Corvalan, Jacob Jensen, and Owen Rambow. Social network analysis
+of Alice in Wonderland. In Proceedings of the NAACL-HLT 2012 Workshop on computational
+linguistics for literature, pages 88-96, 2012.
+
+Anthony Bonato, David Ryan D’Angelo, Ethan R Elenberg, David F Gleich, and Yangyang Hou.
+Mining and modeling character networks. In International workshop on algorithms and models for
+the web-graph, pages 100-114. Springer, 2016.
+
+Derya Birant and Alp Kut. ST-DBSCAN: An algorithm for clustering spatial-temporal data. Data
+& Knowledge Engineering, 60(1):208-221, 2007.
+
+Robert Bamler and Stephan Mandt. Dynamic word embeddings. In Proceedings of the 34th Inter-
+national Conference on Machine Learning, volume 70, pages 380-389, 2017.
+
+Asli Celikyilmaz, Dilek Hakkani-Tur, Hua He, Greg Kondrak, and Denilson Barbosa. The actor-
+topic model for extracting social networks in literary narrative. In NIPS Workshop: Machine
+Learning for Social Computing, page 8, 2010.
+
+Snigdha Chaturvedi, Shashank Srivastava, Hal Daume III, and Chris Dyer. Modeling evolving
+relationships between characters in literary novels. In Proceedings of AAAI, 2016.
+
+Daniel Cer, Yinfei Yang, Sheng-yi Kong, Nan Hua, Nicole Limtiaco, Rhomni St John, Noah Con-
+stant, Mario Guajardo-Cespedes, Steve Yuan, Chris Tar, et al. Universal sentence encoder for
+English. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Pro-
+cessing: System Demonstrations, pages 169-174, 2018.
+
+Valerio Di Carlo, Federico Bianchi, and Matteo Palmonari. Training temporal word embeddings
+with a compass. In Proceedings of AAAI, volume 33, pages 6326-6334, 2019.
+
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. Bert: Pre-training of deep
+bidirectional transformers for language understanding. In Proceedings of the 2019 Conference of
+the North American Chapter of the Association for Computational Linguistics: Human Language
+Technologies, Volume 1 (Long and Short Papers), pages 4171-4186, 2019.
+
+Rujun Han, Mengyue Liang, Bashar Alhafni, and Nanyun Peng. Contextualized word embeddings
+enhanced event temporal relation extraction for story understanding. arXiv:1904.11942, 2019.
+
+Sepp Hochreiter and Jiirgen Schmidhuber. Long short-term memory. Neural computation,
+
+9(8):1735-1780, 1997.
+
+Hebatallah A. Mohamed Hassan, Giuseppe Sansonetti, Fabio Gasparetti, Alessandro Micarelli, and
+J. Beel. BERT, ELMo, USE and InferSent sentence encoders: The panacea for research-paper
+recommendation? CEUR Workshop Proceedings, 2431:6—-10, 2019.
+
+Vani K and Alessandro Antonucci. Novel2graph: Visual summaries of narrative text enhanced by
+machine learning. In Mario Jorge Alfpio, Campos Ricardo, Jatowt Adam, and Bhatia Sumit, editors,
+Proceedings of Text2Story - Second Workshop on Narrative Extraction From Tests co-located with
+41th European Conference on Information Retrieval (ECIR 2019), pages 29-37. CEUR Workshop
+Proceedings, 2019.
+
+76

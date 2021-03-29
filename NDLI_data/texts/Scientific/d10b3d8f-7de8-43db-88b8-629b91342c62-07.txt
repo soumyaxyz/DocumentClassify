@@ -1,0 +1,56 @@
+Figure 2: The Circular Skip Link graphs G,,,;, are undirected graphs in n nodes qo, ..., @n—1 So that
+(i,9) € E if and only if |: — j] = lor k (mod n). In this figure we depict (left) Gg,2 and (right)
+Gg,3. It is very easy to check that G;,,;, and G',’,,’ are not isomorphic unless n = n’ and k = +k’!
+(mod n). Both 1-WL and G-invariant networks fail to distinguish them.
+
+ 
+
+Definition 5 (Ring-GNN). Given a graph in n nodes with both node and edge features in
+R¢, we represent it with a matrix A € Rr*n™4, shows that all linear equivariant lay-
+ers from R"*" to R"*" can be expressed as L(A) = ve, 0,L;(A) + ie 6;L;, where
+the {Li }i=1,....15 are the 15 basis functions of all linear equivariant functions from R"™*" to
+R"™", Lig and Ly7 are the basis for the bias terms, and @ € R!” are the parameters that
+determine L. Generalizing to an equivariant linear layer from R"™"*4 to RP**", we set
+
+L6(A)..6 = ty One Dil A.8) + egg Ona aL, with 0 € ROXE%17,
+
+With this formulation, we now define a Ring-GNN with T layers. First, set AO) = A. In the t“ layer,
+let
+
+BO = p(Law(A))
+BY = p(Lgm(A®) + Ly (A®))
+AGH = KO BO 41 BY
+
+where Ko), KO ER, al, BO, yO € REO xd’ X17 are learnable parameters. If a scalar out-
+put is desired, then in the general form, we set the output to be 05 >); ; Ay? + OD Vii AQ +
+S 6;\i(A™), where 05,0p, 01, ...,8n € R are trainable parameters, and Ai(A) is the i-th
+eigenvalue of A‘).
+
+Note that each layer is equivariant, and the map from A to the final scalar output is invariant. A
+Ring-GNN can reduce to an order-2 Graph G-invariant Network if Ko) = 0. With J + 1 layers
+
+and suitable choices of the parameters, it is possible to obtain min(A? , 1) in the (J + 1) layer.
+Therefore, we expect it to succeed in distinguishing certain pairs of regular graphs that order-2 Graph
+G-invariant Networks fail on, such as the Circular Skip Link graphs. Indeed, this is verified in the
+synthetic experiment presented in the next section. The normalized Laplacian can also be obtained,
+since the degree matrix can be inverted by taking the reciprocal on the diagonal, and then entry-wise
+inversion and square root on the diagonal can be approximated by MLPs.
+
+The terms in the output layer involving eigenvalues are optional, depending on the task. For example,
+in community detection spectral information is commonly used [15]. We could also take a fixed
+number of eigenvalues instead of the full spectrum. In the experiments, Ring-GNN-SVD includes
+the eigenvalue terms while Ring-GNN does not, as explained in appendix |E] Computationally, the
+complexity of running the forward model grows as O(n*), dominated by matrix multiplications and
+possibly singular value decomposition for computing the eigenvalues. We note also that Ring-GNN
+can be augmented with matrix inverses or more generally with functional calculus on the spectrum of
+any of the intermediate representations[| while keeping O(n*) computational complexity. Finally,
+note that a Graph G-invariant Network with maximal tensor order d will have complexity at least
+O(n“). Therefore, the Ring-GNN explores higher-order interactions in the graph that order-2 Graph
+G-invariant Networks neglects while remaining computationally tractable.
+
+6 Experiments
+
+The different models and the detailed setup of the experiments are discussed in Appendix[E]
+
+3When A = A) is an undirected graph, one easily verifies that A“ contains only symmetric matrices for
+each t.

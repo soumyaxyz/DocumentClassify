@@ -1,0 +1,14 @@
+SINGLE AND MULTIOBJECTIVE
+APPROACHES TO CLUSTERING WITH
+POINT SYMMETRY
+
+Sriparna Saha
+Machine Intelligence Unit
+Indian Statistical Institute
+
+Kolkata 700108, India
+
+A thesis submitted to the Indian Statistical Institute
+in partial fulfillment of the requirements for the degree of
+Doctor of Philosophy
+2009

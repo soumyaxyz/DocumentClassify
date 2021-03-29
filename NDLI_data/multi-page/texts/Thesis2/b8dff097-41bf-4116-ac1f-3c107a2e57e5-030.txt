@@ -1,0 +1,47 @@
+18 3. GROUPS OF TYPE G2
+
+group G is a subgroup of the rotation group SO(N) and is contained in SO(N,) =
+{t € SO(N) | t(1) = 1}, where N, = N|,.. We have ({SV], Theorem 2.3.5),
+
+Proposition 3.1.2. The algebraic group 6 = Aut(€;), where €; = €C@k and k
+is an algebraic closure of k, is the split, connected, simple algebraic group of type G2.
+
+Moreover, © is defined over k.
+
+In fact, any simple group of type Gy over a field k is isomorphic to the automorphism
+group of an octonion algebra € over k ((Se], Chapter III, Proposition 5, Corollary; see
+Corollary 4.3.5). There is a dichotomy with respect to the norm of octonion algebras
+(in general, for composition algebras). The norm N is a Pfister form (tensor product
+of norm forms of quadratic extensions) and hence is either anisotropic or hyperbolic.
+If N is anisotropic, every nonzero element of € has an inverse in €. We then call €
+a division octonion algebra. If N is hyperbolic, up to isomorphism, there is only
+one octonion algebra with N as its norm, called the split octonion algebra. We give
+
+below a model for the split octonion algebra over a field k. Let
+
+C= oe |a,Gekvu,wek >,
+w
+
+where k° is the three-dimensional vector space over k with standard basis. On k? we
+3
+
+have a nondegenerate bilinear form, given by (v, w) = > vjw;, where v = (v}, V2, v3)
+
+i=1
+and w = (w1,W2,w3) in k® and the wedge product on k? is given by uA w € k3
+where (vu A w,u) = det(v, w,u) for u,v,w € k?. Addition on € is entry-wise and the
+
+multiplication on € is given by,
+
+av a’ vy aa!’ — (v,w’) av’ + ButwAu!
+w B w pr Bw +a'wtouAv BG’ — (wu, v')
+
+The quadratic form N, the norm on €, is given by
+
+x( ‘ :) =at (v,w).
+£
+
+An octonion algebra over a field k can be defined as an algebra over k which, after
+changing base to a separable closure k, of k, becomes isomorphic to the split octonion
+
+algebra over k, (see [T]).

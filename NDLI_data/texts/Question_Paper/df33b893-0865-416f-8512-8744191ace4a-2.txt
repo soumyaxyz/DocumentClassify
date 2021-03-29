@@ -1,0 +1,84 @@
+10.
+
+TT:
+
+12.
+
+ 
+  
+
+List
+
+“. Define: Solicit response.
+
+out the process involved in service
+publication.
+SECTION B — (5 x 5 = 25)
+Answer ALL questions.
+(a) Write short note on RPC.
+Or
+(b) Explain the following:
+G) Thin clients
+(ii) Thick clients.
+(a) Give a short note on web services hype and
+industry.
+a Or
+What is a empty element in XML?
+
+(b)
+
+explain document constraining
+
+ 
+
+14.
+
+15.
+
+16.
+
+17.
+
+18.
+19:
+20.
+
+(a)
+
+(b)
+
+(a)
+
+(b)
+
+How service description is done through
+WSDL?
+
+Or
+Write note on the following:
+(i) UDDI Node
+Gi) Information Model.
+
+What is information drill down? What are
+the operations can be done with it?
+
+Or
+
+Give a short note on SOAP based Remote
+Procedure Call.
+
+SECTION C — (8 x 10 = 30)
+Answer any THREE questions.
+
+What are the different web services opportunities
+available? Explain.
+
+Discuss in detail about Supply Chain Management
+and Customer Relationship management.
+
+Explain SOAP Modelling.
+
+Describe UDDI nomenclature.
+
+Give a detailed account on asynchronous web-
+services,

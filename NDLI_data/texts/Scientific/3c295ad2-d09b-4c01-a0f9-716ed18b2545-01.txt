@@ -1,0 +1,127 @@
+Fast and Space-Efficient Entity Linking in Queries
+
+Roi Blanco Giuseppe Ottaviano Edgar Meij
+Yahoo Labs ISTI-CNR Yahoo Labs
+Barcelona, Spain Pisa, Italy Barcelona, Spain
+
+roi@yahoo-inc.com
+
+giuseppe.ottaviano@
+
+emeij@yahoo-inc.com
+
+isti.cnr.it
+
+ABSTRACT
+
+Entity linking deals with identifying entities from a knowledge
+base in a given piece of text and has become a fundamental
+building block for web search engines, enabling numerous
+downstream improvements from better document ranking to
+enhanced search results pages. A key problem in the context
+of web search queries is that this process needs to run under
+severe time constraints as it has to be performed before any
+actual retrieval takes place, typically within milliseconds.
+
+In this paper we propose a probabilistic model that lever-
+ages user-generated information on the web to link queries
+to entities in a knowledge base. There are three key ingredi-
+ents that make the algorithm fast and space-efficient. First,
+the linking process ignores any dependencies between the
+different entity candidates, which allows for a O(k*) imple-
+mentation in the number of query terms. Second, we leverage
+hashing and compression techniques to reduce the memory
+footprint. Finally, to equip the algorithm with contextual
+knowledge without sacrificing speed, we factor the distance
+between distributional semantics of the query words and
+entities into the model.
+
+We show that our solution significantly outperforms several
+state-of-the-art baselines by more than 14% while being able
+to process queries in sub-millisecond times—at least two
+orders of magnitude faster than existing systems.
+
+Categories and Subject Descriptors
+
+H.3.1 [Information Storage and Retrieval]: Content Anal-
+ysis and Indexing
+
+General Terms
+
+Experimentation, Measurement
+
+Keywords
+Entity Linking; Wikipedia; Queries; Web Search
+
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for components of this work owned by others than the
+author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or
+republish, to post on servers or to redistribute to lists, requires prior specific permission
+and/or a fee. Request permissions from permissions @acm.org.
+
+WSDM’15, February 2-6, 2015, Shanghai, China.
+
+Copyright is held by the owner/author(s). Publication rights licensed to ACM.
+
+ACM 978-1-4503-3317-7/15/02 ...$15.00.
+http://dx.doi.org/10.1145/2684822.2685317.
+
+   
+
+RIGHTS LIN K4>
+
+179
+
+1. INTRODUCTION
+
+Commercial web search engines are presenting increasingly
+advanced and rich user experiences that include displays of
+answers, facts, entities, and other structured results. Such web
+search user experiences are centered around understanding
+and displaying information pertinent to entities present in or
+meant by the query, since users increasingly expect to find the
+actual answers and/or entities that satisfy their information
+need, rather than merely the documents that mention them.
+One critical step in this process is understanding the entities
+that are mentioned in queries and linking them to a reference
+Knowledge Base (KB). Such linking has to be performed on
+a very limited time and space budget as it needs to happen
+before any actual search process commences.
+
+Linking free text to entities—often referred to as entity
+linking—typically comprises three steps: (i) identifying can-
+didate mentions, i.e., which part(s) of the text to link, (ii)
+identifying candidate entities for each mention, and (iii) dis-
+ambiguating the candidate entities based on some notion of
+context and coherence [14]. Recent research has made exten-
+sive use of open KBs or entity repositories such as Freebase,
+IMDB, Wikipedia, as well as private or proprietary ones [5].
+Most linking methods from the literature, however, assume
+that the input text is relatively clean and grammatically
+correct and that it provides sufficient context [7] [11]. Queries,
+on the other hand, are short, noisy, and full of shorthand and
+other ungrammatical text, and provide very limited context
+for the words they contain. Hence, it is not obvious that
+automatic entity linking methods that have been shown to
+work well on news articles or web pages perform equally well
+on this domain. Moreover, the efficiency aspects of linking
+systems are not a focal point in the literature. Entity link-
+ing for web search queries poses some interesting technical
+challenges due to the sheer volume of the data, its dynamic
+nature, the creative language usage, and the required tradeoff
+between speed and disambiguation quality. Entity linking
+for queries has not received considerable attention in the
+literature, except for type spotting for named entity recogni-
+tion [13], linking queries to semantic web concepts [19], and
+providing a full structured representation of the query [34].
+
+In this paper we propose a new probabilistic model and
+algorithm for entity linking in web search queries that ex-
+tracts a large number of candidate aliases for entities from
+click-through information and anchor text. In order to keep
+these large amounts of data manageable, we compress all
+candidates using state-of-the-art hashing and bit encoding
+techniques. Our algorithm is able to swiftly detect the entities
+in the query because we drop all the dependence assumptions

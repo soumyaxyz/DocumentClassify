@@ -1,0 +1,72 @@
+References
+
+Alireza Aghasi, Afshin Abdi, Nam Nguyen, and Justin Romberg. Net-trim: Convex pruning of deep neural
+networks with performance guarantee. In Advances in Neural Information Processing Systems, pages
+3177-3186, 2017.
+
+Miguel A Carreira-Perpindn and Yerlan Idelbayev. “learning-compression” algorithms for neural net pruning. In
+Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 8532-8541, 2018.
+
+Xin Dong, Shangyu Chen, and Sinno Pan. Learning to prune deep neural networks via layer-wise optimal brain
+surgeon. In Advances in Neural Information Processing Systems, pages 4857-4867, 2017.
+
+Aidan N Gomez, Ivan Zhang, Kevin Swersky, Yarin Gal, and Geoffrey E Hinton. Learning sparse networks
+using targeted dropout. arXiv preprint arXiv: 1905.13678, 2019.
+
+Ariel Gordon, Elad Eban, Ofir Nachum, Bo Chen, Hao Wu, Tien-Ju Yang, and Edward Choi. Morphnet: Fast &
+simple resource-constrained structure learning of deep networks. In Proceedings of the IEEE Conference on
+Computer Vision and Pattern Recognition, pages 1586-1595, 2018.
+
+Yiwen Guo, Anbang Yao, and Yurong Chen. Dynamic network surgery for efficient dnns. In Advances In Neural
+Information Processing Systems, pages 1379-1387, 2016.
+
+Song Han, Jeff Pool, John Tran, and William Dally. Learning both weights and connections for efficient neural
+network. In Advances in neural information processing systems, pages 1135-1143, 2015.
+
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition. In
+Proceedings of the IEEE conference on computer vision and pattern recognition, pages 770-778, 2016.
+
+Hengyuan Hu, Rui Peng, Yu-Wing Tai, and Chi-Keung Tang. Network trimming: A data-driven neuron pruning
+approach towards efficient deep architectures. arXiv preprint arXiv: 1607.03250, 2016.
+
+Itay Hubara, Matthieu Courbariaux, Daniel Soudry, Ran El-Yaniv, and Yoshua Bengio. Binarized neural
+networks. In Advances in neural information processing systems, pages 4107-4115, 2016.
+
+Yann LeCun, John S Denker, and Sara A Solla. Optimal brain damage. In Advances in neural information
+processing systems, pages 598-605, 1990.
+
+Hao Li, Asim Kadav, Igor Durdanovic, Hanan Samet, and Hans Peter Graf. Pruning filters for efficient convnets.
+In International Conference on Learning Representations, 2017.
+
+Guiying Li, Chao Qian, Chunhui Jiang, Xiaofen Lu, and Ke Tang. Optimization based layer-wise magnitude-
+based pruning for dnn compression. In JJCAI, pages 2383-2389, 2018.
+
+Hanxiao Liu, Karen Simonyan, and Yiming Yang. DARTS: Differentiable architecture search. In International
+Conference on Learning Representations, 2019.
+
+Zhuang Liu, Mingjie Sun, Tinghui Zhou, Gao Huang, and Trevor Darrell. Rethinking the value of network
+pruning. In Jnternational Conference on Learning Representations, 2019.
+
+Christos Louizos, Karen Ullrich, and Max Welling. Bayesian compression for deep learning. In Advances in
+Neural Information Processing Systems, pages 3288-3298, 2017.
+
+Christos Louizos, Max Welling, and Diederik P. Kingma. Learning sparse neural networks through 1_0
+regularization. In International Conference on Learning Representations, 2018.
+
+Ana I Maqueda, Antonio Loquercio, Guillermo Gallego, Narciso Garcia, and Davide Scaramuzza. Event-based
+vision meets deep learning on steering prediction for self-driving cars. In Proceedings of the IEEE Conference
+on Computer Vision and Pattern Recognition, pages 5419-5427, 2018.
+
+Dmitry Molchanov, Arsenii Ashukha, and Dmitry Vetrov. Variational dropout sparsifies deep neural networks.
+In Proceedings of the 34th International Conference on Machine Learning-Volume 70, pages 2498-2507.
+JMLR. org, 2017.
+
+Kirill Neklyudov, Dmitry Molchanov, Arsenii Ashukha, and Dmitry P Vetrov. Structured bayesian pruning via
+log-normal multiplicative noise. In Advances in Neural Information Processing Systems, pages 6775-6784,
+2017.
+
+Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun. Faster r-cnn: Towards real-time object detection with
+
+region proposal networks. In Advances in neural information processing systems, pages 91-99, 2015.
+
+10

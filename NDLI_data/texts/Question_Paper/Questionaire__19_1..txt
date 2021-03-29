@@ -1,0 +1,95 @@
+. _. Strongly Strongly
+
+S, Project Efficiency Disagree Disagree Agree Agree N/A
+
+S,, The project was completed
+on time or earlier.
+
+S,, The project was completed
+within or below budget.
+
+S,, The project had only minor
+changes.
+
+S,, Other efficiency measures
+were achieved.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+S, Impact on the Customer/User
+
+S,, The product improved the
+customer’s performance.
+
+S,, The customer was satisfied.
+
+S,, The product met the customer’s
+requirements.
+
+S,, The customer is using the
+product.
+
+S,; The customer will come back
+for future work.

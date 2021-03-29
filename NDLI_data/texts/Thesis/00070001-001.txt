@@ -1,0 +1,14 @@
+STUDIES ON
+PAIRING-BASED AND CONSTANT ROUND
+DYNAMIC GROUP KEY AGREEMENT
+PROTOCOLS
+
+Thesis submitted to Indian Statistical Institute
+
+ 
+
+by
+Ratna Dutta
+Stat-Math Unit
+Indian Statistical Institute
+2005

@@ -1,0 +1,42 @@
+8.4. EXAMPLES OF NONREAL ELEMENTS 77
+
+8.4.2. Nonreal Elements in Split Gy: over Q and Q,. In view of Theo-
+rem 8.3.5 and its proof, the element A corresponds to an element in Aut(€) which
+can not be conjugated to its inverse. If we choose the matrix S as in the statement
+of the Lemma 8.3.8, to have separable characteristic polynomial, the matrix A, as
+constructed in the proof, corresponds to a semisimple element in an indecomposable
+torus contained in SL(3) C G = Aut(€), which is not real.
+
+Theorem 8.4.5. Let G be a split group of type G2 over k = Q or Q,. Then there
+
+exists a semisimple element in Go(k) which is not conjugate to its inverse.
+
+Proof. Reality over Q,: Let k=Q,, p 4 2. Let p(X) be an irreducible monic
+polynomial of degree n, with coefficients in Q,. By a theorem of Bender ([Be1]), there
+exists a symmetric matrix with p(X) as its characteristic polynomial, if and only if, for
+the field extension E = Q,[X]/(p(X)), there exists a in E* such that (-1)"" N(a)
+belongs to (Q)?. We choose £ as the (unique) unramified extension of Q, of degree 3.
+Then, E is a cyclic extension of Q,. We choose 6 € E*, N(3) =1s0 that E = Q,({).
+Let p(X) be the minimal polynomial of 2 over Q,. Then, applying Bender’s result,
+there is a symmetric matrix A over Q,, with characteristic polynomial p(X). Since
+N(8) = 1, A belongs to SL(3,Q,). We have, Q5/N(E*) = 2/32 (see [P], Section
+17.9), hence (Q*)? ¢ N(E£). Therefore we are done by Lemma 8.3.8, combined with
+Proposition 8.3.4 and Theorem 8.3.5.
+
+This example shows that there exist semisimple elements in G = Aut(€) over
+k = Q, which are not a product of two involutions and hence must be product of three
+involutions, by ([W2]). In particular, reality for G2 fails over Q, (Theorem 8.1.7).
+Reality over Q : A polynomial p(X) € K[X] is called K-real if every real closure of
+K contains the splitting field of p(X) over kK. Bender ([Be2], Theorem 1) proves that
+whenever we have K, an algebraic number field, and p(X) a monic K-polynomial with
+an odd degree factor over K, then p(X) is K-real if and only if it is the characteristic
+polynomial of a symmetric K-matrix.
+
+Let p(X) = X°— 3X —1. Then all roots of this polynomial are real but not
+rational. This polynomial is therefore irreducible over Q and by Bender’s theorem
+stated above, p(X) is the characteristic polynomial of a symmetric matrix. Note that
+K = Q[X]/ < p(X) > is a degree 3 cyclic extension of Q.
+
+We recall that for a cyclic field extension K of k, the relative Brauer group
+B(K/k) = k*/Nijx(K*) (vefer [P], Section 15.1, Proposition b). It is known that if
+K/k is a nontrivial extension of global fields, then B(/¢/k) is infinite (refer [FKS],

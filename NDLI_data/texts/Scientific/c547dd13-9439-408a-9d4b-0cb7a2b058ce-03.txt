@@ -1,0 +1,107 @@
+Kandimalla et al.
+
+classify scholarly papers into a comprehensive set of
+SCs. Other work focused on unsupervised methods
+and most were developed for specific category
+domains. In contrast, our classifier was trained
+on a large number of high quality abstracts from
+the WoS and can be applied directly to abstracts
+without any citation information. We also develop a
+novel representation of scholarly paper abstracts
+using ranked tokens and their word embedding
+representations. This significantly reduces the scale
+of the classic Bag of Word (BoW) model. We
+also retrained FastText and GloVe word embedding
+models using WoS abstracts. The subject category
+classification was then applied to the CiteSeerX
+collection of documents. However, it could be
+applied to any similar collection.
+
+2 RELATED WORK
+
+Text classification is a fundamental task in natural
+language processing. Many complicated tasks use
+it or include it as a necessary first step, e.g.,
+part-of-speech tagging, e.g., (Ratnaparkhil |[996),
+sentiment analysis, e.g., (Vo and Zhang} |2015), and
+
+named entity recognition, e.g., (Nadeau and Sekine
+[2007). Classification can be performed at many
+
+levels: word, phrase, sentence, snippet (e.g., tweets,
+reviews), articles (e.g., news articles), and others.
+The number of classes usually ranges from a few
+to nearly 100. Methodologically, a classification
+model can be supervised, semi-supervised, and
+unsupervised. An exhaustive survey is beyond the
+scope of this paper. Here we briefly review short
+text classification and highlight work that classifies
+scientific articles.
+
+Bag of words (BoWs) is one of the most
+commonly used representations for text classification,
+
+an example being keyphrase extraction
+2016} 2018). BoW represents text
+
+as a set of unordered word-level tokens, without
+considering syntactical and sequential information.
+TF-IDF is commonly used as a measure of
+
+importance (Baeza- Yates and Ribeiro-Neto}|1999).
+
+Pre-extracted topics (e.g., LDA) have also been
+
+Subject Category Classification
+
+used to represent documents before supervised
+classification (Llewellyn et al.|/2015).
+
+Recently, word embeddings (WE) have been used
+to build distributed dense vector representations for
+text. Embedded vectors can be used to measure
+semantic similarity between words
+[2013b). WE has shown improvements in semantic
+parsing and similarity analysis, e.g.,
+(2018) (2018). Other types of
+embeddings were later developed for character level
+embedding (Zhang et al.|[2015), phrase embedding
+(Passos et al.||2014), and sentence embedding
+fet al.| 2018). Several WE models have been trained
+and distributed; examples are word2vec
+OTS), Glove BOTS)
+FastText [2017), Universal Sentence
+Encoder ELMo
+[2018), and BERT (Devlin et al. {2019). Empirically,
+Long Short Term Memory (LSTM;
+[and Schmidhuber|(1997)), Gated Recurrent Units
+(GRU; (2014)), and convolutional
+neural networks (CNN; {LeCun et al.|(1989)) have
+
+achieved improved performance compared to other
+supervised machine learning models based on
+
+shallow features (Ren et al.| 2016).
+
+Classifying SCs of scientific documents is
+usually based on metadata, since full text is not
+available for most papers and processing a large
+amount of full text is computationally expensive.
+Most existing methods for SC classification are
+unsupervised. For example, the Smart Local
+Moving Algorithm identified topics in PubMed
+based on text similarity
+2018) and citation information (van Eck and)
+[2017). K-means was used to cluster
+articles based on semantic similarity
+(2017). The memetic algorithm, a type
+of evolutionary computing(Moscato and Cotta}
+
+[2003), was used to classify astrophysical papers
+into subdomains using their citation networks.
+A hybrid clustering method was proposed based
+on a combination of bibliographic coupling and
+textual similarities using the Louvain algorithm —
+a greedy method that extracted communities from
+
+large networks (Glanzel and Thijs} |2017). Another

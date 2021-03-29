@@ -1,0 +1,35 @@
+19. The following figures have been extracted from the books of a
+
+manufacturing company. All jobs pass through the Co's two
+
+departments :
+Particulars Working dept Finishing dept
+Rs. Rs.
+
+Materials used 6,000 ; 500
+Direct labour 3,000 1,500
+Factory overheads 1,800 1,200
+Direct Labour Hours 12,000 5,000
+Machine hours 10,000 : 2,000
+
+Following information relates to jobs No. 17
+
+Particulars Working dept Finishing dept
+
+Rs. Rs.
+Materials used 120 : 10
+Direct labour 65 25
+Direct labour hours 265 70
+“Machine hours 255 25
+
+You are required
+
+(a). To enumerate four methods of absorbing factory overheads
+by jobs showing the rates for each dept under the methods
+quoted; and
+
+(b) To prepare a statement showing the different cost results
+
+for job No. 17 under each of four methods referred to :
+
+5 ; S.No. 2284

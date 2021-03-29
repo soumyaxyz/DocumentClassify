@@ -1,0 +1,40 @@
+Need for Data Warehouse
+
+The Darbury Institute of Information Technology (DIIT) is an engineering institution that conducts
+engineering courses in Information Technology (IT), Computer Science (CS), System Engineering
+(SE), Information Science (IS), etc.
+
+Each department (IT, CS, SE, IS, etc.) has an automaetd library that meticulously handles library
+transactions and has good learning content in the form of DVDs, magazines, journals, several online
+references, etc.
+
+DIT is also looking at expansion to have its branches in all major cities.
+
+The only downside of the library data is that it is stored differently by different departments. One
+department stores it in MS Excel spreadsheets, another stores it in MS Access database, and yet
+another department maintains a .CSV (Comma Separated Values) file. The DUT administration is in
+need of report that indicates the annual spending on library purchases. The report should further drill
+down to the spending by each department by category (books, CDs/DVDs, magazines, journals, etc.).
+However, preparing such a report is not easy because of different data formats used by different
+departments. Prof. Frank (an expert on database technology) was called upon to suggest a possible
+solution to the problem at hand. He feels it would be better to start archiving the data in a data
+warehouse/data mart.
+
+The aS UMERS put forth by him in favor of a library data warehouse are
+
+Data from several heterogenous data sources (MS Excel spreadsheets, MS Access CSVfile, etc.) can be extracted and brought
+together in a data warehouse.
+
+¢ Even when DIIT expands into several branches in multiple cities, it still can have one ware-house to support the information needs
+of the institution.
+
+Data anomalies can be corrected through an ETL package.
+
+Missing or incomplete records can be detected and duly corrected.
+
+Uniformity can be maintained over each attribute of a table.
+
+Data can be conveniently retrieved for analysis and generating reports (like the report on spending requested above).
+Fact-based decision making can be easily supported by a data warehouse.
+
+Ad hoc queries can be easily supported.

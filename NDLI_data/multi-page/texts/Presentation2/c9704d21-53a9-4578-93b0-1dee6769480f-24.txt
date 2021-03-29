@@ -1,0 +1,17 @@
+BI Applications
+
+BI applications can be divided into:
+° Technology solutions
+— DSS
+— EIS
+— OLAP
+— Managed Query and Reporting
+— Data Mining
+* Business Solutions
+— Performance Analysis
+— Customer Analysis
+— Market Place Analysis
+— Productivity Analysis
+— Sales Channel Analysis
+— Behavioral Analysis
+— Supply Chain Analysis

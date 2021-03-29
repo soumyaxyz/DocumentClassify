@@ -1,0 +1,57 @@
+165 Quantum Isometry Groups of the Podles sphere
+
+ 
+
+Lemma 5.3.24. —S3.53 = (yu? + To) T3.
+
+Proof : By applying * and then multiplying by py? on ( 5.3.7 ) we have 293.53 +
+Ww? S5S2 = —p?T3(u? + To) + p?2(1 — T2)T3. Subtracting this from ( 5.3.8 ) we have
+(1— p?)$3S3 = —T2T3 — p?T3T2 + ?T3(u? + To) — p?(1 — T2)T3 which implies — $353 =
+(1? + Ta)Ts as 1? #1.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Lemma 5.3.25. S)(1 — T2) = p?(1 — T) So.
+
+Proof : Applying « to Lemma 5.3.24 and then taking adjoint, we have
+writ 12) TES3 = —(p?+T) So. (5.3.45)
+Adding ( 5.3.37 ) and ( 5.3.38 ) and then taking adjoint, we get ( by using i? #1 )
+w2(1 + 2)°T3S4 = p4(1 — Te) So. (5.3.46)
+Moreover, ( 5.3.27 ) gives
+
+2 2 ae
+pe (1+ yp?) S43 = —So(p? + To) + (1 — Te) Sp — pP(1 +p?) TS 53.
+
+ 
+
+ 
+
+Using (5.3.45 ), the right hand side of this equation turns out to be S2(1— 2).
+Thus,
+
+(1 + 12)" S473 = pp2,S9(1 — Tr). (5.3.47)
+
+Again, application of adjoint to the equation ( 5.3.37 ) gives :
+pP(L+ 2) STS = —p2(1 + p?)?T384 — w2(1 + p?)S2 + p(L — Te) So + p4S2(1 — Te).
+Using ( 5.3.46 ), we get
+
+(1+ p?)SsTF = —So(1 + p77). (5.3.48)
+
+Using (5.3.45 ) - (5.3.48 ) to the equation ( 5.3.11 ), we obtain :
+
+Sy — 2ST — (1+ 2) 282 (1+ p27) +2 (1+ 2)! S9(1— Ta) = 22 S9— 22M So +
+(1+ p?)~*p8(1 — Ta) So — (1 + 2) 71 (pe? + Te) So.
+
+This gives
+
+1 (L+ w)[(S2 — S2T2) — (u? So — x? T2S2)] — p?(1 + p?)(S2T2 — pPT2S2) — p"S2 —
+p®SoT> + S2(1 — Tz) — p8(S_ — T2S2) + p4S2 + p?T2S2 = 0.
+
+Thus, (1+ p?)[S2(1 — Ta) — 4?(1— Ty) $2] + S2(1 — Ta) — p? (Sg — T2S2) + 19[S2(1 —
+To) — (1 — T2) So] — p8(1 — Ta) So + 4 So(1 — Tr) + p?(S2(1 — Te) — pw? (1 — Ta) $2) = 0.

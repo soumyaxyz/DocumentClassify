@@ -1,0 +1,134 @@
+Article
+
+-Irb- cnn -rrb- the nation’s top stories will be unfolding tuesday in_courthouses_ and politcal arenas across the country . massachusetts
+‘ecentimemiory— those of former new england patriot aaron hernandez and boston bombing suspect dzhokhar tsarnaev . both
+
+rand paul made the __not-so-surprising__ announcement that he will run for president, while in chicago , voters will head to the polls in a very surprising runoff between mayor rahm emanuel
+
+and challenger jesus ** __chuy__ " garcia. and in ferguson , missouri,
+Summary
+
+fficer darren wilson will loom large over the city's
+
+massachusetts is hosting two of the highest-profile court trials in recent memory . both lengthy trials are coming to a close. in louisville , kentucky , the shadow of michael
+
+brown and the protests over his shooting .
+
+(a) Merging incompatible clauses to make an incorrect sentence
+
+Article
+
+in the 1980s , gibson officially dropped the model number on the guitar he used last and most. it became a custom-made signature model named luclle , manufactured exclusively for the “>
+
+king of the blues." some
+
+son him his first grammy in 1970, ** there must be a better world somewhere " and ** when love comes to town ,"a
+
+last year , the __bluesman__ suffered from dehydration and exhaustion after a show in chicago , forcing him to cancel the remainder of his tour . cnn's greg botelho and
+
+sonya_hamasaki__ contributed to this report
+Summary
+
+bb. king ‘s dehydration was caused by his type ii diabetes . he was inducted into the rock and roll hall of fame in 1987 . some of his hits include ** the thrill is gone," a
+
+collaboration with u2
+
+(b) Pronoun referring to an incorrect entity.
+
+Figure 4: Errors due to the shunting effect (out-of-vocabulary words are decorated like _this__).The highlighted parts show the
+amount of cumulative attention that was received by each word during the entire decoding procedure.
+
+in extractive summarization (Durrett, Berg-Kirkpatrick, and
+Klein 2016), there haven’t been enough efforts given to de-
+sign such improvements for abstractive summarization. The
+lack of explainability in deep learning based models makes
+it even more necessary.
+
+In this paper, we point out two key shortcomings of the
+pointer generator framework and address it via additional
+linguistic cues from traditional parsing. The resulting solu-
+tion is promising and illustrates the need to investigate the
+use of traditional linguistic information towards enhancing
+the understanding of deep learning models and thus, en-
+abling better generation.
+
+References
+
+Banerjee, S.; Mitra, P.; and Sugiyama, K. 2015. Multi-
+document abstractive summarization using ilp based multi-
+sentence compression. In International Joint Conference on
+Artificial Intelligence.
+
+Berg-Kirkpatrick, T.; Gillick, D.; and Klein, D. 2011. Jointly
+learning to extract and compress. In Annual Meeting of the
+Association for Computational Linguistics (ACL), 481-490.
+Association for Computational Linguistics.
+
+Chopra, S.; Auli, M.; Rush, A. M.; and Harvard, S. 2016.
+Abstractive sentence summarization with attentive recurrent
+neural networks. In Annual Conference of the North Amer-
+ican Chapter of the Association for Computational Linguis-
+tics: Human Language Technologies (NAACL-HLT), 93-98.
+Duchi, J.; Hazan, E.; and Singer, Y. 2011. Adaptive subgra-
+dient methods for online learning and stochastic optimiza-
+tion. Journal of Machine Learning Research.
+
+Durrett, G.; Berg-Kirkpatrick, T.; and Klein, D. 2016.
+Learning-based single-document summarization with com-
+pression and anaphoricity constraints. In Proceedings of the
+54th Annual Meeting of the Association for Computational
+Linguistics (Volume 1: Long Papers), volume 1, 1998-2008.
+
+Filippova, K. 2010. Multi-sentence compression: Finding
+shortest paths in word graphs. In International Conference
+on Computational Linguistics (COLING). Association for
+Computational Linguistics.
+
+Fisher, R. A. 1935. The design of experiments.
+
+Genest, P.-E., and Lapalme, G. 2011. Framework for ab-
+stractive summarization using text-to-text generation. In
+Workshop on Monolingual Text-To-Text Generation. Asso-
+ciation for Computational Linguistics.
+
+Gulcehre, C.; Ahn, S.; Nallapati, R.; Zhou, B.; and Bengio,
+Y. 2016. Pointing the unknown words. In Annual Meeting
+of the Association for Computational Linguistics (ACL).
+Hermann, K. M.; Kocisky, T.; Grefenstette, E.; Espeholt, L.;
+Kay, W.; Suleyman, M.; and Blunsom, P. 2015. Teaching
+machines to read and comprehend. In Advances in Neural
+Information Processing Systems.
+
+Mathews, A.; Xie, L.; and He, X. 2018. Simplifying sen-
+tences with sequence to sequence models. arXiv preprint
+arXiv: 1805.05557.
+
+Nallapati, R.; Zhou, B.; dos Santos, C.; glar Gulcehre, C.;
+and Xiang, B. 2016. Abstractive text summarization using
+sequence-to-sequence rnns and beyond. CoNLL.
+
+Nenkova, A., and McKeown, K. 2011. Automatic sum-
+marization. Foundations and Trends) in Information Re-
+trieval.
+
+Rush, A. M.; Chopra, S.; and Weston, J. 2015. A neu-
+ral attention model for abstractive sentence summarization.
+In Conference on Empirical Methods in Natural Language
+Processing.
+
+See, A.; Liu, P. J.; and Manning, C. D. 2017. Get to the
+point: Summarization with pointer-generator networks. In
+Annual Meeting of the Association for Computational Lin-
+guistics (ACL).
+
+Sutskever, I.; Vinyals, O.; and Le, Q. V. 2014. Sequence
+to sequence learning with neural networks. In Advances in
+Neural Information Processing Systems.
+
+Tu, Z.; Lu, Z.; Liu, Y.; Liu, X.; and Li, H. 2016. Modeling
+coverage for neural machine translation. In Annual Meeting
+of the Association for Computational Linguistics (ACL).
+Wang, L., and Cardie, C. 2013. Domain-independent ab-
+stract generation for focused meeting summarization. In An-
+nual Meeting of the Association for Computational Linguis-
+tics (ACL).

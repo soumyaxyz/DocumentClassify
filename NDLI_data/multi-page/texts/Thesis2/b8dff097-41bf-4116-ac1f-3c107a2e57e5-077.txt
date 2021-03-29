@@ -1,0 +1,39 @@
+8.2. SU(V,b) CG 65
+
+We recall a construction from Proposition 3.2.5. Let a € L+ with N(a) 4 0.
+Let D = L@ La and p;: D — D be defined by pi(x + ya) = o(x) + a(y)a. Write
+again € = D © Db, for b € D+ with N(b) ¥ 0 and define p: € > € by p(x + yb) =
+o(x) + o(y)b. Then p is an automorphism of € of order 2 which restricts to L to the
+
+nontrivial automorphism of LZ. The basis
+{fi = 4, fo =d, fg = ab}
+
+of V = L+ over L is an orthogonal basis for h. We fix this basis throughout
+this section. Let us denote the matrix of h with respect to this basis by H =
+diag(A1, A2, A3) where A; = 6(fi, fi) € k*. Then SU(V,h) is isomorphic to SU(H) =
+{Aé€ SL(3,L) | AHA = Ht}.
+
+Theorem 8.2.2. With notation fixed as above, let A be the matrix of to in SU(H)
+with respect to the fixed basis described above. Suppose that ty does not have a nonzero
+fixed point outside L. Then to is conjugate to is’ in G(k), if and only if A is conjugate
+to A~! in SU(H), where the entries of A are obtained by applying a on the entries
+of A.
+
+Proof. Let g € G(k) be such that gtog~! = to’. In view of Lemma 8.2.1, we have
+g(L) = L. We have (Proposition 3.2.5) G(€,L) = G(€/L) x N where N =< p >
+and p is an automorphism of €, described above. Clearly g does not belong to
+G(€/L). For if so, we can conjugate ty to ty’ in G(¢€/L) & SU(H). But then the
+characteristic polynomial y(X) = X° — aX? +aX —1, where a € L, anda@ =a.
+Hence y(X) = (X — 1)(X? + (1 —a)X +1) and to has a nonzero fixed point in L+,
+a contradiction. We write g = g’p where g' € G(€/L). Let B be the matrix of g’ in
+SU(H). Then, by a direct computation, it follows that,
+
+gtog”'(a9-1 + arf, + d2f2 + 03f3)
+=ao.1+a0,BAB"' f, + a,BAB" fy +. 03BAB ' fy.
+Also,
+ty (ao. + arfi + a2fo+a3f3) = (aol +a1Aq7' fi + aA fo + agA7 fs).
+
+Therefore, if to is conjugate to tj! in G = Aut(€), then A is conjugate to A~! in
+SU(H). Conversely, let BAB-! = Aq! for some B € SU(H). Let g' € G(€/L) be
+
+the element corresponding to B. Then g’p conjugates to to to V

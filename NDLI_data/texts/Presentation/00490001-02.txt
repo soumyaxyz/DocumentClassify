@@ -1,0 +1,5 @@
+EXPRESSION TREE
+&
+HUFFMAN ALGORITHM
+
+Department of Computer Science, Punjabi University Patiala

@@ -1,0 +1,79 @@
+1.0)
+
+a-nDCG@100 (a
+
+8. Document Novelty
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+0.65 0.75
+DPH+xQuAD —+— 4
+DPH+xQUAD* =o o7voprt ttt ttt tte tte eaae
+0.60 bee eee0e000880009090004
+DPH+xMMR *
+DPH+MMR +~4—~ if SF o65 | DPH+xQUAD —+—
+0.55 DPH +--a--« pa az,4 a DPH+xQUAD* =~
+Lf DPH+xMMR x x
+3 3 x
+0.50 patttoag? ©. 0:60 DP cca .
+aaaetf? eae? g 0.55 gf o
+0454¢%¢ yk RR4 9 pea
+pee gaede Q 0.50 x8
+ge ao a? a gues
+OM px xP gee eat = 0.45 ge hi 2 Qa”
+eotazait : 3 ee eR? aa®e
+0.35 f « 4 0404 =x « * 7 gaoe
+aaa® a
+0.30 0.35
+0.00 0.20 0.40 0.60 0.80 1.00 0.00 0.20 0.40 0.60 0.80
+Fraction of non-relevants removed Fraction of non-relevants removed
+a) Real diversit b) Perfect diversity
+y ay
+
+Figure 8.2: Diversification performance of novelty (x MMR), coverage (xQuAD*), and
+hybrid (xQuAD) approaches as non-relevant documents are removed.
+
+From Figure 8.2(a), we first note, as expected, that the performance of DPH
+improves as non-relevant documents are removed from its ranking. What we are
+interested to know, however, is whether a novelty strategy can take advantage of
+these gradually improving baseline performances. Looking at MMR, we observe
+that the performance of this implicit novelty-based approach is lower than that
+of DPH. Moreover, the gap between MMR and DPH remains almost unaltered
+as non-relevant documents are removed. A similar observation can be made for
+xMMR. Although it performs above DPH, the gap between the two approaches
+does not increase with the removal of non-relevant documents. Another important
+observation is that the hybrid combination of coverage and novelty implemented
+by xQuAD does not benefit from an improved baseline ranking when compared
+to xQuAD*— indeed, the performance of these two approaches is indistinguish-
+able from one another in the figure. These results are surprising, as they show
+that, contrarily to the established intuition, a baseline ranking with only relevant
+documents is not sufficient to improve novelty-based diversification.
+
+To investigate what could help improve novelty as a diversification strategy,
+we perform a similar simulation to the one presented in Figure 8.2(a), however
+under an extreme scenario. In particular, while the diversification approaches
+in Figure 8.2(a) leverage “real’ aspect-document relevance estimates (i.e., those
+
+provided by DPH), we propose a scenario where these approaches are deployed
+
+185
+
+1.00

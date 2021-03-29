@@ -1,0 +1,49 @@
+Applying the CBOW algorithm [6] with negative sampling on our constructed
+vertex, context pairs would give us our desired representations. This is similar
+to the strategies discussed by Perozzi et al. in [8] with the difference being in
+weight initialization.
+
+3 Experimental study
+
+In this section, we begin by discussing the dataset details and our two evaluation
+metrics. Next we provide a brief overview of all the algorithms we compared
+against Paper2vec before presenting the performance comparison. We provide
+discussion and analysis for our chosen methods wherever possible. Towards the
+end we briefly discuss about hyper-parameter tuning, practical issues, running-
+time and scalability.
+
+3.1 Datasets
+
+We chose to evaluate Paper2vec on three different academic citation datasets of
+increasing scale (small, medium, large) described as follows:
+
+— CORA ML subset: This is a subset of only Machine Learning papers
+
+from the CORA dataset. There are 2,708 papers from 7 classes like rein-
+forcement learning, probabilistic methods, neural networks etc. This dataset
+is connected with 5,429 citation links. For text information we had titles,
+abstracts and all sentences from a paper containing citations.
+
+— CORA full dataset! This is the full CORA dataset containing 51,905
+papers from 7 broad categories like operating systems, databases, information
+retrieval etc. We manually pruned out duplicate entities and papers which do
+not have any associated text information with it. This resulted in a dataset
+of 36,954 papers with 132,968 citation links within the dataset. We use the
+same text information as in CORA ML subset.
+
+- ‘DBLP citation network (version 2): This dataset is a large collection of
+computer science papers. DBLP only provides citation-link information and
+paper titles. For full text of these papers, we refer to a recent research by
+Zhou et al.{14] which has been crawled from CiteSeerX and is publicly avail-
+able. This dataset is partly noisy with some duplicate paper information and
+there is a lack of unique one-to-one mapping from the DBLP paper ids to
+the actual text of that paper. During the creation of our final dataset, we
+either pruned out ambiguous papers or manually resolved the conflicts. We
+came up with a final set of 465,355 papers from the DBLP corpus for which
+we have full text available. In this set only 224,836 papers are connected by
+citations because most of the other cited links are outside DBLP (not from
+computer science domain) and hence full text is not available. However our
+text-based linking strategy as discussed in Section helps us in connecting
+the graph and getting a final vertex count of 412,806. With only the citations
+being considered, edge count comes to 2,301,292 (undirected). We gather the
+required class labels from the MAS dataset [I] by Chakraborty et al. This

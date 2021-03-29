@@ -1,0 +1,42 @@
+foreign country is substantive and the foreign party files an action in India,
+the lex fori will apply to the ‘procedure’ in India while the substantive rights
+will be governed by the substantive law of the foreign country in relation to
+that right. In as much as Indian law treats the law of limitation as
+procedural, the foreign party can, in case the judicial remedy has become
+barred in the foreign country, file an action in India, if the period of
+limitation is longer in India than in the foreign country. The only exception
+as contained in sec 11, where the Indian courts can refuse relief is where the
+foreign law has extinguished the contract and, in addition, all the parties
+were domiciled in the foreign country during the relevant period.
+
+If the law of limitation remains ‘procedural’ as in India, it gives scope
+for ‘forum shopping’. Over a period of fifty years, almost all leading
+writers on Private International Law including Cheshire and North
+emphasized the advantages that would accrue if the foreign law of limitation
+is treated as substantive, for then the foreign limitation period will apply
+even if an action is filed in another country. Forum shopping would stop.
+In fact, in UK and other common-law countries, the law has been amended
+by treating the foreign limitation law as substantive under the Foreign
+Limitation Periods Act, 1984. In Australia, today we have the Choice of
+Law (Limitation Periods) Act 1993 (Victoria), the Choice of Law
+(Limitation Periods) Act, 1993 (NSW), Choice of Law (Limitation Periods)
+Act, 1996 (Queensland) etc. The above statutes in Australia have accepted
+the view of the minority judgment of Mason CJ in McKain vs. R.W. Miller
+& Co (South Australia) Pty Ltd. (1992) 174 CLR page 1. New Zealand has
+also amended its Limitation Act, 1950 in 1996 by adding ss 28A to 28C
+treating the foreign law of limitation as substantive. The law in Canada was
+changed by Judge-made law in Tolofson vs. Jenson 1994(3) SC R 1022. In
+the United States, the Uniform Conflict of Laws Limitation Act, 1982
+proposed that the foreign law of limitation be treated as substantive in the
+forum country and accordingly statutes were enacted in Arkansas, Colorado,
+Montana, North Dakota, Oregon and Washington. In some other States in
+US, the law was changed by judgments of Courts.
+
+ 
+
+In view of the changes brought about in all common law jurisdictions
+bringing the law on par with civil law countries, the Law Commission has
+thought it necessary to omit the existing sec 11 of the 1963 Act and replace
+it by a new section. Further, the existing sec 11 deals only with law of
+limitation concerning contracts entered into abroad and leading authors in
+India have said that the Act must provide rules of limitation for all other

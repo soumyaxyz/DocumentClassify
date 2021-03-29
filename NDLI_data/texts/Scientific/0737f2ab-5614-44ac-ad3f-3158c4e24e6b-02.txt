@@ -1,0 +1,108 @@
+ules. The encoder maps a source sentence into a con-
+tinuous representation, either a fixed-dimensional
+vector in the case of the basic encoder-decoder net-
+work or a set of vectors in the case of attention-
+based encoder-decoder network. The decoder then
+generates a target translation based on this source
+representation. This makes it possible conceptually
+to build a system that maps a source sentence in
+any language to a common continuous representa-
+tion space and decodes the representation into any
+of the target languages, allowing us to make a multi-
+lingual machine translation system.
+
+This possibility is straightforward to implement
+and has been validated in the case of basic encoder-
+decoder networks (Luong et al., 2015a). It is
+however not so, in the case of the attention-based
+encoder-decoder network, as the attention mecha-
+nism, or originally called the alignment function in
+
+(Bahdanau et al., 2014), is conceptually language
+pair-specific. In (Dong et al., 2015), the authors
+
+cleverly avoided this issue of language pair-specific
+attention mechanism by considering only a one-to-
+many translation, where each target language de-
+coder embedded its own attention mechanism. Also,
+we notice that both of these works have only eval-
+uated their models on relatively small-scale tasks,
+making it difficult to assess whether multilingual
+neural machine translation can scale beyond low-
+resource language translation.
+
+Multi-Way, Multilingual Neural Machine Trans-
+lation In this paper, we first step back from the
+currently available multilingual neural translation
+
+systems proposed in (Luong et al, 20154
+
+et al., 2015) and ask the question of whether the
+
+attention mechanism can be shared across multi-
+ple language pairs. As an answer to this question,
+we propose an attention-based encoder-decoder net-
+work that admits a shared attention mechanism with
+multiple encoders and decoders. We use this model
+for all the experiments, which suggests that it is
+indeed possible to share an attention mechanism
+across multiple language pairs.
+
+The next question we ask is the following: in
+which scenario would the proposed multi-way, mul-
+tilingual neural translation have an advantage over
+the existing, single-pair model? Specifically, we
+consider a case of the translation between a low-
+
+resource language pair. The experiments show that
+the proposed multi-way, multilingual model gener-
+alizes better than the single-pair translation model,
+when the amount of available parallel corpus is
+small. Furthermore, we validate that this is not only
+due to the increased amount of target-side, monolin-
+gual corpus.
+
+Finally, we train a single model with the pro-
+posed architecture on all the language pairs from the
+WMT’ 15; English, French, Czech, German, Rus-
+sian and Finnish. The experiments show that it is
+indeed possible to train a single attention-based net-
+work to perform multi-way translation.
+
+2 Background: Attention-based Neural
+Machine Translation
+
+The attention-based neural machine translation was
+proposed in (Bahdanau et al., 2014). It was mo-
+tivated from the observation in (Cho et al., 2014a)
+that a basic encoder-decoder translation model from
+suffers
+from translating a long source sentence efficiently.
+This is largely due to the fact that the encoder of this
+basic approach needs to compress a whole source
+sentence into a single vector. Here we describe the
+attention-based neural machine translation.
+
+Neural machine translation aims at building a sin-
+gle neural network that takes as input a source se-
+quence X = (21,...,v7,) and generates a corre-
+sponding translation Y = (m1, wee .YT,)- Each sym-
+bol in both source and target sentences, x; or yz, is
+an integer index of the symbol in a vocabulary.
+
+The encoder of the attention-based model en-
+codes a source sentence into a set of context vec-
+tors C = {hj,hg,...,h7,}, whose size varies
+w.r.t. the length of the source sentence. This con-
+text set is constructed by a bidirectional recurrent
+neural network (RNN) which consists of a forward
+RNN and reverse RNN. The forward RNN reads
+the source sentence from the first token until the
+last one, resulting in the forward context vectors
+
+{hi eee Hr, }, where
+
+hy = Wenc (ha, E, [x1)) >
+
+and E, € IRIVelx¢ is an embedding matrix con-
+taining row vectors of the source symbols. The

@@ -1,0 +1,54 @@
+Chapter 3: Quantum group of orientation preserving Riemannian isometries 72
+
+ 
+
+For topological or smooth fibre or principal bundles FE, F' over a second countable
+smooth manifold M, we shall denote by Hom(F, F’) the set of bundle morphisms from
+E to F. We remark that the total space of a locally trivial topological bundle such that
+the base and the fibre spaces are locally compact Hausdorff second countable must itself
+be so, hence in particular Polish ( that is, a complete separable metric space ).
+
+In particular, if E, F are locally trivial principal G-bundles over a common base, such
+that the (common) base as well as structure group G are locally compact Hausdorff and
+second countable, then Hom(£, F) is a Polish space.
+
+We need a standard fact, stated below as Lemma 3.2.2, about the measurable lift of
+Polish space valued functions.
+
+Before that, we introduce some notions.
+
+A multifunction G : X — Y isa map with domain X and whose values are nonempty
+subsets of Y. For A C Y, we put G7!(A) = {a eX: G(x) NAF o}.
+
+A selection of a multifunction G: X — Y is a point map s: X — Y such that s(x)
+belongs to G(x) for all x in X. Now let Y be a Polish space and ox a o-algebra on X.
+A multifunction G : X — Y is called ox measurable if G~!(U) belongs to ox for every
+open set U in Y.
+
+The following well known selection theorem is Theorem 5.2.1 of [55] and was proved
+
+by Kuratowski and Ryll-Nardzewski.
+
+Proposition 3.2.1. Let ax be ao algebra on X and Y a Polish space. Then, every ox
+
+measurable, closed valued multifunction F : X — Y admits aox measurable selection.
+A trivial consequence of this result is the following:
+
+Lemma 3.2.2. Let M be a compact metrizable space, B,B Polish spaces such that
+there is an n-covering map A: B — B. Then any continuous map €: M — B admits
+a lifting é : M — B which is Borel measurable and Ao € =€. In particular, if B and B
+are topological bundles over M, with A being a bundle map, any continuous section of
+
+B admits a lifting which is a measurable section of B.
+
+We shall now give an operator-theoretic characterization of the classical group of
+orientation-preserving Riemannian isometries, which will be the motivation of our def-
+inition of its quantum counterpart. Let M be a compact Riemannian n dimensional
+spin manifold, with a fixed choice of orientation. We recall the notations as in subsec-
+tion 1.4.3. In particular, the spinor bundle S is the associated bundle of a principal
+Spin(n)-bundle, say P, on M which has a canonical 2-covering bundle-map A from
+P to the frame-bundle F (which is an SO(n)-principal bundle), such that locally A
+is of the form (idjy ® A) where A is the two covering map from Spin(n) to SO(n).
+Moreover, the spinor space will be denoted by A,. Let f be a smooth orientation pre-
+
+serving Riemannian isometry of M, and consider the bundles E = Hom(F, f*(F)) and

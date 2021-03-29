@@ -1,0 +1,60 @@
+mii valid from
+1 e: flight |
+eam 4
+Lid from= 1956
+1956 ‘ea cor elena! 1956
+(a) Named graph (b) Property graph (c) RDF*
+
+Fig. 18. Three higher-arity representations of temporal context on an edge
+
+to consider annotations that provide mathematical definitions of a contextual domain and key
+operations possible within that domain that can then be applied automatically.
+Some annotations model a particular contextual domain; for example, Temporal RDF [203]
+
+allows for annotating edges with time intervals, such as Chil P50 Sono] > Bachele, while Fuzzy
+RDF [477] allows for annotating edges with a degree of truth such as Gantiago)—limate_,.
+
+indicating that it is more-or-less true — with a degree of 0.8 — that Santiago has a semi-arid climate.
+
+Other forms of annotation are domain-independent; for example, Annotated RDF [125, 503, 546]
+allows for representing various forms of context modelled as semi-rings: algebraic structures
+consisting of domain values (e.g., temporal intervals, fuzzy values, etc.) and two main operators to
+combine domain values: meet and join.'° We provide an example in Figure 19, where G is annotated
+with values from a simplified temporal domain consisting of sets of integers (1-365) representing
+days of the year. For brevity we use an interval notation, where, for example, {[150, 152]} indicates
+the set {150, 151, 152}. Query Q then asks for flights from Santiago to cities with events; this query
+will check and return an annotation reflecting the temporal validity of each answer. To derive
+these answers, we first require applying a conjunction of annotations on compatible flight and
+city edges, applying the meet operator to compute the annotation for which both edges hold. The
+natural way to define meet in our scenario is as the intersection of sets of days, where, for example,
+applying meet on the event annotation {[150, 152]} and the flight annotation {[1, 120], [220, 365]}
+for leads to the empty time interval {}, which may thus lead to the city being filtered
+from the results (depending on the query evaluation semantics). However, for we find two
+different non-empty intersections: {[123, 125]} for and {[276, 279]} for Given that
+we are interested in the city (a projected variable), rather than the event, we can thus combine
+these two annotations for using the join operator, returning the annotation in which either
+result holds true. In our scenario, the natural way to define join is as the union of the sets of days,
+giving {[123, 125], [276, 279]}. We provide formal definitions in Appendix B.4.1 based on the general
+framework proposed by Zimmermann et al. [546] for annotations on graphs.
+
+ 
+
+ 
+ 
+
+3.3.5 Other contextual frameworks. Other frameworks have been proposed for modelling and rea-
+soning about context in graphs. A notable example is that of contextual knowledge repositories [240],
+which allow for assigning individual (sub-)graphs to their own context. Unlike in the case of named
+graphs, context is explicitly modelled along one or more dimensions, where each (sub-)graph must
+take a value for each dimension. Each dimension is further associated with a partial order over its
+values — e.g., (2020) - allowing to select and combine sub-graphs that are valid
+within contexts at different levels of granularity. Schuetz et al. [442] similarly propose a form of
+contextual OnLine Analytic Processing (OLAP), based on a data cube formed by dimensions where
+
+ 
+
+ 
+
+10The join operator for annotations is different from the join operator for relational algebra.
+
+21

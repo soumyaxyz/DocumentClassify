@@ -1,0 +1,41 @@
+3. Search Result Diversification
+
+ 
+
+3.3. Related Approaches
+
+Most diversification approaches in the literature differ by how they implement the
+objective function f(g, d,D,) in Algorithm 3.1. In this thesis, we propose to organ-
+ise these approaches according to two complementary dimensions, as described in
+Table 3.1: aspect representation and diversification strategy (Santos et al., 2010e,
+2012b). An aspect representation determines how the information needs underly-
+ing a query are represented as multiple aspects of this query.°” In particular, an
+implicit representation relies on features intrinsic to each document in order to
+model different aspects, such as the terms contained in the document (Carbonell
+& Goldstein, 1998), or those derived from different language models (Zhai et al.,
+2003), topic models (Carterette & Chandar, 2009), or clusters (He et al., 2011)
+built from the initial ranking. In turn, an explicit representation seeks to directly
+approximate the possible information needs underlying a query, by relying on fea-
+tures derived from the query itself, such as its associated clicks (Radlinski et al.,
+2008a), reformulations (Santos et al., 2010a), or categories (Agrawal et al., 2009).
+Given a particular aspect representation, a diversification strategy determines
+how to achieve the goal of satisfying the different query aspects. Coverage-based
+approaches achieve this goal by directly estimating how well each document covers
+each aspect of the query, regardless of the other retrieved documents. Depending
+on the underlying aspect representation, coverage can be estimated in terms of
+classification confidence (Agrawal et al., 2009), topicality (Carterette & Chan-
+dar, 2009), and relevance (Santos et al., 2010a,e). In contrast, novelty-based
+approaches directly compare the retrieved documents to one another, regardless
+of their covered aspects, in order to promote novel information. For instance, doc-
+uments can be compared in terms of content dissimilarity (Carbonell & Goldstein,
+1998), divergence (Zhai et al., 2003), or relevance score correlation (Rafiei et al.,
+2010; Wang & Zhu, 2009). Finally, the advantages of both coverage and novelty
+can be combined into a hybrid diversification strategy (Santos et al., 2012b).
+~~ Unless otherwise noted, we will refer to query interpretations and aspects indistinctly.
+"While both queries and aspects are representations of information needs, we find the fol-
+lowing distinction helpful: a query is a potentially ambiguous representation of an information
+
+need in the classical “single-need” view of ranking, whereas an aspect is an unambiguous rep-
+resentation of one need when multiple needs are considered, as discussed in Section 3.2.1.
+
+63

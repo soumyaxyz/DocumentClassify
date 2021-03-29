@@ -1,0 +1,44 @@
+Chapter 4: Quantum isometry groups for Rieffel deformed manifolds 134
+
+ 
+
+We have seen ( Theorem 2.2.17 ) that QISO£(C(T")) ~ C(T” ><(Zi ><IS;n)).
+
+In particular, QISO*(C(T?)) ~ C(T? ><(Z3 ><S2)) where the definition of the
+two semi-direct products are described below. Let the generators of the first, second
+and the third copy of Zy in Z3 ><Zy be denoted by (1,0, 0), (0, 1,0), (0, 0, 1). Therefore,
+as a set (Z3 ><Ze) equals {(y1, 2, 73): yw € {0, 1},¢ = 1,2, 3} and T?<(Z3 >4Z2) =
+{(z1, 22.%1, 2. 73) 21,22 € St, y% € {0, 1},¢ = 1,2,3}. The action of Zz on Z3 is
+given by (0,0,1)(a,y) = (y,2) ( (a,y ) belongs to T? ) and the action of Z3 ><Z2 on
+T? ( denoted by o ) is given by
+
+(1,0, 0) 0 (21, 22) = (i, 22), (0, 1,0) © (21, 22) = (21, 22), (0,0, 1) 0 (41, 22) = (22, 1).
+
+Lemma 4.4.9. Let (21,22), (24, 24), (21, 24) belong to T?. Then we have the following
+group multiplication formulae in T* (Z3 ><dZ2) :
+
+(21, 22,0, 0,0)(z4, 25, 1,0, 1)(21, 29,0, 0,0) = (212428, 22252/,1,0,1), (4.4.1)
+(21, 22,0, 0, 0)(z4, 22, 0,0, 1)(21, 22,0,0,0) = (z12122, 222521,0,0, 1), (4.4.2)
+(21, 22,0,0,0)(z4, 5,0, 0,0) (21, 22,0,0,0) = (212121, 222522,0, 0,0). (4.4.3)
+
+Proof : Using the definition of semi direct product , we have
+
+(21, 22,0, 0, 0) (24, 25, 1,0, 1)(2/, 24,0, 0, 0)
+(2124, 2224, 1,0, 1)(21, 24,0, 0, 0)
+(2124, 222)((1, 0, 1) 0 (21, 22), 1,0, 1)
+= (21%, 7224)(((L,0),0)((0,0), 1) 0 (21, 22), 1,0, 1)
+(2124, 2224)(23, 21), 1,0, 1)
+(
+
+212428, zo2z521,1,0, 1).
+
+Thus, we have ( 4.4.1 ).
+Similarly,
+
+(21, 22,0, 0, 0)(z4, 25, 0, 0, 1)(z/, 24,0, 0,0)
+(2124, 2225, 0, 0, 1)(z, 23, 0, 0, 0)
+(2124, 222)((0, 0, 1) © (z1/, 22)), 0,0, 1)
+(2121, 7224)(22, 21), 0,0, 1)
+(
+
+212425, 292527,0,0, 1),

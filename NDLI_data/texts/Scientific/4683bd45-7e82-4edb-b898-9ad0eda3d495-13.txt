@@ -1,0 +1,30 @@
+Under review as a workshop paper at ICLR 2020
+
+ 
+
+gu is wy
+(a) 1** conv in AlexNet (b) 1** conv in VGG-11
+
+ 
+
+(c) 2°* conv in AlexNet (d) 2" conv in VGG-11
+
+(e) 3°? conv in AlexNet (f) 3°? conv in VGG-11
+(g) 4'" conv in AlexNet (h) 4" conv in VGG-11
+
+Figure 12: Binary weight masks for the first four convolutional layers of AlexNet trained on MNIST
+(left) and VGG-11 trained on CIFAR-10 (right), at the 20th and last pruning iteration for L; unstruc-
+tured pruning (seed: 0). Despite the unstructured nature of the pruning technique, structure emerges
+along the input and output dimensions, which resembles the effect of structured pruning.
+
+We train two individual sets of experiments starting from the base AlexNet model, one on MNIST,
+one on CIFAR-10. VGG models are trained on CIFAR-10 exclusively.
+
+Fig. [I2]shows the binary masks obtained in the first four convolutional layers of the two models after
+20 pruning iterations, with pruning rate of 20% of remaining connections at each iteration. Here,
+the reported AlexNet properties refer to the MNIST-trained version. Preferential structure along the
+input and output dimensions (in the form of rows or columns of unpruned filters) is visible across the
+various layers, although visual inspection becomes hard and inefficient as the number of parameters
+per layer grows.
+
+13

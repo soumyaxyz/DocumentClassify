@@ -1,0 +1,44 @@
+2 0. PROLOGUE
+
+Chapters 1 to 5 are preliminary in nature and are intended to introduce most of
+the basic concepts used in this thesis. We do not aim to give a complete account
+of these topics but try to give most of the definitions and results used later and
+provide appropriate references for these results. In Chapter 1 we describe the classical
+groups with which we deal in this thesis. There are excellent references ([A], [G] to
+mention a few) available on this topic and the subject is usually referred in literature
+as “Geometric Algebra”. The modern theory, from the point of view of algebraic
+groups, is treated very well in [KMRT].
+
+In Chapter 2 we give a brief account of the theory of algebraic groups. In this chap-
+ter, we introduce some definitions and terminologies which we keep using throughout
+this thesis. For a detailed study of the theory of algebraic groups, we refer the reader
+to [S3], [Sp], [Hu], [Bo].
+
+In this thesis we also deal with exceptional groups of type Gj. In Chapter 3 we
+describe how to obtain all groups of type G2 over k. The book [SV] is an excellent
+reference for the subject. We develop the theory to suit our needs and describe results
+from some of the papers, specifically from [J] and [W2], which we use while proving
+our results.
+
+Galois cohomology is introduced in Chapter 4. We describe how Galois cohomol-
+ogy describes forms of certain algebraic groups. The book [Se] is a good source for
+this topic.
+
+In Chapter 5 we give a description of maximal tori in SU,,. Though a description
+of maximal tori in classical groups is available in [Ka] and [R], for our work we need
+details of this description for SU,. We also describe how decomposability of tori is
+related to representations.
+
+Chapter 6 collects together all main results. Here we describe all the results
+obtained in this thesis and known results in that direction. Chapters 7, 8 and 9 are
+devoted to the proofs of the results.
+
+For number theoretic preliminaries (e.g. local and global field, ramification theory,
+division algebra etc.), we refer the reader to the excellent text [CF].
+
+The problem which we have dealt with is closely related to representation theory.
+In Chapter 10 we describe this connection and try to put forward our question in
+general theory of representations of algebraic groups. We also take this opportunity
+to describe some of the questions that remain to be answered. We hope the results
+
+in this thesis will contribute to the understanding of the subject.

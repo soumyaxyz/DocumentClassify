@@ -1,0 +1,57 @@
+Chapter 4: Quantum isometry groups for Rieffel deformed manifolds 122
+
+ 
+
+(b) & :=U|gy : So > So @alg Oo makes So an algebraic Oo co-module, satisfying
+Q(mo(a)s) = ay(a)a(s) for alla in Ap, s in Sp.
+
+Moreover, if (C(T*), V) is a sub object of 2 in Q(A,H, D) such that V(.@id)V* = B,
+then C(T”) is a quantum subgroup of Q.
+
+Proof: U commutes with D and hence preserves the eigenspaces of D which shows
+that U preserves Spo. Then, U(as@1) = a(a)U(s@1) € (Ap ® Qo) (S90 ® Qo) E So®@ Qo.
+Thus, the first assertion follows.
+
+The second assertion follows from the definition of @ and ay. The third assertion
+
+ 
+
+ 
+
+ 
+
+follows as in Lemma 4.2.1.
+
+ 
+
+Remark 4.3.2. From the definitions of Ag and So, it follows that
+(1) m(Ao)So E So,
+(ii) By(Ao) © An for all g.
+
+Let us now fix the object (9, U) as in the statement of Lemma 4.3.1. We recall
+that using the identification of Qo as a common vector-subspace of all Q;, we shall
+
+sometimes denote this identification map from Qo to Q i by py.
+
+Let us consider the finite dimensional unitary representations U® := U lv,, where V;
+is the eigenspace of D corresponding to the eigenvalue \;. By Corollary 1.3.14, we can
+view U as a unitary representation of Q;, as well, and let us denote it by u®, In this
+way, we obtain a unitary representation Uy on the Hilbert space 1, which is the closed
+linear span of all the V;’s. It is obvious from the construction (and the fact that the
+linear span of V;’s, that is So, is a core for D) that U;D = (D® I)Uj. Let ay := ay,.-
+
+With this, we have the following:
+
+Lemma 4.3.3. For a in Ao, we have aj(a) = (a(a))7 = (77 ® ps)(a(a)), hence in
+particular, for every state d on Q;, (id @ 6) oaj(Az) C AS.
+
+Using the equation ( 4.2.9 ), we have for all s in So,a in Ao,
+
+aj(a)U;(s)
+
+= Uj(ms(a)s)
+= a(axyzs)
+
+= a(a)e7a(s)
+
+= (a(a))7Uj7(s),

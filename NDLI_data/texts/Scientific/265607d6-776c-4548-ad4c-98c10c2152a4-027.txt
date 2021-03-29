@@ -1,0 +1,28 @@
+Chapter 2
+Web Information Retrieval
+
+Information retrieval (IR) deals with the representation, storage, organisation of,
+and access to information items (Baeza-Yates & Ribeiro-Neto, 2011). The overall
+goal of an IR system can be stated as to provide items that are relevant to a
+user’s information need. In the context of text retrieval, which is the focus of this
+thesis, information items typically correspond to unstructured or semi-structured
+documents, while information needs are represented as natural language queries.
+
+The key challenge faced by an IR system is to determine the relevance of a
+document given a user’s query (Goffman, 1964). Since relevance is a prerogative
+of the user, the IR system can at best estimate it. This task is further aggravated
+by the fact that both queries and documents are semantically ambiguous expres-
+sions of information in natural language. Such an inherent ambiguity precludes
+a precise match between information needs and items, as would be the case in
+a data retrieval system, such as a relational database (Codd, 1970). In order to
+be able to effectively answer a user’s query, an IR system must be able to first
+understand the information need underlying this query. In turn, this informa-
+tion need may convey distinct user intents, from a general search for information
+about a topic, to a search for a particular website (Broder, 2002).
+
+The primary application of interest for this thesis is web search. With this in
+mind, Section 2.1 describes the basic retrieval process of a web search engine and
+introduces the main components in this process. Section 2.2 further describes
+several approaches devoted to ranking documents in a web search setting. Lastly,
+
+Section 2.3 describes current approaches for web search evaluation.

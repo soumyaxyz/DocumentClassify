@@ -1,0 +1,62 @@
+Weisfeiler and Leman go sparse
+
+ 
+
+We also define 5-k-LWL*, a minor variation of 6-k-LWL. Later, we will show that 5-k-LWL* is equivalent in power to 6-k-WL
+(Theorem 4). Formally, the 6-k-LWL* algorithm refines a coloring C; (obtained after i rounds) via the aggregation function,
+
+MP*(v) = ({(Ci(or(v.w)), #4(v, dr(v,w))) [we Nor) Pees
+{(Ci(ulv,w)), #E(v, du(v,w))) | w EN (vn) P),
+
+instead of 5-k-LWL aggregation defined in Equation (5). Here, the function
+
+(6)
+
+#1 (v,x) = |{w: wo; v, Ci(w) = Ci(x)}],
+
+where w ~; v denotes that w is j-neighbor of v, for j in [k]. Essentially, #! (v,x) counts the number of j-neighbors (local or
+global) of v which have the same color as x under the coloring C; (i.e., after i rounds). For a fixed v, the function #7 (v, -) is
+uniform over the set S$ 9 Nj, where S is a color class obtained after i iterations of the 6-k-LWL* and N; denotes the set of
+j-neighbors of v. Note that after the stable partition has been reached #! (v) will not change anymore. Observe that each
+iteration of the 6-k-LWL* has the same asymptotic running time as an iteration of the 6-k-LWL.
+
+The following theorem shows that the local variant 6-k-LWL* is at least as powerful as 5-k-WL when restricted to the class of
+connected graphs. In other words, given two connected graphs G' and H, if these graphs are distinguished by 6-k-WL, then they
+must also be distinguished by 5-k-LWL*. On the other hand, it is important to note that, in general, the J-k-LWL* might need a
+larger number of iterations to distinguish two graphs, as compared to 6-k-WL. However, this leads to advantages in a machine
+learning setting, see Section 5.
+
+Theorem 4. For the class of connected graphs, the following holds for all k > 1:
+
+5-k-LWL* = 5-k-WL.
+
+Along with Proposition 3, we obtain the following corollary relating the power of k-WL and 6-k-LWL*.
+Corollary 5. For the class of connected graphs, the following holds for all k > 2:
+
+6-k-LWL* C k-WL.
+
+In fact, the proof of Proposition 3 shows that the infinite family of graphs G),, Hj, witnessing the strictness condition can even
+be distinguished by 6-k-LWL, for each corresponding k > 2. We note here that the restriction to connected graphs can easily be
+circumvented by adding a specially marked vertex, which is connected to every other vertex in the graph.
+
+D.1. Kernels based on vertex refinement algorithms
+
+The idea for a kernel based on the 6-k-LWL (and the other vertex refinements algorithms) is to compute it for h > 0 iterations
+resulting in a coloring function C*? : V(G) —> 3) for each iteration i. Now, after each iteration, we compute a feature vector
+¢;(G) in R'*! for each graph G. Each component ¢;(G), counts the number of occurrences of k-tuples labeled by c in 5).
+The overall feature vector é,w_(G) is defined as the concatenation of the feature vectors of all h iterations, i.e., épwL(G) =
+[¢0(G), aay on(G)| . The corresponding kernel for h iterations then is computed as kywi(G, H) = (érwi(G), érwi(#)),
+where (-, -) denotes the standard inner product.
+
+D.2. Local converges to global: Proof of Theorem 1
+
+The main technique behind the proof is to encode the colors assigned by k-WL (or its variants) as rooted directed trees, called
+unrolling trees. The exact construction of the unrolling tree depends on the aggregation map M(-) used by the k-WL variant
+under consideration. We illustrate this construction for the k-WL. For other variants such as the 6-k-WL, 6-k-LWL, and
+6-k-LWL*, we will specify analogous constructions.
+
+Unrollings (“Rolling in the deep”). Given a graph G, tuple v in V(G)*, and an integer ¢ > 0, the unrolling UNR[G,s, 4]
+is a rooted, directed tree with vertex and edge labels, defined recursively as follows.
+
+- For ¢ = 0, UNR[G, v, 0] is defined to be a single vertex, labeled with the isomorphism type 7(s). This lone vertex is also
+the root vertex.

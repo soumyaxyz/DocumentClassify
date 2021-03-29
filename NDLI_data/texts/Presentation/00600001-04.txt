@@ -1,0 +1,15 @@
+eader Linke
+
+A header linked is a special kind of linked list which contains a
+special node at the beginning of the list. This special node is
+known as header node and contain important information
+regarding the linked list. This information may be total number
+of nodes in list, some description for the user like creation and
+modification data about, whether the data in the list is sorted
+and unsorted. The header linked list in shown below:
+
+ 
+
+A Header Linked List
+
+Header Node

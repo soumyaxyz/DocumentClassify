@@ -1,0 +1,64 @@
+Chapter 3: Quantum group of orientation preserving Riemannian isometries 98
+
+ 
+
+AD — CB = DA- "BC. (3.4.17)
+
+Proof : The proof follows from ( 1.2.14 ) from the coefficients of a?, y°?, y*a respec-
+
+ 
+
+ 
+
+ 
+
+ 
+
+tively.
+
+Now we consider the antipode, say k.
+
+From the condition (h @ id)I'(a) = h(a).1, we see that P induces a unitary represen-
+tation of the compact quantum group via I'(a @ q) =T'(a)(1®@ q).
+
+Now, the restriction of this unitary representation to the orthonormal set
+
+{4/ LH a, JI + p?y*} is given by the matrix : ( a He
+
+Kw wtB D
+
+Similarly, with respect to the orthonormal set {,/1+ p2a*, \/14+ p27}, this repre-
+sentation is given by the matrix: ( . -
+
+Thus, we have:
+
+K(A) = A*, K(D) = D*, K(C) = p-?B*, K(B) = p?C*, K(A*) = A, K(O*) =
+B, w(B*) =C, «(D*) =D.
+
+Lemma 3.4.7.
+
+AB = BA, (3.4.18)
+CD = DC, (3.4.19)
+BC* =C"B. (3.4.20)
+
+Proof : The relations ( 3.4.18 ), ( 3.4.19 ), ( 3.4.20 ) follow by applying « to the
+equations ( 3.4.15 ), (3.4.16 ) and ( 3.4.13 ) respectively.
+
+Lemma 3.4.8. There exists a *-homomorphism @ : U,(2) > © defined by d(un) =
+A, $(u12) = uC, o(u21) = wt B, b(u22) = D.
+
+Proof : It is enough to check that the defining relations of U,,(2) are satisfied.
+
+1. O(urme2) = (uuu) & O(ui)d(ui2) = pd(u2)O(un) = A(uC) =
+p(uC)A <= AC = wCA which is the same as ( 3.4.15 ).
+
+2. d(uius1) = o(uuruin) & A(u7!B) = w(u-!B)A & AB = pBA which is the
+same as equation ( 3.4.18 ).
+
+3. b(us2u22) = O(purx2U12) & wCD = pD(uC) = CD = DC which is the same as
+equation ( 3.4.19 ).
+
+4. b(uziur2) = o(uu22u21) & p-'BD = pDu-!B & BD = DB which is the same
+as equation ( 3.4.16 ).
+
+5. P(uygua1) = (u21u2) & wCu-!B = wBuC & CB = BC.

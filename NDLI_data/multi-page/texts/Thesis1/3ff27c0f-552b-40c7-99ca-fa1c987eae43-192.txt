@@ -1,0 +1,56 @@
+Chapter 5: Quantum isometry groups of the Podles spheres 180
+
+ 
+
+1 1 a al 1 4 SR a afte
+and (c4(n)? +¢-(n)? (p19) * + In—19n*) — (e+ (1m)? —c-()? (Gran + nah”)
+belongs to Q for all n > 1.
+
+Adding and subtracting, we have
+
+Gig +d,1% € Q foralln>1, (5.4.16)
+
+ 
+
+Gig +atigq* €Q foralln>1. (5.4.17)
+
+Recalling (5.4.15 ), we have q7 = @Yn-1 = Gyo. Using this in ( 5.4.16 ), we obtain
+
+Gn-19n + In—19n
+
+= gf a9® a aH
+= G-Man + Th 1YoYOIn
+
+ 
+
+— gt att pat te
+= G@n-1In FT In-1 In
+
+= qt 1d ":
+Similarly, using g7 = qfyo in (5.4.17 ), one has
+
+Gag +O 19n*
+
+= Gg iyoar* +at_yyoar* = 2at oar.
+
+Hence, we conclude that 9°_,qg¢* and g*_,yot* are in Q for all n> 1.
+Let
+
+a be
+en = Qn—-19n ’
+2 = Ar 2Rat*
+Wn = Wn-1Y0In >
+
+for alln > 1.
+
+Then, we observe that
+ZrWn = IM YOIn = InIn
+Moreover,
+% % * = % (GY) = % YoU” = 95 You at ay” = wiz}.
+Thus for all n > 0, gf qp* belong to C*({zn, Wn}n>1)-
+
+oe .
+For all n > 2, dy a%n*” = n—1Yn—2(Gn Una) = In-aYOVOn” = Tr-iTn = GnaGn” = 2m;
+
+—_ je
+% = % YoU Yo) =W YoUG =m =a.

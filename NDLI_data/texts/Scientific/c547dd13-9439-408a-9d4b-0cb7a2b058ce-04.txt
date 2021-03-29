@@ -1,0 +1,105 @@
+Kandimalla et al.
+
+study constructed a publication-based classification
+system of science using the WoS dataset
+2012). The clustering algorithm,
+
+described as a modularity-based clustering, is
+conceptually similar to k-nearest neighbor (kKNN).
+It starts with a small set of seed labeled publications
+and grows by incrementally absorbing similar
+articles using co-citation and bibliographic coupling.
+Many methods mentioned above rely on citation
+relationships. Although such information can be
+manually obtained from large search engines such
+as Google Scholar, it is non-trivial to scale this for
+millions of papers.
+
+Our model classifies papers based only on
+abstracts, which are often available. Our end-to-
+end system is trained on a large number of labeled
+data with no references to external knowledge bases.
+When compared with citation-based clustering
+methods, we believe it to be more scalable and
+portable.
+
+3 TEXT REPRESENTATIONS
+
+For this work, we represent each abstract using
+a BoW model weighted by TF-IDF. However,
+instead of building a sparse vector for all tokens
+in the vocabulary, we choose word tokens with
+the highest TF-IDF values and encode them using
+WE models. We explore both pre-trained and re-
+trained WE models. We also explore their effect
+on classification performance based on token order.
+As evaluation baselines, we compare our best
+model with off-the-shelf text embedding models,
+such as the Unified Sentence Encoder (USE; [Cer
+(2018)). We show that our model which
+uses the traditional and relatively simple BoW
+representation is computationally less expensive
+and can be used to classify scholarly papers at scale,
+such as those in the CiteSeerX repository
+
+fetal] (1998) Wu et al| 2014).
+3.1 Representing Abstracts
+
+First, an abstract is tokenized with white spaces,
+punctuation, and stop words removed. Then a list A
+
+Subject Category Classification
+
+of word types (unique words) w; is generated after
+Wordnet lemmatization which uses the WordNet
+
+database (Fellbaum||2005) for the lemmas.
+
+A = [w1, w2, W3... Wn]. (1)
+
+Next the list A ¢ is sorted in descending order by
+TF-IDF giving Axgorteq. TF is the term frequency
+in an abstract and IDF is the inverse document
+frequency calculated using the number of abstracts
+containing a token in the entire WoS abstract corpus
+with now:
+
+/ / f -
+Asorted = [wi, We, W3.-- Wp] (2)
+
+Because abstracts have different numbers of
+words, we chose the top d elements from Agortea
+to represent the abstract. We then re-organize the
+elements according to their original order in the
+abstract forming a sequential input. If the number
+of words is less than d, we pad the feature list with
+zeros. The final list is a vector built by concatenating
+all word level vectors vj,,k € {1,--- ,d} into a
+Dw dimension vector. The final semantic feature
+vector A ¢ is:
+
+Ap =[%.05,05...74) (3)
+
+3.2 Word Embedding
+
+To investigate how different word embeddings
+affect classification results, we apply several widely
+used models. An exhaustive experiment for all
+possible models is beyond the scope of this paper.
+We use some of the more popular ones as now
+discussed.
+
+GloVe captures semantic correlations between
+words using global word-word co-occurrence, as
+opposed to local information used in word2vec
+
+(Mikolov et_al-| (2013a). It learns a word-word
+
+co-occurrence matrix and predicts co-occurrence
+
+ratios of given words in context (Pennington et al.
+2014). Glove is a context-independent model and
+
+outperformed other word embedding models such
+
+4

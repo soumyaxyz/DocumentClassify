@@ -1,0 +1,17 @@
+3.3. INVOLUTIONS IN G2 25
+
+Corollary 3.3.2. Assume that »Br(k), the 2-torsion in the Brauer group of k, is
+trivial, i.e., all quaternion algebras over k are split (for example, cd(k) < 1 fields).
+
+Then all involutions in G(k) are conjugates.
+
+We need a refinement of a theorem of Jacobson ([J], Theorem 2), due to Wonen-
+burger ({W1], Theorem 5) and Neumann ([N)]),
+
+Proposition 3.3.3. Let € be an octonion algebra over a field k of characteristic
+
+different from 2. Then every element of G' is a product of 3 involutions.
+
+We will study in Chapter 8, the structure of real elements in G(k), in terms of
+involutions. We will show that a semisimple element g € G(k) is real, i.e., conjugate
+to g-| in G(k), if and only if g is a product of 2 involutions in G(k) (Theorem 6.2.2).

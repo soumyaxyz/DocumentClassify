@@ -1,0 +1,20 @@
+FEM Terminology
+
+ 
+
+Element A geometric sub-domain of the
+region being simulated, with the property that
+it allows a unique derivation of the
+approximation (interpolation) functions.
+
+Node A geometric location in the element
+which plays a role in the derivation of the
+interpolation functions and it is the point at
+which solution is sought.
+
+Mesh A collection of elements (or nodes) that
+replaces the actual domain.
+
+Weak Form An integral statement equivalent
+to the governing equations and natural
+boundary conditions.

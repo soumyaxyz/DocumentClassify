@@ -1,0 +1,44 @@
+Chapter 4: Quantum isometry groups for Rieffel deformed manifolds 128
+
+ 
+
+the deformed product is given by
+(fi x7 fo)(t1, te) = | fra. roorgura) ft) (tr #2) (04 srdark rt) (F2) (tas ta )e(r-r’ )drdr’.
+Here, for f in C*°(T?),
+
+X (ri raargira)d (t1, t)
+(€U(—(r4,72)) ® 1d) Aid ® €Vp (75,74) ) ACF) (1, t2)
+= f(n(-(r1,r2))(h, t2)n(r3, 74)
+= f((e(—r1), e(—r2)) (t1, t2)(e(r3), e(r4)))
+= f(e(r3—ri)ti, e(ra — 12)t2).
+
+Therefore,
+
+21 x F 72
+
+0 6
+= I] e( ora + srt, € e(—5r1 = gra)ta)z2(e(r3 — ri )ti,e(—ry + 1r4)t2)
+hava
+
+0
+= [Jute + gr2)tve(—ra + rh)tze(r-1)Je(re.r}).e(rs.rh)e(ra.r drdr!
+= tata ff eGradel—rs)etra.rs)aradrs ff e(Sradetride(rari)aradr
+Js elrasri)dridrt ff e(ra.rS)aradrs
+
+= tata ff e(—Fradelrs)o((—ra)(-r§))dradry ff e(—Srape(—rie(—ra.— rf
+
+dradr{.1.1.
+
+( by Proposition 1.3.1 )
+Similarly,
+
+22 XZ 71
+
+0 é
+= [ fecgr - gra)tzelrs —r})tie(ri-ry e(r3-75)dridr{drgdr.1.1
+
+= tata ff o(—Frde(—rietrusridaradr, ff e(—Sra)etr§)e(ra.r$)dradr,
+
+= 24 X Fj 22.
+
+This proves the theorem.

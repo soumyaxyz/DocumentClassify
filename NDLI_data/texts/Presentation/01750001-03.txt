@@ -1,0 +1,16 @@
+Abstract
+
+Phase pure polycrystalline Bi,Fe,O, is prepared using the conventional solid
+state reaction route. X-ray diffraction (XRD) reveals Bi,Fe,O, to possess an
+orthorhombic crystal structure with space group ‘Pbam’. Optical
+characterization confirms Bi,Fe,O, to be a direct band gap material with Eg ~
+1.5 eV. Magnetization measurement shows compound to_ be
+antiferromagnetic (AFM) with AFM transition temperature ~150 K. The
+dielectric response of the compound was recorded in the temperature range
+10-300 K with the probing frequency from 500 Hz-5 MHz. Here, we report
+remarkable magnetic field tunable dielectric properties of polycrystalline
+Bi,Fe,O, near its AFM transition temperature. Thus, Bi,Fe,O, can be further
+stimulated for various other magnetic field sensors, multiple state memory
+and other ferroelectric applications.
+
+ey) Department of Physics, NIT Rourkela, Odisha

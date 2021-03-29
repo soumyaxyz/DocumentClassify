@@ -1,0 +1,30 @@
+S.No. 9122 I SBE 29:5.
+
+(For candidates admitted from 2008-2009 onwards)
+U.G. DEGREE EXAMINATION, AUGUST 2012.
+
+Part II] — Networking and Maintenance — Skill Based
+Elective
+
+ADVANCED NETWORK CONCEPTS
+
+Time : Three hours Maximum : 75 marks
+
+PART A — (10 x 2 = 20)
+_Answer ALL questions.
+
+1. Define Ethernet.
+
+2. What is direct cabling?
+
+3. Define hub.
+
+4. Define gateways.
+
+5. What is the use of addressing?
+
+6. Define domain name system.
+
+7. What is Pipe?
+
+8. What are the permissions available for file?

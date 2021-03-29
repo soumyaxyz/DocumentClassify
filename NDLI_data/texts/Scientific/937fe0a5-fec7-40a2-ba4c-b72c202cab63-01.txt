@@ -1,0 +1,98 @@
+hyperdoc2vec: Distributed Representations of Hypertext Documents
+
+Jialong Han®, Yan Song®, Wayne Xin Zhao*, Shuming Shi*, Haisong Zhang®
+*Tencent AI Lab
+*School of Information, Renmin University of China
+
+{jialonghan, batmanfly}@gmail.com, {clksong, shumingshi, hansonzhang}@tencent.com
+
+Abstract
+
+Hypertext documents, such as web pages
+and academic papers, are of great impor-
+tance in delivering information in our daily
+life. Although being effective on plain
+documents, conventional text embedding
+methods suffer from information loss if di-
+rectly adapted to hyper-documents. In this
+paper, we propose a general embedding
+approach for hyper-documents, namely,
+hyperdoc2vec, along with four crite-
+ria characterizing necessary information
+that hyper-document embedding models
+should preserve. Systematic comparisons
+are conducted between hyperdoc2vec
+and several competitors on two tasks, i.e.,
+paper classification and citation recom-
+mendation, in the academic paper do-
+main. Analyses and experiments both val-
+idate the superiority of hyperdoc2vec
+to other models w.r.t. the four criteria.
+
+1 Introduction
+
+The ubiquitous World Wide Web has boosted re-
+search interests on hypertext documents, e.g., per-
+sonal webpages (Lu and Getoor, 2003), Wikipedia
+pages (Gabrilovich and Markovitch, 2007), as well
+as academic papers (Sugiyama and Kan, 2010).
+Unlike independent plain documents, a hypertext
+document (hyper-doc for short) links to another
+hyper-doc by a hyperlink or citation mark in its
+textual content. Given this essential distinction,
+hyperlinks or citations are worth specific model-
+ing in many tasks such as link-based classifica-
+tion (Lu and Getoor, 2003), web retrieval (Page
+et al., 1999), entity linking (Cucerzan, 2007), and
+citation recommendation (He et al., 2010).
+
+To model hypertext documents, various ef-
+forts (Cohn and Hofmann, 2000; Kataria et al.,
+
+2010; Perozzi et al., 2014; Zwicklbauer et al.,
+2016; Wang et al., 2016) have been made to de-
+pict networks of hyper-docs as well as their con-
+tent. Among potential techniques, distributed rep-
+resentation (Mikolov et al., 2013; Le and Mikolov,
+2014) tends to be promising since its validity and
+effectiveness are proven for plain documents on
+many natural language processing (NLP) tasks.
+
+Conventional attempts on utilizing embedding
+techniques in hyper-doc-related tasks generally
+fall into two types. The first type (Berger et al.,
+2017; Zwicklbauer et al., 2016) simply downcasts
+hyper-docs to plain documents and feeds them into
+word2vec (Mikolov et al., 2013) (w2v for short)
+or doc2vec (Le and Mikolov, 2014) (d2v for
+short). These approaches involve downgrading
+hyperlinks and inevitably omit certain information
+in hyper-docs. However, no previous work inves-
+tigates the information loss, and how it affects the
+performance of such downcasting-based adapta-
+tions. The second type designs sophisticated em-
+bedding models to fulfill certain tasks, e.g., cita-
+tion recommendation (Huang et al., 2015b), pa-
+per classification (Wang et al., 2016), and entity
+linking (Yamada et al., 2016), etc. These models
+are limited to specific tasks, and it is yet unknown
+whether embeddings learned for those particular
+tasks can generalize to others. Based on the above
+facts, we are interested in two questions:
+
+e What information should hyper-doc embed-
+ding models preserve, and what nice property
+should they possess?
+
+e Is there a general approach to learning task-
+independent embeddings of hyper-docs?
+
+To answer the two questions, we formalize the
+hyper-doc embedding task, and propose four cri-
+teria, i.e., content awareness, context awareness,
+newcomer friendliness, and context intent aware-
+
+2384
+
+Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Long Papers), pages 2384-2394
+Melbourne, Australia, July 15 - 20, 2018. ©2018 Association for Computational Linguistics

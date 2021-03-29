@@ -1,0 +1,157 @@
+4 DEEP LEARNING MODEL FOR DISCOURSE
+CATEGORY IDENTIFICATION
+
+The proposed model utilizes the state-of-the-art sequential sen-
+tence classification architecture proposed by Jin and Szolovits [5].
+Architecturally, the model is composed of four conceptual layers.
+
+1) The token processing layer: This layer, for a sentence of n
+tokens {wj,--- , wn}, generates embeddings for each token
+and produces an n x D matrix, where D is the embedding
+dimension. Pretrained GloVe word vectors [7] are used to
+initialize the input token vectors.
+
+2) The sentence processing layer: This layer accepts the output
+from the token processing layer and calculates the encoding
+for the whole sentence. The sentence encoding is calculated
+by passing the embedding matrix through a bidirectional
+LSTM and then applying self-attention on the output.
+
+3) The abstract processing layer: Unlike the previous layers,
+this layer operates on a complete abstract at once. The layer
+accepts a matrix of N vectors {s;,--- , $y}, where each 5; is
+a sentence embedding. A bidirectional LSTM transforms the
+input matrix, which is then passed to a single dense layer.
+The output from this layer corresponds to the per-class score
+for each sentence.
+
+4) The output generation layer: This final layer optimizes the
+prediction of the abstract processing layer by modeling the
+transition probability between two consecutive sentence
+labels with conditional random field (CRF) [9].
+
+Token Processing |
+
+  
+
+ 
+
+ing ; Abstract Processing ; Output Generation
+'
+Sy
+t
+
+    
+
+ 
+
+ 
+
+ 
+
+embeddings =! BrUSTM attention ©
+
+Figure 3: Model architecture.
+
+The model architecture is summarized in Figure 3. During train-
+ing, Adam optimizer [6] and categorical cross-entropy loss function
+are applied. The model is first trained on the large PubMed-non-RCT
+corpus of structured biomedical abstracts. The resultant model is
+then fine-tuned on a much smaller CS dataset, i.e., the training
+subset of every cs. dataset mentioned in Table 2, and tested on
+the corresponding test subset.
+
+5 EVALUATION OF THE MODEL
+
+In this section, we evaluate the proposed model and validate our
+claims.
+
+5.1 Evaluation
+
+The PubMed-non-RCT corpus was converted into a three-class
+dataset according to the mapping described in Table 1. Then our
+proposed model was trained on it. Jin and Szolovits reported 92.6%
+accuracy on their PubMed 20k RCT dataset. Our model achieves
+
+a comparable 92.1% accuracy on the biomedical PubMed-non-RCT
+dataset. The model trained on PubMed-non-RCT was saved. Next,
+we evaluated the model on each CS corpus listed in Table 2. For each
+corpus, we evaluated in 3 ways, as shown in Table 3: (1) Locally-
+trained: The deep net model was trained only on the training sub-
+set and tested on the test subset of the CS corpus. (2) Pre-trained
+on PubMed: The model was trained only on the PubMed-non-RCT
+dataset and tested on the test subset of the CS corpus. (3) Fine-
+tuned: The model, pretrained on the PubMed-non-RCT dataset, was
+fine-tuned on the training subset and tested on the test subset of
+the CS corpus. The results and the inferences are discussed in the
+following section.
+
+5.2 Results and Analysis
+
+Table 3 summarizes the accuracy of the locally trained model, the
+pre-trained model, and the fine-tuned model on all the four test sub-
+sets. Note that the accuracy of the model on a dataset is calculated
+as the percentage of sentences that are correctly labeled across all
+abstracts in the dataset.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Dataset Details ‘Accuracy
+cs.NI Locally trained 54.08
+Pre-trained on PubMed 29.46
+Fine-tuned 65.22
+¢s.1LT Locally trained 61.98
+Pre-trained on PubMed 56.87
+Fine-tuned 79.45,
+csTPAMI Locally trained 71.28
+Pre-trained on PubMed 50.15
+Fine-tuned 83.44
+cs.combined Locally trained 4173
+Pre-trained on PubMed 39.53
+Fine-tuned 75.18
+Table 3: Summary of results.
+We can observe that transfer learning with fine-tuning (‘Fine-
+tuned’) provides a significant improvement over the ‘locally trained’
+
+model. We also observe that without fine-tuning (’Pre-trained on
+PubMed’), transfer learning performs worse than local training.
+This indicates that the pretrained model is insufficient. It also gives
+an estimate of how dissimilar the particular CS corpus is com-
+pared to the biomedical corpus; if the CS corpus is similar to the
+biomedical corpus, further fine-tuning would be unnecessary. The
+results indicate that cs.TLT and cs.TPAMI have modest similarity
+to PubMed-non-RCT while cs.NI has hardly any similarity as the
+29.46% accuracy is as bad as a purely random guess. Nevertheless,
+we observe that, even when the datasets are completely dissimilar,
+transfer learning with fine-tuning on a marginal amount of labeled
+data can provide more than a 10% accuracy boost.
+
+=
+
+ 
+
+306
+g
+204 { —= cs.NI —— cs, TPAMI
+—— cs.TLT —+- cs.combined
+025 50 100 +150 200 250 300
+Training size
+
+Figure 4: Effect of training size on accuracy.
+
+Figure 4 demonstrates the effect of training size on the accuracy
+of the model on the four CS corpora. We observe that, initially the

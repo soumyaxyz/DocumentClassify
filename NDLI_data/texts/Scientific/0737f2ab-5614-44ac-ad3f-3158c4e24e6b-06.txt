@@ -1,0 +1,120 @@
+(init CaN be any parametric function, and in this pa-
+per, we used a feedforward network with a single
+tanh hidden layer.
+
+Each decoder exposes a parametric function yi
+that transforms its hidden state and the previously
+decoded symbol to be compatible with a shared at-
+tention mechanism. This transformer is a paramet-
+ric function that takes as input the previous hidden
+state z/” , and the previous symbol 4” , and returns
+a vector for the attention mechanism:
+
+a" = pa (2ia By [wi]) = aD
+which replaces z;—1 in Eq. 2} In this paper, we use
+a feedforward network with a single tanh hidden
+layer for each yi.
+
+Given the previous hidden state z/” ,, previously
+decoded symbol 4", and the time-dependent con-
+text vector c?", which we will discuss shortly, the
+decoder updates its hidden state:
+
+Zt = Waee (2421, Ey" [G21] + fadp(Ct")) »
+
+where f,j) affine-transforms the time-dependent
+context vector to be of the same dimensionality as
+the decoder. We share a single affine-transformation
+layer fap» for all the decoders in this paper.
+
+Once the hidden state is updated, the probability
+distribution over the next symbol is computed ex-
+actly as for the pair-specific model (see Eq. {7).)
+
+Attention Mechanism Unlike the encoders and
+decoders of which there is an instance for each lan-
+guage, there is only a single attention mechanism,
+shared across all the language pairs. This shared
+mechanism uses the attention-specific vectors h”
+and z;" , from the encoder and decoder, respectively.
+
+The relevance score of each context vector h/’ is
+computed based on the decoder’s previous hidden
+state z” , and previous symbol 77” ;:
+
+mn
+eng =fecore (ne, a 1 Oia ‘1)
+
+These scores are normalized according to Eq. (3) to
+become the attention weights a;"7".
+
+With these attention weights, the time-dependent
+context vector is computed as the Weighiteal Sit me
+the original context vectors: ¢;""" = => 1 one” h?
+
+See Fig.[I]for the illustration.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Size Single Single+DF Multi
+_ 100) 5.06/3.96 4.98/3.99 6.2/5.17
+* 200! 7.1/6.16 7.21/6.17 8.84/7.53
+& 400) 9.11/7.85 9.31/8.18 11.09/9.98
+800! 11.08/9.96 11.59/10.15 — 12.73/11.28
+< 210 14.27/13.2  14.65/13.88 16.96/16.26
+A 420! 18.32/17.32  18.51/17.62 19.81/19.63
+J 840! 21/19.93 21.69/20.75  22.17/21.93
+A 168m 23.38/23.01 23.33/22.86 23.86/23.52
+» 210) 11.44/11.57  11.71/11.16 = 12.63/12.68
+QA 420) 14.28/14.25 14.88/15.05 — 15.01/15.67
+t 840! 17.09/17.44 17.21/17.88 — 17.33/18.14
+A 168m —19.09/19.6 19.36/20.13 19.23/20.59
+Table 2: BLEU scores where the target pair’s parallel corpus is
+constrained to be 5%, 10%, 20% and 40% of the original size.
+We report the BLEU scores on the development and test sets
+
+ 
+
+(separated by /) by the single-pair model (Single), the single-
+pair model with monolingual corpus (Single+DF) and the pro-
+
+ 
+
+posed multi-way, multilingual model (Multi).
+5 Experiment Settings
+5.1 Datasets
+
+We evaluate the proposed multi-way, multilingual
+translation model on all the pairs available from
+WMT?’ 15-English (En) + French (Fr), Czech (Cs),
+German (De), Russian (Ru) and Finnish (Fi)-, to-
+talling ten directed pairs. For each pair, we concate-
+nate all the available parallel corpora from WMT’ 15
+and use it as a training set. We use newstest-2013 as
+a development set and newstest-2015 as a test set, in
+all the pairs other than Fi-En. In the case of Fi-En,
+we use newsdev-2015 and newstest-2015 as a devel-
+opment set and test set, respectively.
+
+Data Preprocessing Each training corpus is tok-
+enized using the tokenizer script from the Moses de-
+coder. The tokenized training corpus is cleaned fol-
+lowing the procedure in (Jean et al., 2015). Instead
+of using space-separated tokens, or words, we use
+sub-word units extracted by byte pair encoding, as
+recently proposed in (Sennrich et al., 2015b). For
+each and every language, we include 30k sub-word
+symbols in a vocabulary. See Table[I] for the statis-
+tics of the final, preprocessed training corpora.
+
+Evaluation Metric We mainly use BLEU as an
+evaluation metric using the multi-bleu script from
+Moses. BLEU is computed on the tokenized text af-
+ter merging the BPE-based sub-word symbols. We
+further look at the average log-probability assigned

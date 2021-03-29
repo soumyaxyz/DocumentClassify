@@ -1,0 +1,56 @@
+27 Quantum Groups
+
+ 
+
+where a(n,i) s are some constants as in [37], then {fri in = 0, 3, Ls 3, serge = UES
+i < n} is an orthonormal basis of SU,,(2) and A( fn) = Shen Fn,k ® th j-
+
+The following recursive relations will be useful to us.
+
+Proposition 1.2.27.
+
+141/2
+il41/2
+= cn(i, Dy thay + eli, Devt yo) —14+1/2<i<l-1/2,
+= enli,l)y*tisrjou i=—1—-1/2,
+= esi (i,a*t_yp2) i=l+1/2,
+(1.2.18)
+and for j <1,
+141/2
+tig
+= ei, Satine pup tees aps —14+1/2<i<l-1/2,
+1 il
+_ y L 1 ye yl fox 7 _ _ a 7 a
+= (lL, flot_y jarjg +ALL IY tygea i=-l-1/2, I+5 <7 <l zm
+1
+ayia . :
+= aL, jatisij2j41/2 i=—1-1/2, j=—l— 5,
+Anal gl .
+= ej tiaajuypte(Lja tag t=1+1/2,
+(1.2.19)
+
+where Cpq(il), e(1, 4,9), 4(1,9), a5, d" (1,7), e(l,j),e(l, 9) are all complex numbers.
+
+Proof : It can be easily seen that
+Sista = (loch iy4 (1.2.20)
+
+for some constants c(I, i).
+
+*l41+1 for some constant
+
+Moreover, from ( 1.2.17 ) we have y* fi; = a’(l,i)a!-ty
+
+a'(l,i). This means that
+
+a’ (1,7)
+
+Thi = ada hither (1.2.21)
+
+We have fj,1),1 =a(I+ 31+ dy yt?itt and fi, = a(l,l)7*”! which implies that
+a? 2
+
+a(l+ 3,1 + 3)
+
+Sig yd a a(l, 1) fu (1.2.22)
+
+Now, we proceed to prove ( 1.2.18 ). Applying coproduct on ( 1.2.22 ) and using (

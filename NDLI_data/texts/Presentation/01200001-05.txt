@@ -1,0 +1,106 @@
+INTERFACE(2D)ANTERPHASE(3D)
+
+Matrix swelling strain
+Interfacial stress transmissibility
+Plasticization
+
+Weak interface
+
+|
+
+broomlike failure
+
+Strong interface
+
+|
+
+Brittle failure
+
+debonding/fiber pull-out
+>
+
+composites is assumed to be a polymer film,
+
+The interface-interphase in glass fiber
+
+thus it may be susceptible to perish by
+environmental shock.
+
+>» Smeared out contributions from a
+temperature.
+
+mechanical
+
+degradation
+
+ 
+  
+  
+   
+  
+   
+ 
+
+ 
+
+Bulk matrix
+
+ 
+
+ 
+
+Molecular weight polymer
+of different properties
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Sizings
+Thermal, chemical,
+
+and mechanical
+environments
+
+ 
+
+ 
+
+ 
+
+Adsorbed material
+Fiber chemistry
+
+Fiber topography
+
+Fiber morphology
+
+Bulk fiber
+
+Fiber-matrix interphase
+
+background of weak glass transition

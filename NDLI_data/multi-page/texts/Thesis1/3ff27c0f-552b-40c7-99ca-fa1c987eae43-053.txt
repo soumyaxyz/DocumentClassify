@@ -1,0 +1,93 @@
+41 Rieffel deformation
+
+ 
+
+have
+
+ 
+
+ 
+
+[., X2(@) fn(z) — @
+
+I. X2(a) fn(z) — of, frl2ddz
+[Go — a) fn(z)dz
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+[ Cla) -a\fuleae .
+
+n
+
+ 
+
+ 
+
+Now, using the fact that the map z+> X.(a) is continuous for all a, we deduce tha‘
+for all « > 0, there exists n such that for all z in U,, ||Xz(a) — Xo(a)|| < €, that is,
+[(a) — al <e.
+
+Hence, || fyzn d-(a) fn(z)dz — all < € fran fn(2) = € which proves the lemma.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Lemma 1.3.13. [fh is faithful on Q, then hj is faithful on Q;.
+
+Proof : Let a > 0,€ Q; be such that hj(a) = 0. Let Az, be as defined above.
+Then,
+
+hy(Xz(@)) fr(z)dz
+
+2n
+
+hy(a)fn(z)dz
+
+n
+
+by (1.3.9))
+
+=~ s
+
+so we have h(A;,(a)) = 0, since h and hz coincide on Q* by Lemma 1.3.10 and Aj, (a)
+belongs to O°.
+
+Now we fix some notation which we are going to use in the rest of the proof. Let
+L?(h) and L?(h;) denote the G.N.S spaces of Q and Q; respectively with respect to
+the Haar states. Let 7 and iy be the canonical maps from Q and QF to L?(h) and
+L?(hz) respectively. Also, let Ily denote the G.N.S representation of Q;. Using the
+facts h(b* x 7b) = h(b*b) for all b in Q° and h = hy on Q* ( by Lemma 1.3.10 ) ,
+we get Mp2) = )IlZ2() for all b in Q™*. So the map sending 7(b) to i7(b) is
+an isometry from a dense subspace of L?(h) onto a dense subspace of L?(hz), hence it
+extends to a unitary, say [ : L?(h) — L?(hz). We also note that the maps i and i;
+agree on QO.
+
+Now, a > 0 means that Aj, (a) is positive in Q; and therefore, A», (a) = b* x7b for
+some b in Q;. So h(A,,(a)) = 0 implies hy (Az, (a)) = 0 and therefore Open, =0.

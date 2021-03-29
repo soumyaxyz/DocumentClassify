@@ -1,0 +1,17 @@
+BI Component — Implementation Layer — Data
+Warehousing
+
+It is the process which prepares the basic repository of data (called
+data warehouse) that becomes the data source where we extract
+information from.
+
+Date Warehouse: A data warehouse is a data store. It is structured
+on the dimensional model schema, which is optimized for data
+retrieval rather than update.
+
+Data warehousing must play the following five distinct roles:
+— Intake
+— Integration
+— Distribution
+— Delivery
+— Access

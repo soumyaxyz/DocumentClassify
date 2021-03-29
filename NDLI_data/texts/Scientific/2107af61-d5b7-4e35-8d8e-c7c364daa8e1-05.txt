@@ -1,0 +1,61 @@
+Preprint. Under review.
+
+ 
+
+ 
+
+Figure 3: Example of two valid colorings of the same attributed graph. Note that each V;, contains
+nodes with identical attributes.
+
+capture larger and larger structural characteristics of the graph. 3) Readout: This step combines
+all final node representations into a single graph representation: rg = READOUT ({2i,r }iefan])>
+where READOUT is permutation invariant.
+
+Unfortunately, while MPNNs are very efficient in practice and proven to be as expressive as the
+
+Weisfeiler-Lehman algorithm (Weisfeiler and Lehman] {1968} [Xu et al-|[2019), they are not sufficiently
+
+expressive to construct isomorphism tests or separate all graphs (for example, consider k-regular
+graphs without node attributes, for which a small calculation shows that any MPNN representation
+
+will only depend on the number of nodes and degree k 2019)). As a direct application of
+Proposition|I] MPNNs are thus not expressive enough to create universal representations.
+
+ 
+
+5 EXTENDING MPNNS USING A SIMPLE COLORING SCHEME
+
+In this section, we present Colored Local Iterative Procedure (CLIP), an extension of MPNNs using
+colors to differentiate identical node attributes, that is able to capture more complex structural graph
+characteristics than traditional MPNNs. This is proved theoretically through a universal approximation
+theorem in Section[5.3]and experimentally in Section|6] CLIP is based on three consecutive steps: 1)
+graphs are colored with several different colorings, 2) a neighborhood aggregation scheme provides a
+vector representation for each colored graph, 3) all vector representations are combined to provide a
+final output vector. We now provide more information on the coloring scheme.
+
+5.1 COLORS TO DIFFERENTIATE NODES
+
+In order to distinguish non-isomorphic graphs, our approach consists in coloring nodes of the graph
+with identical attributes. This idea is inspired by classical graph isomorphism algorithms that use
+colors to distinguish nodes (1981), and may be viewed as an extension of one-hot encodings
+used for graphs without node attributes (Xu et al. (2019).
+
+For any k: € N, let C;, be a finite set of k colors. These colors may be represented as one-hot encodings
+(Cy, is the natural basis of R”) or more generally any finite set of k elements. At initialization, we
+first partition the nodes into groups of identical attributes Vj, ..., Va C [[1,n]]. Then, for a subset Vi,
+of size |V;,|, we give to each of its nodes a distinct color from C, (hence a subset of size |V;,|). For
+example, Figure|3]shows two colorings of the same graph, which is decomposed in three groups Vi,
+V2 and V3 containing nodes with attributes a, b and c respectively. Since V; contains only two nodes,
+a coloring of the graph will attribute two colors ((1, 0) and (0, 1), depicted as blue and red) to these
+nodes. More precisely, the set of colorings C(v, A) of a graph G = (v, A) are defined as
+
+Ca, A) = {(a, ws€n) ? Vk € (1, K], (ci)iev, is a permutation of Civ} (4)
+
+5.2 THE CLIP ALGORITHM
+
+In the CLIP algorithm, we add a coloring scheme to an MPNN in order to distinguish identical node
+attributes. This is achieved by modifying the initialization and readout phases of MPNNs as follows.
+
+1. Colored initialization: We first select a set Cy C C(v, A) of k distinct colorings uniformly
+at random (see Eq. ). Then, for each coloring c € C;,, node representations are initialized
+with their node attributes concatenated with their color: x{ 4 = (vi, ci).

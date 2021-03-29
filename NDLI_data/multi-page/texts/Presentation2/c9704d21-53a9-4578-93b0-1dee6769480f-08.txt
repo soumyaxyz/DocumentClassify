@@ -1,0 +1,12 @@
+Business Layer- Development
+
+The process of development consists of
+
+* database/data-warehouse development (consisting of ETL, data profiling,
+data cleansing and database tools),
+
+* data integration system development (consists of data integration tools and
+data quality tools)
+
+¢ business analytics development (about processes and various technologies
+used).

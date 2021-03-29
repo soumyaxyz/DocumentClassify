@@ -1,0 +1,59 @@
+90 9. REALITY IN ALGEBRAIC GROUPS
+
+Proof. Let ¢ be real in G(k). Then there exists g’ € G(k) such that g'tg’"! = ¢71.
+Then g'-1g € H. Write g = g'h for some h € H. Then,
+
+yo) = g*o(g) = hg" to(g')o(h) = h*o(h).
+
+This implies that 7 is equivalent to the trivial cocycle.
+
+Conversely, let y be the trivial cocycle. Then there exists h € H such that
+y(c) = h-to(h). That is, g~to(g) = hoto(h), then o(gh) = gh. Hence gh € G(k
+and ght(gh)-! = ghth-1g-! = gtg-! = t-!. Hence the element ¢ is real in G(k).
+
+ 
+
+ 
+
+ 
+
+ 
+
+Corollary 9.2.3. With notation as above, t is real in G(k) if and only if the
+H-torsor X has a k-point or, equivalently the cocycle y is trivial in H'(k, H).
+
+Note that if H1(k, H) is trivial then t is real in G(k). By a theorem of Steinberg
+({S1] Theorem 1.9; also see [Se], Chapter III, section 2.3) if H is a connected reduc-
+tive group and cd(k) < 1 or H is connected with k perfect of cd(k) < 1, we have
+H'(k, H) = 0. In these situations t is real.
+
+Proposition 9.2.4. Let G be a split connected semisimple adjoint group defined
+over an arbitrary field k and suppose —1 belongs to the Weyl group of G. Let T be a
+
+k-split maximal torus in G. Then every element of T(k) is strongly real.
+
+Proof : By Theorem 9.1.1, there exists no € N(T)(k) such that no? = 1 and
+
+nosno-t = s7! for all s € T. Consider the Galois cocycle y(a) = noo(no) for
+
+o €f =Gal(k/k). Since T is defined over k, we have, for s € T anda €T,
+o(n)sa(no)' = a(npa*(8)n9) = o(a71(s71)) = 87.
+
+Hence, we must have, in the Weyl group W = N(T)/T, noI’ = o(no)T. Therefore
+y(c) = noo(no) € T. Hence ¥ is a 1-cocycle in H1(k,T). But since T is k-split,
+H'(k,T) =0. Hence there is s € T such that
+
+¥(o) = noa(no) = s'o(s).
+This gives sno = o(sno) for allo € T. Hence sno € T(k). Also
+(sno)? = snosng = ss"! = 1.
+Therefore g = sno is an involution in T(k) and for any t € T'(k), we have,
+
+gig =9lg = snotnos + =sttst=t,
+
+ 
+
+ 
+
+ 
+
+Thus (gt)? = 1 and t = g.gt. Hence t is strongly real.

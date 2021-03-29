@@ -1,0 +1,116 @@
+Each data sample contains one source text
+sequence and multiple target phrase sequences.
+To apply the RNN Encoder-Decoder model, the
+data need to be converted into text-keyphrase pairs
+that contain only one source sequence and one
+target sequence. We adopt a simple way, which
+splits the data sample (x“), p“)) into M; pairs:
+(x, p@D), (x®, pG@2)). 0... (x@, piMi)),
+Then the Encoder-Decoder model is ready to be
+applied to learn the mapping from the source
+sequence to target sequence. For the purpose
+of simplicity, (x,y) is used to denote each data
+pair in the rest of this section, where x is the
+word sequence of a source text and y is the word
+sequence of its keyphrase.
+
+3.2 Encoder-Decoder Model
+
+The basic idea of our keyphrase generation model
+is to compress the content of source text into a hid-
+den representation with an encoder and to generate
+corresponding keyphrases with the decoder, based
+on the representation . Both the encoder and de-
+coder are implemented with recurrent neural net-
+works (RNN).
+
+The encoder RNN converts the variable-length
+input sequence x = (21, 22,..., x7) into a set of
+hidden representation h = (hi,hg,...,hr), by
+iterating the following equations along time t:
+
+hy = f(@¢, be-1) (1)
+
+where f is a non-linear function. We get the con-
+text vector c acting as the representation of the
+whole input x through a non-linear function q.
+
+c= q(h1, he, ..., hr) (2)
+
+The decoder is another RNN; it decompresses
+the context vector and generates a variable-length
+sequence y = (yj, 42,..-,yr*) word by word,
+through a conditional language model:
+
+st = f (ye-1, 81-1, €)
+
+(3)
+P(Yt|Y1,....t-1) X) = g(Yt-1, St, ©)
+
+where s; is the hidden state of the decoder RNN
+at time t. The non-linear function g is a softmax
+classifier, which outputs the probabilities of all the
+words in the vocabulary. y; is the predicted word
+at time t, by taking the word with largest probabil-
+ity after g(-).
+
+The encoder and decoder networks are trained
+jointly to maximize the conditional probability of
+
+the target sequence, given a source sequence. Af-
+ter training, we use the beam search to generate
+phrases and a max heap is maintained to get the
+predicted word sequences with the highest proba-
+bilities.
+
+3.3. Details of the Encoder and Decoder
+
+A bidirectional gated recurrent unit (GRU) is ap-
+plied as our encoder to replace the simple recur-
+rent neural network. Previous studies (Bahdanau
+et al., 2014; Cho et al., 2014) indicate that it can
+generally provide better performance of language
+modeling than a simple RNN and a simpler struc-
+ture than other Long Short-Term Memory net-
+works (Hochreiter and Schmidhuber, 1997). As a
+result, the above non-linear function f is replaced
+by the GRU function (see in (Cho et al., 2014)).
+
+Another forward GRU is used as the decoder.
+In addition, an attention mechanism is adopted to
+improve performance. The attention mechanism
+was firstly introduced by Bahdanau et al. (2014) to
+make the model dynamically focus on the impor-
+tant parts in input. The context vector c is com-
+puted as a weighted sum of hidden representation
+h = (hi,..., hr):
+
+T
+C= > aggh;
+ne (4)
+Dear €xP(a(S;-1, hx)
+
+where a(s;-1,h;) is a soft alignment function
+that measures the similarity between s;_; and h;;
+namely, to which degree the inputs around posi-
+tion j and the output at position 7 match.
+
+aij =
+
+3.4 Copying Mechanism
+
+To ensure the quality of learned representation and
+reduce the size of the vocabulary, typically the
+RNN model considers a certain number of fre-
+quent words (e.g. 30,000 words in (Cho et al.,
+2014)), but a large amount of long-tail words
+are simply ignored. Therefore, the RNN is not
+able to recall any keyphrase that contains out-of-
+vocabulary words. Actually, important phrases
+can also be identified by positional and syntactic
+information in their contexts, even though their ex-
+act meanings are not known. The copying mecha-
+nism (Gu et al., 2016) is one feasible solution that
+enables RNN to predict out-of-vocabulary words
+by selecting appropriate words from the source
+text.

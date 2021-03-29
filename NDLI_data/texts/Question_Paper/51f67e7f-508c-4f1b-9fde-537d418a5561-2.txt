@@ -1,0 +1,88 @@
+1;
+
+11
+
+12.
+
+13.
+
+14.
+
+What does a DTD provide?
+
+Write two factory classes defined in JAXP API.
+
+(a)
+
+(b)
+
+(a)
+
+“(b)
+
+(a)
+
+(b)
+(a)
+
+(b)
+
+PART B — (5 x 5 = 25)
+
+Answer ALL questions.
+
+Illustrate the relationship between container
+and components of J2EE with a diagram.
+
+Or
+
+What are the various services provided by the
+EJB container? Explain them.
+
+Briefly explain Servlet threads and Sevlet
+sandbox.
+
+Or
+
+Explain setting up the JavaMail
+environment.
+
+Explain the page directive with an example.
+Or
+Explain any two JSTL core library tags.
+
+How can you specify a Stateless Session
+Bean? Explain.
+
+Or
+
+Briefly explain multiplicity relationship in
+CMR.
+
+15.
+
+16.
+‘17.
+18.
+
+io:
+
+20.
+
+(a) Explain how J2EE support XML.
+
+Or
+(b) Write a Java program for simple SAX parser.
+
+PART C — (3 x 10 = 30)
+Answer any THREE questions.
+Explain the components of J2EE.
+How parameters are passed to Servlet? Explain.
+Explain JSP life cycle with a suitable diagram.
+
+Explain stateful Session Bean life cycle with a
+suitable diagram.
+
+Explain the structure of an XML document.
+
+a ee

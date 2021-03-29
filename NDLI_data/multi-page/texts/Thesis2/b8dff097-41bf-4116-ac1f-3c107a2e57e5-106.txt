@@ -1,0 +1,46 @@
+94 10. EPILOGUE
+
+Proposition 10.1.3. An irreducible real character comes from a realizable rep-
+resentation if and only if the representation V is orthogonal. And an irreducible real
+character does not come from a realizable representation if and only if the represen-
+
+tation V is symplectic.
+
+A question of independent interest is to directly relate orthogonal and symplectic
+representations to real elements in G. Results proved in this thesis suggest that
+orthogonal representations should be related to strongly real elements, i.e., the one
+which are a product of two involutions. It also seems likely that for a large class of
+finite groups, real elements in G/Z(G) are strongly real. There does not seem to be
+any known result in this direction.
+
+The question of determining a finite group of which all elements are real has been
+extensively studied. We would like to mention the work of [TiZ] where they classify
+finite quasi simple groups in which all elements are real. They also give some examples
+of nonreal elements. Study of real element has been used in the proof of Thompson
+and Ore conjectures in the case of finite Chevalley groups. Here we quote a Theorem
+from [EG] (Theorem 1).
+
+Theorem 10.1.4. Let G be a Chevalley group. Let hy and hy be two regular
+semisimple elements in G from a maximal split torus and let C; and Cy be the con-
+
+jugacy classes of hy and hg, respectively. Then CyCy D G/Z(G).
+
+This theorem immediately implies the Ore conjecture for any simple group G con-
+taining a regular semisimple element h in a maximal split torus, and the Thompson
+conjecture, if this element is, in addition, real (see [EG]).
+
+Now we turn our attention to representations of algebraic groups. We have seen
+that for finite groups real elements are related to real representations which in turn to
+orthogonal and symplectic representations. Now we would like to bring in the connec-
+tion of a representation being self-dual to being orthogonal or symplectic. Steinberg
+studied this question for Chevalley groups. Here we refer to Lemma 78 and Lemma
+79 from [S4]. Let G be an indecomposable (i.e. corresponds to an indecomposable
+root system) infinite Chevalley group, V an irreducible rational G-module and X be
+
+its highest weight. Then,
+
+Lemma 10.1.5 (Steinberg). The following conditions are equivalent.
+
+(1) There exists a nonzero invariant bilinear form on V.
+
+(2) V and its dual V* are isomorphic as representations of G.

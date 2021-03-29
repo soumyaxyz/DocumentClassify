@@ -1,0 +1,43 @@
+REFERENCES REFERENCES
+
+ 
+
+Thomas, P. & Hawking, D. (2006). Evaluation by comparing result sets in context.
+In Proceedings of the 15th ACM International Conference on Information and
+Knowledge Management, 94-101, ACM. 48
+
+Tombros, A. & Sanderson, M. (1998). Advantages of query biased summaries
+in information retrieval. In Proceedings of the 21st Annual International ACM
+SIGIR Conference on Research and Development in Information Retrieval, 2—
+10, ACM, Melbourne, Australia. 37
+
+Tsochantaridis, I., Joachims, T., Hofmann, T. & Altun, Y. (2005). Large mar-
+gin methods for structured and interdependent output variables. Journal of
+Machine Learning Research, 6, 1453-1484. 72
+
+Turpin, A. & Scholer, F. (2006). User performance versus precision measures
+for simple search tasks. In Proceedings of the 29th Annual International ACM
+SIGIR Conference on Research and Development in Information Retrieval, 11—
+18, ACM, Seattle, WA, USA. 181
+
+Turtle, H. & Flood, J. (1995). Query evaluation: Strategies and optimizations.
+Information Processing and Management, 31, 831-850. 17
+
+Turtle, H.R. & Croft, W.B. (1996). Uncertainty in information retrieval systems.
+In Uncertainty Management in Information Systems, 189-224, Kluwer Aca-
+demic Publishers, Norwell, MA, USA. 57
+
+Vallet, D. & Castells, P. (2012). Personalized diversification of search results.
+In Proceedings of the 35th Annual International ACM SIGIR Conference on
+Research and Development in Information Retrieval, 841-850, ACM, Portland,
+OR, USA. 219
+
+van Leuken, R.H., Garcia, L., Olivares, X. & van Zwol, R. (2009). Visual di-
+versification of image search results. In Proceedings of the 18th International
+Conference on World Wide Web, 341-350, ACM, Madrid, Spain. 217
+
+Vee, E., Srivastava, U., Shanmugasundaram, J., Bhat, P. & Yahia, S.A. (2008).
+
+Efficient computation of diverse query results. In Proceedings of the 24th Inter-
+
+256

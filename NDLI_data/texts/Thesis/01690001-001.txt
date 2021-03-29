@@ -1,0 +1,12 @@
+Polygonal Approximation And
+Scale-Space Analysis Of Closed
+Digital Curves
+
+Author: Bimal Kumar Ray
+
+This thesis is submitted to Indian Statistical Institute, Calcutta, in partial
+fulfillment of the requirements for the award of Ph. D. degree.
+
+~ Calcutta
+
+1994

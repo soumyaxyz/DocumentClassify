@@ -1,0 +1,52 @@
+13 Operator algebras and Hilbert modules
+
+ 
+
+operator p on H such that ¢(x) = Tr(px) for all x in A. More generally, we call a linear
+map ®: A — B ( where B is a von Neumann algebra ) normal if whenever aq increases
+to for a net xq of positive elements from A, one has that ©(aq) increases to ®(x) in
+B. It is known that a positive linear map is normal if and only if it is continuous with
+respect to the ultra-weak-topology. In view of this fact, we shall say that a bounded
+linear map between two von Neumann algebras is normal if it is continuous with respect
+
+to the respective ultra-weak topologies.
+
+1.1.3 Free product and tensor product
+
+If (A;)ier is a family of unital C* algebras, then their unital C* algebra free product
+*j;e7 A; is the unique C* algebra A together with unital *-homomorphism y; : A; — A
+such that given any unital C* algebra B and unital +-homomorphisms ¢; : A; — B there
+
+exists a unique unital *-homomorphism ©® : A — B such that ¢; = ® 0 yy.
+
+Remark 1.1.6. Jt is a direct consequence of the above definition that given a family of
+
+ 
+
+C* homomorphisms ¢; from A; to B, there exists a C* homomorphism *;; such that
+
+(*id;) 0d; = G; for alli.
+Remark 1.1.7. We recall that for discrete groups {Gi}ier, C*(*ierGi) = *ierC* (Gi).
+
+For A and B two algebras, we will denote the algebraic tensor product of A and
+B by the symbol A ® ig B. When A and B are C* algebras, there is more than one
+norm on A ®qig B so that the completion with respect to that norm is a C* algebra.
+Throughout this thesis, we will work with the so called injective tensor product, that is,
+the completion of A®qigB8 with respect to the norm given on A@aqigB by || )0j_ ai@bil| =
+sup|| 07.1 71(ai) ® 72(bi)||a¢u@H2) Where a; is in A, }; is in B and the supremum
+runs over all possible choices of (71,H1), (72,H2) where Hi,H2 are Hilbert spaces
+and m : A — B(H 1) and m2 : Ag — B(H2) are *-homomorphisms. When A C
+B(H,), B C B(H2) are von Neumann algebras, then by the notation A ® B, we mean
+the von Neumann algebra tensor product, that is, the WOT closure of A @aig B in
+B(H1 ® Hz). We refer to [56] for more details.
+
+We now prove a useful general fact.
+
+Lemma 1.1.8. Let A be a C* algebra and w,w; (j = 1,2,...) be states on A such that
+w; — w in the weak-* topology of A*. Then for any separable Hilbert space H and for
+all Y in M(K(H) ® A), we have (id @ w;)(Y) — (id @ w)(Y) in the strong operator
+topology.
+
+Proof: Clearly, (id ® w;)(Y) — (id ® w)(Y) (in the strong operator topology) for
+all Y in Fin(H) @aig A, where Fin(H) denotes the set of finite rank operators on H.
+Using the strict density of Fin(H) @aig A in M(K(H) ® A), we choose, for a given Y in

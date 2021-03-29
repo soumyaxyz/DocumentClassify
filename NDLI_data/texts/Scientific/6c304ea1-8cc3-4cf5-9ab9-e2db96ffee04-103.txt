@@ -1,0 +1,47 @@
+542
+
+543
+
+545,
+
+546
+
+547
+
+ 
+
+ACL 2015, July 26-31, 2015, Beijing, China, Volume 1: Short Papers. The Association for Computational Linguistics,
+291-296. https://www.aclweb.org/anthology/volumes/P15-2/
+
+Amrapali Zaveri, Anisa Rula, Andrea Maurino, Ricardo Pietrobon, Jens Lehmann, and Séren Auer. 2016. Quality
+assessment for Linked Data: A Survey. Semantic Web Journal 7, 1 (2016), 63-93.
+
+Lei Zhang. 2002. Knowledge Graph Theory and Structural Parsing. Ph.D. Dissertation. University of Twente.
+Weizhen Zhang, Han Cao, Fei Hao, Lu Yang, Muhib Ahmad, and Yifei Li. 2019. The Chinese Knowledge Graph
+on Domain-Tourism. In Advanced Multimedia and Ubiquitous Engineering, MUE/FutureTech 2019 (Lecture Notes in
+Electrical Engineering), Vol. 590. Springer, 20-27.
+
+Mingbo Zhao, Tommy WS Chow, Zhao Zhang, and Bing Li. 2015. Automatic image annotation via compact graph
+based semi-supervised learning. Knowledge-based Systems 76 (2015), 148-165.
+
+Suncong Zheng, Feng Wang, Hongyun Bao, Yuexing Hao, Peng Zhou, and Bo Xu. 2017. Joint Extraction of Entities
+and Relations Based on a Novel Tagging Scheme. In Proceedings of the 55th Annual Meeting of the Association for
+Computational Linguistics, ACL 2017, Vancouver, Canada, July 30 - August 4, Volume 1: Long Papers, Regina Barzilay and
+Min-Yen Ka (Eds.). The Association for Computational Linguistics, 1227-1236. https://www.aclweb.org/anthology/
+volumes/P1&-1/
+
+Bin Zhou and Jian Pei. 2008. Preserving Privacy in Social Networks Against Neighborhood Attacks, See [10], 506-515.
+Bin Zhou and Jian Pei. 2011. The k-anonymity and [-diversity approaches for privacy preservation in social networks
+against neighborhood attacks. Knowledge and Information Systems 28, 1 (2011), 47-77. https://doi.org/10.1007/s10115-
+010-0311-2
+
+Guodong Zhou, Jian Su, Jie Zhang, and Min Zhang. 2005. Exploring Various Knowledge in Relation Extraction, See
+[276], 427-434.
+
+Antoine Zimmermann, Nuno Lopes, Axel Polleres, and Umberto Straccia. 2012. A General Framework for Representing,
+Reasoning and Querying with Annotated Semantic Web Data. Journal of Web Semantics 12 (mar 2012), 72-95.
+
+Lei Zou, Lei Chen, and M. Tamer Ozsu. 2009. K-Automorphism: A General Framework For Privacy Preserving
+Network Publication. Proceedings of the VLDB Endowment 2, 1 (2009), 946-957.
+
+103

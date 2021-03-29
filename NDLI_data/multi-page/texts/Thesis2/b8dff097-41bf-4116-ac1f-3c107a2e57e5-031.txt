@@ -1,0 +1,51 @@
+3.1. THE GROUP Gz AND OCTONIONS 19
+
+3.1.1. Octonions from Rank 3 Hermitian Spaces. We briefly recall here
+from [T], a construction of octonion algebras from rank 3 hermitian spaces over a
+
+quadratic étale algebra over k. First we recall ({K MRT], Proposition 18.3),
+
+Definition 3.1.3. Let € be a finite dimensional k-algebra. Then € is called an
+
+étale algebra if E ®, k, =k, x ... x ks, where k, is a separable closure of k.
+
+Let L be a quadratic étale algebra over k with x + Z as its standard involution. Let
+(V, 6) be a rank 3 nondegenerate hermitian space over L (see Definition 1.3.4). Assume
+that the discriminant of (V,) is trivial, ic., A(V,6) & (L,< 1 >), where < 1 >
+
+denotes the hermitian form (x,y) + «y on L. Fixing a trivialization : A°(V,)
+
+Ile
+
+(L,< 1>), we define a vector product x: V x V —> V by the identity,
+h(u,v xX w) =v(uAvAr),
+
+for u,v,w € V. Let € be the 8-dimensional k-vector space € = C(L;V,6, 1) = L@V.
+
+We define a multiplication on € by,
+(a,v)(b, w) = (ab— b(v,w), aw+bu+uxw), abEL, vweV.
+
+With this multiplication, € is an octonion algebra over k with norm N(a,v) =
+Nrjx(a) + 6(v,v). Note that L embeds in € as a composition subalgebra. The
+isomorphism class of €, thus obtained, does not depend on 7. One can show that all
+
+octonion algebras arise this way. We need the following ([T], Theorem 2.2),
+
+Proposition 3.1.4. Let (V,h) and (V’,b’) be isometric hermitian spaces with
+trivial discriminant, over a quadratic étale algebra L. Then the octonion algebras
+C(L;V,6) and C(L;V',6’) are isomorphic, under an isomorphism restricting to the
+identity map on the subalgebra L.
+
+We also need the following,
+
+Lemma 3.1.5. Let L be a quadratic field extension of k. Let (V,6) be a rank
+three hermitian space over L with trivial discriminant. For any trivialization w of
+the discriminant, the octonion algebra €(L;v,6,W) is a division algebra, if and only
+
+if the k-quadratic form on V, given by q(x) = h(a, x), is anisotropic.
+
+3.1.2. Quaternions from Rank 3 Quadratic Spaces. We note that a similar
+construction for quaternion algebras can be done, starting from a rank 3 quadratic
+space V over k, with trivial discriminant. Let 6: V x V —> k be a nondegenerate
+
+bilinear form. Assume that the discriminant of (V, 6) is trivial, ie., A?(V,6) & (k, <

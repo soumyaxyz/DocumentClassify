@@ -1,0 +1,27 @@
+S.No. 6040 SBE 27:5
+
+(For candidates admitted from 2008-09 onwards)
+U.G. DEGREE EXAMINATION, APRIL 2013.
+Multimedia — Skill Based Elective
+DREAMWEAVER
+
+Time : Three hours Maximum : 75 marks
+
+PART A — (10 x 2 = 20)
+Answer ALL questions.
+
+1. Differentiate the Dreamweaver document category
+between basic and dynamic page.
+
+2. What is URL? Give an example.
+
+8. What is “slicing”?
+
+4. | What do you mean by Rollover Graphics?
+5. What does a meta tag refer?
+
+6. Give the meaning of “browser check”.
+
+Vi What is CSS?
+
+8. What is the use of java script behavior?

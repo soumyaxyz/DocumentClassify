@@ -1,0 +1,64 @@
+Chapter 4: Quantum isometry groups for Rieffel deformed manifolds 138
+
+ 
+
+which by Corollary 1.3.4 and Proposition 1.3.1
+
+= Ui, Ug.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Therefore, Agoo XZ Booo = Booo XZ Aooo-
+Lemma 4.4.13. Aoo1 XZ Boor = e(—20) Boor x 7 Avot
+
+Proof : Proceeding exactly as in the previous Lemma, we obtain
+
+(Aoo1 x 7 Boo1)(u1, u2, 0, ay 1)
+_f. J ao ($92), e( 5 1)) (wt, 12,00, 1)(€ (St), (Sti)
+Boos[(e(-s') eo) 00 1)(e(t{), e(ts))Je(u.v)dsdtds' dt’ ,
+
+which by ( 4.4.2 ) equals
+
+0 0 0 0
+J» f Aooie(—Soa)ue(t), e(5si)ure(—5t2),0,0, 1]
+Boor [e(—s{)ure(ts), e(—s4)uze(t)), 0, 0, lle(u.v)dsdtds' dt"
+
+0 0
+= ui f e€ (—582 a
+
+0
+wus ff e(—Js9) Je(—s$)e(sa.s))dsodsy [fe xty)e(t} )e(ti.t4 dtr dt,
+| [eo si yasidst [ fe (tg.t5)dtodt!,
+
+which by Corollary 1.3.4 and Proposition 1.3.1 equals
+
+0 0
+uuze(—5)e(—5)
+
+= ujuze(—6).
+Similarly, using Corollary 1.3.4 and Proposition 1.3.1
+
+(Boo1 X 7 Aoo1)(t1, v2, 0, 0, 1)
+0 6 6 6
+= J» Bolel—Sorduie( A), e(581)uze(—5t2), 0,0, 1]
+Aooi[e(—s4)ure(t), e(—s4)uze(t)), 0, 0, lle(u.v)dsdtds'dt’
+
+0
+= uyu2 / on f eGsidel—Fta)el—si)elte)e(o1- + 89.85 + t1.t) + to.tg)dsdtds'dt!
+
+aS
+
+Je(S)
+).
+
+= uure(
+
+Swi
+
+= wuze(

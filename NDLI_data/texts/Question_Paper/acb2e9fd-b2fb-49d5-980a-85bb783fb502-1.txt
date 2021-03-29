@@ -1,0 +1,60 @@
+2
+17. (a) Transform the problem oe t+ay=1,
+y(0) = y(1)=0 into an integral equation.
+
+Or
+_(b) Solve the equation
+
+y(x)=14+4 fe (8) y (E)dé considering
+
+separately all exceptional cases.
+
+18. (a) Solve the equation
+1
+y(x)=x+fK(x,é)  y(€)dé where
+0
+
+2 aawy where & <x
+K (x, é) =i!
+70-2) where é > x.
+
+Or
+
+ 
+
+(b) Find the Fourier cosine transform of : :
++x
+
+4 S.No. 1263
+
+on Noa pep wow YN Bp
+
+S.No. 1263 RNE 310/RNH 310
+
+(For candidates admitted from 1996-1997 onwards)
+M.Sc, DEGREE EXAMINATION, i) i
+
+Mathematics/Applied uN’ (eyisER 2 2009
+METHODS OF APPLIED MATHEMATICS
+
+ 
+
+Time : Three hours Maximum : 75 marks
+SECTION A — (10 x 2 =.20)
+
+_Answer ALL questions.
+Define general calculus of variation problem.
+State Hamilton’s principle in its general form.
+Define reduced potential energy.
+Describe Dirichlet problem.
+Write Volterra integral equation.
+Define separable kernel.
+When an integral equation is said to be singular?
+Write Abel’s equation.
+
+Define infinite Fourier Transform.
+
+b
+°
+
+State Parse Val’s identity.

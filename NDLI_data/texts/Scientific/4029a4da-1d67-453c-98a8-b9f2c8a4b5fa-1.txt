@@ -1,0 +1,112 @@
+2015 IEEE International Symposium on Multimedia
+
+TRACE: Linguistic-based Approach for Automatic Lecture Video Segmentation
+Leveraging Wikipedia Texts
+
+Rajiv Ratn Shah
+School of Computing
+National University of Singapore
+Singapore
+rajiv@comp.nus.edu.sg
+
+Anwar Dilawar Shaikh
+Department of Computer Engineering
+Delhi Technological University
+Delhi, India
+anwardshaikh@ gmail.com
+
+Abstract—In multimedia-based e-learning systems, the ac-
+cessibility and searchability of most lecture video content is
+still insufficient due to the unscripted and spontaneous speech
+of the speakers. Moreover, this problem becomes even more
+challenging when the quality of such lecture videos is not
+sufficiently high. To extract the structural knowledge of a
+multi-topic lecture video and thus make it easily accessible
+it is very desirable to divide each video into shorter clips by
+performing an automatic topic-wise video segmentation. To this
+end, this paper presents the TRACE system to automatically
+perform such a segmentation based on a linguistic approach
+using Wikipedia texts. TRACE has two main contributions:
+(i) the extraction of a novel linguistic-based Wikipedia feature
+to segment lecture videos efficiently, and (ii) the investigation
+of the late fusion of video segmentation results derived from
+state-of-the-art algorithms. Specifically for the late fusion, we
+combine confidence scores produced by the models constructed
+from visual, transcriptional, and Wikipedia features. According
+to our experiments on lecture videos from VideoLectures.NET
+and NPTEL', the proposed algorithm segments knowledge
+structures more accurately compared to existing state-of-the-
+art algorithms. The evaluation results are very encouraging
+and thus confirm the effectiveness of TRACE.
+
+Keywords-Lecture video segmentation; e-learning systems;
+multimodal analysis; Wikipedia; late fusion; linguistic features
+
+I. INTRODUCTION
+
+A large volume of digital lecture videos has accumulated
+on the web due to the ubiquitous availability of cameras and
+affordable network infrastructures. However, a significant
+number of old (but important) videos with low visual quality
+from well known speakers are also commonly part of such
+databases. Because a specific topic of interest is often
+discussed in only a few minutes of a long video recording,
+it is essential to perform an efficient and fast topic boundary
+
+‘National Prog. on Technology Enhanced Learning: http://nptel.ac.in/
+
+978-1-5090-0379-2/15 $31.00 © 2015 IEEE
+DOT 10.1109/ISM.2015.18
+
+217
+
+Yi Yu
+Digital Content and Media Sciences Research Division
+National Institute of Informatics
+Tokyo, Japan
+yiyu@nii.ac.jp
+
+Roger Zimmermann
+School of Computing
+National University of Singapore
+and NUSRI, Suzhou, China
+rogerz@comp.nus.edu.sg
+
+detection that also works robustly with lower quality videos.
+Moreover, such topic-wise segmentation of a lecture video
+into smaller cohesive intervals is advantageous to enable an
+easy search of the desired pieces of information. However,
+an automatic segmentation, indexing, and content-based
+retrieval of appropriate information from a large collection
+of lecture videos is very challenging because: (i) SRT (sub-
+title resource tracks) of lecture videos contain repetitions,
+mistakes, and rephrasings, (ii) the low visual quality of such
+videos may be challenging for topic boundary detection, and
+(iii) the camera may in many parts of a video focus on the
+speaker instead of the, e.g., whiteboard.
+
+State-of-the-art methods for automatic lecture video seg-
+mentation are based on the analysis of visual content, speech
+signals, and transcripts/SRT. However, none of the prior ap-
+proaches consistently yields the best segmentation results for
+all lecture videos due to unclear topic boundaries, varying
+video qualities, and the subjectiveness inherent in transcripts.
+Since multimodal information augments multimedia based
+applications and services [6], [8], we postulate that a crowd-
+sourced knowledge base such as Wikipedia can be very
+helpful in the automatic lecture video segmentation because
+it provides several semantic contexts to analyze and segment
+videos more accurately. Empirical results in Section IV con-
+firm our intuition. Thus, segment boundaries computed from
+SRT using state-of-the-art methods are further improved by
+refining these results using Wikipedia features. Our proposed
+TRACE system also works well for the detection of topic
+boundaries when only Wikipedia texts and SRT of lecture
+videos are available. Generally, the length of lecture videos
+ranges from 30 minutes to 2 hours, and computing the
+visual and audio features is a very time consuming process.
+Since TRACE is based on a linguistic approach, it does not
+require to compute such features from video content and
+
+@® com suter
+= PSoclety

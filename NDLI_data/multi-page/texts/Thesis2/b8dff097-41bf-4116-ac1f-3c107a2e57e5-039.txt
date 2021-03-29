@@ -1,0 +1,47 @@
+CHAPTER 4
+Galois Cohomology
+
+In this chapter we give a brief introduction to Galois Cohomology. The book by
+Serre ({Se]) is an excellent reference for the subject and the exposition here is drawn
+from that book. Another good reference is the notes by Kneser ([K]). Occasionally
+we also need the theory of central simple algebras for which we refer to [P]. To
+understand the theory of algebraic groups over base field k it is very important to
+
+understand Galois Cohomology.
+
+4.1. Commutative Cohomology and Central Simple Algebra
+
+Let G be a group and let A be a set on which G acts. We denote the action by
+s(a) =*a for s € Gandaé A. We call Aa G-set. If A is a group and the action of G
+
+is via automorphisms then we call A a G-group. Let A be an Abelian G-group. We
+define C°(G, A) = A and C'(G, A) = {a: Gx... x G — A} which is the set of all
+SS
+
+maps from G x ... x G to A. We also write a(si,...,$;) aS Gs,,...5;. We define maps
+L , yes
+
+ie
+
+5°: C° + C! by 6°(a)(s) = 8a — a and
+
+& : CC! fori> 1
+5(a)(81,---,Si41) = “a(S2,--., Si41)
++ So (-1¥a(s1, 62+) 8785p 415 +++, Sip) + (1) a(s1,..., 82)
+j=!
+Then
+0 C0 50 C gl C2 62 gi-l ci 5 cit git
+
+ 
+
+is a chain-complex. We define 2'(G,A) = ker(6'), the group of cocycles and
+B'(G, A) = Im(6"1), the group of coboundaries. Then B'(G, A) C 2*(G, A) and
+2(G,A)
+
+we define H'(G,A) = BUGA)? called i-th cohomology group. The cohomology
+
+groups are Abelian groups. We write down first few cohomology groups explicitly.
+(1) H°(G, A) = AT = {aE A| 8a =aVs € G}, the set of fixed points of A by
+the action of G.
+
+27

@@ -1,0 +1,177 @@
+568
+
+0.9
+
+0.7
+0.6
+
+a
+S05 t
+
+ 
+
+ 
+
+ 
+
+SsDM
+
+|RM3
+‘2SELM+RM3
+SEQFE
+
+\'™ SELM+EQF!
+
+ 
+
+@SELM+SDM |!
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+SDM ;
+
+||=SELM+SDM |
+08»
+_|4SEEM+RM3 |,
+
+SEQFE
+
+F. Ensan, W. Du
+
+ 
+
+03
+0.25
+0.2
+
+Bois
+
+0.1
+
+ 
+
+ 
+
+SDM
+
+@RM3
+SELM+RM3
+SEQFE
+
+|@SELM+SDM |)
+
+ 
+
+™SELM+EQFE |!
+
+ 
+
+ 
+
+  
+   
+   
+  
+ 
+
+Robust04
+
+ 
+
+ 
+
+ 
+
+SDM MAP
+
+(a)
+
+ 
+ 
+   
+  
+
+ 
+
+50%-75% 75%-100%
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+SDM
+
+™SELM+SDM |+
+
+RMB
+%SELM+RM3
+SEQFE
+
+™ SELM+EQFE
+
+ 
+
+ 
+
+ 
+
+Clueweb09-B
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+"= SELM+EQFE},
+
+ 
+
+ 
+ 
+
+WN HOD!
+
+ 
+
+ 
+
+ 
+
+   
+
+Y
+SDM MAP
+(b)
+
+Fig. 5 Mean retrieval effectiveness across different query-difficulties measured according to the percentile
+
+of SDM
+
+a Springer

@@ -1,0 +1,21 @@
+Algorithms for some Geometric Facility Location
+
+and Path Planning Problems
+
+Doctoral dissertation submitted by
+
+Sasanka Roy
+
+for award of the Ph.D. degree of the
+Indian Statistical Institute, Kolkata
+
+Advisor :
+
+Dr. Sandip Das
+
+Advanced Computing and Microelectronics Unit
+Indian Statistical Institute
+
+Kolkata 700 108
+
+June 2007

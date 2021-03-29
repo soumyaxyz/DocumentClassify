@@ -1,0 +1,80 @@
+7.3. SLi(D), DEG(D) ODD Bl
+
+ 
+
+ 
+
+where « € T. Then g? = hrhx = —hrh a a-!a = —I and this proves the
+
+ 
+
+ 
+
+ 
+
+required result.
+
+ 
+
+We now consider Q, a quaternion algebra over k. It is a central simple algebra
+over k of degree 2. We note that SL;(Q) = {x € Q* | Nrd(x) = 1} is a form of SL»
+over k. We denote the group SL1(Q)/Z(SLi(Q)) by PSL1(Q).
+
+Proposition 7.2.5. With notation as above, let G = PSL\(Q) andt € G be a
+semisimple element. Then, t is real in PSL1(Q) if and only if t is strongly real in
+
+PSL,(Q). Furthermore, G = SL1(Q) has real elements which are not strongly real.
+
+Proof. We first observe that an element t € Q* is either strongly regular or
+
+central. Proof of this fact and the rest of the proposition is on similar lines as in
+
+ 
+
+ 
+
+ 
+
+Lemma 7.2.3 and Proposition 7.2.4.
+
+ 
+
+7.3. SL(D), deg(D) Odd
+
+We now consider anisotropic simple groups of type A,, for n even. These are
+the groups S'Z,(D) for central division algebras of degree n + 1. Let D be a central
+division algebra over a field k, with degree D odd. Let G = D* or G = SL\(D) =
+{x € D* | Nrd(x) = 1}. We have,
+
+Theorem 7.3.1. Let G be as above. Then the only real elements in G = D* are
+
+ 
+
++1. InG=SL,(D), there are no nontrivial real elements.
+
+Proof. We first prove that there are no non-central real element in G and there
+are no non-central involutions in G. Let t € G be a real element which is not in the
+center of D. Then k(t) is a subfield # k contained in D and has a field automorphism
+defined by t + t7! of order two. Hence the degree of k(t) over k is even. But degree
+of D being odd, D can not contain a field extension of even degree. Hence there are
+no real elements which are not in the center of G.
+
+Now let ¢t € G is a non-central involution. Then k(t) is a field extension over k
+of even degree. Following similar argument as in the previous paragraph, we get a
+
+contradiction. Hence any involution in G is in the center of G. Since D is central an
+
+ 
+
+ 
+
+ 
+
+ 
+
+degree D is odd, any such involution is trivial. This completes the proof.
+
+Corollary 7.3.2. Let D be a central division algebra over a field k, with degree
+D odd. Let o be an involution on D. Then the group Iso(D,o) has no nontrivial real
+
+elements.

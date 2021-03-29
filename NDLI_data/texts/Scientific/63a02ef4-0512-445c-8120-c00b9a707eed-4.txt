@@ -1,0 +1,117 @@
+Hulth (500) Krapivin (400) Meng (20K) OAGK (100K)
+Method Fi@5 Fi@7|Fi@5 Fi@7|Fi@5 F:i@7 | Fi@5  Fi@7
+YAKE! 19.35 21.47 17.98 17.4 17.11 15.19 15.24 14.57
+TOPICRANK 16.5 20.44 6.93 6.92 11.93 11.72 11.9 12.08
+MAUuI 20.11 20.56 23.17 23.04 22.3 19.63 19.58 18.42
+CopyRNN 29.2 33.6 30.2 25.2 32.8 25.5 33.06 31.92
+MERGE 6.85 6.86 4.92 4.93 8.75 8.76 11.12 13.39
+INJECT 6.09 6.08 4.1 4.11 8.09 8.09 9.61 11.22
+ABS 14.75 14.82 10.24 10.29 12.17 12.09 14.54 14.57
+POINTCOV 22.19 21.55 19.87 20.03 20.45 20.89 22.72 21.49
+
+ 
+
+ 
+
+Table 2: Full-match scores of predicted keyphrases by various methods
+
+ 
+
+Hulth (500)
+Ri Fy
+
+Method
+YAKE!
+TOPICRANK
+Maul
+CopYyRNN
+MERGE
+INJECT
+
+ABS
+POINTCOV
+
+RiF, | RiFi
+
+ 
+
+Krapivin (400)
+
+Meng (20K)
+RiF, Ri,
+
+OAGK (100K)
+
+RLF, RF RA
+
+ 
+
+ 
+
+Table 3: Rouge scores of predicted keyphrases by various methods
+
+frequent words.
+
+The few parameters of the unsupervised meth-
+ods (length and windows of candidate keyphrases
+for YAKE!, ranking strategy for TOPICRANK)
+were tuned using the validation part of each
+dataset. For the evaluation, we used F, score of
+full matches between predicted and authors’ key-
+words. Given that the average number of key-
+words in the data is about 6, we computed F,
+scores on top 5 and top 7 returned keywords
+(F, @5, F; @7).
+
+Before each comparison, both sets of terms
+were stemmed with Porter Stemmer and dupli-
+cates were removed. In the case of summa-
+rization models, keyphrases were extracted from
+their comma-separated summaries. We also
+computed ROUGE-1 and ROUGE-L F; scores
+(Ri F,, R,F;) that are suitable for evaluating
+short summaries (Lin, 2004). The keywords ob-
+tained from the unsupervised methods were linked
+together to form the keyphrase string (assumed
+summary). This was later compared with the orig-
+inal keyphrase string of the authors.
+
+Full-match results on each dataset are reported
+in Table 2. From the unsupervised models, we
+see that YAKE! is consistently better than TOPI-
+CRANK. The next two supervised models perform
+even better, with COPYRNN being discretely su-
+perior than MAUI.
+
+Results of the four summarization models seem
+
+disappointing. MERGE and INJECT are the worst
+on every dataset, with highest score 13.39 %. Var-
+ious predictions of these models are empty or very
+short, and some others contain long word repeti-
+tions which are discarded during evaluation. As a
+result, there are usually fewer than five predicted
+keyphrases. This explains why F; @5 and F; @7
+scores are very close to each other.
+
+ABS works slightly better reaching scores from
+10.24 to 14.75 %. POINTCOv is the best of the
+text summarizers producing keyphrase predictions
+that are usually clean and concise with few repe-
+titions. This is probably the merit of the coverage
+mechanism. There is still a considerable gap be-
+tween POINTCOV and COPYRNN. Rouge-! and
+Rouge-L F; scores are reported in Table 3. CoPy-
+RNN is still the best but POINTCOvV is close. ABS
+scores are also comparable to those of MAUI and
+YAKE!. TOPICRANK, MERGE and INJECT are
+again the worst.
+
+Regarding the test datasets, the highest result
+scores are achieved on Hulth and the lowest on
+Krapivin. We checked some samples of the later
+and observed that each of them contains separa-
+tion tags (e.g., -T, -A, —B, Figure etc.) for indi-
+cating different parts of text in the original paper.
+A more intelligent text cleaning step may be re-
+quired on those data.

@@ -1,0 +1,33 @@
+CHAPTER 0
+Prologue
+
+Group theory is ubiquitous in nature and it arises via symmetry aspects of ob-
+jects. The most common groups are the set of linear transformations which preserve
+symmetry of some object. The way platonic solids are related to finite subgroups of 3-
+dimensional orthogonal group has mesmerized us for a long time. It is a striking fact,
+but not surprising, that algebraic groups have their origin in differential equations.
+It was imagination of S. Lie and later some papers written by Kolchin, to develop
+Galois theory for differential equations which gave birth to algebraic groups. To start
+with, linear algebraic groups are defined over algebraically closed fields. In many ways
+they have properties similar to Lie groups. It is a credit to the great mathematicians
+Chevalley, Kolchin, Borel and others, who extensively studied the theory of algebraic
+groups. They also brought in the picture of algebraic groups defined over an arbitrary
+base field k. In studying algebraic groups over algebraically closed fields one has a lot
+of facilities and nice theorems. However studying groups over an arbitrary base field
+is equally important from the point of view of group theory and its representations.
+In this thesis we deal with the subject of algebraic groups and try to look into the
+structure of some of the groups. We hope this thesis adds to the understanding of
+algebraic groups.
+
+We now describe the organization of this thesis. The question of determining
+real elements in an algebraic group is of great importance from the point of view of
+representation theory. A reader who is just interested in looking up the results proved
+in this thesis, should go straightaway to Chapter 6 and then move on to Chapter 10 for
+connections with representation theory. Since there is no general theory to describe
+the main results in answer to our questions we study the question of reality for various
+groups case by case. We have mainly dealt with classical groups case by case and
+groups of type G2. Indeed we see that the results are coherent and follow a pattern
+which guides us towards asking the question in broader sense, i.e., for all algebraic
+groups (see Section 10.2). Some general results in Chapter 9 further strengthen our
+
+claim.

@@ -1,0 +1,50 @@
+Chapter 4: Quantum isometry groups for Rieffel deformed manifolds 120
+
+ 
+
+= J foe @ Q( Ju) ® id)(aq) ® A(aqy)) « (id ® (Q(v) @ id))(s(1) @ A(s(ay))
+e(u.v)dudu
+
+[ [tae (Q( Ju) @ id)A(agy)} © {5 (Q(v) @ id)A(s9) }e(u.v)dudv
+
+a1) $(1) 2 f [a ((Q(Ju) @ id)A(az)) © (Q(v) @ id)) A(s(ay e(u.v)dudu
+( by (4.2.1))
+
+(1) (1) =f fi (Ju) sary © (A(v) <1 8(2) e(u.v)dudv,
+
+where we have used the relation (a @ id)a = (id @ A)a to get a(1)(1) ® a(1)(2) @ a2) =
+
+ 
+
+ 
+
+ 
+
+a) ® A(ai2)) and similarly 8(1)(1) ® S(1)(2) ® $(2) = $1) @ A(s(2))-
+
+ 
+
+Combining Lemma 4.2.3, Lemma 4.2.5 and Lemma 4.2.6, we conclude the following.
+Lemma 4.2.7. Fora in Ao, s in So, we have
+a(a)e; a(s) =a(a x zs). (4.2.9)
+
+For a,b in Ao, we have
+a(a) e; a(b) = a(a xz b). (4.2.10)
+
+We shall now identify © with the multiplication of a Rieffel-type deformation of
+aA o ). We discuss the case for 8, that of Q being similar. Since o has a quantum
+subgroup isomorphic with C(T"), we can consider the following canonical action x of
+R2” on QO (as in ( 1.3.8 ) ) given by
+
+X(s,u) = (O(—s) @id)A(id @ Q(u))A.
+
+Now, let J := —J @J, which is a skew-symmetric 2n x 27n real matrix, so one can deform
+
+o by defining the product of x and y (x,y belonging to Qo, say) to be the following:
+
+/ / X Flu) ()Xva(yel(u,w).(v,8))d(u, w)d(v, 8).
+We claim that this is nothing but © introduced before.
+
+Lemma 4.2.8.
+
+LOY=EXFZY for all x,y € Qo.

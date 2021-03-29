@@ -1,0 +1,116 @@
+OCR-VQA: Visual Question Answering by Reading Text in Images
+
+Anand Mishra! Shashank Shekhar!
+
+Ajeet Kumar Singh? Anirban Chakraborty!
+
+Indian Institute of Science, Bangalore, India
+2TCS Research, Pune, India
+
+Abstract—The problem of answering questions about an
+image is popularly known as visual question answering (or
+VQA in short). It is a well-established problem in computer
+vision. However, none of the VQA methods currently utilize the
+text often present in the image. These “texts in images” provide
+additional useful cues and facilitate better understanding of
+the visual content. In this paper, we introduce a novel task of
+visual question answering by reading text in images, i.e., by
+optical character recognition or OCR. We refer to this problem
+as OCR-VQA. To facilitate a systematic way of studying this
+new problem, we introduce a large-scale dataset, namely OCR-
+VQA-200K. This dataset comprises of 207,572 images of book
+covers and contains more than 1 million question-answer pairs
+about these images. We judiciously combine well-established
+techniques from OCR and VQA domains to present a novel
+baseline for OCR-VQA-200K. The experimental results and
+rigorous analysis demonstrate various challenges present in
+this dataset leaving ample scope for the future research. We are
+optimistic that this new task along with compiled dataset will
+open-up many exciting research avenues both for the document
+image analysis and the VQA communities.
+
+Keywords-Optical Character Recognition (OCR), Visual
+Question Answering (VQA), Document image analysis,
+textVQA.
+
+I. INTRODUCTION
+
+Given an input image and a related natural language ques-
+tion, the visual question answering (VQA) task seeks to
+provide a natural language answer. In recent times, VQA has
+emerged as an important problem spanning computer vision,
+natural language understanding and artificial intelligence.
+However, VQA tasks and datasets are often limited to scene
+images. In this work, we introduce a novel task of visual
+question answering by reading text. Consider a scenario
+where a visually-impaired person picks up a book in the
+library (Figure [). and asks the following questions to an
+intelligent conversational agent “Who is the author of this
+book?” or “What type of book is this?.’ Even, answering
+these apparently simple questions requires reading text in the
+image, interpreting the question and arriving at an accurate
+answer. Despite significant progress in VQA literature
+in the past few years, this important problem has not been
+studied. We fill this gap by introducing a novel dataset
+namely OCR-VQA-200K which contains 207,572 images of
+book covers and 1 million question-answer pairs about these
+images. This dataset can be explored and downloaded from
+
+our project website: https://ocr-vqa.github.io
+
+. What is the title of this book?
+
+. Vermont Beautiful
+
+. Who is the author of this book?
+. Wallace Nutting
+
+. What type of book is this?
+
+. Travel
+
+rPAP-PAPA
+
+Figure 1: We introduce a novel task of visual question
+answering by reading text in images, an accompanying
+large-scale dataset and baseline for this task. [Best viewed
+in color].
+
+The optical character recognition (OCR) has a long his-
+tory in computer vision and pattern recognition commu-
+nities . In the early years, OCR research has been
+restricted to handwritten digits [BJ and clean printed doc-
+ument images [19]. Recently, OCR has manifested itself
+into various forms, e.g., photoOCR, popularly known as
+scene text recognition and unconstrained handwritten
+text recognition [15]. There has been significant progress
+in all these forms of OCR problem. Nevertheless, many
+problems still remain open, e.g., recognizing text with ar-
+bitrary fonts and layout. In this paper, we further multiply
+the aforementioned challenges in OCR with that in the VQA,
+and introduce a novel task of answering visual questions by
+reading and interpreting text appearing in the images.
+
+Further, we provide a novel deep model for VQA by
+reading texts in images. To this end, we rely on state-of-the-
+art text block identification and OCR modules, and present
+a trainable visual question answering system. Our baseline
+VQA system constitutes of the following representations:
+(i) pretrained CNN features for visual representation, (ii)
+text block coordinates and named entity tags on OCRed
+text for textual representation, and (iii) bi-directional LSTM
+for question representation. All these representations are fed
+to a trainable feed foreword neural network to arrive at an
+accurate answer.
+
+Contributions of this paper
+
+ 
+
+1) We draw attention to a novel and important problem of
+visual question answering by reading text in images.
+We refer to this new problem as OCR-VQA.
+
+2) We introduce OCR-VQA-200K, the first large-scale
+dataset for the proposed VQA task by reading text
+in the image. This dataset can be downloaded from

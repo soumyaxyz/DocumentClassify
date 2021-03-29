@@ -1,0 +1,46 @@
+177 The spectral triple by Chakraborty and Pal on SF as c>0
+
+Nie
+
+ee 1 og, gies
+(a_1ah* + pada”) — (e¢(n)? — c_(n)? (Gh yan* + G_sat*))-
+
+Proof : We note that 1(A) ( \ ) = ( te (4) ) ( \ ) = ( aes ) =
+Ayper ( ; ) .
+
+_ 0 ( as
+Similarly, ( A, ) =e
+
+Now, using ( 5.4.7 ),
+
+e e 1 _« _«
+a(A) ( " ) = ( " ) @ sAsH"( + Gran) + AWE "(1 — aan *)}
+
+En 1 He 9
+= 1 (A) ( ) ® nore + On dn) +A = aan”) }-
+
+Similarly,
+
+en En 2r_
+
+way ( ° ) ==n( ° Je {04 (1— gtant) +1 + atan")}-
+
+Thus, o(A) = 1929 APn ® yr f{Ae(1+ gtan*) + A_(1—atan*)} ++ Wr9 AQn ®
+mc + (1— aan") +A-(1 + aan )}-
+
+ 
+
+ 
+
+ 
+
+ 
+
+7 0
+By similar considerations from a(B) ( : ) ,a(B) ( ) the result follows.
+en
+
+Lemma 5.4.7. Let P, = Pr +Qn. Then for each vector v in H, a(Pa)v = Pv Ql.
+
+Proof : To start with, we recall that P, and Q, belong to (Sic) ( Lemma 5.4.2 ).
+Hence, P,, belongs to (SP):

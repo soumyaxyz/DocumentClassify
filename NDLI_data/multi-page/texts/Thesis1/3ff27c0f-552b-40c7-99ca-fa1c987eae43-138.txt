@@ -1,0 +1,68 @@
+Chapter 4: Quantum isometry groups for Rieffel deformed manifolds 126
+
+ 
+
+= X(s,uy72(a)-
+
+2 sexs
+Ces) acy
+
+Therefore, for all a, b in (G2),,
+
+Thus, for all (s,u) in R?”, mx
+
+mo(a x3 b)
+
+T2( J Gulr2Oe(usv)duae)
+
+= J [ r202nla) a2 ))e(uv)dute
+=f [alah ra())eluv)dude
+
+= m(a) x} m9(b).
+
+where the third step is permissible by Proposition 1.3.2.
+
+ 
+
+This proves that 72 is indeed a homomorphism.
+
+ 
+
+ 
+
+ 
+
+Theorem 4.3.8. 1. If QISO}(AP,H, D) and (QISOP(A®, H, D)) 7 have C* actions
+
+on A and Aj respectively, we have
+
+ 
+
+ 
+
+QISOF(AP,H, D) = (QISO}(A®, H, D))7
+
+QISOR(AP,H, D) = (QISOR(A®, H, D));.
+2. If moreover, QISO (A®,H, D) and QISO*(A®,H,D) both exist and have C*
+actions on A and Aj respectively, then
+—— + —~— +
+Q1S0" (AP. 4, D) = (a7s0 (A*,,D)) ,
+J
+QISO* (AF, H, D) = (QISOt(A™, H, D));.
+
+Proof : We prove 1 only. From Corollary 4.3.4 and Lemma 4.3.5 we see that
+QISO$(A,H, D); is an object of Q’p(As,H, D). Thus,
+
+ 
+
+ 
+
+(QISOF(A,H, D))7< QISOP(As,H, D) in Q’p(Ay,H, D).
+
+ 
+
+ 
+
+So, by Lemma 4.3.7, ((QISOR(A, H, D))7)_7 < (QISOR(As,H, D))_7
+
+in Q’p(A,H, D), hence QISO}(A,H, D) < (QISO}(Azs,H, D))_;-

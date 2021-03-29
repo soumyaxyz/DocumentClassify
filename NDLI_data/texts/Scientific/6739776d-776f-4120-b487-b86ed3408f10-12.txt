@@ -1,0 +1,148 @@
+Zellers, Rowan, Yatskar, Mark, Thomson, Sam, and Choi, Yejin. Neural motifs: Scene graph parsing
+with global context. arXiv preprint arXiv:1711.06640, abs/1711.06640, 2017.
+
+Zheng, Shuai, Jayasumana, Sadeep, Romera-Paredes, Bernardino, Vineet, Vibhav, Su, Zhizhong, Du,
+Dalong, Huang, Chang, and Torr, Philip HS. Conditional random fields as recurrent neural networks.
+In Proceedings of the IEEE International Conference on Computer Vision, pp. 1529-1537, 2015.
+
+7 Supplementary Material
+
+This supplementary material includes: (1) Visual illustration of the proof of Theorem 1. (2) Explaining
+how to integrate an attention mechanism in our GPI framework. (3) Additional evaluation method to
+further analyze and compare our work with baselines.
+
+7.1 Theorem 1: Illustration of Proof
+
+231125.) 73,1 [ ss | a(sa)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+G Zz 4] Zoo] 22 3 ie a(sz) G'
+ae
+dD. A, (ae
+WY OF H(z) (
+Zig |OF H(z3)
+0/4/2| |o- :
+0/3] |o H(z)
+2/310
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Figure 5: Illustration of the proof of Theorem | using a specific construction example. Here H is a hash function
+of size L = 5 such that H(1) = 1, H(3) = 2, H(2) = 4, Gis a three-node input graph, and z;,; € R are the
+pairwise features (in purple) of G.. (a) ¢ is applied to each z;,;. Each application yields a vector in R°. The three
+dark yellow columns correspond to (21,1), 6(1,2) and ¢(z1,3). Then, all vectors ¢(z:,;) are summed over j
+to obtain three s; vectors. (b) a’s (blue matrices) are an outer product between 1 [H(z;)] and s; resulting in a
+matrix of zeros except one row. The dark blue matrix corresponds for a(z1, 81). (¢) All a’s are summed to a
+5 x 5 matrix, isomorphic to the original z;,; matrix.
+
+7.2. Characterizing Permutation Invariance: Attention
+
+Attention is a powerful component which naturally can be introduced into our GPI model. We now
+show how attention can be introduced in our framework. Formally, we learn attention weights for the
+neighbors j of a node i, which scale the features z;,; of that neighbor. We can also learn different
+attention weights for individual features of each neighbor in a similar way.
+
+Let w;,; € R be an attention mask specifying the weight that node 7 gives to node j:
+
+Wij (Zi Zig, 25) = ePlaezsnts) [> cB (2:20:24) (4)
+t
+
+where ( can be any scalar-valued function of its arguments (e.g., a dot product of z; and z; as in
+standard attention models). To introduce attention we wish a € R* to have the form of weighting
+w;,j over neighboring feature vectors z;,;, namely, a = Vi 4i Wi, j2i,j-
+
+To achieve this form we extend @ by a single entry, defining @ € R°+! (namely we set
+L=€+ 1) a @pel%ip 2023) = Feria) y, (here @;., are the first e elements of @)
+
+12

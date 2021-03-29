@@ -1,0 +1,48 @@
+excellent task performance, they are inherently opaque — it is very difficult to uncover a rationale
+for why the model scores an entity high for a query, because neither the dimensions nor the scoring
+function are human interpretable. Since users are often the final consumers of a KB (e.g., via a
+KB-based QA task, or an entity retrieval task [Xiao et al., 2016]), we believe providing a rationale
+behind a prediction to them is an important sub-task for building trust in these systems.
+
+Contributions: We present OXKBC: a post-hoc Outcome eXplanation engine, which is faithful to a
+given T F’-based KBC model (/). It works on the underlying Knowledge Graph, KG, corresponding
+to the facts given in the Knowledge Base, KB. It first augments the AG with weighted edges
+between entities based on their similarity as defined by the underlying model M. It then posits that
+an explanation for a prediction o for query r(s, ?) is a path between s and o in this augmented graph.
+
+A key contribution of our work is that similar paths are grouped into second-order templates
+and OXKBC trains a neural template selection module for explaining a given prediction. We define
+novel unsupervised and semi-supervised loss functions, so that this module can be trained with no or
+minimal training data. OXKBC outputs the highest scoring path within the selected template as an
+explanation to the user. We evaluate OXKBC explanations via a user study over Amazon Mechanical
+Turk. We find that workers overwhelmingly prefer OXKBC explanations compared to rule-mining
+techniques proposed earlier.
+
+2. Related Work
+
+KBC: Other than T’F' based models, research has also explored path based approaches for KBC. They
+use random walk with restarts [Lao and Cohen, 2010] and more recently, reinforcement learning
+[Das et al., 2018, Xiong et al., 2017] to construct multi-hop paths in the knowledge graph and
+use those to make predictions. The paths may offer natural interpretability [Nickel et al., 2016],
+but the performance of these models is significantly lower than TF’, especially on large KBs like
+FB15K [Bordes et al., 2013], and YAGO [Suchanek et al., 2007]. See Appendix A.1 for a detailed
+comparison. [Rocktaschel and Riedel, 2017] inductively learn first order rules to generate paths
+by using a differentiable version of backward chaining. Unfortunately, it does not scale beyond
+10K facts in KB.! In contamporaneous work, [Minervini et al., 2020] speed up neural theorem
+proving for this task. Unfortunately, we could not get their method to complete even after a week of
+continuous computation on FB15K, suggesting that their method still is not scalable to large KBs.
+Earlier, research had also considered symbolic Horn-clause style inference [Lao and Cohen, 2010,
+Schoenmackers et al., 2010], though these are no longer competitive with modern neural methods.
+TF methods, like DistMult [Yang et al., 2015] and ComplEx [Trouillon et al., 2016], calculate
+the score S”(s,r,o), of a triple r(s, 0) via a latent tensor factorization over entity embeddings
+(3, £) and relation embeddings (7). Key idea in these methods is to learn embeddings such that the
+score S™ of the facts present in the KB is high. In this case, DistMult [Yang et al., 2015] aligns
+relation embeddings to the Hadamard product of the embeddings of head and tail entitites. It uses
+S™“(s,r,0) = 7" (Se 0), where e is the element-wise product, also known as Hadamard product.
+While in principle OXKBC may be adapted to explain any 7’F’ model’s predictions, in our
+experiments, we use TypedDistMult 7 [Jain et al., 2018] as our underlying model M. The key idea
+is to augment the scoring function used by DistMult to reduce type errors. Two new terms are
+introduced to account for head and tail entity type compatibility. The approach requires no explicit
+
+1. https://www.akbe.ws/2017/slides/sebastian-riedel-slides.pdf
+2. Code taken from https: //github.com/dair-iitd/KBI

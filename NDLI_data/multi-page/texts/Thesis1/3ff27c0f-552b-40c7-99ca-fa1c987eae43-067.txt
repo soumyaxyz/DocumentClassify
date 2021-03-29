@@ -1,0 +1,57 @@
+55 Formulation of the quantum isometry group
+
+ 
+
+S is a separable unital C* algebra, a: A + A®S (where A denotes the C* alge-
+bra obtained by completing A® in the norm of B(H4)) is a unital C* homomorphism,
+satisfying the following:
+
+a. Sp(a(A)(1@S)=A@S
+
+b. ag = (id@ G)a maps AZ into itself and commutes with L on AR, for every state
+oon S.
+
+In case, the C* algebra has a coproduct A such that (S,A) is a compact quantum
+group and a is an action of (S,A) on A, we say that (S,A) acts smoothly and isomet-
+
+rically on the noncommutative manifold.
+
+Notations
+
+1. We will denote by Q% the category with the object class consisting of all quan-
+tum families of isometries (S,a) of the given noncommutative manifold, and the set of
+morphisms Mor((S, a), (S’,a’)) being the set of unital C* homomorphisms ¢ : S > S’
+satisfying (id @ d)a =a’.
+
+2. We will denote by Q/. the category whose objects are triplets (S, A, a) where
+(S, A) is a CQG acting smoothly and isometrically on the given noncommutative mani-
+fold, with a being the corresponding action. The morphisms are the homomorphisms of
+
+compact quantum groups which are also morphisms of the underlying quantum families.
+
+Let {A1,A2,...} be the set of eigenvalues of £, with V; being the corresponding (
+finite dimensional ) eigenspace. We will denote by UU; the Wang algebra A,a,(I) (
+as introduced in the chapter 1 ) where d; is the dimension of the subspace V;. We
+fix a representation 6; : V; > V; ®U; on the Hilbert space V;, given by 6;(ei;) =
+(i)
+
+Sy Cik eul? for j = 1,2,...d;, where {e;;} is an orthonormal basis for V;, and ud = Ups
+
+are the generators of U;. Thus, both u® and u® are unitaries. The representations 3;
+
+canonically induce the free product representation 3 = *;@; of the free product CQG
+U = «U4; on the Hilbert space HY, such that the restriction of @ on V; coincides with 6;
+for all 7.
+
+The following Lemma ( Lemma 2.12 of [30] ) will be needed later and hence we
+
+record it.
+
+Lemma 2.1.4. Consider an admissible spectral triple (A®, H, D) and let (S,a) be a
+quantum family of smooth isometries of the spectral triple. Moreover, assume that the
+action is faithful in the sense that there is no proper C* subalgebra S, of S such that
+a(A®) C AM @® Si. Thena: AP @S + A~ @S defined by A(a ® b) = a(a)(1 @ b)
+extends to an S linear unitary on the Hilbert S module HY @ S, denoted again by a.
+Moreover, we can find a C* isomorphism ¢:U/I — S between S and a quotient of U
+by a C* ideal I of U, such that a = (id @ ¢) 0 (id @ Hz) 0 B on AX C HY, where Iz
+denotes the quotient map from U to U/T.

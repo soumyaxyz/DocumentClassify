@@ -1,0 +1,26 @@
+Some conclusions
+
+¢ All IT applications required to run an enterprise will never be created at the same
+time. There will be several generations of applications developed or purchased over
+several years.
+
+¢ All IT applications need maintenance as business rules and business environment
+change, and each IT application will be at a different stage of maintenance at any
+given point of time. Enterprises migrate from small IT applications to more robust
+integrated suites as business grow.
+
+* Enterprises chose the optimum hardware, software, OS, RDMS, network and
+programming language available at the time of making build or buy decision. This
+results in heterogeneous hardware and multi vendor software products in the same
+enterprise. Also, enterprises may acquire other businesses to expand their growth in
+a non lonear ways, and this may again result in multiple technologies to co-exist in
+the same enterprise.
+
+¢ The same way, enterprises may have ERP, home grown applications, partially
+outsourced IT application development etc.
+
+¢ Enterprises may loosely bring together several applications in an enterprise portal
+but may have limitations in terms of data exchange across IT applications.
+
+¢ Enterprises may design new applications to combine data from several critical data
+sources for the management information system(MIS).

@@ -1,0 +1,15 @@
+05
+
+One-way Threading
+
+In this, a thread appears either in the right link field or in the left
+link field of the node. Is the thread appears in the right link filed
+of the node then points to the next node in the inorder traversal of
+the tree 1.e. it points to the in order successor of the node. Such
+tree is known as right threaded binary tree.
+
+If the thread appears in the left link field of the node. It points to
+the preceding node in the inorder traversal of the tree. Such a tree
+is known as left threaded binary tree. As, the threading is done
+according to the inorder traversal, hence the tree is referred as in-
+threaded binary tree.

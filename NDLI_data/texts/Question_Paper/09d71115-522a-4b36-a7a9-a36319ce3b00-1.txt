@@ -1,0 +1,40 @@
+S.No. 9119 SBE 29:2
+
+(For candidates admitted from 2008-09 onwards)
+UG. DEGREE EXAMINATION, APRIL 2012.
+
+Part III — Netorouleing and Maintenance — Skill Based
+
+Elective
+
+BASICS OF HARDWARE
+
+Time : Three hours Maximum : 75 marks
+
+Bees
+
+o>
+
+10.
+
+SECTION A — (10 x 2 = 20)
+Answer ALL questions.
+
+Convert the hexa decimal number 1E616 to
+decimal number.
+
+How do you classify the logic circuits?
+State the purpose of the instruction register.
+Mention any two secondary memory devices.
+
+State the purpose of control unit of a digital
+computer.
+
+What is meant by impact printer?
+What is meant by head parking?
+
+Mention the DOS utility used for high level
+formatting.
+
+What is NTFS?
+What is volume shadow copy?

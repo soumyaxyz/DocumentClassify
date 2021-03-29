@@ -1,0 +1,54 @@
+58 7. REALITY IN CLASSICAL GROUPS
+
+0
+Proof. Let A = ( : Z € U(H). Let T be an element such that TAT~! =
+0 b =
+A. Then T has following form: T = 0 where h,bb = hy and hocé = hy.
+c
+
+Hence A is real in U(#) if and only if hihy € Nxj,(*). And, if the condition holds,
+0
+pot
+
+ 
+
+ 
+
+ 
+
+ 
+
+we can take T= ( , } . This proves the result.
+Theorem 7.6.2. Let (V,h) be a hermitian space over K. Let t € U(V,b) be a
+
+semisimple element. Then, t is real in U(V,h) if and only if t is strongly real.
+
+Proof. Let t € U(V,h) be a real semisimple element. Let g € U(V,h) be such
+that gtg~! = t7!. We base change to k and argue. Since t is real semisimple, we have
+
+a decomposition of V as follows:
+
+V=VOVID ya UOV)Oryia (Vn @ Vp-s)O (Ya @ Yi))
+
+where V,,V_; and Vy are eigenspaces corresponding to eigenvalues 1,—1 and \ re-
+spectively. Since t is unitary, whenever ) is an eigen value \~? is also an eigen value.
+To verify the orthogonality in the decomposition we take 2 € Vy and y € Vi. and note
+that
+(x,y) = h(t(a), t(y)) = h(Ax, wy) = Aph(ax, y).
+
+Hence Vy and Vi are orthogonal if Aji 4 1. We denote the subspace V,@ Vy-1 by Wy
+when AA = 1 and (Vi @BVy-1)O (Vj-1 @ V4) as Wy in other cases. In the first case, for
+x € Wy we have t(a) = A*1x and since gtg~! = t~! we get t(g(x)) = AF1g(z). This
+implies that g(x) € Wy which means the conjugating element g leaves W) invariant.
+Similarly one can verify that g leaves W) invariant in the other case also. Since Vy
+(V, © Vx-1 in the second case) is nondegenerate (because it is an orthogonal sum),
+we can choose an orthogonal basis {e1,...,e>} for Vy (Vy; @ Vi-1 in the other case).
+We decompose W) in ¢ invariant planes as follows. Let P; be the subspace generated
+by {e;, 9(e;)}. Then Wy, = P, ®...@ P, is an orthogonal decomposition. Moreover, t
+leaves each of the P; invariant. The element n; which maps e; to g(e;) and g(e;) to e;,
+is a unitary involution conjugating t|p, to its inverse. The element 5= 1 @...@n,
+conjugates t|y, to its inverse and is a unitary involution.
+
+Let W, be the sum of all Galois conjugates of W) and s be the sum of all Galois
+conjugates of 5. Then W, is defined over k and t|y, is conjugate to its inverse by the
+involution s defined over k. This gives the decomposition of V as V = Vi 6V_1@),W)

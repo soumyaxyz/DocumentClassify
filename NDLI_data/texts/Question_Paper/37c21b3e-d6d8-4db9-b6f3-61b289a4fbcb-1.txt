@@ -1,0 +1,25 @@
+19. Explain the order of initialization of different S.No. 5961 D SBE 10: 2
+classes is multilevel inheritance through an
+example.
+
+20. Wilke a€34-+ grogram ta portaem eaunle antec (For candidates admitted from 2008-09 onwards)
+
+operations of two complex numbers using operator B.Sc. DEGREE EXAMINATION, JULY 2013.
+over loading. ; i
+Part III — Skill Based Elective
+PROGRAMMING WITH CPP
+Time : Three hours Maximum : 75 marks
+PART A — (10 x 2 = 20)
+Answer ALL questions.
+1. What are the basic data typesin C++? - -
+2. What is a namespace?
+3. Whatis aclass?
+
+4. | What are objects?
+
+5. ~° What are the special properties of the constructor
+functions?
+
+6. What is copy constructor?
+
+na

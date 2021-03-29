@@ -1,0 +1,59 @@
+8.2. SU(V,5) CG 69
+
+N(g) = x, 9o0(g) = 1. Hence x € Ly. Conversely, if N(x) € Ly for some x € E* such
+that vo(a) = 1 then N(x) € ker(¢).
+
+ 
+
+ 
+
+ 
+
+ 
+
+Hence if the field k is C; (for example, finite field) or it does not admit degree three
+extensions (real closed fields, algebraically closed fields etc.), L*/N(£*) is trivial.
+From Corollary 8.2.11, it follows that every element in G(€/L), with irreducible
+characteristic polynomial, is conjugate to its inverse. In particular, combining with
+Theorem 8.1.9, it follows that every semisimple element in G(k) is conjugate to its
+
+inverse.
+
+Proposition 8.2.14. With notation as above, let L be a quadratic field extension
+of k and let S € SU(H) be an element with irreducible characteristic polynomial over
+L, satisfying S = S-'. Let € = L[X]/ys(X), a degree three field extension of L,
+and assume L'/N(E1) is nontrivial, where L' = {x € L | xo(x) = 1}, €1 = {re
+E | xo(x) = 1} and o is the extension of the nontrivial automorphism of L to E.
+Then there exists an element A € SU(H) with characteristic polynomial same as the
+characteristic polynomial of S, which can not be written as A = A, Ay where A; = Aj!
+and A; € SU(H). The corresponding element t in G(€/L) is not a product of two
+
+involutions in G = Aut(€) and hence not real in G.
+
+Proof. Let b € L1 such that b? ¢ N(E'). Put D = diag(b, 1,1) and A= DSD“!,
+then A belongs to SU(H). Now suppose A = A; A with A; = Aj! and A; € SU(H).
+Then A = AA, = DSD-! = DSDD~?. Put T; = DSD and Ty = D~?, then
+T; =T;'. Since A,AAZ! = A7! and T,ATy! = AM, we have Ty'Ay € Zyv4)(A),
+ie., Ty Ay = f(A) for some f(X) € L[X] (see the Remark after Corollary 8.2.11).
+Then b? = det(Ty') = det(Ty As) = det(f(A)) € N(E*), a contradiction.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Remark 8.2.15. If we choose S' in the theorem above with characteristic polyno-
+mial separable, then the element A, constructed in the proof, is a semisimple element
+
+in an indecomposable maximal torus, contained in SU(H), which is not real.
+
+We recall that any central division algebra of degree three is cyclic ({P], Theorem,
+Section 15.6). Let L be a quadratic field extension of k. Let F' be a degree three
+cyclic extension of k and we denote EF = F.L. Let us denote the generator of the
+Galois group of F over k by rt. Let A = F © Fu @ Fu? with udu“! = r(d) for
+alld € F and u? = a € k*. Then A, denoted by (F,7,a), is a cyclic algebra of
+degree three over k. Recall also that (F,7,a) is a division algebra if and only if
+a € Nrje(F*). We denote the relative Brauer group of F over k by B(F/k), i.e.,

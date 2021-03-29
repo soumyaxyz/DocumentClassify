@@ -1,0 +1,138 @@
+| Kp20K | Inspec | Krapivin | NUS | SemEval
+Model | R@10 R@50 | R@10 R@SO | R@10 RESO | R@1O R@SO | R@C10 R@SO
+CopyRNN (Meng et al., 2017) | 11.5 18.9 SA 10.1 16 19.5 18 14.4 49 15
+CopyRNN* (Meng et al.,2017) | 3.3 8.7 40 83 0 81 24 8.1 0.5 2.6
+CatSeq (ours) 6.0 6.2 28 29 7.0 74 37 31 25 2.5
+CatSeqD (ours) W751 5.2 Tl 12.0 14.5 8.4 1.0 46 63
+
+ 
+
+Table 6: Performance of absent keyphrase prediction on scientific publications datasets. Best/second-
+
+ing score in each column is highlighted with bold/underl
+
+C  StacxEx Data Collection
+
+We download the public data dump from https:
+//archive.org/details/stackexchange, and
+choose 19 computer science related topics from
+Oct. 2017 dump. We select computer science
+forums (CS/AJ), using “title” + “body” as source
+text and “tags” as the target keyphrases. After
+removing questions without valid tags, we collect
+330,965 questions. We thus randomly select
+16,000 for validation, and another 16,000 as
+test set. Note some questions in StackExchange
+forums contain large blocks of code, resulting in
+long texts (sometimes more than 10,000 tokens
+after tokenization), this is difficult for most neural
+models to handle. Consequently, we truncate texts
+to 300 tokens and 1,000 tokens for training and
+evaluation splits respectively.
+
+D_ Implementation Details
+
+Implementation details of our proposed models are
+as follows. In all experiments, the word embed-
+dings are initialized with 100-dimensional random
+matrices. The number of hidden units in both the
+encoder and decoder GRU are 150. The number
+of hidden units in target encoder GRU is 150. The
+size of vocabulary is 50,000. In all experiments,
+we use a dropout rate of 0.1.
+
+The numbers of hidden units in MLPs described
+in Section 3 are as follows. During negative sam-
+pling, we randomly sample 16 samples from the
+same batch, thus target encoding loss in Equation 2
+is a 17-way classification loss. In CatSeqD, we
+select both Aor and Agq in Equation 4 from [0.01,
+0.03, 0.1, 0.3, 1.0] using validation sets. The se-
+lected values are listed in Table 7.
+
+We use Adam (Kingma and Ba, 2014) as the step
+rule for optimization. The learning rate is le~°.
+The model is implemented using PyTorch (Paszke
+et al., 2017) and OpenNMT (Klein et al., 2017).
+
+For exhaustive decoding, we use a beam size of
+50 and a maximum sequence length of 40.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+best perform-
+ine.
+
+Experiment Setting | Aor Asc
+Table 2 | 1.0 0.03
+Table 3 | 0.03 0.1
+Table 4,KP20x | Greedy | 1.0 0.3
+Table 4, P20x | TopRank | 10 | 03
+Table 4, STACKEX | Greedy | 1.0 0.3
+Table 4, STACKEX | Top Rank | 1.0 0.3
+Table 5, CatSeq + Orth. Reg. | 0.3 0.0
+Table 5, Cat Seq + Sem. Cov. | 0.0 0.03
+
+Table 5, Cat SeqD | Same as Table 2
+
+Table 6 | Same as Table 2
+
+ 
+
+ 
+
+Table 7: Semantic coverage and orthogonal regulariza-
+tion coefficients.
+
+Following Meng et al. (2017), lowercase and
+stemming are performed on both the ground truth
+and generated keyphrases during evaluation.
+
+We leave out 2,000 data examples as validation
+set for both KP20x and STAcKEx and use them
+to identify optimal checkpoints for testing. And all
+the scores reported in this paper are from check-
+points with best performances (F; @Q) on valida-
+tion set.
+
+In Section 6.2, we use the default parameters for
+t-SNE in sklearn (learning rate is 200.0, number of
+iterations is 1000, as defined in 8).
+
+E_ Dataset and Evaluation Details
+
+We strictly follow the data pre-processing and eval-
+uation protocols provided by Meng et al. (2017).
+We pre-process both document texts and ground-
+truth keyphrases, including word segmentation,
+lowercasing and replacing all digits with symbol
+<digit>. In the datasets, examples with empty
+ground-truth keyphrases are removed.
+
+®nttps://scikit-learn.org/stable/
+modules/generated/sklearn.manifold.TSNE.
+html

@@ -1,0 +1,117 @@
+Preprint. Under review.
+
+ 
+
+Table 1: Classification accuracies of the compared methods on benchmark datasets. The best
+performer w.r.t. the mean is highlighted with an asterisk. We perform an unpaired t-test with
+asymptotic significance of 0.1 w.r.t. the best performer and highlight with boldface the ones for which
+the difference is not statistically significant. 0-CLIP is the CLIP architecture without any colorings.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Dataset PTC IMDBb IMDBm PROTEINS MUTAG
+WL 59.9+4.3 73.8+3.9 50.9+3.8 75.0+3.1 90.4+5.7
+DCNN 56.6 49.1 33.5 61.3 67.0
+PS 60.0+4.8 TNO+2.2 45.242.8 75.942.8 92.6+4.2
+DGCNN 58.6 70.0 47.8 75.5 85.8
+AWL - 74.5+5.9 51.5+3.6 - 87.9+9.8
+GIN 64.6+7.0 75.1+5.1 52.342.8 76.2+2.8 89.4+5.6
+0-CLIP 65.9+4.0 75.4+2.0 52.5+2.6* 77.0+3.2 90.0+5.1
+CLIP 67.9+7.1* 76.0+2.7* 52.5+3.0* 771+4.4* 93.9+4.0*
+
+6.2 GRAPH PROPERTY TESTING
+
+We now investigate the ability of CLIP to identify structural graph properties, a task which was previ-
+
+ously used to evaluate the expressivity of graph kernels and on which the Weisfeiler-Lehman subtree
+kernel has been shown to fail for bounded-degree graphs (Kriege et al.||2018). The performance
+of our algorithm is evaluated for the binary classification of four different structural properties: 1)
+connectivity, 2) bipartiteness, 3) triangle-freeness, 4) circular skip links (Murphy et al.} 2019) (see
+Appendix[E}for precise definitions of these properties) against three competitors: a) GIN, arguably the
+most efficient MPNN variant yet published (2019), b) Ring-GNN, a permutation invariant
+network that uses the ring of matrix addition and multiplication (2019), c) RP-GIN,
+the Graph Isomorphism Network combined with Relational Pooling, as described by
+(2019), which is able to distinguish certain cases of non-isomorphic regular graphs. We provide a
+experimental details in Appendix[E]
+
+Table 2: Classification accuracies of the synthetic datasets. k-RP-GIN refers to a relational pooling
+
+averaged over k random permutations. We report Ring-GNN results from (2019).
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+ 
+
+Property Connectivity Bipartiteness Triangle-freeness Circular skip links
+mean + std mean + std mean + std mean + std max min
+GIN 55.2 + 4.4 53.1 +4.7 50.7+6.1 10.0+0.0 10.0 10.0
+Ring-GNN - - - (2) + 15.7 80.0 10.0
+1-RP-GIN 66.1+5.2 66.0+5.1 63.0+3.6 20.0+7.0 28.6 10.0
+16-RP-GIN 83.3+7.9 64.9+4.1 65.7+3.3 37.6+12.9 53.3 10.0
+0-CLIP 56.5 4 55.4+5.7 59.6 + 3.8 10.0+0.0 10.0 10.0
+1-CLIP 73.3 63.3 £1.9 63.5 £7.3 61.9+411.9 80.7 36.7
+16-CLIP 99.7 + 99.2 + 0.9 94.2+3.4 90.8+6.8 98.7 76.0
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Table 2|shows that CLIP is able to capture the structural information of connectivity, bipartiteness,
+triangle-freeness and circular skip links, while MPNN variants fail to identify these graph properties.
+Furthermore, we observe that CLIP outperforms RP-GIN, that was shown to provide very expressive
+representations for regular graphs (Murphy et al.|[2019), even with a high number of permutations
+(the equivalent of colors in their method is set to k = 16). Moreover, both for k-RP-GIN and k-CLIP,
+the increase of permutations and colorings respectively lead to higher accuracies. In particular, CLIP
+can capture almost perfectly the different graph properties with as little as k = 16 colorings.
+
+7 CONCLUSION
+
+In this paper, we showed that a simple coloring scheme can improve the expressive power of
+MPNNs. Using such a coloring scheme, we extended MPNNs to create CLIP, the first universal
+graph representation. Universality was proven using the novel concept of separable neural networks,

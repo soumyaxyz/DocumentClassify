@@ -1,0 +1,28 @@
+Features of Business Intelligence (Contd..)
+
+360 degree perspective on your business: BI allows looking at the business from
+various perspectives. Each person in the project/program team will look at the
+data from his/her role and will look for attributes that add value for decision
+making in his/her role.
+
+In the GoodFood example, a “reservation table number” helps the steward
+escort guests to the right place in the dining area, helps the chef visit the guests to
+describe the “day's speciality”, and helps the service staff reach for cleaning and
+rearrange table whenever needed. Similarly, the food wastage will be viewed by
+different department with different perspectives — the finance by cost of wastage,
+the housekeeping by disposal methods, chefs by reason for rejection by guests,
+the quality team for finding innovative approaches to reduction, and the
+information systems team for devising measures that indicate improvement in
+processes.
+
+Virtual team members on the same page: In today’s business context, not all
+stakeholders or decision makers will be in the same building/geographic location.
+Businesses are highly distributed in nature and executives travel extensively. The
+team of people who work on a common project/purpose/business goal but are
+spread across locations is terms as a virtual team. Technologies like BI bring them
+peetticr and provide them the same facts at the speed of light in personalized
+
+orms.
+
+You_may read the example from your book about GoodFood _ restaurant
+example.

@@ -1,0 +1,51 @@
+6.1. RESULTS IN CLASSICAL GROUPS Al
+
+We now consider the group SL;(Q) = {x € Q* | Nrd(x) = 1}, for a quaternion
+algebra Q over k. A quaternion algebra Q is a central simple algebra over k of degree
+2. We note that SZ;(Q) is a form of SL over k in the sense defined in Section 4.3.
+We denote the group SL;(Q)/Z(SLi(Q)) by PSL1(Q).
+
+Theorem 6.1.3. With notation as above, let G = PSL(Q) andt € G be a
+semisimple element. Then, t is real in PSL1(Q) if and only if t is strongly real in
+
+PSL,(Q). Furthermore, SL(Q) has real elements which are not strongly real.
+
+One can consider the matrix algebra M2(k) as a quaternion algebra and the group
+under consideration in this case is G = PSL2(k). Hence we see that a semisimple ele-
+ment to € PSL2(k) is real in PSL2(k) if and only if tp is a product of two involutions
+in PSL2(k).
+
+We continue our investigation for D, a central division algebra of odd degree n
+over a field k. Let G = D* or G= SL,(D) = {x € D* | Nrd(x) = 1}. Then,
+
+ 
+
+Theorem 6.1.4. Let G be as above. Then the only real elements in G are +1.
+
+In fact, using this theorem we prove that Iso(D,o) has no nontrivial real elements.
+For o of the first kind, Iso(D, 7c) is a form of orthogonal group and for o of the second
+kind, it is a form of unitary group.
+
+Let V be a vector space over k with a nondegenerate quadratic form q. We denote
+
+the orthogonal group by O(q). Then Wonenburger proved ({W1], Theorem 2),
+
+Proposition 6.1.5. Any element of the orthogonal group O(q) is a product of
+two involutions, i.e., the group O(q) is bireflectional. Hence every element of O(q) is
+
+strongly real.
+
+Djokovié extended this result ([D], Theorem 1) to fields of characteristic 2. However,
+Kniippel and Nielsen proved ({KN], Theorem A),
+
+Proposition 6.1.6. The group SO(q) is trireflectional. It is bireflectional if
+
+dim(V) #2 (mod 4) and hence every element is strongly real in that case.
+
+They give necessary and sufficient condition for an element in the special orthogonal
+group to be a product of two involutions ([KKN], Proposition 3.3). However, we
+
+classify semisimple real elements in SO(q) without any restriction on dimension.
+
+Theorem 6.1.7. Lett € SO(q) be a semisimple element. Then, t is real in SO(q)
+if and only if t is strongly real in SO(q).

@@ -1,0 +1,12 @@
+BI Component - Administration and Operations
+Layer — Business Applications
+
+The application of technology to produce value for the
+business refers to the generation of information or
+intelligence from data assets like data warehouses/data
+marts. Using BI tools, we can generate strategic,
+financial, customer, or risk intelligence. This information
+can be obtained through various BI applications, such as
+DSS (decision support system), EIS (executive
+information — system), OLAP(On-line _ analytical
+processing), data mining and discovery, etc.

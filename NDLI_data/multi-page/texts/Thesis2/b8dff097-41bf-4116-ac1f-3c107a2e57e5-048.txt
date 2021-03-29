@@ -1,0 +1,59 @@
+36 5. MAXIMAL TORI IN SU,
+This will prove the theorem provided we show u € F. For any f € Ep we have,
+tr(og(u)f) = tr(op(u).on(o9(F))) = on(tr(uon(S)))
+= 04(6(o5(f)(v),v)) = 6(v, o6(f)(v)) = B(f(v), v) = tr(uf).
+
+Since Ep is separable, the trace form is nondegenerate and hence o,(u) = u. The map
+: (V,b) — (Er,6™), for f
+
+is an isometry:
+5 (®( fv), ®(gv)) = tr(wog(9)f) = (Fe, 9v)
+
+by the computation done above.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Corollary 5.1.6. Let the notation be as fixed above. Let T be a maximal torus
+in SU(V,b). Then there exists an étale algebra Er over L of dimension n, such that
+
+~~ TL
+T= Tep,o4)"
+
+Remark 5.1.7. The hypothesis in the last assertion in Theorem 5.1.5, that Ep
+be a field, is only a simplifying assumption. The result holds good even when Er is
+not a field.
+
+Let TC SU(V,b) be a maximal torus. Then from the proof of Theorem 5.1.5 we
+see that Er = Zmaiv)(Z") is an étale algebra with involution oy such that T = Tlep.oy)?
+
+here T’ is a maximal torus in U(V, 6).
+
+5.2. Tori and Representations
+
+We continue here with notation introduced in the previous section.
+
+Lemma 5.2.1. With notation as above, V is an irreducible representation of T
+if and only if Er is a field.
+
+Proof. Suppose €r is not a field. Then 40 4 f € Er such that V # ker(f) 4 0.
+Put W = ker(f) C V, which is a L-vector subspace. We claim that W is a T invariant
+subspace. Let « € W,te T.
+
+F(x) =0 > t(f(a)) =0 > f(t(a)) =0 > He) € W.
+
+Hence, T(W) = W.
+Conversely, let Er be a field and 0 4 W Cc V bea T-invariant L-subspace of V.
+
+We shall show that V = W. We know that V is a one dimensional €r vector space.
+
+ 
+
+ 
+
+Thus, it suffices to show that W is an Ep subspace of V. Suppose first that k is

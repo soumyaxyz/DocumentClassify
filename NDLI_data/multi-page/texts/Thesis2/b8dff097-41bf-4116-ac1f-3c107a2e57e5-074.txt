@@ -1,0 +1,65 @@
+62 8. REALITY IN GROUPS OF TYPE G2
+
+polynomial of ¢ € Aut(€) is divisible by (a — 1)3, t is a product of two involutory
+
+ 
+
+ 
+
+ 
+
+automorphisms of €. Hence to is strongly real in G(k).
+
+ 
+
+Lemma 8.1.3. Let the notation be as fixed above and let to € G(k) be an element
+which is not unipotent (e.g. a semisimple element). Then, either to leaves a quater-
+nion subalgebra invariant or fixes a quadratic étale subalgebra L of € pointwise. In
+the latter case, ty) € SU(V,h) C G(k) for a rank 3 hermitian space V over a quadratic
+field extension L of k or to € SL(3) C G(k).
+
+Proof. Since to is not unipotent, from the above discussion, we see that rj, is
+1 or 3. If r,, = 3, to leaves a quaternion subalgebra 9 of € invariant. In the
+case r,, = 1, L = V,, is a two dimensional composition subalgebra and has the form
+Vio = k.1€(Vi,N€o), an orthogonal direct sum. Let LN€p = k.y with N(7) 4 0. Since
+to leaves €p and V,, invariant, we have, to(y) = 7 and hence to(x) = x Vx € L, so that
+to € G(€/L). The result now follows from Proposition 3.2.1 and Proposition 3.2.2.
+
+ 
+
+ 
+
+ 
+
+ 
+
+If to leaves a quaternion subalgebra invariant, ty is strongly real in G(k). This
+
+follows from the following theorem (see [W2], Theorem 4).
+
+Theorem 8.1.4. Let € be an octonion algebra. If g is an automorphism of €
+which maps a quaternion subalgebra D into itself, then g is a product of two involutory
+
+automorphisms.
+
+Corollary 8.1.5. If an automorphism g of € leaves a nondegenerate plane of Co
+
+invariant, then it is a product of two involutory automorphisms.
+
+We discuss the other cases here, i.e., the fixed points of to form a quadratic étale
+subalgebra L of €.
+
+(1) The fixed subalgebra L is a quadratic field extension of k and
+
+(2) the fixed subalgebra is split, i.e., LD &k x k.
+
+By the discussion in Section 3.2, in the first case, to belongs to G(€/L) =
+SU(L+,h) (Proposition 3.2.1) and in the second case ty belongs to G(¢/L) & SL(3)
+(Proposition 3.2.2). We denote the image of to by A in both of these cases. We ana-
+lyze further the cases depending on the characteristic polynomial of A. We mention
+
+a result of Neumann here ((N], Satz 6 and Satz 8).
+
+Proposition 8.1.6. Let ty be an element in G(k) and suppose to exactly fixes
+a quadratic étale subalgebra L of € pointwise. Let us denote the image of to by A
+in SU(L+,) or in SL(3) as the case may be. Also assume that the characteristic

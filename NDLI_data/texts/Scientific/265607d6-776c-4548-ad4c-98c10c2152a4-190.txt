@@ -1,0 +1,45 @@
+8. Document Novelty
+
+ 
+
+tween relevance (i.e., f,(q,d)) and redundancy (i.e., maxa, fo(d, dj), the opposite
+of novelty) is achieved through an appropriate setting of A, as will be described in
+Section 8.3.1.3. In our experiments, f,(q,d) is estimated by a standard retrieval
+model. In order to estimate f,(d,d;), we compute the cosine between explicit
+representations of d and d, over the set of aspects A.
+
+Analogously to MMR, MVA (Equation (3.11)) instantiates the objective func-
+tion f(g,d,D,) in Algorithm 3.1 by trading off relevance and redundancy. How-
+ever, instead of computing the similarity between documents, MVA estimates the
+redundancy of a document based on how its relevance scores correlate to those
+of the other documents. Accordingly, we devise xMVA (Explicit Mean-Variance
+Analysis) to estimate these correlations based on how well the documents sat-
+isfy the explicitly represented query aspects. The objective function of xMVA is
+
+defined according to the following equation:
+
+feuva(@ 4, Dy) = ba — bw. 07 — 2bo4 > Wj Fa; Pad; (8.3)
+
+dj€Dq
+
+where jig and 04 are the mean and variance of the relevance estimates associated
+to document d, respectively, while the summation component estimates the re-
+dundancy of this document given the documents in D,. In particular, documents
+are compared in terms of their correlation paa,;. A balance between relevance,
+variance, and redundancy is achieved through the parameter b. Following Wang
+& Zhu (2009), ua is estimated by a standard retrieval model, with relevance scores
+normalised to yield a probability distribution, while oq is set as a constant for
+all documents. In our experiments, both o and 6 are set through training, as
+will be described in Section 8.3.1.3. Finally, pa, is estimated as the Pearson’s
+
+correlation between explicit representations of d and dj over the aspects A.
+
+8.2.2 Explicit Coverage-based Diversification
+
+Besides making coverage and novelty directly comparable by introducing ex-
+plicit novelty-based diversification approaches (i.e., x MMR and xMVA), we want
+to be able to assess the effectiveness of novelty when combined with coverage.
+
+To this end, we deconstruct two hybrid diversification approaches, namely, [A-
+
+172

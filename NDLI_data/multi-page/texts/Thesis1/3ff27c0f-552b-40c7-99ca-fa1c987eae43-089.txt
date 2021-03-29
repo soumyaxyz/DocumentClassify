@@ -1,0 +1,52 @@
+77 Definition and existence of the quantum group of orientation-preserving isometries
+
+ 
+
+orientation-preserving isometries on the spectral triple.
+In case the spectral triple is even with the grading operator y, a quantum family of
+orientation preserving isometries (A~,H,D,y) will be defined exactly as above, with
+
+the only extra condition being that U commutes with y.
+
+From now on, we will mostly consider odd spectral triples. However let us remark
+that in the even case, all the definitions and results obtained by us will go through with
+some obvious modifications. We also remark that all our spectral triples are of compact
+type.
+
+Consider the category Q = Q(A®,H, D) = Q(D) with the object-class consist-
+ing of all quantum families of orientation preserving isometries (S,U) of the given
+spectral triple, and the set of morphisms Mor((S,U),(S’,U’)) being the set of unital
+C*-homomorphisms ® : S — S’ satisfying (id ®@ @)(U) = U’. We also consider an-
+other category Q’ = Q’(A®%, H, D) = Q’(D) whose objects are triplets (S, A, U), where
+(S, A) is a compact quantum group acting by orientation preserving isometries on the
+given spectral triple, with U being the corresponding unitary representation. The mor-
+phisms are the homomorphisms of compact quantum groups which are also morphisms
+of the underlying quantum families of orientation preserving isometries. The forgetful
+functor F : Q’ > Q is clearly faithful, and we can view F'(Q’) as a subcategory of Q.
+
+Unfortunately, in general Q’ or Q will not have a universal object. It is easily seen
+by taking the standard example A® = M,(C), H = C", D = I. Any CQG having
+a unitary representation on C” is an object of Q’(Mn(C),C",1). But by Proposition
+1.2.34, there is no universal object in this category. However, the fact that comes to our
+rescue is that a universal object exists in each of the subcategories which correspond to
+the CQG actions preserving a given faithful functional on M,,.
+
+On the other hand, given any equivariant spectral triple, it has been shown in [31]
+that there is a (not necessarily unique) canonical faithful functional which is preserved
+by the CQG action. For readers’ convenience, we state this result (in a form suitable to
+us) briefly here. Before that, let us recall the definition of an R-twisted spectral data
+from [31].
+
+Definition 3.2.6. An R-twisted spectral data ( of compact type ) is given by a quadruplet
+(A®,H, D, R) where
+
+1. (A®,H,D ) is a spectral triple of compact type.
+
+2. R a positive (possibly unbounded) invertible operator such that R commutes with
+D.
+
+3. For alls € R, the map a+ o,(a) := R-*aR® gives an automorphism of A® (not
+
+necessarily *-preserving) satisfying SUPse[—n,n] ||Fs(@)|| < 00 for all positive integer n.
+
+We shall also sometimes refer to (A®,H, D) as an R-twisted spectral triple.

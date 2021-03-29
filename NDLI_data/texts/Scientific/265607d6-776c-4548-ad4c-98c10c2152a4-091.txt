@@ -1,0 +1,53 @@
+3. Search Result Diversification
+
+ 
+
+To this end, they proposed to condition the expected reward Ban, of each docu-
+ment d at time 7 on the documents D, selected ahead of d. This can be formalised
+
+into the following objective function, denoted ranked context bandits (RCB):
+
+1 ifd=MAB,(R,, iS, ds
+
+Jace (4 d, Dy) = (3.22)
+
+0 otherwise,
+
+where, similarly to Equation (3.19), the instance MAB;(R,, Sip.) selects a doc-
+ument d* € R, for the j-th ranking position, with j = |D,|+1, but instead using
+the conditional reward po jp, at time 7, by correlating the clicks on d* to those ob-
+served for the documents d; € D,. To reduce the number of required correlation
+computations, they modelled the reward function 4. as a Lipschitz-continuous
+function in the metric space induced by the documents in R, (Searcdid, 2006),
+which dramatically improved the efficiency of the proposed approach.
+
+Agrawal et al. (2009) sought to diversify a document ranking in light of a tax-
+onomy 7 of query intents, represented as different categories from the Open Di-
+rectory Project (ODP).!° Given the classification of both queries and documents
+in light of this taxonomy, they proposed an intent-aware selection (IA-Select)
+
+mechanism, instantiating the objective function in Algorithm 3.1 as:
+
+finsetect(% 4; Pq) = > Kela, Pa) Kala.) (3.23)
+ceéT
+
+where, for each category c € T, f(d|q,c) denotes the extent to which the document
+
+d covers c, while f(c
+
+ 
+
+q, D,) denotes the marginal utility of c given the query g and
+the documents already in D,. Intuitively, an already well covered category is
+deemed less useful, which contributes to the promotion of novel documents.
+The search result diversification framework introduced in this thesis also falls
+into the family of hybrid approaches. In Chapter 4, we will discuss how particular
+choices for explicitly representing the query aspects and for estimating the diver-
+sity of the retrieved documents with respect to each aspect lead to a principled,
+effective, and flexible solution to the diversification problem. Before that, in the
+
+remainder of this chapter, we will introduce approaches for diversity evaluation.
+
+Mhttp://www.dmoz.org/
+
+73

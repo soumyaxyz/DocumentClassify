@@ -1,0 +1,17 @@
+02
+
+Topics to be discussed
+
+Algorithm to implement threaded binary tree
+Program to implement Huffman Algorithm
+
+To find the position of a given element and its parent in a
+Binary Search Tree.
+
+To insert a given element into a Binary Search Tree.
+To delete a given element from the Binary Search Tree.
+To find the smallest element in a Binary Search Tree.
+To find the largest element in a Binary Search Tree.
+Expression Trees
+
+Reconstruction of Binary Trees

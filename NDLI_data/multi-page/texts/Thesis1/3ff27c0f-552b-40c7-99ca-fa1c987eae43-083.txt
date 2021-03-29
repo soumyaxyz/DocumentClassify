@@ -1,0 +1,48 @@
+71 Definition and existence of the quantum group of orientation-preserving isometries
+
+ 
+
+for the spectral triples on SU,,(2) and Si respectively (the computations for Sie have
+been presented in Chapter 5).
+
+We conclude this section with an important remark about the use of the phrase
+‘orientation -preserving’ in our terminology. We recall from Remark 1.5.5 that by a
+‘classical spectral triple’ we always mean the spectral triple obtained by the Dirac op-
+erator on the spinors. This is absolutely crucial in view of the fact that the Hodge
+Dirac operator d+ d* on the L?-space of differential forms also gives a spectral triple
+of compact type on any compact Riemannian (not necessarily with a spin structure)
+manifold M, but the action of the full isometry group JSO(M) (and not just the sub-
+group of orientation preserving isometries [SOt(M), even when M is orientable) lifts
+to a canonical unitary representation on this space commuting with d+ d*. In fact, the
+category of groups acting on M such that the action comes from a unitary representa-
+tion commuting with d+ d*, has ISO(M), and not [SO*(M), as its universal object.
+So, one must stick to the Dirac operator on spinors to obtain the group of orientation
+preserving isometries in the usual geometric sense. This also has a natural quantum
+
+generalization, as we shall see in section 3.3.
+
+3.2 Definition and existence of the quantum group of
+
+orientation-preserving isometries
+
+3.2.1 The classical case
+
+We first discuss the classical situation clearly, which will serve as a motivation for our
+quantum formulation.
+
+We begin with a few basic facts about topologizing the space C~(M, N) where M, N
+are smooth manifolds. Let 2 be an open set of R”. We endow C'™(Q) with the usual
+Frechet topology coming from uniform convergence (over compact subsets) of partial
+derivatives of all orders. The space C™(Q) is complete with respect to this topology,
+so is a Polish space in particular. Moreover, by the Sobolev imbedding theorem (
+Corollary 1.21, [48] ), Mgs0He(Q) = C™(Q) as a set, where Hj,(Q) denotes the k-
+th Sobolev space. Thus, C°(Q) has also the Hilbertian seminorms coming from the
+Sobolev spaces, hence the corresponding Frechet topology. We claim that these two
+topologies on C™(Q)) coincide. Indeed, the inclusion map from C™(Q) into N,H,(Q),
+is continuous and surjective, so by the open mapping theorem for Frechet space, the
+inverse is also continuous, proving our claim.
+
+Given two second countable smooth manifolds M, N, we shall equip C®(M, N) with
+the weakest locally convex topology making C®(M, N) 3 d+ fod e€ C™(M) Frechet
+
+continuous for every f in C°(N).

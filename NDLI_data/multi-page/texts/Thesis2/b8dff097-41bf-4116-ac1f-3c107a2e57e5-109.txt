@@ -1,0 +1,7 @@
+10.2. PROGRAMME AND FURTHER QUESTIONS 97
+
+G in hand, we calculated conjugacy classes of centralizers in groups of type G2 (see
+Section 8.5). It would be of interest to calculate the conjugacy classes of centralizers
+in classical groups and parameterize them using Galois cohomology.
+
+We thank you for showing interest in this thesis.

@@ -1,0 +1,83 @@
+Temporal Word Embeddings.
+
+Following the discussion in Section B} we train a temporal word embedding for the first six books of HP. We focus
+on the four characters which appear more frequently. The static embedding is trained with the whole text of each
+book, while the dynamic embeddings are based on sub-slices containing text of length equal to 1000 characters.
+For each character, we extract the corresponding trajectory for each book. For a better interpretation of the
+relations, we consider the main character (i.e., Harry) and plot the evolution over time of the relative (cosine)
+distances from the other characters. Since these vectors embed semantic information, it is expected that in the
+trajectories corresponding to smaller distances correspond to closer relations with Henry. In fact, the results in
+show that the trajectories of positive characters or friends (i.e., Ron and Hermione) move in a similar
+, Voldemort) is found instead to move in a different direction and at a higher
+
+Figure
+way. The main antagonist (i.e.
+distance.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Hermione
+——  _ Ron
+
+Voldemort
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+BookI Book II Book III BookIV Book V
+
+Figure 2: Characters trajectories for Harry Potter
+
+ 
+
+ 
+
+Meg
+Amy
+Beth
+
+ 
+
+ 
+
+ 
+
+ 
+
+   
+
+ 
+
+ 
+
+ 
+
+Figure 3: Character trajectories for Little Women
+
+ 
+
+A similar analysis for LW is reported in Figure [3} In this case we display a t-SNE two-dimensional
+projection of the vectors over different groups of chapters for the four major characters (i.e., the four March
+sisters). As a comment, the temporal word embedding seems to capture the separation, during the central part
+of the plot, between Joe and Amy, i.e., the two characters who left their home town, and the other two.
+
+ 
+
+75

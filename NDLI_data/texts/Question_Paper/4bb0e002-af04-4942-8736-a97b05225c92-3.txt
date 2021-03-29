@@ -1,0 +1,67 @@
+(b) Solve the assignment problem.
+ABC aD
+
+ 
+
+15. (a) A firm is considering ‘replacement of a
+machine, whose cost price is Rs. 12,200 and
+the scrap value Rs. 200. The running costs in
+rupees are found from experience to be as
+follows : :
+
+Year: Pe gs 5 6 7 8
+
+Running cost : 200 500 800 1,200 1,800 2,500 3,200 4,000
+When should the machine be replaced?
+
+Or
+
+(b) The maintenance cost and resale value per
+year of a machine whose purchase price is
+Rs. 7,000 is given below :
+Year: 3 2 3 4 5 6 7 8
+Maintenance cost (Rs.): 900 1,200 1,600 2,100 2,8003,700 4,7005,900
+Resale value (Rs.): _4,0002,0001,200 600 500 400 400 400
+
+ 
+
+   
+
+PART C — (3 x 10 = 30)
+Answer any THREE questions.
+
+16. Solve the following L.P.P. by the graphical method
+Max Z =3x, + 2x,
+Subject to
+~ 2x, +X $1
+x, <2
+x +%X%_S3
+and x,,x, 20
+
+17.. Find the initial basic feasible solution for the
+following transportation problem by VAM.
+
+Distribution Centres
+Di De Ds Ds _ Availability
+
+ 
+ 
+     
+
+ 
+ 
+
+Origin Si 250
+s[afafi fio] 00
+
+Requirements 200 225 275 259
+
+18. A manufacturer has to supply his customer with
+600 units of his products per year. Shortage are
+
+not allowed and storage cost amounts to 60 paise
+
+per unit per year. The set up cost is Rs. 80.00.
+Find
+
+oo: eee S.No. 2282

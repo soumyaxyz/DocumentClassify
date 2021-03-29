@@ -1,0 +1,71 @@
+33 Quantum Groups
+
+ 
+
+Proposition 1.2.32. Consider the category with objects as CQG s having a C* action
+on C(Xn) and morphisms as CQG morphisms intertwining the actions as above. Then
+
+OU, is the universal object in this category.
+Now we note down a simple fact for future use.
+
+Lemma 1.2.33. Let a be an action of a CQGS on C(X) where X is a finite set. Then
+
+a automatically preserves the functional rT corresponding to the counting measure:
+
+(7 @ id)(a(f)) = r(f)-1s.
+
+Proof:
+Let X = {1,...,n} for some n € JIN and denote by 6; the characteristic function of
+the point i. Let a(6;) = Mi 6; © qij where {qij : i,j = 1...n} are the images of the
+canonical generators of the quantum permutation group as above. Then 7-preservation
+
+of a follows from the properties of the generators of the quantum permutation group,
+
+ 
+
+ 
+
+ 
+
+which in particular imply that 5> jij = 1=, 4.
+
+Wang also identified the universal object in the category of all CQG s having a C*
+
+ 
+
+action a, on M,,(C) ( with morphisms as before ) such that the functional Tr is kep
+invariant under a ;. However, no such universal object exists if the invariance of the
+functional is not assumed. The precise statement is contained in the following theorem.
+
+Before that, we recall that M,(C) = C*{ei; : eigen = Ojneut, ef, = ej, SG =
+154.9 Rs 1 = 1,2, ...0.
+
+Proposition 1.2.34. Let QM yz,(c) qt, be the C* algebra with generators att and the
+
+i
+on
+
+following defining relations:
+
+n
+kv vl kl. :
+Aj; Ons = Ojrajs, 4,5, k,l, 7,8 = 1,2, 0,7,
+v=1
+n
+So afta’, = djaii,i,j,klr,s = 1,2,....0,
+v=1
+
+kl* _ otk oe ew 7
+ay; = a5, 29, Rb 12, iy
+
+n
+on hts Bed = Lines ts
+r=1
+
+n
+
+Seat =o, k,b=1,...,n.
+
+r=1
+
+Then,

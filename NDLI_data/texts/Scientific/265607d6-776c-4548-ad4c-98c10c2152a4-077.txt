@@ -1,0 +1,67 @@
+3. Search Result Diversification
+
+ 
+
+Coverage and novelty can be combined to define the search result diversifi-
+cation problem. Informally, the problem can be stated as that of producing a
+ranking with maximum coverage and maximum novelty with respect to the pos-
+sible information needs underlying a query, as illustrated in Figure 3.1. The figure
+also contrasts a diversity-oriented ranking from a traditional relevance-oriented
+
+ranking, which assumes that a single information need underlies the query.
+
+ 
+
+ 
+
+ 
+
+—> —>
+
+Relevant to n,
+
+ 
+
+ 
+
+Not relevant
+
+ 
+
+cutoff T
+
+ 
+
+ 
+
+ 
+
+CS Sagas
+UCOUSaaes
+CS aaa aa
+CUSsa Cl ag
+
+maximum maximum maximum maximum
+relevance coverage novelty diversity
+
+Figure 3.1: Relevance-oriented ranking and the often conflicting goals of diversity-
+oriented ranking, namely, to attain maximum coverage and maximum novelty.
+
+Formally, let R, denote the ranking produced for the query q by a relevance-
+oriented ranking approach, such as those described in Section 2.2. Moreover,
+let MN, and NM, denote the sets of information needs for which the query g and
+each document d € R, are relevant, respectively. The goal of the search result
+
+diversification problem is to find a subset D, € 2%, such that:
+
+D, = argmax| Useo, Ng Nal, s-t. [Di] <7, (3.1)
+
+Dies
+where 7 > 0 is the diversification cutoff, denoting the number of top documents
+from R, to be diversified, and 2% is the power set of R,, comprising all subsets
+Di, of Ry, with 0 < |Dj| < 7, to be considered as candidate permutations of R4.
+The permutation with the maximum number of covered information needs up to
+
+the cutoff 7 is chosen as the optimal diversified ranking Dj.
+
+59

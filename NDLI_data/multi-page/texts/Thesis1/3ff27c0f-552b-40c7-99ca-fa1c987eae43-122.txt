@@ -1,0 +1,82 @@
+Chapter 4: Quantum isometry groups for Rieffel deformed manifolds 110
+
+ 
+
+x in E. Then E® = {e € E: g > a,(e) is C%} is norm dense in A.
+
+Proof: For a compactly supported continuous function f on G and a in E, we will
+denote by a(f)(a) the norm convergent integral f, f(h)an(a nn where dh denotes a left
+invariant Haar measure on G. Then, it can be seen that ag(a(f)a) = fo f g-th)a;(a)dh.
+Thus, for f in C°(G), a(f)(a) is in E®. Now, for any € > 0 we oe a sell enough
+neighbourhood U of identity of G, such that ||ag(a) — al] < € for all g in U. Next, we
+choose f in C°(G) with f >0, {¢ fdh = 1 and supp(f) C U. Then,
+
+lla(f) (a) — all
+
+= [re Jag(a)da—a [Ha )dg
+= | [ teote0ta) - aya
+
+J f@llesta) ~ al ag
+G
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+IA
+
+<
+
+ 
+
+ 
+
+ 
+
+ 
+
+This shows that EF is dense in EF.
+
+Lemma 4.1.2. Let A be a C* algebra with a strongly continuous action a of G as
+above. Then A® is closed under holomorphic functional calculus. Let $ be a positive
+linear map from A® to another C* algebra B. Then, for any self adjoint element x in
+
+> I@)II < Hell 6)
+
+Proof: The first fact is quite well known. We refer to [52] for a proof. For the second
+part, let x be a self adjoint element of A®. Then, y = (1 + €)||x|| — x is a positive
+and invertible element ( since its spectrum does not contain zero ) of A®, which being
+closed under holomorphic functional calculus, is closed under taking square root of an
+
+invertible element. Thus, y? belongs to A® and therefore d(y) = o((y2)*y2) > 0. This
+
+ 
+
+proves the Lemma.
+
+ 
+
+ 
+
+Let (A,T”, 3) be a C* dynamical system, that is, A is endowed with a strongly
+
+ 
+
+continuous action of T” by * automorphisms. Moreover, 7 : A — B(H) be a faithfu
+representation, where 1 is a separable Hilbert space.
+
+Let A® be the smooth algebra corresponding to the T” action /.
+
+Assume now that we are given a spectral triple (A®,70,H, D) of compact type.
+Suppose that D has eigenvalues {Ao, A1, .....--- } and V; denotes the (finite dimensional)
+eigenspace of A; and let Soo denote the linear span of {V; : i =0,1,2,..}.
+
+Suppose, furthermore, that there exists a compact abelian Lie group T, with a
+
+covering map ¥ : T" — T”. The Lie algebra of both T” and T” are isomorphic with

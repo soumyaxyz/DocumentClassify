@@ -1,0 +1,57 @@
+25~N to denote the set of all multisets containing (only) elements from the set S, and R* to denote
+the set of all vectors of dimension a (i.e., the set of all vectors containing a real-valued elements).
+
+Definition B.46 (Graph parallel framework). A graph parallel framework (GPF) is a triple of
+functions © := (Msc, Acc, END) such that (with a, b,c € N):
+e Msc: R¢x R’ > R°
+° Acc : R¢ x 22°ON _, Re
+e Enp: 2®°>N _, {true, false}
+
+The function Msc defines what message (i.e., vector) must be passed from a node to a neighbour-
+ing node along a particular edge, given the current feature vectors of the node and the edge; the
+function AGG is used to compute a new feature vector for a node, given its previous feature vector
+and incoming messages; the function END defines a condition for termination of vector computation.
+The integers a, b and c denote the dimensions of node feature vectors, edge feature vectors, and
+message vectors, respectively; we assume that a and b correspond with the dimensions of input
+feature vectors for nodes and edges. Given a GPF 6 = (Msc, Acc, END), a directed vector-labelled
+graph G = (V,E, F,A), and a node u € V, we define the output vector assigned to node u in G by ©
+
+(written G(G, u)) as follows. First let n® := A(u). For all i > 1, let:
+
+Me = {Msc (al? a@, w) lo, uve |
+a’) = Acs (nf, a)
+If j is the smallest integer for which Env({n¥? | u € V}) is true, then 6(G, u) = nl),
+This particular definition assumes that vectors are dynamically computed for nodes, and that
+messages are passed only to outgoing neighbours, but the definitions can be readily adapted to
+
+consider dynamic vectors for edges, or messages being passed to incoming neighbours, etc. We
+now provide an example instantiating a GPF to compute PageRank over a directed graph.
+
+Example B.47. We take as input the directed vector labelled graph G’ = (V, E, F, A) from Exam-
+ple B.45 for a PageRank GPF. First we define the messages passed from u to v:
+Msc (ny, A(v, u)) “= dos |
+
+(no)2
+
+where d denotes PageRank’s constant dampening factor (typically d := 0.85) and (n,,)z denotes the
+k' element of the n, vector. In other words, v will pass to u its PageRank score multiplied by the
+dampening factor and divided by its degree (we do not require A(v, u) in this particular example).
+Next we define the function for u to aggregate the messages it receives from other nodes:
+
+-d
+ins + Damebl (m);
+
+AGG (tu, My) = (nu)2
+(nu)s
+Here, we sum the scores received from other nodes along with its share of rank from the dampening
+
+factor, copying over the node’s degree and the total number of nodes for future use. Finally, there
+are a number of ways that we could define the termination condition; here we simply define:
+
+ 
+
+Env({ni? | u € V}) = (i> 2)
+
+where z is a fixed number of iterations, at which point the process stops.
+
+122

@@ -1,0 +1,141 @@
+able 1.1 Few Core Business Processes
+
+     
+
+Resource Management
+
+Acquire to Retire (Fixed Assets) This end-to 2d scenars
+
+Asset Requis
+
+Ausset
+
+  
+
+enhance
+
+ 
+
+ment. Asset Dep
+
+ 
+
+Hire to Retire An end-to
+
+  
+  
+
+of enterprises. It
+
+ 
+
+Hire. Compensat
+
+rranagemenr, Tr
+
+   
+ 
+ 
+  
+ 
+
+Business Process Management
+
+oii ta eer
+
+Procure to Pay
+(Also referred to as supplicr, to paying the supplier. The s
+Purchase to Payment) requirement
+
+This end-to-end process encompasses
+
+ 
+
+ 
+
+— wendor selection
+purchase order —> release of pur
+order — good received and inventory m
+
+— verification of invoice —>
+
+ 
+
+suance of
+
+Idea to Offering This entrails research —> concept. concept
+
+       
+
+— ramp-up, mor
+
+ 
+
+itor —> impr
+
+ 
+
+©. img
+
+ 
+
+ 
+
+Marker to Order
+(Also referred to as
+Market to prospect)
+
+This end-to-end process is as follows: re
+
+   
+
+identification —> plan. campa
+
+     
+
+relationship management
+
+Order to Cash The basic activities this core bu
+
+   
+
+= Create
+
+ 
+
+ntain customer
+
+ 
+
+      
+
+     
+
+ 
+
+ 
+
+= Create or Itaim materia
+
+- Create or 2intain conditic for 5 ng
+- Enter and authorize sales order
++ Convert quote to order
+* Validate product configuration
+- Verify billing. mer dex .
+- Apply discounts
+- Review credit of customer
+- Verify stock
+- Plan delivery schedule
+°¢ Pack and ship product
+* Billing and cash receipt
+- Contract to renewal
+
+Quote to Cash This process essentially is a tw ess
+- Generation of quotations
+- Order to cash (described above
+
+Issue to Resolution The basic steps here are: detection of
+
+      
+
+development of solution —

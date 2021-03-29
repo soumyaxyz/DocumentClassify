@@ -1,0 +1,18 @@
+Infix Notation
+
+ 
+
+The most common notation that is used while expressing
+arithmetic expression is infix notation. In this notation, operator is
+placed between its operands. For example, to multiply m and n
+we write m * n. It is the notation that is used by most of the
+people to solve any mathematical/arithmetic expressions. But,
+while solving the infix notation, the main consideration is the
+precedence of the operators and their associativity. For example,
+consider an expression,
+
+e=q*rt+s
+In this expression, following the precedence rules, q and r are first
+
+multiplied and then s is added. That is, *(multiplication) operator
+has precedence over the +(addition) operator.

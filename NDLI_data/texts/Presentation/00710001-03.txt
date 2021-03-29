@@ -1,0 +1,17 @@
+DEFINITION
+
+A Heap is co complete binary tree with n
+elements which is maintained in the memory
+using a linear array.
+
+It is a very important data structure which can
+be used efficiently to sort given list of elements.
+There are two types of heaps:
+If the value present in any node is greater
+than all its children then such a tree is called
+as the max-heap or descending heap.
+In min-heap or ascending heap the value
+oresent at any node is smaller than alll its
+children.
+
+@3

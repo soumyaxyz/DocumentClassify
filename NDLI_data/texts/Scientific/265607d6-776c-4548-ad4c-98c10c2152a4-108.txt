@@ -1,0 +1,45 @@
+4. The xQuAD Framework
+
+ 
+
+ 
+
+ 
+
+After defining our target probability space, we can derive the probability o
+diversity, p(d,D,|q), in a series of steps, according to:
+p(d, D,\q) = > pd, Dy, s|q) 4.2
+seSq
+= ¥ p(slq) pd, Dyla. 8) 4.3
+scSq
+~ 7 (sla) pldla, s) n(Byla, s) 4A
+sESq
+= > v(s\a) p(dia,s) [] p(dla.s) 4.5
+seSq djEDq
+= ¥— plsia) p(dla,s) [] ( - pldjla.s))- 4.6
+seSq djEDq
+
+In order to derive Equation (4.2), we apply the sum rule and marginalise the
+probability p(d, D,|q) over the sub-queries s € S,. Equation (4.3) follows trivially
+from the product rule (Good, 1950). The resulting probability p(s|q) can be seen
+as modelling the importance of the sub-query s with respect to the other sub-
+queries in Sy. This notion could reflect, for instance, users’ preferences or the
+context of their search (Clarke et al., 2008; Agrawal ect al., 2009).
+
+In order to derive p(d,D,\q, 8) in Equation (4.3), we assume that the observa-
+tion of the document d is independent of the observation of the documents already
+selected in D, (and, by extension, of D,), conditioned on the observation of the
+query qg and the sub-query s. While this assumption is also present in the formu-
+lation of other diversification approaches in the literature (e.g., Agrawal et al.,
+2009; Carterette & Chandar, 2009), in reality, the knowledge of the documents
+that have already been selected affects the selection of the next document. On the
+other hand, this knowledge affects all candidate documents d € R, \ Dy equally,
+since D, is fixed at each iteration. As a result, it seems plausible to refactor the
+probability p(d,D,\q, s) into a more tractable form. Note, however, that such a
+refactoring does not at all imply that redundancy is ignored in our formulation.
+Instead, it results in separate models of the coverage of each document d with
+respect to the sub-query s, ie., p(dlq,s), and its novelty in light of how poorly
+
+this sub-query is covered by the already selected documents in Da, i.e., p(D,la, 8).
+
+90

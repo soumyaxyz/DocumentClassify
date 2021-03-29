@@ -1,0 +1,53 @@
+show an end-user a reason why M predicts a tail entity o for the query r(s,?). It does so by finding
+an explanation path between s and o which entails the given relation r.
+
+3.1 Language for generating Explanation Paths
+
+A KB can be seen as a knowledge-graph KG, where there is a directed edge from s to o labeled by r
+for every KB fact r(s,0). We now define the notion of an explanation path in this KG. Once the
+model © is learnt, we augment KG with additional edges that correspond to similarity between any
+two entities e and e’. We represent such an edge as ~ yy (e, e’) and call them ‘entity similarity edges’.
+Here, the operator ~ jy represents that / considers these two entities similar. We call the original
+edges of KG as ‘relation edges’. An explanation path, P(s, 0), is a path between two entities, s and
+o, in the augmented AG. Here, we call s as Head(P) and 0 as Tail(P). A path is a sequence of
+edges concatenated by a ",". Following grammar generates an explanation path recursively:
+
+1. Relation Edges: P «+ r(s,o) Vr(s,0) € KB
+
+2. Pre-fix a similarity edge: P <— ~j4 (s,s) , Pj s.t. Head(P,) = s.
+
+3. Post-fix a similarity edge: P <— P,, ~y (0,0') s.t. Tail(P,) =o.
+
+4. Concatenation of two paths: P < P;, P, s.t. Tail(P,) = Head(P2).
+
+P, and P, on the R.H.S. themselves denote explanation paths generated using the same rules
+recursively. An explanation path may contain both types of edges: ‘relation edges’ and ‘entity
+similarity edges’. For each entity similarity edge between two entities e and e’, we may define its
+weight as sims (e, e’) where simaq function captures the degree of similarity between the entities as
+given by the underlying model /. This is easy to obtain from any TF’ model, e.g., for TypedDistMult
+[Jain et al., 2018], we use cos(Fy,7,,)cOS(Tis,74,)COS(Fto, 7.) where cos is the cosine similarity.
+For a relation edge, we consider its weight as 1 as we include relation edges for only those triples
+that exist in KB. Another alternative is to use the model score S™ (s, 1, 0) here as well, like similarity
+edges, and that would make all our edges probabilistic. But we leave that for future work. Using this
+notion of edge weights, we define EdgeScore(P) of a path P as product of all the edge weights in
+it. For P to be a good explanation, its EdgeScore should be high.
+Next, we define an operator, RelComposition(P), which performs a composition of all the relations
+in the path P. It returns a vector in the same space as the relation embeddings learnt by the model.
+We follow previous work to use a Hadamard product of the embeddings of all relations in the path
+[Guu et al., 2015]. For example, for P(s, 0) = 7r1(s, u1), T2(u1, 0), RelComposition(P) = rie re.
+Now, let the model predict an entity o for the query r(s,?). To quantify the plausibility of an
+explanation path P(s, 0) for the prediction r(s, 0), we define a plausibility score as:
+
+Plausibility(P(s,0),1(s,0)) = simys (RelComposition (P (s,0)),r)-EdgeScore(P) (1)
+
+In the above equation, EdgeScore(P) captures all the entity similarities in the path P and
+simu (RelComposition(P),r) captures whether composition of relations in the path entail the
+given relation r or not. sim yy function is as defined earlier.
+
+Task of OXKBC is to select the most plausible explanation path. However, one can easily
+observe that Plausibility score might not be comparable for two paths of unequal lengths. Even
+for two equal length paths, it could be difficult to compare due to different edge types. For example,
+consider two paths P; and P2 with length two but different edge types: P,(s,0) = ~ys (s, 1),
+ri(u1, 0) and P2(s,0) = r1(s,v1), 72(v1,0). P; has a similarity edge followed by a relation edge
+
+4

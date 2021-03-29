@@ -1,0 +1,27 @@
+6. Sub-Query Generation
+
+ 
+
+As demonstrated in Section 6.4.2.3, another benefit of our approach is its
+resilience to data sparsity. Indeed, our approach is able to produce effective
+suggestions even for a previously unseen query, provided that this query shares
+at least one term with relevant suggestions (or other queries related to these
+suggestions) in the log. Regarding the representation of candidate suggestions,
+our investigation in Section 6.4.2.4 showed that features dependent on the input
+query (computed using terms from the suggestion itself, as well as those from
+other queries with a common session or click with the suggestion) are the most
+effective descriptors of effective suggestions, denoting the topical nature of this
+task. Nevertheless, query-independent features reflecting lexical characteristics
+of a suggestion (e.g., its length) or its usage history (e.g., the amount of clicks
+it received across sessions) were also effective. Finally, a comprehensive analysis
+in Section 6.4.2.5 showed the robustness of our proposed evaluation methodology
+for quantifying suggestion effectiveness in light of missing relevance assessments.
+
+After introducing an effective mechanism for generating sub-queries, in the
+next chapter, we will discuss an effective mechanism for estimating the coverage
+of each retrieved document with respect to each identified sub-query. To this
+end, we will exploit the intent underlying each sub-query as a means to select the
+
+most appropriate ranking model to perform such estimations.
+
+148

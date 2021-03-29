@@ -1,0 +1,58 @@
+75 Definition and existence of the quantum group of orientation-preserving isometries
+
+ 
+
+Now we turn to the case of a family of maps. We are ready to state and prove the
+
+operator-theoretic characterization of ‘set of orientation-preserving isometries’.
+
+Theorem 3.2.4. Let X be a compact metrizable space andy: X x M — M is a map
+such that wz defined by W2(m) = 4)(x,m) is a smooth orientation preserving Riemannian
+isometry and x +> Wz € C~(M,M) is continuous with respect to the locally convex
+topology of C°(M,M) mentioned before.
+
+Then there exists a ( C(X)-linear ) unitary Uy on the Hilbert C(X)-module H ®
+C(X) (where H = L?(S) as in Theorem 3.2.3) such that for all x belonging to X, Ux :=
+(id ® ev,z)Uy is a unitary of the form Uy, on the Hilbert space H commuting with D
+and U,M,gU;! = Mgoyz?-
+commutes with the grading operator y.
+
+Conversely, if there exists a C(X)-linear unitary U on H ® C(X) such that Uy, :=
+
+(id @ ev,)(U) is a unitary commuting with D for all x, ( and U, commutes with the
+
+If in addition, the manifold is even dimensional, then Uy,
+
+grading operator y if the manifold is even dimensional ) and (id ® ev,)ay(L™(M)) C
+L°(M) for alla in X, then there exists a map wy: X x M — M satisfying the conditions
+
+mentioned above such that U = Uy.
+
+Proof: Consider the bundles F =X x F and P = X x P over X x M, with fibres
+at (x,m) isomorphic with F;, and Pm respectively, and where F and P are respectively
+the bundles of orthonormal frames and the Spin( n ) bundle discussed before. Moreover,
+denote by W the map from X x M to itself given by («,m) +> (a, ~(x,m)). Let mx :
+Hom(F, U*(F')) + X be the obvious map obtained by composing the projection map
+of the X x M bundle with the projection from X x M to X, and let us denote by B
+the closed subset of the Polish space C(X,Hom(F’, ¥*(F))) consisting of those f such
+that for all x, rx(f(x)) =x. Define B in a similar way replacing F by P. The covering
+map from P to F induces a covering map from B to B as well. Let dy :M— Bbe
+the map given by di,(m)(x) = di,(x,m) = dibz|m. Then by Lemma 3.2.2 there exists a
+measurable lift of dy, say di, from M into B. Since di,(x,m) € Hom(Fin, Fy(e,m)); it is
+clear that the lift d),(x,m) will be an element of Hom(Pm; Py(ajm))+
+
+We can identify H @ C(X) with C(X — H), and since H has a total set F (say)
+consisting of sections of the form [p(-), v], where p : MM — P is a measurable section of P
+and v belongs to An, we have a total set F of H@C(X) consisting of F valued continuous
+with E: X x M > P,
+v € An, and E(x,m) € Pm, and we define U on F by U[E, v] = [©, v], where
+
+ 
+
+functions from X. Any such function can be written as
+
+O(e,m) = di,(2, vz (m)) (E(w, vz (m))).
+
+It is clear from the construction of the lift that U is indeed a C(X)-linear isometry
+
+which maps the total set ¥ onto itself, so extends to a unitary on the whole of H®C(X)

@@ -1,0 +1,57 @@
+Chapter 2: Quantum isometry groups: approach based on Laplacian 54
+
+ 
+
+smooth isometry for all s in S. The morphism set is defined as above ( replacing group
+homomorphisms by continuous set maps ).
+
+Therefore, to define the quantum isometry group, it is reasonable to consider a
+category of compact quantum groups which act on the manifold (or more generally,
+on a noncommutative manifold given by spectral triple) in a ‘nice’ way, preserving the
+Riemannian structure in some suitable sense, which is precisely formulated in [30], where
+it is also proven that a universal object in the category of such quantum groups does
+
+exist if one makes some natural regularity assumptions on the spectral triple.
+
+2.1.2 The definition and existence of the quantum isometry group
+
+Let (A®,H, D) be a Q-summable spectral triple of compact type. We recall from section
+1.5 the Hilbert spaces of k-forms H4,,k = 0,1, 2,... and also the Laplacian £L = —dpdp.
+
+To define the quantum isometry group, we need the following assumptions:
+
+Assumptions
+
+1. dp is closable and A® C Dom(L) where A® is viewed as a dense subspace of
+H,.
+
+2. £ has compact resolvents.
+
+3. L(A®) C A™.
+
+4. Each eigenvector of £ ( which has a discrete spectrum, hence a complete set of
+eigenvectors ) belongs to A®.
+
+5. ( connectedness assumption ) The kernel of £ is one dimensional, spanned by the
+identity 1 of A®, viewed as a unit vector in H,.
+
+6. The complex linear span of the eigenvectors of £, denoted by Aj° is norm dense
+
+in A®.
+Definition 2.1.1. We say that a spectral triple satisfying the assumptions 1. - 6.
+admissible.
+
+The following result is contained in Remark 2.16 of [30].
+
+Proposition 2.1.2. If an admissible spectral triple (A~,H, D) satisfies the condition
+(\Dom(L") = A®, and ifa: A — A®S is a smooth isometric action on A® by a
+CQG S, then for all state 6 on S, ag(= (id @ d)a) keeps A® invariant.
+
+In view of the characterization of smooth isometric action on a classical compact
+manifold ( Proposition 1.4.1 and Proposition 1.4.2 in Chapter 1 ), Goswami gave the
+
+following definition in [30].
+
+Definition 2.1.3. A quantum family of smooth isometries of the noncommutative man-
+
+ifold A® ( or more precisely on the corresponding spectral triple ) is a pair (S,a) where

@@ -1,0 +1,97 @@
+12.
+
+13.
+
+14.
+
+(a)
+
+(b)
+
+(a)
+
+(b)
+
+(a)
+
+(b)
+
+Obtain the Gauss Hypergeometric series. 15. (a)
+
+Or
+a
+Prove that Jypa(@)= J— sinx.
+mx
+
+Find the general solution of the following
+
+system :
+
+Se nis:
+
+one
+
+dy
+
+—=4x-2y. (b)
+ne
+
+Or
+Solve y'=x+y, y(0)=1 by Picard’s formula.
+
+Let u(x) be any nontrivial solution of
+u"+q(x)u=0, where g(x)>0 for all x>0.
+Prove that if |gq(x)dx=o, then u(x) has i
+J «) 16. (a)
+infinitely many zeros on the positive x axis.
+Or»
+Let y(x) be a nontrivial solution of equation
+y"+q(x)y=0 on a classed interval [a, d].
+Then prove that y(x) has at most a finite
+number of zeros in this interval.
+
+(b)
+
+8 S.No. 5242
+
+Prove that the critical point (0,0) of the
+linear system
+
+dx
+a mete
+
+os =a,x +b,y, is stable iff both roots of the
+
+auxiliary equation
+
+m? —(a, +b.) m+(a,b,-a,b1)= 0 have non
+
+positive real parts, and it is asymptotically
+
+stable if both roots have negative real parts.
+Or
+
+Prove that the function
+
+E(x, y)=ax? +bxy +cy? is positive definite if
+
+and only if a>0 and b?-—4ac<0, and is
+
+negative definite if and only if a<0 and
+
+b? —4ac <0.
+
+SECTION C — (3 x 10 = 30)
+
+Answer ALL questions.
+Derive particular solution of the non
+homogeneous equation
+y" + p(x)y' + Q(x) y= R(x).
+Or
+Prove the orthogonality property
+0 ifm#n
+
+Jom x)T py (Ay x)dx = {Bap (any ifm=n
+
+4 S.No. 5242
+[P.T:O%]

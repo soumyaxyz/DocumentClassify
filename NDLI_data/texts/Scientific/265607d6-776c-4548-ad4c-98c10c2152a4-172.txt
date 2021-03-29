@@ -1,0 +1,43 @@
+7. Document Coverage
+
+ 
+
+7.2.2.2 Classification Labels
+
+In order to determine the ground-truth intent of each sub-query, we investigate
+two alternative labelling strategies. The first one, denoted JUDG, relies on a
+manual classification performed by TREC assessors for the sub-topics underlying
+a query, as discussed in Section 3.4.1. Nevertheless, the differences between these
+sub-queries may go beyond their apparent characteristics. For instance, sub-
+queries with the same judged intent could still benefit from leveraging different
+ranking models (Craswell & Hawking, 2004). Additionally, judging the intent of
+different sub-queries may be costly for large training datasets.
+
+To overcome these limitations, we propose a second labelling strategy, denoted
+PERF, aimed to automatically label training sub-queries. In particular, given
+a training query qg with sub-queries S,, |S,| = k, and a set of target intents
+TZ, we devise an oracle selection mechanism. According to a target evaluation
+metric, such a mechanism always chooses the most effective out of the |Z|* possible
+selections of the available models to be leveraged by a reference diversification
+approach for the k sub-queries underlying q. In our investigation in Section 7.3, we
+use ERR-IA@20 (Equation (3.28)) as the target evaluation metric, and xQuAD
+as the reference diversification approach. Although estimating this oracle may
+be infeasible for large values of k, it can be easily estimated for most practical
+settings. For instance, the maximum number of sub-topics per query in the
+TREC 2009, 2010, and 2011 Web tracks is k = 8. Moreover, if many more sub-
+queries were available for a particular query, less plausible ones could be discarded
+without much loss. Indeed, this is precisely what leading web search engines
+do when displaying only the top suggestions for a user’s query, as discussed in
+Chapter 6. To avoid training xQuAD’s diversification trade-off for evaluating
+each selection of intents, we instantiate xQuAD with a fixed A = 1, which equates
+to the formulation of [A-Select (Equation (3.23)), as discussed in Section 4.4.
+
+Finally, it is worth noting that the entire labelling process is conducted offline.
+
+7.2.2.3 Classification Features
+
+In order to enable our investigation in Section 7.3, we restrict the space of target
+
+intents to navigational and informational ones, since the TREC test collections
+
+154

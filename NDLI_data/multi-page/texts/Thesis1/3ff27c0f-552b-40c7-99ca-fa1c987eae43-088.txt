@@ -1,0 +1,60 @@
+Chapter 3: Quantum group of orientation preserving Riemannian isometries 76
+
+ 
+
+with the desired properties.
+
+Conversely, given U as in the statement of the converse part of the theorem, we
+observe that for each x in X, by Theorem 3.2.3, (id ® evg)U = Uy,, for some wz such
+that a, is a smooth orientation preserving Riemannian isometry. This defines the map
+w by setting ~(a,m) = W,(m). The proof will be complete if we can show that x +>
+W2 € C™~(M,M) is continuous, which is equivalent to showing that whenever 2, — x
+in the topology of X, we must have G0 z,, + 60%z in the Frechet topology of C°(M),
+for any ¢ € C™(M). However, by Lemma 1.1.8, we have (id ® evz, )au([D, Mg]) -
+(id @ ev,)ay([D, Mg]) in the strong operator topology where ay(X) =UXU7!. Since
+
+U commutes with D, this implies
+(id @ evz,, )[D ® id, au(Mg)] > (id @ evz)[D @ id, av(My)],
+that is, for all € in L?(S),
+y L?
+[D, Moore, Jf + [D, Moowel€-
+
+By choosing ¢ with support in a local trivializing coordinate neighborhood for S,
+and then using the local expression of D used in the proof of Theorem 3.2.3, we conclude
+that di. (do Wr, ) He d,(@0 Uz) (where dx is as in the proof of Theorem 3.2.3). Similarly,
+by taking repeated commutators with D, we can show the L? convergence with dz
+replaced by dx,..-dy,, for any finite tuple (kj,..., km). In other words, ¢0 yz, > 6° Wy
+
+im.
+
+ 
+
+ 
+
+ 
+
+in the topology of C°°(M) described before.
+
+ 
+
+3.2.2 Quantum group of orientation-preserving isometries of an R-
+twisted spectral triple
+
+In view of the characterization of orientation-preserving isometric action on a classical
+
+manifold ( Theorem 3.2.4 ), we give the following definitions.
+
+Definition 3.2.5. A quantum family of orientation preserving isometries for the (
+odd, compact type ) spectral triple (A~,H,D) is given by a pair (S,U) where S is a
+separable unital C*-algebra and U is a linear map from H toH®S such that U given by
+U(€@b) =U(E)(1@b) (E inH, b in S ) extends to a unitary element of M(K(H) @8)
+satisfying the following:
+
+(i) for every state @ on S we have UsD = DUg, where Us := (id ® ¢)(U);
+
+(ti) (id ®@ ¢) 0 ay (a) € (A®)” for all a in A® and state ¢ on S, where ay(x) :=
+O(a ® 1)0* for x belonging to B(H).
+
+In case the C*-algebra S has a coproduct A such that (S,A) is a compact quantum
+
+group and U is a unitary representation of (S,A) on H, we say that (S,A) acts by

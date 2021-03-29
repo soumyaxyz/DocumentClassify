@@ -1,0 +1,47 @@
+Bibliography
+
+ot
+
+ 
+
+ 
+
+Banica, T.: Quantum automorphism groups of small metric spaces, Pacific J.
+Math. 219(2005), no. 1, 27-51.
+
+Banica, T.: Quantum automorphism groups of homogeneous graphs, J. Funct.
+Anal. 224(2005), no. 2, 243-280.
+
+Banica, T.; Bichon, J.: Quantum groups acting on 4 points. J. Reine Angew.
+Math. 626 (2009), 75-114.
+
+Banica, T.; Bichon, J.; Collins, B.: Quantum permutation groups: a survey.
+Noncommutative harmonic analysis with applications to probability, 13-34, Ba-
+nach Center Publ., 78, Polish Acad. Sci. Inst. Math., Warsaw, 2007.
+
+tp
+
+Banica, T.; Moroianu, $.: On the structure of quantum permutation groups.
+Proc. Amer. Math. Soc. 135 (2007), no. 1, 21-29 (electronic).
+
+Bhowmick, J. and Goswami, D.: Quantum isometry groups : examples and
+computations, Comm. Math. Phys. 285 ( 2009 ), no. 2, 421-444.
+
+Bhowmick, J. : Quantum Isometry Group of the n tori, to appear in Proc. Amer.
+Math. Soc., arXiv 0803.4434.
+
+Bhowmick, J., Goswami, D.: Quantum group of orientation preserving Rieman-
+nian Isometries, arXiv:0806.3687.
+
+Bhowmick, J., Goswami, D., Skalski, A.: Quantum Isometry Groups of 0- Di-
+mensional Manifolds, to appear in Trans. AMS, arXiv:0807.4288.
+
+ 
+
+Bhowmick, J. and Goswami, D.: Quantum isometry groups of the Podles
+Spheres, arXiv:0810.0658.
+
+Bichon, J.: Quantum automorphism groups of finite graphs, Proc. Amer. Math.
+Soc. 131(2003), no. 3, 665-673.
+
+187

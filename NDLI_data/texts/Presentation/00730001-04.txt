@@ -1,0 +1,14 @@
+Reachability
+
+ 
+
+*It means that whether a particular vertex is reachable from other
+vertices of the graph or not.
+
+*With the help of reachability matrix of a graph,we can find which
+vertex of a graph is reachable from which vertex of a graph by 2
+ways:-
+
+“ Matrix Multiplication Method
+
+“~ Warshall’s Algorithm

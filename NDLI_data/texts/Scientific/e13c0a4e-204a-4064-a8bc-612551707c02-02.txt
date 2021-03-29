@@ -1,0 +1,122 @@
+Weisfeiler and Leman go sparse
+
+ 
+
+network architecture, the 6-k-LGNN, and show that is has
+the same expressive power as the 6-k-LWL. Moreover, recent
+advancements in learning theory for GNNs (Garg et al., 2020)
+imply that the d-k-LWL architecture has better generalization
+abilities compared to dense architectures based on the k-
+WL. Experimentally, we apply the discrete algorithms (or
+kernels) and the (local) neural architecture to supervised graph
+learning, and verify that both are several orders of magnitude
+faster than the global, discrete algorithms or dense, neural
+architectures, and prevent overfitting. The discrete algorithms
+establish a new state-of-the-art for graph classification on a
+wide range of small- and medium-scale classical datasets. The
+neural version shows promising performance on large-scale
+molecular regression tasks.
+
+2. Weisfeiler-Leman: classic and 6-version
+
+Local/global neighbors. Given a k-tuple v of vertices of a
+graph G, let ¢;(v, w) be the k-tuple obtained by replacing
+the j"*component of v with the vertex w. That is, dj(v, w) =
+(U1, ...,0j-1, W, Vj 41, +++, Uk). If w = ;(v, w) for some
+w in V(G), call the tuple w a j-neighbor of the tuple v (and
+vice-versa). Furthermore, call w a local j-neighbor of v if w
+is adjacent to v;, otherwise call it a global neighbor of v.
+
+The k-WL. Given a graph G and an integer k > 0, the k-
+WL computes a stable coloring (a mapping C.,: V(G)* >
+N) for G, via an iterative procedure as follows. The initial
+coloring Co of V(G)* is specified by the isomorphism types
+of the tuples, i-e., two tuples v and w in V(G)* get acommon
+color iff the mapping v; +> w; induces an isomorphism
+between the labeled subgraphs G[v] and G[w]. Starting with
+Co, successive refinements C41 = G are computed until
+convergence, i.e., Cj41(v) = (Ci(v), Mi(v)), where,
+
+M,(v) = ({Ci(¢1(v, w)) | w € V(G)F,
+
+1
+.. {Ci(de(v,w)) | w € V(G)}), ”
+
+is called the aggregation map. The k-WL distinguishes two
+graphs G' and H if running k-WL on their disjoint union yields
+disparate colors, hence, certifying their non-isomorphism (see,
+e.g., (Grohe, 2017) for a detailed treatment).
+
+The 6-k-WL. The 6-k-dimensional Weisfeiler-Leman algo-
+rithm, denoted by 6-k-WL, is a variant of the classic k-WL
+which differentiates between the local and the global neighbors
+during neighborhood aggregation (Malkin, 2014). Essentially,
+6-k-WL employs the aggregation function M??(-) instead
+of M;(-) above. It replaces a multiset term {C;(¢;(v,w)) |
+w € V(G)} in Equation (1) above by
+
+{(Ci(o;(v, w), adj(v, o;(v, w))) |w € V(G)},
+
+where, the indicator function adj(v, w) evaluates to L or G,
+depending on whether w is a local or global neighbor of v.
+
+3. Weisfeiler and Leman go sparse
+
+We propose the new local 6-k-dimensional Weisfeiler-Leman
+algorithm (6-k-LWL). This variant of 6-k-WL considers only
+local neighbors during the neighborhood aggregation process,
+and discards any information about the global neighbors. The
+aggregation function used by the 6-k-WL is
+
+M2 (v) = ({Ci(dilv, w)) | we N(v1)},
+
+2
+- (Ci(de(v, w)) | w € N(x) }), @)
+
+hence considering only the local j-neighbors of the tuple v in
+each iteration.
+
+We also propose the 6-k-LWL*, a minor variation of the
+6-k-LWL above, which preserves certain global informa-
+tion in order to achieve strong theoretical guarantees with
+asymptotically identical scalability. Essentially, we use a term
+(C;(¢1(v, w)), #}(v, 1(v, w))) instead of C;(d;(v,w)),
+where the counter
+
+#(v, x)= |{w: w~; Vv, Ci(w) = Ci(x)},
+
+counts the number of j-neighbors w of v such that w has
+the same color as x after 7 rounds of the 6-k-LWL*. Here,
+w ~; v denotes that w is j-neighbor of v, for j in [k].
+
+Theoretical guarantees. Let A; and Az denote two k-WL-
+variants. We write A; C A» (A; is as powerful as Ag) if
+Ay distinguishes between all non-isomorphic pairs Az does,
+and A; = Ap if both directions hold. The corresponding
+strict relation is denoted by C. The following theorem, which
+is our main theoretical result, shows that the 6-k-LWLt is
+equivalent in power to the d-k-WL.
+
+ 
+
+Theorem 1. For the class of connected graphs, the following
+holds for all k > 2:
+
+5-k-LWL* = 6-k-WL.
+
+We also prove that d-k-WL C k-WL, which proves the de-
+sired result, i.e., 5-k-LWL* © k-WL (for connected graphs).
+We remark that, in general, 6-k-LWL* takes a larger number
+of rounds to converge. This possibly slower convergence is
+the key to tackling the overfitting problem associated with the
+classic k-WL. See Appendix F for a discussion on practicality
+and remaining challenges, and Figure 2 for an overview of
+the theoretical results.
+
+4. Higher-order graph kernels and neural
+networks
+
+Kernels. After running the 6-k-LWL (or 5-k-LWL*), the
+concatenation of the histogram of colors in each iteration
+can be used as a feature vector in a kernel computation.
+Specifically, in the histogram for every color o in 5’ there is

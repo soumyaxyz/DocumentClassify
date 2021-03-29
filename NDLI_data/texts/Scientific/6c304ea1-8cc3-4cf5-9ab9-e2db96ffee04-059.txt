@@ -1,0 +1,58 @@
+returning irrelevant results for the given domain. In general, conciseness can be measured in terms
+of the ratio of properties, classes, shapes, entities, relations, etc., of relevance to the domain, which
+may in turn require a gold standard, or techniques to assess domain-relevance.
+
+7.4.2 Representational-conciseness refers to the extent to which content is compactly represented
+in the knowledge graph, which may again be intensional or extensional [538]. For example, having
+two properties flight and flies to serving the same purpose would negatively affect the intensional
+form of representational conciseness, while having two nodes and repre-
+senting the capital of Chile (with neither linked to the other) would affect the extensional form
+of representational conciseness. Another example of representational conciseness is the unneces-
+sary use of complex modelling constructs, such as using reification unnecessarily, or using linked
+lists when the order of elements is not important [238]. Though representational conciseness is
+challenging to assess, measures such as the number of redundant nodes can be used [161].
+
+7.4.3 Understandability refers to the ease with which data can be interpreted without ambiguity by
+human users, which involves — at least — the provision of human-readable labels and descriptions
+(preferably in different languages [261]) that allow them to understand what is being spoken
+about [238]. Referring back to Figure 1, though the nodes and are used to ensure unique
+identifiers for events, they should also be associated with labels such as and (Food Truck), Ideally
+the human readable information is sufficient to disambiguate a particular node, such as associating
+a description with to disambiguate the city from synonymous
+ones. Measures of understandability may include the ratio of nodes with human-readable labels
+and descriptions, the uniqueness of such labels and descriptions, the languages supported, etc.
+
+ 
+
+7.5 Other Quality Dimensions
+
+We have discussed some key quality dimensions that have been discussed for — and apply generally
+to — knowledge graphs. Further dimensions may be pertinent in the context of specific domains,
+specific applications, or specific graph data models. For further details, we refer to the survey
+by Zaveri et al. [538] and to the book by Batini and Scannapieco [31].
+
+8 REFINEMENT
+
+Beyond assessing the quality of a knowledge graph, there exist techniques to refine the knowledge
+graph, in particular to (semi-)automatically complete and correct the knowledge graph [375], aka
+knowledge graph completion and knowledge graph correction, respectively. As distinguished from the
+creation and enrichment tasks outlined in Section 6, refinement typically does not involve applying
+extraction or mapping techniques over external sources in order to ingest their content into the
+local knowledge graph. Instead, refinement typically targets improvement of the local knowledge
+graph as given (but potentially using external sources to verify local content [375]).
+
+8.1 Completion
+
+Knowledge graphs are characterised by incompleteness [523]. As such, knowledge graph completion
+aims at filling in the missing edges (aka missing links) of a knowledge graph, i.e., edges that are
+deemed correct but are neither given nor entailed by the knowledge graph. This task is often
+addressed with link prediction techniques proposed in the area of Statistical Relational Learning [177],
+which predict the existence — or sometimes more generally, predict the probability of correctness
+— of missing edges. For instance, one might predict that the edge bus—>| isa
+probable missing edge for the graph of Figure 21, given that most bus routes observed are return
+services (i.e., bus is typically symmetric). Link prediction may target three settings: general links
+involving edges with arbitrary labels, e.g., bus, flight, type, etc.; type links involving edges with
+
+ 
+
+59

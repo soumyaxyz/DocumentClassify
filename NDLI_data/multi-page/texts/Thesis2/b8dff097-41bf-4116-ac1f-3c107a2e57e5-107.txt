@@ -1,0 +1,45 @@
+10.2. PROGRAMME AND FURTHER QUESTIONS 95
+
+(3) —woA = A, where wo is the longest element in the Weyl group of G.
+
+Moreover if there exists an invariant bilinear form on V then it is unique up to
+multiplication by a scalar and is either symmetric or skew-symmetric. Next lemma
+
+determines when the representation is orthogonal.
+
+Lemma 10.1.6 (Steinberg). With notation as above, there exists an element h
+in the center of G with h? = 1 such that, if V possesses an invariant bilinear form,
+
+then it is symmetric if \(h) = 1 and skew-symmetric if A(h) = —1.
+
+One can summarise the results above by saying that, for a semisimple algebraic group,
+there exists an involution h in the center, which acts by 1 on an irreducible self-dual
+representation if and only if the representation is orthogonal. In particular, any self
+dual representation of an adjoint semisimple group is orthogonal. This question has
+been extensively studied in the literature. We mention here the works of Prasad
+([Pr1], [Pr2]) where he studies self dual representations of finite groups of Lie type
+
+and p-adic groups.
+
+10.2. Programme and Further Questions
+
+Nevertheless, in the end we would like to point out some questions to which this
+thesis has contributed partially. Some of these questions are of independent interest
+and answers to these questions will help in understanding algebraic groups.
+
+1. Reality in classical groups: The determination of real elements in an
+algebraic group G, defined over a field k, is far from being satisfactory. We need to
+determine suitable criteria for real elements for the k-forms of classical groups which
+are defined using algebras with involutions (see [KMRT], chapter III, section 12).
+Let (A,o) be a central simple k-algebra with involution. Determine real elements in
+the groups Sim(A, a), PSim(A, a) and Iso(A, a). More specifically, we would like to
+ask whether real semisimple elements in these groups are strongly real. In this thesis
+we have given a partial answer to this question. For example when A = End,(V)
+and o is the adjoint involution o, corresponding to a nondegenerate symmetric or
+skew-symmetric form b, we have answered this question for the group Iso(A, a) (see
+the theorems mentioned in Section 6.1 and Section 7.3).
+
+2. Reality in exceptional groups: The programme for exceptional groups
+needs delicate care. In this thesis, among exceptional groups we have tackled the
+
+groups of type G» and classify real elements as strongly real. There are known forms

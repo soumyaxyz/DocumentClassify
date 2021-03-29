@@ -1,0 +1,30 @@
+S.No. 9029 SBE 8:5
+
+(For candidates admitted from 2008-2009 onwards)
+U.G. DEGREE EXAMINATION, APRIL 2012.
+
+Part III — Computer Applications — Skill Based
+Elective
+
+RDBMS AND INTERNET CONCEPTS
+
+Time : Three hours Maximum : 75 marks
+PART A — (10 x 2 = 20)
+
+Answer ALL questions.
+Define Record. :
+‘What are the advantages of using a DBMS?
+Define candidate key.
+What is Reports?
+Define DML.
+State the Packages.
+Write the four browser meine
+Define SMTP.
+
+What do you meant by HTML?
+. List out the two scripting languages.
+
+pe se ee ee bee et
+
+e
+°

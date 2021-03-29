@@ -1,0 +1,84 @@
+Chapter 2: Quantum isometry groups: approach based on Laplacian 64
+
+ 
+
+By taking * on (2.2.25), we have
+Au AnAl; = Au- (2.2.27)
+Using this in (2.2.26), we have
+Ay Aj Au = AuAi; (2.2.28)
+and hence Aj; is normal.
+
+So, Ay = Aj, Au Au ( from ( 2.2.24 ) ) = Api Aj, Al.
+
+Therefore, Aj; is a partial isometry which is normal and hence has same domain anc
+
+ 
+
+ 
+
+ 
+
+range.
+
+ 
+
+Lemma 2.2.9. :
+
+By is a normal partial isometry and hence has same domain and range.
+
+Proof : First we note that Aj; is a normal partial isometry and Ajj B, = 0 for
+all j A 1 ( obtained from Lemma 2.2.6 ) implies that Ran(Aj;) C Ker(Bj;) and hence
+Ran(Aj;) C Ker(Bf) which means Bj, Aj; = 0 for all 7 #1.
+
+To obtain Bi By By = By, we apply « and multiply by By, on the right of ( 2.2.16
+) and then use Aj, By; = 0 from Lemma 2.2.5, Aj;By = 0 for all 7 A 1 ( from Lemma
+2.2.6 which implies Bj Aj; = 0 for all 7 #1 as above ) and Bj; By = 0 for all j Al from
+Lemma 2.2.6 .
+
+Similarly, we have B); Bj, By, = Bj, by applying « and multiplying by Bj, on the right
+of ( 2.2.12 ) obtained from Lemma 2.2.5 and then use A;,;Bj; = 0 ( Lemma 2.2.5 ),
+Bu Aj; = 0 for all j Al and By Bj; =0 for all 7 £1 ( Lemma 2.2.6 ).
+
+Using BF By By = By and By BB; = By, as in Lemma 2.2.8, we have By; is a
+
+normal partial isometry.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Now, we use the condition a(U;)a(U;) = a(U;)a(U;) for all i, j.
+
+Lemma 2.2.10. :
+For allk 41,
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+AinAj + AnAje = Aj Aum + Ayr Au, (2.2.29)
+
+An By + BuAje = ByAix + AjeBu, (2.2.30)
+
+Bu Aj + AnBjr = Ay Bir + Bir Au, (2.2.31)
+
+BB t BuBje = BiBir + ByrBi. (2.2.32)
+
+Proof : The result follows by equating the coefficients of U,U;,U,U,',U, ‘Ui and
+U,'U, 1 (where k £1) in a(U;)a(U;) = a(U;)a(U;) for all i, j.

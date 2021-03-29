@@ -1,0 +1,56 @@
+Differences between Business Intelligence and Business
+
+Analytics
+
+[ Business Intelligence ETOCS WAIT Naa (oc)
+
+Answers the questions:
+
+Makes use of:
+
+¢What happened?
+
+*When did it happen?
+
+*Who is accountable for what
+happened?
+
+*How many?
+
+*How often?
+
+*Where did it happen?
+
+*Reporting (KPIs, metrics)
+*Automated Monitoring/Alerting
+(thresholds)
+
+*Dashboards /Scorecards
+
+*OLAP (Cubes, Slice & Dice,
+Drilling)
+
+°Ad hoc query
+
+¢Why did it happen?
+
+*Will it happen again?
+
+¢What will happen if we change
+x?
+
+¢What else does the data tell us
+that we never thought to ask?
+¢What is the best that can
+happen?
+
+*Statistical/Quantitative Analysis
+*Data Mining
+
+*Predictive Modeling
+
+*Design of experiments to
+extract learning out of business
+data
+
+*Multivariate Testing

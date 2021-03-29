@@ -1,0 +1,21 @@
+03
+
+Threaded Binary Tree
+
+A binary tree with thread(s) is known as threaded binary tree. In a
+threaded binary tree a know may contain pointer to its child node or
+thread to some higher node in the node. The higher node to which
+the thread points in the tree is determined according to the tree
+traversal technique used (1.e. preorder, inorder, postorder).
+
+There are three methods to apply thread binary tree. Each method
+corresponds to a particular type of tree traversal:
+
+Preorder threading: on this, the threads are applied to the higher
+node containing the preorder traversal of the tree.
+
+Inorder threading: the threads are applied considering the inorder
+traversal.
+
+Postorder threading: the thread are applied consider the postorder
+tfaversal. ca

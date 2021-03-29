@@ -1,0 +1,48 @@
+Chapter 4: Quantum isometry groups for Rieffel deformed manifolds 118
+
+ 
+
+For a,b in Ao, we have
+
+a(a x 7b) = aqybr) a(f fi aia) > A(Tu)) (bey > Q(v))e(u.v)dudv). (4.2.6)
+
+Proof : Using the notations and definitions in section 1.3, we note that for any
+f : R? = C belonging to JB(R?) and fixed x in E( where E is a Banach algebra ), the
+
+function F(u,v) = vf (u,v) belongs to IB” (R?) and we have
+
+x (| j f(u,v)e(uv)dudv)
+
+= odin ff f bp) (u, v)e(u.v)dudv)
+
+pel
+
+lim >) J /« (f@p)(u, v)e(u.v)dudv)
+
+peL
+
+/ / a f(u,v)e(u.v)dud.
+
+Then,
+
+a(a x78)
+
+= aif | ani a)B,(s)e(u.v)dudv)
+
+= af faci (Q(Ju)) (avy) 8 (Q(r)) (50 ) e(u.v)dudv)
+= &((a(1)8(1)) vo Jenene 9))(Q(v)) (sia) e(u.v) dudv)
+= a(aq won f fe Q(Ju)) (ay) \(Q(v V))(S ay e(u.v)dudu
+
+cs assumption 2.
+= f [ela carray ve 1)&(5(4)) lw) (sq) e(u-v)dudv
+=f [ lag uy(ag))V&(5Q%(v)(s,q)))e(u.2)dudv
+
+= ff ntayaG.(s))elur)dude
+
+= J Joa) 9 Gd 8 Fup) (Alaa)))(s a) & Gd 8 H(0)))(A(5e))
+
+e(u.v)dudv
+
+( using Lemma 4.2.4)
+
+= oe f fle ) > Q(Fu))(s(2) > Q(v) )e(u.v)dudv.

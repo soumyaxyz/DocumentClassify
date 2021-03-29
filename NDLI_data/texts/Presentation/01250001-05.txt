@@ -1,0 +1,31 @@
+Non-Dimensional Quantities
+
+The non-dimensional quantities x, y,r,u,v, 7 and C are related to their
+dimensional counterparts X, Y,R,U,V, 7 and C by
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+x Ye A/4 f u v cp l/4
+Xx iY por ,R pu Tp’ wo ; (6a)
+= Tale = €—GQ
+Ts a C= Gut. (6b)
+
+The continuity equation (1) is automatically satisfied by defining a stream
+function w such that
+1 Ow 1 Ow
+=e ya 7
+ROY’ ROX (7)
+Substituting (7) in (2)-(4) and then using the following transformations
+
+W(X, ¥) = XRF(Y), TX, Y) = XO(Y), COX Y)= XY), £8,
+Up = [g87L( Tw — Too) cos Q]'/?, pe

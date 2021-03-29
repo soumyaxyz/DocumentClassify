@@ -1,0 +1,65 @@
+Chapter 3: Quantum group of orientation preserving Riemannian isometries 104
+
+ 
+
+Remark 3.4.15. The canonical grading on C(T?) is given by the operator (id ® yy) on
+0 1
+-1 0
+The representation of C(T?) * C(T) clearly commutes with the grading operator and
+
+hence is isomorphic with QISO(C(T?), L?(T? @ C?), D, 7).
+
+L?(T? @ C?) where y is the matrix
+
+Remark 3.4.16. This example shows that the conditions of Theorem 3.2.22 are not
+
+necessary for the existence of QISO*.
+
+3.5 QISO* for zero dimensional manifolds
+
+3.5.1 Inductive limit construction for quantum isometry groups
+
+In this section we use the limiting construction for an inductive system of compact:
+quantum groups ( Lemma 1.2.25 ) and give an application for quantum isometry groups
+which is fundamental for the results of the next section.
+
+The next theorem connects the inductive construction done in Lemma 1.2.25 with
+
+some specific quantum isometry groups.
+
+Theorem 3.5.1. Suppose that A is a C*-algebra acting on a Hilbert space H and that
+D is a (densely defined) self adjoint operator on H with compact resolvent, such that
+D has a one-dimensional eigenspace spanned by a vector € which is cyclic and separat-
+ing for A. Let (AP°)nem be an increasing net of a unital *-subalgebras of A and put
+A® = Unemw A?. Suppose that A® is dense in A and that for each a € A® the commu-
+tator [D,a] is densely defined and bounded. Additionally put Hn = AXE, let Py denote
+the orthogonal projection on Hn and assume that each P, commutes with D. Then
+each (A®,Hn,D\,,) is a spectral triple satisfying the conditions of Theorem 3.2.18,
+st natural compatible CQG morphisms tmn : QISOT(A®,Hm;D|tHm)
+QISO* (AX, Hn; Di,,) (n,m € IN,m <n) and
+
+ 
+
+there e
+
+ 
+
+ 
+
+ 
+
+ 
+
+QISO*(A®, H, D) = lim QISO* (ARS, Hn, Dirta):
+
+ 
+
+Similar conclusions hold if we replace everywhere above QISO* by QISO*.
+
+ 
+
+Proof: We prove the assertion corresponding to QISO* only, since the proof for
+QISO* follows by very similar arguments. Let us denote QISOT(A®,Hn, Dn) by
+S,, and the corresponding unitary representation (in H,) by U,. Let us denote the
+category of compact quantum groups acting by orientation preserving isometries on
+(AS, Hn, Dl x,,) and (A®~,H, D) respectively by Qn and Q.

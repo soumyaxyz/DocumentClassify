@@ -1,0 +1,29 @@
+Finite Element Discretization
+
+ 
+
+ 
+
+Elements Nodes
+
+ 
+  
+ 
+ 
+  
+ 
+
+Domain,Q
+
+ 
+
+boundary r
+
+(a) Given domain (b) Finite element mesh
+
+Inter-element flt
+
+ 
+
+(c) Typical element with (d) Discretized domain
+ndary flux

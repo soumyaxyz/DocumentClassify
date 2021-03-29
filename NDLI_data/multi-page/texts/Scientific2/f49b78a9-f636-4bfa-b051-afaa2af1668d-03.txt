@@ -1,0 +1,217 @@
+IEEE Access:
+
+S. Banerjee et al.: Physically Secure Lightweight Anonymous User Authentication Protocol for loT
+
+ 
+
+  
+   
+    
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+coh eer _ ; fC ~ 4. >
+(fA smat & fe : a 2 Cc
+( 7 ( Smart Smart Clinic
+v¢ ome ; Entertainment System
+(e Enviroment [&) ( System fF \@ *
+
+7 BO ’
+
+ 
+
+ 
+
+ 
+
+va
+
+Gateway
+
+ 
+
+ 
+
+ 
+
+ 
+
+through NS3 simulation is presented in Section [VI] Finally,
+we draw the conclusions in Section[VII]
+
+Il. THEORETICAL BACKGROUND
+In this section, we provide a short description of the theoret-
+ical background that is essential in this paper.
+
+A. ONE-WAY CRYPTOGRAPHIC HASH FUNCTION
+One-way hash functions are extensively applied for data
+integrity. Cryptographic one-way hash functions are designed
+in such a way that they should be highly sensitive to even
+slight perturbations to the input. For example, even for two
+very similar inputs with little difference, the outputs are
+produced in such a way that they cannot be correlated to
+each other. Formally, a “collision-resistant one-way hash
+function” can be defined as follows [8].
+
+Definition 1: Let h: {0,1}* — {0,1}" denote a one-way
+hash function. Upon receiving a variable length input, h(-)
+gives a fixed-size length output of n bits, called the message
+digest or hash output. If Adv’*s"(t) is defined as an adver-
+sary A’s advantage in detecting hash collision in runtime tf,
+Advies"(t) = Pr{(v1,%2) €rR A: 21 # x2 and h(x) =
+h(x2)], where Pr[X| is the probability of a random event X,
+and «1 & x2 are strings that are randomly selected by A. An
+(@, t)-adversary A attacking a hash collision of h(-) means
+that with maximum execution time ¢, Adv figs" (t )<¢.
+
+B. PHYSICALLY UNCLONABLE FUNCTION
+
+The Physically Unclonable Functions (PUFs) are designed to
+map an input uniquely to an output based on the physical
+microstructure of a device. An input-output pair together
+
+VOLUME 7, 2019
+
+ 
+
+cio
+2 - ,
+
+Doctor
+Home User a
+reo dX feg]
+en User Smart Card
+Engineer
+
+     
+ 
+ 
+ 
+    
+   
+
+   
+   
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+iP So Ne
+in
+
+&,
+
+ 
+
+ 
+
+ 
+
+Smart “*
+
+~~ Production
+Facility
+
+  
+
+Gases
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+FIGURE 1: A generalized IoT architecture
+
+is known as a challenge-response pair and it is unique to
+each individual PUF circuit. A PUF circuit must exhibit the
+following properties :
+
+« The output of a PUF circuit must depend on the physical
+
+microstructure of the system.
+¢ The output of a PUF must be unpredictable.
+« The PUF circuit must be easy to evaluate as well as to
+implement.
+
+« The PUF circuit must be unclonable.
+As the output of PUF is dependent on the physical charac-
+teristics, any alteration to the system will change in the PUF
+output. It is further assumed that it is impossible to tamper
+the communication between PUF and its host device as in
+pointed out in [13].
+Definition 2: A PUF, say (PU F}), is secure, if for two input
+challenges C1, C2 € {0,1}*, it produces output responses
+Ri, Ro € {0,1}* with at least d; variation, and for any two
+different PUFs (PU F;, PU F>) an input challenge C, should
+produce distinct output responses Ri, Ro € {0,1}* with at
+least dy variation. In other words,
+
+Pr[H D(PUF,(C,), PUF\(C,)) >
+Pr[HD(PUF,(C\), PUF,(C\)) > da] =1—e,
+
+d,]=1-e,
+
+where ¢ is a negligibly small value, C, and C2 are challenges
+randomly selected by A, HD defines the Hamming distance,
+and d, and dz are the error tolerance thresholds for PUF.
+
+C. FUZZY EXTRACTOR
+Even though now-a-days a PUF circuits can be developed
+with a high degree of reliability, noise in PUF remains an
+
+3

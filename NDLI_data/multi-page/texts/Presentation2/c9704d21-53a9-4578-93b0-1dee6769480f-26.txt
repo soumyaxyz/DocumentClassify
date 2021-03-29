@@ -1,0 +1,19 @@
+BI DW Best Practices
+
+The list of best practices is adapted from an article TDWI’s FlashPoint
+e-newsletter of April 10, 2003.
+
+Practice “User First” Design
+
+Create New Value
+
+Attend to Human Impacts
+
+Focus on Information and Analytics
+Practice Active Data Stewardship
+Manage BI as a long term investment
+Reach out with BI/DW solutions
+Make BI a business Initiative
+Measure Results
+
+Attend to strategic Positioning

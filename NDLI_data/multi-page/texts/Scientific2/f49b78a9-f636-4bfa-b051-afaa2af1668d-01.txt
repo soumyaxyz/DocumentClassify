@@ -1,0 +1,68 @@
+IEEE Access
+
+NMuliaiscipinary; Rapid Review Open Access Joural
+
+ 
+
+Date of publication xxxx 00, 0000, date of current version xxxx 00, 0000.
+
+Digital Object Identifier 10.1109/ACCESS.2019.XXXXXXX
+
+Physically Secure Lightweight
+Anonymous User Authentication
+Protocol for Internet of Things using
+Physically Unclonable Functions
+
+SOUMYA BANERJEE’, VANGA ODELU?, ASHOK KUMAR DAS%, (Senior Member, IEEE),
+SAMIRAN CHATTOPADHYAY’, (Senior Member, IEEE),
+JOEL J. P. C. RODRIGUES‘, (Senior Member, IEEE), YOUNGHO PARK®, (Member, IEEE)
+
+‘Department of Information Technology, Jadavpur University, Salt Lake City, Kolkata 700 098, India (e-mail: soumyaBanerjee @outlook.in,
+
+samiraneju @ gmail.com)
+
+*Department of Computer Science and Information Systems, Birla Institute of Technology & Science, Pilani Hyderabad Campus, Hyderabad 500 078, India
+(e-mail: odelu.vanga @hyderabad.bits-pilani.ac.in)
+
+’Center for Security, Theory and Algorithmic Research, International Institute of Information Technology, Hyderabad 500 032, India (e-mail:
+
+iitkgp.akdas@ gmail.com, ashok.das @iiit.ac.in)
+
+4NNational Institute of Telecommunications (Inatel), Santa Rita do sapucaf - MG, Brazil; Instituto de Telecomunicag6es, Portugal; Federal University of Piaut,
+Teresina-PI, Brazil (e-mail: joeljr@ieee.org)
+
+* School of Electronics Engineering, Kyungpook National University, Daegu 41566, Republic of Korea (e-mail: parkyh@knu.ac.kr)
+
+Corresponding author: Youngho Park (parkyh @knu.ac.kr)
+
+This work was supported in part by the Basic Science Research Program through the National Research Foundation of Korea funded by the
+Ministry of Science, ICT & Future Planning (2017R1A2B 1002147), in part by the BK21 Plus project funded by the Ministry of Education,
+Korea (21A20131600011); in part by Fundagdo para a Ciéncia e a Tecnologia through the UID/EEA/50008/2019 Project; in part by RNP,
+with resources from MCTIC, Grant No. 01250.075413/2018-04, under the Centro de Referéncia em Radiocomunicagées — CRR project of
+the Instituto Nacional de Telecomunicagées (Inatel), Brazil; and in part by Brazilian National Council for Research and Development
+(CNPq) via Grant No. 309335/2017-5; and by the Brazilian National Council for Research and Development (CNPq) via Grant No.
+201155/2015-0.
+
+> ABSTRACT The emergence of the Internet of Things (IoT) as an umbrella for the Internet-enabled
+devices for various applications, such as smart home, smart city, smart grid and smart healthcare, and their
+immense economic potential necessitates a robust authentication mechanism that needs to be lightweight
+and suitable for real-time applications. Moreover, the physical integrity of these devices cannot be assumed
+as these are designed to be deployed in an unattended environment with minimum human supervision.
+A user authentication mechanism for IoT, in addition to guaranteeing user anonymity and un-traceability
+functionality requirements, must also be resistant to device physical capture and related misuses. In this
+paper, we present a novel lightweight anonymous user authentication protocol for loT environment by
+utilizing “cryptographic one-way hash function”, “Physically Unclonable Function (PUF)” and “bitwise
+exclusive-OR (XOR)” operations. Through the broadly accepted Real-Or-Random (ROR) model-based
+formal security analysis, formal security verification using the automated software verification tool,
+namely “Automated Validation of Internet Security Protocols and Applications (AVISPA)” and also non-
+mathematical (informal) security analysis, we show that the proposed scheme has the ability to resist various
+well-known attacks that are crucial for securing loT environment. Through a detailed comparative study, we
+show that the proposed scheme outperforms other existing related schemes in terms of computation and
+communication costs, and also security & functionality features. Finally, a practical demonstration of the
+proposed scheme using the NS3 simulation for the network performance parameters, such as “network
+throughput” and “end-to-end delay’, has been provided.
+
+> INDEX TERMS Internet of Things (oT), mutual authentication, key agreement, physically unclonable
+function, security, AVISPA.
+
+VOLUME 7, 2019

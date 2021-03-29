@@ -1,0 +1,51 @@
+Chapter 1: Preliminaries 24
+
+ 
+
+satisfy the compatibility property:
+Pm? Tnm = Pn Yam.
+
+Thus, by the general properties of the C*-algebraic inductive limit, we have a unique
+unital C*-homomorphism A,, : Sgo > Soo ® Soo Satisfying Ago ° Tn,oo = Pn for all n.
+We claim that (Sx, Ax) is a CQG.
+
+We first check that A,, is coassociative. It is enough to verify the coassociativity
+on the dense set Un7n,oo(Sn). Indeed, for s = Tnjoo(a) (a € Sn), by using Aco © Trjoo =
+
+(Tn,c0 ® Tn,co) 0 An, we have the following:
+
+(Aco ® id) Ago (7n,00(@))
+= (Ac @ id) (Tn,oo ® Tn, oo )(An(a))
+(7,00 ® Tn,co ® Tn,co) (An ® id)(An(a))
+(Tn,co ® Tn,co ® Tn,co) (id ® An)(An(a))
+(Tn,co ® (Mn,co @ Mn,oo) 0 An)(An(a))
+(Tn,co ® Aco © Tn,co)(An(a))
+(id @ Ago) ((tn,00 ® noo) (An(a)))
+(id ® Ago) (Aco (7n,oo (@)))
+which proves the coassociativity.
+
+Finally, we need to verify the quantum cancellation properties. Note that to show
+that Ago (Soo) (1® Soo) is dense in Soo @Soo it is enough to show that the above assertion
+is true with Soo replaced by a dense subalgebra U,, 7n,co(Sn)-
+
+Using the density of A,(S,)(1 @S,) in S, ® S, and the contractivity of the map
+Tn,oo We note that (too ® Tn,oo)(An(Sn)(1 ® Sn)) is dense in (7,00 ® Tn,oo)(Sn ® Sn).
+This implies that (7,00 ® M,00)(An(Sn)) (1 Fn,oo(Sn)) is dense in Tp,00(Sn) ® Mn,c0 (Sn)
+and hence Ago (7n,oo(Sn))(1 ® n,oo(Sn)) is dense in tn,oo(Sn) ® Tn,oo(Sn). The proof of
+the claim now follows by noting that tnoo(Sn) = Tm,coFnym(Sn) C tm,oo(Sm) for any
+m > n, along with the above observations. The right quantum cancellation property
+can be shown in the same way.
+
+The proof of the universality property is routine and hence omitted.
+
+ 
+
+ 
+
+ 
+
+ 
+
+We note that the proof remains valid for any other indexing set for the net, not
+
+necessarily IV.

@@ -1,0 +1,47 @@
+3. Search Result Diversification
+
+ 
+
+Another test collection for the evaluation of web search result diversification
+was recently introduced as part of the NTCIR-9 Intent task (Song et al., 2011a).°
+Initiated in 1999, NTCIR is a series of evaluation workshops designed to assess
+information retrieval on Asian languages, as well as across different languages. For
+the NTCIR-9 Intent task, two test collections were developed, aimed at evaluating
+search result diversification on the Chinese and the Japanese Web. In particular,
+the Chinese collection comprised 100 topics, with 4 to 15 associated aspects each.
+For Japanese, another 100 topics were developed, each with 3 to 22 aspects. An
+
+example Chinese topic (translated to English) is shown in Figure 3.4.
+
+<topic number="0015">
+<query> mozart </query>
+<subtopic number="1" probability="0.241379310344828">
+mozart’s music download
+</subtopic>
+<subtopic number="2" probability="0.241379310344828">
+mozart’s biography
+</subtopic>
+<subtopic number="3" probability="0.241379310344828">
+works by mozart
+</subtopic>
+<subtopic number="4" probability="0.126436781609195">
+mozart’s concerts
+</subtopic>
+</topic>
+Figure 3.4: NTCIR-9 Intent task (Chinese), topic 0015 and its sub-topics.
+
+Different from the diversity task of the TREC 2009-2011 Web tracks, the
+NTCIR-9 Intent task included graded (i.e., non-binary) relevance assessments
+at the aspect level. In addition, as shown in Figure 3.4, the identified aspects
+were assigned non-uniform probabilities, estimated through assessor agreement,
+in order to place more emphasis on popular aspects during the evaluation (Sakai
+& Song, 2012). While these extensions certainly introduce interesting nuances for
+diversity evaluation, in order to ensure a consistently uniform experimental setup
+throughout this thesis, we opted not to use these test collections. Nonetheless,
+an evaluation of the framework introduced in this thesis on both NTCIR-9 Intent
+
+task test collections was conducted by Santos et al. (2011f).
+
+The NTCIR-10 Intent task is also ongoing at the time of writing.
+
+ih

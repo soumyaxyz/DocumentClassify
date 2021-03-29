@@ -1,0 +1,15 @@
+Example of Stack
+
+ 
+
+Pop this
+
+element
+intothe —>
+
+stack
+
+   
+
+This element is push
+into the stack

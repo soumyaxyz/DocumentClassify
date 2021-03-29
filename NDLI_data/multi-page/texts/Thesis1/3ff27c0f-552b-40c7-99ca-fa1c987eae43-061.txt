@@ -1,0 +1,70 @@
+49 Noncommutative Geometry
+
+ 
+
+dy + id
+Now, we define D= ° act ) :
+
+d, — idg 0
+Then, (Aj°,H, D) is a spectral triple of compact type. In particular, for 6 = 0, this
+
+coincides with the classical spectral triple on C(T?).
+
+1.5.2 The space of forms in noncommutative geometry
+
+We start this subsection by recalling the universal space of one forms corresponding to
+
+an algebra.
+
+Proposition 1.5.7. Given an algebra B, there is a ( unique upto isomorphism ) B—B
+bimodule 01(B) and a derivation 5 : B + 01(B) ( that is, 5(ab) = 6(a)b + a6(b) for all
+a,b in B ), satisfying the following properties:
+
+(i) O1(B) is spanned as a vector space by elements of the form ad(b) with a,b be-
+longing to B; and
+
+(ii) for any B—B bimodule E and a derivation d: B > E, there is an unique B—B
+linear map n : Q!(B) — E such that d= 0 6.
+
+The bimodule !(B) is called the space of universal 1-forms an B and 6 is called the
+universal derivation.
+
+We can also introduce universal space of higher forms on B, 0*(B), say, for k =
+2,3,..., by defining them recursively as follows: Q*+!(B) = 0*(B) @g 01(B) and also set
+0°(B) = B.
+
+Now we briefly discuss the notion of the noncommutative Hilbert space of forms
+which will need noncommutative volume form for a spectral triple of compact type. We
+
+refer to [29] ( page 124 -127 ) and the references therein for more details.
+
+Definition 1.5.8. A spectral triple (A°,H,D) of compact type is said to be O-
+summable if e'D” is of trace class for allt > 0. A O-summable spectral triple is called
+finitely summable when there is some p > 0 such that t? Tr(e-!P”) is bounded on (0, 6]
+for some 6 > 0. The infimum of all such p, say p' is called the dimension of the spectral
+
+triple and the spectral triple is called p'-summable.
+
+Remark 1.5.9. We remark that the definition of O-summability to be used in this thesis
+is stronger than the one in [17] ( page 390, definition 1. ) in which a spectral triple is
+called ©-summable if Tr(e~P”) < oo.
+
+Tr(Te7 32”)
+
+1
+Tr(e xP?
+
+For a O-summable spectral triple, let ¢)(T) = for A > 0. We note that
+
+A+ 0)(T) is bounded.
+Let
+
+e
+
+ 
+
+a du
+7™(T) = nex ou(L)— for A>a>e.
+a
+
+oa

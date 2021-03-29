@@ -1,0 +1,83 @@
+Chapter 5: Quantum isometry groups of the Podles spheres 174
+
+ 
+
+For alln > 0, a(A) ( ° ) = ( ” ) eH atas +L aa)
+
+Cn 0
+
+ 
+
+0
+
+en
+
+Ada Gt* — 1) — 12" (qn agt* + D+ ) @ 4P41?"(1 — ghan*) + Aer +
+
+Gt dn*) — 41 (Gn ge — 1) +A" (an at* + D)-
+
+For alln > 1, a(B) ( “n ) = ( 7 Jodtestnbre (n 1)2)gt 1Gh *4(ex(n)?—
+
+€n-1
+
+c_(n)2)qn_yat* + (cx (n)? —e_(n)?2 )at_ ay “+(x te) a, i+ ( ° ):
+
+1 2 1 1 1 1
++e-(n)*)an Gr —(c4(n)? —c_(n)? )an_ran* + (c+(m)? — c-(n)? at_aan*
++c_(n)?)q, 49"):
+
+=
+Ye
+Pr
+
+NIE
+
+(c_(n)
+
+):
+&
+€n-1
+
+For alln > 1, a(B) ( 0 ) = ( faa Jebteston! rendu st
+
+en 0
+
+A. = 1 1 a Dy a
+c+()?)an—1da* + (e+(n)? —c_ (2)? dna — (C4 (m2)? +e-()®) ana) +
+
+aa.
+
+ 
+
+1 4. 1 1 1 1
+B(cx(n)8 +e-(n)2 age sat" + (elm)? —e4 (m8 a sag" (x(n) —e-(n) ayaa
+(c4(m)? + c_()? )an_1dn*)-
+* en €n+1 1 i yy ak
+For alln > 0, a(B*) o}> ‘i @al(cr(n +1)? +e_(n+ 1)? (qr iat*+
+a 1 1 ee « 0 1
+Qn+19n )+(ez(n - 1) 2 —c_(n + 1) 21 %h +O Ge y+ @ @4(ey(n =F 1) 2 oe
+—n+1
+
+$ * ae 2 z —* = *
+e-(n +1)? )(Qryiat” — Inyidn®) + (c+(m + 1)? — e-(n +1)? ) (Grade — Inge”)
+
+Proof : One has, way A )
+
+0
+O(n yenon( * Jore(S, Jou
+= 16 won & Joa “(8 eu
+
+16 me og +( aon! zy
+“nl n_(A)e m+ Taye, JO
+
+1
+By using ( 5.4.1 ), we get this to be equal to
+
+ses Lure AL u2"e
+—i +h En 4s +H i
+= 3U @ + @q
+5 ( doen ) Gn ( “yey ) In|
+
+=U(A® om ™ )@1)
+
+Nin

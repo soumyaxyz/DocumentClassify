@@ -1,0 +1,29 @@
+Typical Enterprise Application Architecture
+
+Almost all IT applications will invariably have application-specific user interface,
+business logic associated with the areas of business operation and a data store that holds
+master and transaction data of the applications.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Tools
+Thin Client Firewall
+va i Databases
+o= L Business Logic Legacy
+|_| systems
+al | — External
+Ulead St applications
+
+Rich Client Presentation Business Logic Data

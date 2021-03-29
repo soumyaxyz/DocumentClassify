@@ -1,0 +1,65 @@
+163 Quantum Isometry Groups of the Podles sphere
+
+ 
+
+N* = N gives ap = ee that is,
+
+Ts = Tr.
+
+Thus, we are led to prove the following lemmas, in some of which we will need
+
+yw? £1. The case ps = 1 will be dealt separately.
+Lemma 5.3.19. $355 = (1 —T2)(u? + To).
+
+Proof : Subtracting the equation obtained by multiplying c(1 + yu?) with ( 5.3.5 )
+from ( 5.3.4 ), we have
+
+(1 + 2c(1 + 122))SES_ + c(1 + p2)"(1 — 2) S584
+
+ 
+
+ 
+
+(1—To)(u? + Te) —e(1 + w?)(w? + 2To — 1)T2 +e(1 + 12) (2 —1)T3T3 +c(1+ pe) 1.
+(5.3.39)
+Again, by adding ( 5.3.4 ) with c(1 + 12)? times ( 5.3.6 ) gives
+
+(l+e(1+ 12)°)S3S> t+e(1—p4\(+ 12) 494.
+
+=(1—-T)(w? + Tr) -— (14 eye + c(14 pe) (ye 1)T3T3 + c(14 wey. (5.3.40)
+
+ 
+
+Subtracting the equation obtained by multiplying (1? +1) with ( 5.3.39 ) from ( 5.3.40
+) we obtain
+
+—(u? + (1 + u2)”)S$S> = (1 — Ta)(u? + Te) — (1 +p?) TP
+
+(1+ p2)(1 — Ta)(p? + To) — op? (1 + 2)? 4 (1 +p?) (y? + 272 — 1)T.
+
+ 
+
+ 
+
+ 
+
+The right hand side can be seen to equal —(j? + c(1 + w2)?)(1 — T)(u? + To). Thus,
+S382 = (1 — Ta) (W? + T2).
+
+ 
+
+ 
+
+ 
+
+Lemma 5.3.20.
+
+ 
+
+pP(L+ p?) T3Ts = (1—Tr)(u? + Tr), (5.3.41)
+(1+ y2)°T3T3 = (1—T)(1 + wT), (5.3.42)
+SoS% = p?(1 — T2)(1 + pT). (5.3.43)
+
+Proof : Applying k on Lemma 5.3.19, we obtain ( 5.3.41 ).
+Unitarity of the matrix Z ( ( 2, 2 ) position of the matrix Z*Z ) gives y?(1 +
+w)T3T3 + Tz + (L +p?) 1373 = 1.

@@ -1,0 +1,43 @@
+44 6. MAIN RESULTS
+
+up to a k-isomorphism, such that G = Aut(€), the group of k-algebra automorphisms
+of €. The group G is k-split if and only if the octonion algebra € is split, otherwise
+
+G is anisotropic and € is necessarily a division algebra. We prove
+;
+
+Theorem 6.2.3. Any element which is not unipotent in G(k) either leaves in-
+
+variant a quaternion subalgebra or fixes a quadratic étale subalgebra of € pointwise.
+
+This is Lemma 8.1.3 in the thesis. We discuss reality for G2 over special fields (Propo-
+sition 8.4.2, Theorem 8.4.5 and Theorem 8.4.6). We show that nonreal elements exists
+in Gy over k finite, with characteristic k not 2 or 3 (compare with [CR]), these are
+neither semisimple nor unipotent.
+
+As a result of our investigation for groups of type G2 we also get information about
+conjugacy classes in such groups. We put this in general frame work of algebraic
+groups and describe the results obtained. Let G be an algebraic group defined over
+a field k. Let X be a G-space. Two elements x,y € X are said to have same orbit
+type if the isotropy subgroups G, and Gy are conjugate. Let G be a compact Lie
+group acting on a compact manifold M. It was conjectured by Montgomery ([Ei],
+Problem 45) that there are only finitely many orbit types. Floyd proved that if G is
+a torus acting on a compact orientable manifold then there are only a finite number
+of distinct isotropy subgroups ({F], 4.5). Using the results of Floyd, Mostow ({M],
+Theorem) proved that when G is a compact Lie group acting on a compact manifold
+M then there are at most a finite number of inequivalent orbits. One can consider the
+action of a group G on itself by conjugation and ask for orbit types. Rony Gouraige
+studied conjugacy classes of centralizers in M,,(D) (the algebra of endomorphisms of a
+finite dimensional vector space over a central division algebra) in his thesis submitted
+at City University of New York in 2004.
+
+In this thesis we calculate conjugacy classes of centralizers of elements for anisotropic
+groups of type G» over a field of characteristic 4 2. Anisotropic groups of type G2
+over k are given by automorphisms of octonion division algebras over k. We specifi-
+cally calculate conjugacy classes of centralizers for compact G2 (anisotropic G2 over
+
+R) and prove,
+
+Theorem 6.2.4. Let G be the anisotropic group of type G2 over R. Then there
+
+are exactly five orbit types (conjugacy classes of centralizers).
