@@ -1,7 +1,7 @@
 # DocumentClassify
  This repository contains the Heterogeneous Learning Resource (HLR) Dataset  and the code for a deeplearling model for evaluating it.
 
-The proposed HLR dataset contains $3167$ images from $11$ classes, namely: catalog,  handwritten,  law reports,  maps,  music notations,  newspaper articles,  paintings,  presentation,  question paper,  scientific articles, and thesis. Additionally, a small set of multi-page documents are also included in the dataset for testing the said problem. 
+The proposed HLR dataset contains `3167` images from `11` classes, namely: catalog,  handwritten,  law reports,  maps,  music notations,  newspaper articles,  paintings,  presentation,  question paper,  scientific articles, and thesis. Additionally, a small set of multi-page documents are also included in the dataset for testing the said problem. 
 
  ![ HLR dataset samples](Dataset_sample.png)
  
